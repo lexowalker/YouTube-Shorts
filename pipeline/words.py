@@ -7,11 +7,18 @@ def norm(s):
     return re.sub(r"[^a-z']", "", s.lower().replace("’", "'"))
 
 
-def load_words(path, fixes=()):
-    """Load words.json, merge split hyphenations ("self" + "-interest") and apply transcript fixes.
+def load_words(path, fixes=(), overrides=()):
+    """Load words.json, apply overrides and fixes, and merge split hyphenations ("self" + "-interest").
 
-    fixes: [{"near": source_seconds, "from": "whole.", "to": "harmony.", "s": optional, "e": optional}]"""
-    words = sorted(json.load(open(path)), key=lambda w: w["s"])
+    overrides: [{"from": s, "to": s, "words": [["oh,", 593.66, 593.86], ...], "why": "..."}] replace every word
+               starting in [from, to) - for stretches where transcription passes disagree and the words were settled
+               by a larger model (text) and the audio envelope (timing)
+    fixes:     [{"near": source_seconds, "from": "whole.", "to": "harmony.", "s": optional, "e": optional}]"""
+    words = json.load(open(path))
+    for o in overrides:
+        words = [w for w in words if not (o["from"] <= w["s"] < o["to"])]
+        words += [{"w": w, "s": s, "e": e, "p": 1.0} for w, s, e in o["words"]]
+    words.sort(key=lambda w: w["s"])
     merged = []
     for w in words:
         if w["w"].startswith("-") and merged:

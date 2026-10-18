@@ -4,6 +4,7 @@
   python3 -I pipeline/cma.py title "Ink Bamboo"
   python3 -I pipeline/cma.py get 1967.145 [1982.53 ...]        -> .work/img/<acc>_full.jpg (+ .json metadata)
   python3 -I pipeline/cma.py proxy 1967.145                    -> .work/img/proxy/<acc>.jpg, 10% grid, for choosing crops
+  python3 -I pipeline/cma.py sheet 1960.181 1992.1 ...          -> .work/img/sheet.jpg: print-size previews (no full download)
 
 Full masters are TIFFs (saved under a .jpg name; PIL reads them by content). Always check `date` and `culture`:
 the brief wants classical work (Song masters, Zen ink, Joseon/Muromachi are fine), not 20th-century pieces.
@@ -63,6 +64,29 @@ def proxy(acc):
     print(out, im.size)
 
 
+def sheet(accs):
+    from PIL import Image, ImageDraw
+    import io
+    tiles = []
+    for acc in accs:
+        d = api(API + acc)["data"]
+        url = d["images"]["print"]["url"]
+        im = Image.open(io.BytesIO(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read())).convert("RGB")
+        im.thumbnail((360, 600))
+        tile = Image.new("RGB", (360, 640), "white")
+        tile.paste(im, ((360 - im.width) // 2, 0))
+        ImageDraw.Draw(tile).text((6, 612), f"{acc}  {d['images']['full']['width']}x{d['images']['full']['height']}", fill="black")
+        tiles.append(tile)
+    cols = min(6, len(tiles))
+    out = Image.new("RGB", (360 * cols, 640 * ((len(tiles) + cols - 1) // cols)), "white")
+    for i, t in enumerate(tiles):
+        out.paste(t, (360 * (i % cols), 640 * (i // cols)))
+    os.makedirs(IMG_DIR, exist_ok=True)
+    path = os.path.join(IMG_DIR, "sheet.jpg")
+    out.save(path, quality=85)
+    print(path)
+
+
 if __name__ == "__main__":
     cmd, rest = sys.argv[1], sys.argv[2:]
     if cmd == "search":
@@ -77,6 +101,8 @@ if __name__ == "__main__":
     elif cmd == "get":
         for acc in rest:
             get(acc)
+    elif cmd == "sheet":
+        sheet(rest)
     elif cmd == "proxy":
         for acc in rest:
             proxy(acc)

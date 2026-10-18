@@ -36,13 +36,15 @@ Propose 2–3 candidate teachings, each with a rough cut (source ranges, hook li
 ## 4. Word timings and cut points
 - `python3 -I pipeline/transcribe.py <slug> words a:b c:d …` (medium.en) over the chosen ranges with a little margin.
 - Scan for low-probability words and mis-hearings, such as "whole." for "harmony.". Fix them with `word_fixes`, or re-run a range with `--no-prompt` if whisper skipped a sentence that repeats the prompt.
+- Before writing the phrases, cross-check each chosen passage with `large-v3` (`WhisperModel("large-v3")`, `condition_on_previous_text=False`, no prompt). It hears stutters ("where where", "the the"), false starts ("But you can, there's a way") and fillers that medium.en smooths over. Take its *text*, not its timings (they run early), and record each correction as a `word_overrides` entry with the timings read off `env.py`. When the passes disagree on a word you'd have to show, prefer cutting or hiding over guessing.
 - Range transcriptions can stretch one word over a filler they missed. On the reference Short, "hard" swallowed "you know". `qa.py --audio-only` (step 6) catches this with an independent long-context pass. When it does, re-run that stretch with `transcribe.py words <wider range> --no-prompt` and confirm with `env.py`.
 - Fillers ("you know", "um") that sit inside a sentence stay in the audio when cutting them would leave a jump. Leave them off the captions with `~` tokens in the phrase (`"There's no ~you ~know hard | *lines in nature"`), so the shown words still appear on their true onsets.
 - Place every cut in a real pause: `python3 -I pipeline/env.py <slug> <t> …`. Leave about 0.3 s of room tone around each join and a little more where a line should land.
 - Drop ums, false starts and asides. Never cut mid-word.
 
 ## 5. Images
-- Search with `pipeline/cma.py search "<subject>" --type Painting` (or `--dept "Chinese Art"`) or `cma.py title "<title>"`. Fetch with `cma.py get <accession> …` and look at `cma.py proxy <accession>` (it has a 10% grid) to choose crops.
+- Search with `pipeline/cma.py search "<subject>" --type Painting` (or `--dept "Chinese Art"`) or `cma.py title "<title>"`. Compare candidates with `cma.py sheet <acc> …` (print-size previews, no full download; some masters are over a gigabyte). Then fetch the chosen ones with `cma.py get <accession> …` and look at `cma.py proxy <accession>` (it has a 10% grid) to choose crops.
+- Modern subjects (a car, a phone) get a classical stand-in that keeps the meaning, such as a groomed horse for "my beautiful car", or stay on David's face.
 - Match each image literally to its line. Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
 - Crops in `short.json` are fractions of the image: `x0`, `y0` (top-left) and `h` (crop height). Width follows from 9:16.
 
@@ -63,7 +65,7 @@ python3 -I pipeline/qa.py <slug>
 ## 7. QA (fix before the user sees it)
 - `qa.py` re-transcribes the finished audio, and its long context often hears fillers the range pass missed. Every caption word must match, and fillers marked `~` count as matched. For each flagged onset, read the dB envelope it prints: if the voice really starts where the caption does, it's fine; otherwise add an `onset_fixes` entry and rebuild.
 - Look at `.work/<slug>/qa_sheet.jpg` and a few full-size frames, checking:
-  - captions are legible on the sweater
+  - captions are legible on the sweater and on every image (pale paper is the usual culprit)
   - his face is well framed
   - no image arrives before its word
   - no visible jump cut

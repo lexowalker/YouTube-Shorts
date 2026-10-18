@@ -1,0 +1,504 @@
+{
+ "slug": "tao-ch4-what-you-call-yours",
+ "source": {
+  "release_tag": "tao45",
+  "asset": "Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "url": "https://github.com/lexowalker/YouTube-Shorts/releases/download/tao45/Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "sha256": "404a595cc36e41b94b74ab21106d5fee7645b9acc504801291d44bd2ab4bf80f"
+ },
+ "teaching": "Whatever you call yours becomes part of you: identify with a dented car and you suffer with it, identify with a tree or the whole living planet and it becomes you, so be careful what you call yours (Tao Te Ching, Chapter 4, 'assimilates to the world', Thomas Cleary translation).",
+ "title": {
+  "text": "Be careful what you call yours",
+  "dur": 3.6,
+  "size": 52
+ },
+ "segments": [
+  [
+   571.15,
+   576.45
+  ],
+  [
+   577.45,
+   579.0
+  ],
+  [
+   481.75,
+   517.4
+  ],
+  [
+   524.5,
+   528.2
+  ],
+  [
+   585.05,
+   613.55
+  ]
+ ],
+ "word_fixes": [
+  {
+   "near": 570.78,
+   "from": "consciousness",
+   "to": "consciousness",
+   "s": 571.47,
+   "e": 571.8
+  },
+  {
+   "near": 576.14,
+   "from": "in",
+   "to": "in",
+   "s": 577.7,
+   "e": 577.8
+  }
+ ],
+ "word_overrides": [
+  {
+   "from": 496.3,
+   "to": 498.05,
+   "why": "large-v3 hears 'right? So, and' before a pause; timings from env.py",
+   "words": [
+    [
+     "right?",
+     496.36,
+     496.56
+    ],
+    [
+     "So,",
+     496.66,
+     496.8
+    ],
+    [
+     "and",
+     496.84,
+     497.0
+    ]
+   ]
+  },
+  {
+   "from": 511.3,
+   "to": 511.95,
+   "why": "false start 'But you can, there's a way' (large-v3); timings from env.py",
+   "words": [
+    [
+     "But",
+     511.36,
+     511.46
+    ],
+    [
+     "you",
+     511.5,
+     511.56
+    ],
+    [
+     "can,",
+     511.62,
+     511.72
+    ],
+    [
+     "there's",
+     511.78,
+     511.9
+    ],
+    [
+     "a",
+     511.9,
+     512.0
+    ]
+   ]
+  },
+  {
+   "from": 512.8,
+   "to": 513.45,
+   "why": "stutter 'where where' (large-v3)",
+   "words": [
+    [
+     "where",
+     512.86,
+     513.06
+    ],
+    [
+     "where",
+     513.14,
+     513.34
+    ],
+    [
+     "what",
+     513.5,
+     513.8
+    ]
+   ]
+  },
+  {
+   "from": 514.85,
+   "to": 515.2,
+   "why": "stutter 'the the planet' (large-v3)",
+   "words": [
+    [
+     "the",
+     514.9,
+     514.98
+    ],
+    [
+     "the",
+     514.98,
+     515.1
+    ]
+   ]
+  },
+  {
+   "from": 584.5,
+   "to": 586.6,
+   "why": "restart after the cut false start 'So if you call your-'; large-v3 on the burst alone",
+   "words": [
+    [
+     "you",
+     585.2,
+     585.34
+    ],
+    [
+     "call",
+     585.36,
+     585.58
+    ],
+    [
+     "a",
+     585.6,
+     585.7
+    ],
+    [
+     "car",
+     585.72,
+     585.98
+    ],
+    [
+     "you,",
+     586.0,
+     586.3
+    ]
+   ]
+  },
+  {
+   "from": 591.5,
+   "to": 594.75,
+   "why": "passes disagreed; large-v3 text (high confidence on 'oh, but my car'), timings from env.py",
+   "words": [
+    [
+     "In",
+     592.08,
+     592.28
+    ],
+    [
+     "some",
+     592.28,
+     592.5
+    ],
+    [
+     "manner",
+     592.5,
+     592.76
+    ],
+    [
+     "of",
+     592.76,
+     592.9
+    ],
+    [
+     "form,",
+     592.9,
+     593.16
+    ],
+    [
+     "you're",
+     593.2,
+     593.3
+    ],
+    [
+     "going",
+     593.3,
+     593.38
+    ],
+    [
+     "to",
+     593.38,
+     593.44
+    ],
+    [
+     "say,",
+     593.44,
+     593.62
+    ],
+    [
+     "oh,",
+     593.64,
+     593.86
+    ],
+    [
+     "but",
+     593.88,
+     594.12
+    ],
+    [
+     "my",
+     594.14,
+     594.42
+    ],
+    [
+     "car,",
+     594.44,
+     594.7
+    ]
+   ]
+  },
+  {
+   "from": 596.2,
+   "to": 596.9,
+   "why": "one word, not 'side swiped'",
+   "words": [
+    [
+     "sideswiped",
+     596.34,
+     596.8
+    ],
+    [
+     "it",
+     596.84,
+     596.98
+    ]
+   ]
+  }
+ ],
+ "onset_fixes": [],
+ "phrases": [
+  "consciousness is | *everywhere you look",
+  "and whatever | you call *yours",
+  "becomes | *part of you",
+  "in a deep, | deep *sense",
+  "If you think | about a *tree",
+  "most of | the tree",
+  "is not *alive",
+  "It's kind | of like",
+  "the *living part",
+  "of the tree",
+  "is on the | *outside",
+  "of the trunk",
+  "~you ~know and in | the *roots",
+  "and on the | outside",
+  "of the roots",
+  "and on the | *leaves, right?",
+  "~So ~and If you | think about",
+  "this *planet",
+  "this planet | is *covered",
+  "in a | *mantle of life",
+  "But the | *inside",
+  "is not | the same",
+  "It's not | *alive",
+  "But ~you ~can there's | a way",
+  "to look at | this *planet",
+  "~where where what | we are",
+  "is *part | of ~the the planet",
+  "*literally",
+  "It's not *skin",
+  "but it's something | like *skin",
+  "that *wraps | the planet",
+  "You call | a *car you",
+  "and it gets | *dented",
+  "you're going to | *hurt, right?",
+  "~In ~some ~manner ~of ~form you're going | to say",
+  "oh, but | my car",
+  "my *beautiful car",
+  "someone | *sideswiped it",
+  "in the | parking lot",
+  "Oh, I'm | *injured, right?",
+  "So that's the",
+  "*negative | side of it",
+  "On the | other hand",
+  "if you call",
+  "a *tree me",
+  "then it | becomes",
+  "*part of you",
+  "And if | you call",
+  "the *planet yours",
+  "it also | becomes",
+  "part of you",
+  "So be *careful",
+  "what you | call yours"
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1968.213",
+    "x0": 0.0,
+    "y0": 0.3,
+    "h": 0.671,
+    "note": "Wu Gorge: 'in a deep, deep sense' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "tree,",
+    "after": 7.0
+   },
+   "image": {
+    "acc": "1970.41",
+    "x0": 0.12,
+    "y0": 0.1,
+    "h": 0.75,
+    "note": "old tree, much of it dead"
+   }
+  },
+  {
+   "at": {
+    "phrase": "It's kind"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "and in"
+   },
+   "image": {
+    "acc": "1997.102",
+    "x0": 0.24,
+    "y0": 0.48,
+    "h": 0.45,
+    "note": "trunks and roots"
+   }
+  },
+  {
+   "at": {
+    "phrase": "and on the leaves"
+   },
+   "image": {
+    "acc": "1985.365",
+    "x0": 0.15,
+    "y0": 0.3,
+    "h": 0.45,
+    "note": "willow leaves"
+   }
+  },
+  {
+   "at": {
+    "phrase": "If you think about",
+    "after": 20.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "this planet is"
+   },
+   "image": {
+    "acc": "1992.1",
+    "x0": 0.0,
+    "y0": 0.12,
+    "h": 0.772,
+    "note": "summer mountains: a mantle of life"
+   }
+  },
+  {
+   "at": {
+    "phrase": "But the"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "But there's"
+   },
+   "image": {
+    "acc": "2015.517",
+    "x0": 0.02,
+    "y0": 0.45,
+    "h": 0.45,
+    "note": "villages and boats inside the landscape"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1971.19",
+    "x0": 0.18,
+    "y0": 0.05,
+    "h": 0.6,
+    "note": "clouds wrapping the mountain: skin of the planet (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "my beautiful"
+   },
+   "image": {
+    "acc": "1960.181",
+    "x0": 0.785,
+    "y0": 0.15,
+    "h": 0.8,
+    "pan": 2100,
+    "zoom": [
+     1.03,
+     1.0
+    ],
+    "note": "handscroll pan along a groomed horse: my beautiful car"
+   }
+  },
+  {
+   "at": {
+    "phrase": "So that's the"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "if you call",
+    "after": 60.0
+   },
+   "image": {
+    "acc": "1997.89",
+    "x0": 0.2,
+    "y0": 0.07,
+    "h": 0.68,
+    "note": "man beneath a leaning tree: call a tree me"
+   }
+  },
+  {
+   "at": {
+    "phrase": "And if"
+   },
+   "image": {
+    "acc": "1952.285",
+    "x0": 0.445,
+    "y0": 0.25,
+    "h": 0.62,
+    "note": "a lone figure, geese and distant hills on silk: call the planet yours"
+   }
+  },
+  {
+   "at": {
+    "phrase": "So be"
+   },
+   "head": true
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "youtube_title": null,
+ "thumbnails": {
+  "face_frame_s": 18.8,
+  "face_note": "chosen by the user: the quiet pause at 0:19 of the source",
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

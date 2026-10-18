@@ -9,6 +9,7 @@ if a spoken word is left uncaptioned, or if a crop falls outside its image.
 Spec keys (see shorts/tao-ch4-unimpeded-harmony/short.json for a complete example):
   segments      [[src_start, src_end], ...] in program order; cut only in pauses
   word_fixes    transcript corrections in source time: {"near", "from", "to", ["s", "e"]}
+  word_overrides  replace all words in a source span: {"from", "to", "words": [[w, s, e], ...], "why"}
   onset_fixes   caption onset corrections in program time: {"word", "prog", "to"}
   phrases       caption phrases: "|" splits the two lines, "*" marks the one ochre word, "~" marks a spoken filler
                 ("~you ~know") that stays in the audio but is left off the screen; it must still match the speech
@@ -41,7 +42,7 @@ def main(slug):
     segments = [{"src_start": a, "src_end": b} for a, b in spec["segments"]]
     prog_dur = sum(s["src_end"] - s["src_start"] for s in segments)
 
-    W = load_words(os.path.join(wd, "words.json"), spec.get("word_fixes", []))
+    W = load_words(os.path.join(wd, "words.json"), spec.get("word_fixes", []), spec.get("word_overrides", []))
     W = refine_onsets(W, Env(os.path.join(wd, "audio16k.wav")))
     P = to_program(W, segments)
     for f in spec.get("onset_fixes", []):
