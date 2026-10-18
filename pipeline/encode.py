@@ -2,7 +2,7 @@
 
   python3 -I pipeline/encode.py <slug>   -> shorts/<slug>/<slug>.mp4
 
-~8 Mbps keeps an 80 s Short near 85 MB (under GitHub's 100 MB file limit) while looking clean after YouTube's re-encode.
+~8 Mbps (about 80 MB for 80 s) looks clean after YouTube's re-encode. The mp4 is git-ignored: deliver it, don't commit it.
 """
 import os, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

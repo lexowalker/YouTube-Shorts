@@ -8,7 +8,7 @@ description: Make a vertical YouTube Short from one of David E. Arredondo's Tao 
 The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch4-unimpeded-harmony/` is the reference Short: its `short.json` is a complete, working spec to copy from. Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
 
 ## Deliverables
-1. `shorts/<slug>/<slug>.mp4`, 1080×1920, 60–120 s (aim for 70–90 s), under 100 MB.
+1. `shorts/<slug>/<slug>.mp4`, 1080×1920, 60–120 s (aim for 70–90 s). Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
 2. Ten title suggestions, with one recommended (in chat and in `DELIVERY.md`).
 3. A one-sentence statement of the teaching, with its chapter.
 4. The source timestamps used, in order.
@@ -77,7 +77,7 @@ python3 -I pipeline/qa.py <slug>
 
 ## 9. Write-up and commit
 - `python3 -I pipeline/notes.py <slug>` prints the timestamp and image tables and writes `images.json`. Write `shorts/<slug>/DELIVERY.md` in the same shape as the reference: hook title, the teaching, timestamps, images, notes on choices, and the 10 titles.
-- Commit `shorts/<slug>/` (the spec, EDL, images.json, DELIVERY.md, mp4 and thumbnails) and push to the session's branch. `.work/` is git-ignored.
+- Commit `shorts/<slug>/` (the spec, EDL, images.json, DELIVERY.md and thumbnails; the mp4 is git-ignored) and push to the session's branch. `.work/` is git-ignored too.
 - Give the user the mp4 and thumbnails (SendUserFile) and the 10 titles in chat.
 
 ## Gotchas
