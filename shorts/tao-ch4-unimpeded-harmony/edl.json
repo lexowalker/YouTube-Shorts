@@ -1,4 +1,5 @@
 {
+ "slug": "tao-ch4-unimpeded-harmony",
  "segments": [
   {
    "src_start": 313.84,
@@ -26,19 +27,21 @@
   {
    "kind": "image",
    "acc": "1967.145",
-   "file": "img/raw/1967.145_full.jpg",
+   "file": ".work/img/1967.145_full.jpg",
    "crop": [
     1939,
     3683,
     1554,
     2762
    ],
-   "t0": 9.46,
-   "t1": 12.7,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "rushing stream (on the join, so the dissolve hides the jump)",
+   "t0": 9.46,
+   "t1": 12.7
   },
   {
    "kind": "head",
@@ -48,53 +51,59 @@
   {
    "kind": "image",
    "acc": "1982.53",
-   "file": "img/raw/1982.53_full.jpg",
+   "file": ".work/img/1982.53_full.jpg",
    "crop": [
     113,
     531,
     1803,
     3205
    ],
-   "t0": 18.93,
-   "t1": 21.07,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "magpie on a willow branch",
+   "t0": 18.93,
+   "t1": 21.07
   },
   {
    "kind": "image",
    "acc": "1979.70",
-   "file": "img/raw/1979.70_full.jpg",
+   "file": ".work/img/1979.70_full.jpg",
    "crop": [
     320,
     388,
     2003,
     3561
    ],
-   "t0": 21.07,
-   "t1": 25.69,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "chestnuts and squirrel",
+   "t0": 21.07,
+   "t1": 25.69
   },
   {
    "kind": "image",
    "acc": "1979.70",
-   "file": "img/raw/1979.70_full.jpg",
+   "file": ".work/img/1979.70_full.jpg",
    "crop": [
     0,
     2843,
     2003,
     3561
    ],
-   "t0": 25.69,
-   "t1": 28.55,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "squirrel on the ground",
+   "t0": 25.69,
+   "t1": 28.55
   },
   {
    "kind": "head",
@@ -104,24 +113,26 @@
   {
    "kind": "image",
    "acc": "1975.71.1",
-   "file": "img/raw/1975.71.1_full.jpg",
+   "file": ".work/img/1975.71.1_full.jpg",
    "crop": [
     501,
     4122,
     1999,
     3554
    ],
-   "t0": 36.15,
-   "t1": 40.55,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "rain into rocks and earth",
+   "t0": 36.15,
+   "t1": 40.55
   },
   {
    "kind": "image",
    "acc": "1953.126",
-   "file": "img/raw/1953.126_full.jpg",
+   "file": ".work/img/1953.126_full.jpg",
    "crop": [
     5194,
     217,
@@ -133,6 +144,7 @@
     1.04,
     1.0
    ],
+   "note": "handscroll, slow pan: forever and ever",
    "t0": 40.55,
    "t1": 47.83
   },
@@ -144,36 +156,40 @@
   {
    "kind": "image",
    "acc": "1970.76",
-   "file": "img/raw/1970.76_full.jpg",
+   "file": ".work/img/1970.76_full.jpg",
    "crop": [
     999,
     1303,
     2301,
     4090
    ],
-   "t0": 50.63,
-   "t1": 52.17,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "rainstorm",
+   "t0": 50.63,
+   "t1": 52.17
   },
   {
    "kind": "image",
    "acc": "1966.366",
-   "file": "img/raw/1966.366_full.jpg",
+   "file": ".work/img/1966.366_full.jpg",
    "crop": [
     152,
     198,
     1901,
     3379
    ],
-   "t0": 52.17,
-   "t1": 54.32,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "upheaved crags: earthquake",
+   "t0": 52.17,
+   "t1": 54.32
   },
   {
    "kind": "head",
@@ -183,36 +199,40 @@
   {
    "kind": "image",
    "acc": "2015.482.1",
-   "file": "img/raw/2015.482.1_full.jpg",
+   "file": ".work/img/2015.482.1_full.jpg",
    "crop": [
     8720,
     1269,
     2644,
     4701
    ],
-   "t0": 60.71,
-   "t1": 65.63,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "misty mountains and water (inside one screen panel)",
+   "t0": 60.71,
+   "t1": 65.63
   },
   {
    "kind": "image",
    "acc": "1997.88",
-   "file": "img/raw/1997.88_full.jpg",
+   "file": ".work/img/1997.88_full.jpg",
    "crop": [
     4358,
     723,
     4319,
     7679
    ],
-   "t0": 65.63,
-   "t1": 68.0,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
-   ]
+   ],
+   "note": "scholar, pine, stream",
+   "t0": 65.63,
+   "t1": 68.0
   },
   {
    "kind": "head",
@@ -222,20 +242,21 @@
   {
    "kind": "image",
    "acc": "1987.186",
-   "file": "img/raw/1987.186_full.jpg",
+   "file": ".work/img/1987.186_full.jpg",
    "crop": [
     0,
     1184,
     3196,
     5682
    ],
-   "t0": 74.16,
-   "t1": 76.86,
+   "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "t1_render": 80.86000000000003
+   "note": "bamboo in moonlight",
+   "t0": 74.16,
+   "t1": 76.86
   }
  ],
  "captions": [
@@ -243,7 +264,7 @@
    "words": [
     {
      "w": "There's",
-     "s": 0.16,
+     "s": 0.14,
      "e": 0.26,
      "key": false
     },
@@ -255,39 +276,53 @@
     },
     {
      "w": "hard",
-     "s": 0.5,
-     "e": 1.44,
+     "s": 1.3,
+     "e": 1.46,
      "key": false
     },
     {
      "w": "lines",
-     "s": 1.44,
-     "e": 1.96,
+     "s": 1.46,
+     "e": 1.98,
      "key": true
     },
     {
      "w": "in",
-     "s": 2.21,
-     "e": 2.72,
+     "s": 1.98,
+     "e": 2.66,
      "key": false
     },
     {
      "w": "nature",
-     "s": 2.72,
-     "e": 3.26,
+     "s": 2.66,
+     "e": 3.24,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 0.5,
+     "e": 0.72,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 0.72,
+     "e": 0.98,
      "key": false
     }
    ],
    "lines": [
     3
    ],
-   "t_off": 3.26
+   "t_off": 3.24
   },
   {
    "words": [
     {
      "w": "because",
-     "s": 3.26,
+     "s": 3.24,
      "e": 3.94,
      "key": false
     },
@@ -310,26 +345,28 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
-   "t_off": 5.48
+   "t_off": 5.42
   },
   {
    "words": [
     {
      "w": "Everything's",
-     "s": 5.58,
-     "e": 6.62,
+     "s": 5.42,
+     "e": 6.04,
      "key": false
     },
     {
      "w": "interdependent",
-     "s": 6.58,
+     "s": 6.67,
      "e": 7.34,
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     1
    ],
@@ -368,6 +405,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -406,6 +444,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -450,6 +489,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -482,6 +522,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     4
    ],
@@ -508,6 +549,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     1
    ],
@@ -552,6 +594,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -596,6 +639,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -622,6 +666,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -654,6 +699,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -680,6 +726,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -718,6 +765,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -744,6 +792,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -776,6 +825,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -802,6 +852,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -840,6 +891,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -860,6 +912,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -910,6 +963,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -954,6 +1008,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -980,6 +1035,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1006,6 +1062,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1032,6 +1089,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1058,6 +1116,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1090,6 +1149,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1140,6 +1200,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1178,6 +1239,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1204,6 +1266,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1230,6 +1293,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1256,6 +1320,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1282,6 +1347,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1320,6 +1386,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1364,6 +1431,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1402,6 +1470,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1452,6 +1521,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     4
    ],
@@ -1496,6 +1566,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1540,6 +1611,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1572,6 +1644,7 @@
      "key": true
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1604,6 +1677,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     2
    ],
@@ -1642,6 +1716,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1674,6 +1749,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1724,6 +1800,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1774,6 +1851,7 @@
      "key": false
     }
    ],
+   "fillers": [],
    "lines": [
     3
    ],
@@ -1790,5 +1868,5 @@
   "dur": 4.0,
   "fade_frames": 15
  },
- "crop_track": "work/crop_track.json"
+ "crop_track": ".work/tao-ch4-unimpeded-harmony/crop_track.json"
 }

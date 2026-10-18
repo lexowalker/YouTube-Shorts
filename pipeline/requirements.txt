@@ -1,0 +1,4 @@
+faster-whisper
+opencv-python-headless==4.10.0.84  # 4.x still bundles the Haar cascades; 5.x dropped them
+numpy
+pillow

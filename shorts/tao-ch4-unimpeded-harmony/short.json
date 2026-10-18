@@ -1,0 +1,284 @@
+{
+ "slug": "tao-ch4-unimpeded-harmony",
+ "source": {
+  "release_tag": "tao45",
+  "asset": "Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "url": "https://github.com/lexowalker/YouTube-Shorts/releases/download/tao45/Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "sha256": "404a595cc36e41b94b74ab21106d5fee7645b9acc504801291d44bd2ab4bf80f"
+ },
+ "teaching": "The Way is unimpeded harmony: in nature nothing is separate and everything works together, even what looks to us like a storm or an earthquake, and seeing this blunts our own edges (Tao Te Ching, Chapter 4, Thomas Cleary translation).",
+ "youtube_title": "The Way Is Unimpeded Harmony",
+ "title": {
+  "text": "Nothing in nature is separate",
+  "dur": 3.6,
+  "size": 52
+ },
+ "segments": [
+  [
+   313.84,
+   323.3
+  ],
+  [
+   65.55,
+   67.8
+  ],
+  [
+   71.6,
+   127.55
+  ],
+  [
+   428.1,
+   437.3
+  ]
+ ],
+ "word_fixes": [
+  {
+   "near": 106.58,
+   "from": "whole.",
+   "to": "harmony.",
+   "s": 106.58,
+   "e": 107.1
+  }
+ ],
+ "onset_fixes": [
+  {
+   "word": "The",
+   "prog": 9.49,
+   "to": 9.84
+  },
+  {
+   "word": "Now,",
+   "prog": 47.23,
+   "to": 47.83
+  }
+ ],
+ "phrases": [
+  "There's no ~you ~know hard | *lines in nature",
+  "because nothing | is *separate",
+  "Everything's | *interdependent",
+  "Everything depends | on everything else",
+  "The way is | unimpeded *harmony",
+  "When you look | out at *nature",
+  "what you see is",
+  "everything | working *together",
+  "The *birds sit | in the trees",
+  "The *trees produce | seeds or nuts",
+  "for the | *squirrels",
+  "The squirrels | produce fertilizers",
+  "for the *grass",
+  "The grass produces | a substrate",
+  "for the *worms",
+  "The worms | produce *food",
+  "for the birds",
+  "And the worms | also *aerate",
+  "the *ground",
+  "so that the | *water can get in",
+  "And so on | and so forth",
+  "*forever and ever",
+  "on this planet",
+  "this *marvelous | planet",
+  "Everything works | *together",
+  "in an incredible | *harmony",
+  "Now, from a | *human point of view",
+  "we may think | oh, well",
+  "there's a *storm",
+  "That's not | harmonious",
+  "There's an | *earthquake",
+  "That's not | harmonious",
+  "But in fact | it *is",
+  "It just doesn't | seem that way",
+  "from our limited | little *self-interest",
+  "But if you look | at the *planet",
+  "and the evolution | of its *consciousness",
+  "you see something | very, very *different",
+  "You see | unimpeded *harmony",
+  "It *blunts | your edges",
+  "and it resolves | your complications",
+  "It's not that | complicated",
+  "in one way | of looking at it",
+  "It's very, very | *simple in a way"
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1967.145",
+    "x0": 0.4,
+    "y0": 0.56,
+    "h": 0.42,
+    "note": "rushing stream (on the join, so the dissolve hides the jump)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "When you look"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "The birds"
+   },
+   "image": {
+    "acc": "1982.53",
+    "x0": 0.05,
+    "y0": 0.12,
+    "h": 0.725,
+    "note": "magpie on a willow branch"
+   }
+  },
+  {
+   "at": {
+    "phrase": "The trees"
+   },
+   "image": {
+    "acc": "1979.70",
+    "x0": 0.12,
+    "y0": 0.06,
+    "h": 0.551,
+    "note": "chestnuts and squirrel"
+   }
+  },
+  {
+   "at": {
+    "phrase": "The squirrels"
+   },
+   "image": {
+    "acc": "1979.70",
+    "x0": 0.0,
+    "y0": 0.44,
+    "h": 0.551,
+    "note": "squirrel on the ground"
+   }
+  },
+  {
+   "at": {
+    "phrase": "The grass produces"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "And the worms"
+   },
+   "image": {
+    "acc": "1975.71.1",
+    "x0": 0.15,
+    "y0": 0.53,
+    "h": 0.457,
+    "note": "rain into rocks and earth"
+   }
+  },
+  {
+   "at": {
+    "phrase": "And so on"
+   },
+   "image": {
+    "acc": "1953.126",
+    "x0": 0.185,
+    "y0": 0.05,
+    "h": 0.9,
+    "pan": 900,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "handscroll, slow pan: forever and ever"
+   }
+  },
+  {
+   "at": {
+    "phrase": "Now, from a"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "there's",
+    "after": 50.0
+   },
+   "image": {
+    "acc": "1970.76",
+    "x0": 0.25,
+    "y0": 0.2,
+    "h": 0.628,
+    "note": "rainstorm"
+   }
+  },
+  {
+   "at": {
+    "word": "There's",
+    "after": 52.0
+   },
+   "image": {
+    "acc": "1966.366",
+    "x0": 0.05,
+    "y0": 0.03,
+    "h": 0.513,
+    "note": "upheaved crags: earthquake"
+   }
+  },
+  {
+   "at": {
+    "phrase": "But in fact"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "look",
+    "after": 60.0
+   },
+   "image": {
+    "acc": "2015.482.1",
+    "x0": 0.508,
+    "y0": 0.17,
+    "h": 0.63,
+    "note": "misty mountains and water (inside one screen panel)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "You see"
+   },
+   "image": {
+    "acc": "1997.88",
+    "x0": 0.45,
+    "y0": 0.08,
+    "h": 0.85,
+    "note": "scholar, pine, stream"
+   }
+  },
+  {
+   "at": {
+    "phrase": "It blunts"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "It's very, very"
+   },
+   "image": {
+    "acc": "1987.186",
+    "x0": 0.0,
+    "y0": 0.15,
+    "h": 0.72,
+    "note": "bamboo in moonlight"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "face_frame_s": 1074.25,
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

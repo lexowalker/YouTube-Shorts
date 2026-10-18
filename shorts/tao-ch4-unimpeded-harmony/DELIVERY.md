@@ -1,6 +1,6 @@
 # Unimpeded harmony: Tao Te Ching, Chapter 4
 
-**File:** `unimpeded-harmony_short.mp4`, 1080×1920 (9:16), 30 fps, H.264 High at about 8 Mbps, AAC 48 kHz. Runs 80.8 s: 76.9 s of speech and a 4 s end card.
+**File:** `tao-ch4-unimpeded-harmony.mp4`, 1080×1920 (9:16), 30 fps, H.264 High at about 8 Mbps, AAC 48 kHz. Runs 80.8 s: 76.9 s of speech and a 4 s end card.
 **Source:** *Tao Te Ching Chaps. 4 & 5: The Way is Unimpeded Harmony* (repo release `tao45`, sha256 `404a595c…f80f`).
 
 ## 1. Hook title
@@ -46,7 +46,11 @@ All are from the Cleveland Museum of Art Open Access collection (CC0), full-reso
 - **Talking head.** The crop is a full-height 9:16 window that follows his face with a heavily smoothed track (1.5 s Gaussian). It drifts rather than snaps, and keeps his face in the upper-middle as he leans. The upscale is Lanczos with no sharpening.
 - **Captions.** EB Garamond SemiBold at 70 px in warm off-white #F4EFE4, sentence case, two-line phrases centered at 70% height inside a 900 px safe width. Each word fades in over 3 frames on its spoken onset. One key word per phrase is pale ochre #D9B26F. A soft dark halo replaces any stroke, because plain shadow was not enough over his tan sweater. Every caption word was checked against a second transcription of the finished audio.
 - **Title.** "Nothing in nature is separate" sits in a thin rice-paper box for the first 3.6 s, because bare text was lost against the bookshelves.
-- **Sound.** His voice only: 80 Hz high-pass, light FFT noise reduction (its 25 ms latency is compensated so lip sync holds), peak-only compression and an oversampled limiter. Result: −14.2 LUFS integrated, −1.5 dBTP true peak. There is no ambient bed and no effects.
+- **Hook caption (revised).** He actually says "There's no, you know, hard lines in nature". The audio keeps it as spoken, the captions leave the filler off, and "hard" now appears on its real onset (it showed about 0.8 s early in the first version).
+- **Sound (revised).** His voice exactly as recorded: joins fall in pauses with 12 ms fades, mouth clicks are removed only between words, and one static gain brings the true peak to −1 dBTP (about −23 LUFS). The first version used noise reduction, compression and a limiter to reach −14 LUFS, which made the voice sound boxed in. That processing is gone. There is no ambient bed and no effects.
 - **End card.** Rice paper with a cinnabar seal, his name, "Readings from the Tao Te Ching · Thomas Cleary translation", and YouTube @DavidEArredondo and X @davidarredondo with monochrome icons. It dissolves in over 15 frames, holds 4 s with a 1.03× to 1.00× zoom-out, and sits clear of the lower-third subscribe prompt.
 
-`pipeline/` holds the scripts that produced the Short (transcription, EDL, face track, audio, renderer), so it can be rebuilt or re-cut.
+This Short is defined by `short.json` and builds with the shared `pipeline/` (see `.claude/skills/make-short/SKILL.md`). The house style is in `docs/style-guide.md`. Thumbnails are in `thumbnails/`.
+
+## Titles
+Chosen: **The Way Is Unimpeded Harmony.** Other options: Nothing in Nature Is Separate · There Are No Hard Lines in Nature · Even the Storm Is Harmony · Everything Depends on Everything Else · Why the Tao Blunts Your Edges · The Birds, the Trees, the Worms: Nature's Quiet Harmony · It's Very, Very Simple · Seeing Past Our Limited Self-Interest · Unimpeded Harmony: Chapter 4 of the Tao Te Ching (Cleary).

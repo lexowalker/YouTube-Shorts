@@ -1,6 +1,6 @@
-"""Compose the vertical Short frame by frame.
+"""Compose the vertical Short frame by frame (no audio).
 
-Usage: python3 -I render.py <edl.json> <out_video_noaudio.mp4>
+  python3 -I pipeline/render.py <slug>      -> .work/<slug>/video_master.mp4 (CRF 16) and endcard_preview.png
 
 The EDL holds:
   segments: [{src_start, src_end}]          audio/video pieces of the source, in program order
@@ -14,17 +14,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 Image.MAX_IMAGE_PIXELS = None
 
-W, H, FPS = 1080, 1920, 30
-HERE = os.path.dirname(os.path.abspath(__file__))
-SCR = os.path.dirname(HERE)
-FONT_SEMI = os.path.join(SCR, "fonts", "EBGaramond-600.ttf")
-FONT_MED = os.path.join(SCR, "fonts", "EBGaramond-500.ttf")
-SRC = os.path.join(SCR, "src", "source.mp4")
-
-OFFWHITE = (0xF4, 0xEF, 0xE4)
-OCHRE = (0xD9, 0xB2, 0x6F)
-CINNABAR = (0xA8, 0x47, 0x3A)
-INK = (0x2B, 0x27, 0x22)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, source_path, source_info
 
 CAP_SIZE = 70
 CAP_CENTER_Y = int(H * 0.70)
@@ -38,18 +29,19 @@ def load_edl(p):
 
 
 # ---------------------------------------------------------------- head track
-SRC_FPS, SW, SH, CW = 24, 1280, 720, 405
-
-
 class HeadReader:
     """Serves the talking-head frame for each program frame, frame-exact to the audio edit.
 
-    Source frames are decoded at their native 24 fps and picked by source time; the 9:16 crop
+    Source frames are decoded at their native rate and picked by source time; the 9:16 crop
     follows the smoothed face track with sub-pixel precision."""
 
-    def __init__(self, edl):
+    def __init__(self, edl, src):
         import cv2
         self.cv2 = cv2
+        self.src = src
+        info = source_info(src)
+        self.fps, self.sw, self.sh = info["fps"], info["w"], info["h"]
+        self.cw = round(self.sh * 9 / 16)
         self.segs = edl["segments"]
         self.track = json.load(open(edl["crop_track"]))
         self.si, self.proc, self.idx, self.cur, self.f = -1, None, None, None, 0
@@ -59,8 +51,8 @@ class HeadReader:
         if self.proc:
             self.proc.kill()
         a, b = self.segs[si]["src_start"], self.segs[si]["src_end"]
-        self.first = math.ceil(a * SRC_FPS - 1e-6)
-        self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{self.first / SRC_FPS:.4f}", "-i", SRC,
+        self.first = math.ceil(a * self.fps - 1e-6)
+        self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{self.first / self.fps:.4f}", "-i", self.src,
                                       "-t", f"{b - a + 1:.3f}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                      stdout=subprocess.PIPE)
         self.si, self.idx, self.cur = si, self.first - 1, None
@@ -76,19 +68,20 @@ class HeadReader:
         if si != self.si:
             self._open(si)
         ts = seg["src_start"] + (t - acc)
-        want = max(math.floor(ts * SRC_FPS + 1e-6), self.first)
+        want = max(math.floor(ts * self.fps + 1e-6), self.first)
+        n = self.sw * self.sh * 3
         while self.idx < want:
-            b = self.proc.stdout.read(SW * SH * 3)
-            if len(b) < SW * SH * 3:
+            b = self.proc.stdout.read(n)
+            if len(b) < n:
                 break
-            self.cur, self.idx = np.frombuffer(b, np.uint8).reshape(SH, SW, 3), self.idx + 1
+            self.cur, self.idx = np.frombuffer(b, np.uint8).reshape(self.sh, self.sw, 3), self.idx + 1
         left = self.track[min(self.f, len(self.track) - 1)]
         self.f += 1
         if self.cur is None:
             return self.last
         # sub-pixel crop then a clean Lanczos upscale (no sharpening)
         m = np.float32([[1, 0, -left], [0, 1, 0]])
-        crop = self.cv2.warpAffine(self.cur, m, (CW, SH), flags=self.cv2.INTER_CUBIC, borderMode=self.cv2.BORDER_REPLICATE)
+        crop = self.cv2.warpAffine(self.cur, m, (self.cw, self.sh), flags=self.cv2.INTER_CUBIC, borderMode=self.cv2.BORDER_REPLICATE)
         self.last = self.cv2.resize(crop, (W, H), interpolation=self.cv2.INTER_LANCZOS4)
         return self.last
 
@@ -286,9 +279,8 @@ def build_endcard(edl):
 
 
 def endcard_frame(card, u):
+    """The card is drawn at 1.03x; the view widens from W x H to the whole card, a 1.03x -> 1.00x zoom-out."""
     z = 1.03 + (1.0 - 1.03) * u
-    vw, vh = W / z * 1.03, H / z * 1.03
-    # card is 1.03x size; view region shrinks->grows to full
     cw, ch = card.width, card.height
     vw, vh = cw / z, ch / z
     left, top = (cw - vw) / 2, (ch - vh) / 2
@@ -297,9 +289,10 @@ def endcard_frame(card, u):
 
 # ---------------------------------------------------------------- main
 def main():
-    edl = load_edl(sys.argv[1])
-    out = sys.argv[2]
-    work = os.path.dirname(os.path.abspath(out))
+    slug = sys.argv[1]
+    work = work_dir(slug)
+    edl = load_edl(os.path.join(work, "edl.json"))
+    out = os.path.join(work, "video_master.mp4")
     prog_dur = sum(s["src_end"] - s["src_start"] for s in edl["segments"])
     ec = edl["endcard"]
     total = prog_dur + ec["dur"]
@@ -314,7 +307,7 @@ def main():
         title_spr = title_sprite(title["text"], tf)
     card = build_endcard(edl)
     card.save(os.path.join(work, "endcard_preview.png"))
-    head = HeadReader(edl)
+    head = HeadReader(edl, source_path(slug))
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
                             "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", out], stdin=subprocess.PIPE)
@@ -336,7 +329,6 @@ def main():
 
     ec_start = prog_dur
     ec_fade = ec.get("fade_frames", 15) / FPS
-    last_prog_frame = None
     for f in range(nframes):
         t = f / FPS
         hf = head.next() if t < prog_dur else head.last
@@ -355,7 +347,6 @@ def main():
                 fi = min(1.0, (t - title["t0"]) / 0.4, (title["t1"] - t) / 0.4)
                 alpha_over(fr, title_spr, (W - title_spr.width) // 2, int(H * 0.15) - title_spr.height // 2, max(fi, 0))
             caps.draw(fr, t)
-            last_prog_frame = fr
         else:
             u = (t - ec_start) / ec["dur"]
             cardf = endcard_frame(card, min(u, 1.0)).astype(np.float32)
