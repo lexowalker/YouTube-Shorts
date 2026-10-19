@@ -1,0 +1,406 @@
+{
+ "slug": "tao-ch5-straw-dogs",
+ "source": {
+  "release_tag": "tao45",
+  "asset": "Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "url": "https://github.com/lexowalker/YouTube-Shorts/releases/download/tao45/Tao.Te.Ching.Chaps.4.5_.The.Way.is.Unimpeded.Harmony.mp4",
+  "sha256": "404a595cc36e41b94b74ab21106d5fee7645b9acc504801291d44bd2ab4bf80f"
+ },
+ "teaching": "Heaven and earth are not humane: humaneness is a narrow human construct, and seeing beyond it, to the impermanence of every being and every civilization, is what lets someone see clearly (Tao Te Ching, Chapter 5, Thomas Cleary translation).",
+ "title": {
+  "text": "We are all straw dogs",
+  "dur": 3.6,
+  "size": 52
+ },
+ "segments": [
+  [
+   1018.93,
+   1024.7
+  ],
+  [
+   1150.3,
+   1157.5
+  ],
+  [
+   912.55,
+   917.75
+  ],
+  [
+   903.58,
+   910.75
+  ],
+  [
+   1042.45,
+   1052.0
+  ],
+  [
+   1053.6,
+   1074.4
+  ],
+  [
+   1157.95,
+   1171.5
+  ],
+  [
+   1174.55,
+   1178.95
+  ]
+ ],
+ "word_fixes": [
+  {
+   "near": 1018.92,
+   "from": "humane",
+   "to": "Humane",
+   "s": 1019.0,
+   "e": 1019.34
+  },
+  {
+   "near": 1049.86,
+   "from": "impermanent.",
+   "to": "impermanent.",
+   "e": 1050.02
+  },
+  {
+   "near": 1050.0,
+   "from": "And",
+   "to": "And",
+   "s": 1050.1,
+   "e": 1050.36
+  },
+  {
+   "near": 1165.1,
+   "from": "a",
+   "to": "a",
+   "s": 1165.62,
+   "e": 1165.86
+  },
+  {
+   "near": 1166.24,
+   "from": "assigned",
+   "to": "assigned",
+   "s": 1168.08,
+   "e": 1168.36
+  }
+ ],
+ "word_overrides": [
+  {
+   "from": 915.7,
+   "to": 916.6,
+   "why": "single 'It's' (medium.en, narrow large-v3 and the qa pass; one wide large-v3 pass heard 'It's, it's'); onsets from env.py bursts",
+   "words": [
+    [
+     "It's",
+     915.84,
+     916.0
+    ],
+    [
+     "a",
+     916.28,
+     916.4
+    ],
+    [
+     "dog",
+     916.46,
+     916.86
+    ]
+   ]
+  },
+  {
+   "from": 1154.85,
+   "to": 1156.3,
+   "why": "'No, this is all beings' (medium.en, narrow large-v3, qa pass; one wide large-v3 pass heard 'Now, this is interesting. All beings'); kept in the audio, 'No, this is' off the captions; 'beings' onset from env.py",
+   "words": [
+    [
+     "No,",
+     1154.96,
+     1155.06
+    ],
+    [
+     "this",
+     1155.06,
+     1155.14
+    ],
+    [
+     "is",
+     1155.14,
+     1155.3
+    ],
+    [
+     "All",
+     1155.4,
+     1155.64
+    ],
+    [
+     "beings,",
+     1155.66,
+     1156.2
+    ]
+   ]
+  },
+  {
+   "from": 906.19,
+   "to": 906.39,
+   "why": "no 'that' before 'they' (large-v3 and the qa pass)",
+   "words": [
+    [
+     "is",
+     906.2,
+     906.26
+    ],
+    [
+     "they",
+     906.3,
+     906.38
+    ]
+   ]
+  },
+  {
+   "from": 1162.45,
+   "to": 1162.75,
+   "why": "'gonna' as spoken (qa pass; 'going to' squeezed into 0.28 s)",
+   "words": [
+    [
+     "gonna",
+     1162.5,
+     1162.76
+    ]
+   ]
+  }
+ ],
+ "onset_fixes": [
+  {
+   "word": "much,",
+   "prog": 46.33,
+   "to": 46.4
+  },
+  {
+   "word": "And",
+   "prog": 25.54,
+   "to": 25.74
+  }
+ ],
+ "phrases": [
+  "Humane is just | a human *construct",
+  "It's actually | a *narrow vision",
+  "*Heaven and earth",
+  "are not | *humane",
+  "They regard | *all beings",
+  "as *straw dogs",
+  "~No ~this ~is All beings, | not just *humans",
+  "And a | *straw dog",
+  "would be | kind of like",
+  "a *scarecrow",
+  "It's a dog | made of *straw",
+  "But what | we do *know",
+  "at least | in part",
+  "is they were | *funerary ornaments",
+  "like *tombstones",
+  "And so | there are *things",
+  "above ~the | *humaneness",
+  "and one | of them is",
+  "*understanding",
+  "that we're | all *impermanent",
+  "all of us",
+  "and every | *civilization",
+  "is *impermanent",
+  "And so for | true *depth",
+  "of *understanding",
+  "you have to | *move beyond",
+  "your own | *interest",
+  "and the | interest",
+  "of your *brothers",
+  "and sisters | and comrades",
+  "and look | *instead",
+  "to something | much, much *larger",
+  "much, much | *deeper",
+  "much *broader | and wise",
+  "than just | the *humaneness",
+  "*Sages are | not humane",
+  "They see | all people",
+  "as *straw dogs",
+  "Well, we're all | gonna *die",
+  "We all have | a *date",
+  "*assigned to us",
+  "We don't know | what it is",
+  "That's *unknowable",
+  "And to understand | that *deeply",
+  "helps someone | see *clearly"
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1965.233",
+    "x0": 0.27,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Church, Twilight in the Wilderness: heaven and earth (on the join)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "They regard"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "All beings"
+   },
+   "image": {
+    "acc": "1945.38",
+    "x0": 0.52,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Hicks, Peaceable Kingdom: all beings, not just humans"
+   }
+  },
+  {
+   "at": {
+    "phrase": "And a straw"
+   },
+   "image": {
+    "acc": "1983.1",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Han tomb dog: a straw dog (covers the join before it)"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "funerary"
+   },
+   "image": {
+    "acc": "1972.76.11",
+    "x0": 0.06,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Northern Wei mortuary figure, dog of the zodiac: funerary ornaments"
+   }
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "that we're"
+   },
+   "image": {
+    "acc": "1922.220",
+    "x0": 0.16,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Gifford, autumn wood path: we're all impermanent"
+   }
+  },
+  {
+   "at": {
+    "word": "civilization"
+   },
+   "image": {
+    "acc": "1981.13",
+    "x0": 0.13,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "John Martin, Ruins of an Ancient City: every civilization is impermanent"
+   }
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "to something"
+   },
+   "image": {
+    "acc": "1964.420",
+    "x0": 0.38,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Courbet, Panoramic View of the Alps: something much, much larger"
+   }
+  },
+  {
+   "at": {
+    "phrase": "much, much deeper"
+   },
+   "image": {
+    "acc": "1967.241",
+    "x0": 0.21,
+    "y0": 0.14,
+    "h": 0.7,
+    "note": "Markandeya in the cosmic ocean: much, much deeper"
+   }
+  },
+  {
+   "at": {
+    "phrase": "much broader"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "1979.27.1.2",
+    "x0": 0.14,
+    "y0": 0.28,
+    "h": 0.62,
+    "note": "Chen Hongshou, Laozi riding an ox: sages (on the join)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "Well, we're"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "date"
+   },
+   "image": {
+    "acc": "1965.235",
+    "x0": 0.47,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Harnett, Memento Mori: a date assigned to us"
+   }
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "head": true
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "youtube_title": null,
+ "thumbnails": {
+  "face_frame_s": 1224.0,
+  "face_note": "20:24 of the source: eyes open to the camera, mouth at rest",
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}
