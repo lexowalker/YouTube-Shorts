@@ -3,6 +3,8 @@
   python3 -I pipeline/crop_track.py <slug>     (after build_edl.py)
 
 Writes .work/<slug>/crop_track.json: the crop's left edge in source pixels, one value per output frame.
+A segment where a quick glance pulls the face off-centre can be pinned with "crop_fixes": [{"seg": i, "left": px}]
+in short.json (a fixed crop for that whole segment).
 """
 import json, os, sys
 import numpy as np
@@ -15,9 +17,11 @@ edl = json.load(open(os.path.join(work_dir(slug), "edl.json")))
 info = source_info(source_path(slug))
 sw, sh = info["w"], info["h"]
 cw = round(sh * 9 / 16)
-band = tuple(load_spec(slug).get("face_x_band", (0.33, 0.86)))
+spec = load_spec(slug)
+band = tuple(spec.get("face_x_band", (0.33, 0.86)))
+pinned = {f["seg"]: f["left"] for f in spec.get("crop_fixes", [])}
 out = []
-for seg in edl["segments"]:
+for i, seg in enumerate(edl["segments"]):
     a, b = seg["src_start"], seg["src_end"]
     pts = track(source_path(slug), a - 1.0, b + 1.0, sw, sh, band)
     t = np.array([p[0] for p in pts])
@@ -31,6 +35,8 @@ for seg in edl["segments"]:
     cs = np.convolve(np.pad(c, len(k) // 2, mode="edge"), k, mode="valid")
     n = round((b - a) * FPS)
     left = np.clip(np.interp(a + np.arange(n) / FPS, t, cs) - cw / 2, 0, sw - cw)
+    if i in pinned:
+        left = np.full(n, float(pinned[i]))
     out += [round(float(x), 2) for x in left]
     print(f"segment {a:.1f}-{b:.1f}: face found in {ok.sum()}/{len(ok)} samples, crop left {left.min():.0f}..{left.max():.0f}")
 json.dump(out, open(edl["crop_track"], "w"))

@@ -402,5 +402,12 @@
   "face_frame_s": 1224.0,
   "face_note": "20:24 of the source: eyes open to the camera, mouth at rest",
   "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
- }
+ },
+ "crop_fixes": [
+  {
+   "seg": 0,
+   "left": 492,
+   "why": "he glances aside at 0:00.8; a fixed crop keeps his face framed through the hook"
+  }
+ ]
 }

@@ -87,4 +87,5 @@ python3 -I pipeline/qa.py <slug>
 - Wikimedia Commons rate-limits (429) from here, so prefer CMA.
 - Big CMA TIFFs sometimes drop mid-transfer. `cma.py get` retries, and you should check that the file opens.
 - faster-whisper's own decoder breaks with the installed PyAV, so `transcribe.py` reads the 16 kHz WAV itself.
+- A quick glance aside can pull his face off-centre faster than the smoothed crop follows (see the first QA frame). Pin that segment with `"crop_fixes": [{"seg": i, "left": px}]` in `short.json` and re-run `crop_track.py`.
 - A jump cut between two head segments is never left visible. Put an image over it, or put the image cut on the join itself.
