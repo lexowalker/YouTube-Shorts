@@ -27,7 +27,6 @@
  ],
  "start": 176.6,
  "dur": 46.4,
- "crop_x": 250,
  "captions": [
   {
    "t": 177.37,
@@ -107,5 +106,6 @@
   }
  ],
  "notes": "Approved reference Short, hand-timed. reading.py align reproduces these onsets to within 0.21 s; locked so align cannot overwrite them and a re-render matches the approved cut.",
- "locked": true
+ "locked": true,
+ "face_x": 0.5504
 }

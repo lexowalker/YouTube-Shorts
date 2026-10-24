@@ -25,13 +25,18 @@ ARCHIVE = "https://archive.org"
 SEARCH_Q = "identifier:arredondo-* AND title:(Tao Te Ching)"
 
 # look (docs/reading-style.md); the Chapter 1 Short is the reference
-FG_CROP_W = 440           # speaker crop of the 480p-scaled source, shown at 1080x1178
-FG_Y = 400
 CAP_FONT = ("Inter", "ExtraBold", 68)
 CAP_MAX_W = 900           # wider than this wraps onto two lines
 SPLIT_WORDS = 8           # a phrase this long (or wider than SPLIT_W) becomes two captions
 SPLIT_W = 1400
-TITLE_MAX_W = 960
+# title box: rounded, semi-transparent, kicker over title, equal padding above the kicker's caps and below the
+# title's baseline. Ink offsets of libass text below its \an8 anchor, as fractions of the font size (measured).
+BOX_X, BOX_Y, BOX_W, BOX_R = 100, 110, 880, 22
+BOX_PAD, BOX_GAP = 56, 34
+BOX_ALPHA = "60"          # ASS alpha (hex): 0x60 of 0xFF transparent, about 62% opaque black
+KICK_SIZE, KICK_TOP, KICK_BASE = 40, 0.20, 0.775
+TITLE_TOP, TITLE_BASE, TITLE_LINE = 0.267, 0.802, 1.20
+TITLE_MAX_W = BOX_W - 2 * BOX_PAD
 LEAD = 0.04               # captions start this far ahead of the onset (100 ms fade-in)
 PRE_ROLL = 0.75           # clip starts this long before the first caption
 SETTLE = 2.3              # clip runs this long past the last voiced frame
@@ -458,12 +463,12 @@ def cmd_align(a):
     si = source_info(source_path(slug))
     sw, sh = si["w"], si["h"]
     cx = [c for _, c in track(source_path(slug), start, end, sw, sh) if c is not None]
-    w480 = round(sw * 480 / sh / 2) * 2
-    crop_x = 250 if not cx else int(min(max(np.median(cx) * 480 / sh - FG_CROP_W / 2, 0), w480 - FG_CROP_W))
+    face_x = round(float(np.median(cx)) / sw, 4) if cx else 0.55
 
-    spec.update({"start": round(start, 2), "dur": round(end - start, 2), "crop_x": crop_x, "captions": caps})
+    spec.update({"start": round(start, 2), "dur": round(end - start, 2), "face_x": face_x, "captions": caps})
+    spec.pop("crop_x", None)
     save(slug, spec)
-    print(f"clip {start:.2f}+{end - start:.2f}s, crop_x {crop_x}  ->  {spec_path(slug)}\n")
+    print(f"clip {start:.2f}+{end - start:.2f}s, face_x {face_x}  ->  {spec_path(slug)}\n")
     for c in caps:
         flag = "  <- CHECK" if c.get("match", 1) < 0.8 else ""
         print(f"{c['t']:8.2f}  {c['text'].replace(chr(92) + 'N', ' / '):42s} heard: {c.get('heard', '')}{flag}")
@@ -479,11 +484,11 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Box,Inter,20,&H00000000,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 Style: Kicker,Inter SemiBold,40,&H00A8D8F0,&H00000000,&H00000000,&H64000000,0,0,0,0,100,100,6,0,1,0,2,8,60,60,130,1
 Style: Title,Caladea,86,&H00FFFFFF,&H00000000,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,0,3,8,60,60,190,1
-Style: Credit,Inter,32,&H00D0D0D0,&H00000000,&H00000000,&H64000000,0,1,0,0,100,100,1,0,1,0,2,8,60,60,300,1
-Style: Cap,Inter ExtraBold,68,&H00FFFFFF,&H00000000,&H00101010,&H96000000,1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
-Style: CapGold,Inter ExtraBold,68,&H0060D8FF,&H00000000,&H00101010,&H96000000,1,0,0,0,100,100,0,0,1,6,3,2,70,70,400,1
+Style: Cap,Inter ExtraBold,68,&H00FFFFFF,&H00000000,&H00101010,&H96000000,1,0,0,0,100,100,0,0,1,6,3,2,70,70,265,1
+Style: CapGold,Inter ExtraBold,68,&H0060D8FF,&H00000000,&H00101010,&H96000000,1,0,0,0,100,100,0,0,1,6,3,2,70,70,265,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -495,29 +500,41 @@ def ts(x):
     return f"{int(x // 3600)}:{int(x % 3600 // 60):02d}:{x % 60:05.2f}"
 
 
+def rounded_rect(w, h, r):
+    """ASS vector drawing of a w x h rectangle with corner radius r."""
+    k = r * 0.45  # bezier handle for a near-circular corner
+    return (f"m {r} 0 l {w - r} 0 b {w - k} 0 {w} {k} {w} {r} l {w} {h - r} b {w} {h - k} {w - k} {h} {w - r} {h} "
+            f"l {r} {h} b {k} {h} 0 {h - k} 0 {h - r} l 0 {r} b 0 {k} {k} 0 {r} 0")
+
+
 def write_ass(spec, path):
     start, end = spec["start"], spec["dur"] - 0.1  # titles and captions are gone before the held frame dissolves
     title = spec["title"]
-    tags = "\\fad(400,300)"
-    # a long title shrinks to fit (down to 64 px), then takes two lines with the credit moved down
-    size, credit_y = 86, 300
+    fade = "\\fad(400,300)"
+    # a long title shrinks to fit the box (down to 64 px), then takes two lines and the box grows
+    size, lines = 86, 1
     while text_w(title, "Caladea", "Bold", size) > TITLE_MAX_W and size > 64:
         size -= 2
     if text_w(title, "Caladea", "Bold", size) > TITLE_MAX_W:
         ws = title.split()
         k = min(range(1, len(ws)), key=lambda k: max(text_w(" ".join(ws[:k]), "Caladea", "Bold", size),
                                                     text_w(" ".join(ws[k:]), "Caladea", "Bold", size)))
-        title = " ".join(ws[:k]) + "\\N" + " ".join(ws[k:])
-        credit_y += int(size * 1.2)
-    ev = [f"Dialogue: 0,{ts(0)},{ts(end)},Kicker,,0,0,0,,{{{tags}}}TAO TE CHING  ·  CHAPTER {spec['chapter']}",
-          f"Dialogue: 0,{ts(0)},{ts(end)},Title,,0,0,0,,{{{tags}\\fs{size}}}{title}",
-          f"Dialogue: 0,{ts(0)},{ts(end)},Credit,,0,0,{credit_y},,{{{tags}}}read by dr.a  ·  trans. Thomas Cleary"]
+        title, lines = " ".join(ws[:k]) + "\\N" + " ".join(ws[k:]), 2
+    kick_y = BOX_Y + BOX_PAD - KICK_TOP * KICK_SIZE
+    title_y = kick_y + KICK_BASE * KICK_SIZE + BOX_GAP - TITLE_TOP * size
+    base = title_y + TITLE_BASE * size + (lines - 1) * TITLE_LINE * size
+    box_h = round(base + 0.07 * size + BOX_PAD - BOX_Y)
+    cx = BOX_X + BOX_W // 2
+    ev = [f"Dialogue: 0,{ts(0)},{ts(end)},Box,,0,0,0,,{{{fade}\\an7\\pos({BOX_X},{BOX_Y})\\1a&H{BOX_ALPHA}&\\blur1\\p1}}"
+          f"{rounded_rect(BOX_W, box_h, BOX_R)}{{\\p0}}",
+          f"Dialogue: 1,{ts(0)},{ts(end)},Kicker,,0,0,0,,{{{fade}\\an8\\pos({cx},{kick_y:.0f})}}TAO TE CHING  ·  CHAPTER {spec['chapter']}",
+          f"Dialogue: 1,{ts(0)},{ts(end)},Title,,0,0,0,,{{{fade}\\an8\\pos({cx},{title_y:.0f})\\fs{size}}}{title}"]
     caps = spec["captions"]
     for i, c in enumerate(caps):
         t0 = c["t"] - start - LEAD
         t1 = caps[i + 1]["t"] - start - LEAD if i + 1 < len(caps) else end
         style = "CapGold" if c.get("gold", i in (0, len(caps) - 1)) else "Cap"
-        ev.append(f"Dialogue: 1,{ts(t0)},{ts(t1)},{style},,0,0,0,,{{\\fad(100,{300 if i + 1 == len(caps) else 0})}}{c['text']}")
+        ev.append(f"Dialogue: 2,{ts(t0)},{ts(t1)},{style},,0,0,0,,{{\\fad(100,{300 if i + 1 == len(caps) else 0})}}{c['text']}")
     open(path, "w").write(ASS_HEAD + "\n".join(ev) + "\n")
 
 
@@ -534,6 +551,41 @@ def render_card(path):
     enc.wait()
 
 
+def hires(slug, spec):
+    """The clip's window from the item's highest-resolution video (usually a 4K WebM), fetched over HTTP without the
+    whole file. Returns (path, source time of its t=0) or None if the item has nothing sharper than source.mp4.
+    Stream copy starts on the keyframe before the request, so t=0 is found by matching its audio to source.mp4."""
+    lo, hi = max(0.0, spec["start"] - 5), spec["start"] + spec["dur"] + 5
+    wd = work_dir(slug)
+    meta = os.path.join(wd, "hires.json")
+    if os.path.exists(meta):
+        m = json.load(open(meta))
+        if m["lo"] == lo and m["hi"] == hi and os.path.exists(m["path"]):
+            return m["path"], m["t0"]
+    ident = spec["source"]["item"]
+    files = get_json(f"{ARCHIVE}/metadata/{ident}")["files"]
+    vids = [f for f in files if f["name"].lower().endswith((".webm", ".mkv", ".mp4")) and f.get("source") == "original"]
+    best = max(vids, key=lambda f: (int(f.get("height", 0) or 0), int(f.get("size", 0))))
+    if best["name"] == spec["source"]["file"]:
+        return None
+    path = os.path.join(wd, "hires.mkv")
+    url = f"{ARCHIVE}/download/{ident}/{urllib.parse.quote(best['name'])}"
+    print(f"fetching {hi - lo:.0f}s of {best['name']} …", flush=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{lo:.3f}", "-i", url, "-t", f"{hi - lo:.3f}", "-c", "copy", path], check=True)
+    wav = os.path.join(wd, "hires16k.wav")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-t", "12", "-vn", "-ac", "1", "-ar", "16000", wav], check=True)
+    wf = wave.open(wav)
+    hi_a = np.frombuffer(wf.readframes(wf.getnframes()), np.int16).astype(np.float32)[16000 * 6:16000 * 10]
+    ref = audio(slug, max(0.0, lo - 4), lo + 14) * 32768
+    scores = [(float(np.dot(ref[o:o + len(hi_a)], hi_a) / (np.linalg.norm(ref[o:o + len(hi_a)]) * np.linalg.norm(hi_a) + 1e-9)), o)
+              for o in range(0, len(ref) - len(hi_a), 4)]
+    corr, o = max(scores)
+    assert corr > 0.9, f"could not match the high-resolution clip to source.mp4 (corr {corr:.2f})"
+    t0 = round(max(0.0, lo - 4) + o / 16000 - 6, 4)
+    json.dump({"lo": lo, "hi": hi, "path": path, "t0": t0, "file": best["name"]}, open(meta, "w"))
+    return path, t0
+
+
 def cmd_render(a):
     slug = a.slug
     spec, wd = load(slug), work_dir(slug)
@@ -543,20 +595,24 @@ def cmd_render(a):
     card = os.path.join(wd, "endcard.mp4")
     if not os.path.exists(card):
         render_card(card)
-    start, dur, cx = spec["start"], spec["dur"], spec.get("crop_x", 250)
+    start, dur = spec["start"], spec["dur"]
     total = dur + CARD
     out = os.path.join(short_dir(slug), f"{slug}.mp4")
-    fc = (f"[0:v]scale=-2:480,setsar=1,split[a][b];"
-          f"[a]scale=-2:1920,crop=1080:1920,gblur=sigma=30,eq=brightness=-0.18:saturation=0.8[bg];"
-          f"[b]crop={FG_CROP_W}:480:{cx}:0,scale=1080:1178:flags=lanczos,eq=contrast=1.04:saturation=1.05,format=yuva420p,"
-          f"geq=lum='lum(X,Y)':cb='cb(X,Y)':cr='cr(X,Y)':a='255*min(1,min(Y/90,(H-Y)/160))'[fg];"
-          f"[bg][fg]overlay=0:{FG_Y},ass='{os.path.join(wd, 'captions.ass')}',fade=t=in:st=0:d=0.4,fps={FPS},format=yuv420p,"
+    hr = hires(slug, spec)
+    src, ss = (hr[0], start - hr[1]) if hr else (source_path(slug), start)
+    if not hr:
+        print("  WARNING: no higher-resolution file on the item; the full-height crop of source.mp4 will look soft")
+    si = source_info(src)
+    cw = round(si["h"] * 9 / 16 / 2) * 2  # full-height 9:16 crop, centred on his face
+    x = int(min(max(spec.get("face_x", 0.55) * si["w"] - cw / 2, 0), si["w"] - cw))
+    fc = (f"[0:v]crop={cw}:{si['h']}:{x}:0,scale={W}:{H}:flags=lanczos,setsar=1,eq=contrast=1.04:saturation=1.05,"
+          f"ass='{os.path.join(wd, 'captions.ass')}',fade=t=in:st=0:d=0.4,fps={FPS},format=yuv420p,"
           f"tpad=stop_mode=clone:stop_duration={XF},settb=AVTB[main];"
           f"[1:v]fps={FPS},format=yuv420p,settb=AVTB[card];"
           f"[main][card]xfade=transition=fade:duration={XF}:offset={dur}[v];"
           f"[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=in:st=0:d=0.3,afade=t=out:st={dur - 0.4}:d=0.4,"
           f"apad=whole_dur={total}[aud]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(start), "-t", str(dur), "-i", source_path(slug), "-i", card,
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.3f}", "-t", str(dur), "-i", src, "-i", card,
                     "-filter_complex", fc, "-map", "[v]", "-map", "[aud]", "-r", str(FPS), "-c:v", "libx264", "-preset", "slow",
                     "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
                     "-t", f"{total:.3f}", out], check=True)

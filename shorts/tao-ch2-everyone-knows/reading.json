@@ -35,7 +35,6 @@
  ],
  "start": 91.61,
  "dur": 52.95,
- "crop_x": 304,
  "captions": [
   {
    "t": 92.36,
@@ -169,5 +168,6 @@
    "heard": "success will not leave",
    "match": 1.0
   }
- ]
+ ],
+ "face_x": 0.6136
 }
