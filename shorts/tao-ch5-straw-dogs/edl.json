@@ -1,0 +1,1745 @@
+{
+ "slug": "tao-ch5-straw-dogs",
+ "segments": [
+  {
+   "src_start": 1018.93,
+   "src_end": 1024.7
+  },
+  {
+   "src_start": 1150.3,
+   "src_end": 1157.5
+  },
+  {
+   "src_start": 912.55,
+   "src_end": 917.75
+  },
+  {
+   "src_start": 903.58,
+   "src_end": 910.75
+  },
+  {
+   "src_start": 1042.45,
+   "src_end": 1052.0
+  },
+  {
+   "src_start": 1053.6,
+   "src_end": 1074.4
+  },
+  {
+   "src_start": 1157.95,
+   "src_end": 1171.5
+  },
+  {
+   "src_start": 1174.55,
+   "src_end": 1178.95
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 5.77
+  },
+  {
+   "kind": "image",
+   "acc": "1965.233",
+   "file": ".work/img/1965.233_full.jpg",
+   "crop": [
+    2072,
+    0,
+    2695,
+    4791
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Church, Twilight in the Wilderness: heaven and earth (on the join)",
+   "t0": 5.77,
+   "t1": 8.58
+  },
+  {
+   "kind": "head",
+   "t0": 8.58,
+   "t1": 10.87
+  },
+  {
+   "kind": "image",
+   "acc": "1945.38",
+   "file": ".work/img/1945.38_full.jpg",
+   "crop": [
+    2982,
+    0,
+    2533,
+    4503
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Hicks, Peaceable Kingdom: all beings, not just humans",
+   "t0": 10.87,
+   "t1": 13.32
+  },
+  {
+   "kind": "image",
+   "acc": "1983.1",
+   "file": ".work/img/1983.1_full.jpg",
+   "crop": [
+    500,
+    0,
+    2403,
+    4272
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Han tomb dog: a straw dog (covers the join before it)",
+   "t0": 13.32,
+   "t1": 18.17
+  },
+  {
+   "kind": "head",
+   "t0": 18.17,
+   "t1": 21.11
+  },
+  {
+   "kind": "image",
+   "acc": "1972.76.11",
+   "file": ".work/img/1972.76.11_full.jpg",
+   "crop": [
+    241,
+    0,
+    3506,
+    6233
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Northern Wei mortuary figure, dog of the zodiac: funerary ornaments",
+   "t0": 21.11,
+   "t1": 25.34
+  },
+  {
+   "kind": "head",
+   "t0": 25.34,
+   "t1": 29.91
+  },
+  {
+   "kind": "image",
+   "acc": "1922.220",
+   "file": ".work/img/1922.220_full.jpg",
+   "crop": [
+    584,
+    0,
+    2463,
+    4378
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Gifford, autumn wood path: we're all impermanent",
+   "t0": 29.91,
+   "t1": 31.91
+  },
+  {
+   "kind": "image",
+   "acc": "1981.13",
+   "file": ".work/img/1981.13_full.jpg",
+   "crop": [
+    715,
+    0,
+    2486,
+    4420
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "John Martin, Ruins of an Ancient City: every civilization is impermanent",
+   "t0": 31.91,
+   "t1": 34.89
+  },
+  {
+   "kind": "head",
+   "t0": 34.89,
+   "t1": 44.85
+  },
+  {
+   "kind": "image",
+   "acc": "1964.420",
+   "file": ".work/img/1964.420_full.jpg",
+   "crop": [
+    2244,
+    0,
+    2372,
+    4216
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Courbet, Panoramic View of the Alps: something much, much larger",
+   "t0": 44.85,
+   "t1": 47.25
+  },
+  {
+   "kind": "image",
+   "acc": "1967.241",
+   "file": ".work/img/1967.241_full.jpg",
+   "crop": [
+    1433,
+    1319,
+    3710,
+    6595
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Markandeya in the cosmic ocean: much, much deeper",
+   "t0": 47.25,
+   "t1": 50.05
+  },
+  {
+   "kind": "head",
+   "t0": 50.05,
+   "t1": 55.69
+  },
+  {
+   "kind": "image",
+   "acc": "1979.27.1.2",
+   "file": ".work/img/1979.27.1.2_full.jpg",
+   "crop": [
+    699,
+    1540,
+    1918,
+    3410
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Chen Hongshou, Laozi riding an ox: sages (on the join)",
+   "t0": 55.69,
+   "t1": 59.68
+  },
+  {
+   "kind": "head",
+   "t0": 59.68,
+   "t1": 63.62
+  },
+  {
+   "kind": "image",
+   "acc": "1965.235",
+   "file": ".work/img/1965.235_full.jpg",
+   "crop": [
+    2228,
+    0,
+    1983,
+    3525
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Harnett, Memento Mori: a date assigned to us",
+   "t0": 63.62,
+   "t1": 69.24
+  },
+  {
+   "kind": "head",
+   "t0": 69.24,
+   "t1": 73.64
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "Humane",
+     "s": 0.09,
+     "e": 0.41,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 0.41,
+     "e": 0.61,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 0.61,
+     "e": 0.83,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 0.87,
+     "e": 1.13,
+     "key": false
+    },
+    {
+     "w": "human",
+     "s": 1.15,
+     "e": 1.47,
+     "key": false
+    },
+    {
+     "w": "construct",
+     "s": 1.47,
+     "e": 2.81,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 3.31
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 3.67,
+     "e": 4.21,
+     "key": false
+    },
+    {
+     "w": "actually",
+     "s": 4.21,
+     "e": 4.61,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 4.61,
+     "e": 4.85,
+     "key": false
+    },
+    {
+     "w": "narrow",
+     "s": 4.85,
+     "e": 5.15,
+     "key": true
+    },
+    {
+     "w": "vision",
+     "s": 5.15,
+     "e": 5.63,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 6.13
+  },
+  {
+   "words": [
+    {
+     "w": "Heaven",
+     "s": 6.13,
+     "e": 6.31,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 6.31,
+     "e": 6.51,
+     "key": false
+    },
+    {
+     "w": "earth",
+     "s": 6.51,
+     "e": 6.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 6.61
+  },
+  {
+   "words": [
+    {
+     "w": "are",
+     "s": 6.61,
+     "e": 6.75,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 6.75,
+     "e": 6.91,
+     "key": false
+    },
+    {
+     "w": "humane",
+     "s": 6.91,
+     "e": 7.37,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 7.87
+  },
+  {
+   "words": [
+    {
+     "w": "They",
+     "s": 8.58,
+     "e": 8.67,
+     "key": false
+    },
+    {
+     "w": "regard",
+     "s": 8.67,
+     "e": 8.99,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 8.99,
+     "e": 9.19,
+     "key": true
+    },
+    {
+     "w": "beings",
+     "s": 9.19,
+     "e": 9.45,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 9.45
+  },
+  {
+   "words": [
+    {
+     "w": "as",
+     "s": 9.45,
+     "e": 9.69,
+     "key": false
+    },
+    {
+     "w": "straw",
+     "s": 9.69,
+     "e": 9.99,
+     "key": true
+    },
+    {
+     "w": "dogs",
+     "s": 9.99,
+     "e": 10.21,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 10.71
+  },
+  {
+   "words": [
+    {
+     "w": "All",
+     "s": 10.87,
+     "e": 11.11,
+     "key": false
+    },
+    {
+     "w": "beings,",
+     "s": 11.13,
+     "e": 11.67,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 11.83,
+     "e": 11.95,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 11.95,
+     "e": 12.25,
+     "key": false
+    },
+    {
+     "w": "humans",
+     "s": 12.32,
+     "e": 12.79,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "No",
+     "s": 10.43,
+     "e": 10.53,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 10.53,
+     "e": 10.61,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 10.61,
+     "e": 10.77,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 13.29
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 13.32,
+     "e": 13.58,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 13.58,
+     "e": 13.78,
+     "key": false
+    },
+    {
+     "w": "straw",
+     "s": 13.81,
+     "e": 13.96,
+     "key": true
+    },
+    {
+     "w": "dog",
+     "s": 13.96,
+     "e": 14.16,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 14.16
+  },
+  {
+   "words": [
+    {
+     "w": "would",
+     "s": 14.16,
+     "e": 14.3,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 14.3,
+     "e": 14.44,
+     "key": false
+    },
+    {
+     "w": "kind",
+     "s": 14.45,
+     "e": 14.56,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 14.56,
+     "e": 14.62,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 14.62,
+     "e": 14.72,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 14.72
+  },
+  {
+   "words": [
+    {
+     "w": "a",
+     "s": 14.72,
+     "e": 14.88,
+     "key": false
+    },
+    {
+     "w": "scarecrow",
+     "s": 14.88,
+     "e": 15.38,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 15.88
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 16.41,
+     "e": 16.42,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 16.7,
+     "e": 16.82,
+     "key": false
+    },
+    {
+     "w": "dog",
+     "s": 16.88,
+     "e": 17.28,
+     "key": false
+    },
+    {
+     "w": "made",
+     "s": 17.28,
+     "e": 17.46,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 17.46,
+     "e": 17.66,
+     "key": false
+    },
+    {
+     "w": "straw",
+     "s": 17.71,
+     "e": 17.92,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 18.27
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 18.27,
+     "e": 18.51,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 18.51,
+     "e": 18.65,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 18.65,
+     "e": 18.81,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 18.86,
+     "e": 19.01,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 19.01,
+     "e": 19.45,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 19.93
+  },
+  {
+   "words": [
+    {
+     "w": "at",
+     "s": 19.93,
+     "e": 20.05,
+     "key": false
+    },
+    {
+     "w": "least",
+     "s": 20.05,
+     "e": 20.17,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 20.17,
+     "e": 20.35,
+     "key": false
+    },
+    {
+     "w": "part",
+     "s": 20.41,
+     "e": 20.63,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 20.79
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 20.79,
+     "e": 20.85,
+     "key": false
+    },
+    {
+     "w": "they",
+     "s": 20.89,
+     "e": 20.97,
+     "key": false
+    },
+    {
+     "w": "were",
+     "s": 20.99,
+     "e": 21.11,
+     "key": false
+    },
+    {
+     "w": "funerary",
+     "s": 21.11,
+     "e": 21.99,
+     "key": true
+    },
+    {
+     "w": "ornaments",
+     "s": 21.99,
+     "e": 23.29,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 23.79
+  },
+  {
+   "words": [
+    {
+     "w": "like",
+     "s": 24.39,
+     "e": 24.47,
+     "key": false
+    },
+    {
+     "w": "tombstones",
+     "s": 24.47,
+     "e": 25.13,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 25.63
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 25.74,
+     "e": 25.83,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 25.83,
+     "e": 25.99,
+     "key": false
+    },
+    {
+     "w": "there",
+     "s": 25.99,
+     "e": 26.13,
+     "key": false
+    },
+    {
+     "w": "are",
+     "s": 26.13,
+     "e": 26.27,
+     "key": false
+    },
+    {
+     "w": "things",
+     "s": 26.29,
+     "e": 26.45,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 26.45
+  },
+  {
+   "words": [
+    {
+     "w": "above",
+     "s": 26.45,
+     "e": 26.87,
+     "key": false
+    },
+    {
+     "w": "humaneness",
+     "s": 27.11,
+     "e": 27.83,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "the",
+     "s": 26.87,
+     "e": 27.11,
+     "key": false
+    }
+   ],
+   "lines": [
+    1
+   ],
+   "t_off": 28.33
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 28.85,
+     "e": 28.95,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 28.95,
+     "e": 29.09,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 29.09,
+     "e": 29.19,
+     "key": false
+    },
+    {
+     "w": "them",
+     "s": 29.19,
+     "e": 29.29,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 29.29,
+     "e": 29.43,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 29.43
+  },
+  {
+   "words": [
+    {
+     "w": "understanding",
+     "s": 29.43,
+     "e": 29.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 29.91
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 29.91,
+     "e": 30.11,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 30.11,
+     "e": 30.27,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 30.27,
+     "e": 30.45,
+     "key": false
+    },
+    {
+     "w": "impermanent",
+     "s": 30.45,
+     "e": 30.99,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 31.19
+  },
+  {
+   "words": [
+    {
+     "w": "all",
+     "s": 31.19,
+     "e": 31.29,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 31.29,
+     "e": 31.41,
+     "key": false
+    },
+    {
+     "w": "us",
+     "s": 31.41,
+     "e": 31.57,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.63
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 31.63,
+     "e": 31.71,
+     "key": false
+    },
+    {
+     "w": "every",
+     "s": 31.71,
+     "e": 31.91,
+     "key": false
+    },
+    {
+     "w": "civilization",
+     "s": 31.91,
+     "e": 32.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 32.53
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 32.53,
+     "e": 32.75,
+     "key": false
+    },
+    {
+     "w": "impermanent",
+     "s": 32.75,
+     "e": 32.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 32.99
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 32.99,
+     "e": 33.25,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 33.47,
+     "e": 33.73,
+     "key": false
+    },
+    {
+     "w": "for",
+     "s": 33.73,
+     "e": 34.51,
+     "key": false
+    },
+    {
+     "w": "true",
+     "s": 34.51,
+     "e": 34.89,
+     "key": false
+    },
+    {
+     "w": "depth",
+     "s": 35.49,
+     "e": 35.79,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 35.79
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 35.79,
+     "e": 35.97,
+     "key": false
+    },
+    {
+     "w": "understanding",
+     "s": 35.97,
+     "e": 36.37,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 36.45
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 36.45,
+     "e": 36.53,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 36.53,
+     "e": 36.67,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 36.67,
+     "e": 36.85,
+     "key": false
+    },
+    {
+     "w": "move",
+     "s": 36.85,
+     "e": 37.13,
+     "key": true
+    },
+    {
+     "w": "beyond",
+     "s": 37.13,
+     "e": 37.65,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 37.65
+  },
+  {
+   "words": [
+    {
+     "w": "your",
+     "s": 37.65,
+     "e": 38.05,
+     "key": false
+    },
+    {
+     "w": "own",
+     "s": 38.05,
+     "e": 38.33,
+     "key": false
+    },
+    {
+     "w": "interest",
+     "s": 38.37,
+     "e": 38.85,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 38.85
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 38.85,
+     "e": 39.55,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 39.55,
+     "e": 39.65,
+     "key": false
+    },
+    {
+     "w": "interest",
+     "s": 39.65,
+     "e": 39.93,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 39.99
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 39.99,
+     "e": 40.15,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 40.15,
+     "e": 40.71,
+     "key": false
+    },
+    {
+     "w": "brothers",
+     "s": 40.71,
+     "e": 41.31,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 41.31
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 41.31,
+     "e": 41.57,
+     "key": false
+    },
+    {
+     "w": "sisters",
+     "s": 41.57,
+     "e": 41.87,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 41.87,
+     "e": 42.41,
+     "key": false
+    },
+    {
+     "w": "comrades",
+     "s": 42.41,
+     "e": 43.09,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 43.09
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 43.09,
+     "e": 44.19,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 44.19,
+     "e": 44.39,
+     "key": false
+    },
+    {
+     "w": "instead",
+     "s": 44.39,
+     "e": 44.85,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 44.85
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 44.85,
+     "e": 45.43,
+     "key": false
+    },
+    {
+     "w": "something",
+     "s": 45.43,
+     "e": 45.75,
+     "key": false
+    },
+    {
+     "w": "much,",
+     "s": 45.75,
+     "e": 46.31,
+     "key": false
+    },
+    {
+     "w": "much",
+     "s": 46.4,
+     "e": 46.59,
+     "key": false
+    },
+    {
+     "w": "larger",
+     "s": 46.59,
+     "e": 47.07,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 47.25
+  },
+  {
+   "words": [
+    {
+     "w": "much,",
+     "s": 47.25,
+     "e": 47.39,
+     "key": false
+    },
+    {
+     "w": "much",
+     "s": 47.39,
+     "e": 48.19,
+     "key": false
+    },
+    {
+     "w": "deeper",
+     "s": 48.41,
+     "e": 48.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 49.41
+  },
+  {
+   "words": [
+    {
+     "w": "much",
+     "s": 50.05,
+     "e": 50.23,
+     "key": false
+    },
+    {
+     "w": "broader",
+     "s": 50.36,
+     "e": 51.01,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 51.01,
+     "e": 52.13,
+     "key": false
+    },
+    {
+     "w": "wise",
+     "s": 52.13,
+     "e": 53.11,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 53.11
+  },
+  {
+   "words": [
+    {
+     "w": "than",
+     "s": 53.11,
+     "e": 53.61,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 53.61,
+     "e": 53.93,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 53.99,
+     "e": 54.69,
+     "key": false
+    },
+    {
+     "w": "humaneness",
+     "s": 54.69,
+     "e": 55.57,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.07
+  },
+  {
+   "words": [
+    {
+     "w": "Sages",
+     "s": 56.12,
+     "e": 56.38,
+     "key": true
+    },
+    {
+     "w": "are",
+     "s": 56.38,
+     "e": 56.6,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 56.6,
+     "e": 56.76,
+     "key": false
+    },
+    {
+     "w": "humane",
+     "s": 56.76,
+     "e": 57.26,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 57.72
+  },
+  {
+   "words": [
+    {
+     "w": "They",
+     "s": 57.72,
+     "e": 57.82,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 57.82,
+     "e": 58.06,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 58.06,
+     "e": 58.3,
+     "key": false
+    },
+    {
+     "w": "people",
+     "s": 58.3,
+     "e": 58.68,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 58.68
+  },
+  {
+   "words": [
+    {
+     "w": "as",
+     "s": 58.68,
+     "e": 58.94,
+     "key": false
+    },
+    {
+     "w": "straw",
+     "s": 58.94,
+     "e": 59.24,
+     "key": true
+    },
+    {
+     "w": "dogs",
+     "s": 59.24,
+     "e": 59.54,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 59.68
+  },
+  {
+   "words": [
+    {
+     "w": "Well,",
+     "s": 59.68,
+     "e": 59.8,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 59.92,
+     "e": 60.04,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 60.04,
+     "e": 60.24,
+     "key": false
+    },
+    {
+     "w": "gonna",
+     "s": 60.24,
+     "e": 60.5,
+     "key": false
+    },
+    {
+     "w": "die",
+     "s": 60.52,
+     "e": 60.78,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 61.28
+  },
+  {
+   "words": [
+    {
+     "w": "We",
+     "s": 62.16,
+     "e": 62.32,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 62.32,
+     "e": 62.52,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 62.52,
+     "e": 62.84,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 63.36,
+     "e": 63.6,
+     "key": false
+    },
+    {
+     "w": "date",
+     "s": 63.62,
+     "e": 63.98,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 64.48
+  },
+  {
+   "words": [
+    {
+     "w": "assigned",
+     "s": 65.82,
+     "e": 66.1,
+     "key": true
+    },
+    {
+     "w": "to",
+     "s": 66.12,
+     "e": 66.46,
+     "key": false
+    },
+    {
+     "w": "us",
+     "s": 66.46,
+     "e": 66.72,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 66.8
+  },
+  {
+   "words": [
+    {
+     "w": "We",
+     "s": 66.8,
+     "e": 67.04,
+     "key": false
+    },
+    {
+     "w": "don't",
+     "s": 67.04,
+     "e": 67.16,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 67.16,
+     "e": 67.34,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 67.34,
+     "e": 67.46,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 67.46,
+     "e": 67.6,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 67.6,
+     "e": 67.86,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 67.94
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 67.94,
+     "e": 68.32,
+     "key": false
+    },
+    {
+     "w": "unknowable",
+     "s": 68.32,
+     "e": 69.06,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 69.56
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 69.84,
+     "e": 69.93,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 69.93,
+     "e": 70.11,
+     "key": false
+    },
+    {
+     "w": "understand",
+     "s": 70.11,
+     "e": 70.63,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 70.63,
+     "e": 70.89,
+     "key": false
+    },
+    {
+     "w": "deeply",
+     "s": 70.97,
+     "e": 71.39,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 71.39
+  },
+  {
+   "words": [
+    {
+     "w": "helps",
+     "s": 71.39,
+     "e": 71.97,
+     "key": false
+    },
+    {
+     "w": "someone",
+     "s": 71.97,
+     "e": 72.35,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 72.35,
+     "e": 72.63,
+     "key": false
+    },
+    {
+     "w": "clearly",
+     "s": 72.63,
+     "e": 73.09,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 73.59
+  }
+ ],
+ "title": {
+  "text": "We are all straw dogs",
+  "t0": 0.0,
+  "t1": 3.6,
+  "size": 52
+ },
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "crop_track": ".work/tao-ch5-straw-dogs/crop_track.json"
+}

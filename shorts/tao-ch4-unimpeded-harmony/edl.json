@@ -1,0 +1,1872 @@
+{
+ "slug": "tao-ch4-unimpeded-harmony",
+ "segments": [
+  {
+   "src_start": 313.84,
+   "src_end": 323.3
+  },
+  {
+   "src_start": 65.55,
+   "src_end": 67.8
+  },
+  {
+   "src_start": 71.6,
+   "src_end": 127.55
+  },
+  {
+   "src_start": 428.1,
+   "src_end": 437.3
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 9.46
+  },
+  {
+   "kind": "image",
+   "acc": "1967.145",
+   "file": ".work/img/1967.145_full.jpg",
+   "crop": [
+    1939,
+    3683,
+    1554,
+    2762
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "rushing stream (on the join, so the dissolve hides the jump)",
+   "t0": 9.46,
+   "t1": 12.7
+  },
+  {
+   "kind": "head",
+   "t0": 12.7,
+   "t1": 18.93
+  },
+  {
+   "kind": "image",
+   "acc": "1982.53",
+   "file": ".work/img/1982.53_full.jpg",
+   "crop": [
+    113,
+    531,
+    1803,
+    3205
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "magpie on a willow branch",
+   "t0": 18.93,
+   "t1": 21.07
+  },
+  {
+   "kind": "image",
+   "acc": "1979.70",
+   "file": ".work/img/1979.70_full.jpg",
+   "crop": [
+    320,
+    388,
+    2003,
+    3561
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "chestnuts and squirrel",
+   "t0": 21.07,
+   "t1": 25.69
+  },
+  {
+   "kind": "image",
+   "acc": "1979.70",
+   "file": ".work/img/1979.70_full.jpg",
+   "crop": [
+    0,
+    2843,
+    2003,
+    3561
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "squirrel on the ground",
+   "t0": 25.69,
+   "t1": 28.55
+  },
+  {
+   "kind": "head",
+   "t0": 28.55,
+   "t1": 36.15
+  },
+  {
+   "kind": "image",
+   "acc": "1975.71.1",
+   "file": ".work/img/1975.71.1_full.jpg",
+   "crop": [
+    501,
+    4122,
+    1999,
+    3554
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "rain into rocks and earth",
+   "t0": 36.15,
+   "t1": 40.55
+  },
+  {
+   "kind": "image",
+   "acc": "1953.126",
+   "file": ".work/img/1953.126_full.jpg",
+   "crop": [
+    5194,
+    217,
+    2195,
+    3902
+   ],
+   "pan": 900,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "handscroll, slow pan: forever and ever",
+   "t0": 40.55,
+   "t1": 47.83
+  },
+  {
+   "kind": "head",
+   "t0": 47.83,
+   "t1": 50.63
+  },
+  {
+   "kind": "image",
+   "acc": "1970.76",
+   "file": ".work/img/1970.76_full.jpg",
+   "crop": [
+    999,
+    1303,
+    2301,
+    4090
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "rainstorm",
+   "t0": 50.63,
+   "t1": 52.17
+  },
+  {
+   "kind": "image",
+   "acc": "1966.366",
+   "file": ".work/img/1966.366_full.jpg",
+   "crop": [
+    152,
+    198,
+    1901,
+    3379
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "upheaved crags: earthquake",
+   "t0": 52.17,
+   "t1": 54.32
+  },
+  {
+   "kind": "head",
+   "t0": 54.32,
+   "t1": 60.71
+  },
+  {
+   "kind": "image",
+   "acc": "2015.482.1",
+   "file": ".work/img/2015.482.1_full.jpg",
+   "crop": [
+    8720,
+    1269,
+    2644,
+    4701
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "misty mountains and water (inside one screen panel)",
+   "t0": 60.71,
+   "t1": 65.63
+  },
+  {
+   "kind": "image",
+   "acc": "1997.88",
+   "file": ".work/img/1997.88_full.jpg",
+   "crop": [
+    4358,
+    723,
+    4319,
+    7679
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "scholar, pine, stream",
+   "t0": 65.63,
+   "t1": 68.0
+  },
+  {
+   "kind": "head",
+   "t0": 68.0,
+   "t1": 74.16
+  },
+  {
+   "kind": "image",
+   "acc": "1987.186",
+   "file": ".work/img/1987.186_full.jpg",
+   "crop": [
+    0,
+    1184,
+    3196,
+    5682
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "bamboo in moonlight",
+   "t0": 74.16,
+   "t1": 76.86
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "There's",
+     "s": 0.14,
+     "e": 0.26,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 0.26,
+     "e": 0.5,
+     "key": false
+    },
+    {
+     "w": "hard",
+     "s": 1.3,
+     "e": 1.46,
+     "key": false
+    },
+    {
+     "w": "lines",
+     "s": 1.46,
+     "e": 1.98,
+     "key": true
+    },
+    {
+     "w": "in",
+     "s": 1.98,
+     "e": 2.66,
+     "key": false
+    },
+    {
+     "w": "nature",
+     "s": 2.66,
+     "e": 3.24,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 0.5,
+     "e": 0.72,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 0.72,
+     "e": 0.98,
+     "key": false
+    }
+   ],
+   "lines": [
+    3
+   ],
+   "t_off": 3.24
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 3.24,
+     "e": 3.94,
+     "key": false
+    },
+    {
+     "w": "nothing",
+     "s": 3.94,
+     "e": 4.3,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 4.3,
+     "e": 4.54,
+     "key": false
+    },
+    {
+     "w": "separate",
+     "s": 4.54,
+     "e": 4.98,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 5.42
+  },
+  {
+   "words": [
+    {
+     "w": "Everything's",
+     "s": 5.42,
+     "e": 6.04,
+     "key": false
+    },
+    {
+     "w": "interdependent",
+     "s": 6.67,
+     "e": 7.34,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 7.6
+  },
+  {
+   "words": [
+    {
+     "w": "Everything",
+     "s": 7.6,
+     "e": 7.78,
+     "key": false
+    },
+    {
+     "w": "depends",
+     "s": 7.78,
+     "e": 8.14,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 8.14,
+     "e": 8.32,
+     "key": false
+    },
+    {
+     "w": "everything",
+     "s": 8.32,
+     "e": 8.6,
+     "key": false
+    },
+    {
+     "w": "else",
+     "s": 8.6,
+     "e": 9.08,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 9.58
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 9.84,
+     "e": 9.97,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 9.97,
+     "e": 10.23,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 10.23,
+     "e": 10.47,
+     "key": false
+    },
+    {
+     "w": "unimpeded",
+     "s": 10.47,
+     "e": 11.13,
+     "key": false
+    },
+    {
+     "w": "harmony",
+     "s": 11.13,
+     "e": 11.55,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 12.05
+  },
+  {
+   "words": [
+    {
+     "w": "When",
+     "s": 12.7,
+     "e": 13.01,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 13.01,
+     "e": 13.11,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 13.11,
+     "e": 13.25,
+     "key": false
+    },
+    {
+     "w": "out",
+     "s": 13.25,
+     "e": 13.43,
+     "key": false
+    },
+    {
+     "w": "at",
+     "s": 13.43,
+     "e": 13.63,
+     "key": false
+    },
+    {
+     "w": "nature",
+     "s": 13.63,
+     "e": 13.95,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 14.45
+  },
+  {
+   "words": [
+    {
+     "w": "what",
+     "s": 14.73,
+     "e": 14.91,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 14.91,
+     "e": 15.05,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 15.15,
+     "e": 15.27,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 15.27,
+     "e": 15.45,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 15.53
+  },
+  {
+   "words": [
+    {
+     "w": "everything",
+     "s": 15.53,
+     "e": 15.89,
+     "key": false
+    },
+    {
+     "w": "working",
+     "s": 15.89,
+     "e": 16.27,
+     "key": false
+    },
+    {
+     "w": "together",
+     "s": 16.27,
+     "e": 16.75,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 17.25
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 18.93,
+     "e": 19.05,
+     "key": false
+    },
+    {
+     "w": "birds",
+     "s": 19.05,
+     "e": 19.51,
+     "key": true
+    },
+    {
+     "w": "sit",
+     "s": 19.95,
+     "e": 20.03,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 20.03,
+     "e": 20.17,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 20.17,
+     "e": 20.35,
+     "key": false
+    },
+    {
+     "w": "trees",
+     "s": 20.35,
+     "e": 20.69,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 21.07
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 21.07,
+     "e": 21.13,
+     "key": false
+    },
+    {
+     "w": "trees",
+     "s": 21.15,
+     "e": 21.43,
+     "key": true
+    },
+    {
+     "w": "produce",
+     "s": 21.43,
+     "e": 21.89,
+     "key": false
+    },
+    {
+     "w": "seeds",
+     "s": 22.1,
+     "e": 22.41,
+     "key": false
+    },
+    {
+     "w": "or",
+     "s": 22.41,
+     "e": 23.15,
+     "key": false
+    },
+    {
+     "w": "nuts",
+     "s": 23.15,
+     "e": 23.69,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 23.81
+  },
+  {
+   "words": [
+    {
+     "w": "for",
+     "s": 23.81,
+     "e": 23.89,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 23.89,
+     "e": 24.05,
+     "key": false
+    },
+    {
+     "w": "squirrels",
+     "s": 24.14,
+     "e": 25.31,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 25.69
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 25.69,
+     "e": 25.81,
+     "key": false
+    },
+    {
+     "w": "squirrels",
+     "s": 25.81,
+     "e": 26.29,
+     "key": false
+    },
+    {
+     "w": "produce",
+     "s": 26.29,
+     "e": 26.51,
+     "key": false
+    },
+    {
+     "w": "fertilizers",
+     "s": 26.51,
+     "e": 27.03,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 27.03
+  },
+  {
+   "words": [
+    {
+     "w": "for",
+     "s": 27.03,
+     "e": 27.27,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 27.27,
+     "e": 27.43,
+     "key": false
+    },
+    {
+     "w": "grass",
+     "s": 27.43,
+     "e": 27.75,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 28.25
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 28.55,
+     "e": 28.65,
+     "key": false
+    },
+    {
+     "w": "grass",
+     "s": 28.65,
+     "e": 28.89,
+     "key": false
+    },
+    {
+     "w": "produces",
+     "s": 28.89,
+     "e": 29.61,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 29.81,
+     "e": 31.01,
+     "key": false
+    },
+    {
+     "w": "substrate",
+     "s": 31.01,
+     "e": 31.43,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.43
+  },
+  {
+   "words": [
+    {
+     "w": "for",
+     "s": 31.43,
+     "e": 31.67,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 31.67,
+     "e": 31.83,
+     "key": false
+    },
+    {
+     "w": "worms",
+     "s": 31.83,
+     "e": 32.19,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 32.69
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 32.77,
+     "e": 32.91,
+     "key": false
+    },
+    {
+     "w": "worms",
+     "s": 32.91,
+     "e": 33.21,
+     "key": false
+    },
+    {
+     "w": "produce",
+     "s": 33.21,
+     "e": 34.19,
+     "key": false
+    },
+    {
+     "w": "food",
+     "s": 34.19,
+     "e": 34.45,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 34.45
+  },
+  {
+   "words": [
+    {
+     "w": "for",
+     "s": 34.45,
+     "e": 34.65,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 34.65,
+     "e": 34.79,
+     "key": false
+    },
+    {
+     "w": "birds",
+     "s": 34.79,
+     "e": 35.19,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 35.69
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 36.15,
+     "e": 36.27,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 36.27,
+     "e": 36.57,
+     "key": false
+    },
+    {
+     "w": "worms",
+     "s": 36.57,
+     "e": 36.83,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 36.83,
+     "e": 37.23,
+     "key": false
+    },
+    {
+     "w": "aerate",
+     "s": 37.23,
+     "e": 37.75,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 37.75
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 37.75,
+     "e": 37.93,
+     "key": false
+    },
+    {
+     "w": "ground",
+     "s": 37.93,
+     "e": 38.17,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 38.17
+  },
+  {
+   "words": [
+    {
+     "w": "so",
+     "s": 38.17,
+     "e": 38.45,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 38.45,
+     "e": 38.59,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 38.64,
+     "e": 38.77,
+     "key": false
+    },
+    {
+     "w": "water",
+     "s": 38.77,
+     "e": 38.99,
+     "key": true
+    },
+    {
+     "w": "can",
+     "s": 38.99,
+     "e": 39.25,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 39.25,
+     "e": 39.41,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 39.47,
+     "e": 39.83,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 40.33
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 40.55,
+     "e": 40.63,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 40.63,
+     "e": 40.85,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 40.85,
+     "e": 41.01,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 41.01,
+     "e": 41.15,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 41.15,
+     "e": 41.29,
+     "key": false
+    },
+    {
+     "w": "forth",
+     "s": 41.29,
+     "e": 41.51,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 41.6
+  },
+  {
+   "words": [
+    {
+     "w": "forever",
+     "s": 41.6,
+     "e": 41.87,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 41.87,
+     "e": 42.07,
+     "key": false
+    },
+    {
+     "w": "ever",
+     "s": 42.07,
+     "e": 42.29,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 42.29
+  },
+  {
+   "words": [
+    {
+     "w": "on",
+     "s": 42.29,
+     "e": 42.57,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 42.57,
+     "e": 42.75,
+     "key": false
+    },
+    {
+     "w": "planet",
+     "s": 42.85,
+     "e": 43.05,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 43.27
+  },
+  {
+   "words": [
+    {
+     "w": "this",
+     "s": 43.27,
+     "e": 43.29,
+     "key": false
+    },
+    {
+     "w": "marvelous",
+     "s": 43.34,
+     "e": 43.83,
+     "key": true
+    },
+    {
+     "w": "planet",
+     "s": 43.83,
+     "e": 44.31,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 44.63
+  },
+  {
+   "words": [
+    {
+     "w": "Everything",
+     "s": 44.63,
+     "e": 44.81,
+     "key": false
+    },
+    {
+     "w": "works",
+     "s": 44.81,
+     "e": 45.11,
+     "key": false
+    },
+    {
+     "w": "together",
+     "s": 45.11,
+     "e": 45.45,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 45.45
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 45.45,
+     "e": 45.79,
+     "key": false
+    },
+    {
+     "w": "an",
+     "s": 45.79,
+     "e": 46.27,
+     "key": false
+    },
+    {
+     "w": "incredible",
+     "s": 46.27,
+     "e": 46.69,
+     "key": false
+    },
+    {
+     "w": "harmony",
+     "s": 46.69,
+     "e": 47.21,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 47.71
+  },
+  {
+   "words": [
+    {
+     "w": "Now,",
+     "s": 47.83,
+     "e": 47.63,
+     "key": false
+    },
+    {
+     "w": "from",
+     "s": 48.03,
+     "e": 48.09,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 48.09,
+     "e": 48.25,
+     "key": false
+    },
+    {
+     "w": "human",
+     "s": 48.25,
+     "e": 48.49,
+     "key": true
+    },
+    {
+     "w": "point",
+     "s": 48.49,
+     "e": 48.77,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 48.77,
+     "e": 48.91,
+     "key": false
+    },
+    {
+     "w": "view",
+     "s": 48.91,
+     "e": 49.07,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 49.19
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 49.19,
+     "e": 49.25,
+     "key": false
+    },
+    {
+     "w": "may",
+     "s": 49.25,
+     "e": 49.39,
+     "key": false
+    },
+    {
+     "w": "think",
+     "s": 49.51,
+     "e": 49.77,
+     "key": false
+    },
+    {
+     "w": "oh,",
+     "s": 50.31,
+     "e": 50.41,
+     "key": false
+    },
+    {
+     "w": "well",
+     "s": 50.49,
+     "e": 50.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 50.63
+  },
+  {
+   "words": [
+    {
+     "w": "there's",
+     "s": 50.63,
+     "e": 50.77,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 50.77,
+     "e": 50.93,
+     "key": false
+    },
+    {
+     "w": "storm",
+     "s": 50.96,
+     "e": 51.19,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 51.21
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 51.21,
+     "e": 51.43,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 51.44,
+     "e": 51.57,
+     "key": false
+    },
+    {
+     "w": "harmonious",
+     "s": 51.57,
+     "e": 52.07,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 52.17
+  },
+  {
+   "words": [
+    {
+     "w": "There's",
+     "s": 52.17,
+     "e": 52.33,
+     "key": false
+    },
+    {
+     "w": "an",
+     "s": 52.33,
+     "e": 52.49,
+     "key": false
+    },
+    {
+     "w": "earthquake",
+     "s": 52.49,
+     "e": 52.85,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 52.99
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 52.99,
+     "e": 53.19,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 53.19,
+     "e": 53.29,
+     "key": false
+    },
+    {
+     "w": "harmonious",
+     "s": 53.29,
+     "e": 53.89,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 54.32
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 54.32,
+     "e": 54.49,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 54.49,
+     "e": 54.63,
+     "key": false
+    },
+    {
+     "w": "fact",
+     "s": 54.66,
+     "e": 54.85,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 54.91,
+     "e": 54.99,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 54.99,
+     "e": 55.31,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 55.81
+  },
+  {
+   "words": [
+    {
+     "w": "It",
+     "s": 56.22,
+     "e": 56.43,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 56.44,
+     "e": 56.59,
+     "key": false
+    },
+    {
+     "w": "doesn't",
+     "s": 56.59,
+     "e": 56.85,
+     "key": false
+    },
+    {
+     "w": "seem",
+     "s": 56.85,
+     "e": 57.01,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 57.01,
+     "e": 57.21,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 57.22,
+     "e": 57.33,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 57.33
+  },
+  {
+   "words": [
+    {
+     "w": "from",
+     "s": 57.33,
+     "e": 57.51,
+     "key": false
+    },
+    {
+     "w": "our",
+     "s": 57.51,
+     "e": 57.69,
+     "key": false
+    },
+    {
+     "w": "limited",
+     "s": 57.69,
+     "e": 58.05,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 58.05,
+     "e": 58.91,
+     "key": false
+    },
+    {
+     "w": "self-interest",
+     "s": 58.91,
+     "e": 59.65,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 60.15
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 60.39,
+     "e": 60.49,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 60.49,
+     "e": 60.61,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 60.61,
+     "e": 60.71,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 60.71,
+     "e": 60.85,
+     "key": false
+    },
+    {
+     "w": "at",
+     "s": 60.85,
+     "e": 60.97,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 60.97,
+     "e": 61.09,
+     "key": false
+    },
+    {
+     "w": "planet",
+     "s": 61.09,
+     "e": 61.41,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 61.41
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 61.41,
+     "e": 61.59,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 61.59,
+     "e": 61.73,
+     "key": false
+    },
+    {
+     "w": "evolution",
+     "s": 61.73,
+     "e": 62.13,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 62.14,
+     "e": 62.33,
+     "key": false
+    },
+    {
+     "w": "its",
+     "s": 62.33,
+     "e": 62.53,
+     "key": false
+    },
+    {
+     "w": "consciousness",
+     "s": 62.53,
+     "e": 63.05,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 63.55
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 63.78,
+     "e": 64.03,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 64.03,
+     "e": 64.25,
+     "key": false
+    },
+    {
+     "w": "something",
+     "s": 64.25,
+     "e": 64.55,
+     "key": false
+    },
+    {
+     "w": "very,",
+     "s": 64.55,
+     "e": 64.91,
+     "key": false
+    },
+    {
+     "w": "very",
+     "s": 64.99,
+     "e": 65.15,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 65.15,
+     "e": 65.55,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 65.63
+  },
+  {
+   "words": [
+    {
+     "w": "You",
+     "s": 65.63,
+     "e": 65.75,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 65.75,
+     "e": 65.93,
+     "key": false
+    },
+    {
+     "w": "unimpeded",
+     "s": 65.93,
+     "e": 66.59,
+     "key": false
+    },
+    {
+     "w": "harmony",
+     "s": 66.67,
+     "e": 67.07,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 67.57
+  },
+  {
+   "words": [
+    {
+     "w": "It",
+     "s": 68.0,
+     "e": 68.4,
+     "key": false
+    },
+    {
+     "w": "blunts",
+     "s": 68.4,
+     "e": 68.72,
+     "key": true
+    },
+    {
+     "w": "your",
+     "s": 68.72,
+     "e": 68.92,
+     "key": false
+    },
+    {
+     "w": "edges",
+     "s": 68.92,
+     "e": 69.26,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 69.26
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 69.26,
+     "e": 69.46,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 69.46,
+     "e": 69.58,
+     "key": false
+    },
+    {
+     "w": "resolves",
+     "s": 69.58,
+     "e": 69.88,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 69.88,
+     "e": 70.1,
+     "key": false
+    },
+    {
+     "w": "complications",
+     "s": 70.12,
+     "e": 70.86,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 70.88
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 70.88,
+     "e": 71.22,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 71.22,
+     "e": 71.36,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 71.44,
+     "e": 71.58,
+     "key": false
+    },
+    {
+     "w": "complicated",
+     "s": 71.65,
+     "e": 72.24,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 72.24
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 72.24,
+     "e": 72.64,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 72.64,
+     "e": 72.92,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 72.92,
+     "e": 73.1,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 73.1,
+     "e": 73.24,
+     "key": false
+    },
+    {
+     "w": "looking",
+     "s": 73.24,
+     "e": 73.44,
+     "key": false
+    },
+    {
+     "w": "at",
+     "s": 73.44,
+     "e": 73.64,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 73.64,
+     "e": 73.86,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 74.16
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 74.16,
+     "e": 74.28,
+     "key": false
+    },
+    {
+     "w": "very,",
+     "s": 74.28,
+     "e": 74.44,
+     "key": false
+    },
+    {
+     "w": "very",
+     "s": 74.58,
+     "e": 74.62,
+     "key": false
+    },
+    {
+     "w": "simple",
+     "s": 74.62,
+     "e": 75.06,
+     "key": true
+    },
+    {
+     "w": "in",
+     "s": 75.12,
+     "e": 75.54,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 75.54,
+     "e": 75.68,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 75.68,
+     "e": 76.06,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 76.56
+  }
+ ],
+ "title": {
+  "text": "Nothing in nature is separate",
+  "t0": 0.0,
+  "t1": 3.6,
+  "size": 52
+ },
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "crop_track": ".work/tao-ch4-unimpeded-harmony/crop_track.json"
+}
