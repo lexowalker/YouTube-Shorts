@@ -24,11 +24,11 @@ python3 -I pipeline/reading.py find <N>
 ```
 python3 -I pipeline/reading.py align <slug> [--take N]
 ```
-- This transcribes the chapter's whole section (small.en), lists every complete read-through as `take 1`, `take 2`…, and uses the second (`--take`, default 2), since his second take is usually the better one. If there's only one take, it uses that. Line-by-line passes with commentary don't count as takes. Tell the user which take you used and why, especially when there was no second.
+- This transcribes the chapter's whole section (small.en), lists every complete read-through as `take 1`, `take 2`…, and uses the last one: he usually reads a chapter twice and prefers the later reading (`--take N` picks another). If there's only one take, it uses that. Line-by-line passes with commentary don't count as takes. Tell the user which take you used.
 - It then times the take (medium.en), snaps every caption onset to the voice, picks the clip and the face position, and prints the captions next to what was heard. It takes about 3–5 minutes per chapter (the section is transcribed once and cached).
 - Read the table:
-  - **Coverage under 85%** or **`<- CHECK`** lines: he skipped, repeated or changed words. Transcribe the stretch on its own (`reading.whisper(slug, "small.en", lo, hi)`) to hear what he actually said.
-  - **A dropped or reordered word:** the caption keeps Cleary's text. Tell the user.
+  - **Coverage under 85%** or **`<- CHECK`** lines: he skipped, repeated or changed words. Transcribe the stretch on its own (`reading.whisper(slug, "small.en", lo, hi)`) to tell a harmless slip from a misread he stops and corrects (cut that, below).
+  - **A dropped or reordered word:** expected, and fine. The caption always keeps the official text from the description, and there's nothing to raise.
   - **A misread he corrects** (a long gap between two captions is the sign): cut it. Add `"cuts": [[a, b]]` in source seconds, with `a` in the pause after the last good line (leave about 1 s of pause) and `b` in the gap just before the corrected line, checked on the envelope. Record why in `notes`.
   - **Header:** "Chapter N" and the title caption are added only when he announces the chapter within about 12 s before the first line.
   - **Captions:** check the splits and line breaks read naturally. Edit `captions[].text` if a break is clumsy (`\N` is the line break).

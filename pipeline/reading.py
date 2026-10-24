@@ -4,8 +4,8 @@
       Find the chapter on the archive.org channel, download the video to .work/<slug>/source.mp4 and write
       shorts/<slug>/reading.json with the chapter's Cleary text (from the item description) and its section times.
   python3 -I pipeline/reading.py align <slug> [--take N]
-      Find every complete read-through (small.en) and use take N (default 2, usually his better take; the only one
-      if he read it once). Time it (medium.en), snap every caption onset to where the voice rises in the audio
+      Find every complete read-through (small.en) and use take N (default: the last; when he reads a chapter
+      twice the later take is the one he prefers). Time it (medium.en), snap every caption onset to where the voice rises in the audio
       envelope, choose the clip and the face position, and write the captions into reading.json.
   python3 -I pipeline/reading.py render <slug>
       shorts/<slug>/<slug>.mp4: full-frame 9:16 crop of the item's 4K video, title box, captions, house end card.
@@ -398,8 +398,8 @@ def cmd_align(a):
     if spec.get("locked") and not a.force:
         sys.exit(f"{slug} is locked (an approved Short); pass --force to re-align it and lose its timings")
     lo, hi = spec["section"]
-    # 1. find every read-through in the section (small.en) and take the one asked for (default: the second,
-    #    which is usually his better take; the only one if he read it once)
+    # 1. find every read-through in the section (small.en) and take the one asked for (default: the last; when he
+    #    reads a chapter twice the later take is the one he prefers)
     phrases = phrases_of(spec["text"])
     body = " ".join(phrases).split()
     words, t = [], max(0.0, lo - 5)
@@ -418,8 +418,8 @@ def cmd_align(a):
         print(f"  WARNING: no complete read-through; best partial {words[r[0]]['s']:.1f}s at {r[2]:.0%}. He may read it in "
               "pieces or change words. Check before rendering.")
         found = [r]
-    take = min(a.take, len(found))
-    if take != a.take:
+    take = min(a.take or len(found), len(found))
+    if a.take and take != a.take:
         print(f"  only {len(found)} take(s); using take {take}")
     r = found[take - 1]
     r0, r1 = words[r[0]]["s"] - 12, words[r[1]]["e"] + 6
@@ -734,7 +734,7 @@ def main():
     al = sub.add_parser("align")
     al.add_argument("slug")
     al.add_argument("--force", action="store_true", help="re-align a locked (approved) Short")
-    al.add_argument("--take", type=int, default=2, help="which complete read-through to use (default 2, his usual better take)")
+    al.add_argument("--take", type=int, help="which complete read-through to use (default: the last, his preferred take)")
     for name in ("render", "qa"):
         sub.add_parser(name).add_argument("slug")
     a = ap.parse_args()
