@@ -8,19 +8,14 @@
  },
  "teaching": "Always passionless, thereby observe the subtle; ever intent, thereby observe the apparent: passion, anger, anxiety and craving hide the subtle, attention shows us what is in front of us, and we need both (Tao Te Ching, Chapter 1, Thomas Cleary translation).",
  "youtube_title": "Passionless, You See the Subtle",
- "title": {
-  "text": "To see the subtle, be still",
-  "dur": 3.6,
-  "size": 52
- },
  "caption_y": 0.83,
  "segments": [
   [
    996.05,
-   1003.85
+   1003.62
   ],
   [
-   941.4,
+   941.58,
    949.85
   ],
   [
@@ -41,10 +36,10 @@
   ],
   [
    1042.61,
-   1048.0
+   1047.75
   ],
   [
-   1058.7,
+   1058.86,
    1070.8
   ],
   [
@@ -471,7 +466,20 @@
     "x0": 0.04,
     "y0": 0.22,
     "h": 0.45,
-    "note": "mist over water and far hills: the subtle (on the join)"
+    "note": "mist over water and far hills: 'observe the subtle' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Ever",
+    "after": 8.0
+   },
+   "image": {
+    "acc": "2026.15",
+    "x0": 0.02,
+    "y0": 0.26,
+    "h": 0.55,
+    "note": "white falcon, intent: 'Ever intent, thereby observe the apparent'"
    }
   },
   {
@@ -489,7 +497,7 @@
     "x0": 0.503,
     "y0": 0.25,
     "h": 0.63,
-    "note": "leaping tiger: vim and vigor and drive (one panel; on the join)"
+    "note": "leaping tiger: 'vim and vigor and drive' (one panel; on the join)"
    }
   },
   {
@@ -515,11 +523,11 @@
     "phrase": "If we're consumed"
    },
    "image": {
-    "acc": "2015.478",
-    "x0": 0.12,
-    "y0": 0.59,
-    "h": 0.28,
-    "note": "gibbon stretching down for the moon's reflection: craving"
+    "acc": "1971.91",
+    "x0": 0.08,
+    "y0": 0.18,
+    "h": 0.62,
+    "note": "Mughal lovers embracing: 'consumed with lust' (worldly passion, against the plain ink of the Way)"
    }
   },
   {
@@ -531,27 +539,27 @@
   {
    "at": {
     "word": "pay",
-    "after": 38.0
+    "after": 36.0
    },
    "image": {
-    "acc": "2026.15",
-    "x0": 0.02,
-    "y0": 0.26,
-    "h": 0.55,
-    "note": "falcon, intent on what is in front of it (covers the join)"
+    "acc": "1997.88",
+    "x0": 0.44,
+    "y0": 0.475,
+    "h": 0.5,
+    "note": "scholar intently watching across the stream: 'pay attention… intent to see what's right in front of you' (covers the join)"
    }
   },
   {
    "at": {
     "phrase": "If you want to",
-    "after": 43.0
+    "after": 42.0
    },
    "image": {
-    "acc": "2015.480",
-    "x0": 0.12,
-    "y0": 0.08,
-    "h": 0.75,
-    "note": "mountain temple: hear that bell"
+    "acc": "1992.118",
+    "x0": 0.1625,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Goryeo temple bell, 1226: 'hear that bell'"
    }
   },
   {
@@ -563,27 +571,27 @@
   {
    "at": {
     "word": "study",
-    "after": 50.0
+    "after": 49.0
    },
    "image": {
-    "acc": "1997.94",
-    "x0": 0.47,
-    "y0": 0.3,
-    "h": 0.55,
-    "note": "scholar at his books under the pines: study this book"
+    "acc": "2015.592",
+    "x0": 0.55,
+    "y0": 0.14,
+    "h": 0.69,
+    "note": "Hanshan reading his scroll: 'study this book'"
    }
   },
   {
    "at": {
     "word": "But",
-    "after": 54.0
+    "after": 53.0
    },
    "image": {
-    "acc": "1962.163",
-    "x0": 0.28,
-    "y0": 0.45,
-    "h": 0.5,
-    "note": "monk quietly mending his robe: putting it into practice, passionless"
+    "acc": "1972.41",
+    "x0": 0.44,
+    "y0": 0.62,
+    "h": 0.15,
+    "note": "Bodhidharma meditating facing the cliff: 'put this book into practice… passionless'"
    }
   },
   {
@@ -594,15 +602,33 @@
   },
   {
    "at": {
+    "phrase": "run over"
+   },
+   "image": {
+    "acc": "1915.680",
+    "x0": 0.35,
+    "y0": 0.38,
+    "h": 0.45,
+    "note": "galloping riders: 'run over by a bus' (a classical stand-in)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "And you also"
+   },
+   "head": true
+  },
+  {
+   "at": {
     "word": "quiet",
-    "after": 66.0
+    "after": 65.0
    },
    "image": {
     "acc": "1977.30",
     "x0": 0.46,
     "y0": 0.0,
     "h": 0.85,
-    "note": "two figures quietly gazing at a waterfall through mist: quiet enough to observe the subtle nuance"
+    "note": "two figures quietly gazing into mist: 'quiet enough… to observe the subtle nuance'"
    }
   },
   {
@@ -620,12 +646,12 @@
     "x0": 0.66,
     "y0": 0.03,
     "h": 0.94,
+    "note": "handscroll, slow pan: the whole world, the whole universe, and more",
     "pan": 1800,
     "zoom": [
      1.04,
      1.0
-    ],
-    "note": "handscroll, slow pan: the whole world, the whole universe, and more"
+    ]
    }
   },
   {
@@ -637,7 +663,7 @@
     "x0": 0.666,
     "y0": 0.2,
     "h": 0.64,
-    "note": "faint mountains in moonlit mist: so, so subtle (one panel; under the end-card dissolve)"
+    "note": "faint mountains in moonlit mist: 'so, so subtle' (one panel; under the end-card dissolve)"
    }
   }
  ],

@@ -45,12 +45,17 @@ Propose 2–3 candidate teachings, each with a rough cut (source ranges, hook li
 
 ## 5. Images
 - Search with `pipeline/cma.py search "<subject>" --type Painting` (or `--dept "Chinese Art"`) or `cma.py title "<title>"`. Compare candidates with `cma.py sheet <acc> …` (print-size previews, no full download; some masters are over a gigabyte). Then fetch the chosen ones with `cma.py get <accession> …` and look at `cma.py proxy <accession>` (it has a 10% grid) to choose crops.
-- Modern subjects (a car, a phone) get a classical stand-in that keeps the meaning, such as a groomed horse for "my beautiful car", or stay on David's face.
-- Match each image literally to its line. Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
+- **Plan the images from the words first.** Before searching, list each line you'll put an image on, the concrete thing it names, and the picture of that thing (see "Images" in `docs/style-guide.md`). Search for that picture, not for a mood. The user's rule: what he's saying must match what's on screen. A lust line gets lovers, a bell line gets a bell, a study line gets someone reading, not a landscape.
+- Scrolls are the default (Taoist, simple, natural). If none shows the thing, use another simple, natural artwork rather than a scroll that doesn't fit. Search beyond `--type Painting` (`cma.py search "bell"` finds bronzes and prints too).
+- Worldly states (anger, passion, lust, anxiety, striving) get turbulent or worldly imagery that contrasts with the Way; quiet imagery returns when he returns to stillness.
+- Modern subjects (a car, a bus, a phone) get a classical stand-in that keeps the meaning, such as a groomed horse for "my beautiful car" or stampeding horses for "run over by a bus", or stay on David's face.
+- Place each image on the word that names its subject (`"at": {"word": "...", "after": <phrase index>}`), not at the start of the phrase, and end it when he moves on to something else.
+- Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
+- No shot under about 1.2 s, and no head shot that is only a pause between two images: extend the image or merge the shots.
 - Crops in `short.json` are fractions of the image: `x0`, `y0` (top-left) and `h` (crop height). Width follows from 9:16.
 
 ## 6. Spec and EDL
-Write `shorts/<slug>/short.json`, copying the reference: `segments`, `phrases` (2-line chunks with one `*key` word), `cuts` (anchored to phrases, words or segment joins), `title`, `endcard`, `word_fixes` and `onset_fixes`. Then:
+Write `shorts/<slug>/short.json`, copying the reference: `segments`, `phrases` (2-line chunks with one `*key` word), `cuts` (anchored to phrases, words or segment joins), `title` (optional), `endcard`, `word_fixes` and `onset_fixes`. Then:
 
 ```
 python3 -I pipeline/build_edl.py <slug>     # asserts every caption word == spoken word; prints pacing
@@ -65,11 +70,13 @@ python3 -I pipeline/qa.py <slug>
 ```
 
 **Always run `draft.py` and look at its sheets before `render.py`.** It composes, with the renderer's own code, the
-frames that show most mistakes, and flags two automatically:
+frames that show most mistakes, and flags these automatically:
 - **BRIGHT:** a caption on a light background, such as his white beard or pale paper. Move it with `caption_y`, or change the crop.
 - **JUMP:** a join on a head shot with nothing over it.
+- **BLIP:** a shot under 1.2 s, a flash of him or of a painting that breaks the flow. Merge it into a neighbour.
+- **DEAD:** more than 0.8 s with nothing said across a join (it shows as a stray shot of him silent). Tighten the segment ends.
 
-Check the sheets yourself as well, for bad crops, an image on the wrong word or a face cut off. Fix everything, rebuild and draft again. Only then run the full render. A full render costs minutes; finding the problem after it means a second render.
+Check the sheets yourself as well, for bad crops, a face cut off, or an image on the wrong word: read each image tile's caption against the picture and ask whether it shows what he is saying. Fix everything, rebuild and draft again. Only then run the full render. A full render costs minutes; finding the problem after it means a second render.
 
 ## 7. QA (fix before the user sees it)
 - `qa.py` re-transcribes the finished audio, and its long context often hears fillers the range pass missed. Every caption word must match, and fillers marked `~` count as matched. For each flagged onset, read the dB envelope it prints: if the voice really starts where the caption does, it's fine; otherwise add an `onset_fixes` entry and rebuild.

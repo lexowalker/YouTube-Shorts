@@ -16,6 +16,8 @@ It writes .work/<slug>/draft_sheet_N.jpg (labelled contact sheets) and full-size
 
   BRIGHT  a caption sits on a light background (his white beard, pale paper): move it (caption_y) or change the crop
   JUMP    a segment join falls on a head shot with no image or dissolve over it: the jump cut would show
+  BLIP    a shot shorter than 1.2 s: a flash of him or of a painting that breaks the flow (merge it into a neighbour)
+  DEAD    more than 0.8 s with nothing said across a join: tighten the segment ends
 
 Head shots come from source.mp4 (fast to seek); --hires uses the 4K window instead (slower, sharper).
 Fix what it flags, rebuild, run it again, and only then run render.py.
@@ -82,8 +84,8 @@ def main():
     a = ap.parse_args()
     wd = work_dir(a.slug)
     edl = json.load(open(os.path.join(wd, "edl.json")))
-    comp = Composer(edl)
     head = HeadAt(a.slug, edl, a.hires)
+    comp = Composer(edl, hold=head)
     center_y = edl.get("caption_y", CAP_CENTER_Y)
     shots, prog = edl["shots"], comp.prog_dur
 
@@ -112,6 +114,17 @@ def main():
         if not (inside_image or on_cut):
             flags.append((j, f"JUMP: join at {j:.2f}s is on a head shot with nothing over it"))
 
+    # BLIP: very short shots; DEAD: silence across a join
+    for i, s in enumerate(shots):
+        d = min(s["t1"], prog) - s["t0"]
+        if d < 1.2 and s["t0"] < prog - 0.01:
+            flags.append((s["t0"], f"BLIP: shot {i} ({s['kind']} {s.get('acc', '')}) at {s['t0']:.2f}s lasts only {d:.2f}s"))
+    words = sorted((w for c in edl["captions"] for w in c["words"] + c.get("fillers", [])), key=lambda w: w["s"])
+    for j in joins:
+        before = max((w["e"] for w in words if w["e"] <= j + 0.05), default=0.0)
+        after = min((w["s"] for w in words if w["s"] >= j - 0.05), default=prog)
+        if after - before > 0.8:
+            flags.append((j, f"DEAD: {after - before:.2f}s with nothing said across the join at {j:.2f}s ({before:.2f}-{after:.2f})"))
     os.makedirs(os.path.join(wd, "draft"), exist_ok=True)
     for f in os.listdir(os.path.join(wd, "draft")):  # flagged frames from an earlier run
         os.remove(os.path.join(wd, "draft", f))

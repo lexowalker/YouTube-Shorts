@@ -17,7 +17,7 @@ Spec keys (see shorts/tao-ch4-unimpeded-harmony/short.json for a complete exampl
                 anchors: seconds | {"seg": i} | {"phrase": "text", "after": s} | {"word": "tok", "after": s}
                 image: {"acc", "x0", "y0", "h"} as fractions of the image (9:16 crop from top-left, height),
                 optional "pan" (px, handscrolls only), "zoom" [from, to], "note"
-  title         {"text", "dur", "size"}
+  title         {"text", "dur", "size"}; optional (leave it out for no opening title card)
   caption_y     caption block centre as a fraction of the height (default 0.70; 0.83 for a 4K close-up, where 0.70 is his beard)
   endcard       {"dur"}
 """
@@ -100,9 +100,9 @@ def main(slug):
     for s in shots:
         assert s["t1"] > s["t0"], f"empty or reversed shot: {s}"
 
-    title = spec["title"]
+    title = spec.get("title")  # optional: no opening title card if absent
     edl = {"slug": slug, "segments": segments, "shots": shots, "captions": caps,
-           "title": {"text": title["text"], "t0": 0.0, "t1": title.get("dur", 3.6), "size": title.get("size", 52)},
+           "title": {"text": title["text"], "t0": 0.0, "t1": title.get("dur", 3.6), "size": title.get("size", 52)} if title else None,
            "endcard": {"dur": spec.get("endcard", {}).get("dur", 4.0), "fade_frames": 15},
            "caption_y": spec.get("caption_y", 0.70),
            "crop_track": os.path.join(wd, "crop_track.json")}

@@ -1,7 +1,7 @@
 [
  {
-  "short_start_s": 7.8,
-  "short_end_s": 16.25,
+  "short_start_s": 7.57,
+  "short_end_s": 12.13,
   "accession": "2015.517",
   "title": "Mountain Market, Clear with Rising Mist",
   "artist": "Unknown, Korea, Joseon dynasty (1392–1910)",
@@ -15,65 +15,11 @@
    4005,
    7120
   ],
-  "motion": "zoom-out 1.12x→1.00x, linear"
- },
- {
-  "short_start_s": 19.87,
-  "short_end_s": 24.11,
-  "accession": "1985.134.2",
-  "title": "Tiger",
-  "artist": "Soga Nichokuan (Japanese)",
-  "date": "early to mid-1600s",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1985.134.2",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1985.134.2/1985.134.2_full.tif",
-  "crop_xywh_px": [
-   17149,
-   3852,
-   5460,
-   9707
-  ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 27.27,
-  "short_end_s": 33.46,
-  "accession": "1959.136.1",
-  "title": "Dragon and Tiger",
-  "artist": "Sesson Shūkei (Japanese, c. 1492–c. 1577)",
-  "date": "c. 1546–56",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1959.136.1",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1959.136.1/1959.136.1_full.tif",
-  "crop_xywh_px": [
-   2318,
-   543,
-   1000,
-   1777
-  ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
- },
- {
-  "short_start_s": 33.46,
-  "short_end_s": 37.09,
-  "accession": "2015.478",
-  "title": "Gibbons Reaching for the Moon",
-  "artist": "Kano Tan’yū (Japanese, 1602–1674)",
-  "date": "1600s",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/2015.478",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/2015.478/2015.478_full.tif",
-  "crop_xywh_px": [
-   192,
-   4650,
-   1241,
-   2207
-  ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
- },
- {
-  "short_start_s": 39.58,
-  "short_end_s": 43.65,
+  "short_start_s": 12.13,
+  "short_end_s": 15.84,
   "accession": "2026.15",
   "title": "White Falcon",
   "artist": "Unknown, Korea, Joseon dynasty (1392–1910)",
@@ -90,62 +36,152 @@
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 43.65,
-  "short_end_s": 46.31,
-  "accession": "2015.480",
-  "title": "Chinese Literatus Traveling to a Mountain Temple",
-  "artist": "Kano Hidemasa (Japanese, active late 1500s)",
-  "date": "late 1500s",
+  "short_start_s": 19.46,
+  "short_end_s": 23.7,
+  "accession": "1985.134.2",
+  "title": "Tiger",
+  "artist": "Soga Nichokuan (Japanese)",
+  "date": "early to mid-1600s",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/2015.480",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/2015.480/2015.480_full.tif",
+  "source_page": "https://clevelandart.org/art/1985.134.2",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1985.134.2/1985.134.2_full.tif",
   "crop_xywh_px": [
-   598,
-   541,
-   2855,
-   5076
+   17149,
+   3852,
+   5460,
+   9707
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 51.81,
-  "short_end_s": 54.85,
-  "accession": "1997.94",
-  "title": "Writing Books under the Pine Trees",
-  "artist": "Wang Meng (Chinese, c. 1308–1385)",
-  "date": "c. 1308–85",
+  "short_start_s": 26.86,
+  "short_end_s": 33.05,
+  "accession": "1959.136.1",
+  "title": "Dragon and Tiger",
+  "artist": "Sesson Shūkei (Japanese, c. 1492–c. 1577)",
+  "date": "c. 1546–56",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1997.94",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1997.94/1997.94_full.tif",
+  "source_page": "https://clevelandart.org/art/1959.136.1",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1959.136.1/1959.136.1_full.tif",
   "crop_xywh_px": [
-   3120,
-   1400,
-   1444,
-   2567
+   2318,
+   543,
+   1000,
+   1777
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 54.85,
-  "short_end_s": 58.41,
-  "accession": "1962.163",
-  "title": "Monk Mending Clothes in the Morning Sun (Chōyō Hotetsuzu)",
-  "artist": "Unknown, Japan, Nanbokuchō period (1336–92)",
-  "date": "c. 1350",
+  "short_start_s": 33.05,
+  "short_end_s": 36.68,
+  "accession": "1971.91",
+  "title": "Lovers Embracing",
+  "artist": "Unknown, Mughal India",
+  "date": "c. 1630",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1962.163",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1962.163/1962.163_full.tif",
+  "source_page": "https://clevelandart.org/art/1971.91",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1971.91/1971.91_full.tif",
   "crop_xywh_px": [
-   809,
-   2952,
-   1845,
-   3280
+   310,
+   959,
+   1858,
+   3304
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 68.51,
-  "short_end_s": 76.18,
+  "short_start_s": 39.17,
+  "short_end_s": 43.24,
+  "accession": "1997.88",
+  "title": "Watching the Deer by a Pine Shaded Stream",
+  "artist": "Ma Yuan (Chinese, c. 1150–after 1255)",
+  "date": "1127–1279",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1997.88",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1997.88/1997.88_full.tif",
+  "crop_xywh_px": [
+   4261,
+   4291,
+   2541,
+   4517
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 43.24,
+  "short_end_s": 45.65,
+  "accession": "1992.118",
+  "title": "Bronze Ritual Bell",
+  "artist": "Unknown, Korea, Goryeo dynasty (918–1392)",
+  "date": "1226",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1992.118",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1992.118/1992.118_full.tif",
+  "crop_xywh_px": [
+   669,
+   0,
+   2779,
+   4941
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 50.99,
+  "short_end_s": 54.03,
+  "accession": "2015.592",
+  "title": "Hanshan and Shide (Kanzan and Jittoku)",
+  "artist": "Shikibu Terutada (Japanese, active mid-1500s)",
+  "date": "mid-1500s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2015.592",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2015.592/2015.592_full.tif",
+  "crop_xywh_px": [
+   4212,
+   591,
+   1639,
+   2914
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 54.03,
+  "short_end_s": 57.59,
+  "accession": "1972.41",
+  "title": "Bodhidharma Meditating Facing a Cliff",
+  "artist": "Unknown, China, Song dynasty (960-1279)",
+  "date": "late 1200s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1972.41",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1972.41/1972.41_full.tif",
+  "crop_xywh_px": [
+   4450,
+   19867,
+   2703,
+   4806
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 63.54,
+  "short_end_s": 65.28,
+  "accession": "1915.680",
+  "title": "Hunting on Horses",
+  "artist": "Unknown, China, Ming dynasty (1368–1644) to Qing dynasty (1644–1911)",
+  "date": "c. 1600s–1700s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1915.680",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1915.680/1915.680_full.tif",
+  "crop_xywh_px": [
+   2599,
+   5161,
+   3438,
+   6112
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 67.69,
+  "short_end_s": 75.36,
   "accession": "1977.30",
   "title": "Gazing at a Waterfall",
   "artist": "Sōami (Japanese, d. 1525)",
@@ -162,8 +198,8 @@
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 82.86,
-  "short_end_s": 89.1,
+  "short_start_s": 82.04,
+  "short_end_s": 88.28,
   "accession": "1970.59",
   "title": "Autumn Mist in the Countryside",
   "artist": "Zou Zhe (Chinese, c. 1610-before 1688)",
@@ -180,8 +216,8 @@
   "motion": "horizontal pan 1800 px, zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 89.1,
-  "short_end_s": 91.42,
+  "short_start_s": 88.28,
+  "short_end_s": 90.6,
   "accession": "2015.482.2",
   "title": "Moonlit Landscape (one of a pair)",
   "artist": "Unknown, Japan, Muromachi period (1392–1573)",
