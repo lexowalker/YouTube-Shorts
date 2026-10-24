@@ -17,6 +17,7 @@ FONT_MED = os.path.join(REPO, "assets", "fonts", "EBGaramond-500.ttf")
 
 # output format
 W, H, FPS = 1080, 1920, 30
+DISSOLVE = 8  # frames of the soft dissolve into and out of images
 
 # house palette: one serif family, one accent in captions, cinnabar only on the end card
 OFFWHITE = (0xF4, 0xEF, 0xE4)   # captions, rice paper

@@ -1,6 +1,6 @@
 [
  {
-  "short_start_s": 7.57,
+  "short_start_s": 7.303,
   "short_end_s": 12.13,
   "accession": "2015.517",
   "title": "Mountain Market, Clear with Rising Mist",
@@ -28,15 +28,15 @@
   "source_page": "https://clevelandart.org/art/2026.15",
   "image_file_url": "https://openaccess-cdn.clevelandart.org/2026.15/2026.15_full.tif",
   "crop_xywh_px": [
-   117,
-   2973,
-   3537,
-   6288
+   0,
+   2172,
+   4245,
+   7546
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 19.46,
+  "short_start_s": 19.193,
   "short_end_s": 23.7,
   "accession": "1985.134.2",
   "title": "Tiger",
@@ -82,16 +82,16 @@
   "source_page": "https://clevelandart.org/art/1971.91",
   "image_file_url": "https://openaccess-cdn.clevelandart.org/1971.91/1971.91_full.tif",
   "crop_xywh_px": [
-   310,
-   959,
-   1858,
-   3304
+   929,
+   1226,
+   1798,
+   3197
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
   "short_start_s": 39.17,
-  "short_end_s": 43.24,
+  "short_end_s": 45.65,
   "accession": "1997.88",
   "title": "Watching the Deer by a Pine Shaded Stream",
   "artist": "Ma Yuan (Chinese, c. 1150–after 1255)",
@@ -104,24 +104,6 @@
    4291,
    2541,
    4517
-  ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
- },
- {
-  "short_start_s": 43.24,
-  "short_end_s": 45.65,
-  "accession": "1992.118",
-  "title": "Bronze Ritual Bell",
-  "artist": "Unknown, Korea, Goryeo dynasty (918–1392)",
-  "date": "1226",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1992.118",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1992.118/1992.118_full.tif",
-  "crop_xywh_px": [
-   669,
-   0,
-   2779,
-   4941
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },

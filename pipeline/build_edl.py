@@ -24,7 +24,7 @@ Spec keys (see shorts/tao-ch4-unimpeded-harmony/short.json for a complete exampl
 import json, os, sys
 from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import load_spec, work_dir, short_dir, image_path
+from common import load_spec, work_dir, short_dir, image_path, FPS, DISSOLVE
 from words import load_words, Env, refine_onsets, to_program, norm
 
 Image.MAX_IMAGE_PIXELS = None
@@ -97,6 +97,14 @@ def main(slug):
         zoom = im.get("zoom", [1.12, 1.0] if t1 - t0 >= 8 else [1.08, 1.0])
         shots.append({"kind": "image", "acc": im["acc"], "file": image_path(im["acc"]), "crop": crop,
                       "pan": pan, "zoom": zoom, "note": im.get("note", ""), "t0": round(t0, 3), "t1": round(t1, 3)})
+    # An image cut on a segment join starts its dissolve DISSOLVE frames early, so it fades in over him still
+    # talking and is fully up on the join. Dissolving after the join would show the next segment's head (a stray
+    # shot of him), and freezing his last frame under the dissolve looks like the video stalls.
+    joins = [sum(s["src_end"] - s["src_start"] for s in segments[:k]) for k in range(1, len(segments))]
+    for k in range(1, len(shots)):
+        s, prev = shots[k], shots[k - 1]
+        if s["kind"] == "image" and prev["kind"] == "head" and any(abs(s["t0"] - j) < 0.5 / FPS for j in joins):
+            s["t0"] = prev["t1"] = round(s["t0"] - DISSOLVE / FPS, 3)
     for s in shots:
         assert s["t1"] > s["t0"], f"empty or reversed shot: {s}"
 

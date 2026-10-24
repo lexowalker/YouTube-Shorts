@@ -46,7 +46,7 @@
   {
    "kind": "head",
    "t0": 0.0,
-   "t1": 7.57
+   "t1": 7.303
   },
   {
    "kind": "image",
@@ -64,7 +64,7 @@
     1.0
    ],
    "note": "mist over water and far hills: 'observe the subtle' (on the join)",
-   "t0": 7.57,
+   "t0": 7.303,
    "t1": 12.13
   },
   {
@@ -72,14 +72,14 @@
    "acc": "2026.15",
    "file": ".work/img/2026.15_full.jpg",
    "crop": [
-    117,
-    2973,
-    3537,
-    6288
+    0,
+    2172,
+    4245,
+    7546
    ],
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
    "note": "white falcon, intent: 'Ever intent, thereby observe the apparent'",
@@ -89,7 +89,7 @@
   {
    "kind": "head",
    "t0": 15.84,
-   "t1": 19.46
+   "t1": 19.193
   },
   {
    "kind": "image",
@@ -107,7 +107,7 @@
     1.0
    ],
    "note": "leaping tiger: 'vim and vigor and drive' (one panel; on the join)",
-   "t0": 19.46,
+   "t0": 19.193,
    "t1": 23.7
   },
   {
@@ -139,10 +139,10 @@
    "acc": "1971.91",
    "file": ".work/img/1971.91_full.jpg",
    "crop": [
-    310,
-    959,
-    1858,
-    3304
+    929,
+    1226,
+    1798,
+    3197
    ],
    "pan": 0,
    "zoom": [
@@ -175,25 +175,6 @@
    ],
    "note": "scholar intently watching across the stream: 'pay attention… intent to see what's right in front of you' (covers the join)",
    "t0": 39.17,
-   "t1": 43.24
-  },
-  {
-   "kind": "image",
-   "acc": "1992.118",
-   "file": ".work/img/1992.118_full.jpg",
-   "crop": [
-    669,
-    0,
-    2779,
-    4941
-   ],
-   "pan": 0,
-   "zoom": [
-    1.08,
-    1.0
-   ],
-   "note": "Goryeo temple bell, 1226: 'hear that bell'",
-   "t0": 43.24,
    "t1": 45.65
   },
   {

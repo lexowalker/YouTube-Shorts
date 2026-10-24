@@ -26,8 +26,8 @@ import argparse, json, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, work_dir, source_path, source_info, head_source
-from render import Composer, Captions, CAP_CENTER_Y, DISSOLVE, FONT_MED
+from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source
+from render import Composer, Captions, CAP_CENTER_Y, FONT_MED
 
 BRIGHT_MEAN, BRIGHT_P85 = 150, 195   # luminance under a caption above either reads as "light background"
 
@@ -85,7 +85,7 @@ def main():
     wd = work_dir(a.slug)
     edl = json.load(open(os.path.join(wd, "edl.json")))
     head = HeadAt(a.slug, edl, a.hires)
-    comp = Composer(edl, hold=head)
+    comp = Composer(edl)
     center_y = edl.get("caption_y", CAP_CENTER_Y)
     shots, prog = edl["shots"], comp.prog_dur
 

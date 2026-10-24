@@ -18,13 +18,12 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 Image.MAX_IMAGE_PIXELS = None
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info
+from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info, DISSOLVE
 
 CAP_SIZE = 70
 CAP_CENTER_Y = 0.70  # fraction of H; a Short can set "caption_y" (a 4K close-up puts his beard here, so 0.83)
 CAP_LINE_GAP = 1.12
 WORD_FADE = 3 / FPS
-DISSOLVE = 8  # frames
 
 
 def load_edl(p):
@@ -318,17 +317,9 @@ class Composer:
     """Builds the program frame at any time t from the EDL. render.py calls it for every frame in order; draft.py
     calls it at a few chosen times, so a draft frame is exactly what the full render will show."""
 
-    def __init__(self, edl, card=None, hold=None):
+    def __init__(self, edl, card=None):
         self.edl, self.shots = edl, edl["shots"]
         self.prog_dur = sum(s["src_end"] - s["src_start"] for s in edl["segments"])
-        acc, self.joins = 0.0, []
-        for seg in edl["segments"][:-1]:
-            acc += seg["src_end"] - seg["src_start"]
-            self.joins.append(acc)
-        # an image dissolving in on a join fades over the last head frame before the join (held), never over the
-        # next segment's head: that would flash a different shot of him. hold(t) gives a head frame at any t (draft);
-        # the sequential render keeps the frame it was given just before the join.
-        self.hold, self._held, self._prev = hold, {}, None
         self.ec = edl["endcard"]
         self.caps = Captions(edl["captions"], edl.get("caption_y", CAP_CENTER_Y))
         self.title = edl.get("title")
@@ -353,16 +344,8 @@ class Composer:
             self.img_cache[i] = ImageShot(s)
         return self.img_cache[i].frame(t).astype(np.float32)
 
-    def on_join(self, t):
-        return any(abs(t - j) < 0.5 / FPS for j in self.joins)
-
     def frame(self, t, hf, captions=True):
         """float32 HxWx3 frame at program time t; hf is the head frame for t (any frame once the card is up)."""
-        fr = self._frame(t, hf, captions)
-        self._prev = (t, hf)
-        return fr
-
-    def _frame(self, t, hf, captions):
         shots, title = self.shots, self.title
         if t < self.prog_dur:
             i = self.shot_at(t)
@@ -372,15 +355,8 @@ class Composer:
             if i > 0 and s.get("dissolve_in", shots[i - 1]["kind"] != s["kind"]):
                 k = (t - s["t0"]) * FPS
                 if k < DISSOLVE:
-                    out_hf = hf
-                    if shots[i - 1]["kind"] == "head" and self.on_join(s["t0"]):
-                        if i not in self._held:
-                            if self._prev is not None and 0 < s["t0"] - self._prev[0] <= 1.5 / FPS:
-                                self._held[i] = self._prev[1]
-                            elif self.hold is not None:
-                                self._held[i] = self.hold(s["t0"] - 1 / FPS)
-                        out_hf = self._held.get(i, hf)
-                    prev = self.render_shot(i - 1, t, out_hf)
+                    # build_edl.py ends a dissolve into an image on a join, so the head under it is always live
+                    prev = self.render_shot(i - 1, t, hf)
                     a = (k + 1) / (DISSOLVE + 1)
                     fr = prev * (1 - a) + fr * a
             if self.title_spr is not None and title["t0"] <= t < title["t1"]:
@@ -438,11 +414,6 @@ def main():
     # contiguous chunks, one per job; the last starts before the end card so its head reader has a last frame
     bounds = [round(total * k / a.jobs) for k in range(a.jobs + 1)]
     bounds[-2] = min(bounds[-2], prog_frames - 1)
-    for k in range(1, len(bounds) - 1):
-        for i, s in enumerate(edl["shots"]):
-            f_in = round(s["t0"] * FPS)
-            if i and comp.on_join(s["t0"]) and f_in <= bounds[k] < f_in + DISSOLVE:
-                bounds[k] = f_in - 1  # start a frame early, so the chunk sees the frame it holds
     chunks = [(bounds[k], bounds[k + 1], os.path.join(work, f"chunk_{k}.mp4")) for k in range(a.jobs) if bounds[k + 1] > bounds[k]]
     procs = [subprocess.Popen([sys.executable, "-I", os.path.abspath(__file__), a.slug, "--range", f"{f0}:{f1}:{out}"])
              for f0, f1, out in chunks]

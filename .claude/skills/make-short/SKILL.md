@@ -52,6 +52,8 @@ Propose 2–3 candidate teachings, each with a rough cut (source ranges, hook li
 - Place each image on the word that names its subject (`"at": {"word": "...", "after": <phrase index>}`), not at the start of the phrase, and end it when he moves on to something else.
 - Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
 - No shot under about 1.2 s, and no head shot that is only a pause between two images: extend the image or merge the shots.
+- Fewer, longer images: let one image carry consecutive lines on the same idea instead of cutting to a new picture for each noun (the user dropped the bell in the Ch1 Discussion 1 Short and let the watching scholar carry "hear that bell").
+- Centre the subject and keep its focal point (an eye, the faces) at least about 10% inside every edge, since the zoom starts 1.08× in. Check each crop on the proxy with the start-of-zoom box drawn on it before building.
 - Crops in `short.json` are fractions of the image: `x0`, `y0` (top-left) and `h` (crop height). Width follows from 9:16.
 
 ## 6. Spec and EDL

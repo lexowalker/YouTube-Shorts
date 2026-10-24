@@ -476,10 +476,14 @@
    },
    "image": {
     "acc": "2026.15",
-    "x0": 0.02,
-    "y0": 0.26,
-    "h": 0.55,
-    "note": "white falcon, intent: 'Ever intent, thereby observe the apparent'"
+    "x0": 0.0,
+    "y0": 0.19,
+    "h": 0.66,
+    "note": "white falcon, intent: 'Ever intent, thereby observe the apparent'",
+    "zoom": [
+     1.04,
+     1.0
+    ]
    }
   },
   {
@@ -524,9 +528,9 @@
    },
    "image": {
     "acc": "1971.91",
-    "x0": 0.08,
-    "y0": 0.18,
-    "h": 0.62,
+    "x0": 0.24,
+    "y0": 0.23,
+    "h": 0.6,
     "note": "Mughal lovers embracing: 'consumed with lust' (worldly passion, against the plain ink of the Way)"
    }
   },
@@ -547,19 +551,6 @@
     "y0": 0.475,
     "h": 0.5,
     "note": "scholar intently watching across the stream: 'pay attention… intent to see what's right in front of you' (covers the join)"
-   }
-  },
-  {
-   "at": {
-    "phrase": "If you want to",
-    "after": 42.0
-   },
-   "image": {
-    "acc": "1992.118",
-    "x0": 0.1625,
-    "y0": 0.0,
-    "h": 1.0,
-    "note": "Goryeo temple bell, 1226: 'hear that bell'"
    }
   },
   {
