@@ -13,7 +13,7 @@ import argparse, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FONT_SEMI, FONT_MED, OFFWHITE, INK, CINNABAR, work_dir, short_dir, source_path, source_info
+from common import W, H, FONT_SEMI, FONT_MED, OFFWHITE, INK, CINNABAR, work_dir, short_dir, source_path, source_info, head_source
 
 
 def grab(src, t, info):
@@ -69,7 +69,18 @@ def face_thumb(slug, t, text):
     cxs = [c for _, c in track(src, t - 0.5, t + 0.5, sw, sh) if c is not None]
     cx = float(np.median(cxs)) if cxs else sw / 2
     left = int(min(max(cx - cw / 2, 0), sw - cw))
-    img = Image.fromarray(grab(src, t, info)).crop((left, 0, left + cw, sh)).resize((W, H), Image.LANCZOS)
+    hsrc, t0 = head_source(slug)
+    hinfo = source_info(hsrc)
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", hsrc],
+                               capture_output=True, text=True).stdout or 0)
+    if hsrc != src and 0 <= t - t0 < dur:
+        # the frame is inside the high-resolution window (fetch_hires.py): crop the same place there
+        k = hinfo["w"] / sw
+        hcw = round(hinfo["h"] * 9 / 16)
+        hleft = int(min(max(cx * k - hcw / 2, 0), hinfo["w"] - hcw))
+        img = Image.fromarray(grab(hsrc, t - t0, hinfo)).crop((hleft, 0, hleft + hcw, hinfo["h"])).resize((W, H), Image.LANCZOS)
+    else:
+        img = Image.fromarray(grab(src, t, info)).crop((left, 0, left + cw, sh)).resize((W, H), Image.LANCZOS)
     img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=40, threshold=2))  # still image: a touch of crispness
     # rice-paper band in the middle of the frame, so the text survives any crop YouTube applies
     d = ImageDraw.Draw(img, "RGBA")

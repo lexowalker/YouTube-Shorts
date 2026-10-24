@@ -1,0 +1,2410 @@
+{
+ "slug": "tao-ch1-passionless-subtle",
+ "segments": [
+  {
+   "src_start": 996.05,
+   "src_end": 1003.85
+  },
+  {
+   "src_start": 941.4,
+   "src_end": 949.85
+  },
+  {
+   "src_start": 972.88,
+   "src_end": 976.5
+  },
+  {
+   "src_start": 977.8,
+   "src_end": 991.02
+  },
+  {
+   "src_start": 991.75,
+   "src_end": 995.75
+  },
+  {
+   "src_start": 1036.84,
+   "src_end": 1040.67
+  },
+  {
+   "src_start": 1042.61,
+   "src_end": 1048.0
+  },
+  {
+   "src_start": 1058.7,
+   "src_end": 1070.8
+  },
+  {
+   "src_start": 1122.12,
+   "src_end": 1139.89
+  },
+  {
+   "src_start": 1140.66,
+   "src_end": 1155.9
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 7.8
+  },
+  {
+   "kind": "image",
+   "acc": "2015.517",
+   "file": ".work/img/2015.517_full.jpg",
+   "crop": [
+    334,
+    3481,
+    4005,
+    7120
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "mist over water and far hills: the subtle (on the join)",
+   "t0": 7.8,
+   "t1": 16.25
+  },
+  {
+   "kind": "head",
+   "t0": 16.25,
+   "t1": 19.87
+  },
+  {
+   "kind": "image",
+   "acc": "1985.134.2",
+   "file": ".work/img/1985.134.2_full.jpg",
+   "crop": [
+    17149,
+    3852,
+    5460,
+    9707
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "leaping tiger: vim and vigor and drive (one panel; on the join)",
+   "t0": 19.87,
+   "t1": 24.11
+  },
+  {
+   "kind": "head",
+   "t0": 24.11,
+   "t1": 27.27
+  },
+  {
+   "kind": "image",
+   "acc": "1959.136.1",
+   "file": ".work/img/1959.136.1_full.jpg",
+   "crop": [
+    2318,
+    543,
+    1000,
+    1777
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "dragon in storm clouds: angry, anxious, confused (one panel)",
+   "t0": 27.27,
+   "t1": 33.46
+  },
+  {
+   "kind": "image",
+   "acc": "2015.478",
+   "file": ".work/img/2015.478_full.jpg",
+   "crop": [
+    192,
+    4650,
+    1241,
+    2207
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "gibbon stretching down for the moon's reflection: craving",
+   "t0": 33.46,
+   "t1": 37.09
+  },
+  {
+   "kind": "head",
+   "t0": 37.09,
+   "t1": 39.58
+  },
+  {
+   "kind": "image",
+   "acc": "2026.15",
+   "file": ".work/img/2026.15_full.jpg",
+   "crop": [
+    117,
+    2973,
+    3537,
+    6288
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "falcon, intent on what is in front of it (covers the join)",
+   "t0": 39.58,
+   "t1": 43.65
+  },
+  {
+   "kind": "image",
+   "acc": "2015.480",
+   "file": ".work/img/2015.480_full.jpg",
+   "crop": [
+    598,
+    541,
+    2855,
+    5076
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "mountain temple: hear that bell",
+   "t0": 43.65,
+   "t1": 46.31
+  },
+  {
+   "kind": "head",
+   "t0": 46.31,
+   "t1": 51.81
+  },
+  {
+   "kind": "image",
+   "acc": "1997.94",
+   "file": ".work/img/1997.94_full.jpg",
+   "crop": [
+    3120,
+    1400,
+    1444,
+    2567
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "scholar at his books under the pines: study this book",
+   "t0": 51.81,
+   "t1": 54.85
+  },
+  {
+   "kind": "image",
+   "acc": "1962.163",
+   "file": ".work/img/1962.163_full.jpg",
+   "crop": [
+    809,
+    2952,
+    1845,
+    3280
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "monk quietly mending his robe: putting it into practice, passionless",
+   "t0": 54.85,
+   "t1": 58.41
+  },
+  {
+   "kind": "head",
+   "t0": 58.41,
+   "t1": 68.51
+  },
+  {
+   "kind": "image",
+   "acc": "1977.30",
+   "file": ".work/img/1977.30_full.jpg",
+   "crop": [
+    2350,
+    0,
+    2343,
+    4166
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "two figures quietly gazing at a waterfall through mist: quiet enough to observe the subtle nuance",
+   "t0": 68.51,
+   "t1": 76.18
+  },
+  {
+   "kind": "head",
+   "t0": 76.18,
+   "t1": 82.86
+  },
+  {
+   "kind": "image",
+   "acc": "1970.59",
+   "file": ".work/img/1970.59_full.jpg",
+   "crop": [
+    28414,
+    133,
+    2348,
+    4175
+   ],
+   "pan": 1800,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "handscroll, slow pan: the whole world, the whole universe, and more",
+   "t0": 82.86,
+   "t1": 89.1
+  },
+  {
+   "kind": "image",
+   "acc": "2015.482.2",
+   "file": ".work/img/2015.482.2_full.jpg",
+   "crop": [
+    11425,
+    1487,
+    2678,
+    4760
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "faint mountains in moonlit mist: so, so subtle (one panel; under the end-card dissolve)",
+   "t0": 89.1,
+   "t1": 91.42
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "Too",
+     "s": 0.67,
+     "e": 0.75,
+     "key": false
+    },
+    {
+     "w": "much",
+     "s": 0.77,
+     "e": 1.01,
+     "key": false
+    },
+    {
+     "w": "effort",
+     "s": 1.01,
+     "e": 1.47,
+     "key": true
+    },
+    {
+     "w": "is",
+     "s": 1.47,
+     "e": 2.49,
+     "key": false
+    },
+    {
+     "w": "counterproductive",
+     "s": 2.49,
+     "e": 2.99,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 2.99
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 2.99,
+     "e": 3.69,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 3.69,
+     "e": 3.87,
+     "key": false
+    },
+    {
+     "w": "can't",
+     "s": 4.0,
+     "e": 4.23,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 4.27,
+     "e": 4.47,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 4.47
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 4.47,
+     "e": 4.73,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 4.73,
+     "e": 5.11,
+     "key": true
+    },
+    {
+     "w": "nuance",
+     "s": 5.11,
+     "e": 5.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 5.61
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 5.61,
+     "e": 6.41,
+     "key": false
+    },
+    {
+     "w": "formless",
+     "s": 6.41,
+     "e": 6.99,
+     "key": false
+    },
+    {
+     "w": "awareness",
+     "s": 6.99,
+     "e": 7.43,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 7.93
+  },
+  {
+   "words": [
+    {
+     "w": "Always",
+     "s": 8.18,
+     "e": 8.58,
+     "key": false
+    },
+    {
+     "w": "passionless,",
+     "s": 8.58,
+     "e": 9.56,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 9.96
+  },
+  {
+   "words": [
+    {
+     "w": "thereby",
+     "s": 9.96,
+     "e": 10.28,
+     "key": false
+    },
+    {
+     "w": "observe",
+     "s": 10.28,
+     "e": 10.72,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 10.72,
+     "e": 11.0,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 11.0,
+     "e": 11.36,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 11.86
+  },
+  {
+   "words": [
+    {
+     "w": "Ever",
+     "s": 12.54,
+     "e": 12.76,
+     "key": false
+    },
+    {
+     "w": "intent,",
+     "s": 12.76,
+     "e": 13.34,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 13.84
+  },
+  {
+   "words": [
+    {
+     "w": "thereby",
+     "s": 14.42,
+     "e": 14.76,
+     "key": false
+    },
+    {
+     "w": "observe",
+     "s": 14.76,
+     "e": 15.26,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 15.4,
+     "e": 15.52,
+     "key": false
+    },
+    {
+     "w": "apparent",
+     "s": 15.52,
+     "e": 15.92,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 16.38
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 16.38,
+     "e": 16.67,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 17.23,
+     "e": 17.33,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 17.33,
+     "e": 17.65,
+     "key": false
+    },
+    {
+     "w": "full",
+     "s": 17.65,
+     "e": 17.85,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 17.73,
+     "e": 17.93,
+     "key": false
+    },
+    {
+     "w": "passion,",
+     "s": 18.29,
+     "e": 18.87,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "of",
+     "s": 18.19,
+     "e": 18.27,
+     "key": false
+    }
+   ],
+   "lines": [
+    3
+   ],
+   "t_off": 19.07
+  },
+  {
+   "words": [
+    {
+     "w": "if",
+     "s": 19.07,
+     "e": 19.09,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 19.13,
+     "e": 19.29,
+     "key": false
+    },
+    {
+     "w": "full",
+     "s": 19.36,
+     "e": 19.47,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 19.47,
+     "e": 19.69,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "like",
+     "s": 19.69,
+     "e": 19.87,
+     "key": false
+    }
+   ],
+   "lines": [
+    3
+   ],
+   "t_off": 20.01
+  },
+  {
+   "words": [
+    {
+     "w": "vim",
+     "s": 20.01,
+     "e": 20.27,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 20.29,
+     "e": 20.49,
+     "key": false
+    },
+    {
+     "w": "vigor",
+     "s": 20.49,
+     "e": 20.83,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 20.83,
+     "e": 21.01,
+     "key": false
+    },
+    {
+     "w": "drive",
+     "s": 21.01,
+     "e": 21.39,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 21.89
+  },
+  {
+   "words": [
+    {
+     "w": "we're",
+     "s": 22.15,
+     "e": 22.33,
+     "key": false
+    },
+    {
+     "w": "gonna",
+     "s": 22.33,
+     "e": 22.73,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 22.81,
+     "e": 22.93,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "and",
+     "s": 21.37,
+     "e": 21.55,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 21.57,
+     "e": 21.75,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 21.77,
+     "e": 21.91,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 21.91,
+     "e": 22.05,
+     "key": false
+    }
+   ],
+   "lines": [
+    1
+   ],
+   "t_off": 22.99
+  },
+  {
+   "words": [
+    {
+     "w": "this",
+     "s": 22.99,
+     "e": 23.19,
+     "key": false
+    },
+    {
+     "w": "thing",
+     "s": 23.23,
+     "e": 23.37,
+     "key": false
+    },
+    {
+     "w": "done,",
+     "s": 23.37,
+     "e": 23.69,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 23.69,
+     "e": 23.87,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 23.92,
+     "e": 23.97,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 23.97,
+     "e": 24.11,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 24.11
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 24.11,
+     "e": 24.27,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 24.29,
+     "e": 24.39,
+     "key": false
+    },
+    {
+     "w": "forth,",
+     "s": 24.39,
+     "e": 24.67,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 24.72
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 24.72,
+     "e": 24.87,
+     "key": false
+    },
+    {
+     "w": "cannot",
+     "s": 24.87,
+     "e": 25.21,
+     "key": true
+    },
+    {
+     "w": "see",
+     "s": 25.21,
+     "e": 25.69,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 25.69,
+     "e": 25.93,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 25.98,
+     "e": 26.23,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 26.73
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 27.27,
+     "e": 27.39,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 27.39,
+     "e": 27.67,
+     "key": false
+    },
+    {
+     "w": "angry,",
+     "s": 27.67,
+     "e": 27.95,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 28.03
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 28.03,
+     "e": 28.13,
+     "key": false
+    },
+    {
+     "w": "can't",
+     "s": 28.13,
+     "e": 28.39,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 28.49,
+     "e": 28.59,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 28.62,
+     "e": 28.73,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 28.84,
+     "e": 29.03,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 29.15
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 29.15,
+     "e": 29.27,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 29.29,
+     "e": 29.53,
+     "key": false
+    },
+    {
+     "w": "anxious,",
+     "s": 29.53,
+     "e": 29.79,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 29.99
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 29.99,
+     "e": 30.05,
+     "key": false
+    },
+    {
+     "w": "can't",
+     "s": 30.17,
+     "e": 30.37,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 30.43,
+     "e": 30.53,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 30.53,
+     "e": 30.65,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 30.75,
+     "e": 30.95,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.09
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 31.09,
+     "e": 31.21,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 31.23,
+     "e": 31.41,
+     "key": false
+    },
+    {
+     "w": "confused,",
+     "s": 31.41,
+     "e": 31.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.97
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 31.97,
+     "e": 32.11,
+     "key": false
+    },
+    {
+     "w": "can't",
+     "s": 32.18,
+     "e": 32.41,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 32.43,
+     "e": 32.53,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 32.57,
+     "e": 32.71,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 32.77,
+     "e": 32.99,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 33.46
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 33.46,
+     "e": 33.86,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 33.88,
+     "e": 34.02,
+     "key": false
+    },
+    {
+     "w": "consumed",
+     "s": 34.02,
+     "e": 34.38,
+     "key": false
+    },
+    {
+     "w": "with",
+     "s": 34.38,
+     "e": 34.58,
+     "key": false
+    },
+    {
+     "w": "lust,",
+     "s": 34.58,
+     "e": 34.96,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 35.46
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 35.56,
+     "e": 35.82,
+     "key": false
+    },
+    {
+     "w": "can't",
+     "s": 35.82,
+     "e": 36.16,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 36.2,
+     "e": 36.28,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 36.32,
+     "e": 36.44,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 36.54,
+     "e": 36.78,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 37.28
+  },
+  {
+   "words": [
+    {
+     "w": "Now,",
+     "s": 37.43,
+     "e": 37.51,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 37.67,
+     "e": 37.77,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 37.78,
+     "e": 37.87,
+     "key": false
+    },
+    {
+     "w": "want",
+     "s": 37.87,
+     "e": 38.01,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 38.01,
+     "e": 38.11,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 38.11,
+     "e": 38.29,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "and",
+     "s": 37.55,
+     "e": 37.65,
+     "key": false
+    }
+   ],
+   "lines": [
+    3
+   ],
+   "t_off": 38.29
+  },
+  {
+   "words": [
+    {
+     "w": "what's",
+     "s": 38.29,
+     "e": 38.55,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 38.55,
+     "e": 38.67,
+     "key": false
+    },
+    {
+     "w": "front",
+     "s": 38.75,
+     "e": 38.85,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 38.85,
+     "e": 38.99,
+     "key": false
+    },
+    {
+     "w": "you,",
+     "s": 38.99,
+     "e": 39.13,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 39.29
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 39.29,
+     "e": 39.29,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 39.29,
+     "e": 39.41,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 39.41,
+     "e": 39.57,
+     "key": false
+    },
+    {
+     "w": "pay",
+     "s": 39.58,
+     "e": 39.71,
+     "key": false
+    },
+    {
+     "w": "attention",
+     "s": 39.71,
+     "e": 40.17,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 40.45
+  },
+  {
+   "words": [
+    {
+     "w": "You",
+     "s": 40.45,
+     "e": 40.45,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 40.45,
+     "e": 40.59,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 40.59,
+     "e": 40.73,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 40.73,
+     "e": 40.92,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 40.96
+  },
+  {
+   "words": [
+    {
+     "w": "some",
+     "s": 40.96,
+     "e": 41.27,
+     "key": false
+    },
+    {
+     "w": "intent",
+     "s": 41.27,
+     "e": 41.65,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 41.65
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 41.65,
+     "e": 41.97,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 41.97,
+     "e": 42.13,
+     "key": false
+    },
+    {
+     "w": "what's",
+     "s": 42.13,
+     "e": 42.31,
+     "key": false
+    },
+    {
+     "w": "right",
+     "s": 42.34,
+     "e": 42.47,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 42.47
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 42.47,
+     "e": 42.61,
+     "key": false
+    },
+    {
+     "w": "front",
+     "s": 42.63,
+     "e": 42.69,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 42.69,
+     "e": 42.83,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 42.83,
+     "e": 43.05,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 43.55
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 43.65,
+     "e": 43.97,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 43.97,
+     "e": 44.09,
+     "key": false
+    },
+    {
+     "w": "want",
+     "s": 44.09,
+     "e": 44.19,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 44.19,
+     "e": 44.33,
+     "key": false
+    },
+    {
+     "w": "hear",
+     "s": 44.33,
+     "e": 44.45,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 44.45,
+     "e": 44.61,
+     "key": false
+    },
+    {
+     "w": "bell,",
+     "s": 44.61,
+     "e": 44.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 45.01
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 45.01,
+     "e": 45.17,
+     "key": false
+    },
+    {
+     "w": "got",
+     "s": 45.17,
+     "e": 45.23,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 45.23,
+     "e": 45.31,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 45.31,
+     "e": 45.45,
+     "key": false
+    },
+    {
+     "w": "listening",
+     "s": 45.45,
+     "e": 45.77,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 46.27
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 46.65,
+     "e": 46.71,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 46.71,
+     "e": 46.85,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 46.85,
+     "e": 47.11,
+     "key": false
+    },
+    {
+     "w": "doing",
+     "s": 47.11,
+     "e": 47.29,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 47.29
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 47.29,
+     "e": 47.55,
+     "key": false
+    },
+    {
+     "w": "juxtaposing",
+     "s": 47.59,
+     "e": 48.17,
+     "key": true
+    },
+    {
+     "w": "these",
+     "s": 48.17,
+     "e": 48.35,
+     "key": false
+    },
+    {
+     "w": "two",
+     "s": 48.5,
+     "e": 48.59,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 48.59
+  },
+  {
+   "words": [
+    {
+     "w": "means",
+     "s": 48.59,
+     "e": 48.95,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 48.99,
+     "e": 49.13,
+     "key": false
+    },
+    {
+     "w": "knowing",
+     "s": 49.57,
+     "e": 50.09,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "of",
+     "s": 49.21,
+     "e": 49.39,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 50.59
+  },
+  {
+   "words": [
+    {
+     "w": "I",
+     "s": 50.87,
+     "e": 50.87,
+     "key": false
+    },
+    {
+     "w": "mean,",
+     "s": 50.87,
+     "e": 51.03,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 51.25,
+     "e": 51.39,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 51.41,
+     "e": 51.51,
+     "key": false
+    },
+    {
+     "w": "want",
+     "s": 51.51,
+     "e": 51.65,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 51.65
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 51.65,
+     "e": 51.81,
+     "key": false
+    },
+    {
+     "w": "study",
+     "s": 51.81,
+     "e": 52.03,
+     "key": true
+    },
+    {
+     "w": "this",
+     "s": 52.03,
+     "e": 52.23,
+     "key": false
+    },
+    {
+     "w": "book,",
+     "s": 52.23,
+     "e": 52.49,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 52.67
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 52.67,
+     "e": 52.71,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 52.71,
+     "e": 52.85,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 52.85,
+     "e": 52.99,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 52.99,
+     "e": 53.13,
+     "key": false
+    },
+    {
+     "w": "intent,",
+     "s": 53.13,
+     "e": 53.55,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 54.05
+  },
+  {
+   "words": [
+    {
+     "w": "right?",
+     "s": 54.25,
+     "e": 54.43,
+     "key": false
+    },
+    {
+     "w": "But",
+     "s": 54.85,
+     "e": 54.93,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 54.93,
+     "e": 55.01,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 55.01,
+     "e": 55.11,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 55.11
+  },
+  {
+   "words": [
+    {
+     "w": "want",
+     "s": 55.11,
+     "e": 55.23,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 55.23,
+     "e": 55.31,
+     "key": false
+    },
+    {
+     "w": "put",
+     "s": 55.31,
+     "e": 55.45,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 55.45,
+     "e": 55.63,
+     "key": false
+    },
+    {
+     "w": "book",
+     "s": 55.84,
+     "e": 56.07,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 56.07
+  },
+  {
+   "words": [
+    {
+     "w": "into",
+     "s": 56.07,
+     "e": 56.29,
+     "key": false
+    },
+    {
+     "w": "practice,",
+     "s": 56.29,
+     "e": 56.69,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.91
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 56.91,
+     "e": 56.97,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 56.97,
+     "e": 57.09,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 57.09,
+     "e": 57.27,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 57.27,
+     "e": 57.41,
+     "key": false
+    },
+    {
+     "w": "passionless",
+     "s": 57.41,
+     "e": 58.03,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 58.53
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 58.71,
+     "e": 58.75,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 58.75,
+     "e": 58.87,
+     "key": false
+    },
+    {
+     "w": "need",
+     "s": 58.87,
+     "e": 58.99,
+     "key": false
+    },
+    {
+     "w": "both",
+     "s": 59.01,
+     "e": 59.43,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 59.93
+  },
+  {
+   "words": [
+    {
+     "w": "Because",
+     "s": 60.43,
+     "e": 60.75,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 60.99,
+     "e": 61.17,
+     "key": false
+    },
+    {
+     "w": "need",
+     "s": 61.17,
+     "e": 61.33,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 61.33,
+     "e": 61.43,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 61.43,
+     "e": 61.59,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 61.59
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 61.59,
+     "e": 61.71,
+     "key": false
+    },
+    {
+     "w": "apparent,",
+     "s": 61.71,
+     "e": 62.11,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 62.89,
+     "e": 63.05,
+     "key": false
+    },
+    {
+     "w": "know",
+     "s": 63.05,
+     "e": 63.15,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 62.61
+  },
+  {
+   "words": [
+    {
+     "w": "what's",
+     "s": 63.15,
+     "e": 63.31,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 63.31,
+     "e": 63.45,
+     "key": false
+    },
+    {
+     "w": "front",
+     "s": 63.48,
+     "e": 63.57,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 63.57,
+     "e": 63.71,
+     "key": false
+    },
+    {
+     "w": "you,",
+     "s": 63.71,
+     "e": 63.85,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 63.85
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 63.85,
+     "e": 63.99,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 63.99,
+     "e": 64.15,
+     "key": false
+    },
+    {
+     "w": "going",
+     "s": 64.15,
+     "e": 64.21,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 64.21,
+     "e": 64.25,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 64.25,
+     "e": 64.33,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 64.36
+  },
+  {
+   "words": [
+    {
+     "w": "run",
+     "s": 64.36,
+     "e": 64.49,
+     "key": false
+    },
+    {
+     "w": "over",
+     "s": 64.49,
+     "e": 64.65,
+     "key": false
+    },
+    {
+     "w": "by",
+     "s": 64.65,
+     "e": 64.81,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 64.81,
+     "e": 65.01,
+     "key": false
+    },
+    {
+     "w": "bus",
+     "s": 65.01,
+     "e": 65.33,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 65.83
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 66.1,
+     "e": 66.35,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 66.35,
+     "e": 66.45,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 66.45,
+     "e": 66.71,
+     "key": false
+    },
+    {
+     "w": "need",
+     "s": 66.71,
+     "e": 66.97,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 67.12,
+     "e": 67.27,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 67.55
+  },
+  {
+   "words": [
+    {
+     "w": "be",
+     "s": 67.55,
+     "e": 67.99,
+     "key": false
+    },
+    {
+     "w": "quiet",
+     "s": 68.51,
+     "e": 68.81,
+     "key": true
+    },
+    {
+     "w": "enough,",
+     "s": 68.81,
+     "e": 69.51,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "to",
+     "s": 67.48,
+     "e": 67.49,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 70.01
+  },
+  {
+   "words": [
+    {
+     "w": "emotionless",
+     "s": 70.53,
+     "e": 71.39,
+     "key": true
+    },
+    {
+     "w": "enough,",
+     "s": 71.61,
+     "e": 72.15,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 72.65
+  },
+  {
+   "words": [
+    {
+     "w": "passionless",
+     "s": 73.05,
+     "e": 73.49,
+     "key": true
+    },
+    {
+     "w": "enough",
+     "s": 73.51,
+     "e": 73.87,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 74.37
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 74.52,
+     "e": 74.63,
+     "key": false
+    },
+    {
+     "w": "observe",
+     "s": 74.63,
+     "e": 74.99,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 74.99,
+     "e": 75.19,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 75.19,
+     "e": 75.49,
+     "key": false
+    },
+    {
+     "w": "nuance",
+     "s": 75.49,
+     "e": 75.93,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 76.22
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 76.22,
+     "e": 76.52,
+     "key": false
+    },
+    {
+     "w": "essence",
+     "s": 76.96,
+     "e": 77.44,
+     "key": true
+    },
+    {
+     "w": "of",
+     "s": 77.44,
+     "e": 77.74,
+     "key": false
+    },
+    {
+     "w": "consciousness",
+     "s": 77.74,
+     "e": 78.16,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "Because",
+     "s": 76.07,
+     "e": 76.18,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 78.38
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 78.38,
+     "e": 78.52,
+     "key": false
+    },
+    {
+     "w": "rarefied,",
+     "s": 79.66,
+     "e": 80.26,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "is",
+     "s": 78.16,
+     "e": 78.32,
+     "key": false
+    }
+   ],
+   "lines": [
+    1
+   ],
+   "t_off": 80.5
+  },
+  {
+   "words": [
+    {
+     "w": "it's",
+     "s": 80.5,
+     "e": 80.52,
+     "key": false
+    },
+    {
+     "w": "refined,",
+     "s": 80.52,
+     "e": 81.08,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 81.36
+  },
+  {
+   "words": [
+    {
+     "w": "it's",
+     "s": 81.36,
+     "e": 81.54,
+     "key": false
+    },
+    {
+     "w": "finer",
+     "s": 81.54,
+     "e": 81.74,
+     "key": false
+    },
+    {
+     "w": "than,",
+     "s": 81.74,
+     "e": 82.0,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 82.5
+  },
+  {
+   "words": [
+    {
+     "w": "it's",
+     "s": 82.86,
+     "e": 83.18,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 83.18,
+     "e": 83.28,
+     "key": false
+    },
+    {
+     "w": "whole",
+     "s": 83.28,
+     "e": 83.48,
+     "key": false
+    },
+    {
+     "w": "world,",
+     "s": 83.48,
+     "e": 84.0,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 84.26
+  },
+  {
+   "words": [
+    {
+     "w": "it's",
+     "s": 84.26,
+     "e": 84.3,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 84.3,
+     "e": 84.34,
+     "key": false
+    },
+    {
+     "w": "whole",
+     "s": 84.34,
+     "e": 84.54,
+     "key": false
+    },
+    {
+     "w": "universe,",
+     "s": 84.54,
+     "e": 85.06,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 84.9
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 84.9,
+     "e": 85.12,
+     "key": false
+    },
+    {
+     "w": "more",
+     "s": 86.0,
+     "e": 86.62,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 87.12
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 89.1,
+     "e": 89.22,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 89.22,
+     "e": 89.47,
+     "key": false
+    },
+    {
+     "w": "so,",
+     "s": 89.5,
+     "e": 89.82,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 89.82,
+     "e": 90.14,
+     "key": false
+    },
+    {
+     "w": "subtle",
+     "s": 90.14,
+     "e": 90.52,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 91.02
+  }
+ ],
+ "title": {
+  "text": "To see the subtle, be still",
+  "t0": 0.0,
+  "t1": 3.6,
+  "size": 52
+ },
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "crop_track": ".work/tao-ch1-passionless-subtle/crop_track.json"
+}

@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 Image.MAX_IMAGE_PIXELS = None
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, source_path, source_info
+from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info
 
 CAP_SIZE = 70
 CAP_CENTER_Y = int(H * 0.70)
@@ -35,10 +35,10 @@ class HeadReader:
     Source frames are decoded at their native rate and picked by source time; the 9:16 crop
     follows the smoothed face track with sub-pixel precision."""
 
-    def __init__(self, edl, src):
+    def __init__(self, edl, src, t0=0.0):
         import cv2
         self.cv2 = cv2
-        self.src = src
+        self.src, self.t0 = src, t0  # source time t is at t - t0 in src (a high-resolution window, see fetch_hires.py)
         info = source_info(src)
         self.fps, self.sw, self.sh = info["fps"], info["w"], info["h"]
         self.cw = round(self.sh * 9 / 16)
@@ -50,7 +50,7 @@ class HeadReader:
     def _open(self, si):
         if self.proc:
             self.proc.kill()
-        a, b = self.segs[si]["src_start"], self.segs[si]["src_end"]
+        a, b = self.segs[si]["src_start"] - self.t0, self.segs[si]["src_end"] - self.t0
         self.first = math.ceil(a * self.fps - 1e-6)
         self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{self.first / self.fps:.4f}", "-i", self.src,
                                       "-t", f"{b - a + 1:.3f}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
@@ -67,7 +67,7 @@ class HeadReader:
             acc += d
         if si != self.si:
             self._open(si)
-        ts = seg["src_start"] + (t - acc)
+        ts = seg["src_start"] - self.t0 + (t - acc)
         want = max(math.floor(ts * self.fps + 1e-6), self.first)
         n = self.sw * self.sh * 3
         while self.idx < want:
@@ -307,7 +307,7 @@ def main():
         title_spr = title_sprite(title["text"], tf)
     card = build_endcard(edl)
     card.save(os.path.join(work, "endcard_preview.png"))
-    head = HeadReader(edl, source_path(slug))
+    head = HeadReader(edl, *head_source(slug))
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
                             "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", out], stdin=subprocess.PIPE)

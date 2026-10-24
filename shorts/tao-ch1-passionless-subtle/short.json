@@ -1,0 +1,649 @@
+{
+ "slug": "tao-ch1-passionless-subtle",
+ "source": {
+  "archive_item": "arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "url": "https://archive.org/details/arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "file": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.mp4",
+  "hires": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.webm (3840x2160; window 937-1160 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Always passionless, thereby observe the subtle; ever intent, thereby observe the apparent: passion, anger, anxiety and craving hide the subtle, attention shows us what is in front of us, and we need both (Tao Te Ching, Chapter 1, Thomas Cleary translation).",
+ "youtube_title": "Passionless, You See the Subtle",
+ "title": {
+  "text": "To see the subtle, be still",
+  "dur": 3.6,
+  "size": 52
+ },
+ "segments": [
+  [
+   996.05,
+   1003.85
+  ],
+  [
+   941.4,
+   949.85
+  ],
+  [
+   972.88,
+   976.5
+  ],
+  [
+   977.8,
+   991.02
+  ],
+  [
+   991.75,
+   995.75
+  ],
+  [
+   1036.84,
+   1040.67
+  ],
+  [
+   1042.61,
+   1048.0
+  ],
+  [
+   1058.7,
+   1070.8
+  ],
+  [
+   1122.12,
+   1139.89
+  ],
+  [
+   1140.66,
+   1155.9
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 995.4,
+   "to": 996.8,
+   "words": [
+    [
+     "Too",
+     996.55,
+     996.8
+    ]
+   ],
+   "why": "whisper starts 'Too' at 995.44, in the pause before the hook segment; it is spoken just before 'much' (996.82)"
+  },
+  {
+   "from": 974.3,
+   "to": 975.6,
+   "words": [
+    [
+     "of",
+     974.36,
+     974.56
+    ],
+    [
+     "of",
+     974.82,
+     974.9
+    ],
+    [
+     "passion,",
+     974.92,
+     975.5
+    ]
+   ],
+   "why": "large-v3 hears 'full of, of passion'; the second 'of' stays in the audio, off the screen"
+  },
+  {
+   "from": 976.6,
+   "to": 978.21,
+   "words": [
+    [
+     "vim",
+     977.94,
+     978.2
+    ]
+   ],
+   "why": "'vim' after the cut that removes 'uh' and a 1.4 s hesitation (envelope rise at 977.92)"
+  },
+  {
+   "from": 979.3,
+   "to": 980.7,
+   "words": [
+    [
+     "and,",
+     979.3,
+     979.48
+    ],
+    [
+     "and",
+     979.5,
+     979.68
+    ],
+    [
+     "you",
+     979.7,
+     979.84
+    ],
+    [
+     "know,",
+     979.84,
+     979.98
+    ],
+    [
+     "we're",
+     980.08,
+     980.26
+    ],
+    [
+     "gonna",
+     980.26,
+     980.66
+    ]
+   ],
+   "why": "large-v3: 'drive, and, and, you know, we're gonna'; 'we're' starts after the dip at 980.00-980.06"
+  },
+  {
+   "from": 1036.9,
+   "to": 1037.55,
+   "words": [
+    [
+     "Now,",
+     1037.12,
+     1037.26
+    ],
+    [
+     "and",
+     1037.3,
+     1037.4
+    ],
+    [
+     "if",
+     1037.42,
+     1037.52
+    ],
+    [
+     "you",
+     1037.52,
+     1037.62
+    ]
+   ],
+   "why": "medium, small and large-v3 all hear 'Now, and if you'"
+  },
+  {
+   "from": 1042.6,
+   "to": 1042.81,
+   "words": [
+    [
+     "some",
+     1042.65,
+     1042.96
+    ]
+   ],
+   "why": "onset read off the envelope, after the cut that removes 'you, you have to have'"
+  },
+  {
+   "from": 1061.3,
+   "to": 1062.1,
+   "words": [
+    [
+     "of",
+     1061.38,
+     1061.52
+    ],
+    [
+     "of",
+     1061.6,
+     1061.78
+    ],
+    [
+     "knowing.",
+     1061.96,
+     1062.48
+    ]
+   ],
+   "why": "large-v3: 'means of, of knowing'"
+  },
+  {
+   "from": 1121.4,
+   "to": 1122.75,
+   "words": [
+    [
+     "So,",
+     1122.36,
+     1122.46
+    ],
+    [
+     "you",
+     1122.46,
+     1122.58
+    ],
+    [
+     "need",
+     1122.58,
+     1122.7
+    ],
+    [
+     "both.",
+     1122.72,
+     1123.14
+    ]
+   ],
+   "why": "medium.en drops 'So'; medium and small on the stretch alone both hear 'So, you need both' (So at 1122.3-1122.4)"
+  },
+  {
+   "from": 1130.6,
+   "to": 1132.0,
+   "words": [
+    [
+     "to",
+     1130.82,
+     1130.98
+    ],
+    [
+     "to",
+     1131.02,
+     1131.2
+    ],
+    [
+     "be",
+     1131.26,
+     1131.7
+    ]
+   ],
+   "why": "large-v3: 'need to, to be quiet'"
+  },
+  {
+   "from": 1140.6,
+   "to": 1143.1,
+   "words": [
+    [
+     "the",
+     1140.7,
+     1141.0
+    ],
+    [
+     "essence",
+     1141.4,
+     1141.92
+    ],
+    [
+     "of",
+     1141.92,
+     1142.22
+    ],
+    [
+     "consciousness",
+     1142.22,
+     1142.64
+    ],
+    [
+     "is",
+     1142.64,
+     1142.8
+    ],
+    [
+     "is",
+     1142.86,
+     1143.0
+    ]
+   ],
+   "why": "after the cut that removes 'the, the'; large-v3 hears 'consciousness is, is rarefied'"
+  },
+  {
+   "from": 972.4,
+   "to": 973.4,
+   "words": [
+    [
+     "So,",
+     973.01,
+     973.3
+    ]
+   ],
+   "why": "'So' rises at 973.01, after the end of 'subtle' (the segment starts in the pause at 972.88)"
+  },
+  {
+   "from": 1046.6,
+   "to": 1046.99,
+   "words": [
+    [
+     "you",
+     1046.7,
+     1046.86
+    ],
+    [
+     "got",
+     1046.86,
+     1046.92
+    ],
+    [
+     "to",
+     1046.92,
+     1047.0
+    ]
+   ],
+   "why": "large-v3 and the QA pass hear 'you got to' (no 've)"
+  },
+  {
+   "from": 1058.4,
+   "to": 1059.09,
+   "words": [
+    [
+     "So,",
+     1059.04,
+     1059.1
+    ]
+   ],
+   "why": "'So' rises at 1059.06; whisper put it in the pause"
+  },
+  {
+   "from": 1122.8,
+   "to": 1124.6,
+   "words": [
+    [
+     "Because",
+     1124.1,
+     1124.46
+    ]
+   ],
+   "why": "after a 1 s pause; soft onset at 1124.10 (envelope), not 1123.14"
+  },
+  {
+   "from": 1134.0,
+   "to": 1134.5,
+   "words": [
+    [
+     "emotionless",
+     1134.24,
+     1135.1
+    ]
+   ],
+   "why": "envelope rise at 1134.24"
+  },
+  {
+   "from": 1149.3,
+   "to": 1151.2,
+   "words": [
+    [
+     "and",
+     1149.38,
+     1149.6
+    ],
+    [
+     "more.",
+     1150.48,
+     1151.1
+    ]
+   ],
+   "why": "'and' right after 'universe' (1149.34-1149.66), 'more' after a 0.8 s pause (rise at 1150.48)"
+  },
+  {
+   "from": 1153.3,
+   "to": 1153.95,
+   "words": [
+    [
+     "But",
+     1153.58,
+     1153.7
+    ],
+    [
+     "it's",
+     1153.7,
+     1153.95
+    ]
+   ],
+   "why": "rise at 1153.62; whisper put 'But' in the silence"
+  }
+ ],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "Too much *effort | is counterproductive",
+  "because you | can't see",
+  "the *subtle | nuance",
+  "of formless | awareness",
+  "Always | *passionless,",
+  "thereby observe | the subtle",
+  "Ever *intent,",
+  "thereby observe | the *apparent",
+  "So, if we're | full of ~of *passion,",
+  "if we're full | of ~like",
+  "*vim and vigor | and drive",
+  "~and ~and ~you ~know we're | gonna get",
+  "this thing *done, | and so on",
+  "and so forth,",
+  "we *cannot see | the subtle",
+  "If we're *angry,",
+  "we can't see | the subtle",
+  "If we're *anxious,",
+  "we can't see | the subtle",
+  "If we're *confused,",
+  "we can't see | the subtle",
+  "If we're consumed | with *lust,",
+  "we can't see | the subtle",
+  "Now, ~and if you | want to see",
+  "what's in front | of you,",
+  "you have to | pay *attention",
+  "You have | to have",
+  "some *intent",
+  "to see | what's right",
+  "in front | of you",
+  "If you want to | hear that *bell,",
+  "you got to | be *listening",
+  "So, what | it's doing",
+  "is *juxtaposing | these two",
+  "means of ~of | *knowing",
+  "I mean, | if you want",
+  "to *study | this book,",
+  "you have to | be *intent,",
+  "right? But | if you",
+  "want to put | this book",
+  "into *practice,",
+  "you have to | be *passionless",
+  "So, you need | *both",
+  "Because you need | to see",
+  "the *apparent, ~you ~know",
+  "what's in front | of you,",
+  "or you're going | to get",
+  "run over | by a *bus",
+  "And you also | need to",
+  "~to be *quiet | enough,",
+  "*emotionless | enough,",
+  "*passionless | enough",
+  "to observe the | subtle *nuance",
+  "~Because the *essence | of consciousness",
+  "~is is | *rarefied,",
+  "it's *refined,",
+  "it's finer than,",
+  "it's the | whole *world,",
+  "it's the whole | *universe,",
+  "and *more",
+  "But it's so, | so *subtle"
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "2015.517",
+    "x0": 0.04,
+    "y0": 0.22,
+    "h": 0.45,
+    "note": "mist over water and far hills: the subtle (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 2
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1985.134.2",
+    "x0": 0.503,
+    "y0": 0.25,
+    "h": 0.63,
+    "note": "leaping tiger: vim and vigor and drive (one panel; on the join)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "and so forth,"
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "If we're angry,"
+   },
+   "image": {
+    "acc": "1959.136.1",
+    "x0": 0.348,
+    "y0": 0.16,
+    "h": 0.524,
+    "note": "dragon in storm clouds: angry, anxious, confused (one panel)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "If we're consumed"
+   },
+   "image": {
+    "acc": "2015.478",
+    "x0": 0.12,
+    "y0": 0.59,
+    "h": 0.28,
+    "note": "gibbon stretching down for the moon's reflection: craving"
+   }
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "pay",
+    "after": 38.0
+   },
+   "image": {
+    "acc": "2026.15",
+    "x0": 0.02,
+    "y0": 0.26,
+    "h": 0.55,
+    "note": "falcon, intent on what is in front of it (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "phrase": "If you want to",
+    "after": 43.0
+   },
+   "image": {
+    "acc": "2015.480",
+    "x0": 0.12,
+    "y0": 0.08,
+    "h": 0.75,
+    "note": "mountain temple: hear that bell"
+   }
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "study",
+    "after": 50.0
+   },
+   "image": {
+    "acc": "1997.94",
+    "x0": 0.47,
+    "y0": 0.3,
+    "h": 0.55,
+    "note": "scholar at his books under the pines: study this book"
+   }
+  },
+  {
+   "at": {
+    "word": "But",
+    "after": 54.0
+   },
+   "image": {
+    "acc": "1962.163",
+    "x0": 0.28,
+    "y0": 0.45,
+    "h": 0.5,
+    "note": "monk quietly mending his robe: putting it into practice, passionless"
+   }
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "quiet",
+    "after": 66.0
+   },
+   "image": {
+    "acc": "1977.30",
+    "x0": 0.46,
+    "y0": 0.0,
+    "h": 0.85,
+    "note": "two figures quietly gazing at a waterfall through mist: quiet enough to observe the subtle nuance"
+   }
+  },
+  {
+   "at": {
+    "seg": 9
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "it's the whole world,"
+   },
+   "image": {
+    "acc": "1970.59",
+    "x0": 0.66,
+    "y0": 0.03,
+    "h": 0.94,
+    "pan": 1800,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "handscroll, slow pan: the whole world, the whole universe, and more"
+   }
+  },
+  {
+   "at": {
+    "phrase": "But it's so,"
+   },
+   "image": {
+    "acc": "2015.482.2",
+    "x0": 0.666,
+    "y0": 0.2,
+    "h": 0.64,
+    "note": "faint mountains in moonlit mist: so, so subtle (one panel; under the end-card dissolve)"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

@@ -6,7 +6,7 @@ import json, os, sys
 import numpy as np
 from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import work_dir, source_path
+from common import work_dir, head_source
 import render
 
 slug = sys.argv[1]
@@ -20,7 +20,7 @@ for i, t in enumerate(tiles):
 sheet.save(os.path.join(wd, "preview_images.jpg"), quality=85)
 
 if os.path.exists(edl["crop_track"]):
-    head = render.HeadReader(edl, source_path(slug))
+    head = render.HeadReader(edl, *head_source(slug))
     total = len(json.load(open(edl["crop_track"])))
     want = set(np.linspace(0, total - 1, 10).astype(int))
     heads = []

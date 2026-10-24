@@ -39,6 +39,16 @@ def source_path(slug):
     return os.path.join(work_dir(slug), "source.mp4")
 
 
+def head_source(slug):
+    """The picture (and sound) to cut from: a high-resolution window fetched by fetch_hires.py if there is one,
+    else source.mp4. Returns (path, t0): source time t is at t - t0 in that file."""
+    meta = os.path.join(work_dir(slug), "hires.json")
+    if os.path.exists(meta):
+        m = json.load(open(meta))
+        return m["path"], m["t0"]
+    return source_path(slug), 0.0
+
+
 def load_spec(slug):
     return json.load(open(os.path.join(short_dir(slug), "short.json")))
 

@@ -14,7 +14,7 @@ Writes .work/<slug>/program_audio.wav (48 kHz, 24-bit, the source's channel layo
 import argparse, json, os, re, subprocess, sys
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import work_dir, source_path
+from common import work_dir, head_source
 
 SR = 48000
 FADE = 0.012
@@ -54,12 +54,12 @@ def main():
     a = ap.parse_args()
     wd = work_dir(a.slug)
     edl = json.load(open(os.path.join(wd, "edl.json")))
-    src = source_path(a.slug)
+    src, t0 = head_source(a.slug)
     ch = channels(src)
     inputs, parts = [], []
     for i, s in enumerate(edl["segments"]):
         d = s["src_end"] - s["src_start"]
-        inputs += ["-ss", f"{s['src_start']:.3f}", "-t", f"{d:.3f}", "-i", src]
+        inputs += ["-ss", f"{s['src_start'] - t0:.3f}", "-t", f"{d:.3f}", "-i", src]
         parts.append(f"[{i}:a]aresample={SR},atrim=0:{d:.4f},asetpts=PTS-STARTPTS,"
                      f"afade=t=in:d={FADE},afade=t=out:st={d - FADE:.4f}:d={FADE}[a{i}]")
     n = len(parts)
