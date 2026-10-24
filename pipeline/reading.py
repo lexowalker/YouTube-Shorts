@@ -3,11 +3,12 @@
   python3 -I pipeline/reading.py find <chapter> [--item <archive identifier>]
       Find the chapter on the archive.org channel, download the video to .work/<slug>/source.mp4 and write
       shorts/<slug>/reading.json with the chapter's Cleary text (from the item description) and its section times.
-  python3 -I pipeline/reading.py align <slug>
-      Locate the reading (small.en), time it (medium.en), snap every caption onset to where the voice rises in
-      the audio envelope, choose the clip and the face crop, and write the captions into reading.json.
+  python3 -I pipeline/reading.py align <slug> [--take N]
+      Find every complete read-through (small.en) and use take N (default 2, usually his better take; the only one
+      if he read it once). Time it (medium.en), snap every caption onset to where the voice rises in the audio
+      envelope, choose the clip and the face position, and write the captions into reading.json.
   python3 -I pipeline/reading.py render <slug>
-      shorts/<slug>/<slug>.mp4: blurred 9:16 backdrop, feathered speaker, title block, captions, house end card.
+      shorts/<slug>/<slug>.mp4: full-frame 9:16 crop of the item's 4K video, title box, captions, house end card.
   python3 -I pipeline/reading.py qa <slug>
       Sync table (dB just before and after every caption onset) and .work/<slug>/qa_sheet.jpg.
 
@@ -41,6 +42,7 @@ LEAD = 0.04               # captions start this far ahead of the onset (100 ms f
 PRE_ROLL = 0.75           # clip starts this long before the first caption
 SETTLE = 2.3              # clip runs this long past the last voiced frame
 CARD = 4.0                # house end card, silent
+CUT_XF = 0.2              # 6-frame dissolve over a cut (a misread removed); the audio joins in the pause
 XF = 0.5                  # 15-frame dissolve into the card over the held last frame
 CONNECTIVES = {"but", "and", "the", "is", "as", "when", "so", "then", "thereby", "yet", "or", "to", "if", "because",
                "therefore", "by", "into", "while", "where", "who", "which", "that", "not", "without"}
@@ -227,26 +229,39 @@ def align_words(body, words):
     return hit, sum(b.size for b in m.get_matching_blocks()) / max(1, len(bs))
 
 
-def locate(body, words):
-    """Earliest place the whole chapter is read through: (first, last) transcript word index, coverage."""
+def locate(body, words, start=0):
+    """First place from word index `start` where the whole chapter is read through:
+    (first, last) transcript word index and coverage, or the best partial match."""
     n = len(body)
     head = norm(" ".join(body[:5]))
     best = None
-    for i in range(len(words)):
+    for i in range(start, len(words)):
         cand = norm(" ".join(w["w"] for w in words[i:i + 7]))
         if difflib.SequenceMatcher(None, head, cand[:len(head) + 4], autojunk=False).ratio() < 0.6:
             continue
-        win = words[max(0, i - 2): i + int(n * 1.4) + 4]
-        hit, cov = align_words(body, win)
+        lo = max(start, i - 2)
+        hit, cov = align_words(body, words[lo: i + int(n * 1.4) + 4])
         got = [h for h in hit if h is not None]
         if not got:
             continue
-        r = (max(0, i - 2) + min(got), max(0, i - 2) + max(got), cov)
+        r = (lo + min(got), lo + max(got), cov)
         if best is None or cov > best[2] + 0.05:
             best = r
         if cov >= 0.85:
             return r
     return best
+
+
+def takes(body, words):
+    """Every complete read-through (coverage >= 85%), in order. Line-by-line passes with commentary between the
+    lines don't count: the lines are too far apart to cover the chapter within one reading's length."""
+    out, start = [], 0
+    while True:
+        r = locate(body, words, start)
+        if not r or r[2] < 0.85:
+            return out
+        out.append(r)
+        start = r[1] + 1
 
 
 class Env:
@@ -268,7 +283,8 @@ class Env:
         return self.db[min(max(i, 0), len(self.db) - 1)]
 
     def voiced(self, t):
-        return self.at(t) >= self.loud
+        """Speaking at t: 70 ms around it above the speaking level, so a breath or room-noise blip doesn't count."""
+        return self.mean(t - 0.03, 7) >= self.loud
 
     def mean(self, t, n):
         return np.mean([self.at(t + k * 0.01) for k in range(n)])
@@ -282,13 +298,18 @@ class Env:
 
     def onset(self, s, e):
         """Where the voice of a word whisper placed at [s, e] really begins. Whisper's start can sit in the silence
-        before the word (up to ~0.9 s early) or on the tail of the word before it. Tuned on Chapters 1 and 2:
-        mean error 0.09 s against hand timings, worst 0.27 s."""
+        before the word (up to ~1.2 s early) or on the tail of the word before it. Tuned on Chapters 1-3 (26 onsets,
+        hand-timed or read off the envelope): mean error 0.07 s, never more than 0.06 s early, worst 0.34 s late."""
         t = s
-        if not self.sustained(t):
-            # started in silence: move to where the voice rises
-            while t < max(e, s + 0.3) + 0.6 and not self.sustained(t):
+        if self.mean(t, 5) < self.loud:
+            # started in silence: find the word's clearly voiced core (80 ms above the speaking level, which room
+            # noise blips never reach), then step back over its soft start (up to 0.15 s)
+            while t < max(e, s + 0.3) + 0.6 and self.mean(t, 8) < self.loud:
                 t += 0.01
+            k = 0
+            while k < 15 and self.at(t - 0.01) >= self.voice:
+                t -= 0.01
+                k += 1
             return round(t - 0.02, 2)
         # started on the previous word's tail (under 0.2 s of voice, then room tone inside the span): move past it
         u = s + 0.04
@@ -318,7 +339,7 @@ class Env:
         u = t
         while u > t - 1.0 and not self.gap(u - 0.1):
             u -= 0.01
-        if u > t - 1.0 and t - u > 0.3 and all(self.at(u + k * 0.01) >= self.quiet for k in range(int((t - u) * 100))):
+        if u > t - 1.0 and t - u > 0.3 and all(self.at(u + k * 0.01) >= self.voice for k in range(int((t - u) * 100))):
             return "late"
         return "ok"
 
@@ -377,25 +398,33 @@ def cmd_align(a):
     if spec.get("locked") and not a.force:
         sys.exit(f"{slug} is locked (an approved Short); pass --force to re-align it and lose its timings")
     lo, hi = spec["section"]
-    # 1. find the read-through (small.en, in chunks until the whole chapter has been heard)
+    # 1. find every read-through in the section (small.en) and take the one asked for (default: the second,
+    #    which is usually his better take; the only one if he read it once)
     phrases = phrases_of(spec["text"])
     body = " ".join(phrases).split()
-    words, t, found = [], max(0.0, lo - 5), None
-    while t < hi and not found:
+    words, t = [], max(0.0, lo - 5)
+    while t < hi:
         t1 = min(hi + 5, t + 180)
         words += merge_hyphens(whisper(slug, "small.en", t, t1))
         print(f"  heard {t:.0f}-{t1:.0f}s", flush=True)
-        r = locate(body, words)
-        if r and r[2] >= 0.85 and words[r[1]]["e"] < t1 - 5:
-            found = r
         t = t1
-    found = found or locate(body, words)
+    found = takes(body, words)
+    for k, r in enumerate(found, 1):
+        print(f"  take {k}: {words[r[0]]['s']:.1f}-{words[r[1]]['e']:.1f}s (coverage {r[2]:.0%})")
     if not found:
-        sys.exit("Could not find the chapter read through in its section. Read .work/<slug> transcripts and ask the user.")
-    r0, r1 = words[found[0]]["s"] - 12, words[found[1]]["e"] + 6
-    print(f"reading at {words[found[0]]['s']:.1f}-{words[found[1]]['e']:.1f}s (small.en coverage {found[2]:.0%})")
-    if found[2] < 0.85:
-        print("  WARNING: the text and the speech differ a lot; he may read it in pieces or change words. Check before rendering.")
+        r = locate(body, words)
+        if not r:
+            sys.exit("Could not find the chapter read through in its section. Read .work/<slug> transcripts and ask the user.")
+        print(f"  WARNING: no complete read-through; best partial {words[r[0]]['s']:.1f}s at {r[2]:.0%}. He may read it in "
+              "pieces or change words. Check before rendering.")
+        found = [r]
+    take = min(a.take, len(found))
+    if take != a.take:
+        print(f"  only {len(found)} take(s); using take {take}")
+    r = found[take - 1]
+    r0, r1 = words[r[0]]["s"] - 12, words[r[1]]["e"] + 6
+    print(f"using take {take}: {words[r[0]]['s']:.1f}-{words[r[1]]['e']:.1f}s")
+    spec["take"] = take
 
     # 2. time it (medium.en) and snap onsets to the envelope
     mw = merge_hyphens(whisper(slug, "medium.en", r0, r1))
@@ -454,7 +483,7 @@ def cmd_align(a):
     last_end = caps[-1]["_end"] or caps[-1]["t"] + 2
     voice_end = env.last_voiced(caps[-1]["t"], last_end + 0.3)
     nxt = env.next_voiced(voice_end + 0.4, r1)
-    end = min(voice_end + SETTLE, nxt - 0.5)
+    end = min(voice_end + SETTLE, nxt - 0.2)  # stop before he speaks again (the 0.4 s audio fade ends on room tone)
     for c in caps:
         c.pop("_end", None)
 
@@ -507,8 +536,32 @@ def rounded_rect(w, h, r):
             f"l {r} {h} b {k} {h} 0 {h - k} 0 {h - r} l 0 {r} b 0 {k} {k} 0 {r} 0")
 
 
+def segments(spec):
+    """The source ranges that make up the Short: the clip minus any "cuts" ([[a, b], …] source seconds removed,
+    e.g. a misread line he then corrects)."""
+    segs, t = [], spec["start"]
+    for a, b in sorted(spec.get("cuts", [])):
+        segs.append((t, a))
+        t = b
+    return segs + [(t, spec["start"] + spec["dur"])]
+
+
+def prog_time(spec, t):
+    """Source seconds -> seconds into the Short."""
+    off = 0.0
+    for a, b in segments(spec):
+        if t < b:
+            return off + max(0.0, t - a)
+        off += b - a
+    return off
+
+
+def prog_dur(spec):
+    return sum(b - a for a, b in segments(spec))
+
+
 def write_ass(spec, path):
-    start, end = spec["start"], spec["dur"] - 0.1  # titles and captions are gone before the held frame dissolves
+    end = prog_dur(spec) - 0.1  # titles and captions are gone before the held frame dissolves
     title = spec["title"]
     fade = "\\fad(400,300)"
     # a long title shrinks to fit the box (down to 64 px), then takes two lines and the box grows
@@ -531,8 +584,8 @@ def write_ass(spec, path):
           f"Dialogue: 1,{ts(0)},{ts(end)},Title,,0,0,0,,{{{fade}\\an8\\pos({cx},{title_y:.0f})\\fs{size}}}{title}"]
     caps = spec["captions"]
     for i, c in enumerate(caps):
-        t0 = c["t"] - start - LEAD
-        t1 = caps[i + 1]["t"] - start - LEAD if i + 1 < len(caps) else end
+        t0 = prog_time(spec, c["t"]) - LEAD
+        t1 = prog_time(spec, caps[i + 1]["t"]) - LEAD if i + 1 < len(caps) else end
         style = "CapGold" if c.get("gold", i in (0, len(caps) - 1)) else "Cap"
         ev.append(f"Dialogue: 2,{ts(t0)},{ts(t1)},{style},,0,0,0,,{{\\fad(100,{300 if i + 1 == len(caps) else 0})}}{c['text']}")
     open(path, "w").write(ASS_HEAD + "\n".join(ev) + "\n")
@@ -595,7 +648,7 @@ def cmd_render(a):
     card = os.path.join(wd, "endcard.mp4")
     if not os.path.exists(card):
         render_card(card)
-    start, dur = spec["start"], spec["dur"]
+    start, dur = spec["start"], prog_dur(spec)
     total = dur + CARD
     out = os.path.join(short_dir(slug), f"{slug}.mp4")
     hr = hires(slug, spec)
@@ -605,14 +658,33 @@ def cmd_render(a):
     si = source_info(src)
     cw = round(si["h"] * 9 / 16 / 2) * 2  # full-height 9:16 crop, centred on his face
     x = int(min(max(spec.get("face_x", 0.55) * si["w"] - cw / 2, 0), si["w"] - cw))
-    fc = (f"[0:v]crop={cw}:{si['h']}:{x}:0,scale={W}:{H}:flags=lanczos,setsar=1,eq=contrast=1.04:saturation=1.05,"
+    # join the segments: audio butts together in the pauses with 12 ms fades; video carries each segment
+    # CUT_XF past its end and dissolves into the next, so picture and sound stay in sync
+    segs = [(a - start, b - start) for a, b in segments(spec)]
+    n = len(segs)
+    if n == 1:
+        join = "[0:v]null[vj];[0:a]anull[aj];"
+    else:
+        join = f"[0:v]split={n}" + "".join(f"[v{i}]" for i in range(n)) + f";[0:a]asplit={n}" + "".join(f"[a{i}]" for i in range(n)) + ";"
+        for i, (a, b) in enumerate(segs):
+            vb = b + (CUT_XF if i < n - 1 else 0)
+            join += f"[v{i}]trim=start={a:.3f}:end={vb:.3f},setpts=PTS-STARTPTS,fps={FPS}[w{i}];"
+            fades = (",afade=t=in:d=0.012" if i else "") + (f",afade=t=out:st={b - a - 0.012:.3f}:d=0.012" if i < n - 1 else "")
+            join += f"[a{i}]atrim=start={a:.3f}:end={b:.3f},asetpts=PTS-STARTPTS{fades}[b{i}];"
+        prev, off = "w0", 0.0
+        for i in range(1, n):
+            off += segs[i - 1][1] - segs[i - 1][0]
+            join += f"[{prev}][w{i}]xfade=transition=fade:duration={CUT_XF}:offset={off:.3f}[x{i}];"
+            prev = f"x{i}"
+        join += f"[{prev}]null[vj];" + "".join(f"[b{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[aj];"
+    fc = (join + f"[vj]crop={cw}:{si['h']}:{x}:0,scale={W}:{H}:flags=lanczos,setsar=1,eq=contrast=1.04:saturation=1.05,"
           f"ass='{os.path.join(wd, 'captions.ass')}',fade=t=in:st=0:d=0.4,fps={FPS},format=yuv420p,"
           f"tpad=stop_mode=clone:stop_duration={XF},settb=AVTB[main];"
           f"[1:v]fps={FPS},format=yuv420p,settb=AVTB[card];"
           f"[main][card]xfade=transition=fade:duration={XF}:offset={dur}[v];"
-          f"[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=in:st=0:d=0.3,afade=t=out:st={dur - 0.4}:d=0.4,"
+          f"[aj]loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=in:st=0:d=0.3,afade=t=out:st={dur - 0.4}:d=0.4,"
           f"apad=whole_dur={total}[aud]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.3f}", "-t", str(dur), "-i", src, "-i", card,
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.3f}", "-t", str(spec["dur"]), "-i", src, "-i", card,
                     "-filter_complex", fc, "-map", "[v]", "-map", "[aud]", "-r", str(FPS), "-c:v", "libx264", "-preset", "slow",
                     "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
                     "-t", f"{total:.3f}", out], check=True)
@@ -637,8 +709,8 @@ def cmd_qa(a):
     print(f"{flagged} flagged" if flagged else "all captions on the voice")
     caps = spec["captions"]
     two = next((c for c in caps if "\\N" in c["text"]), caps[len(caps) // 2])
-    times = [caps[0]["t"] - lo + 0.3, two["t"] - lo + 0.3, caps[len(caps) // 2]["t"] - lo + 0.3, caps[-1]["t"] - lo + 0.3,
-             spec["dur"] + XF * 0.5, spec["dur"] + CARD - 0.3]
+    pt = lambda c: prog_time(spec, c["t"]) + 0.3
+    times = [pt(caps[0]), pt(two), pt(caps[len(caps) // 2]), pt(caps[-1]), prog_dur(spec) + XF * 0.5, prog_dur(spec) + CARD - 0.3]
     tiles = []
     for i, t in enumerate(times):
         p = os.path.join(wd, f"qa{i}.jpg")
@@ -662,6 +734,7 @@ def main():
     al = sub.add_parser("align")
     al.add_argument("slug")
     al.add_argument("--force", action="store_true", help="re-align a locked (approved) Short")
+    al.add_argument("--take", type=int, default=2, help="which complete read-through to use (default 2, his usual better take)")
     for name in ("render", "qa"):
         sub.add_parser(name).add_argument("slug")
     a = ap.parse_args()

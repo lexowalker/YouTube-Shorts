@@ -33,29 +33,29 @@
   "then by this very nondwelling",
   "success will not leave."
  ],
- "start": 91.61,
- "dur": 52.95,
+ "start": 91.59,
+ "dur": 53.38,
  "captions": [
   {
-   "t": 92.36,
+   "t": 92.34,
    "text": "When everyone knows\\Nbeauty is beauty,",
    "heard": "When everyone knows beauty is beauty,",
    "match": 1.0
   },
   {
-   "t": 94.51,
+   "t": 94.5,
    "text": "this is bad.",
    "heard": "this is bad.",
    "match": 1.0
   },
   {
-   "t": 96.67,
+   "t": 96.68,
    "text": "When everyone\\Nknows good is good,",
    "heard": "When everyone knows good is good,",
    "match": 1.0
   },
   {
-   "t": 98.71,
+   "t": 98.73,
    "text": "this is not good.",
    "heard": "this is not good.",
    "match": 1.0
@@ -73,13 +73,13 @@
    "match": 1.0
   },
   {
-   "t": 105.34,
+   "t": 105.23,
    "text": "difficulty and ease",
    "heard": "Difficulty and ease complement each other,",
    "match": 1.0
   },
   {
-   "t": 106.89,
+   "t": 106.91,
    "text": "complement each other,",
    "heard": "Difficulty and ease complement each other,",
    "match": 1.0
@@ -97,19 +97,19 @@
    "match": 1.0
   },
   {
-   "t": 116.44,
+   "t": 116.46,
    "text": "voice and echoes\\Nconform to each other,",
    "heard": "voice and echoes conform to each other,",
    "match": 1.0
   },
   {
-   "t": 120.38,
+   "t": 120.39,
    "text": "before and after",
    "heard": "before and after go along with each other.",
    "match": 1.0
   },
   {
-   "t": 121.64,
+   "t": 121.65,
    "text": "go along with each other.",
    "heard": "before and after go along with each other.",
    "match": 1.0
@@ -133,7 +133,7 @@
    "match": 1.0
   },
   {
-   "t": 133.09,
+   "t": 133.12,
    "text": "without exception:",
    "heard": "without exception.",
    "match": 1.0
@@ -145,7 +145,7 @@
    "match": 1.0
   },
   {
-   "t": 136.74,
+   "t": 136.71,
    "text": "act without presumption,",
    "heard": "act without presumption",
    "match": 1.0
@@ -157,17 +157,18 @@
    "match": 1.0
   },
   {
-   "t": 141.09,
+   "t": 141.1,
    "text": "then by this very\\Nnondwelling",
    "heard": "Then by this very non-dwelling",
    "match": 1.0
   },
   {
-   "t": 143.08,
+   "t": 143.28,
    "text": "success will not leave.",
    "heard": "success will not leave",
    "match": 1.0
   }
  ],
- "face_x": 0.6136
+ "face_x": 0.6139,
+ "take": 1
 }
