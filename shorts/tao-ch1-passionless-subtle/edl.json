@@ -2406,5 +2406,6 @@
   "dur": 4.0,
   "fade_frames": 15
  },
+ "caption_y": 0.83,
  "crop_track": ".work/tao-ch1-passionless-subtle/crop_track.json"
 }

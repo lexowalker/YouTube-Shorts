@@ -18,6 +18,7 @@ Spec keys (see shorts/tao-ch4-unimpeded-harmony/short.json for a complete exampl
                 image: {"acc", "x0", "y0", "h"} as fractions of the image (9:16 crop from top-left, height),
                 optional "pan" (px, handscrolls only), "zoom" [from, to], "note"
   title         {"text", "dur", "size"}
+  caption_y     caption block centre as a fraction of the height (default 0.70; 0.83 for a 4K close-up, where 0.70 is his beard)
   endcard       {"dur"}
 """
 import json, os, sys
@@ -103,6 +104,7 @@ def main(slug):
     edl = {"slug": slug, "segments": segments, "shots": shots, "captions": caps,
            "title": {"text": title["text"], "t0": 0.0, "t1": title.get("dur", 3.6), "size": title.get("size", 52)},
            "endcard": {"dur": spec.get("endcard", {}).get("dur", 4.0), "fade_frames": 15},
+           "caption_y": spec.get("caption_y", 0.70),
            "crop_track": os.path.join(wd, "crop_track.json")}
     json.dump(edl, open(os.path.join(wd, "edl.json"), "w"), indent=1, ensure_ascii=False)
 

@@ -25,6 +25,7 @@ The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch4-u
 - The user usually names a release tag on this repo. Find the asset's `browser_download_url` and `digest` with the GitHub MCP `get_release_by_tag`, then:
   `python3 -I pipeline/fetch_source.py <slug> <url> <sha256>`.
 - Pick a short, descriptive slug, such as `tao-ch5-straw-dogs`.
+- If the source is one of the channel's archive.org items (`pipeline/reading.py find <N>` locates a chapter's), link or download its 480p MP4 as `.work/<slug>/source.mp4`. Once the segments are chosen, fetch the 4K window for sharp head shots: `python3 -I pipeline/fetch_hires.py <slug> <webm url> <from_s> <to_s>`, with a few seconds of margin. Render, preview, audio, crop_track and the face thumbnail then use it automatically. Set `"caption_y": 0.83` in the spec, because the 4K close-up puts his beard at the default 70%.
 
 ## 2. Read the whole video
 - `python3 -I pipeline/transcribe.py <slug> full` (small.en, a few minutes; use `--model medium.en` for accuracy, about 30 min for 20 min of audio). Run it in the background and read `.work/<slug>/transcript.txt` as it fills.

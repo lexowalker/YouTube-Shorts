@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info
 
 CAP_SIZE = 70
-CAP_CENTER_Y = int(H * 0.70)
+CAP_CENTER_Y = 0.70  # fraction of H; a Short can set "caption_y" (a 4K close-up puts his beard here, so 0.83)
 CAP_LINE_GAP = 1.12
 WORD_FADE = 3 / FPS
 DISSOLVE = 8  # frames
@@ -179,8 +179,9 @@ def alpha_over(frame, sprite, x, y, opacity=1.0):
 
 
 class Captions:
-    def __init__(self, caps):
+    def __init__(self, caps, center_y=CAP_CENTER_Y):
         self.font = ImageFont.truetype(FONT_SEMI, CAP_SIZE)
+        self.center_y = int(H * center_y)
         asc, desc = self.font.getmetrics()
         self.line_h = int((asc + desc) * CAP_LINE_GAP)
         self.items = []  # (t_on, t_off, sprite, x, y)
@@ -190,7 +191,7 @@ class Captions:
             n1 = cap["lines"][0]
             lines = [words[:n1], words[n1:]] if n1 < len(words) else [words]
             total_h = self.line_h * len(lines)
-            top = CAP_CENTER_Y - total_h // 2
+            top = self.center_y - total_h // 2
             t_off = cap.get("t_off", words[-1]["e"])
             for li, line in enumerate(lines):
                 widths = [self.font.getlength(w["w"]) for w in line]
@@ -299,7 +300,7 @@ def main():
     nframes = round(total * FPS)
     shots = edl["shots"]
     img_cache = {}
-    caps = Captions(edl["captions"])
+    caps = Captions(edl["captions"], edl.get("caption_y", CAP_CENTER_Y))
     title = edl.get("title")
     title_spr = None
     if title:

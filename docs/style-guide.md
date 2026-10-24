@@ -8,6 +8,7 @@ Capture one main teaching from the video and convey it simply and naturally in 6
 ## Format
 - 9:16, 1080×1920, 30 fps, H.264 High (2-pass, about 8 Mbps), AAC 256k at 48 kHz, faststart.
 - Talking head: a full-height 9:16 crop of the landscape source. The crop follows his face with a heavily smoothed track (1.5 s Gaussian), so it drifts gently and never snaps. His face sits in the upper-middle third. The upscale is Lanczos with no sharpening.
+- Cut the head shots from the sharpest copy there is. The archive.org items carry the original 4K upload (a VP9 WebM) next to the 480p MP4, and a full-height 9:16 crop of 480p is only 270 px wide. `pipeline/fetch_hires.py` fetches just the window the Short uses and lines it up with the source audio. Everything else (word timing, face tracking) still runs on the 480p MP4.
 - Only David's real voice, never re-worded. No AI voice.
 
 ## Structure
@@ -32,7 +33,7 @@ Capture one main teaching from the video and convey it simply and naturally in 6
 ## Captions
 - EB Garamond SemiBold (`assets/fonts/EBGaramond-600.ttf`), 70 px, sentence case, warm off-white #F4EFE4.
 - Legibility comes from a soft dark halo plus a close shadow, never a stroke. A plain shadow is lost on David's tan sweater.
-- Two-line phrase chunks, each line 1–3 words and each phrase 2–5 words, centered with the block's center at 70% of the frame height, inside a 900 px safe width (the renderer asserts this).
+- Two-line phrase chunks, each line 1–3 words and each phrase 2–5 words, centered with the block's center at 70% of the frame height, inside a 900 px safe width (the renderer asserts this). The 4K full-height crop frames him closer, so 70% falls on his white beard. There, set `"caption_y": 0.83` in the spec to put the captions on his sweater (`tao-ch1-passionless-subtle` is the example).
 - Each word appears on its spoken onset with a 3-frame fade. No pop, bounce or scale.
 - One key word per phrase (or none) in pale ochre #D9B26F. This is the only caption accent.
 - Captions are clean. Fillers that stay in the audio ("you know", "um") can be left off the screen (`~you ~know` in the spec), but every word that is shown matches the speech exactly and appears on its real onset. `build_edl.py` refuses any mismatch, and `qa.py` re-transcribes the finished audio to check words and onsets.
