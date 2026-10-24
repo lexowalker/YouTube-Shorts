@@ -6,7 +6,7 @@ Reads shorts/<slug>/short.json and .work/<slug>/words.json; writes .work/<slug>/
 and a portable copy at shorts/<slug>/edl.json. Fails loudly if any caption word differs from the spoken word,
 if a spoken word is left uncaptioned, or if a crop falls outside its image.
 
-Spec keys (see shorts/tao-ch4-unimpeded-harmony/short.json for a complete example):
+Spec keys (see shorts/tao-ch1-passionless-subtle/short.json for a complete example):
   segments      [[src_start, src_end], ...] in program order; cut only in pauses
   word_fixes    transcript corrections in source time: {"near", "from", "to", ["s", "e"]}
   word_overrides  replace all words in a source span: {"from", "to", "words": [[w, s, e], ...], "why"}

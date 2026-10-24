@@ -1,6 +1,6 @@
 # Style guide: Tao Te Ching Shorts
 
-This is the house style for vertical Shorts cut from David E. Arredondo's readings of, and commentary on, Thomas Cleary's translation of the Tao Te Ching. It merges the original hand-off brief with the decisions made on the first Short (`shorts/tao-ch4-unimpeded-harmony`), which is the reference for how a finished Short looks and sounds. Change this file when the house style changes, never one Short at a time.
+This is the house style for vertical Shorts cut from David E. Arredondo's readings of, and commentary on, Thomas Cleary's translation of the Tao Te Ching. It merges the original hand-off brief with the decisions made on the first Short (`shorts/tao-ch4-unimpeded-harmony`) and the user's notes on the Chapter 1 Discussion 1 Short (`shorts/tao-ch1-passionless-subtle`), which is now the reference for how a finished Short looks and sounds. Change this file when the house style changes, never one Short at a time.
 
 ## Aim
 Capture one main teaching from the video and convey it simply and naturally in 60–120 s. The Taoism here is simple, natural, unadorned and beautiful, so the Short should feel like a breath of fresh air. Nothing is contrived or embellished. Every choice serves the teaching. When in doubt, take something away.
@@ -44,7 +44,7 @@ Capture one main teaching from the video and convey it simply and naturally in 6
 - Each word appears on its spoken onset with a 3-frame fade. No pop, bounce or scale.
 - One key word per phrase (or none) in pale ochre #D9B26F. This is the only caption accent.
 - Captions are clean. Fillers that stay in the audio ("you know", "um") can be left off the screen (`~you ~know` in the spec), but every word that is shown matches the speech exactly and appears on its real onset. `build_edl.py` refuses any mismatch, and `qa.py` re-transcribes the finished audio to check words and onsets.
-- Opening title (optional; the user had it removed from `tao-ch1-passionless-subtle`, so leave it out when the hook line already states the teaching): the teaching in a few words ("Nothing in nature is separate") in EB Garamond Medium at 52 px, dark ink on a thin rice-paper box, centered at 15% of the height, for the first 3.6 s.
+- No opening title by default: the hook line opens the Short on its own (the user had the title removed from `tao-ch1-passionless-subtle`). Add one only if the user asks for it, in this style: the teaching in a few words ("Nothing in nature is separate") in EB Garamond Medium at 52 px, dark ink on a thin rice-paper box, centered at 15% of the height, for the first 3.6 s.
 
 ## Sound
 - David's voice is the whole soundtrack, and it should sound as it does in the original video. No noise reduction, EQ, compression or limiting. Those made the first cut sound boxed in.
@@ -65,7 +65,7 @@ Capture one main teaching from the video and convey it simply and naturally in 6
 2. **Book cover:** the cover of the edition David reads (*The Essential Tao*, Thomas Cleary, HarperOne, ISBN 9780062502162), scaled to fill 1080×1920 with nothing added. Use the largest scan available. Amazon's is only 306×500, so a photo of David's own copy would be sharper.
 
 ## Titles
-Offer 10 calm, specific titles drawn from David's own words or the Cleary line, under about 60 characters. No clickbait, emoji or ALL CAPS. Optionally add "· Tao Te Ching, Ch. N" for search. Recommend one.
+Offer 10 titles that would grip a general YouTube audience, most of whom have never read the Tao Te Ching. Open with a tension, a paradox or a problem people recognise from their own lives ("Why Trying Harder Makes You Miss What Matters"), built from what David actually says. Keep them honest and under about 60 characters, with no clickbait ("secret", "shocking"), emoji or ALL CAPS. "· Tao Te Ching Ch. N" helps search but usually pushes past 60 characters, so it can go in the description instead. Recommend one and say why.
 
 ## Restraint
 No flashy effects, emoji, stickers, shakes, glitches, zoom punches, animated text pops or busy transitions. One font family. One caption accent color. Nothing on screen that doesn't serve the line, and no images that contradict the teaching (violence, machines, glossy stock).

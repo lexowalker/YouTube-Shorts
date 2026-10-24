@@ -5,7 +5,7 @@
 **Release slot:** Chapter 1, Discussion 1 (Mon 26 Oct 2026 in `docs/release-schedule.xlsx`).
 
 ## 1. Hook title
-Too much effort is counterproductive, because you can't see the subtle. (Tao Te Ching, Ch. 1)
+Why Trying Harder Makes You Miss What Matters
 
 ## 2. The teaching
 Always passionless, thereby observe the subtle; ever intent, thereby observe the apparent. Passion, anger, anxiety and craving hide the subtle, attention shows us what is in front of us, and we need both (Tao Te Ching, Chapter 1, Thomas Cleary translation).
@@ -70,13 +70,16 @@ All are from the Cleveland Museum of Art Open Access collection (CC0), full-reso
 - `thumbnails/thumbnail_book_cover.jpg`: *The Essential Tao* (Cleary, HarperOne, ISBN 9780062502162), the edition he reads in this video. Amazon's scan is only 306×500, so it is soft at full size.
 
 ## 7. Titles (recommended first)
-1. **Passionless, You See the Subtle · Tao Te Ching, Ch. 1**
-2. Too Much Effort Hides the Subtle
-3. If We're Angry, We Can't See the Subtle
-4. Always Passionless, Thereby Observe the Subtle
-5. You Need Both: Stillness and Attention
-6. Quiet Enough to Observe the Subtle
-7. Study It with Intent, Practice It Without Passion
-8. Ever Intent, Thereby Observe the Apparent
-9. The Essence of Consciousness Is So Subtle
-10. Two Ways of Knowing · Tao Te Ching, Ch. 1
+Written to grip a general YouTube audience. #1 is recommended: it opens on a real paradox (effort backfires), is relatable without knowing the Tao Te Ching, and is the hook line he opens with.
+1. **Why Trying Harder Makes You Miss What Matters**
+2. Too Much Effort Blinds You to the Subtle
+3. You Can't See Clearly When You're Angry
+4. What Passion Hides From You
+5. Anger, Lust, Anxiety: Why You Can't See the Subtle
+6. Stop Trying So Hard. Start Seeing.
+7. Why Stillness Sees What Striving Can't
+8. The Two Ways of Seeing in the Tao Te Ching
+9. Be Still Enough to See the Subtle
+10. Lao Tzu's Two Ways of Knowing
+
+**Approved** by the user on 24 Oct 2026 after three rounds of notes: (1) remove the opening title, the stray silent shots of him at the joins, half-second clips, and key every image to the words; (2) let the fade into an image play over him still moving (no frozen frame), drop the bell so one image carries the thought, and centre the falcon and the lovers. These are now in `docs/style-guide.md` and the make-short skill.

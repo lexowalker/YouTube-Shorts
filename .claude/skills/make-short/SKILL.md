@@ -5,11 +5,11 @@ description: Make a vertical YouTube Short from one of David E. Arredondo's Tao 
 
 # Make a Short
 
-The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch4-unimpeded-harmony/` is the reference Short: its `short.json` is a complete, working spec to copy from. Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
+The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch1-passionless-subtle/` is the reference Short: its `short.json` is a complete, working spec to copy from, and its `DELIVERY.md` notes why each image and cut was chosen. (The first Short, `tao-ch4-unimpeded-harmony`, still has an opening title and the older 480p head shots.) Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
 
 ## Deliverables
 1. `shorts/<slug>/<slug>.mp4`, 1080×1920, 60–120 s (aim for 70–90 s). Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
-2. Ten title suggestions, with one recommended (in chat and in `DELIVERY.md`).
+2. Ten title suggestions that would grip a general YouTube audience, with one recommended (in chat and in `DELIVERY.md`; see "Titles" in the style guide).
 3. A one-sentence statement of the teaching, with its chapter.
 4. The source timestamps used, in order.
 5. The image list: file, source URL, license and timestamp in the Short (`images.json` plus the table).
@@ -33,6 +33,8 @@ The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch4-u
 
 ## 3. Choose the teaching (ask)
 Propose 2–3 candidate teachings, each with a rough cut (source ranges, hook line, ending line, about how many seconds), and recommend one. Use AskUserQuestion. Also confirm anything unusual, but don't re-ask settled house-style questions such as font, accent, ambient bed or end card.
+
+Once the user picks a teaching, write out the **full proposed transcript**: every line in order, as it will be heard, with its source time, and what's left out. The user reviews it for coherence and for whether it captures the essence of the teaching. Don't cut, choose images or render until they approve it.
 
 ## 4. Word timings and cut points
 - `python3 -I pipeline/transcribe.py <slug> words a:b c:d …` (medium.en) over the chosen ranges with a little margin.
@@ -87,6 +89,9 @@ Check the sheets yourself as well, for bad crops, a face cut off, or an image on
   - his face is well framed
   - no image arrives before its word
   - no visible jump cut
+  - every image shows what he is saying at that moment, with its subject centred and its focal point (an eye, faces) well inside the frame
+  - every fade from his face into an image plays over him still moving: no frozen frame, and no stray shot of him in between
+  - no half-second flashes of him or of a painting, and no image changes the line doesn't need
   - the end card is correct, showing **@DavidEArredondo** and **@davidarredondo**
 - Check that no mode runs over about 12 s (`build_edl.py` warns), the length is 60–120 s, and the true peak is ≤ −1 dBTP.
 - You can't hear the audio. Say so in the delivery and ask the user to listen once.
