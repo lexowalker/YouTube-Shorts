@@ -79,7 +79,8 @@ python3 -I pipeline/qa.py <slug>
 
 ## 9. Write-up and commit
 - `python3 -I pipeline/notes.py <slug>` prints the timestamp and image tables and writes `images.json`. Write `shorts/<slug>/DELIVERY.md` in the same shape as the reference: hook title, the teaching, timestamps, images, notes on choices, and the 10 titles.
-- Commit `shorts/<slug>/` (the spec, EDL, images.json, DELIVERY.md and thumbnails; the mp4 is git-ignored) and push to the session's branch. `.work/` is git-ignored too.
+- Update the release schedule (see "Release schedule" in CLAUDE.md). A teaching Short is the chapter's Discussion 1 (its main teaching) or Discussion 2 (a second point, or another presentation of the first): `python3 -I pipeline/schedule.py mark <N> <d1|d2> <"In progress"|Ready> --title "<recommended title>" --note "<the teaching>"`, then `python3 -I pipeline/schedule.py status`. Tell the user the verdict, the buffer and what's due next.
+- Commit `shorts/<slug>/` (the spec, EDL, images.json, DELIVERY.md and thumbnails; the mp4 is git-ignored) and `docs/release-schedule.xlsx`, and push to the session's branch. `.work/` is git-ignored too.
 - Give the user the mp4 and thumbnails (SendUserFile) and the 10 titles in chat.
 
 ## Gotchas

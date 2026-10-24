@@ -57,4 +57,5 @@ python3 -I pipeline/reading.py qa <slug>
 ## 4. Deliver and commit
 - Send `shorts/<slug>/<slug>.mp4` with SendUserFile.
 - In the message, give the source video, the timestamps used, the length, and anything you had to decide (another item, a header skipped, a fixed onset).
-- Commit `shorts/<slug>/reading.json` (the mp4 is git-ignored) and push to the session's branch. Once the user approves the Short, set `"locked": true` in its spec and commit again.
+- Update the release schedule: `python3 -I pipeline/schedule.py mark <N> reading Ready --title "<title>"` once it's approved (`"In progress"` while it's waiting on review), then `python3 -I pipeline/schedule.py status`. Tell the user the verdict (ON TRACK / AT RISK / BEHIND), the buffer and what's due next (see "Release schedule" in CLAUDE.md).
+- Commit `shorts/<slug>/reading.json` and `docs/release-schedule.xlsx` (the mp4 is git-ignored), and push to the session's branch. Once the user approves the Short, set `"locked": true` in its spec, mark it Ready, and commit again.
