@@ -58,10 +58,18 @@ python3 -I pipeline/crop_track.py <slug>    # smoothed face-following crop
 python3 -I pipeline/preview.py <slug>       # look at preview_images.jpg and preview_heads.jpg before rendering
 python3 -I pipeline/audio.py <slug>         # untouched voice, clean joins, pause-only de-click, peak -1 dBTP
 python3 -I pipeline/qa.py <slug> --audio-only   # re-transcribe the assembled audio: fix every caption miss before rendering
-python3 -I pipeline/render.py <slug>        # about 5 min per 80 s; run in the background
+python3 -I pipeline/draft.py <slug>         # ~1.5 min: the exact frames at every caption, shot and join, with flags
+python3 -I pipeline/render.py <slug>        # ~4 min for 90 s from 4K (4 chunks in parallel); run in the background
 python3 -I pipeline/encode.py <slug>
 python3 -I pipeline/qa.py <slug>
 ```
+
+**Always run `draft.py` and look at its sheets before `render.py`.** It composes, with the renderer's own code, the
+frames that show most mistakes, and flags two automatically:
+- **BRIGHT:** a caption on a light background, such as his white beard or pale paper. Move it with `caption_y`, or change the crop.
+- **JUMP:** a join on a head shot with nothing over it.
+
+Check the sheets yourself as well, for bad crops, an image on the wrong word or a face cut off. Fix everything, rebuild and draft again. Only then run the full render. A full render costs minutes; finding the problem after it means a second render.
 
 ## 7. QA (fix before the user sees it)
 - `qa.py` re-transcribes the finished audio, and its long context often hears fillers the range pass missed. Every caption word must match, and fillers marked `~` count as matched. For each flagged onset, read the dB envelope it prints: if the voice really starts where the caption does, it's fine; otherwise add an `onset_fixes` entry and rebuild.

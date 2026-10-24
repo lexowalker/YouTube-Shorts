@@ -1,6 +1,9 @@
 """Compose the vertical Short frame by frame (no audio).
 
-  python3 -I pipeline/render.py <slug>      -> .work/<slug>/video_master.mp4 (CRF 16) and endcard_preview.png
+  python3 -I pipeline/render.py <slug> [--jobs N]   -> .work/<slug>/video_master.mp4 (intermediate, CRF 12) and endcard_preview.png
+
+Renders N contiguous chunks at once (default: up to 4, one per core) and joins them with a stream copy. Run
+draft.py first: it shows the frames that matter in about a minute.
 
 The EDL holds:
   segments: [{src_start, src_end}]          audio/video pieces of the source, in program order
@@ -44,18 +47,35 @@ class HeadReader:
         self.cw = round(self.sh * 9 / 16)
         self.segs = edl["segments"]
         self.track = json.load(open(edl["crop_track"]))
+        # each segment is decoded already cropped to the band its face crop travels within (+2 px), so only that
+        # strip of a 4K frame crosses the pipe and gets warped; the result is identical to cropping the full frame
+        self.bands, f0 = [], 0
+        for seg in self.segs:
+            f1 = f0 + round((seg["src_end"] - seg["src_start"]) * FPS)
+            lefts = self.track[f0:f1 + 1] or [0.0]  # + 1: a segment's last frame can read the next one's track value
+            bx0 = max(0, int(math.floor(min(lefts))) - 2) // 2 * 2  # even: crop on 4:2:0 video snaps x to even
+            bx1 = min(self.sw, (int(math.ceil(max(lefts))) + self.cw + 4) // 2 * 2)
+            self.bands.append((bx0, bx1 - bx0))
+            f0 = f1
         self.si, self.proc, self.idx, self.cur, self.f = -1, None, None, None, 0
         self.last = np.zeros((H, W, 3), np.uint8)
 
-    def _open(self, si):
+    def seek(self, f):
+        """Start at program frame f (a chunked render starts mid-way)."""
+        self.f = f
+
+    def _open(self, si, ts=None):
         if self.proc:
             self.proc.kill()
         a, b = self.segs[si]["src_start"] - self.t0, self.segs[si]["src_end"] - self.t0
         self.first = math.ceil(a * self.fps - 1e-6)
-        self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{self.first / self.fps:.4f}", "-i", self.src,
-                                      "-t", f"{b - a + 1:.3f}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+        start = max(self.first, math.floor(ts * self.fps + 1e-6)) if ts is not None else self.first
+        self.bx, self.bw = self.bands[si]
+        self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{start / self.fps:.4f}", "-i", self.src,
+                                      "-t", f"{b - start / self.fps + 1:.3f}", "-vf", f"crop={self.bw}:{self.sh}:{self.bx}:0",
+                                      "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                      stdout=subprocess.PIPE)
-        self.si, self.idx, self.cur = si, self.first - 1, None
+        self.si, self.idx, self.cur = si, start - 1, None
 
     def next(self):
         """Advance one program frame and return the cropped, upscaled head frame."""
@@ -65,22 +85,22 @@ class HeadReader:
             if t < acc + d or si == len(self.segs) - 1:
                 break
             acc += d
-        if si != self.si:
-            self._open(si)
         ts = seg["src_start"] - self.t0 + (t - acc)
+        if si != self.si:
+            self._open(si, ts)
         want = max(math.floor(ts * self.fps + 1e-6), self.first)
-        n = self.sw * self.sh * 3
+        n = self.bw * self.sh * 3
         while self.idx < want:
             b = self.proc.stdout.read(n)
             if len(b) < n:
                 break
-            self.cur, self.idx = np.frombuffer(b, np.uint8).reshape(self.sh, self.sw, 3), self.idx + 1
+            self.cur, self.idx = np.frombuffer(b, np.uint8).reshape(self.sh, self.bw, 3), self.idx + 1
         left = self.track[min(self.f, len(self.track) - 1)]
         self.f += 1
         if self.cur is None:
             return self.last
         # sub-pixel crop then a clean Lanczos upscale (no sharpening)
-        m = np.float32([[1, 0, -left], [0, 1, 0]])
+        m = np.float32([[1, 0, -(left - self.bx)], [0, 1, 0]])
         crop = self.cv2.warpAffine(self.cur, m, (self.cw, self.sh), flags=self.cv2.INTER_CUBIC, borderMode=self.cv2.BORDER_REPLICATE)
         self.last = self.cv2.resize(crop, (W, H), interpolation=self.cv2.INTER_LANCZOS4)
         return self.last
@@ -112,6 +132,7 @@ class ImageShot:
         ext_w = w + abs(pan)
         region = src.crop((min(x, x + pan), y, min(x, x + pan) + ext_w, y + h))
         self.base = warm_grade(region.resize((max(1, round(ext_w * self.scale)), round(h * self.scale)), Image.LANCZOS))
+        self.base_np = np.ascontiguousarray(np.asarray(self.base))
         self.w, self.h, self.pan = w * self.scale, h * self.scale, pan * self.scale
         self.x0 = 0 if pan >= 0 else -self.pan
         ax, ay = shot.get("anchor", [0.5, 0.5])
@@ -128,8 +149,12 @@ class ImageShot:
         top = cy - vh * self.ay
         left = min(max(left, 0), self.base.width - vw)
         top = min(max(top, 0), self.base.height - vh)
-        im = self.base.transform((W, H), Image.EXTENT, (left, top, left + vw, top + vh), Image.BICUBIC)
-        return np.asarray(im)
+        import cv2
+        # output pixel (x, y) samples the base at (left + (x + 0.5) * vw / W - 0.5, ...), as PIL's EXTENT transform does
+        sx, sy = vw / W, vh / H
+        m = np.float32([[sx, 0, left + 0.5 * sx - 0.5], [0, sy, top + 0.5 * sy - 0.5]])
+        return cv2.warpAffine(self.base_np, m, (W, H), flags=cv2.INTER_CUBIC | cv2.WARP_INVERSE_MAP,
+                              borderMode=cv2.BORDER_REPLICATE)
 
 
 # ---------------------------------------------------------------- text
@@ -288,81 +313,119 @@ def endcard_frame(card, u):
     return np.asarray(card.transform((W, H), Image.EXTENT, (left, top, left + vw, top + vh), Image.BICUBIC))
 
 
-# ---------------------------------------------------------------- main
-def main():
-    slug = sys.argv[1]
-    work = work_dir(slug)
-    edl = load_edl(os.path.join(work, "edl.json"))
-    out = os.path.join(work, "video_master.mp4")
-    prog_dur = sum(s["src_end"] - s["src_start"] for s in edl["segments"])
-    ec = edl["endcard"]
-    total = prog_dur + ec["dur"]
-    nframes = round(total * FPS)
-    shots = edl["shots"]
-    img_cache = {}
-    caps = Captions(edl["captions"], edl.get("caption_y", CAP_CENTER_Y))
-    title = edl.get("title")
-    title_spr = None
-    if title:
-        tf = ImageFont.truetype(FONT_MED, title.get("size", 50))
-        title_spr = title_sprite(title["text"], tf)
-    card = build_endcard(edl)
-    card.save(os.path.join(work, "endcard_preview.png"))
-    head = HeadReader(edl, *head_source(slug))
-    enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-                            "-i", "-", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
-                            "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", out], stdin=subprocess.PIPE)
+# ---------------------------------------------------------------- compose
+class Composer:
+    """Builds the program frame at any time t from the EDL. render.py calls it for every frame in order; draft.py
+    calls it at a few chosen times, so a draft frame is exactly what the full render will show."""
 
-    def shot_at(t):
-        for i, s in enumerate(shots):
+    def __init__(self, edl, card=None):
+        self.edl, self.shots = edl, edl["shots"]
+        self.prog_dur = sum(s["src_end"] - s["src_start"] for s in edl["segments"])
+        self.ec = edl["endcard"]
+        self.caps = Captions(edl["captions"], edl.get("caption_y", CAP_CENTER_Y))
+        self.title = edl.get("title")
+        self.title_spr = None
+        if self.title:
+            self.title_spr = title_sprite(self.title["text"], ImageFont.truetype(FONT_MED, self.title.get("size", 50)))
+        self.card = card if card is not None else build_endcard(edl)
+        self.img_cache = {}
+
+    def shot_at(self, t):
+        for i, s in enumerate(self.shots):
             if s["t0"] <= t < s["t1"]:
                 return i
-        return len(shots) - 1
+        return len(self.shots) - 1
 
-    def render_shot(i, t, head_frame):
-        s = shots[i]
+    def render_shot(self, i, t, head_frame):
+        s = self.shots[i]
         if s["kind"] == "head":
             return head_frame.astype(np.float32)
-        if i not in img_cache:
-            img_cache.clear() if len(img_cache) > 3 else None
-            img_cache[i] = ImageShot(s)
-        return img_cache[i].frame(t).astype(np.float32)
+        if i not in self.img_cache:
+            self.img_cache.clear() if len(self.img_cache) > 3 else None
+            self.img_cache[i] = ImageShot(s)
+        return self.img_cache[i].frame(t).astype(np.float32)
 
-    ec_start = prog_dur
-    ec_fade = ec.get("fade_frames", 15) / FPS
-    for f in range(nframes):
-        t = f / FPS
-        hf = head.next() if t < prog_dur else head.last
-        if t < prog_dur:
-            i = shot_at(t)
-            fr = render_shot(i, t, hf)
+    def frame(self, t, hf, captions=True):
+        """float32 HxWx3 frame at program time t; hf is the head frame for t (any frame once the card is up)."""
+        shots, title = self.shots, self.title
+        if t < self.prog_dur:
+            i = self.shot_at(t)
+            fr = self.render_shot(i, t, hf)
             # soft cross-dissolve into / out of images: blend over the first DISSOLVE frames of a shot
             s = shots[i]
             if i > 0 and s.get("dissolve_in", shots[i - 1]["kind"] != s["kind"]):
                 k = (t - s["t0"]) * FPS
                 if k < DISSOLVE:
-                    prev = render_shot(i - 1, t, hf)
+                    prev = self.render_shot(i - 1, t, hf)
                     a = (k + 1) / (DISSOLVE + 1)
                     fr = prev * (1 - a) + fr * a
-            if title_spr is not None and title["t0"] <= t < title["t1"]:
+            if self.title_spr is not None and title["t0"] <= t < title["t1"]:
                 fi = min(1.0, (t - title["t0"]) / 0.4, (title["t1"] - t) / 0.4)
-                alpha_over(fr, title_spr, (W - title_spr.width) // 2, int(H * 0.15) - title_spr.height // 2, max(fi, 0))
-            caps.draw(fr, t)
-        else:
-            u = (t - ec_start) / ec["dur"]
-            cardf = endcard_frame(card, min(u, 1.0)).astype(np.float32)
-            k = (t - ec_start) / ec_fade
-            if k < 1.0:
-                # keep the final image settling (no captions) while dissolving
-                base = render_shot(len(shots) - 1, t, hf)
-                fr = base * (1 - k) + cardf * k
-            else:
-                fr = cardf
-        enc.stdin.write(np.clip(fr + 0.5, 0, 255).astype(np.uint8).tobytes())
-        if f % 150 == 0:
-            print(f"frame {f}/{nframes}", flush=True)
+                alpha_over(fr, self.title_spr, (W - self.title_spr.width) // 2, int(H * 0.15) - self.title_spr.height // 2, max(fi, 0))
+            if captions:
+                self.caps.draw(fr, t)
+            return fr
+        u = (t - self.prog_dur) / self.ec["dur"]
+        cardf = endcard_frame(self.card, min(u, 1.0)).astype(np.float32)
+        k = (t - self.prog_dur) / (self.ec.get("fade_frames", 15) / FPS)
+        if k < 1.0:
+            # keep the final image settling (no captions) while dissolving
+            return self.render_shot(len(shots) - 1, t, hf) * (1 - k) + cardf * k
+        return cardf
+
+
+# ---------------------------------------------------------------- main
+def render_range(slug, f0, f1, out):
+    """Frames [f0, f1) of the program to out. An intermediate: CRF 12 (finer than the final file) at a fast preset,
+    since encode.py re-encodes it with the slow 2-pass settings."""
+    edl = load_edl(os.path.join(work_dir(slug), "edl.json"))
+    comp = Composer(edl)
+    head = HeadReader(edl, *head_source(slug))
+    head.seek(f0)
+    enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+                            "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p",
+                            "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", out], stdin=subprocess.PIPE)
+    for f in range(f0, f1):
+        t = f / FPS
+        hf = head.next() if t < comp.prog_dur else head.last
+        enc.stdin.write(np.clip(comp.frame(t, hf) + 0.5, 0, 255).astype(np.uint8).tobytes())
+        if (f - f0) % 150 == 0:
+            print(f"frame {f}/{f1}", flush=True)
     enc.stdin.close()
     enc.wait()
+
+
+def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("slug")
+    ap.add_argument("--jobs", type=int, default=min(4, os.cpu_count() or 1), help="render this many chunks at once")
+    ap.add_argument("--range", help=argparse.SUPPRESS)  # "f0:f1:out" (one chunk; used by the parallel render)
+    a = ap.parse_args()
+    if a.range:
+        f0, f1, out = a.range.split(":", 2)
+        return render_range(a.slug, int(f0), int(f1), out)
+    work = work_dir(a.slug)
+    edl = load_edl(os.path.join(work, "edl.json"))
+    comp = Composer(edl)
+    comp.card.save(os.path.join(work, "endcard_preview.png"))
+    total = round((comp.prog_dur + comp.ec["dur"]) * FPS)
+    prog_frames = round(comp.prog_dur * FPS)
+    # contiguous chunks, one per job; the last starts before the end card so its head reader has a last frame
+    bounds = [round(total * k / a.jobs) for k in range(a.jobs + 1)]
+    bounds[-2] = min(bounds[-2], prog_frames - 1)
+    chunks = [(bounds[k], bounds[k + 1], os.path.join(work, f"chunk_{k}.mp4")) for k in range(a.jobs) if bounds[k + 1] > bounds[k]]
+    procs = [subprocess.Popen([sys.executable, "-I", os.path.abspath(__file__), a.slug, "--range", f"{f0}:{f1}:{out}"])
+             for f0, f1, out in chunks]
+    if any(p.wait() for p in procs):
+        sys.exit("a render chunk failed")
+    lst = os.path.join(work, "chunks.txt")
+    open(lst, "w").write("".join(f"file '{out}'\n" for _, _, out in chunks))
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy",
+                    os.path.join(work, "video_master.mp4")], check=True)
+    for _, _, out in chunks:
+        os.remove(out)
+    print(f"{os.path.join(work, 'video_master.mp4')}: {total} frames in {len(chunks)} chunks")
 
 
 if __name__ == "__main__":
