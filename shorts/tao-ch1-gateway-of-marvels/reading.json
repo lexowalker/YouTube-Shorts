@@ -1,0 +1,111 @@
+{
+ "slug": "tao-ch1-gateway-of-marvels",
+ "chapter": 1,
+ "title": "The Gateway of Marvels",
+ "chapter_title": "A Way Can Be a Guide",
+ "source": {
+  "item": "arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "file": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.mp4",
+  "video_title": "Tao Te Ching Chap. 1: “The Gateway of Marvels” 3/27/2024",
+  "url": "https://archive.org/details/arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024"
+ },
+ "section": [
+  137.0,
+  2930.23
+ ],
+ "text": [
+  "A way can be a guide, but not a fixed path;",
+  "names can be given, but not permanent labels.",
+  "Nonbeing is called the beginning of heaven and earth;",
+  "being is called the mother of all things.",
+  "Always passionless, thereby observe the subtle;",
+  "ever intent, thereby observe the apparent.",
+  "These two come from the same source but differ in name;",
+  "both are considered mysteries.",
+  "The mystery of mysteries",
+  "is the gateway of marvels."
+ ],
+ "start": 176.6,
+ "dur": 46.4,
+ "crop_x": 250,
+ "captions": [
+  {
+   "t": 177.37,
+   "text": "Chapter One"
+  },
+  {
+   "t": 178.12,
+   "text": "A way can be a guide…"
+  },
+  {
+   "t": 181.12,
+   "text": "A way can be a guide,"
+  },
+  {
+   "t": 182.45,
+   "text": "but not a fixed path;"
+  },
+  {
+   "t": 185.55,
+   "text": "Names can be given,"
+  },
+  {
+   "t": 187.1,
+   "text": "but not permanent labels."
+  },
+  {
+   "t": 190.0,
+   "text": "Nonbeing is called"
+  },
+  {
+   "t": 191.52,
+   "text": "the beginning of\\Nheaven and earth;"
+  },
+  {
+   "t": 194.7,
+   "text": "Being is called"
+  },
+  {
+   "t": 196.08,
+   "text": "the mother of all things."
+  },
+  {
+   "t": 199.12,
+   "text": "Always passionless,"
+  },
+  {
+   "t": 201.8,
+   "text": "thereby observe\\Nthe subtle;"
+  },
+  {
+   "t": 205.55,
+   "text": "ever intent,"
+  },
+  {
+   "t": 207.55,
+   "text": "thereby observe\\Nthe apparent."
+  },
+  {
+   "t": 210.9,
+   "text": "These two come from\\Nthe same source"
+  },
+  {
+   "t": 212.72,
+   "text": "but differ in name;"
+  },
+  {
+   "t": 215.5,
+   "text": "both are considered\\Nmysteries."
+  },
+  {
+   "t": 217.94,
+   "text": "The mystery of mysteries"
+  },
+  {
+   "t": 219.32,
+   "text": "is the gateway of marvels."
+  }
+ ],
+ "notes": "Approved reference Short, hand-timed. reading.py align reproduces these onsets to within 0.21 s; locked so align cannot overwrite them and a re-render matches the approved cut.",
+ "locked": true
+}

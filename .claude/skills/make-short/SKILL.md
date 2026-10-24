@@ -1,6 +1,6 @@
 ---
 name: make-short
-description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, CMA ink paintings, rice-paper end card, untouched voice), plus two thumbnails and 10 title suggestions. Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one.
+description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, CMA ink paintings, rice-paper end card, untouched voice), plus two thumbnails and 10 title suggestions. Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one. Not for "the reading of ch N" (use reading-short).
 ---
 
 # Make a Short
