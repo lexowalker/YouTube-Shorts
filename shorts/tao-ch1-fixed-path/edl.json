@@ -91,55 +91,36 @@
    ],
    "pan": 0,
    "zoom": [
-    1.12,
+    1.08,
     1.0
    ],
    "note": "the Thirty-Six Poetic Immortals, each one different: 'People come from many different backgrounds… inclinations… conditioning'",
    "t0": 27.55,
-   "t1": 35.7
-  },
-  {
-   "kind": "image",
-   "acc": "1939.68",
-   "file": ".work/img/1939.68_full.jpg",
-   "crop": [
-    4122,
-    0,
-    2493,
-    4432
-   ],
-   "pan": 0,
-   "zoom": [
-    1.08,
-    1.0
-   ],
-   "note": "the rich man and his guests at their feast: 'They have different resources' (on the join)",
-   "t0": 35.7,
-   "t1": 36.95
-  },
-  {
-   "kind": "image",
-   "acc": "1939.68",
-   "file": ".work/img/1939.68_full.jpg",
-   "crop": [
-    225,
-    1231,
-    1939,
-    3447
-   ],
-   "pan": 0,
-   "zoom": [
-    1.08,
-    1.0
-   ],
-   "note": "the beggar Lazarus lying outside the feast: '…resources' (the same painting: rich, then poor)",
-   "t0": 36.95,
-   "t1": 38.53
+   "t1": 33.65
   },
   {
    "kind": "head",
-   "t0": 38.53,
-   "t1": 40.033
+   "t0": 33.65,
+   "t1": 35.433
+  },
+  {
+   "kind": "image",
+   "acc": "1916.998",
+   "file": ".work/img/1916.998_full.jpg",
+   "crop": [
+    691,
+    0,
+    2548,
+    4529
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "\"Old Pat,\" the Independent Beggar: 'They have different resources. There are different times and different ages.' (on the join)",
+   "t0": 35.433,
+   "t1": 40.3
   },
   {
    "kind": "image",
@@ -157,7 +138,7 @@
     1.0
    ],
    "note": "a painter at his easel, a boy drawing beside him: 'There's not a fixed path to artistic greatness or to scientific discovery' (on the join)",
-   "t0": 40.033,
+   "t0": 40.3,
    "t1": 45.24
   },
   {
@@ -167,20 +148,20 @@
   },
   {
    "kind": "image",
-   "acc": "2008.357",
-   "file": ".work/img/2008.357_full.jpg",
+   "acc": "1982.35",
+   "file": ".work/img/1982.35_full.jpg",
    "crop": [
-    1715,
-    496,
-    3141,
-    5584
+    221,
+    0,
+    2728,
+    4850
    ],
    "pan": 0,
    "zoom": [
     1.12,
     1.0
    ],
-   "note": "Daubigny's The Oak Tree and the Reed: the rigid oak torn down by the storm, for 'too fixed, too formulaic, too rigid' (against the bamboo that bends, at the end)",
+   "note": "a Ming–Qing official, bolt upright and perfectly symmetrical: religion 'too fixed, too formulaic, too rigid… encrusted from use'",
    "t0": 55.37,
    "t1": 67.32
   },

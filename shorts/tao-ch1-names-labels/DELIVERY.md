@@ -43,6 +43,7 @@ python3 -I pipeline/ext_image.py ext-bill-1934 <archive.org PNG> --crop 0,0,1,0.
 `images.json` has the image-file URL, exact crop and motion for each shot.
 
 ## 5. Notes on choices
+- **Approved** by the user on 26 Oct 2026 after round 2 ("great!"). No release slot yet.
 - **Round 2 (the user's notes, 26 Oct):** the clip now starts after a soft false start on "P-" before "Pluto". The Moon became Pluto itself (New Horizons, set on black). The Swedish plate money became a slow pan across a 1934 hundred-dollar note, from Franklin to the "100", toned down and grained so it sits with the paintings and keeps the captions off white paper. The Red Fuji is gone: the last two lines are on his face, so there is one cut on his face at 1:02.6, between two takes 8 s apart in the video with nearly the same pose. Fixing that cut also turned up a clipped word: "our thoughts" had been cut, leaving "our, uh", which every pass heard as "our sense". The clip now jumps from "…intention and" to "our thoughts".
 - **Imagery:** the hook stays on his face, then Pluto itself on "Names can be given". Bierstadt's California and western mountains carry the Mexico lines, the hundred-dollar note pans under "a beautiful piece of green paper… we sustain certain things with our intention and our thoughts", and the last two lines are his own, on camera.
 - **Passed over:** Goryeo bronze seals and a Kushan gold coin (grey museum backdrops under the captions), and Kenyon Cox's *Design for United States Currency* (literal, but from 1912, and the house style takes no 20th-century work).

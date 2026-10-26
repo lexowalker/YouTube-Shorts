@@ -43,6 +43,7 @@ python3 -I pipeline/ext_image.py ext-hudf <Wikimedia Hubble_ultra_deep_field.jpg
 The Pale Blue Dot exists only at 453×614 on reachable hosts, so it is upscaled 4×; its grain is the original's. `images.json` has the exact crops and motion.
 
 ## 5. Notes on choices
+- **Approved** by the user on 26 Oct 2026 after round 2 ("great!"). No release slot yet.
 - **Round 2 (the user's notes, 26 Oct):**
   - **The opening:** it starts on "We unnecessarily", after "But we,".
   - **Clipped words:** "existence", "ball" and "huge stadium" had been clipped. Each is now whole, and so is "max", which turned out to come after a soft, late "ball".
