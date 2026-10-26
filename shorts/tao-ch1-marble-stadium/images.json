@@ -1,0 +1,110 @@
+[
+ {
+  "short_start_s": 4.393,
+  "short_end_s": 10.57,
+  "accession": "1917.42",
+  "title": "The Thinker",
+  "artist": "Auguste Rodin (French, 1840–1917)",
+  "date": "1880–81",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1917.42",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1917.42/1917.42_full.tif",
+  "crop_xywh_px": [
+   1060,
+   0,
+   3925,
+   6977
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 15.003,
+  "short_end_s": 23.8,
+  "accession": "2011.37",
+  "title": "Books and Scholars’ Accoutrements",
+  "artist": "Yi Taek-gyun (Korean, 1808–after 1883)",
+  "date": "late 1800s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2011.37",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2011.37/2011.37_full.tif",
+  "crop_xywh_px": [
+   1421,
+   0,
+   3752,
+   6670
+  ],
+  "motion": "horizontal pan 1500 px, zoom-out 1.00x→1.00x, linear"
+ },
+ {
+  "short_start_s": 29.76,
+  "short_end_s": 39.56,
+  "accession": "1922.225",
+  "title": "Views of Rome:  The Colosseum",
+  "artist": "Giovanni Battista Piranesi (Italian, 1720–1778)",
+  "date": "1776",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1922.225",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1922.225/1922.225_full.tif",
+  "crop_xywh_px": [
+   2507,
+   166,
+   2809,
+   4993
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ },
+ {
+  "short_start_s": 41.95,
+  "short_end_s": 45.31,
+  "accession": "ext-hudf",
+  "title": "Hubble Ultra Deep Field",
+  "artist": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+  "date": "2004",
+  "license": "Public domain (NASA)",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+  "image_file_url": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+  "crop_xywh_px": [
+   0,
+   0,
+   1744,
+   3100
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 45.31,
+  "short_end_s": 49.76,
+  "accession": "ext-pale-blue-dot",
+  "title": "Pale Blue Dot (Earth from 6 billion km)",
+  "artist": "NASA / JPL, Voyager 1",
+  "date": "1990",
+  "license": "Public domain (NASA)",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot.png",
+  "image_file_url": "https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot.png",
+  "crop_xywh_px": [
+   429,
+   0,
+   1382,
+   2456
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 54.41,
+  "short_end_s": 59.12,
+  "accession": "ext-hudf",
+  "title": "Hubble Ultra Deep Field",
+  "artist": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+  "date": "2004",
+  "license": "Public domain (NASA)",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+  "image_file_url": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg",
+  "crop_xywh_px": [
+   1333,
+   0,
+   1744,
+   3100
+  ],
+  "motion": "zoom-out 1.15x→1.00x, linear"
+ }
+]

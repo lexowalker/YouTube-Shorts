@@ -19,7 +19,7 @@
   },
   {
    "src_start": 1762.55,
-   "src_end": 1786.95
+   "src_end": 1786.84
   },
   {
    "src_start": 1791.75,
@@ -105,12 +105,12 @@
    ],
    "note": "Piranesi's Colosseum: 'The second attention would be the size of the largest stadium… a little marble in a huge stadium'",
    "t0": 29.76,
-   "t1": 39.67
+   "t1": 39.56
   },
   {
    "kind": "head",
-   "t0": 39.67,
-   "t1": 42.06
+   "t0": 39.56,
+   "t1": 41.95
   },
   {
    "kind": "image",
@@ -128,8 +128,8 @@
     1.0
    ],
    "note": "the Hubble Ultra Deep Field, thousands of galaxies in a speck of sky: 'outside the stadium, you have the universe… the third attention'",
-   "t0": 42.06,
-   "t1": 45.42
+   "t0": 41.95,
+   "t1": 45.31
   },
   {
    "kind": "image",
@@ -147,13 +147,13 @@
     1.0
    ],
    "note": "the Pale Blue Dot, Earth from Voyager 1, with an arrow and 'Earth': 'The evident is an edge of reality, like a little pathway by a major road' (on the join)",
-   "t0": 45.42,
-   "t1": 49.87
+   "t0": 45.31,
+   "t1": 49.76
   },
   {
    "kind": "head",
-   "t0": 49.87,
-   "t1": 54.52
+   "t0": 49.76,
+   "t1": 54.41
   },
   {
    "kind": "image",
@@ -171,8 +171,8 @@
     1.0
    ],
    "note": "the Deep Field again, slowly widening: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
-   "t0": 54.52,
-   "t1": 59.23
+   "t0": 54.41,
+   "t1": 59.12
   }
  ],
  "captions": [
@@ -1063,38 +1063,38 @@
    "lines": [
     4
    ],
-   "t_off": 39.98
+   "t_off": 39.87
   },
   {
    "words": [
     {
      "w": "And",
-     "s": 39.98,
-     "e": 40.38,
+     "s": 39.87,
+     "e": 40.27,
      "key": false
     },
     {
      "w": "then",
-     "s": 40.38,
-     "e": 40.52,
+     "s": 40.27,
+     "e": 40.41,
      "key": false
     },
     {
      "w": "outside",
-     "s": 40.52,
-     "e": 41.0,
+     "s": 40.41,
+     "e": 40.89,
      "key": false
     },
     {
      "w": "the",
-     "s": 41.0,
-     "e": 41.2,
+     "s": 40.89,
+     "e": 41.09,
      "key": false
     },
     {
      "w": "stadium,",
-     "s": 41.25,
-     "e": 41.42,
+     "s": 41.14,
+     "e": 41.31,
      "key": false
     }
    ],
@@ -1102,32 +1102,32 @@
    "lines": [
     3
    ],
-   "t_off": 41.56
+   "t_off": 41.45
   },
   {
    "words": [
     {
      "w": "you",
-     "s": 41.56,
-     "e": 41.64,
+     "s": 41.45,
+     "e": 41.53,
      "key": false
     },
     {
      "w": "have",
-     "s": 41.64,
-     "e": 41.8,
+     "s": 41.53,
+     "e": 41.69,
      "key": false
     },
     {
      "w": "the",
-     "s": 41.8,
-     "e": 42.06,
+     "s": 41.69,
+     "e": 41.95,
      "key": false
     },
     {
      "w": "universe.",
-     "s": 42.06,
-     "e": 42.58,
+     "s": 41.95,
+     "e": 42.47,
      "key": true
     }
    ],
@@ -1135,56 +1135,56 @@
    "lines": [
     4
    ],
-   "t_off": 42.9
+   "t_off": 42.79
   },
   {
    "words": [
     {
      "w": "And",
-     "s": 42.9,
-     "e": 43.0,
+     "s": 42.79,
+     "e": 42.89,
      "key": false
     },
     {
      "w": "now",
-     "s": 43.0,
-     "e": 43.18,
+     "s": 42.89,
+     "e": 43.07,
      "key": false
     },
     {
      "w": "we're",
-     "s": 43.18,
-     "e": 43.32,
+     "s": 43.07,
+     "e": 43.21,
      "key": false
     },
     {
      "w": "talking",
-     "s": 43.36,
-     "e": 43.6,
+     "s": 43.25,
+     "e": 43.49,
      "key": false
     },
     {
      "w": "about",
-     "s": 43.6,
-     "e": 43.96,
+     "s": 43.49,
+     "e": 43.85,
      "key": false
     },
     {
      "w": "the",
-     "s": 44.23,
-     "e": 44.34,
+     "s": 44.12,
+     "e": 44.23,
      "key": false
     },
     {
      "w": "third",
-     "s": 44.46,
-     "e": 44.68,
+     "s": 44.35,
+     "e": 44.57,
      "key": false
     },
     {
      "w": "attention.",
-     "s": 44.68,
-     "e": 45.22,
+     "s": 44.57,
+     "e": 45.11,
      "key": true
     }
    ],
@@ -1192,50 +1192,50 @@
    "lines": [
     4
    ],
-   "t_off": 45.72
+   "t_off": 45.61
   },
   {
    "words": [
     {
      "w": "The",
-     "s": 45.73,
-     "e": 45.81,
+     "s": 45.62,
+     "e": 45.7,
      "key": false
     },
     {
      "w": "evident",
-     "s": 45.81,
-     "e": 46.19,
+     "s": 45.7,
+     "e": 46.08,
      "key": true
     },
     {
      "w": "is",
-     "s": 46.19,
-     "e": 46.43,
+     "s": 46.08,
+     "e": 46.32,
      "key": false
     },
     {
      "w": "an",
-     "s": 46.43,
-     "e": 46.61,
+     "s": 46.32,
+     "e": 46.5,
      "key": false
     },
     {
      "w": "edge",
-     "s": 46.61,
-     "e": 46.73,
+     "s": 46.5,
+     "e": 46.62,
      "key": false
     },
     {
      "w": "of",
-     "s": 46.73,
-     "e": 46.91,
+     "s": 46.62,
+     "e": 46.8,
      "key": false
     },
     {
      "w": "reality,",
-     "s": 46.91,
-     "e": 47.31,
+     "s": 46.8,
+     "e": 47.2,
      "key": false
     }
    ],
@@ -1243,56 +1243,56 @@
    "lines": [
     2
    ],
-   "t_off": 47.55
+   "t_off": 47.44
   },
   {
    "words": [
     {
      "w": "like",
-     "s": 47.55,
-     "e": 47.57,
+     "s": 47.44,
+     "e": 47.46,
      "key": false
     },
     {
      "w": "a",
-     "s": 47.57,
-     "e": 47.75,
+     "s": 47.46,
+     "e": 47.64,
      "key": false
     },
     {
      "w": "little",
-     "s": 47.75,
-     "e": 47.95,
+     "s": 47.64,
+     "e": 47.84,
      "key": false
     },
     {
      "w": "pathway",
-     "s": 47.95,
-     "e": 48.43,
+     "s": 47.84,
+     "e": 48.32,
      "key": false
     },
     {
      "w": "by",
-     "s": 48.43,
-     "e": 48.71,
+     "s": 48.32,
+     "e": 48.6,
      "key": false
     },
     {
      "w": "a",
-     "s": 48.71,
-     "e": 48.93,
+     "s": 48.6,
+     "e": 48.82,
      "key": false
     },
     {
      "w": "major",
-     "s": 48.93,
-     "e": 49.19,
+     "s": 48.82,
+     "e": 49.08,
      "key": false
     },
     {
      "w": "road.",
-     "s": 49.19,
-     "e": 49.73,
+     "s": 49.08,
+     "e": 49.62,
      "key": true
     }
    ],
@@ -1300,44 +1300,44 @@
    "lines": [
     4
    ],
-   "t_off": 49.98
+   "t_off": 49.87
   },
   {
    "words": [
     {
      "w": "So",
-     "s": 49.98,
-     "e": 50.04,
+     "s": 49.87,
+     "e": 49.93,
      "key": false
     },
     {
      "w": "the",
-     "s": 50.04,
-     "e": 50.36,
+     "s": 49.93,
+     "e": 50.25,
      "key": false
     },
     {
      "w": "evident",
-     "s": 50.36,
-     "e": 50.62,
+     "s": 50.25,
+     "e": 50.51,
      "key": false
     },
     {
      "w": "is",
-     "s": 50.62,
-     "e": 50.82,
+     "s": 50.51,
+     "e": 50.71,
      "key": false
     },
     {
      "w": "like",
-     "s": 50.89,
-     "e": 51.0,
+     "s": 50.78,
+     "e": 50.89,
      "key": false
     },
     {
      "w": "a",
-     "s": 51.03,
-     "e": 51.14,
+     "s": 50.92,
+     "e": 51.03,
      "key": false
     }
    ],
@@ -1345,26 +1345,26 @@
    "lines": [
     3
    ],
-   "t_off": 51.14
+   "t_off": 51.03
   },
   {
    "words": [
     {
      "w": "tiny",
-     "s": 51.14,
-     "e": 51.36,
+     "s": 51.03,
+     "e": 51.25,
      "key": false
     },
     {
      "w": "little",
-     "s": 51.36,
-     "e": 51.6,
+     "s": 51.25,
+     "e": 51.49,
      "key": false
     },
     {
      "w": "pathway.",
-     "s": 51.64,
-     "e": 52.06,
+     "s": 51.53,
+     "e": 51.95,
      "key": true
     }
    ],
@@ -1372,62 +1372,62 @@
    "lines": [
     3
    ],
-   "t_off": 52.56
+   "t_off": 52.45
   },
   {
    "words": [
     {
      "w": "But",
-     "s": 54.22,
-     "e": 54.32,
+     "s": 54.11,
+     "e": 54.21,
      "key": false
     },
     {
      "w": "the",
-     "s": 54.32,
-     "e": 54.52,
+     "s": 54.21,
+     "e": 54.41,
      "key": false
     },
     {
      "w": "real",
-     "s": 54.52,
-     "e": 54.74,
+     "s": 54.41,
+     "e": 54.63,
      "key": true
     },
     {
      "w": "is",
-     "s": 54.74,
-     "e": 55.02,
+     "s": 54.63,
+     "e": 54.91,
      "key": false
     },
     {
      "w": "the",
-     "s": 55.44,
-     "e": 55.54,
+     "s": 55.33,
+     "e": 55.43,
      "key": false
     },
     {
      "w": "size",
-     "s": 55.54,
-     "e": 55.7,
+     "s": 55.43,
+     "e": 55.59,
      "key": false
     },
     {
      "w": "of",
-     "s": 55.7,
-     "e": 55.82,
+     "s": 55.59,
+     "e": 55.71,
      "key": false
     },
     {
      "w": "the",
-     "s": 55.82,
-     "e": 55.96,
+     "s": 55.71,
+     "e": 55.85,
      "key": false
     },
     {
      "w": "universe.",
-     "s": 55.96,
-     "e": 56.38,
+     "s": 55.85,
+     "e": 56.27,
      "key": false
     }
    ],
@@ -1435,32 +1435,32 @@
    "lines": [
     4
    ],
-   "t_off": 56.88
+   "t_off": 56.77
   },
   {
    "words": [
     {
      "w": "Larger",
-     "s": 58.03,
-     "e": 58.4,
+     "s": 57.92,
+     "e": 58.29,
      "key": false
     },
     {
      "w": "than",
-     "s": 58.4,
-     "e": 58.58,
+     "s": 58.29,
+     "e": 58.47,
      "key": false
     },
     {
      "w": "the",
-     "s": 58.58,
-     "e": 58.72,
+     "s": 58.47,
+     "e": 58.61,
      "key": false
     },
     {
      "w": "universe,",
-     "s": 58.72,
-     "e": 59.12,
+     "s": 58.61,
+     "e": 59.01,
      "key": true
     }
    ],
@@ -1468,7 +1468,7 @@
    "lines": [
     2
    ],
-   "t_off": 59.62
+   "t_off": 59.51
   }
  ],
  "title": null,

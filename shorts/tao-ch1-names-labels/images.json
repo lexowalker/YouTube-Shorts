@@ -1,25 +1,25 @@
 [
  {
-  "short_start_s": 6.483,
-  "short_end_s": 13.12,
-  "accession": "2011.172",
-  "title": "Photographie Lunaire: Copernic-Képler-Aristarique",
-  "artist": "Maurice Loewy (French, 1833–1907), Pierre Henri Puiseaux (French, 1855–1928)",
-  "date": "1896",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/2011.172",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/2011.172/2011.172_full.tif",
+  "short_start_s": 6.093,
+  "short_end_s": 12.73,
+  "accession": "ext-pluto",
+  "title": "Pluto in True Color (New Horizons)",
+  "artist": "NASA / Johns Hopkins APL / Southwest Research Institute",
+  "date": "2015",
+  "license": "Public domain (NASA)",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
+  "image_file_url": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
   "crop_xywh_px": [
-   997,
-   3390,
-   3745,
-   6658
+   0,
+   0,
+   1350,
+   2400
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 24.893,
-  "short_end_s": 31.87,
+  "short_start_s": 24.503,
+  "short_end_s": 31.43,
   "accession": "1922.684",
   "title": "Mount Starr King, Yosemite",
   "artist": "Albert Bierstadt (American, born Prussia [now Germany], 1830–1902)",
@@ -36,8 +36,8 @@
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 35.243,
-  "short_end_s": 40.71,
+  "short_start_s": 34.803,
+  "short_end_s": 40.27,
   "accession": "1982.37",
   "title": "Fir Trees and Storm Clouds",
   "artist": "Albert Bierstadt (American, born Prussia [now Germany], 1830–1902)",
@@ -54,39 +54,21 @@
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 50.33,
-  "short_end_s": 58.04,
-  "accession": "1916.763",
-  "title": "Swedish Plate Money (Half Daler)",
-  "artist": "Unknown, ",
-  "date": "1731",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1916.763",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1916.763/1916.763_full.tif",
+  "short_start_s": 49.89,
+  "short_end_s": 57.54,
+  "accession": "ext-bill-1934",
+  "title": "One Hundred Dollars, Gold Certificate, Series 1934 (Benjamin Franklin)",
+  "artist": "Bureau of Engraving and Printing",
+  "date": "1934",
+  "license": "Public domain (U.S. government work); scan via the Endlos Museum, archive.org",
+  "source_page": "https://archive.org/details/one-hundred-dollars-from-1934-by-the-bureau-of-engraving-and-printing-endlos",
+  "image_file_url": "https://archive.org/details/one-hundred-dollars-from-1934-by-the-bureau-of-engraving-and-printing-endlos",
   "crop_xywh_px": [
-   2163,
-   176,
-   3127,
-   5559
+   1800,
+   244,
+   856,
+   1522
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
- },
- {
-  "short_start_s": 63.103,
-  "short_end_s": 67.22,
-  "accession": "1930.189",
-  "title": "South Wind, Clear Sky, from Thirty-Six Views of Mount Fuji",
-  "artist": "Katsushika Hokusai (Japanese, 1760–1849)",
-  "date": "early 1830s",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1930.189",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1930.189/1930.189_full.tif",
-  "crop_xywh_px": [
-   7509,
-   253,
-   4506,
-   8011
-  ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "horizontal pan 1000 px, zoom-out 1.03x→1.00x, linear"
  }
 ]

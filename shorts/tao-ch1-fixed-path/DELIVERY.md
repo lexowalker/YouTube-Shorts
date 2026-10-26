@@ -30,19 +30,23 @@ This is the transcript the user approved (candidate A). All cuts fall in pauses 
 "You know" after "like wind" stays in the audio and is left off the captions.
 
 ## 4. Images
-All from the Cleveland Museum of Art Open Access collection (CC0), full-resolution masters. Each is keyed to the words it sits under. Stills zoom out linearly from 1.08× to 1.00× (1.12× for shots of 8 s or more).
+From the Cleveland Museum of Art Open Access collection (CC0), keyed to the words under them.
 
 | Short (s) | Words | Work | Artist | Date | License | Source |
 |---|---|---|---|---|---|---|
-| 12.27–17.65 | "the human artistic, scientific, or creative spirit" | Landscape with Poet Tao Yuanming | Unknown, China, Ming or earlier | 1200s–1400s | CC0 | https://clevelandart.org/art/1915.702 |
-| 17.65–24.33 | "A way can be a guide, but not a fixed path. The truth of this is obvious" | Road to Shu (travelers on the zigzag plank road) | Yuan Yao | 1743 | CC0 | https://clevelandart.org/art/2019.167 |
-| 35.43–45.24 | "different resources… different times and different ages… artistic greatness or scientific discovery" | Thirty-Six Poetic Immortals | Tatebayashi Kagei | mid-1700s | CC0 | https://clevelandart.org/art/1960.183 |
-| 55.37–67.32 | "too fixed, too formulaic, too rigid, and too encrusted from use is not the way" | Ritual Wine Vessel (Fu Wu Zun) | Unknown, China, Western Zhou | c. 1000–900 BCE | CC0 | https://clevelandart.org/art/1938.13 |
-| 69.06–84.73 | "The way is much more like nature, like wind… not on a fixed path" (and under the end-card dissolve) | Bamboo in the Wind | Puming (Xuechuang) | 1300s | CC0 | https://clevelandart.org/art/1953.246 |
+| 12.27–17.65 | "the human artistic, scientific, or creative spirit" | Scholar Playing a Qin | Unknown, Korea, Joseon | 1800s | CC0 | https://clevelandart.org/art/1990.69 |
+| 17.65–24.33 | "A way can be a guide, but not a fixed path. The truth of this is obvious" | Road to Shu | Yuan Yao | 1743 | CC0 | https://clevelandart.org/art/2019.167 |
+| 27.55–35.70 | "People come from many different backgrounds… inclinations… conditioning" | Thirty-Six Poetic Immortals | Tatebayashi Kagei | mid-1700s | CC0 | https://clevelandart.org/art/1960.183 |
+| 35.70–36.95 | "They have different" (the rich man's feast) | Lazarus and the Rich Man | Jacopo Bassano | c. 1550 | CC0 | https://clevelandart.org/art/1939.68 |
+| 36.95–38.53 | "resources" (the beggar Lazarus) | Lazarus and the Rich Man | Jacopo Bassano | c. 1550 | CC0 | https://clevelandart.org/art/1939.68 |
+| 40.03–45.24 | "There's not a fixed path to artistic greatness or to scientific discovery" | The Artist's Studio (the painter at his easel) | Johann Georg Platzer | 1740s–50s | CC0 | https://clevelandart.org/art/2012.41 |
+| 55.37–67.32 | "too fixed, too formulaic, too rigid, and too encrusted from use is not the way" | The Oak Tree and the Reed | Charles-François Daubigny | c. 1873 | CC0 | https://clevelandart.org/art/2008.357 |
+| 69.06–84.73 | "The way is much more like nature, like wind… not on a fixed path" (and under the end card) | Bamboo in the Wind | Puming (Xuechuang) | 1300s | CC0 | https://clevelandart.org/art/1953.246 |
 
 `images.json` has the image-file URL, exact crop and motion for each shot.
 
 ## 5. Notes on choices
+- **Round 2 (the user's notes, 26 Oct):** the reclining poet became a scholar playing the qin, someone *doing* the creative thing. The Thirty-Six Poetic Immortals now come in on "People come from many different backgrounds" (they arrived a line late), and "different resources" gets Bassano's rich man and Lazarus: the feast on "They have different", the beggar on "resources", two crops of one painting because they sit too far apart for one 9:16 frame. The painter at his easel takes "artistic greatness or scientific discovery". The Zhou bronze for "too fixed, too formulaic, too rigid" became Daubigny's *The Oak Tree and the Reed*, the rigid oak torn down by the storm, set against the bamboo that bends in the next shot.
 - **Imagery:** keyed line by line, following the new house rules. A poet in nature for "creative spirit"; travelers on a winding mountain road for "a way can be a guide, not a fixed path"; the Thirty-Six Poetic Immortals, poets from several centuries, for "different times and different ages… artistic greatness". For religion "too encrusted from use", a Western Zhou ritual bronze crusted green with age is the contrast image (rigid, ritual, encrusted), and bamboo bending in the wind closes on "like wind… not on a fixed path".
 - **Passed over:** Zhou Chen's *Beggars and Street Characters* for "many different backgrounds" (pale paper under the captions), a Ming lacquer *Orchid Pavilion* (a box, not a painting), and Xie Shichen's *Clouds and Waves at the Wu Gorge* for "much more fluid". The waves made three images run 25 s with no head shot, and the paper is pale, so he says that line on camera instead.
 - **Head share:** 44%. The hook is one 17 s sentence, so the poet comes in on "artistic" to keep his face under about 12 s.

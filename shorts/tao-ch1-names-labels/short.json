@@ -23,7 +23,7 @@
    493.4
   ],
   [
-   2257.65,
+   2257.7,
    2268.0
   ],
   [
@@ -32,14 +32,18 @@
   ],
   [
    2110.9,
-   2121.68
+   2121.92
   ],
   [
    2126.4,
-   2132.95
+   2131.82
   ],
   [
-   2206.97,
+   2133.62,
+   2134.45
+  ],
+  [
+   2207.22,
    2212.3
   ],
   [
@@ -95,8 +99,8 @@
    "words": [
     [
      "You",
-     2207.06,
-     2207.34
+     2207.28,
+     2207.38
     ],
     [
      "can",
@@ -189,7 +193,7 @@
      2212.04
     ]
    ],
-   "why": "large-v3 and small.en hear 'the name' twice (medium.en 'a name'); 'You' starts at 2207.06 on the envelope; medium.en's 'Thank you.' after 'right?' is room tone"
+   "why": "large-v3 and small.en hear 'the name' twice (medium.en 'a name'); 'You' starts at 2207.06 on the envelope; medium.en's 'Thank you.' after 'right?' is room tone. The clip starts at 2207.22: 'sense' (of 'making sense') runs to 2207.16, and 'You' starts at 2207.28"
   },
   {
    "from": 2198.5,
@@ -257,6 +261,28 @@
     ]
    ],
    "why": "medium.en mishears this line ('I hope that's'); large-v3 (narrow pass) hears 'But no matter what the name is, the reality is still there.'. The pause inside 'no… matter' stays: he is on camera here, and trimming it would leave a jump cut on his face"
+  },
+  {
+   "from": 2131.5,
+   "to": 2134.5,
+   "words": [
+    [
+     "and",
+     2131.66,
+     2131.8
+    ],
+    [
+     "our",
+     2133.7,
+     2133.86
+    ],
+    [
+     "thoughts.",
+     2133.86,
+     2134.15
+    ]
+   ],
+   "why": "he says 'and our, our, uh… our thoughts' with a 1 s pause; the first cut (2132.95) dropped 'thoughts' and left 'our, uh', which every pass then heard as 'our sense'. The stammer and pause are cut: '…intention and | our thoughts.'"
   }
  ],
  "word_fixes": [],
@@ -381,7 +407,7 @@
   },
   {
    "at": {
-    "seg": 7
+    "seg": 8
    },
    "head": true
   }

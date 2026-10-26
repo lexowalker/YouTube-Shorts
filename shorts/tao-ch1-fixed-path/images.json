@@ -2,18 +2,18 @@
  {
   "short_start_s": 12.27,
   "short_end_s": 17.65,
-  "accession": "1915.702",
-  "title": "Landscape with Poet Tao Yuanming (365–472 CE)",
-  "artist": "Unknown, China, Ming dynasty (1368-1644) or earlier",
-  "date": "1200s–1400s",
+  "accession": "1990.69",
+  "title": "Scholar Playing a Qin",
+  "artist": "Unknown, Korea, Joseon dynasty (1392–1910)",
+  "date": "1800s",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1915.702",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1915.702/1915.702_full.tif",
+  "source_page": "https://clevelandart.org/art/1990.69",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1990.69/1990.69_full.tif",
   "crop_xywh_px": [
-   6159,
-   2208,
-   3500,
-   6222
+   1365,
+   0,
+   2375,
+   4223
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
@@ -36,8 +36,8 @@
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
  {
-  "short_start_s": 35.433,
-  "short_end_s": 45.24,
+  "short_start_s": 27.55,
+  "short_end_s": 35.7,
   "accession": "1960.183",
   "title": "Thirty-Six Poetic Immortals",
   "artist": "Tatebayashi Kagei (Japanese, active mid-1700s)",
@@ -54,20 +54,74 @@
   "motion": "zoom-out 1.12x→1.00x, linear"
  },
  {
+  "short_start_s": 35.7,
+  "short_end_s": 36.95,
+  "accession": "1939.68",
+  "title": "Lazarus and the Rich Man",
+  "artist": "Jacopo Bassano (Italian, c. 1510–1592)",
+  "date": "c. 1550",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1939.68",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1939.68/1939.68_full.tif",
+  "crop_xywh_px": [
+   4122,
+   0,
+   2493,
+   4432
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 36.95,
+  "short_end_s": 38.53,
+  "accession": "1939.68",
+  "title": "Lazarus and the Rich Man",
+  "artist": "Jacopo Bassano (Italian, c. 1510–1592)",
+  "date": "c. 1550",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1939.68",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1939.68/1939.68_full.tif",
+  "crop_xywh_px": [
+   225,
+   1231,
+   1939,
+   3447
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 40.033,
+  "short_end_s": 45.24,
+  "accession": "2012.41",
+  "title": "The Artist's Studio",
+  "artist": "Johann Georg Platzer (Austrian, 1704–1761)",
+  "date": "1740s–50s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2012.41",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2012.41/2012.41_full.tif",
+  "crop_xywh_px": [
+   690,
+   1102,
+   1736,
+   3087
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
   "short_start_s": 55.37,
   "short_end_s": 67.32,
-  "accession": "1938.13",
-  "title": "Wine Vessel (Fu Wu Zun)",
-  "artist": "Unknown, China, Western Zhou dynasty (c. 1046–771 BCE)",
-  "date": "c. 1000–900 BCE",
+  "accession": "2008.357",
+  "title": "The Oak Tree and the Reed",
+  "artist": "Charles François Daubigny (French, 1817–1878)",
+  "date": "c. 1873",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1938.13",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1938.13/1938.13_full.tif",
+  "source_page": "https://clevelandart.org/art/2008.357",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2008.357/2008.357_full.tif",
   "crop_xywh_px": [
-   742,
-   0,
-   3147,
-   5594
+   1715,
+   496,
+   3141,
+   5584
   ],
   "motion": "zoom-out 1.12x→1.00x, linear"
  },
