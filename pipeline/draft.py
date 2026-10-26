@@ -18,6 +18,9 @@ It writes .work/<slug>/draft_sheet_N.jpg (labelled contact sheets) and full-size
   JUMP    a segment join falls on a head shot with no image or dissolve over it: the jump cut would show
   BLIP    a shot shorter than 1.2 s: a flash of him or of a painting that breaks the flow (merge it into a neighbour)
   DEAD    more than 0.8 s with nothing said across a join: tighten the segment ends
+  TIGHT   a segment cut sits on his voice: it ends while he is still sounding (a clipped word tail, often a soft final
+          syllable whisper times too early) or right before he goes on, or starts right after voice. Listen with
+          env.py and move the cut into real room tone (the Ch1 bonus Shorts clipped "existence", "ball", "stadium")
 
 Head shots come from source.mp4 (fast to seek); --hires uses the 4K window instead (slower, sharper).
 Fix what it flags, rebuild, run it again, and only then run render.py.
@@ -28,8 +31,10 @@ from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source
 from render import Composer, Captions, CAP_CENTER_Y, FONT_MED
+from words import Env
 
 BRIGHT_MEAN, BRIGHT_P85 = 150, 195   # luminance under a caption above either reads as "light background"
+VOICE_DB = -42.0  # analysis-WAV level above which he is voicing (room tone sits around -50)
 
 
 def grab(src, t, info):
@@ -125,6 +130,19 @@ def main():
         after = min((w["s"] for w in words if w["s"] >= j - 0.05), default=prog)
         if after - before > 0.8:
             flags.append((j, f"DEAD: {after - before:.2f}s with nothing said across the join at {j:.2f}s ({before:.2f}-{after:.2f})"))
+    # TIGHT: his voice right at a cut. The end of a clip should fall in room tone, past the word's soft tail
+    env = Env(os.path.join(wd, "audio16k.wav"))
+    loud = lambda a, b: max(env.at(t) for t in np.arange(max(a, 0), b, env.step))
+    acc = 0.0
+    for k, seg in enumerate(edl["segments"]):
+        a, b = seg["src_start"], seg["src_end"]
+        if loud(b - 0.06, b + 0.12) > VOICE_DB:
+            flags.append((acc + b - a, f"TIGHT: clip {k} ends at {b:.2f} while he is voicing ({loud(b - 0.06, b + 0.12):.0f} dB): "
+                                        f"check the last word's tail with env.py"))
+        if k and loud(a - 0.12, a - 0.01) > VOICE_DB:
+            flags.append((acc, f"TIGHT: clip {k} starts at {a:.2f} just after voice ({loud(a - 0.12, a - 0.01):.0f} dB): "
+                               f"check nothing of the previous word leaks in"))
+        acc += b - a
     os.makedirs(os.path.join(wd, "draft"), exist_ok=True)
     for f in os.listdir(os.path.join(wd, "draft")):  # flagged frames from an earlier run
         os.remove(os.path.join(wd, "draft", f))

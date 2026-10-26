@@ -43,6 +43,7 @@ Once the user picks a teaching, write out the **full proposed transcript**: ever
 - Range transcriptions can stretch one word over a filler they missed. On the reference Short, "hard" swallowed "you know". `qa.py --audio-only` (step 6) catches this with an independent long-context pass. When it does, re-run that stretch with `transcribe.py words <wider range> --no-prompt` and confirm with `env.py`.
 - Fillers ("you know", "um") that sit inside a sentence stay in the audio when cutting them would leave a jump. Leave them off the captions with `~` tokens in the phrase (`"There's no ~you ~know hard | *lines in nature"`), so the shown words still appear on their true onsets.
 - Place every cut in a real pause: `python3 -I pipeline/env.py <slug> <t> …`. Leave about 0.3 s of room tone around each join and a little more where a line should land.
+- **Never clip a word's tail.** Soft final syllables ("exist-ence", a trailing "ball", "sta-dium") run past whisper's word end and past the envelope's first dip; a 20–40 ms dip can be a consonant (the "p" of "path"), not a pause. End each clip where the envelope has sat in room tone (about −50 dB) for 150 ms or more, and start each clip after the previous word has fully died away. `draft.py` flags cuts on his voice as TIGHT. When a cut can't be clean, take a clip of his own room tone from a pause nearby and insert it as a segment for the breath.
 - Drop ums, false starts and asides. Never cut mid-word.
 
 ## 5. Images
@@ -54,6 +55,8 @@ Once the user picks a teaching, write out the **full proposed transcript**: ever
 - Place each image on the word that names its subject (`"at": {"word": "...", "after": <phrase index>}`), not at the start of the phrase, and end it when he moves on to something else.
 - Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
 - No shot under about 1.2 s, and no head shot that is only a pause between two images: extend the image or merge the shots.
+- Show the action the words name (someone painting, not reclining), show contrasts as contrasts (rich and poor; a rigid oak broken by the storm against bending bamboo), and bring each image in on its own phrase, not a line late.
+- Real things only a photo or document can show (Pluto, Earth from space, a banknote) come from public-domain sources via `pipeline/ext_image.py`. From this environment, archive.org (NASA `PLAN-PIA…` mirrors, the Endlos banknote scans) and Wikimedia's thumbnail URLs (`/thumb/…/1280px-…`) are reachable; NASA's own hosts are blocked by the network policy, and Wikimedia's full-size files are rate-limited.
 - Fewer, longer images: let one image carry consecutive lines on the same idea instead of cutting to a new picture for each noun (the user dropped the bell in the Ch1 Discussion 1 Short and let the watching scholar carry "hear that bell").
 - Centre the subject and keep its focal point (an eye, the faces) at least about 10% inside every edge, since the zoom starts 1.08× in. Check each crop on the proxy with the start-of-zoom box drawn on it before building.
 - Crops in `short.json` are fractions of the image: `x0`, `y0` (top-left) and `h` (crop height). Width follows from 9:16.
@@ -79,6 +82,7 @@ frames that show most mistakes, and flags these automatically:
 - **JUMP:** a join on a head shot with nothing over it.
 - **BLIP:** a shot under 1.2 s, a flash of him or of a painting that breaks the flow. Merge it into a neighbour.
 - **DEAD:** more than 0.8 s with nothing said across a join (it shows as a stray shot of him silent). Tighten the segment ends.
+- **TIGHT:** a clip ends while he is still voicing, or starts right after voice: a clipped word tail or a leaked syllable. Check with `env.py` and move the cut into room tone.
 
 Check the sheets yourself as well, for bad crops, a face cut off, or an image on the wrong word: read each image tile's caption against the picture and ask whether it shows what he is saying. Fix everything, rebuild and draft again. Only then run the full render. A full render costs minutes; finding the problem after it means a second render.
 

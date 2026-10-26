@@ -11,7 +11,7 @@
  "caption_y": 0.83,
  "segments": [
   [
-   498.45,
+   498.84,
    505.2
   ],
   [
@@ -44,14 +44,22 @@
   ],
   [
    2198.85,
-   2199.45
-  ],
-  [
-   2200.15,
    2203.4
   ]
  ],
  "word_overrides": [
+  {
+   "from": 498.3,
+   "to": 499.1,
+   "words": [
+    [
+     "Pluto",
+     499.0,
+     499.12
+    ]
+   ],
+   "why": "the clip starts at 498.84, after a soft false start on 'P-' (498.4-498.66); 'Pluto' itself starts at 499.0 on the envelope"
+  },
   {
    "from": 2257.3,
    "to": 2257.9,
@@ -248,7 +256,7 @@
      2203.1
     ]
    ],
-   "why": "medium.en mishears this line ('I hope that's'); large-v3 (narrow pass) hears 'But no matter what the name is, the reality is still there.' The 1.1 s pause inside 'no ... matter' is trimmed"
+   "why": "medium.en mishears this line ('I hope that's'); large-v3 (narrow pass) hears 'But no matter what the name is, the reality is still there.'. The pause inside 'no… matter' stays: he is on camera here, and trimming it would leave a jump cut on his face"
   }
  ],
  "word_fixes": [],
@@ -302,11 +310,11 @@
     "seg": 1
    },
    "image": {
-    "acc": "2011.172",
-    "x0": 0.11,
-    "y0": 0.28,
-    "h": 0.55,
-    "note": "photograph of the Moon (Copernicus crater), a world whose name is ours: 'Names can be given, but not permanent labels' (on the join, after Pluto)"
+    "acc": "ext-pluto",
+    "x0": 0.0,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Pluto, photographed by New Horizons in 2015: 'Names can be given, but not permanent labels' (on the join, after the Pluto hook)"
    }
   },
   {
@@ -359,11 +367,16 @@
     "after": 48.0
    },
    "image": {
-    "acc": "1916.763",
-    "x0": 0.29,
-    "y0": 0.03,
-    "h": 0.95,
-    "note": "Swedish copper plate money, 1731: money is a thing 'we sustain… with our intention and our thoughts'"
+    "acc": "ext-bill-1934",
+    "x0": 0.4,
+    "y0": 0.12,
+    "h": 0.75,
+    "pan": 1000,
+    "zoom": [
+     1.03,
+     1.0
+    ],
+    "note": "a 1934 hundred-dollar note, toned and grained, panning from Franklin to the '100': 'a beautiful piece of green paper… we sustain certain things with our intention and our thoughts'"
    }
   },
   {
@@ -371,18 +384,6 @@
     "seg": 7
    },
    "head": true
-  },
-  {
-   "at": {
-    "seg": 8
-   },
-   "image": {
-    "acc": "1930.189",
-    "x0": 0.61,
-    "y0": 0.03,
-    "h": 0.95,
-    "note": "Hokusai's Red Fuji: 'no matter what the name is, the reality is still there' (on the join; under the end-card dissolve)"
-   }
   }
  ],
  "endcard": {

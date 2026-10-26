@@ -11,8 +11,8 @@
  "caption_y": 0.83,
  "segments": [
   [
-   1800.75,
-   1805.9
+   1801.59,
+   1806.25
   ],
   [
    1748.2,
@@ -24,19 +24,15 @@
   ],
   [
    1749.85,
-   1757.3
+   1759.0
   ],
   [
    1762.55,
-   1773.75
-  ],
-  [
-   1774.45,
-   1786.25
+   1786.95
   ],
   [
    1791.75,
-   1797.35
+   1797.5
   ],
   [
    1837.55,
@@ -48,6 +44,18 @@
   ]
  ],
  "word_overrides": [
+  {
+   "from": 1800.9,
+   "to": 1801.77,
+   "words": [
+    [
+     "We",
+     1801.62,
+     1801.76
+    ]
+   ],
+   "why": "the user asked to start on 'We unnecessarily': 'But' (1801.02) and the first 'we' (1801.38-1801.58) are cut; the second 'we' starts at 1801.62"
+  },
   {
    "from": 1746.3,
    "to": 1747.9,
@@ -74,12 +82,6 @@
     ]
    ],
    "why": "envelope onsets (medium.en starts 'So' at 1746.38 and puts 'a' at 1747.64, inside the 2.5 s hesitation before 'human', which is cut). The clip starts at 1746.74, after a soft 'so'; 0.45 s of his room tone from the cut hesitation (1748.2-1748.65) keeps the pause after 'existence.'"
-  },
-  {
-   "from": 1757.0,
-   "to": 1758.9,
-   "words": [],
-   "why": "a mumbled 'max' (1757.36-1757.56, about 12 dB under his speech; the QA pass doesn't hear it) is cut: the clip ends on 'ping pong ball'"
   },
   {
    "from": 1762.5,
@@ -151,18 +153,35 @@
     ]
    ],
    "why": "envelope onset 1837.86 (medium.en puts 'The' at 1837.50 in the pause)"
+  },
+  {
+   "from": 1756.3,
+   "to": 1759.2,
+   "words": [
+    [
+     "ball,",
+     1757.32,
+     1757.7
+    ],
+    [
+     "max.",
+     1758.56,
+     1758.8
+    ]
+   ],
+   "why": "he trails off: 'ball' is soft and late (envelope 1757.32-1757.70), 'max' is clear at 1758.56 (large-v3 hears 'ball. Max.'; medium.en puts 'ball' at 1756.42)"
   }
  ],
  "word_fixes": [],
  "onset_fixes": [],
  "phrases": [
-  "But we *unnecessarily | restrict ourselves",
+  "We *unnecessarily | restrict ourselves",
   "to such a small, | puny, little,",
   "meager *existence.",
   "If we take | a human *lifetime",
   "and what it's observed | with its *eyes",
   "and its *ears | and its thoughts,",
-  "it's like a little | *ping pong ball,",
+  "it's like a little | *ping pong ball, max.",
   "This is how many | *books you can read,",
   "how many *courses | you can take,",
   "how many TV shows | you can *watch,",
@@ -205,25 +224,51 @@
   },
   {
    "at": {
-    "seg": 4
+    "word": "it's",
+    "after": 10.0
    },
    "head": true
   },
   {
    "at": {
-    "seg": 5
+    "seg": 4
+   },
+   "image": {
+    "acc": "2011.37",
+    "x0": 0.12,
+    "y0": 0.0,
+    "h": 1.0,
+    "pan": 1500,
+    "zoom": [
+     1.0,
+     1.0
+    ],
+    "note": "a Korean chaekgeori screen, shelf after shelf of books, slowly panning: 'This is how many books you can read, how many courses… news items you can experience in a lifetime' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "It's",
+    "after": 23.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "second",
+    "after": 26.0
    },
    "image": {
     "acc": "1922.225",
     "x0": 0.32,
     "y0": 0.03,
     "h": 0.9,
-    "note": "Piranesi's Colosseum: 'the size of the largest stadium… a little marble in a huge stadium' (on the join)"
+    "note": "Piranesi's Colosseum: 'The second attention would be the size of the largest stadium… a little marble in a huge stadium'"
    }
   },
   {
    "at": {
-    "seg": 6
+    "seg": 5
    },
    "head": true
   },
@@ -233,28 +278,32 @@
     "after": 39.0
    },
    "image": {
-    "acc": "2015.63",
-    "x0": 0.1,
+    "acc": "ext-hudf",
+    "x0": 0.0,
     "y0": 0.0,
-    "h": 0.6,
-    "note": "the Nine Luminaries and Seven Stars descending from the night sky: 'outside the stadium, you have the universe… the third attention'"
+    "h": 1.0,
+    "note": "the Hubble Ultra Deep Field, thousands of galaxies in a speck of sky: 'outside the stadium, you have the universe… the third attention'"
+   }
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "ext-pale-blue-dot",
+    "x0": 0.237,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "the Pale Blue Dot, Earth from Voyager 1, with an arrow and 'Earth': 'The evident is an edge of reality, like a little pathway by a major road' (on the join)",
+    "zoom": [
+     1.04,
+     1.0
+    ]
    }
   },
   {
    "at": {
     "seg": 7
-   },
-   "image": {
-    "acc": "1953.126",
-    "x0": 0.4255,
-    "y0": 0.48,
-    "h": 0.45,
-    "note": "travelers on a little footpath and bridge in the vast scroll: 'like a little pathway by a major road' (on the join)"
-   }
-  },
-  {
-   "at": {
-    "seg": 8
    },
    "head": true
   },
@@ -264,14 +313,13 @@
     "after": 50.0
    },
    "image": {
-    "acc": "1953.126",
-    "x0": 0.36,
-    "y0": 0.2,
-    "h": 0.75,
-    "note": "Streams and Mountains without End, slow pan: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
-    "pan": 2400,
+    "acc": "ext-hudf",
+    "x0": 0.43,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "the Deep Field again, slowly widening: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
     "zoom": [
-     1.04,
+     1.15,
      1.0
     ]
    }

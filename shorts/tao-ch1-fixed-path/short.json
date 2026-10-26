@@ -158,11 +158,11 @@
     "after": 11.0
    },
    "image": {
-    "acc": "1915.702",
-    "x0": 0.58,
-    "y0": 0.22,
-    "h": 0.62,
-    "note": "the poet Tao Yuanming gazing at the water under a pine: 'the human artistic, scientific, or creative spirit'"
+    "acc": "1990.69",
+    "x0": 0.32,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "a scholar absorbed in playing the qin: 'the human artistic, scientific, or creative spirit'"
    }
   },
   {
@@ -186,14 +186,59 @@
   },
   {
    "at": {
-    "seg": 3
+    "word": "People",
+    "after": 26.0
    },
    "image": {
     "acc": "1960.183",
     "x0": 0.33,
     "y0": 0.08,
     "h": 0.6,
-    "note": "the Thirty-Six Poetic Immortals, poets of different eras: 'different times and different ages… artistic greatness' (on the join)"
+    "note": "the Thirty-Six Poetic Immortals, each one different: 'People come from many different backgrounds… inclinations… conditioning'"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1939.68",
+    "x0": 0.55,
+    "y0": 0.0,
+    "h": 0.9,
+    "note": "the rich man and his guests at their feast: 'They have different resources' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "resources.",
+    "after": 36.0
+   },
+   "image": {
+    "acc": "1939.68",
+    "x0": 0.03,
+    "y0": 0.25,
+    "h": 0.7,
+    "note": "the beggar Lazarus lying outside the feast: '…resources' (the same painting: rich, then poor)"
+   }
+  },
+  {
+   "at": {
+    "word": "There",
+    "after": 38.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "image": {
+    "acc": "2012.41",
+    "x0": 0.11,
+    "y0": 0.25,
+    "h": 0.7,
+    "note": "a painter at his easel, a boy drawing beside him: 'There's not a fixed path to artistic greatness or to scientific discovery' (on the join)"
    }
   },
   {
@@ -208,11 +253,11 @@
     "after": 50.0
    },
    "image": {
-    "acc": "1938.13",
-    "x0": 0.16,
-    "y0": 0.0,
-    "h": 1.0,
-    "note": "Western Zhou ritual wine vessel thick with green encrustation: religion 'too fixed… too encrusted from use'"
+    "acc": "2008.357",
+    "x0": 0.35,
+    "y0": 0.08,
+    "h": 0.9,
+    "note": "Daubigny's The Oak Tree and the Reed: the rigid oak torn down by the storm, for 'too fixed, too formulaic, too rigid' (against the bamboo that bends, at the end)"
    }
   },
   {

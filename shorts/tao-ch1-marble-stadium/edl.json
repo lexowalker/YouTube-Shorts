@@ -2,8 +2,8 @@
  "slug": "tao-ch1-marble-stadium",
  "segments": [
   {
-   "src_start": 1800.75,
-   "src_end": 1805.9
+   "src_start": 1801.59,
+   "src_end": 1806.25
   },
   {
    "src_start": 1748.2,
@@ -15,19 +15,15 @@
   },
   {
    "src_start": 1749.85,
-   "src_end": 1757.3
+   "src_end": 1759.0
   },
   {
    "src_start": 1762.55,
-   "src_end": 1773.75
-  },
-  {
-   "src_start": 1774.45,
-   "src_end": 1786.25
+   "src_end": 1786.95
   },
   {
    "src_start": 1791.75,
-   "src_end": 1797.35
+   "src_end": 1797.5
   },
   {
    "src_start": 1837.55,
@@ -42,7 +38,7 @@
   {
    "kind": "head",
    "t0": 0.0,
-   "t1": 4.883
+   "t1": 4.393
   },
   {
    "kind": "image",
@@ -56,17 +52,41 @@
    ],
    "pan": 0,
    "zoom": [
-    1.12,
+    1.08,
     1.0
    ],
    "note": "Rodin's Thinker: 'a human lifetime and what it's observed with its eyes and its ears and its thoughts' (the first attention; on the join)",
-   "t0": 4.883,
-   "t1": 14.06
+   "t0": 4.393,
+   "t1": 10.57
   },
   {
    "kind": "head",
-   "t0": 14.06,
-   "t1": 24.993
+   "t0": 10.57,
+   "t1": 15.003
+  },
+  {
+   "kind": "image",
+   "acc": "2011.37",
+   "file": ".work/img/2011.37_full.jpg",
+   "crop": [
+    1421,
+    0,
+    3752,
+    6670
+   ],
+   "pan": 1500,
+   "zoom": [
+    1.0,
+    1.0
+   ],
+   "note": "a Korean chaekgeori screen, shelf after shelf of books, slowly panning: 'This is how many books you can read, how many courses… news items you can experience in a lifetime' (on the join)",
+   "t0": 15.003,
+   "t1": 23.8
+  },
+  {
+   "kind": "head",
+   "t0": 23.8,
+   "t1": 29.76
   },
   {
    "kind": "image",
@@ -83,154 +103,148 @@
     1.12,
     1.0
    ],
-   "note": "Piranesi's Colosseum: 'the size of the largest stadium… a little marble in a huge stadium' (on the join)",
-   "t0": 24.993,
-   "t1": 37.06
+   "note": "Piranesi's Colosseum: 'The second attention would be the size of the largest stadium… a little marble in a huge stadium'",
+   "t0": 29.76,
+   "t1": 39.67
   },
   {
    "kind": "head",
-   "t0": 37.06,
-   "t1": 39.45
+   "t0": 39.67,
+   "t1": 42.06
   },
   {
    "kind": "image",
-   "acc": "2015.63",
-   "file": ".work/img/2015.63_full.jpg",
+   "acc": "ext-hudf",
+   "file": ".work/img/ext-hudf_full.jpg",
    "crop": [
-    675,
     0,
-    5400,
-    9600
+    0,
+    1744,
+    3100
    ],
    "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "note": "the Nine Luminaries and Seven Stars descending from the night sky: 'outside the stadium, you have the universe… the third attention'",
-   "t0": 39.45,
-   "t1": 42.66
+   "note": "the Hubble Ultra Deep Field, thousands of galaxies in a speck of sky: 'outside the stadium, you have the universe… the third attention'",
+   "t0": 42.06,
+   "t1": 45.42
   },
   {
    "kind": "image",
-   "acc": "1953.126",
-   "file": ".work/img/1953.126_full.jpg",
+   "acc": "ext-pale-blue-dot",
+   "file": ".work/img/ext-pale-blue-dot_full.jpg",
    "crop": [
-    11946,
-    2081,
-    1097,
-    1951
+    429,
+    0,
+    1382,
+    2456
    ],
    "pan": 0,
-   "zoom": [
-    1.08,
-    1.0
-   ],
-   "note": "travelers on a little footpath and bridge in the vast scroll: 'like a little pathway by a major road' (on the join)",
-   "t0": 42.66,
-   "t1": 47.11
-  },
-  {
-   "kind": "head",
-   "t0": 47.11,
-   "t1": 51.76
-  },
-  {
-   "kind": "image",
-   "acc": "1953.126",
-   "file": ".work/img/1953.126_full.jpg",
-   "crop": [
-    10107,
-    867,
-    1829,
-    3252
-   ],
-   "pan": 2400,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "Streams and Mountains without End, slow pan: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
-   "t0": 51.76,
-   "t1": 56.47
+   "note": "the Pale Blue Dot, Earth from Voyager 1, with an arrow and 'Earth': 'The evident is an edge of reality, like a little pathway by a major road' (on the join)",
+   "t0": 45.42,
+   "t1": 49.87
+  },
+  {
+   "kind": "head",
+   "t0": 49.87,
+   "t1": 54.52
+  },
+  {
+   "kind": "image",
+   "acc": "ext-hudf",
+   "file": ".work/img/ext-hudf_full.jpg",
+   "crop": [
+    1333,
+    0,
+    1744,
+    3100
+   ],
+   "pan": 0,
+   "zoom": [
+    1.15,
+    1.0
+   ],
+   "note": "the Deep Field again, slowly widening: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
+   "t0": 54.52,
+   "t1": 59.23
   }
  ],
  "captions": [
   {
    "words": [
     {
-     "w": "But",
-     "s": 0.35,
-     "e": 0.41,
-     "key": false
-    },
-    {
-     "w": "we",
-     "s": 0.54,
-     "e": 1.03,
+     "w": "We",
+     "s": 0.03,
+     "e": 0.17,
      "key": false
     },
     {
      "w": "unnecessarily",
-     "s": 1.03,
-     "e": 1.23,
+     "s": 0.19,
+     "e": 0.39,
      "key": true
     },
     {
      "w": "restrict",
-     "s": 2.13,
-     "e": 2.53,
+     "s": 1.29,
+     "e": 1.69,
      "key": false
     },
     {
      "w": "ourselves",
-     "s": 2.56,
-     "e": 2.87,
+     "s": 1.72,
+     "e": 2.03,
      "key": false
     }
    ],
    "fillers": [],
    "lines": [
-    3
+    2
    ],
-   "t_off": 2.87
+   "t_off": 2.03
   },
   {
    "words": [
     {
      "w": "to",
-     "s": 2.87,
-     "e": 3.05,
+     "s": 2.03,
+     "e": 2.21,
      "key": false
     },
     {
      "w": "such",
-     "s": 3.05,
-     "e": 3.21,
+     "s": 2.21,
+     "e": 2.37,
      "key": false
     },
     {
      "w": "a",
-     "s": 3.25,
-     "e": 3.43,
+     "s": 2.41,
+     "e": 2.59,
      "key": false
     },
     {
      "w": "small,",
-     "s": 3.43,
-     "e": 3.75,
+     "s": 2.59,
+     "e": 2.91,
      "key": false
     },
     {
      "w": "puny,",
-     "s": 3.81,
-     "e": 4.17,
+     "s": 2.97,
+     "e": 3.33,
      "key": false
     },
     {
      "w": "little,",
-     "s": 4.25,
-     "e": 4.35,
+     "s": 3.41,
+     "e": 3.51,
      "key": false
     }
    ],
@@ -238,20 +252,20 @@
    "lines": [
     4
    ],
-   "t_off": 4.35
+   "t_off": 3.51
   },
   {
    "words": [
     {
      "w": "meager",
-     "s": 4.35,
-     "e": 4.69,
+     "s": 3.51,
+     "e": 3.85,
      "key": false
     },
     {
      "w": "existence.",
-     "s": 4.69,
-     "e": 5.15,
+     "s": 3.85,
+     "e": 4.51,
      "key": true
     }
    ],
@@ -259,44 +273,44 @@
    "lines": [
     2
    ],
-   "t_off": 5.64
+   "t_off": 5.01
   },
   {
    "words": [
     {
      "w": "If",
-     "s": 5.64,
-     "e": 5.76,
+     "s": 5.15,
+     "e": 5.27,
      "key": false
     },
     {
      "w": "we",
-     "s": 5.76,
-     "e": 5.9,
+     "s": 5.27,
+     "e": 5.41,
      "key": false
     },
     {
      "w": "take",
-     "s": 5.9,
-     "e": 6.12,
+     "s": 5.41,
+     "e": 5.63,
      "key": false
     },
     {
      "w": "a",
-     "s": 6.12,
-     "e": 6.31,
+     "s": 5.63,
+     "e": 5.82,
      "key": false
     },
     {
      "w": "human",
-     "s": 6.96,
-     "e": 7.26,
+     "s": 6.47,
+     "e": 6.77,
      "key": false
     },
     {
      "w": "lifetime",
-     "s": 7.26,
-     "e": 7.7,
+     "s": 6.77,
+     "e": 7.21,
      "key": true
     }
    ],
@@ -304,50 +318,50 @@
    "lines": [
     3
    ],
-   "t_off": 7.7
+   "t_off": 7.21
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 7.7,
-     "e": 7.96,
+     "s": 7.21,
+     "e": 7.47,
      "key": false
     },
     {
      "w": "what",
-     "s": 7.96,
-     "e": 8.1,
+     "s": 7.47,
+     "e": 7.61,
      "key": false
     },
     {
      "w": "it's",
-     "s": 8.1,
-     "e": 8.32,
+     "s": 7.61,
+     "e": 7.83,
      "key": false
     },
     {
      "w": "observed",
-     "s": 8.32,
-     "e": 8.76,
+     "s": 7.83,
+     "e": 8.27,
      "key": false
     },
     {
      "w": "with",
-     "s": 8.9,
-     "e": 9.0,
+     "s": 8.41,
+     "e": 8.51,
      "key": false
     },
     {
      "w": "its",
-     "s": 9.0,
-     "e": 9.2,
+     "s": 8.51,
+     "e": 8.71,
      "key": false
     },
     {
      "w": "eyes",
-     "s": 9.28,
-     "e": 9.46,
+     "s": 8.79,
+     "e": 8.97,
      "key": true
     }
    ],
@@ -355,44 +369,44 @@
    "lines": [
     4
    ],
-   "t_off": 9.46
+   "t_off": 8.97
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 9.46,
-     "e": 9.64,
+     "s": 8.97,
+     "e": 9.15,
      "key": false
     },
     {
      "w": "its",
-     "s": 9.64,
-     "e": 9.82,
+     "s": 9.15,
+     "e": 9.33,
      "key": false
     },
     {
      "w": "ears",
-     "s": 9.84,
-     "e": 10.1,
+     "s": 9.35,
+     "e": 9.61,
      "key": true
     },
     {
      "w": "and",
-     "s": 10.21,
-     "e": 10.3,
+     "s": 9.72,
+     "e": 9.81,
      "key": false
     },
     {
      "w": "its",
-     "s": 10.3,
-     "e": 10.54,
+     "s": 9.81,
+     "e": 10.05,
      "key": false
     },
     {
      "w": "thoughts,",
-     "s": 10.6,
-     "e": 10.88,
+     "s": 10.11,
+     "e": 10.39,
      "key": false
     }
    ],
@@ -400,50 +414,56 @@
    "lines": [
     3
    ],
-   "t_off": 11.06
+   "t_off": 10.57
   },
   {
    "words": [
     {
      "w": "it's",
-     "s": 11.06,
-     "e": 11.68,
+     "s": 10.57,
+     "e": 11.19,
      "key": false
     },
     {
      "w": "like",
-     "s": 11.68,
-     "e": 11.76,
+     "s": 11.19,
+     "e": 11.27,
      "key": false
     },
     {
      "w": "a",
-     "s": 11.76,
-     "e": 11.92,
+     "s": 11.27,
+     "e": 11.43,
      "key": false
     },
     {
      "w": "little",
-     "s": 11.92,
-     "e": 12.16,
+     "s": 11.43,
+     "e": 11.67,
      "key": false
     },
     {
      "w": "ping",
-     "s": 12.31,
-     "e": 12.52,
+     "s": 11.82,
+     "e": 12.03,
      "key": true
     },
     {
      "w": "pong",
-     "s": 12.52,
-     "e": 13.18,
+     "s": 12.03,
+     "e": 12.69,
      "key": false
     },
     {
      "w": "ball,",
-     "s": 13.28,
-     "e": 14.06,
+     "s": 13.59,
+     "e": 13.97,
+     "key": false
+    },
+    {
+     "w": "max.",
+     "s": 14.84,
+     "e": 15.07,
      "key": false
     }
    ],
@@ -451,56 +471,56 @@
    "lines": [
     4
    ],
-   "t_off": 14.29
+   "t_off": 15.5
   },
   {
    "words": [
     {
      "w": "This",
-     "s": 14.29,
-     "e": 14.43,
+     "s": 15.5,
+     "e": 15.64,
      "key": false
     },
     {
      "w": "is",
-     "s": 14.43,
-     "e": 14.51,
+     "s": 15.64,
+     "e": 15.72,
      "key": false
     },
     {
      "w": "how",
-     "s": 14.51,
-     "e": 14.57,
+     "s": 15.72,
+     "e": 15.78,
      "key": false
     },
     {
      "w": "many",
-     "s": 14.58,
-     "e": 14.87,
+     "s": 15.79,
+     "e": 16.08,
      "key": false
     },
     {
      "w": "books",
-     "s": 14.87,
-     "e": 15.13,
+     "s": 16.08,
+     "e": 16.34,
      "key": true
     },
     {
      "w": "you",
-     "s": 15.19,
-     "e": 15.27,
+     "s": 16.4,
+     "e": 16.48,
      "key": false
     },
     {
      "w": "can",
-     "s": 15.34,
-     "e": 15.45,
+     "s": 16.55,
+     "e": 16.66,
      "key": false
     },
     {
      "w": "read,",
-     "s": 15.45,
-     "e": 15.67,
+     "s": 16.66,
+     "e": 16.88,
      "key": false
     }
    ],
@@ -508,44 +528,44 @@
    "lines": [
     4
    ],
-   "t_off": 15.83
+   "t_off": 17.04
   },
   {
    "words": [
     {
      "w": "how",
-     "s": 15.83,
-     "e": 15.85,
+     "s": 17.04,
+     "e": 17.06,
      "key": false
     },
     {
      "w": "many",
-     "s": 15.85,
-     "e": 15.99,
+     "s": 17.06,
+     "e": 17.2,
      "key": false
     },
     {
      "w": "courses",
-     "s": 15.99,
-     "e": 16.45,
+     "s": 17.2,
+     "e": 17.66,
      "key": true
     },
     {
      "w": "you",
-     "s": 16.45,
-     "e": 16.67,
+     "s": 17.66,
+     "e": 17.88,
      "key": false
     },
     {
      "w": "can",
-     "s": 16.67,
-     "e": 16.81,
+     "s": 17.88,
+     "e": 18.02,
      "key": false
     },
     {
      "w": "take,",
-     "s": 16.87,
-     "e": 17.01,
+     "s": 18.08,
+     "e": 18.22,
      "key": false
     }
    ],
@@ -553,50 +573,50 @@
    "lines": [
     3
    ],
-   "t_off": 17.15
+   "t_off": 18.36
   },
   {
    "words": [
     {
      "w": "how",
-     "s": 17.15,
-     "e": 17.21,
+     "s": 18.36,
+     "e": 18.42,
      "key": false
     },
     {
      "w": "many",
-     "s": 17.21,
-     "e": 17.43,
+     "s": 18.42,
+     "e": 18.64,
      "key": false
     },
     {
      "w": "TV",
-     "s": 17.43,
-     "e": 17.67,
+     "s": 18.64,
+     "e": 18.88,
      "key": false
     },
     {
      "w": "shows",
-     "s": 17.67,
-     "e": 17.93,
+     "s": 18.88,
+     "e": 19.14,
      "key": false
     },
     {
      "w": "you",
-     "s": 17.93,
-     "e": 18.13,
+     "s": 19.14,
+     "e": 19.34,
      "key": false
     },
     {
      "w": "can",
-     "s": 18.19,
-     "e": 18.31,
+     "s": 19.4,
+     "e": 19.52,
      "key": false
     },
     {
      "w": "watch,",
-     "s": 18.31,
-     "e": 18.55,
+     "s": 19.52,
+     "e": 19.76,
      "key": true
     }
    ],
@@ -604,32 +624,32 @@
    "lines": [
     4
    ],
-   "t_off": 18.61
+   "t_off": 19.82
   },
   {
    "words": [
     {
      "w": "how",
-     "s": 18.61,
-     "e": 18.75,
+     "s": 19.82,
+     "e": 19.96,
      "key": false
     },
     {
      "w": "many",
-     "s": 18.75,
-     "e": 19.03,
+     "s": 19.96,
+     "e": 20.24,
      "key": false
     },
     {
      "w": "news",
-     "s": 19.47,
-     "e": 19.79,
+     "s": 20.68,
+     "e": 21.0,
      "key": false
     },
     {
      "w": "items",
-     "s": 19.79,
-     "e": 19.99,
+     "s": 21.0,
+     "e": 21.2,
      "key": false
     }
    ],
@@ -637,66 +657,66 @@
    "lines": [
     4
    ],
-   "t_off": 20.29
+   "t_off": 21.5
   },
   {
    "words": [
     {
      "w": "you",
-     "s": 20.29,
-     "e": 20.51,
+     "s": 21.5,
+     "e": 21.72,
      "key": false
     },
     {
      "w": "can",
-     "s": 21.0,
-     "e": 21.01,
+     "s": 22.21,
+     "e": 22.22,
      "key": false
     },
     {
      "w": "experience",
-     "s": 21.17,
-     "e": 21.51,
+     "s": 22.38,
+     "e": 22.72,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "you",
-     "s": 19.91,
-     "e": 20.09,
+     "s": 21.12,
+     "e": 21.3,
      "key": false
     },
     {
      "w": "can",
-     "s": 20.09,
-     "e": 20.29,
+     "s": 21.3,
+     "e": 21.5,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 21.73
+   "t_off": 22.94
   },
   {
    "words": [
     {
      "w": "in",
-     "s": 21.73,
-     "e": 22.01,
+     "s": 22.94,
+     "e": 23.22,
      "key": false
     },
     {
      "w": "a",
-     "s": 22.01,
-     "e": 22.15,
+     "s": 23.22,
+     "e": 23.36,
      "key": false
     },
     {
      "w": "lifetime.",
-     "s": 22.15,
-     "e": 22.45,
+     "s": 23.36,
+     "e": 23.66,
      "key": false
     }
    ],
@@ -704,50 +724,50 @@
    "lines": [
     3
    ],
-   "t_off": 22.59
+   "t_off": 23.8
   },
   {
    "words": [
     {
      "w": "It's",
-     "s": 22.59,
-     "e": 22.71,
+     "s": 23.8,
+     "e": 23.92,
      "key": false
     },
     {
      "w": "not",
-     "s": 22.79,
-     "e": 22.93,
+     "s": 24.0,
+     "e": 24.14,
      "key": false
     },
     {
      "w": "even",
-     "s": 22.93,
-     "e": 23.11,
+     "s": 24.14,
+     "e": 24.32,
      "key": false
     },
     {
      "w": "a",
-     "s": 23.11,
-     "e": 23.31,
+     "s": 24.32,
+     "e": 24.52,
      "key": false
     },
     {
      "w": "ping",
-     "s": 23.31,
-     "e": 23.45,
+     "s": 24.52,
+     "e": 24.66,
      "key": false
     },
     {
      "w": "pong",
-     "s": 23.47,
-     "e": 23.69,
+     "s": 24.68,
+     "e": 24.9,
      "key": false
     },
     {
      "w": "ball.",
-     "s": 23.69,
-     "e": 23.95,
+     "s": 24.9,
+     "e": 25.16,
      "key": false
     }
    ],
@@ -755,32 +775,32 @@
    "lines": [
     4
    ],
-   "t_off": 24.2
+   "t_off": 25.41
   },
   {
    "words": [
     {
      "w": "It's",
-     "s": 24.2,
-     "e": 24.45,
+     "s": 25.41,
+     "e": 25.66,
      "key": false
     },
     {
      "w": "like",
-     "s": 24.5,
-     "e": 24.59,
+     "s": 25.71,
+     "e": 25.8,
      "key": false
     },
     {
      "w": "a",
-     "s": 24.61,
-     "e": 24.77,
+     "s": 25.82,
+     "e": 25.98,
      "key": false
     },
     {
      "w": "marble.",
-     "s": 24.77,
-     "e": 25.17,
+     "s": 25.98,
+     "e": 26.38,
      "key": true
     }
    ],
@@ -788,32 +808,32 @@
    "lines": [
     4
    ],
-   "t_off": 25.47
+   "t_off": 26.88
   },
   {
    "words": [
     {
      "w": "That's",
-     "s": 25.47,
-     "e": 25.77,
+     "s": 27.38,
+     "e": 27.68,
      "key": false
     },
     {
      "w": "the",
-     "s": 25.77,
-     "e": 25.91,
+     "s": 27.68,
+     "e": 27.82,
      "key": false
     },
     {
      "w": "first",
-     "s": 25.95,
-     "e": 26.13,
+     "s": 27.86,
+     "e": 28.04,
      "key": false
     },
     {
      "w": "attention.",
-     "s": 26.14,
-     "e": 26.61,
+     "s": 28.05,
+     "e": 28.52,
      "key": true
     }
    ],
@@ -821,50 +841,50 @@
    "lines": [
     2
    ],
-   "t_off": 27.11
+   "t_off": 29.02
   },
   {
    "words": [
     {
      "w": "The",
-     "s": 27.41,
-     "e": 27.85,
+     "s": 29.32,
+     "e": 29.76,
      "key": false
     },
     {
      "w": "second",
-     "s": 27.85,
-     "e": 28.11,
+     "s": 29.76,
+     "e": 30.02,
      "key": true
     },
     {
      "w": "attention",
-     "s": 28.11,
-     "e": 28.51,
+     "s": 30.02,
+     "e": 30.42,
      "key": false
     },
     {
      "w": "would",
-     "s": 28.51,
-     "e": 28.67,
+     "s": 30.42,
+     "e": 30.58,
      "key": false
     },
     {
      "w": "be",
-     "s": 28.67,
-     "e": 28.81,
+     "s": 30.58,
+     "e": 30.72,
      "key": false
     },
     {
      "w": "the",
-     "s": 28.81,
-     "e": 29.03,
+     "s": 30.72,
+     "e": 30.94,
      "key": false
     },
     {
      "w": "size",
-     "s": 29.03,
-     "e": 29.23,
+     "s": 30.94,
+     "e": 31.14,
      "key": false
     }
    ],
@@ -872,56 +892,56 @@
    "lines": [
     3
    ],
-   "t_off": 29.23
+   "t_off": 31.14
   },
   {
    "words": [
     {
      "w": "of",
-     "s": 29.23,
-     "e": 29.37,
+     "s": 31.14,
+     "e": 31.28,
      "key": false
     },
     {
      "w": "the",
-     "s": 29.37,
-     "e": 29.57,
+     "s": 31.28,
+     "e": 31.48,
      "key": false
     },
     {
      "w": "largest",
-     "s": 29.57,
-     "e": 29.81,
+     "s": 31.48,
+     "e": 31.72,
      "key": false
     },
     {
      "w": "stadium",
-     "s": 29.81,
-     "e": 30.45,
+     "s": 31.72,
+     "e": 32.36,
      "key": false
     },
     {
      "w": "that",
-     "s": 30.45,
-     "e": 30.89,
+     "s": 32.36,
+     "e": 32.8,
      "key": false
     },
     {
      "w": "you've",
-     "s": 30.91,
-     "e": 31.05,
+     "s": 32.82,
+     "e": 32.96,
      "key": false
     },
     {
      "w": "ever",
-     "s": 31.05,
-     "e": 31.21,
+     "s": 32.96,
+     "e": 33.12,
      "key": false
     },
     {
      "w": "seen.",
-     "s": 31.21,
-     "e": 31.59,
+     "s": 33.12,
+     "e": 33.5,
      "key": false
     }
    ],
@@ -929,56 +949,56 @@
    "lines": [
     4
    ],
-   "t_off": 32.09
+   "t_off": 34.0
   },
   {
    "words": [
     {
      "w": "So",
-     "s": 32.29,
-     "e": 32.31,
+     "s": 34.2,
+     "e": 34.22,
      "key": false
     },
     {
      "w": "you",
-     "s": 32.31,
-     "e": 32.39,
+     "s": 34.22,
+     "e": 34.3,
      "key": false
     },
     {
      "w": "have",
-     "s": 32.39,
-     "e": 32.47,
+     "s": 34.3,
+     "e": 34.38,
      "key": false
     },
     {
      "w": "this",
-     "s": 32.47,
-     "e": 32.59,
+     "s": 34.38,
+     "e": 34.5,
      "key": false
     },
     {
      "w": "little",
-     "s": 32.6,
-     "e": 32.77,
+     "s": 34.51,
+     "e": 34.68,
      "key": false
     },
     {
      "w": "ping",
-     "s": 32.77,
-     "e": 33.11,
+     "s": 34.68,
+     "e": 35.02,
      "key": false
     },
     {
      "w": "pong",
-     "s": 33.11,
-     "e": 33.35,
+     "s": 35.02,
+     "e": 35.26,
      "key": false
     },
     {
      "w": "ball",
-     "s": 33.35,
-     "e": 33.59,
+     "s": 35.26,
+     "e": 35.5,
      "key": false
     }
    ],
@@ -986,56 +1006,56 @@
    "lines": [
     4
    ],
-   "t_off": 33.59
+   "t_off": 35.5
   },
   {
    "words": [
     {
      "w": "or",
-     "s": 33.59,
-     "e": 33.71,
+     "s": 35.5,
+     "e": 35.62,
      "key": false
     },
     {
      "w": "a",
-     "s": 33.71,
-     "e": 33.85,
+     "s": 35.62,
+     "e": 35.76,
      "key": false
     },
     {
      "w": "little",
-     "s": 33.85,
-     "e": 33.95,
+     "s": 35.76,
+     "e": 35.86,
      "key": false
     },
     {
      "w": "marble",
-     "s": 33.95,
-     "e": 34.51,
+     "s": 35.86,
+     "e": 36.42,
      "key": false
     },
     {
      "w": "in",
-     "s": 35.45,
-     "e": 35.89,
+     "s": 37.36,
+     "e": 37.8,
      "key": false
     },
     {
      "w": "a",
-     "s": 35.89,
-     "e": 36.33,
+     "s": 37.8,
+     "e": 38.24,
      "key": false
     },
     {
      "w": "huge",
-     "s": 36.33,
-     "e": 36.91,
+     "s": 38.24,
+     "e": 38.82,
      "key": false
     },
     {
      "w": "stadium.",
-     "s": 36.91,
-     "e": 37.06,
+     "s": 38.82,
+     "e": 39.48,
      "key": true
     }
    ],
@@ -1043,38 +1063,38 @@
    "lines": [
     4
    ],
-   "t_off": 37.37
+   "t_off": 39.98
   },
   {
    "words": [
     {
      "w": "And",
-     "s": 37.37,
-     "e": 37.77,
+     "s": 39.98,
+     "e": 40.38,
      "key": false
     },
     {
      "w": "then",
-     "s": 37.77,
-     "e": 37.91,
+     "s": 40.38,
+     "e": 40.52,
      "key": false
     },
     {
      "w": "outside",
-     "s": 37.91,
-     "e": 38.39,
+     "s": 40.52,
+     "e": 41.0,
      "key": false
     },
     {
      "w": "the",
-     "s": 38.39,
-     "e": 38.59,
+     "s": 41.0,
+     "e": 41.2,
      "key": false
     },
     {
      "w": "stadium,",
-     "s": 38.64,
-     "e": 38.81,
+     "s": 41.25,
+     "e": 41.42,
      "key": false
     }
    ],
@@ -1082,32 +1102,32 @@
    "lines": [
     3
    ],
-   "t_off": 38.95
+   "t_off": 41.56
   },
   {
    "words": [
     {
      "w": "you",
-     "s": 38.95,
-     "e": 39.03,
+     "s": 41.56,
+     "e": 41.64,
      "key": false
     },
     {
      "w": "have",
-     "s": 39.03,
-     "e": 39.19,
+     "s": 41.64,
+     "e": 41.8,
      "key": false
     },
     {
      "w": "the",
-     "s": 39.19,
-     "e": 39.45,
+     "s": 41.8,
+     "e": 42.06,
      "key": false
     },
     {
      "w": "universe.",
-     "s": 39.45,
-     "e": 39.97,
+     "s": 42.06,
+     "e": 42.58,
      "key": true
     }
    ],
@@ -1115,56 +1135,56 @@
    "lines": [
     4
    ],
-   "t_off": 40.29
+   "t_off": 42.9
   },
   {
    "words": [
     {
      "w": "And",
-     "s": 40.29,
-     "e": 40.39,
+     "s": 42.9,
+     "e": 43.0,
      "key": false
     },
     {
      "w": "now",
-     "s": 40.39,
-     "e": 40.57,
+     "s": 43.0,
+     "e": 43.18,
      "key": false
     },
     {
      "w": "we're",
-     "s": 40.57,
-     "e": 40.71,
+     "s": 43.18,
+     "e": 43.32,
      "key": false
     },
     {
      "w": "talking",
-     "s": 40.75,
-     "e": 40.99,
+     "s": 43.36,
+     "e": 43.6,
      "key": false
     },
     {
      "w": "about",
-     "s": 40.99,
-     "e": 41.35,
+     "s": 43.6,
+     "e": 43.96,
      "key": false
     },
     {
      "w": "the",
-     "s": 41.62,
-     "e": 41.73,
+     "s": 44.23,
+     "e": 44.34,
      "key": false
     },
     {
      "w": "third",
-     "s": 41.85,
-     "e": 42.07,
+     "s": 44.46,
+     "e": 44.68,
      "key": false
     },
     {
      "w": "attention.",
-     "s": 42.07,
-     "e": 42.61,
+     "s": 44.68,
+     "e": 45.22,
      "key": true
     }
    ],
@@ -1172,50 +1192,50 @@
    "lines": [
     4
    ],
-   "t_off": 42.97
+   "t_off": 45.72
   },
   {
    "words": [
     {
      "w": "The",
-     "s": 42.97,
-     "e": 43.05,
+     "s": 45.73,
+     "e": 45.81,
      "key": false
     },
     {
      "w": "evident",
-     "s": 43.05,
-     "e": 43.43,
+     "s": 45.81,
+     "e": 46.19,
      "key": true
     },
     {
      "w": "is",
-     "s": 43.43,
-     "e": 43.67,
+     "s": 46.19,
+     "e": 46.43,
      "key": false
     },
     {
      "w": "an",
-     "s": 43.67,
-     "e": 43.85,
+     "s": 46.43,
+     "e": 46.61,
      "key": false
     },
     {
      "w": "edge",
-     "s": 43.85,
-     "e": 43.97,
+     "s": 46.61,
+     "e": 46.73,
      "key": false
     },
     {
      "w": "of",
-     "s": 43.97,
-     "e": 44.15,
+     "s": 46.73,
+     "e": 46.91,
      "key": false
     },
     {
      "w": "reality,",
-     "s": 44.15,
-     "e": 44.55,
+     "s": 46.91,
+     "e": 47.31,
      "key": false
     }
    ],
@@ -1223,56 +1243,56 @@
    "lines": [
     2
    ],
-   "t_off": 44.79
+   "t_off": 47.55
   },
   {
    "words": [
     {
      "w": "like",
-     "s": 44.79,
-     "e": 44.81,
+     "s": 47.55,
+     "e": 47.57,
      "key": false
     },
     {
      "w": "a",
-     "s": 44.81,
-     "e": 44.99,
+     "s": 47.57,
+     "e": 47.75,
      "key": false
     },
     {
      "w": "little",
-     "s": 44.99,
-     "e": 45.19,
+     "s": 47.75,
+     "e": 47.95,
      "key": false
     },
     {
      "w": "pathway",
-     "s": 45.19,
-     "e": 45.67,
+     "s": 47.95,
+     "e": 48.43,
      "key": false
     },
     {
      "w": "by",
-     "s": 45.67,
-     "e": 45.95,
+     "s": 48.43,
+     "e": 48.71,
      "key": false
     },
     {
      "w": "a",
-     "s": 45.95,
-     "e": 46.17,
+     "s": 48.71,
+     "e": 48.93,
      "key": false
     },
     {
      "w": "major",
-     "s": 46.17,
-     "e": 46.43,
+     "s": 48.93,
+     "e": 49.19,
      "key": false
     },
     {
      "w": "road.",
-     "s": 46.43,
-     "e": 46.97,
+     "s": 49.19,
+     "e": 49.73,
      "key": true
     }
    ],
@@ -1280,44 +1300,44 @@
    "lines": [
     4
    ],
-   "t_off": 47.22
+   "t_off": 49.98
   },
   {
    "words": [
     {
      "w": "So",
-     "s": 47.22,
-     "e": 47.28,
+     "s": 49.98,
+     "e": 50.04,
      "key": false
     },
     {
      "w": "the",
-     "s": 47.28,
-     "e": 47.6,
+     "s": 50.04,
+     "e": 50.36,
      "key": false
     },
     {
      "w": "evident",
-     "s": 47.6,
-     "e": 47.86,
+     "s": 50.36,
+     "e": 50.62,
      "key": false
     },
     {
      "w": "is",
-     "s": 47.86,
-     "e": 48.06,
+     "s": 50.62,
+     "e": 50.82,
      "key": false
     },
     {
      "w": "like",
-     "s": 48.13,
-     "e": 48.24,
+     "s": 50.89,
+     "e": 51.0,
      "key": false
     },
     {
      "w": "a",
-     "s": 48.27,
-     "e": 48.38,
+     "s": 51.03,
+     "e": 51.14,
      "key": false
     }
    ],
@@ -1325,26 +1345,26 @@
    "lines": [
     3
    ],
-   "t_off": 48.38
+   "t_off": 51.14
   },
   {
    "words": [
     {
      "w": "tiny",
-     "s": 48.38,
-     "e": 48.6,
+     "s": 51.14,
+     "e": 51.36,
      "key": false
     },
     {
      "w": "little",
-     "s": 48.6,
-     "e": 48.84,
+     "s": 51.36,
+     "e": 51.6,
      "key": false
     },
     {
      "w": "pathway.",
-     "s": 48.88,
-     "e": 49.3,
+     "s": 51.64,
+     "e": 52.06,
      "key": true
     }
    ],
@@ -1352,82 +1372,49 @@
    "lines": [
     3
    ],
-   "t_off": 49.8
+   "t_off": 52.56
   },
   {
    "words": [
     {
      "w": "But",
-     "s": 51.46,
-     "e": 51.56,
+     "s": 54.22,
+     "e": 54.32,
      "key": false
     },
     {
      "w": "the",
-     "s": 51.56,
-     "e": 51.76,
+     "s": 54.32,
+     "e": 54.52,
      "key": false
     },
     {
      "w": "real",
-     "s": 51.76,
-     "e": 51.98,
+     "s": 54.52,
+     "e": 54.74,
      "key": true
     },
     {
      "w": "is",
-     "s": 51.98,
-     "e": 52.26,
+     "s": 54.74,
+     "e": 55.02,
      "key": false
     },
     {
      "w": "the",
-     "s": 52.68,
-     "e": 52.78,
+     "s": 55.44,
+     "e": 55.54,
      "key": false
     },
     {
      "w": "size",
-     "s": 52.78,
-     "e": 52.94,
+     "s": 55.54,
+     "e": 55.7,
      "key": false
     },
     {
      "w": "of",
-     "s": 52.94,
-     "e": 53.06,
-     "key": false
-    },
-    {
-     "w": "the",
-     "s": 53.06,
-     "e": 53.2,
-     "key": false
-    },
-    {
-     "w": "universe.",
-     "s": 53.2,
-     "e": 53.62,
-     "key": false
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    4
-   ],
-   "t_off": 54.12
-  },
-  {
-   "words": [
-    {
-     "w": "Larger",
-     "s": 55.27,
-     "e": 55.64,
-     "key": false
-    },
-    {
-     "w": "than",
-     "s": 55.64,
+     "s": 55.7,
      "e": 55.82,
      "key": false
     },
@@ -1438,9 +1425,42 @@
      "key": false
     },
     {
-     "w": "universe,",
+     "w": "universe.",
      "s": 55.96,
-     "e": 56.36,
+     "e": 56.38,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 56.88
+  },
+  {
+   "words": [
+    {
+     "w": "Larger",
+     "s": 58.03,
+     "e": 58.4,
+     "key": false
+    },
+    {
+     "w": "than",
+     "s": 58.4,
+     "e": 58.58,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 58.58,
+     "e": 58.72,
+     "key": false
+    },
+    {
+     "w": "universe,",
+     "s": 58.72,
+     "e": 59.12,
      "key": true
     }
    ],
@@ -1448,7 +1468,7 @@
    "lines": [
     2
    ],
-   "t_off": 56.86
+   "t_off": 59.62
   }
  ],
  "title": null,

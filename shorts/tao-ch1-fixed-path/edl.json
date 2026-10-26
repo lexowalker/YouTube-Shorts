@@ -38,20 +38,20 @@
   },
   {
    "kind": "image",
-   "acc": "1915.702",
-   "file": ".work/img/1915.702_full.jpg",
+   "acc": "1990.69",
+   "file": ".work/img/1990.69_full.jpg",
    "crop": [
-    6159,
-    2208,
-    3500,
-    6222
+    1365,
+    0,
+    2375,
+    4223
    ],
    "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "note": "the poet Tao Yuanming gazing at the water under a pine: 'the human artistic, scientific, or creative spirit'",
+   "note": "a scholar absorbed in playing the qin: 'the human artistic, scientific, or creative spirit'",
    "t0": 12.27,
    "t1": 17.65
   },
@@ -77,7 +77,7 @@
   {
    "kind": "head",
    "t0": 24.33,
-   "t1": 35.433
+   "t1": 27.55
   },
   {
    "kind": "image",
@@ -94,8 +94,70 @@
     1.12,
     1.0
    ],
-   "note": "the Thirty-Six Poetic Immortals, poets of different eras: 'different times and different ages… artistic greatness' (on the join)",
-   "t0": 35.433,
+   "note": "the Thirty-Six Poetic Immortals, each one different: 'People come from many different backgrounds… inclinations… conditioning'",
+   "t0": 27.55,
+   "t1": 35.7
+  },
+  {
+   "kind": "image",
+   "acc": "1939.68",
+   "file": ".work/img/1939.68_full.jpg",
+   "crop": [
+    4122,
+    0,
+    2493,
+    4432
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "the rich man and his guests at their feast: 'They have different resources' (on the join)",
+   "t0": 35.7,
+   "t1": 36.95
+  },
+  {
+   "kind": "image",
+   "acc": "1939.68",
+   "file": ".work/img/1939.68_full.jpg",
+   "crop": [
+    225,
+    1231,
+    1939,
+    3447
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "the beggar Lazarus lying outside the feast: '…resources' (the same painting: rich, then poor)",
+   "t0": 36.95,
+   "t1": 38.53
+  },
+  {
+   "kind": "head",
+   "t0": 38.53,
+   "t1": 40.033
+  },
+  {
+   "kind": "image",
+   "acc": "2012.41",
+   "file": ".work/img/2012.41_full.jpg",
+   "crop": [
+    690,
+    1102,
+    1736,
+    3087
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "a painter at his easel, a boy drawing beside him: 'There's not a fixed path to artistic greatness or to scientific discovery' (on the join)",
+   "t0": 40.033,
    "t1": 45.24
   },
   {
@@ -105,20 +167,20 @@
   },
   {
    "kind": "image",
-   "acc": "1938.13",
-   "file": ".work/img/1938.13_full.jpg",
+   "acc": "2008.357",
+   "file": ".work/img/2008.357_full.jpg",
    "crop": [
-    742,
-    0,
-    3147,
-    5594
+    1715,
+    496,
+    3141,
+    5584
    ],
    "pan": 0,
    "zoom": [
     1.12,
     1.0
    ],
-   "note": "Western Zhou ritual wine vessel thick with green encrustation: religion 'too fixed… too encrusted from use'",
+   "note": "Daubigny's The Oak Tree and the Reed: the rigid oak torn down by the storm, for 'too fixed, too formulaic, too rigid' (against the bamboo that bends, at the end)",
    "t0": 55.37,
    "t1": 67.32
   },
