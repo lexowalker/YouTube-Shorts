@@ -1,0 +1,92 @@
+[
+ {
+  "short_start_s": 6.483,
+  "short_end_s": 13.12,
+  "accession": "2011.172",
+  "title": "Photographie Lunaire: Copernic-Képler-Aristarique",
+  "artist": "Maurice Loewy (French, 1833–1907), Pierre Henri Puiseaux (French, 1855–1928)",
+  "date": "1896",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2011.172",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2011.172/2011.172_full.tif",
+  "crop_xywh_px": [
+   997,
+   3390,
+   3745,
+   6658
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 24.893,
+  "short_end_s": 31.87,
+  "accession": "1922.684",
+  "title": "Mount Starr King, Yosemite",
+  "artist": "Albert Bierstadt (American, born Prussia [now Germany], 1830–1902)",
+  "date": "1866",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1922.684",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1922.684/1922.684_full.tif",
+  "crop_xywh_px": [
+   2280,
+   0,
+   2286,
+   4064
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 35.243,
+  "short_end_s": 40.71,
+  "accession": "1982.37",
+  "title": "Fir Trees and Storm Clouds",
+  "artist": "Albert Bierstadt (American, born Prussia [now Germany], 1830–1902)",
+  "date": "c. 1870",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1982.37",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1982.37/1982.37_full.tif",
+  "crop_xywh_px": [
+   505,
+   0,
+   2080,
+   3698
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 50.33,
+  "short_end_s": 58.04,
+  "accession": "1916.763",
+  "title": "Swedish Plate Money (Half Daler)",
+  "artist": "Unknown, ",
+  "date": "1731",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1916.763",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1916.763/1916.763_full.tif",
+  "crop_xywh_px": [
+   2163,
+   176,
+   3127,
+   5559
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 63.103,
+  "short_end_s": 67.22,
+  "accession": "1930.189",
+  "title": "South Wind, Clear Sky, from Thirty-Six Views of Mount Fuji",
+  "artist": "Katsushika Hokusai (Japanese, 1760–1849)",
+  "date": "early 1830s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1930.189",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1930.189/1930.189_full.tif",
+  "crop_xywh_px": [
+   7509,
+   253,
+   4506,
+   8011
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ }
+]

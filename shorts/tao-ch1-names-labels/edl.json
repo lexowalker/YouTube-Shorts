@@ -1,0 +1,1681 @@
+{
+ "slug": "tao-ch1-names-labels",
+ "segments": [
+  {
+   "src_start": 498.45,
+   "src_end": 505.2
+  },
+  {
+   "src_start": 185.25,
+   "src_end": 188.5
+  },
+  {
+   "src_start": 478.24,
+   "src_end": 493.4
+  },
+  {
+   "src_start": 2257.65,
+   "src_end": 2268.0
+  },
+  {
+   "src_start": 2275.8,
+   "src_end": 2281.0
+  },
+  {
+   "src_start": 2110.9,
+   "src_end": 2121.68
+  },
+  {
+   "src_start": 2126.4,
+   "src_end": 2132.95
+  },
+  {
+   "src_start": 2206.97,
+   "src_end": 2212.3
+  },
+  {
+   "src_start": 2198.85,
+   "src_end": 2199.45
+  },
+  {
+   "src_start": 2200.15,
+   "src_end": 2203.4
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 6.483
+  },
+  {
+   "kind": "image",
+   "acc": "2011.172",
+   "file": ".work/img/2011.172_full.jpg",
+   "crop": [
+    997,
+    3390,
+    3745,
+    6658
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "photograph of the Moon (Copernicus crater), a world whose name is ours: 'Names can be given, but not permanent labels' (on the join, after Pluto)",
+   "t0": 6.483,
+   "t1": 13.12
+  },
+  {
+   "kind": "head",
+   "t0": 13.12,
+   "t1": 24.893
+  },
+  {
+   "kind": "image",
+   "acc": "1922.684",
+   "file": ".work/img/1922.684_full.jpg",
+   "crop": [
+    2280,
+    0,
+    2286,
+    4064
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Bierstadt's Yosemite valley: 'the country of Mexico used to include California…' (on the join)",
+   "t0": 24.893,
+   "t1": 31.87
+  },
+  {
+   "kind": "head",
+   "t0": 31.87,
+   "t1": 35.243
+  },
+  {
+   "kind": "image",
+   "acc": "1982.37",
+   "file": ".work/img/1982.37_full.jpg",
+   "crop": [
+    505,
+    0,
+    2080,
+    3698
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Bierstadt's western mountain under storm clouds: 'what changed in that western part…? Nothing changed but the label' (on the join)",
+   "t0": 35.243,
+   "t1": 40.71
+  },
+  {
+   "kind": "head",
+   "t0": 40.71,
+   "t1": 50.33
+  },
+  {
+   "kind": "image",
+   "acc": "1916.763",
+   "file": ".work/img/1916.763_full.jpg",
+   "crop": [
+    2163,
+    176,
+    3127,
+    5559
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Swedish copper plate money, 1731: money is a thing 'we sustain… with our intention and our thoughts'",
+   "t0": 50.33,
+   "t1": 58.04
+  },
+  {
+   "kind": "head",
+   "t0": 58.04,
+   "t1": 63.103
+  },
+  {
+   "kind": "image",
+   "acc": "1930.189",
+   "file": ".work/img/1930.189_full.jpg",
+   "crop": [
+    7509,
+    253,
+    4506,
+    8011
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Hokusai's Red Fuji: 'no matter what the name is, the reality is still there' (on the join; under the end-card dissolve)",
+   "t0": 63.103,
+   "t1": 67.22
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "Pluto",
+     "s": 0.27,
+     "e": 0.67,
+     "key": false
+    },
+    {
+     "w": "was",
+     "s": 0.67,
+     "e": 0.95,
+     "key": false
+    },
+    {
+     "w": "once",
+     "s": 0.95,
+     "e": 1.09,
+     "key": false
+    },
+    {
+     "w": "named",
+     "s": 1.09,
+     "e": 1.37,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 1.37,
+     "e": 1.57,
+     "key": false
+    },
+    {
+     "w": "planet.",
+     "s": 1.57,
+     "e": 1.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 2.37
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 2.71,
+     "e": 2.85,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 2.85,
+     "e": 2.99,
+     "key": false
+    },
+    {
+     "w": "longer",
+     "s": 2.99,
+     "e": 3.25,
+     "key": false
+    },
+    {
+     "w": "named",
+     "s": 3.25,
+     "e": 3.49,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 3.49,
+     "e": 3.67,
+     "key": false
+    },
+    {
+     "w": "planet.",
+     "s": 3.69,
+     "e": 3.97,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 4.47
+  },
+  {
+   "words": [
+    {
+     "w": "It",
+     "s": 5.22,
+     "e": 5.27,
+     "key": false
+    },
+    {
+     "w": "has",
+     "s": 5.27,
+     "e": 5.41,
+     "key": false
+    },
+    {
+     "w": "nothing",
+     "s": 5.41,
+     "e": 5.65,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 5.65,
+     "e": 5.79,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 5.79,
+     "e": 5.91,
+     "key": false
+    },
+    {
+     "w": "with",
+     "s": 5.91,
+     "e": 6.07,
+     "key": false
+    },
+    {
+     "w": "Pluto.",
+     "s": 6.07,
+     "e": 6.37,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 6.87
+  },
+  {
+   "words": [
+    {
+     "w": "Names",
+     "s": 7.02,
+     "e": 7.4,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 7.4,
+     "e": 7.66,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 7.66,
+     "e": 7.9,
+     "key": false
+    },
+    {
+     "w": "given,",
+     "s": 7.9,
+     "e": 8.18,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 8.18
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 8.18,
+     "e": 8.78,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 8.82,
+     "e": 9.04,
+     "key": false
+    },
+    {
+     "w": "permanent",
+     "s": 9.1,
+     "e": 9.44,
+     "key": false
+    },
+    {
+     "w": "labels.",
+     "s": 9.44,
+     "e": 10.0,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 10.38
+  },
+  {
+   "words": [
+    {
+     "w": "We",
+     "s": 10.38,
+     "e": 10.5,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 10.5,
+     "e": 10.64,
+     "key": false
+    },
+    {
+     "w": "give",
+     "s": 10.64,
+     "e": 11.5,
+     "key": false
+    },
+    {
+     "w": "names",
+     "s": 11.53,
+     "e": 11.78,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 11.78,
+     "e": 11.98,
+     "key": false
+    },
+    {
+     "w": "labels",
+     "s": 11.98,
+     "e": 12.22,
+     "key": true
+    },
+    {
+     "w": "to",
+     "s": 12.22,
+     "e": 12.48,
+     "key": false
+    },
+    {
+     "w": "things,",
+     "s": 12.53,
+     "e": 12.84,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 13.12
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 13.12,
+     "e": 13.12,
+     "key": false
+    },
+    {
+     "w": "those",
+     "s": 13.12,
+     "e": 13.6,
+     "key": false
+    },
+    {
+     "w": "names",
+     "s": 13.6,
+     "e": 13.9,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 13.96,
+     "e": 14.12,
+     "key": false
+    },
+    {
+     "w": "labels",
+     "s": 14.12,
+     "e": 14.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 14.48
+  },
+  {
+   "words": [
+    {
+     "w": "can",
+     "s": 14.48,
+     "e": 15.18,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 15.18,
+     "e": 15.38,
+     "key": false
+    },
+    {
+     "w": "switched",
+     "s": 15.38,
+     "e": 15.7,
+     "key": true
+    },
+    {
+     "w": "around",
+     "s": 15.77,
+     "e": 16.24,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 16.24
+  },
+  {
+   "words": [
+    {
+     "w": "without",
+     "s": 16.24,
+     "e": 16.98,
+     "key": false
+    },
+    {
+     "w": "changing",
+     "s": 16.98,
+     "e": 17.38,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 17.38,
+     "e": 18.5,
+     "key": false
+    },
+    {
+     "w": "actual",
+     "s": 18.5,
+     "e": 19.64,
+     "key": false
+    },
+    {
+     "w": "object",
+     "s": 19.64,
+     "e": 20.78,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 20.78
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 20.78,
+     "e": 21.64,
+     "key": false
+    },
+    {
+     "w": "observation",
+     "s": 22.1,
+     "e": 23.6,
+     "key": false
+    },
+    {
+     "w": "or",
+     "s": 23.6,
+     "e": 23.84,
+     "key": false
+    },
+    {
+     "w": "study",
+     "s": 23.89,
+     "e": 24.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 24.2
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 24.2,
+     "e": 24.46,
+     "key": false
+    },
+    {
+     "w": "inquiry.",
+     "s": 24.46,
+     "e": 24.96,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 25.45
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 25.45,
+     "e": 25.55,
+     "key": false
+    },
+    {
+     "w": "country",
+     "s": 25.55,
+     "e": 25.83,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 25.83,
+     "e": 25.97,
+     "key": false
+    },
+    {
+     "w": "Mexico",
+     "s": 25.97,
+     "e": 26.27,
+     "key": true
+    },
+    {
+     "w": "used",
+     "s": 26.27,
+     "e": 26.51,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 26.51,
+     "e": 26.67,
+     "key": false
+    },
+    {
+     "w": "include",
+     "s": 26.67,
+     "e": 26.89,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 26.89
+  },
+  {
+   "words": [
+    {
+     "w": "California,",
+     "s": 26.89,
+     "e": 27.39,
+     "key": true
+    },
+    {
+     "w": "Colorado,",
+     "s": 27.55,
+     "e": 27.89,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 28.39
+  },
+  {
+   "words": [
+    {
+     "w": "New",
+     "s": 28.87,
+     "e": 28.97,
+     "key": false
+    },
+    {
+     "w": "Mexico,",
+     "s": 28.97,
+     "e": 29.45,
+     "key": false
+    },
+    {
+     "w": "Arizona,",
+     "s": 29.61,
+     "e": 29.97,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 28.57,
+     "e": 28.59,
+     "key": false
+    },
+    {
+     "w": "know,",
+     "s": 28.59,
+     "e": 28.77,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 30.11
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 30.11,
+     "e": 30.23,
+     "key": false
+    },
+    {
+     "w": "go",
+     "s": 30.23,
+     "e": 30.37,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 30.37,
+     "e": 30.59,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 30.59,
+     "e": 30.71,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 30.71,
+     "e": 30.79,
+     "key": false
+    },
+    {
+     "w": "up",
+     "s": 30.79,
+     "e": 30.95,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 30.95,
+     "e": 31.09,
+     "key": false
+    },
+    {
+     "w": "Wyoming.",
+     "s": 31.09,
+     "e": 31.51,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    5
+   ],
+   "t_off": 31.87
+  },
+  {
+   "words": [
+    {
+     "w": "That",
+     "s": 31.87,
+     "e": 32.11,
+     "key": false
+    },
+    {
+     "w": "was",
+     "s": 32.11,
+     "e": 32.27,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 32.27,
+     "e": 32.43,
+     "key": false
+    },
+    {
+     "w": "country.",
+     "s": 32.44,
+     "e": 32.83,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 33.33
+  },
+  {
+   "words": [
+    {
+     "w": "Well,",
+     "s": 33.63,
+     "e": 33.83,
+     "key": false
+    },
+    {
+     "w": "that's",
+     "s": 33.97,
+     "e": 34.17,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 34.17,
+     "e": 34.31,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 34.31,
+     "e": 34.47,
+     "key": false
+    },
+    {
+     "w": "country",
+     "s": 34.47,
+     "e": 34.69,
+     "key": false
+    },
+    {
+     "w": "anymore.",
+     "s": 34.69,
+     "e": 35.25,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 35.75
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 35.83,
+     "e": 36.13,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 36.13,
+     "e": 36.33,
+     "key": false
+    },
+    {
+     "w": "changed",
+     "s": 36.33,
+     "e": 36.83,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 36.83
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 36.83,
+     "e": 37.19,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 37.19,
+     "e": 37.43,
+     "key": false
+    },
+    {
+     "w": "western",
+     "s": 37.43,
+     "e": 37.75,
+     "key": false
+    },
+    {
+     "w": "part",
+     "s": 37.75,
+     "e": 37.95,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 37.95,
+     "e": 38.05,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 38.05,
+     "e": 38.13,
+     "key": false
+    },
+    {
+     "w": "United",
+     "s": 38.13,
+     "e": 38.25,
+     "key": false
+    },
+    {
+     "w": "States?",
+     "s": 38.25,
+     "e": 38.43,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 38.55
+  },
+  {
+   "words": [
+    {
+     "w": "Nothing",
+     "s": 38.55,
+     "e": 38.75,
+     "key": false
+    },
+    {
+     "w": "changed",
+     "s": 38.75,
+     "e": 39.27,
+     "key": false
+    },
+    {
+     "w": "but",
+     "s": 39.8,
+     "e": 39.89,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 39.93,
+     "e": 40.09,
+     "key": false
+    },
+    {
+     "w": "label.",
+     "s": 40.09,
+     "e": 40.41,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 40.91
+  },
+  {
+   "words": [
+    {
+     "w": "In",
+     "s": 41.03,
+     "e": 41.15,
+     "key": false
+    },
+    {
+     "w": "order",
+     "s": 41.15,
+     "e": 41.31,
+     "key": false
+    },
+    {
+     "w": "for",
+     "s": 41.31,
+     "e": 41.49,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 41.49,
+     "e": 41.59,
+     "key": false
+    },
+    {
+     "w": "hundred",
+     "s": 41.59,
+     "e": 41.75,
+     "key": false
+    },
+    {
+     "w": "dollar",
+     "s": 41.75,
+     "e": 42.01,
+     "key": false
+    },
+    {
+     "w": "bill",
+     "s": 42.01,
+     "e": 42.27,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 42.27
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 42.27,
+     "e": 42.69,
+     "key": false
+    },
+    {
+     "w": "exist",
+     "s": 43.11,
+     "e": 43.53,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 43.53,
+     "e": 43.79,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 43.79,
+     "e": 43.91,
+     "key": false
+    },
+    {
+     "w": "observed,",
+     "s": 43.91,
+     "e": 44.29,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "to",
+     "s": 42.82,
+     "e": 43.11,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 44.39
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 44.39,
+     "e": 44.47,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 44.47,
+     "e": 44.61,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 44.67,
+     "e": 44.79,
+     "key": false
+    },
+    {
+     "w": "keep",
+     "s": 44.87,
+     "e": 44.99,
+     "key": false
+    },
+    {
+     "w": "thinking",
+     "s": 45.13,
+     "e": 45.39,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 45.39
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 45.39,
+     "e": 45.55,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 45.55,
+     "e": 45.69,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 45.69,
+     "e": 45.79,
+     "key": false
+    },
+    {
+     "w": "hundred",
+     "s": 45.79,
+     "e": 45.95,
+     "key": false
+    },
+    {
+     "w": "dollar",
+     "s": 45.95,
+     "e": 46.21,
+     "key": false
+    },
+    {
+     "w": "bill.",
+     "s": 46.21,
+     "e": 46.57,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 46.81
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 46.81,
+     "e": 47.09,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 47.09,
+     "e": 47.25,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 47.25,
+     "e": 47.33,
+     "key": false
+    },
+    {
+     "w": "us",
+     "s": 47.33,
+     "e": 47.43,
+     "key": false
+    },
+    {
+     "w": "were",
+     "s": 47.43,
+     "e": 47.53,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 47.53,
+     "e": 47.67,
+     "key": false
+    },
+    {
+     "w": "stop",
+     "s": 47.7,
+     "e": 47.85,
+     "key": true
+    },
+    {
+     "w": "thinking",
+     "s": 47.85,
+     "e": 48.29,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 48.29
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 48.29,
+     "e": 48.69,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 48.69,
+     "e": 48.77,
+     "key": false
+    },
+    {
+     "w": "was",
+     "s": 48.77,
+     "e": 48.87,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 48.87,
+     "e": 48.97,
+     "key": false
+    },
+    {
+     "w": "hundred",
+     "s": 48.97,
+     "e": 49.13,
+     "key": false
+    },
+    {
+     "w": "dollar",
+     "s": 49.13,
+     "e": 49.37,
+     "key": false
+    },
+    {
+     "w": "bill,",
+     "s": 49.37,
+     "e": 49.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 49.61
+  },
+  {
+   "words": [
+    {
+     "w": "we'd",
+     "s": 49.61,
+     "e": 49.81,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 49.81,
+     "e": 49.93,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 49.93,
+     "e": 50.33,
+     "key": false
+    },
+    {
+     "w": "beautiful",
+     "s": 50.33,
+     "e": 50.65,
+     "key": false
+    },
+    {
+     "w": "piece",
+     "s": 50.65,
+     "e": 50.87,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 50.87
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 50.87,
+     "e": 51.03,
+     "key": false
+    },
+    {
+     "w": "green",
+     "s": 51.03,
+     "e": 51.19,
+     "key": false
+    },
+    {
+     "w": "paper,",
+     "s": 51.19,
+     "e": 51.49,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 51.65
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 51.65,
+     "e": 51.81,
+     "key": false
+    },
+    {
+     "w": "individually",
+     "s": 51.95,
+     "e": 52.97,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 52.97
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 52.97,
+     "e": 53.29,
+     "key": false
+    },
+    {
+     "w": "collectively,",
+     "s": 53.33,
+     "e": 53.99,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 54.45
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 54.45,
+     "e": 54.63,
+     "key": false
+    },
+    {
+     "w": "sustain",
+     "s": 54.63,
+     "e": 55.25,
+     "key": false
+    },
+    {
+     "w": "certain",
+     "s": 55.25,
+     "e": 55.63,
+     "key": false
+    },
+    {
+     "w": "things",
+     "s": 55.63,
+     "e": 55.93,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 55.93
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 55.93,
+     "e": 56.11,
+     "key": false
+    },
+    {
+     "w": "our",
+     "s": 56.11,
+     "e": 56.29,
+     "key": false
+    },
+    {
+     "w": "intention",
+     "s": 56.29,
+     "e": 56.77,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 56.77,
+     "e": 57.09,
+     "key": false
+    },
+    {
+     "w": "our",
+     "s": 57.09,
+     "e": 57.61,
+     "key": false
+    },
+    {
+     "w": "thoughts.",
+     "s": 57.61,
+     "e": 58.04,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 58.13
+  },
+  {
+   "words": [
+    {
+     "w": "You",
+     "s": 58.13,
+     "e": 58.41,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 58.5,
+     "e": 58.59,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 58.59,
+     "e": 58.73,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 58.73,
+     "e": 58.85,
+     "key": false
+    },
+    {
+     "w": "reality",
+     "s": 58.85,
+     "e": 59.17,
+     "key": true
+    },
+    {
+     "w": "without",
+     "s": 59.17,
+     "e": 59.43,
+     "key": false
+    },
+    {
+     "w": "having",
+     "s": 59.43,
+     "e": 59.71,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 59.71,
+     "e": 59.83,
+     "key": false
+    },
+    {
+     "w": "name,",
+     "s": 59.83,
+     "e": 60.13,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    5
+   ],
+   "t_off": 60.63
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 60.86,
+     "e": 61.15,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 61.23,
+     "e": 61.33,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 61.33,
+     "e": 61.43,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 61.43,
+     "e": 61.55,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 61.55,
+     "e": 61.67,
+     "key": false
+    },
+    {
+     "w": "name",
+     "s": 61.67,
+     "e": 61.85,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 61.85
+  },
+  {
+   "words": [
+    {
+     "w": "without",
+     "s": 61.85,
+     "e": 62.09,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 62.09,
+     "e": 62.31,
+     "key": false
+    },
+    {
+     "w": "reality,",
+     "s": 62.31,
+     "e": 62.73,
+     "key": false
+    },
+    {
+     "w": "right?",
+     "s": 63.0,
+     "e": 63.11,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 63.59
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 63.59,
+     "e": 63.64,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 63.64,
+     "e": 63.74,
+     "key": false
+    },
+    {
+     "w": "matter",
+     "s": 64.18,
+     "e": 64.62,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 64.62,
+     "e": 64.84,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 64.84,
+     "e": 64.96,
+     "key": false
+    },
+    {
+     "w": "name",
+     "s": 64.96,
+     "e": 65.22,
+     "key": true
+    },
+    {
+     "w": "is,",
+     "s": 65.22,
+     "e": 65.54,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 65.54
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 65.54,
+     "e": 65.62,
+     "key": false
+    },
+    {
+     "w": "reality",
+     "s": 65.64,
+     "e": 65.98,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 65.98,
+     "e": 66.26,
+     "key": false
+    },
+    {
+     "w": "still",
+     "s": 66.26,
+     "e": 66.5,
+     "key": true
+    },
+    {
+     "w": "there.",
+     "s": 66.5,
+     "e": 66.92,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 67.42
+  }
+ ],
+ "title": null,
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "caption_y": 0.83,
+ "crop_track": ".work/tao-ch1-names-labels/crop_track.json"
+}
