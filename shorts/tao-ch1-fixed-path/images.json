@@ -1,0 +1,92 @@
+[
+ {
+  "short_start_s": 12.27,
+  "short_end_s": 17.65,
+  "accession": "1915.702",
+  "title": "Landscape with Poet Tao Yuanming (365–472 CE)",
+  "artist": "Unknown, China, Ming dynasty (1368-1644) or earlier",
+  "date": "1200s–1400s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1915.702",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1915.702/1915.702_full.tif",
+  "crop_xywh_px": [
+   6159,
+   2208,
+   3500,
+   6222
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 17.65,
+  "short_end_s": 24.33,
+  "accession": "2019.167",
+  "title": "Road to Shu",
+  "artist": "Yuan Yao (Chinese, active mid-1700s)",
+  "date": "1743",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2019.167",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2019.167/2019.167_full.tif",
+  "crop_xywh_px": [
+   6026,
+   1009,
+   4655,
+   8275
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 35.433,
+  "short_end_s": 45.24,
+  "accession": "1960.183",
+  "title": "Thirty-Six Poetic Immortals",
+  "artist": "Tatebayashi Kagei (Japanese, active mid-1700s)",
+  "date": "mid 1700s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1960.183",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1960.183/1960.183_full.tif",
+  "crop_xywh_px": [
+   2827,
+   634,
+   2675,
+   4756
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ },
+ {
+  "short_start_s": 55.37,
+  "short_end_s": 67.32,
+  "accession": "1938.13",
+  "title": "Wine Vessel (Fu Wu Zun)",
+  "artist": "Unknown, China, Western Zhou dynasty (c. 1046–771 BCE)",
+  "date": "c. 1000–900 BCE",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1938.13",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1938.13/1938.13_full.tif",
+  "crop_xywh_px": [
+   742,
+   0,
+   3147,
+   5594
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ },
+ {
+  "short_start_s": 69.063,
+  "short_end_s": 80.73,
+  "accession": "1953.246",
+  "title": "Bamboo in the Wind",
+  "artist": "Puming (Xuechuang) (Chinese, active before 1274–after 1329)",
+  "date": "1300s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1953.246",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1953.246/1953.246_full.tif",
+  "crop_xywh_px": [
+   490,
+   801,
+   6010,
+   10685
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ }
+]

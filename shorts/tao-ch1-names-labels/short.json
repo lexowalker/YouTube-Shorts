@@ -1,0 +1,394 @@
+{
+ "slug": "tao-ch1-names-labels",
+ "source": {
+  "archive_item": "arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "url": "https://archive.org/details/arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "file": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.mp4",
+  "hires": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.webm (3840x2160; window 937-1160 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Names can be given, but not permanent labels: Pluto, a country's borders and a hundred-dollar bill change with the names we keep in mind, while the thing itself stays as it is (Tao Te Ching, Chapter 1, Thomas Cleary translation).",
+ "youtube_title": "Names Can Be Given, but Not Permanent Labels",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   498.45,
+   505.2
+  ],
+  [
+   185.25,
+   188.5
+  ],
+  [
+   478.24,
+   493.4
+  ],
+  [
+   2257.65,
+   2268.0
+  ],
+  [
+   2275.8,
+   2281.0
+  ],
+  [
+   2110.9,
+   2121.68
+  ],
+  [
+   2126.4,
+   2132.95
+  ],
+  [
+   2206.97,
+   2212.3
+  ],
+  [
+   2198.85,
+   2199.45
+  ],
+  [
+   2200.15,
+   2203.4
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 2257.3,
+   "to": 2257.9,
+   "words": [],
+   "why": "the user asked to start at 'the country of Mexico'; 'you know' before it is cut"
+  },
+  {
+   "from": 2280.69,
+   "to": 2282.6,
+   "words": [],
+   "why": "medium.en 'Okay.' after 'label.' is room tone (the clip ends at 2281.0)"
+  },
+  {
+   "from": 2126.3,
+   "to": 2127.0,
+   "words": [
+    [
+     "So,",
+     2126.56,
+     2126.72
+    ],
+    [
+     "individually",
+     2126.86,
+     2127.88
+    ]
+   ],
+   "why": "large-v3 hears 'so, so individually'; the first 'so' (2125.9-2126.14) is before the cut, the second starts at 2126.56 on the envelope"
+  },
+  {
+   "from": 2206.5,
+   "to": 2212.6,
+   "words": [
+    [
+     "You",
+     2207.06,
+     2207.34
+    ],
+    [
+     "can",
+     2207.38,
+     2207.52
+    ],
+    [
+     "have",
+     2207.52,
+     2207.66
+    ],
+    [
+     "a",
+     2207.66,
+     2207.78
+    ],
+    [
+     "reality",
+     2207.78,
+     2208.1
+    ],
+    [
+     "without",
+     2208.1,
+     2208.36
+    ],
+    [
+     "having",
+     2208.36,
+     2208.64
+    ],
+    [
+     "the",
+     2208.64,
+     2208.76
+    ],
+    [
+     "name,",
+     2208.76,
+     2209.06
+    ],
+    [
+     "and",
+     2209.72,
+     2210.08
+    ],
+    [
+     "you",
+     2210.16,
+     2210.26
+    ],
+    [
+     "can",
+     2210.26,
+     2210.36
+    ],
+    [
+     "have",
+     2210.36,
+     2210.48
+    ],
+    [
+     "the",
+     2210.48,
+     2210.6
+    ],
+    [
+     "name",
+     2210.6,
+     2210.78
+    ],
+    [
+     "without",
+     2210.78,
+     2211.02
+    ],
+    [
+     "the",
+     2211.02,
+     2211.24
+    ],
+    [
+     "reality,",
+     2211.24,
+     2211.66
+    ],
+    [
+     "right?",
+     2211.68,
+     2212.04
+    ]
+   ],
+   "why": "large-v3 and small.en hear 'the name' twice (medium.en 'a name'); 'You' starts at 2207.06 on the envelope; medium.en's 'Thank you.' after 'right?' is room tone"
+  },
+  {
+   "from": 2198.5,
+   "to": 2203.6,
+   "words": [
+    [
+     "But",
+     2199.06,
+     2199.12
+    ],
+    [
+     "no",
+     2199.12,
+     2199.22
+    ],
+    [
+     "matter",
+     2200.36,
+     2200.8
+    ],
+    [
+     "what",
+     2200.8,
+     2201.02
+    ],
+    [
+     "the",
+     2201.02,
+     2201.14
+    ],
+    [
+     "name",
+     2201.14,
+     2201.4
+    ],
+    [
+     "is,",
+     2201.4,
+     2201.72
+    ],
+    [
+     "the",
+     2201.72,
+     2201.8
+    ],
+    [
+     "reality",
+     2201.8,
+     2202.16
+    ],
+    [
+     "is",
+     2202.16,
+     2202.44
+    ],
+    [
+     "still",
+     2202.44,
+     2202.68
+    ],
+    [
+     "there.",
+     2202.68,
+     2203.1
+    ]
+   ],
+   "why": "medium.en mishears this line ('I hope that's'); large-v3 (narrow pass) hears 'But no matter what the name is, the reality is still there.' The 1.1 s pause inside 'no ... matter' is trimmed"
+  }
+ ],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "Pluto was once | named a *planet.",
+  "It's no longer | named a planet.",
+  "It has nothing | to do with *Pluto.",
+  "Names can be *given,",
+  "but not | permanent *labels.",
+  "We can give names | and *labels to things,",
+  "but those names | and labels",
+  "can be | *switched around",
+  "without changing | the actual *object",
+  "of observation | or study",
+  "or *inquiry.",
+  "The country of *Mexico | used to include",
+  "*California, Colorado,",
+  "~you ~know, New Mexico, | *Arizona,",
+  "and go all the way | up to *Wyoming.",
+  "That was | the *country.",
+  "Well, that's not | the country *anymore.",
+  "But what *changed",
+  "in that western part | of the United States?",
+  "Nothing changed | but the *label.",
+  "In order for a | hundred dollar bill",
+  "to ~to *exist | and be observed,",
+  "we have to keep | *thinking",
+  "that it's a | hundred dollar bill.",
+  "If all of us | were to *stop thinking",
+  "that it was a | hundred dollar bill,",
+  "we'd have a | beautiful piece",
+  "of green *paper,",
+  "So, *individually",
+  "and *collectively,",
+  "we sustain | certain things",
+  "with our *intention | and our thoughts.",
+  "You can have a *reality | without having the name,",
+  "and you can have | the *name",
+  "without the reality, | right?",
+  "But no matter | what the *name is,",
+  "the reality | is *still there."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "2011.172",
+    "x0": 0.11,
+    "y0": 0.28,
+    "h": 0.55,
+    "note": "photograph of the Moon (Copernicus crater), a world whose name is ours: 'Names can be given, but not permanent labels' (on the join, after Pluto)"
+   }
+  },
+  {
+   "at": {
+    "word": "but",
+    "after": 12.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1922.684",
+    "x0": 0.38,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Bierstadt's Yosemite valley: 'the country of Mexico used to include California…' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "That",
+    "after": 30.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "image": {
+    "acc": "1982.37",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Bierstadt's western mountain under storm clouds: 'what changed in that western part…? Nothing changed but the label' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "beautiful",
+    "after": 48.0
+   },
+   "image": {
+    "acc": "1916.763",
+    "x0": 0.29,
+    "y0": 0.03,
+    "h": 0.95,
+    "note": "Swedish copper plate money, 1731: money is a thing 'we sustain… with our intention and our thoughts'"
+   }
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "image": {
+    "acc": "1930.189",
+    "x0": 0.61,
+    "y0": 0.03,
+    "h": 0.95,
+    "note": "Hokusai's Red Fuji: 'no matter what the name is, the reality is still there' (on the join; under the end-card dissolve)"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

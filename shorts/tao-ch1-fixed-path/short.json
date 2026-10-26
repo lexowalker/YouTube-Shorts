@@ -1,0 +1,244 @@
+{
+ "slug": "tao-ch1-fixed-path",
+ "source": {
+  "archive_item": "arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "url": "https://archive.org/details/arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "file": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.mp4",
+  "hires": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.webm (3840x2160; window 937-1160 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "A way can be a guide, but not a fixed path: people start from different places, there is no formula for greatness, and a religion too rigid and encrusted from use is not the Way, which moves like wind (Tao Te Ching, Chapter 1, Thomas Cleary translation).",
+ "youtube_title": "A Way Can Be a Guide, Not a Fixed Path",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   385.35,
+   403.0
+  ],
+  [
+   180.85,
+   183.85
+  ],
+  [
+   263.3,
+   278.35
+  ],
+  [
+   286.95,
+   291.55
+  ],
+  [
+   369.31,
+   374.25
+  ],
+  [
+   306.41,
+   330.5
+  ],
+  [
+   331.55,
+   342.95
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 180.9,
+   "to": 181.37,
+   "words": [
+    [
+     "A",
+     181.14,
+     181.22
+    ],
+    [
+     "way",
+     181.22,
+     181.36
+    ]
+   ],
+   "why": "medium.en hears 'Away'; it is Cleary's 'A way' (envelope onset 181.14)"
+  },
+  {
+   "from": 263.1,
+   "to": 264.0,
+   "words": [
+    [
+     "The",
+     263.6,
+     263.7
+    ],
+    [
+     "truth",
+     263.72,
+     264.0
+    ]
+   ],
+   "why": "medium.en starts 'The' at 263.16 in room tone; the envelope onset is 263.60 (large-v3 hears no 'And' before it)"
+  },
+  {
+   "from": 331.4,
+   "to": 332.3,
+   "words": [
+    [
+     "The",
+     331.94,
+     332.08
+    ],
+    [
+     "way",
+     332.1,
+     332.28
+    ]
+   ],
+   "why": "medium.en starts 'The' at 331.50 in the pause; envelope onset 331.94"
+  },
+  {
+   "from": 306.0,
+   "to": 306.75,
+   "words": [
+    [
+     "So,",
+     306.42,
+     306.54
+    ],
+    [
+     "what",
+     306.56,
+     306.7
+    ]
+   ],
+   "why": "the cut sits between 'path' (its 'p' closure is the dip at 306.18, the vowel 306.22-306.38) and 'So' (306.42); medium.en puts 'So' and 'what' both at 306.64"
+  }
+ ],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "The minute you try | and put it into",
+  "a fixed *formula,",
+  "you've taken away | most of its *power",
+  "when it comes to | meaningful things",
+  "of the human | *artistic, scientific,",
+  "or creative | *spirit.",
+  "A way can be | a *guide,",
+  "but not a | *fixed path.",
+  "The truth of this | is *obvious",
+  "to anyone who's | traveled this *journey.",
+  "People come from | many different *backgrounds.",
+  "They have | many different *inclinations.",
+  "They have many different | sets of *conditioning.",
+  "They have | different *resources.",
+  "There are | different *times",
+  "and different *ages.",
+  "There's not | a *fixed path",
+  "to artistic | *greatness",
+  "or to scientific | discovery.",
+  "So, what it's | also pointing towards",
+  "is the fact | that a *religion",
+  "or a Dharma study | that is",
+  "too *fixed,",
+  "too *formulaic,",
+  "too *rigid,",
+  "and too *encrusted | from use",
+  "is not | the *way.",
+  "The way is | much more *fluid",
+  "than that.",
+  "The way is much | more like *nature,",
+  "like *wind, ~you ~know,",
+  "wind can move along | in a *direction,",
+  "but not on | a *fixed path,",
+  "unless you deliberately | try to *manipulate it."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "word": "artistic,",
+    "after": 11.0
+   },
+   "image": {
+    "acc": "1915.702",
+    "x0": 0.58,
+    "y0": 0.22,
+    "h": 0.62,
+    "note": "the poet Tao Yuanming gazing at the water under a pine: 'the human artistic, scientific, or creative spirit'"
+   }
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "2019.167",
+    "x0": 0.44,
+    "y0": 0.1,
+    "h": 0.82,
+    "note": "travelers on the zigzag plank road: 'A way can be a guide, but not a fixed path. The truth of this is obvious' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "to",
+    "after": 24.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1960.183",
+    "x0": 0.33,
+    "y0": 0.08,
+    "h": 0.6,
+    "note": "the Thirty-Six Poetic Immortals, poets of different eras: 'different times and different ages… artistic greatness' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "fixed,",
+    "after": 50.0
+   },
+   "image": {
+    "acc": "1938.13",
+    "x0": 0.16,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Western Zhou ritual wine vessel thick with green encrustation: religion 'too fixed… too encrusted from use'"
+   }
+  },
+  {
+   "at": {
+    "word": "The",
+    "after": 67.0
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "1953.246",
+    "x0": 0.06,
+    "y0": 0.06,
+    "h": 0.8,
+    "note": "bamboo bending in the wind: 'The way is much more like nature, like wind… not on a fixed path' (on the join; under the end-card dissolve)"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

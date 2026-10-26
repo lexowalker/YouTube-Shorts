@@ -1,0 +1,1474 @@
+{
+ "slug": "tao-ch1-fixed-path",
+ "segments": [
+  {
+   "src_start": 385.35,
+   "src_end": 403.0
+  },
+  {
+   "src_start": 180.85,
+   "src_end": 183.85
+  },
+  {
+   "src_start": 263.3,
+   "src_end": 278.35
+  },
+  {
+   "src_start": 286.95,
+   "src_end": 291.55
+  },
+  {
+   "src_start": 369.31,
+   "src_end": 374.25
+  },
+  {
+   "src_start": 306.41,
+   "src_end": 330.5
+  },
+  {
+   "src_start": 331.55,
+   "src_end": 342.95
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 12.27
+  },
+  {
+   "kind": "image",
+   "acc": "1915.702",
+   "file": ".work/img/1915.702_full.jpg",
+   "crop": [
+    6159,
+    2208,
+    3500,
+    6222
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "the poet Tao Yuanming gazing at the water under a pine: 'the human artistic, scientific, or creative spirit'",
+   "t0": 12.27,
+   "t1": 17.65
+  },
+  {
+   "kind": "image",
+   "acc": "2019.167",
+   "file": ".work/img/2019.167_full.jpg",
+   "crop": [
+    6026,
+    1009,
+    4655,
+    8275
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "travelers on the zigzag plank road: 'A way can be a guide, but not a fixed path. The truth of this is obvious' (on the join)",
+   "t0": 17.65,
+   "t1": 24.33
+  },
+  {
+   "kind": "head",
+   "t0": 24.33,
+   "t1": 35.433
+  },
+  {
+   "kind": "image",
+   "acc": "1960.183",
+   "file": ".work/img/1960.183_full.jpg",
+   "crop": [
+    2827,
+    634,
+    2675,
+    4756
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "the Thirty-Six Poetic Immortals, poets of different eras: 'different times and different ages… artistic greatness' (on the join)",
+   "t0": 35.433,
+   "t1": 45.24
+  },
+  {
+   "kind": "head",
+   "t0": 45.24,
+   "t1": 55.37
+  },
+  {
+   "kind": "image",
+   "acc": "1938.13",
+   "file": ".work/img/1938.13_full.jpg",
+   "crop": [
+    742,
+    0,
+    3147,
+    5594
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "Western Zhou ritual wine vessel thick with green encrustation: religion 'too fixed… too encrusted from use'",
+   "t0": 55.37,
+   "t1": 67.32
+  },
+  {
+   "kind": "head",
+   "t0": 67.32,
+   "t1": 69.063
+  },
+  {
+   "kind": "image",
+   "acc": "1953.246",
+   "file": ".work/img/1953.246_full.jpg",
+   "crop": [
+    490,
+    801,
+    6010,
+    10685
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "bamboo bending in the wind: 'The way is much more like nature, like wind… not on a fixed path' (on the join; under the end-card dissolve)",
+   "t0": 69.063,
+   "t1": 80.73
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 0.32,
+     "e": 0.55,
+     "key": false
+    },
+    {
+     "w": "minute",
+     "s": 0.55,
+     "e": 0.75,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 0.75,
+     "e": 0.93,
+     "key": false
+    },
+    {
+     "w": "try",
+     "s": 0.93,
+     "e": 1.13,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 1.13,
+     "e": 1.29,
+     "key": false
+    },
+    {
+     "w": "put",
+     "s": 1.29,
+     "e": 1.41,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 1.41,
+     "e": 1.53,
+     "key": false
+    },
+    {
+     "w": "into",
+     "s": 1.53,
+     "e": 1.77,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 1.77
+  },
+  {
+   "words": [
+    {
+     "w": "a",
+     "s": 1.77,
+     "e": 2.17,
+     "key": false
+    },
+    {
+     "w": "fixed",
+     "s": 2.39,
+     "e": 2.85,
+     "key": false
+    },
+    {
+     "w": "formula,",
+     "s": 2.85,
+     "e": 3.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 4.03
+  },
+  {
+   "words": [
+    {
+     "w": "you've",
+     "s": 4.41,
+     "e": 5.15,
+     "key": false
+    },
+    {
+     "w": "taken",
+     "s": 5.7,
+     "e": 5.87,
+     "key": false
+    },
+    {
+     "w": "away",
+     "s": 5.87,
+     "e": 6.11,
+     "key": false
+    },
+    {
+     "w": "most",
+     "s": 6.11,
+     "e": 6.39,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 6.39,
+     "e": 6.57,
+     "key": false
+    },
+    {
+     "w": "its",
+     "s": 6.57,
+     "e": 6.87,
+     "key": false
+    },
+    {
+     "w": "power",
+     "s": 7.17,
+     "e": 7.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 8.03
+  },
+  {
+   "words": [
+    {
+     "w": "when",
+     "s": 8.14,
+     "e": 8.23,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 8.23,
+     "e": 8.39,
+     "key": false
+    },
+    {
+     "w": "comes",
+     "s": 8.39,
+     "e": 8.59,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 8.59,
+     "e": 9.05,
+     "key": false
+    },
+    {
+     "w": "meaningful",
+     "s": 9.05,
+     "e": 9.69,
+     "key": false
+    },
+    {
+     "w": "things",
+     "s": 9.69,
+     "e": 10.05,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 10.05
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 10.05,
+     "e": 10.73,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 10.73,
+     "e": 11.07,
+     "key": false
+    },
+    {
+     "w": "human",
+     "s": 11.95,
+     "e": 12.27,
+     "key": false
+    },
+    {
+     "w": "artistic,",
+     "s": 12.27,
+     "e": 12.85,
+     "key": true
+    },
+    {
+     "w": "scientific,",
+     "s": 12.85,
+     "e": 13.57,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 13.85
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 13.85,
+     "e": 14.97,
+     "key": false
+    },
+    {
+     "w": "creative",
+     "s": 14.97,
+     "e": 17.03,
+     "key": false
+    },
+    {
+     "w": "spirit.",
+     "s": 17.03,
+     "e": 17.59,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 17.94
+  },
+  {
+   "words": [
+    {
+     "w": "A",
+     "s": 17.94,
+     "e": 18.02,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 18.02,
+     "e": 18.16,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 18.18,
+     "e": 18.42,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 18.42,
+     "e": 18.58,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 18.58,
+     "e": 18.74,
+     "key": false
+    },
+    {
+     "w": "guide,",
+     "s": 18.74,
+     "e": 19.12,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 19.22
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 19.22,
+     "e": 19.48,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 19.48,
+     "e": 19.68,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 19.68,
+     "e": 19.82,
+     "key": false
+    },
+    {
+     "w": "fixed",
+     "s": 19.88,
+     "e": 20.1,
+     "key": true
+    },
+    {
+     "w": "path.",
+     "s": 20.1,
+     "e": 20.65,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 20.95
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 20.95,
+     "e": 21.05,
+     "key": false
+    },
+    {
+     "w": "truth",
+     "s": 21.13,
+     "e": 21.35,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 21.41,
+     "e": 21.53,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 21.53,
+     "e": 21.75,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 21.87,
+     "e": 22.79,
+     "key": false
+    },
+    {
+     "w": "obvious",
+     "s": 22.79,
+     "e": 24.33,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 24.33
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 24.33,
+     "e": 24.71,
+     "key": false
+    },
+    {
+     "w": "anyone",
+     "s": 24.71,
+     "e": 25.05,
+     "key": false
+    },
+    {
+     "w": "who's",
+     "s": 25.05,
+     "e": 25.41,
+     "key": false
+    },
+    {
+     "w": "traveled",
+     "s": 25.41,
+     "e": 25.63,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 25.63,
+     "e": 25.91,
+     "key": false
+    },
+    {
+     "w": "journey.",
+     "s": 25.91,
+     "e": 26.35,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 26.85
+  },
+  {
+   "words": [
+    {
+     "w": "People",
+     "s": 27.55,
+     "e": 27.73,
+     "key": false
+    },
+    {
+     "w": "come",
+     "s": 27.73,
+     "e": 27.99,
+     "key": false
+    },
+    {
+     "w": "from",
+     "s": 27.99,
+     "e": 28.47,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 28.69,
+     "e": 28.93,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 28.93,
+     "e": 29.55,
+     "key": false
+    },
+    {
+     "w": "backgrounds.",
+     "s": 30.2,
+     "e": 30.71,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.19
+  },
+  {
+   "words": [
+    {
+     "w": "They",
+     "s": 31.19,
+     "e": 31.23,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 31.23,
+     "e": 31.39,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 31.44,
+     "e": 31.65,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 31.65,
+     "e": 32.09,
+     "key": false
+    },
+    {
+     "w": "inclinations.",
+     "s": 32.09,
+     "e": 33.35,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 33.65
+  },
+  {
+   "words": [
+    {
+     "w": "They",
+     "s": 33.65,
+     "e": 33.69,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 33.69,
+     "e": 33.85,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 33.92,
+     "e": 34.09,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 34.09,
+     "e": 34.43,
+     "key": false
+    },
+    {
+     "w": "sets",
+     "s": 34.55,
+     "e": 34.65,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 34.72,
+     "e": 34.89,
+     "key": false
+    },
+    {
+     "w": "conditioning.",
+     "s": 34.9,
+     "e": 35.39,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 35.89
+  },
+  {
+   "words": [
+    {
+     "w": "They",
+     "s": 36.1,
+     "e": 36.11,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 36.25,
+     "e": 36.67,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 36.67,
+     "e": 36.95,
+     "key": false
+    },
+    {
+     "w": "resources.",
+     "s": 36.95,
+     "e": 37.55,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 38.05
+  },
+  {
+   "words": [
+    {
+     "w": "There",
+     "s": 38.53,
+     "e": 38.65,
+     "key": false
+    },
+    {
+     "w": "are",
+     "s": 38.65,
+     "e": 38.75,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 38.75,
+     "e": 38.93,
+     "key": false
+    },
+    {
+     "w": "times",
+     "s": 38.93,
+     "e": 39.29,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 39.34
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 39.34,
+     "e": 39.45,
+     "key": false
+    },
+    {
+     "w": "different",
+     "s": 39.45,
+     "e": 39.73,
+     "key": false
+    },
+    {
+     "w": "ages.",
+     "s": 39.8,
+     "e": 40.21,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 40.37
+  },
+  {
+   "words": [
+    {
+     "w": "There's",
+     "s": 40.37,
+     "e": 40.83,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 40.85,
+     "e": 40.93,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 40.93,
+     "e": 41.09,
+     "key": false
+    },
+    {
+     "w": "fixed",
+     "s": 41.12,
+     "e": 41.37,
+     "key": true
+    },
+    {
+     "w": "path",
+     "s": 41.46,
+     "e": 41.75,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 41.92
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 41.92,
+     "e": 42.03,
+     "key": false
+    },
+    {
+     "w": "artistic",
+     "s": 42.03,
+     "e": 42.75,
+     "key": false
+    },
+    {
+     "w": "greatness",
+     "s": 42.75,
+     "e": 43.25,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 43.5
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 43.5,
+     "e": 43.59,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 43.77,
+     "e": 43.93,
+     "key": false
+    },
+    {
+     "w": "scientific",
+     "s": 43.93,
+     "e": 44.55,
+     "key": false
+    },
+    {
+     "w": "discovery.",
+     "s": 44.66,
+     "e": 45.21,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 45.3
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 45.3,
+     "e": 45.37,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 45.39,
+     "e": 45.53,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 45.65,
+     "e": 46.91,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 46.91,
+     "e": 47.21,
+     "key": false
+    },
+    {
+     "w": "pointing",
+     "s": 47.21,
+     "e": 47.63,
+     "key": false
+    },
+    {
+     "w": "towards",
+     "s": 47.63,
+     "e": 49.19,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 49.19
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 49.19,
+     "e": 49.49,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 49.49,
+     "e": 49.65,
+     "key": false
+    },
+    {
+     "w": "fact",
+     "s": 49.65,
+     "e": 49.79,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 49.79,
+     "e": 49.99,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 49.99,
+     "e": 50.21,
+     "key": false
+    },
+    {
+     "w": "religion",
+     "s": 50.21,
+     "e": 50.63,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 50.63
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 50.63,
+     "e": 51.09,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 51.09,
+     "e": 51.37,
+     "key": false
+    },
+    {
+     "w": "Dharma",
+     "s": 51.37,
+     "e": 51.67,
+     "key": false
+    },
+    {
+     "w": "study",
+     "s": 51.67,
+     "e": 52.69,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 52.69,
+     "e": 53.79,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 53.97,
+     "e": 54.33,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 54.33
+  },
+  {
+   "words": [
+    {
+     "w": "too",
+     "s": 54.33,
+     "e": 55.37,
+     "key": false
+    },
+    {
+     "w": "fixed,",
+     "s": 55.37,
+     "e": 55.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.37
+  },
+  {
+   "words": [
+    {
+     "w": "too",
+     "s": 57.35,
+     "e": 57.49,
+     "key": false
+    },
+    {
+     "w": "formulaic,",
+     "s": 57.52,
+     "e": 58.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 58.89
+  },
+  {
+   "words": [
+    {
+     "w": "too",
+     "s": 58.89,
+     "e": 59.17,
+     "key": false
+    },
+    {
+     "w": "rigid,",
+     "s": 59.17,
+     "e": 59.81,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 60.31
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 61.07,
+     "e": 61.19,
+     "key": false
+    },
+    {
+     "w": "too",
+     "s": 61.2,
+     "e": 61.41,
+     "key": false
+    },
+    {
+     "w": "encrusted",
+     "s": 61.41,
+     "e": 62.09,
+     "key": true
+    },
+    {
+     "w": "from",
+     "s": 62.09,
+     "e": 62.67,
+     "key": false
+    },
+    {
+     "w": "use",
+     "s": 62.67,
+     "e": 63.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 63.99
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 63.99,
+     "e": 65.97,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 65.97,
+     "e": 66.15,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 66.24,
+     "e": 66.35,
+     "key": false
+    },
+    {
+     "w": "way.",
+     "s": 66.35,
+     "e": 66.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 67.03
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 67.32,
+     "e": 67.47,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 67.47,
+     "e": 67.59,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 67.59,
+     "e": 67.73,
+     "key": false
+    },
+    {
+     "w": "much",
+     "s": 67.73,
+     "e": 67.89,
+     "key": false
+    },
+    {
+     "w": "more",
+     "s": 67.89,
+     "e": 68.09,
+     "key": false
+    },
+    {
+     "w": "fluid",
+     "s": 68.24,
+     "e": 68.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 68.53
+  },
+  {
+   "words": [
+    {
+     "w": "than",
+     "s": 68.53,
+     "e": 68.83,
+     "key": false
+    },
+    {
+     "w": "that.",
+     "s": 68.83,
+     "e": 69.23,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 69.72
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 69.72,
+     "e": 69.86,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 69.88,
+     "e": 70.06,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 70.08,
+     "e": 70.26,
+     "key": false
+    },
+    {
+     "w": "much",
+     "s": 70.29,
+     "e": 70.44,
+     "key": false
+    },
+    {
+     "w": "more",
+     "s": 70.53,
+     "e": 70.74,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 70.74,
+     "e": 71.3,
+     "key": false
+    },
+    {
+     "w": "nature,",
+     "s": 71.4,
+     "e": 72.04,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 72.32
+  },
+  {
+   "words": [
+    {
+     "w": "like",
+     "s": 72.32,
+     "e": 72.32,
+     "key": false
+    },
+    {
+     "w": "wind,",
+     "s": 72.32,
+     "e": 72.64,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 73.28,
+     "e": 73.3,
+     "key": false
+    },
+    {
+     "w": "know,",
+     "s": 73.3,
+     "e": 73.72,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 73.14
+  },
+  {
+   "words": [
+    {
+     "w": "wind",
+     "s": 74.36,
+     "e": 74.54,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 74.54,
+     "e": 74.74,
+     "key": false
+    },
+    {
+     "w": "move",
+     "s": 74.74,
+     "e": 74.94,
+     "key": false
+    },
+    {
+     "w": "along",
+     "s": 74.94,
+     "e": 75.24,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 75.24,
+     "e": 75.68,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 75.68,
+     "e": 75.84,
+     "key": false
+    },
+    {
+     "w": "direction,",
+     "s": 75.84,
+     "e": 76.3,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 76.3
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 76.3,
+     "e": 76.78,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 76.78,
+     "e": 77.02,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 77.02,
+     "e": 77.16,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 77.16,
+     "e": 77.28,
+     "key": false
+    },
+    {
+     "w": "fixed",
+     "s": 77.33,
+     "e": 77.5,
+     "key": true
+    },
+    {
+     "w": "path,",
+     "s": 77.5,
+     "e": 77.92,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 77.99
+  },
+  {
+   "words": [
+    {
+     "w": "unless",
+     "s": 77.99,
+     "e": 78.2,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 78.2,
+     "e": 78.64,
+     "key": false
+    },
+    {
+     "w": "deliberately",
+     "s": 79.02,
+     "e": 79.48,
+     "key": false
+    },
+    {
+     "w": "try",
+     "s": 79.48,
+     "e": 79.7,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 79.7,
+     "e": 79.8,
+     "key": false
+    },
+    {
+     "w": "manipulate",
+     "s": 79.8,
+     "e": 80.22,
+     "key": true
+    },
+    {
+     "w": "it.",
+     "s": 80.22,
+     "e": 80.73,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 81.23
+  }
+ ],
+ "title": null,
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "caption_y": 0.83,
+ "crop_track": ".work/tao-ch1-fixed-path/crop_track.json"
+}

@@ -7,7 +7,8 @@
 - Mouth clicks and pops in the pauses between words are removed (ffmpeg adeclick), and only there: the words
   themselves are left exactly as recorded (on speech, adeclick also nibbles at consonants, so it is never applied
   inside a word's span).
-- One static gain, set so the true peak lands at -1 dBTP. Nothing else touches the dynamics or tone, so the
+- One static gain, set so the true peak lands at -1.3 dBTP: the AAC encode can add up to ~0.3 dB of overshoot, and
+  the delivered file must stay at or under -1 dBTP. Nothing else touches the dynamics or tone, so the
   voice sounds as it does in the original video, only louder.
 Writes .work/<slug>/program_audio.wav (48 kHz, 24-bit, the source's channel layout) including the end card's silence.
 """
@@ -18,7 +19,7 @@ from common import work_dir, head_source
 
 SR = 48000
 FADE = 0.012
-PEAK_TARGET = -1.0   # dBTP
+PEAK_TARGET = -1.3   # dBTP, so the AAC delivery file lands at or under -1 (the fixed-path Short came out at -0.9)
 WORD_GUARD = 0.04    # keep de-click this far away from every spoken word
 RAMP = 0.01          # crossfade between untouched words and de-clicked pauses
 
