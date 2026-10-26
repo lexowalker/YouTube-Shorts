@@ -1,0 +1,286 @@
+{
+ "slug": "tao-ch1-marble-stadium",
+ "source": {
+  "archive_item": "arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "url": "https://archive.org/details/arredondo-03-27-24-tao-te-ching-chap-1-the-gateway-of-marvels-3-27-2024",
+  "file": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.mp4",
+  "hires": "03-27-24-Tao Te Ching Chap. 1： “The Gateway of Marvels” 3⧸27⧸2024.webm (3840x2160; window 937-1160 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Everything a lifetime takes in through the eyes, ears and thoughts is a marble in a stadium, and outside the stadium is the universe: the evident is a little pathway by a major road, while the real is larger than the universe (Tao Te Ching, Chapter 1, Thomas Cleary translation and notes).",
+ "youtube_title": "Your Whole Life Is a Marble in a Stadium",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   1800.75,
+   1805.9
+  ],
+  [
+   1748.2,
+   1748.65
+  ],
+  [
+   1746.74,
+   1747.75
+  ],
+  [
+   1749.85,
+   1757.3
+  ],
+  [
+   1762.55,
+   1773.75
+  ],
+  [
+   1774.45,
+   1786.25
+  ],
+  [
+   1791.75,
+   1797.35
+  ],
+  [
+   1837.55,
+   1842.0
+  ],
+  [
+   1844.49,
+   1853.85
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 1746.3,
+   "to": 1747.9,
+   "words": [
+    [
+     "If",
+     1746.78,
+     1746.9
+    ],
+    [
+     "we",
+     1746.9,
+     1747.04
+    ],
+    [
+     "take",
+     1747.04,
+     1747.26
+    ],
+    [
+     "a",
+     1747.26,
+     1747.45
+    ]
+   ],
+   "why": "envelope onsets (medium.en starts 'So' at 1746.38 and puts 'a' at 1747.64, inside the 2.5 s hesitation before 'human', which is cut). The clip starts at 1746.74, after a soft 'so'; 0.45 s of his room tone from the cut hesitation (1748.2-1748.65) keeps the pause after 'existence.'"
+  },
+  {
+   "from": 1757.0,
+   "to": 1758.9,
+   "words": [],
+   "why": "a mumbled 'max' (1757.36-1757.56, about 12 dB under his speech; the QA pass doesn't hear it) is cut: the clip ends on 'ping pong ball'"
+  },
+  {
+   "from": 1762.5,
+   "to": 1763.2,
+   "words": [
+    [
+     "This",
+     1762.78,
+     1762.92
+    ],
+    [
+     "is",
+     1762.92,
+     1763.0
+    ],
+    [
+     "how",
+     1763.0,
+     1763.06
+    ],
+    [
+     "many",
+     1763.06,
+     1763.36
+    ]
+   ],
+   "why": "large-v3 hears 'This is how many books'; medium.en drops 'how'. 'attention' before it runs to ~1762.4, so the clip starts at 1762.55"
+  },
+  {
+   "from": 1768.3,
+   "to": 1770.0,
+   "words": [
+    [
+     "you",
+     1768.4,
+     1768.58
+    ],
+    [
+     "can",
+     1768.58,
+     1768.78
+    ],
+    [
+     "you",
+     1768.78,
+     1769.0
+    ],
+    [
+     "can",
+     1769.2,
+     1769.5
+    ],
+    [
+     "experience",
+     1769.6,
+     1770.0
+    ]
+   ],
+   "why": "large-v3 (narrow pass) hears 'you can, you can experience'; the first 'you can' stays in the audio, off the captions"
+  },
+  {
+   "from": 1837.4,
+   "to": 1837.93,
+   "words": [
+    [
+     "The",
+     1837.86,
+     1837.94
+    ]
+   ],
+   "why": "envelope onset 1837.86 (medium.en puts 'The' at 1837.50 in the pause)"
+  }
+ ],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "But we *unnecessarily | restrict ourselves",
+  "to such a small, | puny, little,",
+  "meager *existence.",
+  "If we take | a human *lifetime",
+  "and what it's observed | with its *eyes",
+  "and its *ears | and its thoughts,",
+  "it's like a little | *ping pong ball,",
+  "This is how many | *books you can read,",
+  "how many *courses | you can take,",
+  "how many TV shows | you can *watch,",
+  "how many news items",
+  "~you ~can you can | *experience",
+  "in a lifetime.",
+  "It's not even a | ping pong ball.",
+  "It's like a *marble.",
+  "That's the | first *attention.",
+  "The *second attention | would be the size",
+  "of the largest stadium | that you've ever seen.",
+  "So you have this | little ping pong ball",
+  "or a little marble | in a huge *stadium.",
+  "And then outside | the stadium,",
+  "you have the *universe.",
+  "And now we're talking | about the third *attention.",
+  "The *evident | is an edge of reality,",
+  "like a little pathway | by a major *road.",
+  "So the evident | is like a",
+  "tiny little *pathway.",
+  "But the *real is | the size of the universe.",
+  "Larger than | the *universe,"
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1917.42",
+    "x0": 0.18,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Rodin's Thinker: 'a human lifetime and what it's observed with its eyes and its ears and its thoughts' (the first attention; on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "acc": "1922.225",
+    "x0": 0.32,
+    "y0": 0.03,
+    "h": 0.9,
+    "note": "Piranesi's Colosseum: 'the size of the largest stadium… a little marble in a huge stadium' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "universe.",
+    "after": 39.0
+   },
+   "image": {
+    "acc": "2015.63",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 0.6,
+    "note": "the Nine Luminaries and Seven Stars descending from the night sky: 'outside the stadium, you have the universe… the third attention'"
+   }
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "image": {
+    "acc": "1953.126",
+    "x0": 0.4255,
+    "y0": 0.48,
+    "h": 0.45,
+    "note": "travelers on a little footpath and bridge in the vast scroll: 'like a little pathway by a major road' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "real",
+    "after": 50.0
+   },
+   "image": {
+    "acc": "1953.126",
+    "x0": 0.36,
+    "y0": 0.2,
+    "h": 0.75,
+    "note": "Streams and Mountains without End, slow pan: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
+    "pan": 2400,
+    "zoom": [
+     1.04,
+     1.0
+    ]
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

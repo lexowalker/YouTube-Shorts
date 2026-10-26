@@ -1,0 +1,1461 @@
+{
+ "slug": "tao-ch1-marble-stadium",
+ "segments": [
+  {
+   "src_start": 1800.75,
+   "src_end": 1805.9
+  },
+  {
+   "src_start": 1748.2,
+   "src_end": 1748.65
+  },
+  {
+   "src_start": 1746.74,
+   "src_end": 1747.75
+  },
+  {
+   "src_start": 1749.85,
+   "src_end": 1757.3
+  },
+  {
+   "src_start": 1762.55,
+   "src_end": 1773.75
+  },
+  {
+   "src_start": 1774.45,
+   "src_end": 1786.25
+  },
+  {
+   "src_start": 1791.75,
+   "src_end": 1797.35
+  },
+  {
+   "src_start": 1837.55,
+   "src_end": 1842.0
+  },
+  {
+   "src_start": 1844.49,
+   "src_end": 1853.85
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 4.883
+  },
+  {
+   "kind": "image",
+   "acc": "1917.42",
+   "file": ".work/img/1917.42_full.jpg",
+   "crop": [
+    1060,
+    0,
+    3925,
+    6977
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "Rodin's Thinker: 'a human lifetime and what it's observed with its eyes and its ears and its thoughts' (the first attention; on the join)",
+   "t0": 4.883,
+   "t1": 14.06
+  },
+  {
+   "kind": "head",
+   "t0": 14.06,
+   "t1": 24.993
+  },
+  {
+   "kind": "image",
+   "acc": "1922.225",
+   "file": ".work/img/1922.225_full.jpg",
+   "crop": [
+    2507,
+    166,
+    2809,
+    4993
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "Piranesi's Colosseum: 'the size of the largest stadium… a little marble in a huge stadium' (on the join)",
+   "t0": 24.993,
+   "t1": 37.06
+  },
+  {
+   "kind": "head",
+   "t0": 37.06,
+   "t1": 39.45
+  },
+  {
+   "kind": "image",
+   "acc": "2015.63",
+   "file": ".work/img/2015.63_full.jpg",
+   "crop": [
+    675,
+    0,
+    5400,
+    9600
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "the Nine Luminaries and Seven Stars descending from the night sky: 'outside the stadium, you have the universe… the third attention'",
+   "t0": 39.45,
+   "t1": 42.66
+  },
+  {
+   "kind": "image",
+   "acc": "1953.126",
+   "file": ".work/img/1953.126_full.jpg",
+   "crop": [
+    11946,
+    2081,
+    1097,
+    1951
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "travelers on a little footpath and bridge in the vast scroll: 'like a little pathway by a major road' (on the join)",
+   "t0": 42.66,
+   "t1": 47.11
+  },
+  {
+   "kind": "head",
+   "t0": 47.11,
+   "t1": 51.76
+  },
+  {
+   "kind": "image",
+   "acc": "1953.126",
+   "file": ".work/img/1953.126_full.jpg",
+   "crop": [
+    10107,
+    867,
+    1829,
+    3252
+   ],
+   "pan": 2400,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Streams and Mountains without End, slow pan: 'the real is the size of the universe. Larger than the universe' (under the end-card dissolve)",
+   "t0": 51.76,
+   "t1": 56.47
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 0.35,
+     "e": 0.41,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 0.54,
+     "e": 1.03,
+     "key": false
+    },
+    {
+     "w": "unnecessarily",
+     "s": 1.03,
+     "e": 1.23,
+     "key": true
+    },
+    {
+     "w": "restrict",
+     "s": 2.13,
+     "e": 2.53,
+     "key": false
+    },
+    {
+     "w": "ourselves",
+     "s": 2.56,
+     "e": 2.87,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 2.87
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 2.87,
+     "e": 3.05,
+     "key": false
+    },
+    {
+     "w": "such",
+     "s": 3.05,
+     "e": 3.21,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 3.25,
+     "e": 3.43,
+     "key": false
+    },
+    {
+     "w": "small,",
+     "s": 3.43,
+     "e": 3.75,
+     "key": false
+    },
+    {
+     "w": "puny,",
+     "s": 3.81,
+     "e": 4.17,
+     "key": false
+    },
+    {
+     "w": "little,",
+     "s": 4.25,
+     "e": 4.35,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 4.35
+  },
+  {
+   "words": [
+    {
+     "w": "meager",
+     "s": 4.35,
+     "e": 4.69,
+     "key": false
+    },
+    {
+     "w": "existence.",
+     "s": 4.69,
+     "e": 5.15,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 5.64
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 5.64,
+     "e": 5.76,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 5.76,
+     "e": 5.9,
+     "key": false
+    },
+    {
+     "w": "take",
+     "s": 5.9,
+     "e": 6.12,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 6.12,
+     "e": 6.31,
+     "key": false
+    },
+    {
+     "w": "human",
+     "s": 6.96,
+     "e": 7.26,
+     "key": false
+    },
+    {
+     "w": "lifetime",
+     "s": 7.26,
+     "e": 7.7,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 7.7
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 7.7,
+     "e": 7.96,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 7.96,
+     "e": 8.1,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 8.1,
+     "e": 8.32,
+     "key": false
+    },
+    {
+     "w": "observed",
+     "s": 8.32,
+     "e": 8.76,
+     "key": false
+    },
+    {
+     "w": "with",
+     "s": 8.9,
+     "e": 9.0,
+     "key": false
+    },
+    {
+     "w": "its",
+     "s": 9.0,
+     "e": 9.2,
+     "key": false
+    },
+    {
+     "w": "eyes",
+     "s": 9.28,
+     "e": 9.46,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 9.46
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 9.46,
+     "e": 9.64,
+     "key": false
+    },
+    {
+     "w": "its",
+     "s": 9.64,
+     "e": 9.82,
+     "key": false
+    },
+    {
+     "w": "ears",
+     "s": 9.84,
+     "e": 10.1,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 10.21,
+     "e": 10.3,
+     "key": false
+    },
+    {
+     "w": "its",
+     "s": 10.3,
+     "e": 10.54,
+     "key": false
+    },
+    {
+     "w": "thoughts,",
+     "s": 10.6,
+     "e": 10.88,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 11.06
+  },
+  {
+   "words": [
+    {
+     "w": "it's",
+     "s": 11.06,
+     "e": 11.68,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 11.68,
+     "e": 11.76,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 11.76,
+     "e": 11.92,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 11.92,
+     "e": 12.16,
+     "key": false
+    },
+    {
+     "w": "ping",
+     "s": 12.31,
+     "e": 12.52,
+     "key": true
+    },
+    {
+     "w": "pong",
+     "s": 12.52,
+     "e": 13.18,
+     "key": false
+    },
+    {
+     "w": "ball,",
+     "s": 13.28,
+     "e": 14.06,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 14.29
+  },
+  {
+   "words": [
+    {
+     "w": "This",
+     "s": 14.29,
+     "e": 14.43,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 14.43,
+     "e": 14.51,
+     "key": false
+    },
+    {
+     "w": "how",
+     "s": 14.51,
+     "e": 14.57,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 14.58,
+     "e": 14.87,
+     "key": false
+    },
+    {
+     "w": "books",
+     "s": 14.87,
+     "e": 15.13,
+     "key": true
+    },
+    {
+     "w": "you",
+     "s": 15.19,
+     "e": 15.27,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 15.34,
+     "e": 15.45,
+     "key": false
+    },
+    {
+     "w": "read,",
+     "s": 15.45,
+     "e": 15.67,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 15.83
+  },
+  {
+   "words": [
+    {
+     "w": "how",
+     "s": 15.83,
+     "e": 15.85,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 15.85,
+     "e": 15.99,
+     "key": false
+    },
+    {
+     "w": "courses",
+     "s": 15.99,
+     "e": 16.45,
+     "key": true
+    },
+    {
+     "w": "you",
+     "s": 16.45,
+     "e": 16.67,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 16.67,
+     "e": 16.81,
+     "key": false
+    },
+    {
+     "w": "take,",
+     "s": 16.87,
+     "e": 17.01,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 17.15
+  },
+  {
+   "words": [
+    {
+     "w": "how",
+     "s": 17.15,
+     "e": 17.21,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 17.21,
+     "e": 17.43,
+     "key": false
+    },
+    {
+     "w": "TV",
+     "s": 17.43,
+     "e": 17.67,
+     "key": false
+    },
+    {
+     "w": "shows",
+     "s": 17.67,
+     "e": 17.93,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 17.93,
+     "e": 18.13,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 18.19,
+     "e": 18.31,
+     "key": false
+    },
+    {
+     "w": "watch,",
+     "s": 18.31,
+     "e": 18.55,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 18.61
+  },
+  {
+   "words": [
+    {
+     "w": "how",
+     "s": 18.61,
+     "e": 18.75,
+     "key": false
+    },
+    {
+     "w": "many",
+     "s": 18.75,
+     "e": 19.03,
+     "key": false
+    },
+    {
+     "w": "news",
+     "s": 19.47,
+     "e": 19.79,
+     "key": false
+    },
+    {
+     "w": "items",
+     "s": 19.79,
+     "e": 19.99,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 20.29
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 20.29,
+     "e": 20.51,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 21.0,
+     "e": 21.01,
+     "key": false
+    },
+    {
+     "w": "experience",
+     "s": 21.17,
+     "e": 21.51,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 19.91,
+     "e": 20.09,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 20.09,
+     "e": 20.29,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 21.73
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 21.73,
+     "e": 22.01,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 22.01,
+     "e": 22.15,
+     "key": false
+    },
+    {
+     "w": "lifetime.",
+     "s": 22.15,
+     "e": 22.45,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 22.59
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 22.59,
+     "e": 22.71,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 22.79,
+     "e": 22.93,
+     "key": false
+    },
+    {
+     "w": "even",
+     "s": 22.93,
+     "e": 23.11,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 23.11,
+     "e": 23.31,
+     "key": false
+    },
+    {
+     "w": "ping",
+     "s": 23.31,
+     "e": 23.45,
+     "key": false
+    },
+    {
+     "w": "pong",
+     "s": 23.47,
+     "e": 23.69,
+     "key": false
+    },
+    {
+     "w": "ball.",
+     "s": 23.69,
+     "e": 23.95,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 24.2
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 24.2,
+     "e": 24.45,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 24.5,
+     "e": 24.59,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 24.61,
+     "e": 24.77,
+     "key": false
+    },
+    {
+     "w": "marble.",
+     "s": 24.77,
+     "e": 25.17,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 25.47
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 25.47,
+     "e": 25.77,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 25.77,
+     "e": 25.91,
+     "key": false
+    },
+    {
+     "w": "first",
+     "s": 25.95,
+     "e": 26.13,
+     "key": false
+    },
+    {
+     "w": "attention.",
+     "s": 26.14,
+     "e": 26.61,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 27.11
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 27.41,
+     "e": 27.85,
+     "key": false
+    },
+    {
+     "w": "second",
+     "s": 27.85,
+     "e": 28.11,
+     "key": true
+    },
+    {
+     "w": "attention",
+     "s": 28.11,
+     "e": 28.51,
+     "key": false
+    },
+    {
+     "w": "would",
+     "s": 28.51,
+     "e": 28.67,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 28.67,
+     "e": 28.81,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 28.81,
+     "e": 29.03,
+     "key": false
+    },
+    {
+     "w": "size",
+     "s": 29.03,
+     "e": 29.23,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 29.23
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 29.23,
+     "e": 29.37,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 29.37,
+     "e": 29.57,
+     "key": false
+    },
+    {
+     "w": "largest",
+     "s": 29.57,
+     "e": 29.81,
+     "key": false
+    },
+    {
+     "w": "stadium",
+     "s": 29.81,
+     "e": 30.45,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 30.45,
+     "e": 30.89,
+     "key": false
+    },
+    {
+     "w": "you've",
+     "s": 30.91,
+     "e": 31.05,
+     "key": false
+    },
+    {
+     "w": "ever",
+     "s": 31.05,
+     "e": 31.21,
+     "key": false
+    },
+    {
+     "w": "seen.",
+     "s": 31.21,
+     "e": 31.59,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 32.09
+  },
+  {
+   "words": [
+    {
+     "w": "So",
+     "s": 32.29,
+     "e": 32.31,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 32.31,
+     "e": 32.39,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 32.39,
+     "e": 32.47,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 32.47,
+     "e": 32.59,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 32.6,
+     "e": 32.77,
+     "key": false
+    },
+    {
+     "w": "ping",
+     "s": 32.77,
+     "e": 33.11,
+     "key": false
+    },
+    {
+     "w": "pong",
+     "s": 33.11,
+     "e": 33.35,
+     "key": false
+    },
+    {
+     "w": "ball",
+     "s": 33.35,
+     "e": 33.59,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 33.59
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 33.59,
+     "e": 33.71,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 33.71,
+     "e": 33.85,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 33.85,
+     "e": 33.95,
+     "key": false
+    },
+    {
+     "w": "marble",
+     "s": 33.95,
+     "e": 34.51,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 35.45,
+     "e": 35.89,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 35.89,
+     "e": 36.33,
+     "key": false
+    },
+    {
+     "w": "huge",
+     "s": 36.33,
+     "e": 36.91,
+     "key": false
+    },
+    {
+     "w": "stadium.",
+     "s": 36.91,
+     "e": 37.06,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 37.37
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 37.37,
+     "e": 37.77,
+     "key": false
+    },
+    {
+     "w": "then",
+     "s": 37.77,
+     "e": 37.91,
+     "key": false
+    },
+    {
+     "w": "outside",
+     "s": 37.91,
+     "e": 38.39,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 38.39,
+     "e": 38.59,
+     "key": false
+    },
+    {
+     "w": "stadium,",
+     "s": 38.64,
+     "e": 38.81,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 38.95
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 38.95,
+     "e": 39.03,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 39.03,
+     "e": 39.19,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 39.19,
+     "e": 39.45,
+     "key": false
+    },
+    {
+     "w": "universe.",
+     "s": 39.45,
+     "e": 39.97,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 40.29
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 40.29,
+     "e": 40.39,
+     "key": false
+    },
+    {
+     "w": "now",
+     "s": 40.39,
+     "e": 40.57,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 40.57,
+     "e": 40.71,
+     "key": false
+    },
+    {
+     "w": "talking",
+     "s": 40.75,
+     "e": 40.99,
+     "key": false
+    },
+    {
+     "w": "about",
+     "s": 40.99,
+     "e": 41.35,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 41.62,
+     "e": 41.73,
+     "key": false
+    },
+    {
+     "w": "third",
+     "s": 41.85,
+     "e": 42.07,
+     "key": false
+    },
+    {
+     "w": "attention.",
+     "s": 42.07,
+     "e": 42.61,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 42.97
+  },
+  {
+   "words": [
+    {
+     "w": "The",
+     "s": 42.97,
+     "e": 43.05,
+     "key": false
+    },
+    {
+     "w": "evident",
+     "s": 43.05,
+     "e": 43.43,
+     "key": true
+    },
+    {
+     "w": "is",
+     "s": 43.43,
+     "e": 43.67,
+     "key": false
+    },
+    {
+     "w": "an",
+     "s": 43.67,
+     "e": 43.85,
+     "key": false
+    },
+    {
+     "w": "edge",
+     "s": 43.85,
+     "e": 43.97,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 43.97,
+     "e": 44.15,
+     "key": false
+    },
+    {
+     "w": "reality,",
+     "s": 44.15,
+     "e": 44.55,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 44.79
+  },
+  {
+   "words": [
+    {
+     "w": "like",
+     "s": 44.79,
+     "e": 44.81,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 44.81,
+     "e": 44.99,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 44.99,
+     "e": 45.19,
+     "key": false
+    },
+    {
+     "w": "pathway",
+     "s": 45.19,
+     "e": 45.67,
+     "key": false
+    },
+    {
+     "w": "by",
+     "s": 45.67,
+     "e": 45.95,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 45.95,
+     "e": 46.17,
+     "key": false
+    },
+    {
+     "w": "major",
+     "s": 46.17,
+     "e": 46.43,
+     "key": false
+    },
+    {
+     "w": "road.",
+     "s": 46.43,
+     "e": 46.97,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 47.22
+  },
+  {
+   "words": [
+    {
+     "w": "So",
+     "s": 47.22,
+     "e": 47.28,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 47.28,
+     "e": 47.6,
+     "key": false
+    },
+    {
+     "w": "evident",
+     "s": 47.6,
+     "e": 47.86,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 47.86,
+     "e": 48.06,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 48.13,
+     "e": 48.24,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 48.27,
+     "e": 48.38,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 48.38
+  },
+  {
+   "words": [
+    {
+     "w": "tiny",
+     "s": 48.38,
+     "e": 48.6,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 48.6,
+     "e": 48.84,
+     "key": false
+    },
+    {
+     "w": "pathway.",
+     "s": 48.88,
+     "e": 49.3,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 49.8
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 51.46,
+     "e": 51.56,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 51.56,
+     "e": 51.76,
+     "key": false
+    },
+    {
+     "w": "real",
+     "s": 51.76,
+     "e": 51.98,
+     "key": true
+    },
+    {
+     "w": "is",
+     "s": 51.98,
+     "e": 52.26,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 52.68,
+     "e": 52.78,
+     "key": false
+    },
+    {
+     "w": "size",
+     "s": 52.78,
+     "e": 52.94,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 52.94,
+     "e": 53.06,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 53.06,
+     "e": 53.2,
+     "key": false
+    },
+    {
+     "w": "universe.",
+     "s": 53.2,
+     "e": 53.62,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 54.12
+  },
+  {
+   "words": [
+    {
+     "w": "Larger",
+     "s": 55.27,
+     "e": 55.64,
+     "key": false
+    },
+    {
+     "w": "than",
+     "s": 55.64,
+     "e": 55.82,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 55.82,
+     "e": 55.96,
+     "key": false
+    },
+    {
+     "w": "universe,",
+     "s": 55.96,
+     "e": 56.36,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.86
+  }
+ ],
+ "title": null,
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "caption_y": 0.83,
+ "crop_track": ".work/tao-ch1-marble-stadium/crop_track.json"
+}
