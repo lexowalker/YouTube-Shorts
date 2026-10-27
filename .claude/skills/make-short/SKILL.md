@@ -8,7 +8,7 @@ description: Make a vertical YouTube Short from one of David E. Arredondo's Tao 
 The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch1-passionless-subtle/` is the reference Short: its `short.json` is a complete, working spec to copy from, and its `DELIVERY.md` notes why each image and cut was chosen. (The first Short, `tao-ch4-unimpeded-harmony`, still has an opening title and the older 480p head shots.) Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
 
 ## Deliverables
-1. `shorts/<slug>/<slug>.mp4`, 1080×1920, 60–120 s (aim for 70–90 s). Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
+1. `shorts/<slug>/<slug>.mp4`, 1080×1920, about 90 s (85–95 s; 60–120 s is the hard limit). Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
 2. Ten title suggestions that would grip a general YouTube audience, with one recommended (in chat and in `DELIVERY.md`; see "Titles" in the style guide).
 3. A one-sentence statement of the teaching, with its chapter.
 4. The source timestamps used, in order.
@@ -97,7 +97,7 @@ Check the sheets yourself as well, for bad crops, a face cut off, or an image on
   - every fade from his face into an image plays over him still moving: no frozen frame, and no stray shot of him in between
   - no half-second flashes of him or of a painting, and no image changes the line doesn't need
   - the end card is correct, showing **@DavidEArredondo** and **@davidarredondo**
-- Check that no mode runs over about 12 s (`build_edl.py` warns), the length is 60–120 s, and the true peak is ≤ −1 dBTP.
+- Check that no mode runs over about 12 s (`build_edl.py` warns), the length is about 90 s (never outside 60–120 s), and the true peak is ≤ −1 dBTP.
 - You can't hear the audio. Say so in the delivery and ask the user to listen once.
 
 ## 8. Thumbnails

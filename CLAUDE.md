@@ -4,7 +4,7 @@ This repo turns David E. Arredondo's long-form readings of the Tao Te Ching (Tho
 
 - There are two kinds of Short:
   - **Reading Shorts:** "make a short of the reading of ch N". One chapter read straight through, captioned line by line, in the fixed look of `shorts/tao-ch1-gateway-of-marvels/`. Follow the `reading-short` skill (`.claude/skills/reading-short/SKILL.md`). The style is in `docs/reading-style.md` and the pipeline is `pipeline/reading.py`.
-  - **Teaching Shorts:** one teaching cut from his commentary, with paintings. Follow the `make-short` skill (`.claude/skills/make-short/SKILL.md`). Each comes with two thumbnails and 10 title suggestions.
+  - **Teaching Shorts:** one teaching cut from his commentary, with paintings. Follow the `make-short` skill (`.claude/skills/make-short/SKILL.md`). They run about 90 s. Each comes with two thumbnails and 10 title suggestions.
 - Teaching-Short house style: `docs/style-guide.md`. Change it there, never one Short at a time.
 - Teaching reference Short: `shorts/tao-ch1-passionless-subtle/` (approved after three rounds of the user's notes: 4K head shots, no opening title, every image keyed to its words). Its `short.json` is a complete spec to copy. The first Short, `shorts/tao-ch4-unimpeded-harmony/`, predates those notes.
 - Pipeline: `pipeline/` (run from the repo root with `python3 -I pipeline/<script>.py <slug>`). Intermediates and the museum image cache live in `.work/`, which is git-ignored.

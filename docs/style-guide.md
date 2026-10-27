@@ -3,7 +3,7 @@
 This is the house style for vertical Shorts cut from David E. Arredondo's readings of, and commentary on, Thomas Cleary's translation of the Tao Te Ching. It merges the original hand-off brief with the decisions made on the first Short (`shorts/tao-ch4-unimpeded-harmony`) and the user's notes on the Chapter 1 Discussion 1 Short (`shorts/tao-ch1-passionless-subtle`), which is now the reference for how a finished Short looks and sounds. Change this file when the house style changes, never one Short at a time.
 
 ## Aim
-Capture one main teaching from the video and convey it simply and naturally in 60–120 s. The Taoism here is simple, natural, unadorned and beautiful, so the Short should feel like a breath of fresh air. Nothing is contrived or embellished. Every choice serves the teaching. When in doubt, take something away.
+Capture one main teaching from the video and convey it simply and naturally in about 90 s. The Taoism here is simple, natural, unadorned and beautiful, so the Short should feel like a breath of fresh air. Nothing is contrived or embellished. Every choice serves the teaching. When in doubt, take something away.
 
 ## Format
 - 9:16, 1080×1920, 30 fps, H.264 High (2-pass, about 8 Mbps), AAC 256k at 48 kHz, faststart.
@@ -13,7 +13,7 @@ Capture one main teaching from the video and convey it simply and naturally in 6
 
 ## Structure
 1. Choose the one teaching that best carries the spirit of the video. Read the full transcript first.
-2. Build 60–120 s, aiming for 70–90 s, from the moments that best express it. They can come from anywhere in the video, but the result must read as one clear thought (a hook, a middle and a clean, settled ending) and stay true to what David meant.
+2. Build about 90 s (85–95 s; 60–120 s is the hard limit) from the moments that best express it. They can come from anywhere in the video, but the result must read as one clear thought (a hook, a middle and a clean, settled ending) and stay true to what David meant.
 3. Hook in the first 1–2 s with the most striking, quotable line. A Cleary line read aloud works well as a second beat, opener or closer.
 4. Cut only at natural pauses, never mid-word. Remove ums, false starts and asides ("I hope that wasn't too fast", "I might add", "probably too esoteric").
 5. Pacing should be calm but alive. Alternate talking head and images about every 4–10 s, with roughly a 50–60% head share, and vary shot length. Never hold one mode longer than about 12 s. Leave a beat of silence on a strong image where a line needs to land.
