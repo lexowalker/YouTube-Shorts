@@ -29,7 +29,7 @@ import argparse, json, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source
+from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source, vf
 from render import Composer, Captions, CAP_CENTER_Y, FONT_MED
 from words import Env
 
@@ -38,7 +38,7 @@ VOICE_DB = -42.0  # analysis-WAV level above which he is voicing (room tone sits
 
 
 def grab(src, t, info):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", src, "-frames:v", "1",
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", src, "-frames:v", "1", "-vf", vf(src),
                           "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.uint8).reshape(info["h"], info["w"], 3)
 

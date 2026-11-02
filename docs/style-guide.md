@@ -8,7 +8,7 @@ Capture one main teaching from the video and convey it simply and naturally in a
 ## Format
 - 9:16, 1080×1920, 30 fps, H.264 High (2-pass, about 8 Mbps), AAC 256k at 48 kHz, faststart.
 - Talking head: a full-height 9:16 crop of the landscape source. The crop follows his face with a heavily smoothed track (1.5 s Gaussian), so it drifts gently and never snaps. His face sits in the upper-middle third. The upscale is Lanczos with no sharpening.
-- Cut the head shots from the sharpest copy there is. The archive.org items carry the original 4K upload (a VP9 WebM) next to the 480p MP4, and a full-height 9:16 crop of 480p is only 270 px wide. `pipeline/fetch_hires.py` fetches just the window the Short uses and lines it up with the source audio. Everything else (word timing, face tracking) still runs on the 480p MP4.
+- Cut the head shots from the sharpest copy there is. The archive.org items carry the original 4K upload (a VP9 WebM) next to the 480p MP4, and a full-height 9:16 crop of 480p is only 270 px wide. `pipeline/fetch_hires.py` fetches just the window the Short uses and lines it up with the source audio. Everything else (word timing, face tracking) still runs on the 480p MP4. Some uploads are HDR (HLG/BT.2020, e.g. 3/28/24): every head-shot decode tone-maps them to SDR BT.709 (`common.sdr_filter`), otherwise his face comes out washed out and blanched.
 - Only David's real voice, never re-worded. No AI voice.
 
 ## Structure

@@ -43,10 +43,6 @@
   },
   {
    "src_start": 282.1,
-   "src_end": 290.26
-  },
-  {
-   "src_start": 292.55,
    "src_end": 295.35
   },
   {
@@ -86,39 +82,39 @@
   },
   {
    "kind": "image",
-   "acc": "1916.993",
-   "file": ".work/img/1916.993_full.jpg",
+   "acc": "ext-coin-obverse",
+   "file": ".work/img/ext-coin-obverse_full.jpg",
    "crop": [
-    481,
     0,
-    1224,
-    2176
+    0,
+    2130,
+    3786
    ],
    "pan": 0,
    "zoom": [
-    1.04,
+    1.03,
     1.0
    ],
-   "note": "one silver coin, its first face (Apollo): 'every coin has two sides'",
+   "note": "one silver coin, its first face (Apollo), whole: 'every coin has two sides'",
    "t0": 27.21,
    "t1": 29.31
   },
   {
    "kind": "image",
-   "acc": "1916.993",
-   "file": ".work/img/1916.993_full.jpg",
+   "acc": "ext-coin-reverse",
+   "file": ".work/img/ext-coin-reverse_full.jpg",
    "crop": [
-    2624,
     0,
-    1224,
-    2176
+    0,
+    2146,
+    3816
    ],
    "pan": 0,
    "zoom": [
-    1.04,
+    1.03,
     1.0
    ],
-   "note": "the same coin's other face (the lion): 'One side may be a lot less important than the other' (two crops of one object, cut on the join)",
+   "note": "the same coin's other face (the lion), whole: 'One side may be a lot less important than the other' (cut on the join)",
    "t0": 29.31,
    "t1": 32.03
   },
@@ -129,20 +125,20 @@
   },
   {
    "kind": "image",
-   "acc": "1941.550",
-   "file": ".work/img/1941.550_full.jpg",
+   "acc": "ext-apothecary-cabinet",
+   "file": ".work/img/ext-apothecary-cabinet_full.jpg",
    "crop": [
-    1797,
-    221,
-    2240,
-    3983
+    480,
+    0,
+    2250,
+    4000
    ],
    "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "note": "a pharmacy jar: 'thalidomide, a medication everybody knew was good'",
+   "note": "a 17th-century apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'",
    "t0": 33.77,
    "t1": 37.91
   },
@@ -245,26 +241,7 @@
   {
    "kind": "head",
    "t0": 81.5,
-   "t1": 89.393
-  },
-  {
-   "kind": "image",
-   "acc": "1979.27.1.2",
-   "file": ".work/img/1979.27.1.2_full.jpg",
-   "crop": [
-    749,
-    550,
-    2166,
-    3850
-   ],
-   "pan": 0,
-   "zoom": [
-    1.08,
-    1.0
-   ],
-   "note": "Laozi riding his ox: 'basic wisdom… take this into your life' (on the join that drops 'you know'; under the end-card dissolve)",
-   "t0": 89.393,
-   "t1": 97.42
+   "t1": 99.71
   }
  ],
  "captions": [
@@ -2286,30 +2263,43 @@
      "key": false
     },
     {
-     "w": "just",
+     "w": "just,",
      "s": 89.24,
      "e": 89.64,
      "key": false
     }
    ],
-   "fillers": [],
+   "fillers": [
+    {
+     "w": "you",
+     "s": 89.82,
+     "e": 89.88,
+     "key": false
+    },
+    {
+     "w": "know,",
+     "s": 89.88,
+     "e": 90.48,
+     "key": false
+    }
+   ],
    "lines": [
     3
    ],
-   "t_off": 89.85
+   "t_off": 90.14
   },
   {
    "words": [
     {
      "w": "basic",
-     "s": 89.85,
-     "e": 90.09,
+     "s": 92.14,
+     "e": 92.38,
      "key": false
     },
     {
      "w": "wisdom,",
-     "s": 90.09,
-     "e": 90.69,
+     "s": 92.38,
+     "e": 92.98,
      "key": true
     }
    ],
@@ -2317,20 +2307,20 @@
    "lines": [
     2
    ],
-   "t_off": 90.95
+   "t_off": 93.24
   },
   {
    "words": [
     {
      "w": "basic",
-     "s": 90.95,
-     "e": 91.19,
+     "s": 93.24,
+     "e": 93.48,
      "key": false
     },
     {
      "w": "counsel.",
-     "s": 91.19,
-     "e": 92.15,
+     "s": 93.48,
+     "e": 94.44,
      "key": false
     }
    ],
@@ -2338,38 +2328,38 @@
    "lines": [
     2
    ],
-   "t_off": 92.58
+   "t_off": 94.87
   },
   {
    "words": [
     {
      "w": "Take",
-     "s": 92.58,
-     "e": 93.18,
+     "s": 94.87,
+     "e": 95.47,
      "key": false
     },
     {
      "w": "this",
-     "s": 93.18,
-     "e": 93.52,
+     "s": 95.47,
+     "e": 95.81,
      "key": false
     },
     {
      "w": "into",
-     "s": 93.52,
-     "e": 93.9,
+     "s": 95.81,
+     "e": 96.19,
      "key": false
     },
     {
      "w": "your",
-     "s": 93.9,
-     "e": 94.1,
+     "s": 96.19,
+     "e": 96.39,
      "key": false
     },
     {
      "w": "life",
-     "s": 94.1,
-     "e": 94.34,
+     "s": 96.39,
+     "e": 96.63,
      "key": true
     }
    ],
@@ -2377,38 +2367,38 @@
    "lines": [
     2
    ],
-   "t_off": 94.34
+   "t_off": 96.63
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 94.34,
-     "e": 94.56,
+     "s": 96.63,
+     "e": 96.85,
      "key": false
     },
     {
      "w": "just",
-     "s": 94.56,
-     "e": 94.74,
+     "s": 96.85,
+     "e": 97.03,
      "key": false
     },
     {
      "w": "try",
-     "s": 94.91,
-     "e": 95.02,
+     "s": 97.2,
+     "e": 97.31,
      "key": false
     },
     {
      "w": "and",
-     "s": 95.02,
-     "e": 95.24,
+     "s": 97.31,
+     "e": 97.53,
      "key": false
     },
     {
      "w": "find",
-     "s": 95.24,
-     "e": 95.46,
+     "s": 97.53,
+     "e": 97.75,
      "key": false
     }
    ],
@@ -2416,32 +2406,32 @@
    "lines": [
     3
    ],
-   "t_off": 95.46
+   "t_off": 97.75
   },
   {
    "words": [
     {
      "w": "areas",
-     "s": 95.46,
-     "e": 95.96,
+     "s": 97.75,
+     "e": 98.25,
      "key": false
     },
     {
      "w": "where",
-     "s": 95.96,
-     "e": 96.32,
+     "s": 98.25,
+     "e": 98.61,
      "key": false
     },
     {
      "w": "everyone",
-     "s": 96.32,
-     "e": 96.72,
+     "s": 98.61,
+     "e": 99.01,
      "key": false
     },
     {
      "w": "agrees.",
-     "s": 96.72,
-     "e": 97.2,
+     "s": 99.01,
+     "e": 99.49,
      "key": true
     }
    ],
@@ -2449,7 +2439,7 @@
    "lines": [
     2
    ],
-   "t_off": 97.7
+   "t_off": 99.99
   }
  ],
  "title": null,

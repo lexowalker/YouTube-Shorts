@@ -6,7 +6,7 @@ Layout:
   .work/img/                 museum image cache shared by all Shorts (git-ignored)
   assets/fonts/              EB Garamond static instances (OFL)
 """
-import json, os, subprocess
+import functools, json, os, subprocess
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORK_ROOT = os.environ.get("SHORTS_WORK", os.path.join(REPO, ".work"))
@@ -66,3 +66,22 @@ def source_info(path):
 
 def image_path(acc):
     return os.path.join(IMG_DIR, f"{acc}_full.jpg")
+
+
+@functools.lru_cache(None)
+def sdr_filter(path):
+    """ffmpeg filter chain that tone-maps an HDR source (HLG or PQ, e.g. the 3/28/24 upload) to SDR BT.709.
+
+    Without it, ffmpeg hands the BT.2020/HLG pixels over as if they were BT.709, and his face comes out washed out
+    and blanched. Returns '' for an SDR source, so older Shorts render exactly as before."""
+    trc = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
+                          "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip().strip(",")
+    if trc not in ("arib-std-b67", "smpte2084"):
+        return ""
+    return (f"zscale=tin={trc}:min=bt2020nc:pin=bt2020:rin=tv:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,"
+            "tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
+
+
+def vf(path, *filters):
+    """Join video filters for decoding `path`, ending with its HDR-to-SDR tone map if it needs one."""
+    return ",".join(f for f in (*filters, sdr_filter(path)) if f) or "null"

@@ -4,7 +4,7 @@
   "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
-  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 155-345 s via pipeline/fetch_hires.py)"
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 155-345 s via pipeline/fetch_hires.py); HDR (HLG/BT.2020), tone-mapped to SDR BT.709 on decode (common.sdr_filter)"
  },
  "teaching": "When everyone knows beauty is beauty, this is bad; when everyone knows good is good, this is not good: when everyone agrees something is good, something is being overlooked, so question what the herd takes for granted (Tao Te Ching, Chapter 2, Thomas Cleary translation).",
  "youtube_title": "When Everyone Agrees, Something Is Being Overlooked",
@@ -52,10 +52,6 @@
   ],
   [
    282.1,
-   290.26
-  ],
-  [
-   292.55,
    295.35
   ],
   [
@@ -308,7 +304,7 @@
   "then you need | to think more",
   "about what | might be",
   "the *downsides.",
-  "This is just",
+  "This is just, ~you ~know,",
   "basic *wisdom,",
   "basic counsel.",
   "Take this | into your *life",
@@ -344,15 +340,15 @@
     "after": 25
    },
    "image": {
-    "acc": "1916.993",
-    "x0": 0.11,
+    "acc": "ext-coin-obverse",
+    "x0": 0.0,
     "y0": 0.0,
     "h": 1.0,
     "zoom": [
-     1.04,
+     1.03,
      1.0
     ],
-    "note": "one silver coin, its first face (Apollo): 'every coin has two sides'"
+    "note": "one silver coin, its first face (Apollo), whole: 'every coin has two sides'"
    }
   },
   {
@@ -360,15 +356,15 @@
     "seg": 4
    },
    "image": {
-    "acc": "1916.993",
-    "x0": 0.6,
+    "acc": "ext-coin-reverse",
+    "x0": 0.0,
     "y0": 0.0,
     "h": 1.0,
     "zoom": [
-     1.04,
+     1.03,
      1.0
     ],
-    "note": "the same coin's other face (the lion): 'One side may be a lot less important than the other' (two crops of one object, cut on the join)"
+    "note": "the same coin's other face (the lion), whole: 'One side may be a lot less important than the other' (cut on the join)"
    }
   },
   {
@@ -384,11 +380,11 @@
     "after": 32
    },
    "image": {
-    "acc": "1941.550",
-    "x0": 0.37,
-    "y0": 0.05,
-    "h": 0.9,
-    "note": "a pharmacy jar: 'thalidomide, a medication everybody knew was good'"
+    "acc": "ext-apothecary-cabinet",
+    "x0": 0.15,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "a 17th-century apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'"
    }
   },
   {
@@ -472,18 +468,6 @@
     "seg": 10
    },
    "head": true
-  },
-  {
-   "at": {
-    "seg": 11
-   },
-   "image": {
-    "acc": "1979.27.1.2",
-    "x0": 0.15,
-    "y0": 0.1,
-    "h": 0.7,
-    "note": "Laozi riding his ox: 'basic wisdom… take this into your life' (on the join that drops 'you know'; under the end-card dissolve)"
-   }
   }
  ],
  "endcard": {

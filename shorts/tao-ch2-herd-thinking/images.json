@@ -20,54 +20,54 @@
  {
   "short_start_s": 27.21,
   "short_end_s": 29.31,
-  "accession": "1916.993",
-  "title": "Tetradrachm: Head of Apollo (obverse); Lion (reverse)",
-  "artist": "Unknown, Greek, minted at Miletos (Ionia)",
+  "accession": "ext-coin-obverse",
+  "title": "Tetradrachm: Head of Apollo (obverse)",
+  "artist": "Greek, minted at Miletos (Ionia)",
   "date": "c. 334–323 BCE",
-  "license": "CC0",
+  "license": "CC0 (Cleveland Museum of Art 1916.993; the whole coin placed on a 9:16 field of the photo's own background)",
   "source_page": "https://clevelandart.org/art/1916.993",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1916.993/1916.993_full.tif",
+  "image_file_url": "https://clevelandart.org/art/1916.993",
   "crop_xywh_px": [
-   481,
    0,
-   1224,
-   2176
+   0,
+   2130,
+   3786
   ],
-  "motion": "zoom-out 1.04x→1.00x, linear"
+  "motion": "zoom-out 1.03x→1.00x, linear"
  },
  {
   "short_start_s": 29.31,
   "short_end_s": 32.03,
-  "accession": "1916.993",
-  "title": "Tetradrachm: Head of Apollo (obverse); Lion (reverse)",
-  "artist": "Unknown, Greek, minted at Miletos (Ionia)",
+  "accession": "ext-coin-reverse",
+  "title": "Tetradrachm: Lion (reverse)",
+  "artist": "Greek, minted at Miletos (Ionia)",
   "date": "c. 334–323 BCE",
-  "license": "CC0",
+  "license": "CC0 (Cleveland Museum of Art 1916.993; the whole coin placed on a 9:16 field of the photo's own background)",
   "source_page": "https://clevelandart.org/art/1916.993",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1916.993/1916.993_full.tif",
+  "image_file_url": "https://clevelandart.org/art/1916.993",
   "crop_xywh_px": [
-   2624,
    0,
-   1224,
-   2176
+   0,
+   2146,
+   3816
   ],
-  "motion": "zoom-out 1.04x→1.00x, linear"
+  "motion": "zoom-out 1.03x→1.00x, linear"
  },
  {
   "short_start_s": 33.77,
   "short_end_s": 37.91,
-  "accession": "1941.550",
-  "title": "Pharmacy Jar (Albarello)",
-  "artist": "Unknown, Italy, Florentine region, Cafaggiolo",
-  "date": "c. 1475–80",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1941.550",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1941.550/1941.550_full.tif",
+  "accession": "ext-apothecary-cabinet",
+  "title": "Apothecary Cabinet",
+  "artist": "Nicolaus I Kolb (German, master 1582–1621)",
+  "date": "1617–18",
+  "license": "Public domain (The Metropolitan Museum of Art Open Access, 2019.229.1a–c–.32a, b)",
+  "source_page": "https://www.metmuseum.org/art/collection/search/823123",
+  "image_file_url": "https://www.metmuseum.org/art/collection/search/823123",
   "crop_xywh_px": [
-   1797,
-   221,
-   2240,
-   3983
+   480,
+   0,
+   2250,
+   4000
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  },
@@ -140,24 +140,6 @@
    1973,
    5203,
    9249
-  ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
- },
- {
-  "short_start_s": 89.393,
-  "short_end_s": 97.42,
-  "accession": "1979.27.1.2",
-  "title": "Paintings after Ancient Masters: Laozi Riding an Ox",
-  "artist": "Chen Hongshou (Chinese, 1598/99–1652)",
-  "date": "1598–1652",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1979.27.1.2",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1979.27.1.2/1979.27.1.2_full.tif",
-  "crop_xywh_px": [
-   749,
-   550,
-   2166,
-   3850
   ],
   "motion": "zoom-out 1.08x→1.00x, linear"
  }

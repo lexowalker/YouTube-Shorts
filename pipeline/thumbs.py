@@ -13,11 +13,11 @@ import argparse, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FONT_SEMI, FONT_MED, OFFWHITE, INK, CINNABAR, work_dir, short_dir, source_path, source_info, head_source
+from common import W, H, FONT_SEMI, FONT_MED, OFFWHITE, INK, CINNABAR, work_dir, short_dir, source_path, source_info, head_source, vf
 
 
 def grab(src, t, info):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t}", "-i", src, "-frames:v", "1", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t}", "-i", src, "-frames:v", "1", "-vf", vf(src), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                          capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.uint8).reshape(info["h"], info["w"], 3)
 
@@ -26,7 +26,7 @@ def faces(slug, step, top):
     import cv2
     src, info = source_path(slug), source_info(source_path(slug))
     sw, sh = info["w"], info["h"]
-    p = subprocess.Popen(["ffmpeg", "-v", "error", "-i", src, "-vf", f"fps=1/{step}", "-f", "rawvideo", "-pix_fmt", "bgr24", "-"],
+    p = subprocess.Popen(["ffmpeg", "-v", "error", "-i", src, "-vf", vf(src, f"fps=1/{step}"), "-f", "rawvideo", "-pix_fmt", "bgr24", "-"],
                          stdout=subprocess.PIPE)
     face = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     eyes = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye_tree_eyeglasses.xml")
