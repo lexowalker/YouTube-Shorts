@@ -1,0 +1,622 @@
+{
+ "slug": "tao-ch2-chasing-success",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 735-924 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Do not dwell on success, and by this very nondwelling success will not leave: do your work, do your best and keep going; obsess over success (money and fame) and you cannot see clearly, just as trying to be happy is a recipe for misery (Tao Te Ching, Chapter 2, Thomas Cleary translation).",
+ "youtube_title": "The More You Chase Success, the Less You See",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   815.84,
+   819.62
+  ],
+  [
+   823.25,
+   824.7
+  ],
+  [
+   826.45,
+   829.62
+  ],
+  [
+   740.7,
+   756.05
+  ],
+  [
+   830.45,
+   838.1
+  ],
+  [
+   839.55,
+   845.06
+  ],
+  [
+   846.6,
+   865.18
+  ],
+  [
+   886.44,
+   891.6
+  ],
+  [
+   893.3,
+   920.05
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 815.5,
+   "to": 819.7,
+   "words": [
+    [
+     "If",
+     815.88,
+     815.98
+    ],
+    [
+     "all",
+     816.28,
+     816.42
+    ],
+    [
+     "you're",
+     816.62,
+     816.9
+    ],
+    [
+     "focused",
+     816.94,
+     817.06
+    ],
+    [
+     "on",
+     817.1,
+     817.22
+    ],
+    [
+     "is",
+     817.26,
+     817.4
+    ],
+    [
+     "success,",
+     817.48,
+     817.8
+    ],
+    [
+     "success,",
+     817.84,
+     818.12
+    ],
+    [
+     "success,",
+     818.16,
+     818.48
+    ],
+    [
+     "success,",
+     818.52,
+     818.84
+    ],
+    [
+     "success,",
+     818.9,
+     819.5
+    ]
+   ],
+   "why": "'So, so, so, if all you're focused on is success' x5: each 'so' is a sibilant then a voiced burst (815.12, 815.36/815.40, 815.54/815.64); 'if' is the weak burst at 815.88-815.98, so the hook starts in the dip at 815.84. The five 'success' pairs (soft 'suc', loud 'cess') read off the envelope at 817.48/.70, 817.84/818.02, 818.16/.34, 818.52/.72, 818.90 with its hiss to 819.5; the fifth is very soft (large-v3 on the source hears it, the QA pass and large-v3 on the assembled audio do not), so it stays in the audio and off the captions"
+  },
+  {
+   "from": 819.7,
+   "to": 823.5,
+   "words": [
+    [
+     "you're",
+     823.4,
+     823.6
+    ]
+   ],
+   "why": "medium.en put 'you're' at 819.86 in the cut 'success, success, sorry'; the voice rises at 823.40"
+  },
+  {
+   "from": 739.5,
+   "to": 740.95,
+   "words": [
+    [
+     "All",
+     740.86,
+     740.98
+    ]
+   ],
+   "why": "envelope rise at 740.86 (whisper 740.38, p 0.35)"
+  },
+  {
+   "from": 829.2,
+   "to": 832.0,
+   "words": [
+    [
+     "So",
+     830.64,
+     830.74
+    ],
+    [
+     "you",
+     830.74,
+     830.86
+    ],
+    [
+     "just",
+     831.04,
+     831.16
+    ],
+    [
+     "do",
+     831.18,
+     831.3
+    ],
+    [
+     "your",
+     831.4,
+     831.52
+    ],
+    [
+     "work,",
+     831.52,
+     831.8
+    ]
+   ],
+   "why": "medium.en put 'So' at 829.50 in the pause; large-v3 on the stretch alone hears 'So you just do your work' from the rise at 830.64"
+  },
+  {
+   "from": 838.0,
+   "to": 842.1,
+   "words": [
+    [
+     "and",
+     839.66,
+     839.92
+    ],
+    [
+     "just",
+     840.42,
+     840.52
+    ],
+    [
+     "keep",
+     840.58,
+     840.74
+    ],
+    [
+     "going,",
+     840.76,
+     840.92
+    ],
+    [
+     "and",
+     841.34,
+     841.48
+    ],
+    [
+     "and",
+     841.56,
+     841.7
+    ],
+    [
+     "don't",
+     841.74,
+     841.94
+    ]
+   ],
+   "why": "the 'and' after 'or to others' is soft and comes 1.8 s later (839.66; medium and large-v3 both hear it there), so the pause is cut before it, not after it; large-v3: 'keep going, and, and don't'"
+  },
+  {
+   "from": 886.0,
+   "to": 887.2,
+   "words": [
+    [
+     "We'll",
+     886.46,
+     886.58
+    ],
+    [
+     "do",
+     886.6,
+     886.74
+    ],
+    [
+     "our",
+     886.76,
+     886.86
+    ],
+    [
+     "best.",
+     886.88,
+     887.2
+    ]
+   ],
+   "why": "large-v3: 'can, like, we'll do our best'; the segment starts after 'like' (dip at 886.36-886.44)"
+  },
+  {
+   "from": 893.2,
+   "to": 894.7,
+   "words": [
+    [
+     "But",
+     893.44,
+     893.6
+    ],
+    [
+     "we",
+     893.7,
+     893.86
+    ],
+    [
+     "don't,",
+     893.88,
+     894.04
+    ],
+    [
+     "like,",
+     894.06,
+     894.2
+    ],
+    [
+     "become",
+     894.24,
+     894.56
+    ],
+    [
+     "obsessed",
+     894.58,
+     895.06
+    ]
+   ],
+   "why": "large-v3: 'but we don't, like, become obsessed'; onsets off the envelope"
+  },
+  {
+   "from": 913.4,
+   "to": 914.0,
+   "words": [
+    [
+     "It's",
+     913.56,
+     913.62
+    ],
+    [
+     "like",
+     913.62,
+     913.7
+    ],
+    [
+     "someone",
+     913.72,
+     914.06
+    ]
+   ],
+   "why": "large-v3: 'It's like someone' (medium.en dropped 'like')"
+  },
+  {
+   "from": 827.1,
+   "to": 828.1,
+   "words": [
+    [
+     "and",
+     827.84,
+     828.06
+    ]
+   ],
+   "why": "soft 'and' just before 'you're' (QA pass and envelope); medium.en put it in the pause at 827.24"
+  },
+  {
+   "from": 747.1,
+   "to": 748.2,
+   "words": [
+    [
+     "and",
+     748.0,
+     748.1
+    ]
+   ],
+   "why": "'and' rises at 748.00 just before 'do' (QA pass); medium.en had 747.24 in the tail of 'presumption'"
+  },
+  {
+   "from": 890.3,
+   "to": 891.0,
+   "words": [
+    [
+     "That's",
+     890.44,
+     890.6
+    ],
+    [
+     "all.",
+     890.72,
+     891.0
+    ]
+   ],
+   "why": "'That's' after 'going' (890.36-890.48), 'all' 890.72; large-v3 and the QA pass both put 'That's' before 890.76"
+  },
+  {
+   "from": 900.3,
+   "to": 901.0,
+   "words": [
+    [
+     "I",
+     900.46,
+     900.54
+    ],
+    [
+     "mean,",
+     900.54,
+     900.72
+    ]
+   ],
+   "why": "medium.en and large-v3 hear 'I mean' in the one burst at 900.44-900.70 (the QA pass misses it)"
+  },
+  {
+   "from": 915.9,
+   "to": 916.7,
+   "words": [
+    [
+     "a",
+     916.08,
+     916.2
+    ],
+    [
+     "guaranteed",
+     916.32,
+     916.96
+    ]
+   ],
+   "why": "QA pass: 'a' at 916.15; envelope bursts 916.08 'a', 916.32 'guaran-'"
+  }
+ ],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "If all | you're focused on",
+  "is *success, | success,",
+  "success, | success, ~success,",
+  "you're going | to be",
+  "*obsessed, | and you're not",
+  "going to be | able to see",
+  "as *clearly.",
+  "All beings work | without *exception.",
+  "If they live | without *possessiveness,",
+  "act without | *presumption,",
+  "and do not | dwell on *success,",
+  "then by this | very *nondwelling",
+  "success | will not *leave.",
+  "So you just | do your *work,",
+  "do your *best,",
+  "try not to | make *assumptions,",
+  "don't *lie | to yourself",
+  "or to others,",
+  "and just | keep *going,",
+  "~and ~and don't | be *preoccupied",
+  "with this abstract | *construct.",
+  "In America, | these days,",
+  "*success is | measured",
+  "almost entirely | in terms of",
+  "*money | and fame,",
+  "which is *crazy, | insanity,",
+  "because money | brings no *peace,",
+  "and fame | even less so.",
+  "I'm talking about | large amounts",
+  "of *money.",
+  "We'll do | our *best.",
+  "If it works, | it works.",
+  "If it doesn't, | it doesn't.",
+  "And then we | just keep *going.",
+  "That's all.",
+  "But we don't, ~like, | become *obsessed",
+  "with this | word success.",
+  "What does it | mean *anyway?",
+  "I mean, | in my world,",
+  "it means *peace.",
+  "It means *harmony.",
+  "It means joy, | constant *joy.",
+  "But if you're | totally *obsessed",
+  "with getting that,",
+  "you'll *never | get it.",
+  "It's like someone | who tries",
+  "to be *happy.",
+  "That's a | *guaranteed recipe",
+  "for being | *unhappy",
+  "or *miserable."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "ext-avarice",
+    "x0": 0.15,
+    "y0": 0.02,
+    "h": 0.55,
+    "note": "Avarice, blindfolded, clutching her purse: 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1977.5",
+    "x0": 0.6105,
+    "y0": 0.11,
+    "h": 0.8,
+    "pan": 800,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Liang Kai's Sericulture, a household at work tending the silkworms (slow pan): 'All beings work without exception' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "If",
+    "after": 9
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "then",
+    "after": 15
+   },
+   "image": {
+    "acc": "1977.5",
+    "x0": 0.9024,
+    "y0": 0.11,
+    "h": 0.8,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "the same scroll, one man bent over his work at the table: 'by this very nondwelling success will not leave… you just do your work, do your best' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "try",
+    "after": 20
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "acc": "1967.244",
+    "x0": 0.3,
+    "y0": 0.22,
+    "h": 0.6,
+    "note": "a barefoot ascetic walking on along the river: 'and just keep going' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "don't",
+    "after": 31
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "ext-prince",
+    "x0": 0.29,
+    "y0": 0.265,
+    "h": 0.55,
+    "note": "a jewelled prince of Bikaner, wealth and rank: 'success is measured… in terms of money and fame' (toned darker so the captions read; on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "which",
+    "after": 40
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "money",
+    "after": 45
+   },
+   "image": {
+    "acc": "ext-miser",
+    "x0": 0.18,
+    "y0": 0.12,
+    "h": 0.62,
+    "pan": 900,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so'"
+   }
+  },
+  {
+   "at": {
+    "word": "I'm",
+    "after": 50
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "image": {
+    "acc": "1970.77",
+    "x0": 0.12,
+    "y0": 0.42,
+    "h": 0.42,
+    "note": "Buson's farmer walking home with his sheaf, the ox below: 'we'll do our best… and then we just keep going. That's all' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "peace.",
+    "after": 65
+   },
+   "image": {
+    "acc": "1978.66",
+    "x0": 0.42,
+    "y0": 0.25,
+    "h": 0.65,
+    "note": "Zhao Mengfu's quiet river village: 'peace… harmony… joy, constant joy'"
+   }
+  },
+  {
+   "at": {
+    "word": "But",
+    "after": 72
+   },
+   "image": {
+    "acc": "ext-gibbons",
+    "x0": 0.0,
+    "y0": 0.607,
+    "h": 0.36,
+    "zoom": [
+     1.06,
+     1.03
+    ],
+    "note": "gibbons hanging in a chain, the lowest reaching down for the moon's reflection below (toned darker so the captions read): 'if you're totally obsessed with getting that, you'll never get it'"
+   }
+  },
+  {
+   "at": {
+    "word": "It's",
+    "after": 78
+   },
+   "head": true
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

@@ -1,0 +1,164 @@
+[
+ {
+  "short_start_s": 3.513,
+  "short_end_s": 8.4,
+  "accession": "ext-avarice",
+  "title": "The Seven Vices: Avarice",
+  "artist": "Hans Burgkmair (German, 1473–1531)",
+  "date": "c. 1510",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1923.239",
+  "image_file_url": "https://clevelandart.org/art/1923.239",
+  "crop_xywh_px": [
+   321,
+   78,
+   1212,
+   2155
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 8.4,
+  "short_end_s": 10.64,
+  "accession": "1977.5",
+  "title": "Sericulture (The Process of Making Silk)",
+  "artist": "Liang Kai (Chinese, mid-1100s–early 1200s)",
+  "date": "early 1200s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1977.5",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1977.5/1977.5_full.tif",
+  "crop_xywh_px": [
+   15736,
+   249,
+   1020,
+   1813
+  ],
+  "motion": "horizontal pan 800 px, zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 20.5,
+  "short_end_s": 27.84,
+  "accession": "1977.5",
+  "title": "Sericulture (The Process of Making Silk)",
+  "artist": "Liang Kai (Chinese, mid-1100s–early 1200s)",
+  "date": "early 1200s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1977.5",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1977.5/1977.5_full.tif",
+  "crop_xywh_px": [
+   23260,
+   249,
+   1020,
+   1813
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 31.133,
+  "short_end_s": 33.59,
+  "accession": "1967.244",
+  "title": "Jain Ascetic Walking Along a Riverbank",
+  "artist": "Basavana (Indian, active c. 1560–1600)",
+  "date": "c. 1600",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1967.244",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1967.244/1967.244_full.tif",
+  "crop_xywh_px": [
+   1355,
+   1360,
+   2086,
+   3709
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 36.643,
+  "short_end_s": 45.03,
+  "accession": "ext-prince",
+  "title": "Portrait of Prince Sur Singh Rathor of Bikaner (1594–1631)",
+  "artist": "India, Rajasthan, Rajput kingdom of Bikaner",
+  "date": "1611–13",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2018.188",
+  "image_file_url": "https://clevelandart.org/art/2018.188",
+  "crop_xywh_px": [
+   1564,
+   2172,
+   2536,
+   4508
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ },
+ {
+  "short_start_s": 47.17,
+  "short_end_s": 53.91,
+  "accession": "ext-miser",
+  "title": "Dance of Death: The Miser",
+  "artist": "Hans Holbein the Younger (German, 1497/98–1543)",
+  "date": "c. 1526",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1929.161",
+  "image_file_url": "https://clevelandart.org/art/1929.161",
+  "crop_xywh_px": [
+   539,
+   508,
+   1477,
+   2626
+  ],
+  "motion": "horizontal pan 900 px, zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 55.223,
+  "short_end_s": 60.65,
+  "accession": "1970.77",
+  "title": "Farmer Returning Home in Autumn",
+  "artist": "Yosa Buson (Japanese, 1716–1783)",
+  "date": "1781",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1970.77",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1970.77/1970.77_full.tif",
+  "crop_xywh_px": [
+   528,
+   5053,
+   2842,
+   5053
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 70.6,
+  "short_end_s": 75.73,
+  "accession": "1978.66",
+  "title": "River Village:  Fisherman's Joy",
+  "artist": "Zhao Mengfu (Chinese, 1254–1322)",
+  "date": "c. 1302–3",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1978.66",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1978.66/1978.66_full.tif",
+  "crop_xywh_px": [
+   2735,
+   1560,
+   2282,
+   4056
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 75.73,
+  "short_end_s": 80.91,
+  "accession": "ext-gibbons",
+  "title": "Gibbons Reaching for the Moon",
+  "artist": "Kano Tan'yū (Japanese, 1602–1674)",
+  "date": "1600s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2015.478",
+  "image_file_url": "https://clevelandart.org/art/2015.478",
+  "crop_xywh_px": [
+   0,
+   4784,
+   1596,
+   2837
+  ],
+  "motion": "zoom-out 1.06x→1.03x, linear"
+ }
+]

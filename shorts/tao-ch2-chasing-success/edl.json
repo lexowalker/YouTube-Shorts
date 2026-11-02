@@ -1,0 +1,1958 @@
+{
+ "slug": "tao-ch2-chasing-success",
+ "segments": [
+  {
+   "src_start": 815.84,
+   "src_end": 819.62
+  },
+  {
+   "src_start": 823.25,
+   "src_end": 824.7
+  },
+  {
+   "src_start": 826.45,
+   "src_end": 829.62
+  },
+  {
+   "src_start": 740.7,
+   "src_end": 756.05
+  },
+  {
+   "src_start": 830.45,
+   "src_end": 838.1
+  },
+  {
+   "src_start": 839.55,
+   "src_end": 845.06
+  },
+  {
+   "src_start": 846.6,
+   "src_end": 865.18
+  },
+  {
+   "src_start": 886.44,
+   "src_end": 891.6
+  },
+  {
+   "src_start": 893.3,
+   "src_end": 920.05
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 3.513
+  },
+  {
+   "kind": "image",
+   "acc": "ext-avarice",
+   "file": ".work/img/ext-avarice_full.jpg",
+   "crop": [
+    321,
+    78,
+    1212,
+    2155
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Avarice, blindfolded, clutching her purse: 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)",
+   "t0": 3.513,
+   "t1": 8.4
+  },
+  {
+   "kind": "image",
+   "acc": "1977.5",
+   "file": ".work/img/1977.5_full.jpg",
+   "crop": [
+    15736,
+    249,
+    1020,
+    1813
+   ],
+   "pan": 800,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Liang Kai's Sericulture, a household at work tending the silkworms (slow pan): 'All beings work without exception' (on the join)",
+   "t0": 8.4,
+   "t1": 10.64
+  },
+  {
+   "kind": "head",
+   "t0": 10.64,
+   "t1": 20.5
+  },
+  {
+   "kind": "image",
+   "acc": "1977.5",
+   "file": ".work/img/1977.5_full.jpg",
+   "crop": [
+    23260,
+    249,
+    1020,
+    1813
+   ],
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "the same scroll, one man bent over his work at the table: 'by this very nondwelling success will not leave… you just do your work, do your best' (covers the join)",
+   "t0": 20.5,
+   "t1": 27.84
+  },
+  {
+   "kind": "head",
+   "t0": 27.84,
+   "t1": 31.133
+  },
+  {
+   "kind": "image",
+   "acc": "1967.244",
+   "file": ".work/img/1967.244_full.jpg",
+   "crop": [
+    1355,
+    1360,
+    2086,
+    3709
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "a barefoot ascetic walking on along the river: 'and just keep going' (on the join)",
+   "t0": 31.133,
+   "t1": 33.59
+  },
+  {
+   "kind": "head",
+   "t0": 33.59,
+   "t1": 36.643
+  },
+  {
+   "kind": "image",
+   "acc": "ext-prince",
+   "file": ".work/img/ext-prince_full.jpg",
+   "crop": [
+    1564,
+    2172,
+    2536,
+    4508
+   ],
+   "pan": 0,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "note": "a jewelled prince of Bikaner, wealth and rank: 'success is measured… in terms of money and fame' (toned darker so the captions read; on the join)",
+   "t0": 36.643,
+   "t1": 45.03
+  },
+  {
+   "kind": "head",
+   "t0": 45.03,
+   "t1": 47.17
+  },
+  {
+   "kind": "image",
+   "acc": "ext-miser",
+   "file": ".work/img/ext-miser_full.jpg",
+   "crop": [
+    539,
+    508,
+    1477,
+    2626
+   ],
+   "pan": 900,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so'",
+   "t0": 47.17,
+   "t1": 53.91
+  },
+  {
+   "kind": "head",
+   "t0": 53.91,
+   "t1": 55.223
+  },
+  {
+   "kind": "image",
+   "acc": "1970.77",
+   "file": ".work/img/1970.77_full.jpg",
+   "crop": [
+    528,
+    5053,
+    2842,
+    5053
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Buson's farmer walking home with his sheaf, the ox below: 'we'll do our best… and then we just keep going. That's all' (on the join)",
+   "t0": 55.223,
+   "t1": 60.65
+  },
+  {
+   "kind": "head",
+   "t0": 60.65,
+   "t1": 70.6
+  },
+  {
+   "kind": "image",
+   "acc": "1978.66",
+   "file": ".work/img/1978.66_full.jpg",
+   "crop": [
+    2735,
+    1560,
+    2282,
+    4056
+   ],
+   "pan": 0,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "note": "Zhao Mengfu's quiet river village: 'peace… harmony… joy, constant joy'",
+   "t0": 70.6,
+   "t1": 75.73
+  },
+  {
+   "kind": "image",
+   "acc": "ext-gibbons",
+   "file": ".work/img/ext-gibbons_full.jpg",
+   "crop": [
+    0,
+    4784,
+    1596,
+    2837
+   ],
+   "pan": 0,
+   "zoom": [
+    1.06,
+    1.03
+   ],
+   "note": "gibbons hanging in a chain, the lowest reaching down for the moon's reflection below (toned darker so the captions read): 'if you're totally obsessed with getting that, you'll never get it'",
+   "t0": 75.73,
+   "t1": 80.91
+  },
+  {
+   "kind": "head",
+   "t0": 80.91,
+   "t1": 87.4
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 0.08,
+     "e": 0.14,
+     "key": false
+    },
+    {
+     "w": "all",
+     "s": 0.46,
+     "e": 0.58,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 0.78,
+     "e": 1.06,
+     "key": false
+    },
+    {
+     "w": "focused",
+     "s": 1.13,
+     "e": 1.22,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 1.26,
+     "e": 1.38,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 1.42
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 1.42,
+     "e": 1.56,
+     "key": false
+    },
+    {
+     "w": "success,",
+     "s": 1.64,
+     "e": 1.96,
+     "key": true
+    },
+    {
+     "w": "success,",
+     "s": 2.0,
+     "e": 2.28,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 2.32
+  },
+  {
+   "words": [
+    {
+     "w": "success,",
+     "s": 2.32,
+     "e": 2.64,
+     "key": false
+    },
+    {
+     "w": "success,",
+     "s": 2.71,
+     "e": 3.0,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "success,",
+     "s": 3.06,
+     "e": 3.66,
+     "key": false
+    }
+   ],
+   "lines": [
+    1
+   ],
+   "t_off": 3.5
+  },
+  {
+   "words": [
+    {
+     "w": "you're",
+     "s": 3.95,
+     "e": 4.13,
+     "key": false
+    },
+    {
+     "w": "going",
+     "s": 4.15,
+     "e": 4.29,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 4.29,
+     "e": 4.79,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 4.79,
+     "e": 5.23,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 5.5
+  },
+  {
+   "words": [
+    {
+     "w": "obsessed,",
+     "s": 5.5,
+     "e": 6.02,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 6.83,
+     "e": 6.84,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 7.02,
+     "e": 7.14,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 7.14,
+     "e": 7.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 7.2
+  },
+  {
+   "words": [
+    {
+     "w": "going",
+     "s": 7.2,
+     "e": 7.32,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 7.32,
+     "e": 7.34,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 7.34,
+     "e": 7.34,
+     "key": false
+    },
+    {
+     "w": "able",
+     "s": 7.34,
+     "e": 7.46,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 7.46,
+     "e": 7.64,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 7.64,
+     "e": 7.76,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 7.76
+  },
+  {
+   "words": [
+    {
+     "w": "as",
+     "s": 7.76,
+     "e": 7.92,
+     "key": false
+    },
+    {
+     "w": "clearly.",
+     "s": 8.05,
+     "e": 8.3,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 8.58
+  },
+  {
+   "words": [
+    {
+     "w": "All",
+     "s": 8.58,
+     "e": 8.68,
+     "key": false
+    },
+    {
+     "w": "beings",
+     "s": 8.68,
+     "e": 9.0,
+     "key": false
+    },
+    {
+     "w": "work",
+     "s": 9.0,
+     "e": 9.24,
+     "key": false
+    },
+    {
+     "w": "without",
+     "s": 9.24,
+     "e": 9.5,
+     "key": false
+    },
+    {
+     "w": "exception.",
+     "s": 9.5,
+     "e": 10.04,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 10.54
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 10.64,
+     "e": 10.76,
+     "key": false
+    },
+    {
+     "w": "they",
+     "s": 10.83,
+     "e": 10.94,
+     "key": false
+    },
+    {
+     "w": "live",
+     "s": 10.94,
+     "e": 11.18,
+     "key": false
+    },
+    {
+     "w": "without",
+     "s": 11.18,
+     "e": 11.5,
+     "key": false
+    },
+    {
+     "w": "possessiveness,",
+     "s": 11.5,
+     "e": 12.46,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 12.96
+  },
+  {
+   "words": [
+    {
+     "w": "act",
+     "s": 13.78,
+     "e": 13.96,
+     "key": false
+    },
+    {
+     "w": "without",
+     "s": 14.03,
+     "e": 14.26,
+     "key": false
+    },
+    {
+     "w": "presumption,",
+     "s": 14.26,
+     "e": 14.94,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 15.44
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 15.76,
+     "e": 15.8,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 15.92,
+     "e": 16.08,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 16.08,
+     "e": 16.28,
+     "key": false
+    },
+    {
+     "w": "dwell",
+     "s": 16.28,
+     "e": 16.58,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 16.58,
+     "e": 16.96,
+     "key": false
+    },
+    {
+     "w": "success,",
+     "s": 17.18,
+     "e": 17.96,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 18.46
+  },
+  {
+   "words": [
+    {
+     "w": "then",
+     "s": 20.5,
+     "e": 20.54,
+     "key": false
+    },
+    {
+     "w": "by",
+     "s": 20.54,
+     "e": 20.7,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 20.7,
+     "e": 21.2,
+     "key": false
+    },
+    {
+     "w": "very",
+     "s": 21.2,
+     "e": 21.5,
+     "key": false
+    },
+    {
+     "w": "nondwelling",
+     "s": 21.5,
+     "e": 22.26,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 22.26
+  },
+  {
+   "words": [
+    {
+     "w": "success",
+     "s": 22.26,
+     "e": 22.54,
+     "key": false
+    },
+    {
+     "w": "will",
+     "s": 22.54,
+     "e": 22.8,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 22.8,
+     "e": 23.02,
+     "key": false
+    },
+    {
+     "w": "leave.",
+     "s": 23.1,
+     "e": 23.46,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 23.94
+  },
+  {
+   "words": [
+    {
+     "w": "So",
+     "s": 23.94,
+     "e": 24.04,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 24.04,
+     "e": 24.16,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 24.36,
+     "e": 24.46,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 24.48,
+     "e": 24.6,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 24.72,
+     "e": 24.82,
+     "key": false
+    },
+    {
+     "w": "work,",
+     "s": 24.82,
+     "e": 25.1,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 25.6
+  },
+  {
+   "words": [
+    {
+     "w": "do",
+     "s": 26.57,
+     "e": 26.7,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 26.7,
+     "e": 26.86,
+     "key": false
+    },
+    {
+     "w": "best,",
+     "s": 26.86,
+     "e": 27.26,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 27.76
+  },
+  {
+   "words": [
+    {
+     "w": "try",
+     "s": 27.84,
+     "e": 27.94,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 27.94,
+     "e": 28.1,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 28.1,
+     "e": 28.22,
+     "key": false
+    },
+    {
+     "w": "make",
+     "s": 28.22,
+     "e": 28.34,
+     "key": false
+    },
+    {
+     "w": "assumptions,",
+     "s": 28.34,
+     "e": 28.92,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 29.42
+  },
+  {
+   "words": [
+    {
+     "w": "don't",
+     "s": 29.56,
+     "e": 29.74,
+     "key": false
+    },
+    {
+     "w": "lie",
+     "s": 29.74,
+     "e": 29.94,
+     "key": true
+    },
+    {
+     "w": "to",
+     "s": 29.94,
+     "e": 30.1,
+     "key": false
+    },
+    {
+     "w": "yourself",
+     "s": 30.1,
+     "e": 30.5,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 30.63
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 30.63,
+     "e": 30.72,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 30.72,
+     "e": 30.84,
+     "key": false
+    },
+    {
+     "w": "others,",
+     "s": 30.91,
+     "e": 31.24,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 31.57
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 31.57,
+     "e": 31.77,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 32.27,
+     "e": 32.37,
+     "key": false
+    },
+    {
+     "w": "keep",
+     "s": 32.45,
+     "e": 32.59,
+     "key": false
+    },
+    {
+     "w": "going,",
+     "s": 32.61,
+     "e": 32.77,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 33.27
+  },
+  {
+   "words": [
+    {
+     "w": "don't",
+     "s": 33.59,
+     "e": 33.79,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 34.32,
+     "e": 34.69,
+     "key": false
+    },
+    {
+     "w": "preoccupied",
+     "s": 34.69,
+     "e": 35.27,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "and",
+     "s": 33.19,
+     "e": 33.33,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 33.41,
+     "e": 33.55,
+     "key": false
+    }
+   ],
+   "lines": [
+    1
+   ],
+   "t_off": 35.27
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 35.27,
+     "e": 35.47,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 35.47,
+     "e": 35.65,
+     "key": false
+    },
+    {
+     "w": "abstract",
+     "s": 35.65,
+     "e": 36.15,
+     "key": false
+    },
+    {
+     "w": "construct.",
+     "s": 36.15,
+     "e": 36.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 37.25
+  },
+  {
+   "words": [
+    {
+     "w": "In",
+     "s": 37.25,
+     "e": 37.89,
+     "key": false
+    },
+    {
+     "w": "America,",
+     "s": 37.89,
+     "e": 38.35,
+     "key": false
+    },
+    {
+     "w": "these",
+     "s": 38.51,
+     "e": 38.61,
+     "key": false
+    },
+    {
+     "w": "days,",
+     "s": 38.61,
+     "e": 38.89,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 39.26
+  },
+  {
+   "words": [
+    {
+     "w": "success",
+     "s": 39.26,
+     "e": 39.33,
+     "key": true
+    },
+    {
+     "w": "is",
+     "s": 39.33,
+     "e": 39.59,
+     "key": false
+    },
+    {
+     "w": "measured",
+     "s": 39.59,
+     "e": 40.47,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 40.47
+  },
+  {
+   "words": [
+    {
+     "w": "almost",
+     "s": 40.47,
+     "e": 40.83,
+     "key": false
+    },
+    {
+     "w": "entirely",
+     "s": 40.83,
+     "e": 41.43,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 41.43,
+     "e": 41.69,
+     "key": false
+    },
+    {
+     "w": "terms",
+     "s": 41.74,
+     "e": 41.87,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 41.87,
+     "e": 42.15,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 42.15
+  },
+  {
+   "words": [
+    {
+     "w": "money",
+     "s": 42.15,
+     "e": 42.39,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 42.39,
+     "e": 42.71,
+     "key": false
+    },
+    {
+     "w": "fame,",
+     "s": 42.85,
+     "e": 43.15,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 43.65
+  },
+  {
+   "words": [
+    {
+     "w": "which",
+     "s": 45.03,
+     "e": 45.19,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 45.19,
+     "e": 45.37,
+     "key": false
+    },
+    {
+     "w": "crazy,",
+     "s": 45.43,
+     "e": 45.79,
+     "key": true
+    },
+    {
+     "w": "insanity,",
+     "s": 46.01,
+     "e": 46.61,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 46.65
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 46.65,
+     "e": 47.17,
+     "key": false
+    },
+    {
+     "w": "money",
+     "s": 47.17,
+     "e": 47.87,
+     "key": false
+    },
+    {
+     "w": "brings",
+     "s": 47.87,
+     "e": 48.43,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 48.43,
+     "e": 48.79,
+     "key": false
+    },
+    {
+     "w": "peace,",
+     "s": 48.79,
+     "e": 49.89,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 49.89
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 49.89,
+     "e": 51.99,
+     "key": false
+    },
+    {
+     "w": "fame",
+     "s": 51.99,
+     "e": 52.33,
+     "key": false
+    },
+    {
+     "w": "even",
+     "s": 52.33,
+     "e": 52.71,
+     "key": false
+    },
+    {
+     "w": "less",
+     "s": 52.71,
+     "e": 52.95,
+     "key": false
+    },
+    {
+     "w": "so.",
+     "s": 52.95,
+     "e": 53.33,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 53.83
+  },
+  {
+   "words": [
+    {
+     "w": "I'm",
+     "s": 53.91,
+     "e": 54.13,
+     "key": false
+    },
+    {
+     "w": "talking",
+     "s": 54.13,
+     "e": 54.25,
+     "key": false
+    },
+    {
+     "w": "about",
+     "s": 54.25,
+     "e": 54.41,
+     "key": false
+    },
+    {
+     "w": "large",
+     "s": 54.41,
+     "e": 54.65,
+     "key": false
+    },
+    {
+     "w": "amounts",
+     "s": 54.67,
+     "e": 54.91,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 54.98
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 54.98,
+     "e": 55.09,
+     "key": false
+    },
+    {
+     "w": "money.",
+     "s": 55.09,
+     "e": 55.37,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 55.51
+  },
+  {
+   "words": [
+    {
+     "w": "We'll",
+     "s": 55.51,
+     "e": 55.63,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 55.65,
+     "e": 55.79,
+     "key": false
+    },
+    {
+     "w": "our",
+     "s": 55.81,
+     "e": 55.91,
+     "key": false
+    },
+    {
+     "w": "best.",
+     "s": 55.93,
+     "e": 56.25,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.52
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 56.52,
+     "e": 56.61,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 56.62,
+     "e": 56.75,
+     "key": false
+    },
+    {
+     "w": "works,",
+     "s": 56.75,
+     "e": 56.95,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 57.03,
+     "e": 57.15,
+     "key": false
+    },
+    {
+     "w": "works.",
+     "s": 57.15,
+     "e": 57.41,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 57.41
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 57.41,
+     "e": 57.63,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 57.63,
+     "e": 57.79,
+     "key": false
+    },
+    {
+     "w": "doesn't,",
+     "s": 57.79,
+     "e": 58.03,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 58.05,
+     "e": 58.17,
+     "key": false
+    },
+    {
+     "w": "doesn't.",
+     "s": 58.17,
+     "e": 58.51,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 58.62
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 58.62,
+     "e": 58.71,
+     "key": false
+    },
+    {
+     "w": "then",
+     "s": 58.71,
+     "e": 58.81,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 58.81,
+     "e": 58.89,
+     "key": false
+    },
+    {
+     "w": "just",
+     "s": 58.89,
+     "e": 59.07,
+     "key": false
+    },
+    {
+     "w": "keep",
+     "s": 59.13,
+     "e": 59.25,
+     "key": false
+    },
+    {
+     "w": "going.",
+     "s": 59.25,
+     "e": 59.57,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 59.49
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 59.49,
+     "e": 59.65,
+     "key": false
+    },
+    {
+     "w": "all.",
+     "s": 59.77,
+     "e": 60.05,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 60.55
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 60.82,
+     "e": 60.95,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 61.05,
+     "e": 61.21,
+     "key": false
+    },
+    {
+     "w": "don't,",
+     "s": 61.23,
+     "e": 61.39,
+     "key": false
+    },
+    {
+     "w": "become",
+     "s": 61.59,
+     "e": 61.91,
+     "key": false
+    },
+    {
+     "w": "obsessed",
+     "s": 61.93,
+     "e": 62.41,
+     "key": true
+    }
+   ],
+   "fillers": [
+    {
+     "w": "like,",
+     "s": 61.41,
+     "e": 61.55,
+     "key": false
+    }
+   ],
+   "lines": [
+    3
+   ],
+   "t_off": 62.45
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 62.45,
+     "e": 62.67,
+     "key": false
+    },
+    {
+     "w": "this",
+     "s": 62.67,
+     "e": 62.81,
+     "key": false
+    },
+    {
+     "w": "word",
+     "s": 62.85,
+     "e": 63.11,
+     "key": false
+    },
+    {
+     "w": "success.",
+     "s": 63.11,
+     "e": 63.67,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 64.17
+  },
+  {
+   "words": [
+    {
+     "w": "What",
+     "s": 65.34,
+     "e": 65.61,
+     "key": false
+    },
+    {
+     "w": "does",
+     "s": 65.61,
+     "e": 65.73,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 65.73,
+     "e": 65.81,
+     "key": false
+    },
+    {
+     "w": "mean",
+     "s": 65.81,
+     "e": 65.97,
+     "key": false
+    },
+    {
+     "w": "anyway?",
+     "s": 65.97,
+     "e": 66.43,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 66.93
+  },
+  {
+   "words": [
+    {
+     "w": "I",
+     "s": 67.81,
+     "e": 67.89,
+     "key": false
+    },
+    {
+     "w": "mean,",
+     "s": 67.89,
+     "e": 68.07,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 69.33,
+     "e": 69.57,
+     "key": false
+    },
+    {
+     "w": "my",
+     "s": 69.57,
+     "e": 69.85,
+     "key": false
+    },
+    {
+     "w": "world,",
+     "s": 69.85,
+     "e": 70.19,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 70.25
+  },
+  {
+   "words": [
+    {
+     "w": "it",
+     "s": 70.25,
+     "e": 70.35,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 70.35,
+     "e": 70.59,
+     "key": false
+    },
+    {
+     "w": "peace.",
+     "s": 70.6,
+     "e": 71.01,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 71.51
+  },
+  {
+   "words": [
+    {
+     "w": "It",
+     "s": 71.8,
+     "e": 71.89,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 71.89,
+     "e": 72.07,
+     "key": false
+    },
+    {
+     "w": "harmony.",
+     "s": 72.18,
+     "e": 72.53,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 72.79
+  },
+  {
+   "words": [
+    {
+     "w": "It",
+     "s": 72.79,
+     "e": 72.79,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 72.79,
+     "e": 73.21,
+     "key": false
+    },
+    {
+     "w": "joy,",
+     "s": 73.21,
+     "e": 73.93,
+     "key": false
+    },
+    {
+     "w": "constant",
+     "s": 74.29,
+     "e": 74.51,
+     "key": false
+    },
+    {
+     "w": "joy.",
+     "s": 74.51,
+     "e": 74.99,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 75.49
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 75.73,
+     "e": 76.21,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 76.21,
+     "e": 76.33,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 76.34,
+     "e": 76.55,
+     "key": false
+    },
+    {
+     "w": "totally",
+     "s": 76.59,
+     "e": 76.91,
+     "key": false
+    },
+    {
+     "w": "obsessed",
+     "s": 76.91,
+     "e": 77.57,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 77.57
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 77.57,
+     "e": 78.19,
+     "key": false
+    },
+    {
+     "w": "getting",
+     "s": 78.19,
+     "e": 79.17,
+     "key": false
+    },
+    {
+     "w": "that,",
+     "s": 79.17,
+     "e": 79.55,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 80.03
+  },
+  {
+   "words": [
+    {
+     "w": "you'll",
+     "s": 80.03,
+     "e": 80.33,
+     "key": false
+    },
+    {
+     "w": "never",
+     "s": 80.33,
+     "e": 80.47,
+     "key": true
+    },
+    {
+     "w": "get",
+     "s": 80.47,
+     "e": 80.67,
+     "key": false
+    },
+    {
+     "w": "it.",
+     "s": 80.67,
+     "e": 80.79,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 80.91
+  },
+  {
+   "words": [
+    {
+     "w": "It's",
+     "s": 80.91,
+     "e": 80.97,
+     "key": false
+    },
+    {
+     "w": "like",
+     "s": 80.97,
+     "e": 81.05,
+     "key": false
+    },
+    {
+     "w": "someone",
+     "s": 81.07,
+     "e": 81.41,
+     "key": false
+    },
+    {
+     "w": "who",
+     "s": 81.45,
+     "e": 81.63,
+     "key": false
+    },
+    {
+     "w": "tries",
+     "s": 81.71,
+     "e": 82.05,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 82.05
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 82.05,
+     "e": 82.31,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 82.31,
+     "e": 82.49,
+     "key": false
+    },
+    {
+     "w": "happy.",
+     "s": 82.49,
+     "e": 82.83,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 83.25
+  },
+  {
+   "words": [
+    {
+     "w": "That's",
+     "s": 83.25,
+     "e": 83.93,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 83.44,
+     "e": 83.55,
+     "key": false
+    },
+    {
+     "w": "guaranteed",
+     "s": 83.67,
+     "e": 84.31,
+     "key": true
+    },
+    {
+     "w": "recipe",
+     "s": 84.37,
+     "e": 84.81,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 84.81
+  },
+  {
+   "words": [
+    {
+     "w": "for",
+     "s": 84.81,
+     "e": 85.05,
+     "key": false
+    },
+    {
+     "w": "being",
+     "s": 85.05,
+     "e": 85.35,
+     "key": false
+    },
+    {
+     "w": "unhappy",
+     "s": 85.4,
+     "e": 86.29,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 86.29
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 86.29,
+     "e": 86.91,
+     "key": false
+    },
+    {
+     "w": "miserable.",
+     "s": 86.91,
+     "e": 87.33,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 87.83
+  }
+ ],
+ "title": null,
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "caption_y": 0.83,
+ "crop_track": ".work/tao-ch2-chasing-success/crop_track.json"
+}
