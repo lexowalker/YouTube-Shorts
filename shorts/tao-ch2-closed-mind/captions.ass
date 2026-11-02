@@ -1,0 +1,317 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Inter,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
+Style: Title,Inter,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,5,70,70,0,1
+Style: Src,Inter,40,&H00D8D8D8,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,0,5,70,70,0,1
+Style: End,Inter,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,5,80,80,0,1
+Style: EndSm,Inter,48,&H00E0E0E0,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:00.24,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}So,{\c&HFFFFFF&}
+Dialogue: 1,0:00:00.24,0:00:00.34,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}you{\c&HFFFFFF&} can be
+Dialogue: 1,0:00:00.34,0:00:00.44,Cap,,0,0,0,,{\pos(540,1520)}you {\c&H3CD7FF&}can{\c&HFFFFFF&} be
+Dialogue: 1,0:00:00.44,0:00:00.54,Cap,,0,0,0,,{\pos(540,1520)}you can {\c&H3CD7FF&}be{\c&HFFFFFF&}
+Dialogue: 1,0:00:00.54,0:00:00.84,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}bigoted{\c&HFFFFFF&} on the
+Dialogue: 1,0:00:00.84,0:00:01.04,Cap,,0,0,0,,{\pos(540,1520)}bigoted {\c&H3CD7FF&}on{\c&HFFFFFF&} the
+Dialogue: 1,0:00:01.04,0:00:01.14,Cap,,0,0,0,,{\pos(540,1520)}bigoted on {\c&H3CD7FF&}the{\c&HFFFFFF&}
+Dialogue: 1,0:00:01.14,0:00:01.38,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}right,{\c&HFFFFFF&}
+Dialogue: 1,0:00:01.38,0:00:01.56,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}you{\c&HFFFFFF&} can be
+Dialogue: 1,0:00:01.56,0:00:01.66,Cap,,0,0,0,,{\pos(540,1520)}you {\c&H3CD7FF&}can{\c&HFFFFFF&} be
+Dialogue: 1,0:00:01.66,0:00:01.78,Cap,,0,0,0,,{\pos(540,1520)}you can {\c&H3CD7FF&}be{\c&HFFFFFF&}
+Dialogue: 1,0:00:01.78,0:00:02.04,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}bigoted{\c&HFFFFFF&} on the
+Dialogue: 1,0:00:02.04,0:00:02.18,Cap,,0,0,0,,{\pos(540,1520)}bigoted {\c&H3CD7FF&}on{\c&HFFFFFF&} the
+Dialogue: 1,0:00:02.18,0:00:02.32,Cap,,0,0,0,,{\pos(540,1520)}bigoted on {\c&H3CD7FF&}the{\c&HFFFFFF&}
+Dialogue: 1,0:00:02.32,0:00:02.58,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}left,{\c&HFFFFFF&}
+Dialogue: 1,0:00:02.58,0:00:02.80,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} you can
+Dialogue: 1,0:00:02.80,0:00:02.88,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}you{\c&HFFFFFF&} can
+Dialogue: 1,0:00:02.88,0:00:02.98,Cap,,0,0,0,,{\pos(540,1520)}and you {\c&H3CD7FF&}can{\c&HFFFFFF&}
+Dialogue: 1,0:00:02.98,0:00:03.10,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}be{\c&HFFFFFF&} bigoted in
+Dialogue: 1,0:00:03.10,0:00:03.40,Cap,,0,0,0,,{\pos(540,1520)}be {\c&H3CD7FF&}bigoted{\c&HFFFFFF&} in
+Dialogue: 1,0:00:03.40,0:00:03.56,Cap,,0,0,0,,{\pos(540,1520)}be bigoted {\c&H3CD7FF&}in{\c&HFFFFFF&}
+Dialogue: 1,0:00:03.56,0:00:03.68,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}the{\c&HFFFFFF&} center.
+Dialogue: 1,0:00:03.68,0:00:04.17,Cap,,0,0,0,,{\pos(540,1520)}the {\c&H3CD7FF&}center.{\c&HFFFFFF&}
+Dialogue: 1,0:00:04.48,0:00:04.76,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}When{\c&HFFFFFF&} it is
+Dialogue: 1,0:00:04.76,0:00:04.90,Cap,,0,0,0,,{\pos(540,1520)}When {\c&H3CD7FF&}it{\c&HFFFFFF&} is
+Dialogue: 1,0:00:04.90,0:00:05.04,Cap,,0,0,0,,{\pos(540,1520)}When it {\c&H3CD7FF&}is{\c&HFFFFFF&}
+Dialogue: 1,0:00:05.04,0:00:05.40,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}forgotten{\c&HFFFFFF&} that conventional
+Dialogue: 1,0:00:05.40,0:00:05.72,Cap,,0,0,0,,{\pos(540,1520)}forgotten {\c&H3CD7FF&}that{\c&HFFFFFF&} conventional
+Dialogue: 1,0:00:05.72,0:00:06.24,Cap,,0,0,0,,{\pos(540,1520)}forgotten that {\c&H3CD7FF&}conventional{\c&HFFFFFF&}
+Dialogue: 1,0:00:06.24,0:00:07.96,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}conceptions{\c&HFFFFFF&} are conventional
+Dialogue: 1,0:00:07.96,0:00:08.62,Cap,,0,0,0,,{\pos(540,1520)}conceptions {\c&H3CD7FF&}are{\c&HFFFFFF&} conventional
+Dialogue: 1,0:00:08.62,0:00:09.26,Cap,,0,0,0,,{\pos(540,1520)}conceptions are {\c&H3CD7FF&}conventional{\c&HFFFFFF&}
+Dialogue: 1,0:00:09.26,0:00:10.00,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}conceptions,{\c&HFFFFFF&}
+Dialogue: 1,0:00:10.00,0:00:10.84,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} they are
+Dialogue: 1,0:00:10.84,0:00:10.96,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}they{\c&HFFFFFF&} are
+Dialogue: 1,0:00:10.96,0:00:11.08,Cap,,0,0,0,,{\pos(540,1520)}and they {\c&H3CD7FF&}are{\c&HFFFFFF&}
+Dialogue: 1,0:00:11.08,0:00:11.28,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}taken{\c&HFFFFFF&} for objective
+Dialogue: 1,0:00:11.28,0:00:11.54,Cap,,0,0,0,,{\pos(540,1520)}taken {\c&H3CD7FF&}for{\c&HFFFFFF&} objective
+Dialogue: 1,0:00:11.54,0:00:11.90,Cap,,0,0,0,,{\pos(540,1520)}taken for {\c&H3CD7FF&}objective{\c&HFFFFFF&}
+Dialogue: 1,0:00:11.90,0:00:12.38,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}facts{\c&HFFFFFF&} that everyone
+Dialogue: 1,0:00:12.38,0:00:12.82,Cap,,0,0,0,,{\pos(540,1520)}facts {\c&H3CD7FF&}that{\c&HFFFFFF&} everyone
+Dialogue: 1,0:00:12.82,0:00:13.32,Cap,,0,0,0,,{\pos(540,1520)}facts that {\c&H3CD7FF&}everyone{\c&HFFFFFF&}
+Dialogue: 1,0:00:13.32,0:00:13.74,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}knows{\c&HFFFFFF&} and no
+Dialogue: 1,0:00:13.74,0:00:14.08,Cap,,0,0,0,,{\pos(540,1520)}knows {\c&H3CD7FF&}and{\c&HFFFFFF&} no
+Dialogue: 1,0:00:14.08,0:00:14.24,Cap,,0,0,0,,{\pos(540,1520)}knows and {\c&H3CD7FF&}no{\c&HFFFFFF&}
+Dialogue: 1,0:00:14.24,0:00:14.40,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}one{\c&HFFFFFF&} questions,
+Dialogue: 1,0:00:14.40,0:00:14.97,Cap,,0,0,0,,{\pos(540,1520)}one {\c&H3CD7FF&}questions,{\c&HFFFFFF&}
+Dialogue: 1,0:00:15.42,0:00:15.50,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}then{\c&HFFFFFF&} narrow-minded bigotry
+Dialogue: 1,0:00:15.50,0:00:16.08,Cap,,0,0,0,,{\pos(540,1520)}then {\c&H3CD7FF&}narrow-minded{\c&HFFFFFF&} bigotry
+Dialogue: 1,0:00:16.08,0:00:16.56,Cap,,0,0,0,,{\pos(540,1520)}then narrow-minded {\c&H3CD7FF&}bigotry{\c&HFFFFFF&}
+Dialogue: 1,0:00:16.56,0:00:17.06,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} blind prejudice
+Dialogue: 1,0:00:17.06,0:00:17.32,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}blind{\c&HFFFFFF&} prejudice
+Dialogue: 1,0:00:17.32,0:00:17.82,Cap,,0,0,0,,{\pos(540,1520)}and blind {\c&H3CD7FF&}prejudice{\c&HFFFFFF&}
+Dialogue: 1,0:00:17.82,0:00:18.18,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}can{\c&HFFFFFF&} develop unopposed.
+Dialogue: 1,0:00:18.18,0:00:18.54,Cap,,0,0,0,,{\pos(540,1520)}can {\c&H3CD7FF&}develop{\c&HFFFFFF&} unopposed.
+Dialogue: 1,0:00:18.54,0:00:19.10,Cap,,0,0,0,,{\pos(540,1520)}can develop {\c&H3CD7FF&}unopposed.{\c&HFFFFFF&}
+Dialogue: 1,0:00:19.10,0:00:19.80,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}That{\c&HFFFFFF&} arrogance,
+Dialogue: 1,0:00:19.80,0:00:20.28,Cap,,0,0,0,,{\pos(540,1520)}That {\c&H3CD7FF&}arrogance,{\c&HFFFFFF&}
+Dialogue: 1,0:00:20.28,0:00:20.77,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}that{\c&HFFFFFF&}
+Dialogue: 1,0:00:21.30,0:00:22.06,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}prejudice,{\c&HFFFFFF&}
+Dialogue: 1,0:00:22.06,0:00:22.72,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}that{\c&HFFFFFF&} bias,
+Dialogue: 1,0:00:22.72,0:00:23.18,Cap,,0,0,0,,{\pos(540,1520)}that {\c&H3CD7FF&}bias,{\c&HFFFFFF&}
+Dialogue: 1,0:00:23.18,0:00:24.00,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} bigotry means
+Dialogue: 1,0:00:24.00,0:00:24.46,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}bigotry{\c&HFFFFFF&} means
+Dialogue: 1,0:00:24.46,0:00:24.84,Cap,,0,0,0,,{\pos(540,1520)}and bigotry {\c&H3CD7FF&}means{\c&HFFFFFF&}
+Dialogue: 1,0:00:24.84,0:00:25.26,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}having{\c&HFFFFFF&} a closed
+Dialogue: 1,0:00:25.26,0:00:25.42,Cap,,0,0,0,,{\pos(540,1520)}having {\c&H3CD7FF&}a{\c&HFFFFFF&} closed
+Dialogue: 1,0:00:25.42,0:00:25.66,Cap,,0,0,0,,{\pos(540,1520)}having a {\c&H3CD7FF&}closed{\c&HFFFFFF&}
+Dialogue: 1,0:00:25.66,0:00:26.19,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}mind{\c&HFFFFFF&}
+Dialogue: 1,0:00:26.82,0:00:27.20,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}it{\c&HFFFFFF&} also means
+Dialogue: 1,0:00:27.20,0:00:27.38,Cap,,0,0,0,,{\pos(540,1520)}it {\c&H3CD7FF&}also{\c&HFFFFFF&} means
+Dialogue: 1,0:00:27.38,0:00:27.64,Cap,,0,0,0,,{\pos(540,1520)}it also {\c&H3CD7FF&}means{\c&HFFFFFF&}
+Dialogue: 1,0:00:27.64,0:00:27.94,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}whatever{\c&HFFFFFF&} you think,
+Dialogue: 1,0:00:27.94,0:00:28.20,Cap,,0,0,0,,{\pos(540,1520)}whatever {\c&H3CD7FF&}you{\c&HFFFFFF&} think,
+Dialogue: 1,0:00:28.20,0:00:28.61,Cap,,0,0,0,,{\pos(540,1520)}whatever you {\c&H3CD7FF&}think,{\c&HFFFFFF&}
+Dialogue: 1,0:00:28.96,0:00:29.28,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}exactly{\c&HFFFFFF&} what you
+Dialogue: 1,0:00:29.28,0:00:29.46,Cap,,0,0,0,,{\pos(540,1520)}exactly {\c&H3CD7FF&}what{\c&HFFFFFF&} you
+Dialogue: 1,0:00:29.46,0:00:29.56,Cap,,0,0,0,,{\pos(540,1520)}exactly what {\c&H3CD7FF&}you{\c&HFFFFFF&}
+Dialogue: 1,0:00:29.56,0:00:29.74,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}think{\c&HFFFFFF&} it means,
+Dialogue: 1,0:00:29.74,0:00:29.86,Cap,,0,0,0,,{\pos(540,1520)}think {\c&H3CD7FF&}it{\c&HFFFFFF&} means,
+Dialogue: 1,0:00:29.86,0:00:30.04,Cap,,0,0,0,,{\pos(540,1520)}think it {\c&H3CD7FF&}means,{\c&HFFFFFF&}
+Dialogue: 1,0:00:30.04,0:00:30.20,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}but{\c&HFFFFFF&} it also
+Dialogue: 1,0:00:30.20,0:00:30.28,Cap,,0,0,0,,{\pos(540,1520)}but {\c&H3CD7FF&}it{\c&HFFFFFF&} also
+Dialogue: 1,0:00:30.28,0:00:30.42,Cap,,0,0,0,,{\pos(540,1520)}but it {\c&H3CD7FF&}also{\c&HFFFFFF&}
+Dialogue: 1,0:00:30.42,0:00:30.64,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}means{\c&HFFFFFF&} just having
+Dialogue: 1,0:00:30.64,0:00:30.90,Cap,,0,0,0,,{\pos(540,1520)}means {\c&H3CD7FF&}just{\c&HFFFFFF&} having
+Dialogue: 1,0:00:30.90,0:00:31.08,Cap,,0,0,0,,{\pos(540,1520)}means just {\c&H3CD7FF&}having{\c&HFFFFFF&}
+Dialogue: 1,0:00:31.08,0:00:31.22,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}a{\c&HFFFFFF&} closed mind.
+Dialogue: 1,0:00:31.22,0:00:31.48,Cap,,0,0,0,,{\pos(540,1520)}a {\c&H3CD7FF&}closed{\c&HFFFFFF&} mind.
+Dialogue: 1,0:00:31.48,0:00:32.07,Cap,,0,0,0,,{\pos(540,1520)}a closed {\c&H3CD7FF&}mind.{\c&HFFFFFF&}
+Dialogue: 1,0:00:32.20,0:00:32.80,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}because{\c&HFFFFFF&} what it
+Dialogue: 1,0:00:32.80,0:00:33.06,Cap,,0,0,0,,{\pos(540,1520)}because {\c&H3CD7FF&}what{\c&HFFFFFF&} it
+Dialogue: 1,0:00:33.06,0:00:33.18,Cap,,0,0,0,,{\pos(540,1520)}because what {\c&H3CD7FF&}it{\c&HFFFFFF&}
+Dialogue: 1,0:00:33.18,0:00:33.36,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}means{\c&HFFFFFF&} is you're
+Dialogue: 1,0:00:33.36,0:00:33.52,Cap,,0,0,0,,{\pos(540,1520)}means {\c&H3CD7FF&}is{\c&HFFFFFF&} you're
+Dialogue: 1,0:00:33.52,0:00:33.68,Cap,,0,0,0,,{\pos(540,1520)}means is {\c&H3CD7FF&}you're{\c&HFFFFFF&}
+Dialogue: 1,0:00:33.68,0:00:33.96,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}not{\c&HFFFFFF&} open to
+Dialogue: 1,0:00:33.96,0:00:34.36,Cap,,0,0,0,,{\pos(540,1520)}not {\c&H3CD7FF&}open{\c&HFFFFFF&} to
+Dialogue: 1,0:00:34.36,0:00:34.85,Cap,,0,0,0,,{\pos(540,1520)}not open {\c&H3CD7FF&}to{\c&HFFFFFF&}
+Dialogue: 1,0:00:35.02,0:00:35.44,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}new{\c&HFFFFFF&} ways of
+Dialogue: 1,0:00:35.44,0:00:36.18,Cap,,0,0,0,,{\pos(540,1520)}new {\c&H3CD7FF&}ways{\c&HFFFFFF&} of
+Dialogue: 1,0:00:36.18,0:00:36.38,Cap,,0,0,0,,{\pos(540,1520)}new ways {\c&H3CD7FF&}of{\c&HFFFFFF&}
+Dialogue: 1,0:00:36.38,0:00:36.70,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}thinking{\c&HFFFFFF&} or conceptions.
+Dialogue: 1,0:00:36.70,0:00:36.94,Cap,,0,0,0,,{\pos(540,1520)}thinking {\c&H3CD7FF&}or{\c&HFFFFFF&} conceptions.
+Dialogue: 1,0:00:36.94,0:00:37.50,Cap,,0,0,0,,{\pos(540,1520)}thinking or {\c&H3CD7FF&}conceptions.{\c&HFFFFFF&}
+Dialogue: 1,0:00:37.50,0:00:38.18,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}And{\c&HFFFFFF&} so when
+Dialogue: 1,0:00:38.18,0:00:38.30,Cap,,0,0,0,,{\pos(540,1520)}And {\c&H3CD7FF&}so{\c&HFFFFFF&} when
+Dialogue: 1,0:00:38.30,0:00:38.44,Cap,,0,0,0,,{\pos(540,1520)}And so {\c&H3CD7FF&}when{\c&HFFFFFF&}
+Dialogue: 1,0:00:38.44,0:00:38.68,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}people{\c&HFFFFFF&} get locked
+Dialogue: 1,0:00:38.68,0:00:38.86,Cap,,0,0,0,,{\pos(540,1520)}people {\c&H3CD7FF&}get{\c&HFFFFFF&} locked
+Dialogue: 1,0:00:38.86,0:00:39.18,Cap,,0,0,0,,{\pos(540,1520)}people get {\c&H3CD7FF&}locked{\c&HFFFFFF&}
+Dialogue: 1,0:00:39.18,0:00:39.44,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}into{\c&HFFFFFF&} one fixed
+Dialogue: 1,0:00:39.44,0:00:39.78,Cap,,0,0,0,,{\pos(540,1520)}into {\c&H3CD7FF&}one{\c&HFFFFFF&} fixed
+Dialogue: 1,0:00:39.78,0:00:40.20,Cap,,0,0,0,,{\pos(540,1520)}into one {\c&H3CD7FF&}fixed{\c&HFFFFFF&}
+Dialogue: 1,0:00:40.20,0:00:40.72,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}way{\c&HFFFFFF&} of conceptualizing
+Dialogue: 1,0:00:40.72,0:00:40.90,Cap,,0,0,0,,{\pos(540,1520)}way {\c&H3CD7FF&}of{\c&HFFFFFF&} conceptualizing
+Dialogue: 1,0:00:40.90,0:00:41.60,Cap,,0,0,0,,{\pos(540,1520)}way of {\c&H3CD7FF&}conceptualizing{\c&HFFFFFF&}
+Dialogue: 1,0:00:41.60,0:00:42.27,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}things,{\c&HFFFFFF&}
+Dialogue: 1,0:00:43.02,0:00:43.36,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}then{\c&HFFFFFF&} the person,
+Dialogue: 1,0:00:43.36,0:00:44.12,Cap,,0,0,0,,{\pos(540,1520)}then {\c&H3CD7FF&}the{\c&HFFFFFF&} person,
+Dialogue: 1,0:00:44.12,0:00:45.15,Cap,,0,0,0,,{\pos(540,1520)}then the {\c&H3CD7FF&}person,{\c&HFFFFFF&}
+Dialogue: 1,0:00:45.96,0:00:46.58,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}the{\c&HFFFFFF&} nation,
+Dialogue: 1,0:00:46.58,0:00:47.41,Cap,,0,0,0,,{\pos(540,1520)}the {\c&H3CD7FF&}nation,{\c&HFFFFFF&}
+Dialogue: 1,0:00:48.02,0:00:48.24,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}the{\c&HFFFFFF&} world starts
+Dialogue: 1,0:00:48.24,0:00:48.62,Cap,,0,0,0,,{\pos(540,1520)}the {\c&H3CD7FF&}world{\c&HFFFFFF&} starts
+Dialogue: 1,0:00:48.62,0:00:49.04,Cap,,0,0,0,,{\pos(540,1520)}the world {\c&H3CD7FF&}starts{\c&HFFFFFF&}
+Dialogue: 1,0:00:49.04,0:00:49.56,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}to{\c&HFFFFFF&} degenerate,
+Dialogue: 1,0:00:49.56,0:00:50.82,Cap,,0,0,0,,{\pos(540,1520)}to {\c&H3CD7FF&}degenerate,{\c&HFFFFFF&}
+Dialogue: 1,0:00:50.82,0:00:51.22,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}because{\c&HFFFFFF&} we're locked
+Dialogue: 1,0:00:51.22,0:00:51.80,Cap,,0,0,0,,{\pos(540,1520)}because {\c&H3CD7FF&}we're{\c&HFFFFFF&} locked
+Dialogue: 1,0:00:51.80,0:00:52.08,Cap,,0,0,0,,{\pos(540,1520)}because we're {\c&H3CD7FF&}locked{\c&HFFFFFF&}
+Dialogue: 1,0:00:52.08,0:00:52.36,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}into{\c&HFFFFFF&} one way
+Dialogue: 1,0:00:52.36,0:00:52.70,Cap,,0,0,0,,{\pos(540,1520)}into {\c&H3CD7FF&}one{\c&HFFFFFF&} way
+Dialogue: 1,0:00:52.70,0:00:53.08,Cap,,0,0,0,,{\pos(540,1520)}into one {\c&H3CD7FF&}way{\c&HFFFFFF&}
+Dialogue: 1,0:00:53.08,0:00:53.24,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}of{\c&HFFFFFF&} conceiving things.
+Dialogue: 1,0:00:53.24,0:00:53.64,Cap,,0,0,0,,{\pos(540,1520)}of {\c&H3CD7FF&}conceiving{\c&HFFFFFF&} things.
+Dialogue: 1,0:00:53.64,0:00:54.21,Cap,,0,0,0,,{\pos(540,1520)}of conceiving {\c&H3CD7FF&}things.{\c&HFFFFFF&}
+Dialogue: 1,0:00:54.50,0:00:54.50,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}So,{\c&HFFFFFF&}
+Dialogue: 1,0:00:54.50,0:00:55.00,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}in{\c&HFFFFFF&} my grandfather's
+Dialogue: 1,0:00:55.00,0:00:55.16,Cap,,0,0,0,,{\pos(540,1520)}in {\c&H3CD7FF&}my{\c&HFFFFFF&} grandfather's
+Dialogue: 1,0:00:55.16,0:00:55.76,Cap,,0,0,0,,{\pos(540,1520)}in my {\c&H3CD7FF&}grandfather's{\c&HFFFFFF&}
+Dialogue: 1,0:00:55.76,0:00:56.21,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}time,{\c&HFFFFFF&}
+Dialogue: 1,0:00:56.44,0:00:56.94,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}smoking{\c&HFFFFFF&} was thought
+Dialogue: 1,0:00:56.94,0:00:57.18,Cap,,0,0,0,,{\pos(540,1520)}smoking {\c&H3CD7FF&}was{\c&HFFFFFF&} thought
+Dialogue: 1,0:00:57.18,0:00:57.40,Cap,,0,0,0,,{\pos(540,1520)}smoking was {\c&H3CD7FF&}thought{\c&HFFFFFF&}
+Dialogue: 1,0:00:57.40,0:00:57.54,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}to{\c&HFFFFFF&} be good
+Dialogue: 1,0:00:57.54,0:00:57.68,Cap,,0,0,0,,{\pos(540,1520)}to {\c&H3CD7FF&}be{\c&HFFFFFF&} good
+Dialogue: 1,0:00:57.68,0:00:57.86,Cap,,0,0,0,,{\pos(540,1520)}to be {\c&H3CD7FF&}good{\c&HFFFFFF&}
+Dialogue: 1,0:00:57.86,0:00:58.12,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}for{\c&HFFFFFF&} you.
+Dialogue: 1,0:00:58.12,0:00:58.62,Cap,,0,0,0,,{\pos(540,1520)}for {\c&H3CD7FF&}you.{\c&HFFFFFF&}
+Dialogue: 1,0:01:00.48,0:01:00.90,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}Before{\c&HFFFFFF&} my grandfather's
+Dialogue: 1,0:01:00.90,0:01:01.10,Cap,,0,0,0,,{\pos(540,1520)}Before {\c&H3CD7FF&}my{\c&HFFFFFF&} grandfather's
+Dialogue: 1,0:01:01.10,0:01:01.68,Cap,,0,0,0,,{\pos(540,1520)}Before my {\c&H3CD7FF&}grandfather's{\c&HFFFFFF&}
+Dialogue: 1,0:01:01.68,0:01:02.09,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}time,{\c&HFFFFFF&}
+Dialogue: 1,0:01:02.18,0:01:02.32,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}if{\c&HFFFFFF&} you didn't
+Dialogue: 1,0:01:02.32,0:01:02.48,Cap,,0,0,0,,{\pos(540,1520)}if {\c&H3CD7FF&}you{\c&HFFFFFF&} didn't
+Dialogue: 1,0:01:02.48,0:01:02.88,Cap,,0,0,0,,{\pos(540,1520)}if you {\c&H3CD7FF&}didn't{\c&HFFFFFF&}
+Dialogue: 1,0:01:02.88,0:01:03.24,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}spank{\c&HFFFFFF&} your child,
+Dialogue: 1,0:01:03.24,0:01:03.42,Cap,,0,0,0,,{\pos(540,1520)}spank {\c&H3CD7FF&}your{\c&HFFFFFF&} child,
+Dialogue: 1,0:01:03.42,0:01:03.91,Cap,,0,0,0,,{\pos(540,1520)}spank your {\c&H3CD7FF&}child,{\c&HFFFFFF&}
+Dialogue: 1,0:01:03.92,0:01:04.08,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}something{\c&HFFFFFF&} was wrong
+Dialogue: 1,0:01:04.08,0:01:04.30,Cap,,0,0,0,,{\pos(540,1520)}something {\c&H3CD7FF&}was{\c&HFFFFFF&} wrong
+Dialogue: 1,0:01:04.30,0:01:04.54,Cap,,0,0,0,,{\pos(540,1520)}something was {\c&H3CD7FF&}wrong{\c&HFFFFFF&}
+Dialogue: 1,0:01:04.54,0:01:04.72,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}with{\c&HFFFFFF&} you.
+Dialogue: 1,0:01:04.72,0:01:05.13,Cap,,0,0,0,,{\pos(540,1520)}with {\c&H3CD7FF&}you.{\c&HFFFFFF&}
+Dialogue: 1,0:01:06.16,0:01:06.84,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}Now{\c&HFFFFFF&} these two
+Dialogue: 1,0:01:06.84,0:01:06.94,Cap,,0,0,0,,{\pos(540,1520)}Now {\c&H3CD7FF&}these{\c&HFFFFFF&} two
+Dialogue: 1,0:01:06.94,0:01:07.26,Cap,,0,0,0,,{\pos(540,1520)}Now these {\c&H3CD7FF&}two{\c&HFFFFFF&}
+Dialogue: 1,0:01:07.26,0:01:07.76,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}attitudes{\c&HFFFFFF&} have changed,
+Dialogue: 1,0:01:07.76,0:01:07.98,Cap,,0,0,0,,{\pos(540,1520)}attitudes {\c&H3CD7FF&}have{\c&HFFFFFF&} changed,
+Dialogue: 1,0:01:07.98,0:01:08.73,Cap,,0,0,0,,{\pos(540,1520)}attitudes have {\c&H3CD7FF&}changed,{\c&HFFFFFF&}
+Dialogue: 1,0:01:09.70,0:01:09.98,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} attitudes that
+Dialogue: 1,0:01:09.98,0:01:10.54,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}attitudes{\c&HFFFFFF&} that
+Dialogue: 1,0:01:10.54,0:01:10.72,Cap,,0,0,0,,{\pos(540,1520)}and attitudes {\c&H3CD7FF&}that{\c&HFFFFFF&}
+Dialogue: 1,0:01:10.72,0:01:10.94,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}came{\c&HFFFFFF&} thereafter also
+Dialogue: 1,0:01:10.94,0:01:11.60,Cap,,0,0,0,,{\pos(540,1520)}came {\c&H3CD7FF&}thereafter{\c&HFFFFFF&} also
+Dialogue: 1,0:01:11.60,0:01:12.02,Cap,,0,0,0,,{\pos(540,1520)}came thereafter {\c&H3CD7FF&}also{\c&HFFFFFF&}
+Dialogue: 1,0:01:12.02,0:01:12.28,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}have{\c&HFFFFFF&} changed.
+Dialogue: 1,0:01:12.28,0:01:12.97,Cap,,0,0,0,,{\pos(540,1520)}have {\c&H3CD7FF&}changed.{\c&HFFFFFF&}
+Dialogue: 1,0:01:13.40,0:01:13.50,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}And{\c&HFFFFFF&} the attitudes
+Dialogue: 1,0:01:13.50,0:01:13.60,Cap,,0,0,0,,{\pos(540,1520)}And {\c&H3CD7FF&}the{\c&HFFFFFF&} attitudes
+Dialogue: 1,0:01:13.60,0:01:13.96,Cap,,0,0,0,,{\pos(540,1520)}And the {\c&H3CD7FF&}attitudes{\c&HFFFFFF&}
+Dialogue: 1,0:01:13.96,0:01:14.18,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}we{\c&HFFFFFF&} have now
+Dialogue: 1,0:01:14.18,0:01:14.42,Cap,,0,0,0,,{\pos(540,1520)}we {\c&H3CD7FF&}have{\c&HFFFFFF&} now
+Dialogue: 1,0:01:14.42,0:01:14.70,Cap,,0,0,0,,{\pos(540,1520)}we have {\c&H3CD7FF&}now{\c&HFFFFFF&}
+Dialogue: 1,0:01:14.70,0:01:14.96,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}will{\c&HFFFFFF&} also change.
+Dialogue: 1,0:01:14.96,0:01:15.48,Cap,,0,0,0,,{\pos(540,1520)}will {\c&H3CD7FF&}also{\c&HFFFFFF&} change.
+Dialogue: 1,0:01:15.48,0:01:16.13,Cap,,0,0,0,,{\pos(540,1520)}will also {\c&H3CD7FF&}change.{\c&HFFFFFF&}
+Dialogue: 1,0:01:16.56,0:01:16.74,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}So{\c&HFFFFFF&} if you
+Dialogue: 1,0:01:16.74,0:01:16.92,Cap,,0,0,0,,{\pos(540,1520)}So {\c&H3CD7FF&}if{\c&HFFFFFF&} you
+Dialogue: 1,0:01:16.92,0:01:17.02,Cap,,0,0,0,,{\pos(540,1520)}So if {\c&H3CD7FF&}you{\c&HFFFFFF&}
+Dialogue: 1,0:01:17.02,0:01:17.18,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}get{\c&HFFFFFF&} locked into
+Dialogue: 1,0:01:17.18,0:01:17.50,Cap,,0,0,0,,{\pos(540,1520)}get {\c&H3CD7FF&}locked{\c&HFFFFFF&} into
+Dialogue: 1,0:01:17.50,0:01:17.76,Cap,,0,0,0,,{\pos(540,1520)}get locked {\c&H3CD7FF&}into{\c&HFFFFFF&}
+Dialogue: 1,0:01:17.76,0:01:18.06,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}one{\c&HFFFFFF&} way of
+Dialogue: 1,0:01:18.06,0:01:18.30,Cap,,0,0,0,,{\pos(540,1520)}one {\c&H3CD7FF&}way{\c&HFFFFFF&} of
+Dialogue: 1,0:01:18.30,0:01:18.44,Cap,,0,0,0,,{\pos(540,1520)}one way {\c&H3CD7FF&}of{\c&HFFFFFF&}
+Dialogue: 1,0:01:18.44,0:01:18.70,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}looking{\c&HFFFFFF&} at things,
+Dialogue: 1,0:01:18.70,0:01:18.88,Cap,,0,0,0,,{\pos(540,1520)}looking {\c&H3CD7FF&}at{\c&HFFFFFF&} things,
+Dialogue: 1,0:01:18.88,0:01:19.37,Cap,,0,0,0,,{\pos(540,1520)}looking at {\c&H3CD7FF&}things,{\c&HFFFFFF&}
+Dialogue: 1,0:01:19.68,0:01:19.84,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} you don't
+Dialogue: 1,0:01:19.84,0:01:19.94,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}you{\c&HFFFFFF&} don't
+Dialogue: 1,0:01:19.94,0:01:20.52,Cap,,0,0,0,,{\pos(540,1520)}and you {\c&H3CD7FF&}don't{\c&HFFFFFF&}
+Dialogue: 1,0:01:20.52,0:01:20.88,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}realize{\c&HFFFFFF&} that your
+Dialogue: 1,0:01:20.88,0:01:21.10,Cap,,0,0,0,,{\pos(540,1520)}realize {\c&H3CD7FF&}that{\c&HFFFFFF&} your
+Dialogue: 1,0:01:21.10,0:01:21.30,Cap,,0,0,0,,{\pos(540,1520)}realize that {\c&H3CD7FF&}your{\c&HFFFFFF&}
+Dialogue: 1,0:01:21.30,0:01:21.97,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}attitudes,{\c&HFFFFFF&}
+Dialogue: 1,0:01:22.22,0:01:22.30,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}your{\c&HFFFFFF&} whole way
+Dialogue: 1,0:01:22.30,0:01:22.76,Cap,,0,0,0,,{\pos(540,1520)}your {\c&H3CD7FF&}whole{\c&HFFFFFF&} way
+Dialogue: 1,0:01:22.76,0:01:23.00,Cap,,0,0,0,,{\pos(540,1520)}your whole {\c&H3CD7FF&}way{\c&HFFFFFF&}
+Dialogue: 1,0:01:23.00,0:01:23.12,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}of{\c&HFFFFFF&} looking at
+Dialogue: 1,0:01:23.12,0:01:23.26,Cap,,0,0,0,,{\pos(540,1520)}of {\c&H3CD7FF&}looking{\c&HFFFFFF&} at
+Dialogue: 1,0:01:23.26,0:01:23.40,Cap,,0,0,0,,{\pos(540,1520)}of looking {\c&H3CD7FF&}at{\c&HFFFFFF&}
+Dialogue: 1,0:01:23.40,0:01:23.52,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}the{\c&HFFFFFF&} world,
+Dialogue: 1,0:01:23.52,0:01:23.82,Cap,,0,0,0,,{\pos(540,1520)}the {\c&H3CD7FF&}world,{\c&HFFFFFF&}
+Dialogue: 1,0:01:23.82,0:01:24.06,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}is{\c&HFFFFFF&} totally conditioned
+Dialogue: 1,0:01:24.06,0:01:24.60,Cap,,0,0,0,,{\pos(540,1520)}is {\c&H3CD7FF&}totally{\c&HFFFFFF&} conditioned
+Dialogue: 1,0:01:24.60,0:01:25.16,Cap,,0,0,0,,{\pos(540,1520)}is totally {\c&H3CD7FF&}conditioned{\c&HFFFFFF&}
+Dialogue: 1,0:01:25.16,0:01:25.48,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} determined by
+Dialogue: 1,0:01:25.48,0:01:25.88,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}determined{\c&HFFFFFF&} by
+Dialogue: 1,0:01:25.88,0:01:26.16,Cap,,0,0,0,,{\pos(540,1520)}and determined {\c&H3CD7FF&}by{\c&HFFFFFF&}
+Dialogue: 1,0:01:26.16,0:01:26.72,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}your{\c&HFFFFFF&} environment,
+Dialogue: 1,0:01:26.72,0:01:27.37,Cap,,0,0,0,,{\pos(540,1520)}your {\c&H3CD7FF&}environment,{\c&HFFFFFF&}
+Dialogue: 1,0:01:27.64,0:01:27.78,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}what{\c&HFFFFFF&} you see
+Dialogue: 1,0:01:27.78,0:01:27.94,Cap,,0,0,0,,{\pos(540,1520)}what {\c&H3CD7FF&}you{\c&HFFFFFF&} see
+Dialogue: 1,0:01:27.94,0:01:28.14,Cap,,0,0,0,,{\pos(540,1520)}what you {\c&H3CD7FF&}see{\c&HFFFFFF&}
+Dialogue: 1,0:01:28.14,0:01:28.40,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}on{\c&HFFFFFF&} Instagram,
+Dialogue: 1,0:01:28.40,0:01:29.91,Cap,,0,0,0,,{\pos(540,1520)}on {\c&H3CD7FF&}Instagram,{\c&HFFFFFF&}
+Dialogue: 1,0:01:30.10,0:01:30.18,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}what{\c&HFFFFFF&} you see
+Dialogue: 1,0:01:30.18,0:01:30.32,Cap,,0,0,0,,{\pos(540,1520)}what {\c&H3CD7FF&}you{\c&HFFFFFF&} see
+Dialogue: 1,0:01:30.32,0:01:30.50,Cap,,0,0,0,,{\pos(540,1520)}what you {\c&H3CD7FF&}see{\c&HFFFFFF&}
+Dialogue: 1,0:01:30.50,0:01:30.70,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}on{\c&HFFFFFF&} TV,
+Dialogue: 1,0:01:30.70,0:01:31.19,Cap,,0,0,0,,{\pos(540,1520)}on {\c&H3CD7FF&}TV,{\c&HFFFFFF&}
+Dialogue: 1,0:01:31.24,0:01:31.28,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}what{\c&HFFFFFF&} you see
+Dialogue: 1,0:01:31.28,0:01:31.44,Cap,,0,0,0,,{\pos(540,1520)}what {\c&H3CD7FF&}you{\c&HFFFFFF&} see
+Dialogue: 1,0:01:31.44,0:01:31.68,Cap,,0,0,0,,{\pos(540,1520)}what you {\c&H3CD7FF&}see{\c&HFFFFFF&}
+Dialogue: 1,0:01:31.68,0:01:31.92,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}on{\c&HFFFFFF&} TikTok and
+Dialogue: 1,0:01:31.92,0:01:32.36,Cap,,0,0,0,,{\pos(540,1520)}on {\c&H3CD7FF&}TikTok{\c&HFFFFFF&} and
+Dialogue: 1,0:01:32.36,0:01:32.54,Cap,,0,0,0,,{\pos(540,1520)}on TikTok {\c&H3CD7FF&}and{\c&HFFFFFF&}
+Dialogue: 1,0:01:32.54,0:01:33.05,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}X,{\c&HFFFFFF&}
+Dialogue: 1,0:01:33.56,0:01:33.70,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} what books
+Dialogue: 1,0:01:33.70,0:01:33.88,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}what{\c&HFFFFFF&} books
+Dialogue: 1,0:01:33.88,0:01:34.40,Cap,,0,0,0,,{\pos(540,1520)}and what {\c&H3CD7FF&}books{\c&HFFFFFF&}
+Dialogue: 1,0:01:34.40,0:01:34.76,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}you've{\c&HFFFFFF&} read and
+Dialogue: 1,0:01:34.76,0:01:34.90,Cap,,0,0,0,,{\pos(540,1520)}you've {\c&H3CD7FF&}read{\c&HFFFFFF&} and
+Dialogue: 1,0:01:34.90,0:01:35.02,Cap,,0,0,0,,{\pos(540,1520)}you've read {\c&H3CD7FF&}and{\c&HFFFFFF&}
+Dialogue: 1,0:01:35.02,0:01:35.14,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}what{\c&HFFFFFF&} movies you've
+Dialogue: 1,0:01:35.14,0:01:35.44,Cap,,0,0,0,,{\pos(540,1520)}what {\c&H3CD7FF&}movies{\c&HFFFFFF&} you've
+Dialogue: 1,0:01:35.44,0:01:35.80,Cap,,0,0,0,,{\pos(540,1520)}what movies {\c&H3CD7FF&}you've{\c&HFFFFFF&}
+Dialogue: 1,0:01:35.80,0:01:36.25,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}seen.{\c&HFFFFFF&}
+Dialogue: 1,0:01:36.86,0:01:37.12,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}See,{\c&HFFFFFF&}
+Dialogue: 1,0:01:37.12,0:01:37.28,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}we{\c&HFFFFFF&} look at
+Dialogue: 1,0:01:37.28,0:01:37.46,Cap,,0,0,0,,{\pos(540,1520)}we {\c&H3CD7FF&}look{\c&HFFFFFF&} at
+Dialogue: 1,0:01:37.46,0:01:37.58,Cap,,0,0,0,,{\pos(540,1520)}we look {\c&H3CD7FF&}at{\c&HFFFFFF&}
+Dialogue: 1,0:01:37.58,0:01:37.76,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}a{\c&HFFFFFF&} very tiny,
+Dialogue: 1,0:01:37.76,0:01:37.86,Cap,,0,0,0,,{\pos(540,1520)}a {\c&H3CD7FF&}very{\c&HFFFFFF&} tiny,
+Dialogue: 1,0:01:37.86,0:01:38.38,Cap,,0,0,0,,{\pos(540,1520)}a very {\c&H3CD7FF&}tiny,{\c&HFFFFFF&}
+Dialogue: 1,0:01:38.38,0:01:38.62,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}tiny,{\c&HFFFFFF&}
+Dialogue: 1,0:01:38.62,0:01:38.88,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}tiny{\c&HFFFFFF&} little slice
+Dialogue: 1,0:01:38.88,0:01:39.08,Cap,,0,0,0,,{\pos(540,1520)}tiny {\c&H3CD7FF&}little{\c&HFFFFFF&} slice
+Dialogue: 1,0:01:39.08,0:01:39.30,Cap,,0,0,0,,{\pos(540,1520)}tiny little {\c&H3CD7FF&}slice{\c&HFFFFFF&}
+Dialogue: 1,0:01:39.30,0:01:39.48,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}of{\c&HFFFFFF&} the world,
+Dialogue: 1,0:01:39.48,0:01:39.56,Cap,,0,0,0,,{\pos(540,1520)}of {\c&H3CD7FF&}the{\c&HFFFFFF&} world,
+Dialogue: 1,0:01:39.56,0:01:39.86,Cap,,0,0,0,,{\pos(540,1520)}of the {\c&H3CD7FF&}world,{\c&HFFFFFF&}
+Dialogue: 1,0:01:39.86,0:01:40.02,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} we call
+Dialogue: 1,0:01:40.02,0:01:40.14,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}we{\c&HFFFFFF&} call
+Dialogue: 1,0:01:40.14,0:01:40.30,Cap,,0,0,0,,{\pos(540,1520)}and we {\c&H3CD7FF&}call{\c&HFFFFFF&}
+Dialogue: 1,0:01:40.30,0:01:40.44,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}it{\c&HFFFFFF&} the world,
+Dialogue: 1,0:01:40.44,0:01:40.54,Cap,,0,0,0,,{\pos(540,1520)}it {\c&H3CD7FF&}the{\c&HFFFFFF&} world,
+Dialogue: 1,0:01:40.54,0:01:41.03,Cap,,0,0,0,,{\pos(540,1520)}it the {\c&H3CD7FF&}world,{\c&HFFFFFF&}
+Dialogue: 1,0:01:41.86,0:01:42.00,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} that's a
+Dialogue: 1,0:01:42.00,0:01:42.18,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}that's{\c&HFFFFFF&} a
+Dialogue: 1,0:01:42.18,0:01:42.26,Cap,,0,0,0,,{\pos(540,1520)}and that's {\c&H3CD7FF&}a{\c&HFFFFFF&}
+Dialogue: 1,0:01:42.26,0:01:42.81,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}mistake.{\c&HFFFFFF&}
+Dialogue: 1,0:01:43.24,0:01:43.30,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}And{\c&HFFFFFF&} so anybody
+Dialogue: 1,0:01:43.30,0:01:43.42,Cap,,0,0,0,,{\pos(540,1520)}And {\c&H3CD7FF&}so{\c&HFFFFFF&} anybody
+Dialogue: 1,0:01:43.42,0:01:43.60,Cap,,0,0,0,,{\pos(540,1520)}And so {\c&H3CD7FF&}anybody{\c&HFFFFFF&}
+Dialogue: 1,0:01:43.60,0:01:43.86,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}who{\c&HFFFFFF&} can get
+Dialogue: 1,0:01:43.86,0:01:44.04,Cap,,0,0,0,,{\pos(540,1520)}who {\c&H3CD7FF&}can{\c&HFFFFFF&} get
+Dialogue: 1,0:01:44.04,0:01:44.20,Cap,,0,0,0,,{\pos(540,1520)}who can {\c&H3CD7FF&}get{\c&HFFFFFF&}
+Dialogue: 1,0:01:44.20,0:01:44.40,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}out{\c&HFFFFFF&} of that
+Dialogue: 1,0:01:44.40,0:01:44.52,Cap,,0,0,0,,{\pos(540,1520)}out {\c&H3CD7FF&}of{\c&HFFFFFF&} that
+Dialogue: 1,0:01:44.52,0:01:44.78,Cap,,0,0,0,,{\pos(540,1520)}out of {\c&H3CD7FF&}that{\c&HFFFFFF&}
+Dialogue: 1,0:01:44.78,0:01:45.08,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}and{\c&HFFFFFF&} look more
+Dialogue: 1,0:01:45.08,0:01:45.62,Cap,,0,0,0,,{\pos(540,1520)}and {\c&H3CD7FF&}look{\c&HFFFFFF&} more
+Dialogue: 1,0:01:45.62,0:01:46.70,Cap,,0,0,0,,{\pos(540,1520)}and look {\c&H3CD7FF&}more{\c&HFFFFFF&}
+Dialogue: 1,0:01:46.70,0:01:47.90,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}holistically{\c&HFFFFFF&} can do
+Dialogue: 1,0:01:47.90,0:01:48.04,Cap,,0,0,0,,{\pos(540,1520)}holistically {\c&H3CD7FF&}can{\c&HFFFFFF&} do
+Dialogue: 1,0:01:48.04,0:01:48.58,Cap,,0,0,0,,{\pos(540,1520)}holistically can {\c&H3CD7FF&}do{\c&HFFFFFF&}
+Dialogue: 1,0:01:48.58,0:01:49.34,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}better{\c&HFFFFFF&} because they
+Dialogue: 1,0:01:49.34,0:01:49.72,Cap,,0,0,0,,{\pos(540,1520)}better {\c&H3CD7FF&}because{\c&HFFFFFF&} they
+Dialogue: 1,0:01:49.72,0:01:49.90,Cap,,0,0,0,,{\pos(540,1520)}better because {\c&H3CD7FF&}they{\c&HFFFFFF&}
+Dialogue: 1,0:01:49.90,0:01:50.04,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}can{\c&HFFFFFF&} see more
+Dialogue: 1,0:01:50.04,0:01:50.40,Cap,,0,0,0,,{\pos(540,1520)}can {\c&H3CD7FF&}see{\c&HFFFFFF&} more
+Dialogue: 1,0:01:50.40,0:01:50.70,Cap,,0,0,0,,{\pos(540,1520)}can see {\c&H3CD7FF&}more{\c&HFFFFFF&}
+Dialogue: 1,0:01:50.70,0:01:51.30,Cap,,0,0,0,,{\pos(540,1520)}{\c&H3CD7FF&}clearly.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:01:51.30,Title,,0,0,0,,{\pos(540,215)}You can be bigoted on the\N{\c&H3CD7FF&}right, left{\c&HFFFFFF&} or {\c&H3CD7FF&}center
+Dialogue: 0,0:00:04.20,0:00:19.10,Src,,0,0,0,,{\pos(540,1365)\fad(200,200)}Thomas Cleary, notes on Tao Te Ching ch. 2
+Dialogue: 0,0:01:51.30,0:01:55.30,End,,0,0,0,,{\pos(540,820)\fad(300,0)}Tao Te Ching\NChapters 2 & 3
+Dialogue: 0,0:01:51.30,0:01:55.30,EndSm,,0,0,0,,{\pos(540,1040)\fad(300,0)}"When Everyone Knows Beauty Is Beauty"
+Dialogue: 0,0:01:51.30,0:01:55.30,EndSm,,0,0,0,,{\pos(540,1200)\fad(300,0)}Full talk linked below
