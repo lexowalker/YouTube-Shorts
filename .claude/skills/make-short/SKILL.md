@@ -54,7 +54,7 @@ Once the user picks a teaching, write out the **full proposed transcript**: ever
 - Modern subjects (a car, a bus, a phone) get a classical stand-in that keeps the meaning, such as a groomed horse for "my beautiful car" or stampeding horses for "run over by a bus", or stay on David's face.
 - Place each image on the word that names its subject (`"at": {"word": "...", "after": <phrase index>}`), not at the start of the phrase, and end it when he moves on to something else.
 - Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
-- No shot under about 1.2 s, and no head shot that is only a pause between two images: extend the image or merge the shots.
+- No shot under 3 s, image or head: an image is either held for a few seconds or not shown at all, and no head shot is only a pause between two images. Extend the image, merge the shots or drop the image.
 - Show the action the words name (someone painting, not reclining), show contrasts as contrasts (rich and poor; a rigid oak broken by the storm against bending bamboo), and bring each image in on its own phrase, not a line late.
 - Real things only a photo or document can show (Pluto, Earth from space, a banknote) come from public-domain sources via `pipeline/ext_image.py`. From this environment, archive.org (NASA `PLAN-PIA…` mirrors, the Endlos banknote scans) and Wikimedia's thumbnail URLs (`/thumb/…/1280px-…`) are reachable; NASA's own hosts are blocked by the network policy, and Wikimedia's full-size files are rate-limited.
 - Fewer, longer images: let one image carry consecutive lines on the same idea instead of cutting to a new picture for each noun (the user dropped the bell in the Ch1 Discussion 1 Short and let the watching scholar carry "hear that bell").
@@ -80,7 +80,7 @@ python3 -I pipeline/qa.py <slug>
 frames that show most mistakes, and flags these automatically:
 - **BRIGHT:** a caption on a light background, such as his white beard or pale paper. Move it with `caption_y`, or change the crop.
 - **JUMP:** a join on a head shot with nothing over it.
-- **BLIP:** a shot under 1.2 s, a flash of him or of a painting that breaks the flow. Merge it into a neighbour.
+- **BLIP:** a shot under 3 s, a flash of him or of a painting that breaks the flow. Hold it longer, merge it into a neighbour or drop it.
 - **DEAD:** more than 0.8 s with nothing said across a join (it shows as a stray shot of him silent). Tighten the segment ends.
 - **TIGHT:** a clip ends while he is still voicing, or starts right after voice: a clipped word tail or a leaked syllable. Check with `env.py` and move the cut into room tone.
 

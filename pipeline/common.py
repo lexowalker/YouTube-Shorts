@@ -64,5 +64,20 @@ def source_info(path):
     return {"w": s["width"], "h": s["height"], "fps": num / den}
 
 
+def tonemap_vf(path):
+    """ffmpeg filter that turns an HDR source (HLG or PQ, BT.2020) into natural SDR BT.709 RGB, or "" for SDR.
+
+    The archive.org uploads are phone HDR (HLG, BT.2020). Read straight to rgb24 they come out flat and greenish,
+    because ffmpeg does no transfer or gamut conversion. This linearises, maps BT.2020 to BT.709, tone-maps with
+    Hable (npl 120: natural skin, detail kept in the white beard) and re-encodes to BT.709 full-range RGB.
+    Put it after any crop, so only the needed pixels are converted."""
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
+                          "-of", "default=nw=1:nk=1", path], capture_output=True, text=True).stdout.strip()
+    if out not in ("arib-std-b67", "smpte2084"):
+        return ""
+    return (f"zscale=tin={out}:min=bt2020nc:pin=bt2020:rin=tv:t=linear:npl=120,format=gbrpf32le,zscale=p=bt709,"
+            "tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=pc")
+
+
 def image_path(acc):
     return os.path.join(IMG_DIR, f"{acc}_full.jpg")

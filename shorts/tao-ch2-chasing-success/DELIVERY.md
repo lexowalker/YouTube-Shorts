@@ -34,37 +34,41 @@ Words in [brackets] are in the audio but not in the captions.
 - **"keep going, and, and don't".** Large-v3 hears two "and"s and the QA pass hears one, so both stay in the audio and off the captions.
 - **"can, like, | we'll do our best".** The clip starts in the 80 ms dip after "like" (−48 dB).
 
-Other cuts: "success, success, sorry" (13:39.6–13:43.2) and a 1.8 s pause before "obsessed" (13:44.7–13:46.5), both under the Avarice print.
+Other cuts: "success, success, sorry" (13:39.6–13:43.2) and a 1.8 s pause before "obsessed" (13:44.7–13:46.5), both under the first image (the blind men).
 
 ## 4. Images
-All images are CC0 from the Cleveland Museum of Art. Four are toned darker with `pipeline/ext_image.py … --gain` so the captions read on pale paper: Avarice and the Miser at 0.6, the prince at 0.72 and the gibbons at 0.7.
+All images are CC0 from the Cleveland Museum of Art. Every image is held for at least 3 s, and every head shot between images also lasts at least 3 s. The three pale-paper works are toned darker with `pipeline/ext_image.py … --gain` so the captions read: the Blind (0.6), the Miser (0.6) and Budai (0.8).
 
 | Short (s) | Words | Work | Artist / culture | Date | License | Source |
 |---|---|---|---|---|---|---|
-| 3.51–8.40 | "you're going to be obsessed… not able to see as clearly" | The Seven Vices: Avarice (blindfolded, clutching her purse) | Hans Burgkmair | c. 1510 | CC0 (toned) | https://clevelandart.org/art/1923.239 |
-| 8.40–10.64 | "All beings work without exception" | Sericulture: a household at work over the silkworm trays (slow pan) | Liang Kai | early 1200s | CC0 | https://clevelandart.org/art/1977.5 |
-| 20.50–27.84 | "by this very nondwelling… you just do your work, do your best" | Sericulture, a later section: a man bent over his work at the table | Liang Kai | early 1200s | CC0 | https://clevelandart.org/art/1977.5 |
-| 31.13–33.59 | "and just keep going" | Jain Ascetic Walking Along a Riverbank | Basavana | c. 1600 | CC0 | https://clevelandart.org/art/1967.244 |
-| 36.64–45.03 | "success is measured… in terms of money and fame" | Portrait of Prince Sur Singh Rathor of Bikaner | Rajput, Bikaner | 1611–13 | CC0 (toned) | https://clevelandart.org/art/2018.188 |
-| 47.17–53.91 | "money brings no peace, and fame even less so" | Dance of Death: The Miser (Death takes his heaped gold; pan from the miser to Death) | Hans Holbein the Younger | c. 1526 | CC0 (toned) | https://clevelandart.org/art/1929.161 |
-| 55.22–60.65 | "We'll do our best… and then we just keep going. That's all." | Farmer Returning Home in Autumn | Yosa Buson | 1781 | CC0 | https://clevelandart.org/art/1970.77 |
-| 70.60–75.73 | "it means peace… harmony… joy, constant joy" | River Village: Fisherman's Joy | Zhao Mengfu | c. 1302–3 | CC0 | https://clevelandart.org/art/1978.66 |
-| 75.73–80.91 | "if you're totally obsessed with getting that, you'll never get it" | Gibbons Reaching for the Moon (the lowest gibbon reaching down for the moon's reflection) | Kano Tan'yū | 1600s | CC0 (toned) | https://clevelandart.org/art/2015.478 |
+| 3.51–8.40 | "you're going to be obsessed, and you're not going to be able to see as clearly" | The Blind Leading the Blind (pan from the stumbling leader to the man fallen in the ditch) | Pieter van der Heyden after Bosch | c. 1561 | CC0 (toned) | https://clevelandart.org/art/1966.11 |
+| 8.40–11.50 | "All beings work without exception" | Summer: Harvest Scene (a reaper swinging his scythe, others at work behind) | Gobelins Manufactory | designed c. 1535, woven later 1600s | CC0 | https://clevelandart.org/art/1952.544.2 |
+| 23.48–27.84 | "So you just do your work, do your best" | The Blacksmith (men at the glowing forge) | Richard Earlom after Joseph Wright of Derby | 1771 | CC0 | https://clevelandart.org/art/1995.69 |
+| 31.13–36.91 | "and just keep going, don't be preoccupied with this abstract construct" | Jain Ascetic Walking Along a Riverbank (mid-stride) | Basavana | c. 1600 | CC0 | https://clevelandart.org/art/1967.244 |
+| 48.79–55.49 | "money brings no peace, and fame even less so. I'm talking about large amounts of money." | Dance of Death: The Miser (Death takes his heaped gold; pan from the miser to Death) | Hans Holbein the Younger | c. 1526 | CC0 (toned) | https://clevelandart.org/art/1929.161 |
+| 55.49–60.65 | "We'll do our best. If it works, it works. If it doesn't, it doesn't." | Poet Fisherman (at ease on his raft, line out, whatever the catch) | Korea, Joseon dynasty | 1800s | CC0 | https://clevelandart.org/art/1990.70 |
+| 70.60–75.73 | "it means peace… harmony… joy, constant joy" | Budai, the laughing monk | Jonan Etetsu | late 1400s | CC0 (toned) | https://clevelandart.org/art/1988.17 |
 
 ## 5. Notes on choices
-- **Obsession that can't see:** Burgkmair's Avarice is blindfolded and clutching her purse, so the picture shows "obsessed… not able to see as clearly" literally.
-- **Work:** Liang Kai's silk-makers. A pan across a whole household working carries "all beings work". A single man at his table carries "do your work, do your best".
-- **Keep going:** a barefoot ascetic walking on along the river. Later, "and then we just keep going. That's all" gets Buson's farmer walking home with his sheaf: the day's work done, nothing more to it.
-- **Money and fame** get worldly imagery: the jewelled prince, then Holbein's rich man at his gold while Death takes it. That is "money brings no peace" as an image.
-- **Peace, harmony, joy:** Zhao Mengfu's quiet river village.
-- **"You'll never get it":** the classic Zen picture of grasping. The gibbons reach for the moon in the water, and it can't be caught. The moon is faint in the painting itself; it sits low in the frame, under the reaching hand.
-- **Ending:** "It's like someone who tries to be happy… unhappy or miserable" is delivered to camera, so it stays on his face.
-- **Pacing:** head share is 45%, a little under the 50–60% guide, because the Cleary passage and three joins need images. No mode runs over 10.3 s.
-- **Captions on the sweatshirt:** his light-grey sweatshirt in this video sits just over the draft check's brightness line (mean 150–175). The halo keeps the captions legible, as in the other Chapter 2 Shorts from this video.
-- **Listen once:** I can't hear the audio. Please check the hook (0:00–0:08: the start on "if", the soft fifth "success" and two cuts under Avarice), the joins at 0:31.4 ("others, | and just keep going") and 0:55.5 ("money. | We'll do our best").
+- **Round 2 (the user's notes):**
+  - His face is back to the original video's natural colour. The source is phone HDR (HLG, BT.2020) and was being read as SDR, which made it flat and greenish. The pipeline now tone-maps it properly (`common.tonemap_vf`).
+  - Every image is a plain picture of what he says.
+  - Nothing flashes: every shot holds at least 3 s.
+- **Images that read at a glance:**
+  - Blind men falling into a ditch for "not able to see as clearly".
+  - Reapers for "all beings work".
+  - A smith at his forge for "do your work".
+  - A man walking on for "keep going".
+  - Death taking the miser's gold for "money brings no peace".
+  - A fisherman lying back with his line out for "if it works, it works; if it doesn't, it doesn't".
+  - Budai laughing for "joy, constant joy".
+- **Stays on his face:** the lines with no honest picture stay on him, as does the whole close from "But if you're totally obsessed…" to "…unhappy or miserable": the abstract Cleary lines, "money and fame", and "What does it mean anyway?".
+- **Pacing:** head share is 60% and no run goes over 12 s.
+- **Captions on the sweatshirt:** a few head shots still sit just over the draft check's brightness line (mean 150–164) on his light-grey sweatshirt. The halo keeps them legible.
+- **Listen once:** I can't hear the audio. Please check the hook (0:00–0:08: the start on "if", the soft fifth "success" and two cuts under the first image), the joins at 0:31.4 ("others, | and just keep going") and 0:55.5 ("money. | We'll do our best").
 
 ## 6. Thumbnails
-- `thumbnails/thumbnail_face.jpg`: frame 14:20.0, eyes open to the camera with his mouth at rest, cut from the 4K.
+- `thumbnails/thumbnail_face.jpg`: frame 14:20.0, eyes open to the camera with his mouth at rest, cut from the 4K and tone-mapped to natural colour.
 - `thumbnails/thumbnail_book_cover.jpg`: *The Essential Tao* (Cleary, HarperOne, ISBN 9780062502162). Amazon's scan is only 306×500, so it looks soft at full size.
 
 ## 7. Ten title suggestions
@@ -77,6 +81,6 @@ All images are CC0 from the Cleveland Museum of Art. Four are toned darker with 
 7. What Does Success Even Mean?
 8. Obsessed With Success? You Can't See Clearly
 9. Success Stays When You Stop Clinging to It
-10. Chasing Success Is Reaching for the Moon in the Water
+10. Success Means Peace, Not Money
 
 **Why #1:** it names a trap almost everyone recognises from their own life, and it says exactly what the hook says: "you're going to be obsessed, and you're not going to be able to see as clearly."

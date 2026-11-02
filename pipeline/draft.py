@@ -16,7 +16,7 @@ It writes .work/<slug>/draft_sheet_N.jpg (labelled contact sheets) and full-size
 
   BRIGHT  a caption sits on a light background (his white beard, pale paper): move it (caption_y) or change the crop
   JUMP    a segment join falls on a head shot with no image or dissolve over it: the jump cut would show
-  BLIP    a shot shorter than 1.2 s: a flash of him or of a painting that breaks the flow (merge it into a neighbour)
+  BLIP    a shot shorter than 3 s: a flash of him or of a painting that breaks the flow (hold it longer or merge it into a neighbour)
   DEAD    more than 0.8 s with nothing said across a join: tighten the segment ends
   TIGHT   a segment cut sits on his voice: it ends while he is still sounding (a clipped word tail, often a soft final
           syllable whisper times too early) or right before he goes on, or starts right after voice. Listen with
@@ -29,17 +29,19 @@ import argparse, json, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source
+from common import W, H, FPS, DISSOLVE, work_dir, source_path, source_info, head_source, tonemap_vf
 from render import Composer, Captions, CAP_CENTER_Y, FONT_MED
 from words import Env
 
 BRIGHT_MEAN, BRIGHT_P85 = 150, 195   # luminance under a caption above either reads as "light background"
+MIN_SHOT = 3.0  # every image, and every head shot between images, holds at least this long (user's rule: no flashes)
 VOICE_DB = -42.0  # analysis-WAV level above which he is voicing (room tone sits around -50)
 
 
 def grab(src, t, info):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", src, "-frames:v", "1",
-                          "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+    tm = tonemap_vf(src)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(t, 0):.3f}", "-i", src, "-frames:v", "1"] + (["-vf", tm] if tm else []) +
+                         ["-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.uint8).reshape(info["h"], info["w"], 3)
 
 
@@ -122,7 +124,7 @@ def main():
     # BLIP: very short shots; DEAD: silence across a join
     for i, s in enumerate(shots):
         d = min(s["t1"], prog) - s["t0"]
-        if d < 1.2 and s["t0"] < prog - 0.01:
+        if d < MIN_SHOT and s["t0"] < prog - 0.01:
             flags.append((s["t0"], f"BLIP: shot {i} ({s['kind']} {s.get('acc', '')}) at {s['t0']:.2f}s lasts only {d:.2f}s"))
     words = sorted((w for c in edl["captions"] for w in c["words"] + c.get("fillers", [])), key=lambda w: w["s"])
     for j in joins:

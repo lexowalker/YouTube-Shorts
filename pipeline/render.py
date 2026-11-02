@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 Image.MAX_IMAGE_PIXELS = None
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info, DISSOLVE
+from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info, DISSOLVE, tonemap_vf
 
 CAP_SIZE = 70
 CAP_CENTER_Y = 0.70  # fraction of H; a Short can set "caption_y" (a 4K close-up puts his beard here, so 0.83)
@@ -41,6 +41,7 @@ class HeadReader:
         import cv2
         self.cv2 = cv2
         self.src, self.t0 = src, t0  # source time t is at t - t0 in src (a high-resolution window, see fetch_hires.py)
+        self.tm = tonemap_vf(src)  # HDR sources: natural SDR colour (common.tonemap_vf)
         info = source_info(src)
         self.fps, self.sw, self.sh = info["fps"], info["w"], info["h"]
         self.cw = round(self.sh * 9 / 16)
@@ -71,7 +72,7 @@ class HeadReader:
         start = max(self.first, math.floor(ts * self.fps + 1e-6)) if ts is not None else self.first
         self.bx, self.bw = self.bands[si]
         self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{start / self.fps:.4f}", "-i", self.src,
-                                      "-t", f"{b - start / self.fps + 1:.3f}", "-vf", f"crop={self.bw}:{self.sh}:{self.bx}:0",
+                                      "-t", f"{b - start / self.fps + 1:.3f}", "-vf", f"crop={self.bw}:{self.sh}:{self.bx}:0" + (f",{self.tm}" if self.tm else ""),
                                       "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                      stdout=subprocess.PIPE)
         self.si, self.idx, self.cur = si, start - 1, None

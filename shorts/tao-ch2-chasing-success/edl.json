@@ -46,64 +46,64 @@
   },
   {
    "kind": "image",
-   "acc": "ext-avarice",
-   "file": ".work/img/ext-avarice_full.jpg",
+   "acc": "ext-blind",
+   "file": ".work/img/ext-blind_full.jpg",
    "crop": [
-    321,
-    78,
-    1212,
-    2155
+    990,
+    235,
+    1585,
+    2817
+   ],
+   "pan": 1485,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "the blind leading the blind into the ditch (pan from the stumbling leader to the fallen): 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)",
+   "t0": 3.513,
+   "t1": 8.4
+  },
+  {
+   "kind": "image",
+   "acc": "1952.544.2",
+   "file": ".work/img/1952.544.2_full.jpg",
+   "crop": [
+    654,
+    1287,
+    4343,
+    7721
    ],
    "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "note": "Avarice, blindfolded, clutching her purse: 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)",
-   "t0": 3.513,
-   "t1": 8.4
-  },
-  {
-   "kind": "image",
-   "acc": "1977.5",
-   "file": ".work/img/1977.5_full.jpg",
-   "crop": [
-    15736,
-    249,
-    1020,
-    1813
-   ],
-   "pan": 800,
-   "zoom": [
-    1.04,
-    1.0
-   ],
-   "note": "Liang Kai's Sericulture, a household at work tending the silkworms (slow pan): 'All beings work without exception' (on the join)",
+   "note": "reapers swinging their scythes at the harvest: 'All beings work without exception' (on the join)",
    "t0": 8.4,
-   "t1": 10.64
+   "t1": 11.5
   },
   {
    "kind": "head",
-   "t0": 10.64,
-   "t1": 20.5
+   "t0": 11.5,
+   "t1": 23.483
   },
   {
    "kind": "image",
-   "acc": "1977.5",
-   "file": ".work/img/1977.5_full.jpg",
+   "acc": "1995.69",
+   "file": ".work/img/1995.69_full.jpg",
    "crop": [
-    23260,
-    249,
-    1020,
-    1813
+    1629,
+    2040,
+    2338,
+    4156
    ],
    "pan": 0,
    "zoom": [
-    1.04,
+    1.08,
     1.0
    ],
-   "note": "the same scroll, one man bent over his work at the table: 'by this very nondwelling success will not leave… you just do your work, do your best' (covers the join)",
-   "t0": 20.5,
+   "note": "the blacksmith and his men at the glowing forge: 'So you just do your work, do your best' (on the join)",
+   "t0": 23.483,
    "t1": 27.84
   },
   {
@@ -126,38 +126,14 @@
     1.08,
     1.0
    ],
-   "note": "a barefoot ascetic walking on along the river: 'and just keep going' (on the join)",
+   "note": "a barefoot ascetic striding on along the river: 'and just keep going, don't be preoccupied with this abstract construct' (on the join)",
    "t0": 31.133,
-   "t1": 33.59
+   "t1": 36.91
   },
   {
    "kind": "head",
-   "t0": 33.59,
-   "t1": 36.643
-  },
-  {
-   "kind": "image",
-   "acc": "ext-prince",
-   "file": ".work/img/ext-prince_full.jpg",
-   "crop": [
-    1564,
-    2172,
-    2536,
-    4508
-   ],
-   "pan": 0,
-   "zoom": [
-    1.12,
-    1.0
-   ],
-   "note": "a jewelled prince of Bikaner, wealth and rank: 'success is measured… in terms of money and fame' (toned darker so the captions read; on the join)",
-   "t0": 36.643,
-   "t1": 45.03
-  },
-  {
-   "kind": "head",
-   "t0": 45.03,
-   "t1": 47.17
+   "t0": 36.91,
+   "t1": 48.79
   },
   {
    "kind": "image",
@@ -174,32 +150,27 @@
     1.04,
     1.0
    ],
-   "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so'",
-   "t0": 47.17,
-   "t1": 53.91
-  },
-  {
-   "kind": "head",
-   "t0": 53.91,
-   "t1": 55.223
+   "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so. I'm talking about large amounts of money'",
+   "t0": 48.79,
+   "t1": 55.49
   },
   {
    "kind": "image",
-   "acc": "1970.77",
-   "file": ".work/img/1970.77_full.jpg",
+   "acc": "1990.70",
+   "file": ".work/img/1990.70_full.jpg",
    "crop": [
-    528,
-    5053,
-    2842,
-    5053
+    1126,
+    0,
+    2296,
+    4082
    ],
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
-   "note": "Buson's farmer walking home with his sheaf, the ox below: 'we'll do our best… and then we just keep going. That's all' (on the join)",
-   "t0": 55.223,
+   "note": "a poet fisherman at ease on his raft, line out, whatever the catch: 'We'll do our best. If it works, it works. If it doesn't, it doesn't' (on the join)",
+   "t0": 55.49,
    "t1": 60.65
   },
   {
@@ -209,45 +180,26 @@
   },
   {
    "kind": "image",
-   "acc": "1978.66",
-   "file": ".work/img/1978.66_full.jpg",
+   "acc": "ext-budai",
+   "file": ".work/img/ext-budai_full.jpg",
    "crop": [
-    2735,
-    1560,
-    2282,
-    4056
+    435,
+    2674,
+    1979,
+    3518
    ],
    "pan": 0,
    "zoom": [
     1.08,
     1.0
    ],
-   "note": "Zhao Mengfu's quiet river village: 'peace… harmony… joy, constant joy'",
+   "note": "Budai, the laughing monk: 'it means peace. It means harmony. It means joy, constant joy'",
    "t0": 70.6,
    "t1": 75.73
   },
   {
-   "kind": "image",
-   "acc": "ext-gibbons",
-   "file": ".work/img/ext-gibbons_full.jpg",
-   "crop": [
-    0,
-    4784,
-    1596,
-    2837
-   ],
-   "pan": 0,
-   "zoom": [
-    1.06,
-    1.03
-   ],
-   "note": "gibbons hanging in a chain, the lowest reaching down for the moon's reflection below (toned darker so the captions read): 'if you're totally obsessed with getting that, you'll never get it'",
-   "t0": 75.73,
-   "t1": 80.91
-  },
-  {
    "kind": "head",
-   "t0": 80.91,
+   "t0": 75.73,
    "t1": 87.4
   }
  ],

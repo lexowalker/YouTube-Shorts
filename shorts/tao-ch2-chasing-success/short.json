@@ -439,11 +439,16 @@
     "seg": 1
    },
    "image": {
-    "acc": "ext-avarice",
-    "x0": 0.15,
-    "y0": 0.02,
-    "h": 0.55,
-    "note": "Avarice, blindfolded, clutching her purse: 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)"
+    "acc": "ext-blind",
+    "x0": 0.22,
+    "y0": 0.06,
+    "h": 0.72,
+    "pan": 1485,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "the blind leading the blind into the ditch (pan from the stumbling leader to the fallen): 'you're going to be obsessed, and you're not going to be able to see as clearly' (on the join; covers the second join)"
    }
   },
   {
@@ -451,40 +456,30 @@
     "seg": 3
    },
    "image": {
-    "acc": "1977.5",
-    "x0": 0.6105,
-    "y0": 0.11,
-    "h": 0.8,
-    "pan": 800,
-    "zoom": [
-     1.04,
-     1.0
-    ],
-    "note": "Liang Kai's Sericulture, a household at work tending the silkworms (slow pan): 'All beings work without exception' (on the join)"
+    "acc": "1952.544.2",
+    "x0": 0.06,
+    "y0": 0.12,
+    "h": 0.72,
+    "note": "reapers swinging their scythes at the harvest: 'All beings work without exception' (on the join)"
    }
   },
   {
    "at": {
-    "word": "If",
-    "after": 9
+    "word": "possessiveness,",
+    "after": 10
    },
    "head": true
   },
   {
    "at": {
-    "word": "then",
-    "after": 15
+    "seg": 4
    },
    "image": {
-    "acc": "1977.5",
-    "x0": 0.9024,
-    "y0": 0.11,
-    "h": 0.8,
-    "zoom": [
-     1.04,
-     1.0
-    ],
-    "note": "the same scroll, one man bent over his work at the table: 'by this very nondwelling success will not leave… you just do your work, do your best' (covers the join)"
+    "acc": "1995.69",
+    "x0": 0.3,
+    "y0": 0.27,
+    "h": 0.55,
+    "note": "the blacksmith and his men at the glowing forge: 'So you just do your work, do your best' (on the join)"
    }
   },
   {
@@ -503,38 +498,18 @@
     "x0": 0.3,
     "y0": 0.22,
     "h": 0.6,
-    "note": "a barefoot ascetic walking on along the river: 'and just keep going' (on the join)"
+    "note": "a barefoot ascetic striding on along the river: 'and just keep going, don't be preoccupied with this abstract construct' (on the join)"
    }
-  },
-  {
-   "at": {
-    "word": "don't",
-    "after": 31
-   },
-   "head": true
   },
   {
    "at": {
     "seg": 6
    },
-   "image": {
-    "acc": "ext-prince",
-    "x0": 0.29,
-    "y0": 0.265,
-    "h": 0.55,
-    "note": "a jewelled prince of Bikaner, wealth and rank: 'success is measured… in terms of money and fame' (toned darker so the captions read; on the join)"
-   }
-  },
-  {
-   "at": {
-    "word": "which",
-    "after": 40
-   },
    "head": true
   },
   {
    "at": {
-    "word": "money",
+    "word": "peace,",
     "after": 45
    },
    "image": {
@@ -547,26 +522,23 @@
      1.04,
      1.0
     ],
-    "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so'"
+    "note": "Holbein's rich man at his heaped gold as Death takes it (pan from the miser to Death): 'money brings no peace, and fame even less so. I'm talking about large amounts of money'"
    }
-  },
-  {
-   "at": {
-    "word": "I'm",
-    "after": 50
-   },
-   "head": true
   },
   {
    "at": {
     "seg": 7
    },
    "image": {
-    "acc": "1970.77",
-    "x0": 0.12,
-    "y0": 0.42,
-    "h": 0.42,
-    "note": "Buson's farmer walking home with his sheaf, the ox below: 'we'll do our best… and then we just keep going. That's all' (on the join)"
+    "acc": "1990.70",
+    "x0": 0.26,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "a poet fisherman at ease on his raft, line out, whatever the catch: 'We'll do our best. If it works, it works. If it doesn't, it doesn't' (on the join)",
+    "zoom": [
+     1.04,
+     1.0
+    ]
    }
   },
   {
@@ -581,34 +553,17 @@
     "after": 65
    },
    "image": {
-    "acc": "1978.66",
-    "x0": 0.42,
-    "y0": 0.25,
-    "h": 0.65,
-    "note": "Zhao Mengfu's quiet river village: 'peace… harmony… joy, constant joy'"
+    "acc": "ext-budai",
+    "x0": 0.12,
+    "y0": 0.38,
+    "h": 0.5,
+    "note": "Budai, the laughing monk: 'it means peace. It means harmony. It means joy, constant joy'"
    }
   },
   {
    "at": {
     "word": "But",
     "after": 72
-   },
-   "image": {
-    "acc": "ext-gibbons",
-    "x0": 0.0,
-    "y0": 0.607,
-    "h": 0.36,
-    "zoom": [
-     1.06,
-     1.03
-    ],
-    "note": "gibbons hanging in a chain, the lowest reaching down for the moon's reflection below (toned darker so the captions read): 'if you're totally obsessed with getting that, you'll never get it'"
-   }
-  },
-  {
-   "at": {
-    "word": "It's",
-    "after": 78
    },
    "head": true
   }
