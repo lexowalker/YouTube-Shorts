@@ -1,0 +1,314 @@
+{
+ "slug": "tao-ch2-closed-mind-v2",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 1035-1259 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "When conventional conceptions are forgotten to be conventional and taken for objective facts that no one questions, narrow-minded bigotry and blind prejudice develop unopposed: bigotry is a closed mind, locked into one way of conceiving things, when our whole view of the world is conditioned by our environment (Tao Te Ching, Chapter 2, Thomas Cleary's notes).",
+ "youtube_title": "You Can Be Bigoted on the Right, Left or Center",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   1105.84,
+   1110.0
+  ],
+  [
+   1038.62,
+   1053.54
+  ],
+  [
+   1092.4,
+   1105.3
+  ],
+  [
+   1110.5,
+   1132.7
+  ],
+  [
+   1188.9,
+   1219.28
+  ],
+  [
+   1220.76,
+   1223.5
+  ],
+  [
+   1225.76,
+   1246.28
+  ],
+  [
+   1252.88,
+   1256.3
+  ]
+ ],
+ "word_overrides": [],
+ "word_fixes": [],
+ "onset_fixes": [],
+ "phrases": [
+  "So, you can be | *bigoted",
+  "on the right,",
+  "you can be | bigoted",
+  "on the *left,",
+  "and you can | be bigoted",
+  "in the *center.",
+  "When it is | *forgotten",
+  "that conventional | conceptions",
+  "are *conventional | conceptions,",
+  "and they are | taken for",
+  "*objective | facts",
+  "that everyone | knows",
+  "and no one | *questions,",
+  "then narrow-minded | *bigotry",
+  "and blind | *prejudice",
+  "can develop | unopposed.",
+  "That *arrogance,",
+  "that *prejudice,",
+  "that bias, | and *bigotry",
+  "means having | a closed mind ~to, ~I ~mean,",
+  "it also | means whatever",
+  "you think,",
+  "exactly what | you think",
+  "it means,",
+  "but it | also means",
+  "just having | a *closed mind.",
+  "~But because | what it means",
+  "is you're not | *open",
+  "to new ways | of thinking",
+  "or *conceptions.",
+  "And so when | people get",
+  "*locked into | one fixed way",
+  "of conceptualizing | things...",
+  "Then the *person,",
+  "the *nation,",
+  "the world | starts to",
+  "*degenerate",
+  "because we're | locked into",
+  "one way of | conceiving things.",
+  "So, in my | grandfather's time,",
+  "*smoking was | thought to be",
+  "good for you.",
+  "Before my | grandfather's time,",
+  "if you didn't | *spank",
+  "your child,",
+  "something was | wrong",
+  "with you.",
+  "Now these two | attitudes",
+  "have *changed,",
+  "and attitudes | that came",
+  "thereafter | also have changed.",
+  "And the | attitudes",
+  "we have now",
+  "will also | *change.",
+  "So if you | get *locked",
+  "into one way | of looking",
+  "at things,",
+  "and you don't | *realize",
+  "that your | attitudes,",
+  "your whole way | of looking",
+  "at the *world",
+  "is totally | *conditioned",
+  "and determined | by your",
+  "*environment,",
+  "~you ~know, what you see | on *Instagram,",
+  "what you see | on TV,",
+  "what you see | on *TikTok",
+  "and X,",
+  "and what books | you've read",
+  "and what movies | you've seen.",
+  "See, we look | at a very",
+  "*tiny, tiny, | tiny little",
+  "slice of | the world,",
+  "and we call | it the world,",
+  "and that's | a *mistake.",
+  "And so | anybody",
+  "who can get | out of that",
+  "and look more | *holistically",
+  "can do | better",
+  "because they | can see",
+  "more *clearly."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1991.210",
+    "x0": 0.26,
+    "y0": 0.2,
+    "h": 0.75,
+    "note": "a shepherd driving his flock at dusk, panning from the sheep to the shepherd, every sheep going the one way: 'conventional conceptions… taken for objective facts that everyone knows and no one questions' (on the join)",
+    "pan": 1500,
+    "zoom": [
+     1.04,
+     1.0
+    ]
+   }
+  },
+  {
+   "at": {
+    "word": "then",
+    "after": 13
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "blind",
+    "after": 15
+   },
+   "image": {
+    "acc": "1966.11",
+    "x0": 0.42,
+    "y0": 0.15,
+    "h": 0.75,
+    "note": "The Blind Leading the Blind, the men tumbling into the ditch: 'blind prejudice can develop unopposed… that arrogance, that prejudice, that bias' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "means",
+    "after": 22
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "closed",
+    "after": 30
+   },
+   "image": {
+    "acc": "1916.2051",
+    "x0": 0.106,
+    "y0": 0.1,
+    "h": 0.75,
+    "note": "a shut 15th-century French door: 'just having a closed mind… not open to new ways of thinking… locked into one fixed way' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Then",
+    "after": 40
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "degenerate",
+    "after": 45
+   },
+   "image": {
+    "acc": "1958.472",
+    "x0": 0.36,
+    "y0": 0.15,
+    "h": 0.8,
+    "note": "Salvator Rosa, a ruined temple overgrown in a rocky landscape: 'the world starts to degenerate' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "smoking",
+    "after": 54
+   },
+   "image": {
+    "acc": "1916.1046",
+    "x0": 0.3,
+    "y0": 0.28,
+    "h": 0.65,
+    "note": "Teniers, peasants puffing their pipes in an inn: 'smoking was thought to be good for you'"
+   }
+  },
+  {
+   "at": {
+    "word": "Before",
+    "after": 58
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "Now",
+    "after": 65
+   },
+   "image": {
+    "acc": "1917.1335",
+    "x0": 0.28,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Cole, Schroon Mountain after a storm, the weather turning and the leaves turning: 'these two attitudes have changed… the attitudes we have now will also change'"
+   }
+  },
+  {
+   "at": {
+    "word": "So",
+    "after": 75
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "acc": "ext-homer-crowd",
+    "x0": 0.36,
+    "y0": 0.05,
+    "h": 0.85,
+    "note": "Winslow Homer, a crowd with every face turned up to the same spectacle: 'conditioned and determined by your environment, what you see on Instagram… TV… TikTok and X… what movies you've seen' (on the false-start join; covers the next join)"
+   }
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 94.5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "slice",
+    "after": 97
+   },
+   "image": {
+    "acc": "1994.198",
+    "x0": 0.24,
+    "y0": 0.25,
+    "h": 0.6,
+    "note": "Catel, a View of Naples through a Window: one narrow slice of the city framed by curtains: 'a very tiny little slice of the world, and we call it the world'"
+   }
+  },
+  {
+   "at": {
+    "word": "And",
+    "after": 104
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "holistically",
+    "after": 105
+   },
+   "image": {
+    "acc": "1977.30",
+    "x0": 0.52,
+    "y0": 0.15,
+    "h": 0.6,
+    "note": "Sōami, two men on a high terrace gazing out over the whole misty lake: 'look more holistically… can see more clearly' (covers the join; under the end-card dissolve)"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ },
+ "words_note": "word timings carried over from the approved v1 EDL (shorts/tao-ch2-closed-mind/edl.json), which already include v1's word_overrides and word_fixes; large-v3 on each burst: 'how you were (1224.4-1224.7), how (1225.3-1225.66), you know what (1225.86-1226.16) you see on Instagram'. The clip now starts in the dip at 1225.76, so the repeated 'how' is cut, and the fast 'you know' (inseparable from 'what') stays in the audio, hidden from the captions. v1 started at 1225.68 and timed 'what' on 'you'"
+}
