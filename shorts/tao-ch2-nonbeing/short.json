@@ -1,0 +1,331 @@
+{
+ "slug": "tao-ch2-nonbeing",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 502-637 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Being and nonbeing produce each other: nonbeing (God, the Tao, the Nagual, the infinite, the nameless) is the ground that produces everything that exists, and even science cannot say what was there before the Big Bang (Tao Te Ching, Chapter 2, Thomas Cleary translation).",
+ "youtube_title": "What Was There Before the Big Bang?",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   541.3,
+   546.28
+  ],
+  [
+   506.42,
+   522.62
+  ],
+  [
+   523.75,
+   526.75
+  ],
+  [
+   535.0,
+   539.37
+  ],
+  [
+   566.8,
+   599.8
+  ],
+  [
+   602.9,
+   616.36
+  ],
+  [
+   619.6,
+   633.8
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 620.9,
+   "to": 621.8,
+   "words": [
+    [
+     "somewhat",
+     620.96,
+     621.28
+    ],
+    [
+     "humble",
+     621.44,
+     621.74
+    ]
+   ],
+   "why": "envelope: voice 621.0-621.7, then a pause to 623.2 ('in that regard'); medium.en stretched 'humble' over the pause"
+  },
+  {
+   "from": 592.8,
+   "to": 593.6,
+   "words": [
+    [
+     "Without",
+     592.96,
+     593.4
+    ],
+    [
+     "there",
+     593.48,
+     593.64
+    ]
+   ],
+   "why": "one 'there': the envelope has two bursts for 'With-out', then 'there is' (593.48-593.84); large-v3 and the final QA pass agree"
+  }
+ ],
+ "word_fixes": [
+  {
+   "near": 541.14,
+   "from": "If",
+   "to": "If",
+   "s": 541.46
+  },
+  {
+   "near": 566.0,
+   "from": "We",
+   "to": "We",
+   "s": 567.02
+  },
+  {
+   "near": 589.96,
+   "from": "everything",
+   "to": "everything",
+   "s": 590.6
+  },
+  {
+   "near": 584.94,
+   "from": "but",
+   "to": "but",
+   "s": 585.94
+  }
+ ],
+ "onset_fixes": [],
+ "phrases": [
+  "If nothing | *existed,",
+  "how could | non-existent *exist?",
+  "So being | and *non-being",
+  "produce | each other.",
+  "This is | a little bit",
+  "*mysterious.",
+  "Being and | non-being",
+  "produce | each *other",
+  "And you'll recall | chapter one",
+  "where we | talked about",
+  "*non-being | is called",
+  "the beginning | of *heaven",
+  "and earth.",
+  "Being is called | the *mother",
+  "of all things.",
+  "So *how | do being",
+  "and non-being | produce each other?",
+  "Well, if there | wasn't *being,",
+  "how could there | be *non-being?",
+  "We know that | *non-being,",
+  "the God, | the *Nagual,",
+  "the Tao, | the way,",
+  "*nature,",
+  "Brahma, | Allah,",
+  "the *infinite,",
+  "the constant,",
+  "the *nameless,",
+  "the one | with a",
+  "thousand *names, ~that",
+  "I'm just going | to call it",
+  "*substrate,",
+  "but we could | call it",
+  "the *foundation, | the ground.",
+  "That *produces | everything",
+  "that exists.",
+  "Without there | is",
+  "no *existence.",
+  "There is | no *being.",
+  "So the way | in which",
+  "*non-being | produces being,",
+  "that should | be clear.",
+  "Let's use the | Big *Bang",
+  "theory,",
+  "which is | sounding more",
+  "and more *funny | every year.",
+  "We have | no *idea",
+  "where things | were before",
+  "the Big *Bang.",
+  "Before there | was *time,",
+  "for example.",
+  "Before there | was *anything",
+  "in the universe.",
+  "~So, science | is somewhat *humble",
+  "in that regard.",
+  "They realize | they can *never",
+  "get to | the world.",
+  "They can only | provide",
+  "*descriptions | of the world.",
+  "At least | I hope",
+  "they *understand | that.",
+  "Not all of | them do,",
+  "but the | *good ones do."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1933.220",
+    "x0": 0.45,
+    "y0": 0.12,
+    "h": 0.75,
+    "pan": 2900,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Mi Youren's Cloudy Mountains, peaks forming out of empty mist (handscroll, slow pan): 'being and nonbeing produce each other. This is a little bit mysterious.' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Being",
+    "after": 9
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "beginning",
+    "after": 14
+   },
+   "image": {
+    "acc": "1959.348",
+    "x0": 0.15,
+    "y0": 0.26,
+    "h": 0.358,
+    "note": "Juran's towering mountain from sky to stream: 'the beginning of heaven and earth… the mother of all things' (covers two joins)"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "image": {
+    "acc": "1953.126",
+    "x0": 0.2,
+    "y0": 0.05,
+    "h": 0.9,
+    "pan": 4000,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Streams and Mountains without End (handscroll, slow pan): 'nonbeing, God, the Nagual, the Tao, the way, nature' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Brahma",
+    "after": 28
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "infinite",
+    "after": 30
+   },
+   "image": {
+    "acc": "ext-hudf",
+    "x0": 0.22,
+    "y0": 0.0,
+    "h": 1.0,
+    "note": "Hubble Ultra Deep Field: 'the infinite, the constant, the nameless, the one with a thousand names… substrate'"
+   }
+  },
+  {
+   "at": {
+    "word": "but",
+    "after": 40
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "That produces",
+    "after": 45
+   },
+   "image": {
+    "acc": "1977.4",
+    "x0": 0.395,
+    "y0": 0.04,
+    "h": 0.92,
+    "pan": 2000,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Flowers of the Four Seasons (handscroll, slow pan): 'That produces everything that exists'"
+   }
+  },
+  {
+   "at": {
+    "word": "Without",
+    "after": 50
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "acc": "1940.986",
+    "x0": 0.36,
+    "y0": 0.02,
+    "h": 0.45,
+    "note": "Hiroshige's fireworks bursting in the night sky: 'the Big Bang theory… before the Big Bang' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Before",
+    "after": 70.5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "1926.441",
+    "x0": 0.45,
+    "y0": 0.16,
+    "h": 0.6,
+    "note": "scholars with an armillary sphere: 'science is somewhat humble in that regard' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "They",
+    "after": 78
+   },
+   "head": true
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}
