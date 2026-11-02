@@ -1,0 +1,436 @@
+{
+ "slug": "tao-ch2-closed-mind",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 1035-1259 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "When conventional conceptions are forgotten to be conventional and taken for objective facts that no one questions, narrow-minded bigotry and blind prejudice develop unopposed: bigotry is a closed mind, locked into one way of conceiving things, when our whole view of the world is conditioned by our environment (Tao Te Ching, Chapter 2, Thomas Cleary's notes).",
+ "youtube_title": "You Can Be Bigoted on the Right, Left or Center",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   1105.84,
+   1110.0
+  ],
+  [
+   1038.62,
+   1053.54
+  ],
+  [
+   1092.4,
+   1105.3
+  ],
+  [
+   1110.5,
+   1132.7
+  ],
+  [
+   1188.9,
+   1219.28
+  ],
+  [
+   1220.76,
+   1223.5
+  ],
+  [
+   1225.68,
+   1246.28
+  ],
+  [
+   1252.88,
+   1256.3
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 1040.0,
+   "to": 1042.25,
+   "words": [
+    [
+     "conventional",
+     1040.18,
+     1040.6
+    ],
+    [
+     "conceptions",
+     1040.6,
+     1041.4
+    ]
+   ],
+   "why": "small.en and large-v3: 'conventional conceptions are conventional conceptions' (Cleary's note); medium.en heard 'conventions'"
+  },
+  {
+   "from": 1225.2,
+   "to": 1226.3,
+   "words": [
+    [
+     "what",
+     1225.86,
+     1226.0
+    ],
+    [
+     "you",
+     1226.0,
+     1226.3
+    ]
+   ],
+   "why": "the clip starts after 'how you were, you know'; 'what you see' begins at 1225.86 (envelope)"
+  },
+  {
+   "from": 1243.6,
+   "to": 1246.3,
+   "words": [
+    [
+     "more",
+     1243.7,
+     1244.0
+    ],
+    [
+     "holistically",
+     1244.82,
+     1246.2
+    ]
+   ],
+   "why": "envelope: 'holistically' runs 1244.82-1246.2 (medium.en); large-v3 hears 'look more' end by 1244.0; 'using the left attention' (from 1246.36) is cut"
+  },
+  {
+   "from": 1188.9,
+   "to": 1189.5,
+   "words": [
+    [
+     "So,",
+     1189.12,
+     1189.24
+    ]
+   ],
+   "why": "the long-context QA pass hears 'So' at 1189.12; 'in my grandfather's time' follows at 1189.64"
+  },
+  {
+   "from": 1219.25,
+   "to": 1222.1,
+   "words": [
+    [
+     "conditioned",
+     1220.82,
+     1221.42
+    ],
+    [
+     "and",
+     1221.45,
+     1221.7
+    ],
+    [
+     "determined",
+     1221.72,
+     1222.1
+    ]
+   ],
+   "why": "large-v3 on each burst: 'totally… uh, deter-, couldn't… conditioned and determined'; the false start (1219.3-1220.76) is cut"
+  }
+ ],
+ "word_fixes": [
+  {
+   "near": 1251.02,
+   "from": "can",
+   "to": "can",
+   "s": 1252.96
+  },
+  {
+   "near": 1038.34,
+   "from": "When",
+   "to": "When",
+   "s": 1038.95
+  },
+  {
+   "near": 1044.42,
+   "from": "and",
+   "to": "and",
+   "s": 1045.1
+  },
+  {
+   "near": 1227.08,
+   "from": "Instagram,",
+   "to": "Instagram,",
+   "s": 1227.48
+  }
+ ],
+ "onset_fixes": [],
+ "phrases": [
+  "So, you can be | *bigoted",
+  "on the right,",
+  "you can be | bigoted",
+  "on the *left,",
+  "and you can | be bigoted",
+  "in the *center.",
+  "When it is | *forgotten",
+  "that conventional | conceptions",
+  "are *conventional | conceptions,",
+  "and they are | taken for",
+  "*objective | facts",
+  "that everyone | knows",
+  "and no one | *questions,",
+  "then narrow-minded | *bigotry",
+  "and blind | *prejudice",
+  "can develop | unopposed.",
+  "That *arrogance,",
+  "that *prejudice,",
+  "that bias, | and *bigotry",
+  "means having | a closed mind ~to, ~I ~mean,",
+  "it also | means whatever",
+  "you think,",
+  "exactly what | you think",
+  "it means,",
+  "but it | also means",
+  "just having | a *closed mind.",
+  "~But because | what it means",
+  "is you're not | *open",
+  "to new ways | of thinking",
+  "or *conceptions.",
+  "And so when | people get",
+  "*locked into | one fixed way",
+  "of conceptualizing | things...",
+  "Then the *person,",
+  "the *nation,",
+  "the world | starts to",
+  "*degenerate",
+  "because we're | locked into",
+  "one way of | conceiving things.",
+  "So, in my | grandfather's time,",
+  "*smoking was | thought to be",
+  "good for you.",
+  "Before my | grandfather's time,",
+  "if you didn't | *spank",
+  "your child,",
+  "something was | wrong",
+  "with you.",
+  "Now these two | attitudes",
+  "have *changed,",
+  "and attitudes | that came",
+  "thereafter | also have changed.",
+  "And the | attitudes",
+  "we have now",
+  "will also | *change.",
+  "So if you | get *locked",
+  "into one way | of looking",
+  "at things,",
+  "and you don't | *realize",
+  "that your | attitudes,",
+  "your whole way | of looking",
+  "at the *world",
+  "is totally | *conditioned",
+  "and determined | by your",
+  "*environment,",
+  "what you see | on *Instagram,",
+  "what you see | on TV,",
+  "what you see | on *TikTok",
+  "and X,",
+  "and what books | you've read",
+  "and what movies | you've seen.",
+  "See, we look | at a very",
+  "*tiny, tiny, | tiny little",
+  "slice of | the world,",
+  "and we call | it the world,",
+  "and that's | a *mistake.",
+  "And so | anybody",
+  "who can get | out of that",
+  "and look more | *holistically",
+  "can do | better",
+  "because they | can see",
+  "more *clearly."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "1966.11",
+    "x0": 0.12,
+    "y0": 0.02,
+    "h": 0.75,
+    "note": "The Blind Leading the Blind, the leader striding ahead and the rest following: 'conventional conceptions… taken for objective facts' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "that",
+    "after": 12
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "blind",
+    "after": 15
+   },
+   "image": {
+    "acc": "1966.11",
+    "x0": 0.42,
+    "y0": 0.15,
+    "h": 0.75,
+    "note": "the same print, the blind men tumbling: 'blind prejudice can develop unopposed… that arrogance, that prejudice, that bias, and bigotry' (two crops of one print, cut on the word; covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "means",
+    "after": 22
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "closed",
+    "after": 30
+   },
+   "image": {
+    "acc": "ext-doors",
+    "x0": 0.16,
+    "y0": 0.15,
+    "h": 0.7,
+    "note": "a pair of closed doors: 'just having a closed mind… not open to new ways of thinking… locked into one fixed way of conceptualizing things' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "Then",
+    "after": 40
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "degenerate",
+    "after": 45
+   },
+   "image": {
+    "acc": "1981.13",
+    "x0": 0.02,
+    "y0": 0.05,
+    "h": 0.85,
+    "note": "John Martin's Ruins of an Ancient City: 'the world starts to degenerate' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "smoking",
+    "after": 54
+   },
+   "image": {
+    "acc": "1924.663",
+    "x0": 0.3,
+    "y0": 0.2,
+    "h": 0.65,
+    "note": "Ostade's smoker at the window: 'smoking was thought to be good for you'"
+   }
+  },
+  {
+   "at": {
+    "word": "Before",
+    "after": 58
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "Now",
+    "after": 65
+   },
+   "image": {
+    "acc": "1972.157",
+    "x0": 0.13,
+    "y0": 0.42,
+    "h": 0.51,
+    "note": "a waterfall, never the same water twice: 'these two attitudes have changed… the attitudes we have now will also change'"
+   }
+  },
+  {
+   "at": {
+    "word": "So",
+    "after": 75
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "acc": "2025.85",
+    "x0": 0.38,
+    "y0": 0.2,
+    "h": 0.62,
+    "note": "a whole world inside one small circle (Suzhou print): 'conditioned and determined by your environment' (on the join that drops a false start; covers the next join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "1916.1154",
+    "x0": 0.35,
+    "y0": 0.1,
+    "h": 0.9,
+    "pan": 1200,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "a packed Edo theatre, every eye on the stage: 'what you see on Instagram, what you see on TV, what you see on TikTok and X' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 94.5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "slice",
+    "after": 97
+   },
+   "image": {
+    "acc": "1955.297",
+    "x0": 0.41,
+    "y0": 0.27,
+    "h": 0.45,
+    "note": "a princess looking out of one small window: 'a very tiny little slice of the world, and we call it the world'"
+   }
+  },
+  {
+   "at": {
+    "word": "And",
+    "after": 104
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "holistically",
+    "after": 105
+   },
+   "image": {
+    "acc": "1961.88",
+    "x0": 0.15,
+    "y0": 0.45,
+    "h": 0.5,
+    "note": "Lonely Retreat Overlooking a Misty Valley: 'look more holistically… can do better because they can see more clearly' (covers the join that drops 'using the left attention'; under the end-card dissolve)"
+   }
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}
