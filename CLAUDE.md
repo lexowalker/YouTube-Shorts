@@ -2,6 +2,19 @@
 
 This repo turns David E. Arredondo's long-form readings of the Tao Te Ching (Thomas Cleary translation) into vertical Shorts, all in one consistent house style.
 
+## Start here: every Short is one of the two kinds below
+
+When the user asks for "a short" in any wording, it is **always** either a Reading Short or a Teaching Short, made with that kind's skill, pipeline and style doc. Never design a new look, write a one-off build script, or start from scratch. If something the style can't handle comes up (e.g. a new source format), fix it in `pipeline/` and the style doc so every later Short gets it too.
+
+- Pick the kind:
+  - "reading of ch N", "chapter N read through" → **Reading Short** (`reading-short` skill).
+  - A teaching, a discussion, a point he makes, a video or timestamp to cut from, "Discussion 1/2" → **Teaching Short** (`make-short` skill).
+  - Just "make a short" or "the next short" → run `python3 -I pipeline/schedule.py status`, take the next Short due that isn't made, tell the user which one (chapter, Reading / D1 / D2, date) and make it with that kind's skill.
+  - Still ambiguous → ask one question: "Reading of chapter N, or a teaching Short?"
+- Load the skill first (Skill tool, or read its `SKILL.md`), then its style doc, then copy the reference Short's spec. Don't skip this even for a "quick" Short.
+- Check `shorts/` before making a Short: if that chapter's Reading / D1 / D2 already exists, say so and ask before making another.
+- Keep `main` the source of truth. New sessions start from `main`, so a Short or a style change that stays on a side branch is invisible to them. Once the user approves a Short or a style change, merge it into `main`.
+
 - There are two kinds of Short:
   - **Reading Shorts:** "make a short of the reading of ch N". One chapter read straight through, captioned line by line, in the fixed look of `shorts/tao-ch1-gateway-of-marvels/`. Follow the `reading-short` skill (`.claude/skills/reading-short/SKILL.md`). The style is in `docs/reading-style.md` and the pipeline is `pipeline/reading.py`.
   - **Teaching Shorts:** one teaching cut from his commentary, with paintings. Follow the `make-short` skill (`.claude/skills/make-short/SKILL.md`). They run about 90 s. Each comes with two thumbnails and 10 title suggestions.
