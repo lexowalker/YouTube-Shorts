@@ -1,0 +1,318 @@
+{
+ "slug": "tao-ch2-dwelling-on-success",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 737-923 s via pipeline/fetch_hires.py)"
+ },
+ "teaching": "Do not dwell on success, and by this very nondwelling success will not leave: do your work, do your best and keep going; obsess over success (money and fame) and you cannot see clearly (Tao Te Ching, Chapter 2, Thomas Cleary translation).",
+ "youtube_title": "The More You Chase Success, the Less You See",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   815.62,
+   819.35
+  ],
+  [
+   823.25,
+   824.72
+  ],
+  [
+   826.45,
+   829.6
+  ],
+  [
+   740.7,
+   755.76
+  ],
+  [
+   830.4,
+   838.0
+  ],
+  [
+   840.05,
+   845.06
+  ],
+  [
+   846.72,
+   865.2
+  ],
+  [
+   886.47,
+   891.6
+  ],
+  [
+   893.5,
+   920.1
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 837.1,
+   "to": 837.9,
+   "words": [
+    [
+     "or",
+     837.18,
+     837.42
+    ],
+    [
+     "to",
+     837.42,
+     837.56
+    ],
+    [
+     "others,",
+     837.56,
+     837.96
+    ]
+   ],
+   "why": "small.en and large-v3: 'or to others'"
+  },
+  {
+   "from": 835.9,
+   "to": 836.4,
+   "words": [
+    [
+     "don't",
+     835.92,
+     836.44
+    ]
+   ],
+   "why": "the two medium.en passes overlap here and both kept 'don't'"
+  }
+ ],
+ "word_fixes": [
+  {
+   "near": 815.52,
+   "from": "if",
+   "to": "If",
+   "s": 815.64
+  },
+  {
+   "near": 823.1,
+   "from": "you're",
+   "to": "you're",
+   "s": 823.4
+  },
+  {
+   "near": 893.48,
+   "from": "But",
+   "to": "But",
+   "s": 893.72
+  },
+  {
+   "near": 837.96,
+   "from": "and",
+   "to": "and",
+   "s": 837.7,
+   "e": 837.86
+  }
+ ],
+ "onset_fixes": [],
+ "phrases": [
+  "If all | you're focused on",
+  "is *success, | success, success,",
+  "success, | success,",
+  "you're going | to be",
+  "*obsessed",
+  "and you're not | going to be",
+  "able to see | as *clearly.",
+  "All beings work | without *exception.",
+  "If they live | without *possessiveness,",
+  "act without | *presumption,",
+  "and do not | dwell on *success,",
+  "then by this | very *non-dwelling",
+  "success | will not leave.",
+  "So you just | do your *work,",
+  "do your *best,",
+  "try not to | make *assumptions,",
+  "don't lie | to *yourself",
+  "or to others,",
+  "and just | keep *going",
+  "and don't be | *preoccupied",
+  "with this abstract | *construct.",
+  "In America | these days,",
+  "*success is | measured",
+  "almost entirely | in terms of",
+  "*money | and fame,",
+  "which is *crazy, | insanity,",
+  "because money | brings no *peace",
+  "and fame | even less so.",
+  "I'm talking about | large amounts",
+  "of *money.",
+  "we'll do | our *best.",
+  "If it works, | it works.",
+  "If it doesn't, | it doesn't.",
+  "And then we | just keep *going.",
+  "That's all.",
+  "But we don't, ~like, | become *obsessed",
+  "with this | word success.",
+  "What does it | mean *anyway?",
+  "I mean, | in my world,",
+  "it means *peace.",
+  "It means *harmony.",
+  "It means joy, | constant *joy.",
+  "But if you're | totally *obsessed",
+  "with getting that,",
+  "you'll *never | get it.",
+  "It's like someone | who tries",
+  "to be *happy.",
+  "That's a | *guaranteed recipe",
+  "for being | unhappy",
+  "or *miserable."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "image": {
+    "acc": "ext-avarice",
+    "x0": 0.12,
+    "y0": 0.04,
+    "h": 0.55,
+    "note": "Avarice, blindfolded and clutching her purse: 'you're going to be obsessed, and you're not going to be able to see as clearly' (covers two joins)"
+   }
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "acc": "1977.5",
+    "x0": 0.38,
+    "y0": 0.07,
+    "h": 0.86,
+    "pan": 800,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Liang Kai's Sericulture, villagers at every stage of silk-making (handscroll, slow pan): 'All beings work without exception' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "act",
+    "after": 12
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "then",
+    "after": 19
+   },
+   "image": {
+    "acc": "1977.5",
+    "x0": 0.745,
+    "y0": 0.07,
+    "h": 0.86,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "the same scroll, women at work at the table: 'by this very nondwelling success will not leave… you just do your work, do your best, try not to make assumptions' (covers two joins)"
+   }
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "acc": "2018.188",
+    "x0": 0.245,
+    "y0": 0.27,
+    "h": 0.6,
+    "note": "a jewelled prince of Bikaner: 'success is measured almost entirely in terms of money and fame' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "which",
+    "after": 41
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "money",
+    "after": 45
+   },
+   "image": {
+    "acc": "1999.226.a",
+    "x0": 0.22,
+    "y0": 0.0,
+    "h": 1.0,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "a gold coin: 'money brings no peace, and fame even less so'"
+   }
+  },
+  {
+   "at": {
+    "word": "I'm",
+    "after": 52
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "image": {
+    "acc": "1967.244",
+    "x0": 0.21,
+    "y0": 0.15,
+    "h": 0.75,
+    "note": "a Jain ascetic walking on along the river: 'we'll do our best… and then we just keep going' (on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "peace.",
+    "after": 68
+   },
+   "image": {
+    "acc": "1978.66",
+    "x0": 0.52,
+    "y0": 0.25,
+    "h": 0.65,
+    "note": "Zhao Mengfu's River Village: Fisherman's Joy: 'peace… harmony… joy, constant joy'"
+   }
+  },
+  {
+   "at": {
+    "word": "But",
+    "after": 73
+   },
+   "head": true
+  }
+ ],
+ "endcard": {
+  "dur": 4.0
+ },
+ "thumbnails": {
+  "book": "The Essential Tao, Thomas Cleary (HarperOne, ISBN 9780062502162)"
+ }
+}

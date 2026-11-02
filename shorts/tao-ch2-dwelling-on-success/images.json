@@ -1,0 +1,128 @@
+[
+ {
+  "short_start_s": 3.463,
+  "short_end_s": 8.35,
+  "accession": "ext-avarice",
+  "title": "The Seven Vices: Avarice",
+  "artist": "Hans Burgkmair (German, 1473–1531)",
+  "date": "c. 1510",
+  "license": "CC0 (Cleveland Museum of Art 1923.239; toned darker for caption legibility)",
+  "source_page": "https://clevelandart.org/art/1923.239",
+  "image_file_url": "https://clevelandart.org/art/1923.239",
+  "crop_xywh_px": [
+   256,
+   157,
+   1212,
+   2155
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 8.35,
+  "short_end_s": 13.69,
+  "accession": "1977.5",
+  "title": "Sericulture (The Process of Making Silk)",
+  "artist": "Liang Kai (Chinese, mid-1100s–early 1200s)",
+  "date": "early 1200s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1977.5",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1977.5/1977.5_full.tif",
+  "crop_xywh_px": [
+   9795,
+   159,
+   1096,
+   1949
+  ],
+  "motion": "horizontal pan 800 px, zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 20.32,
+  "short_end_s": 31.01,
+  "accession": "1977.5",
+  "title": "Sericulture (The Process of Making Silk)",
+  "artist": "Liang Kai (Chinese, mid-1100s–early 1200s)",
+  "date": "early 1200s",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1977.5",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1977.5/1977.5_full.tif",
+  "crop_xywh_px": [
+   19203,
+   159,
+   1096,
+   1949
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 35.753,
+  "short_end_s": 44.02,
+  "accession": "2018.188",
+  "title": "Portrait of Prince Sur Singh Rathor of Bikaner (1594–1631)",
+  "artist": "Unknown, Northwestern India, Rajasthan, Rajput Kingdom of Bikaner",
+  "date": "1611–13",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/2018.188",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/2018.188/2018.188_full.tif",
+  "crop_xywh_px": [
+   1321,
+   2213,
+   2766,
+   4918
+  ],
+  "motion": "zoom-out 1.12x→1.00x, linear"
+ },
+ {
+  "short_start_s": 46.18,
+  "short_end_s": 52.94,
+  "accession": "1999.226.a",
+  "title": "Coin of Kushan King Vasudeva I (obverse)",
+  "artist": "Unknown, India, Mathura, Kushan period",
+  "date": "c. 142/145+",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1999.226.a",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1999.226.a/1999.226.a_full.tif",
+  "crop_xywh_px": [
+   1243,
+   0,
+   3179,
+   5651
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 54.233,
+  "short_end_s": 59.63,
+  "accession": "1967.244",
+  "title": "Jain Ascetic Walking Along a Riverbank",
+  "artist": "Basavana (Indian, active c. 1560–1600)",
+  "date": "c. 1600",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1967.244",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1967.244/1967.244_full.tif",
+  "crop_xywh_px": [
+   949,
+   927,
+   2608,
+   4636
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ },
+ {
+  "short_start_s": 69.38,
+  "short_end_s": 74.92,
+  "accession": "1978.66",
+  "title": "River Village:  Fisherman's Joy",
+  "artist": "Zhao Mengfu (Chinese, 1254–1322)",
+  "date": "c. 1302–3",
+  "license": "CC0",
+  "source_page": "https://clevelandart.org/art/1978.66",
+  "image_file_url": "https://openaccess-cdn.clevelandart.org/1978.66/1978.66_full.tif",
+  "crop_xywh_px": [
+   3386,
+   1560,
+   2282,
+   4056
+  ],
+  "motion": "zoom-out 1.08x→1.00x, linear"
+ }
+]
