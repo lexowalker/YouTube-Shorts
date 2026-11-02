@@ -3,6 +3,7 @@
 Source: https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty
 
 - File: `short4-closed-mind.mp4`, 1080×1920, 30 fps, 115.3 s (111.3 s of speech + 4 s end card), audio normalized to −14 LUFS
+- Colour: source is HDR (HLG / BT.2020); tone-mapped to SDR BT.709 (zscale + hable) so skin tones look natural
 - Layout: square crop of the speaker over a blurred copy of the same frame. Hook title at the top, word-by-word captions below the video, and a "Thomas Cleary" label during line 2
 - End card: "Tao Te Ching, Chapters 2 & 3 · 'When Everyone Knows Beauty Is Beauty' · Full talk linked below"
 - Rebuild: `python3 build.py SOURCE.mp4 words.json OUTDIR` (words.json = word timestamps from faster-whisper small.en)

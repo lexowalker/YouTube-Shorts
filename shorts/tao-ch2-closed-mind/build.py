@@ -101,8 +101,11 @@ for i, (a, b, _) in enumerate(SEGS):
                  f"[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={d-0.03:.3f}:d=0.03[a{i}];")
 fc = "".join(parts)
 fc += "".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[cv][ca];"
-fc += f"[cv]tpad=stop_mode=clone:stop_duration={END_CARD},split[c1][c2];"
-fc += "[c1]crop=480:480:265:0,scale=1080:1080:flags=lanczos,eq=contrast=1.04:saturation=1.05[fg];"
+# Source is HDR (HLG / BT.2020): tone-map to SDR BT.709 so colours aren't washed out
+TONEMAP = ("zscale=tin=arib-std-b67:min=bt2020nc:pin=bt2020:t=linear:npl=100,format=gbrpf32le,"
+           "zscale=p=bt709,tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
+fc += f"[cv]{TONEMAP},tpad=stop_mode=clone:stop_duration={END_CARD},split[c1][c2];"
+fc += "[c1]crop=480:480:265:0,scale=1080:1080:flags=lanczos[fg];"
 fc += "[c2]crop=270:480:292:0,scale=1080:1920,boxblur=30:3,eq=brightness=-0.22[bg];"
 fc += "[bg][fg]overlay=0:360,"
 # end card: darken fully over last 4 s
@@ -110,7 +113,7 @@ fc += f"drawbox=x=0:y=0:w=iw:h=ih:color=black@0.82:t=fill:enable='gte(t,{SPEECH}
 fc += f"ass={OUT}/captions.ass,format=yuv420p[v];"
 fc += f"[ca]apad=pad_dur={END_CARD},loudnorm=I=-14:TP=-1.5:LRA=11[a]"
 cmd = ["ffmpeg", "-y", "-v", "error", "-i", SRC, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
-       "-t", f"{TOTAL:.3f}", "-r", "30", "-c:v", "libx264", "-preset", "slow", "-crf", "18",
+       "-t", f"{TOTAL:.3f}", "-r", "30", "-c:v", "libx264", "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-preset", "slow", "-crf", "18",
        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", f"{OUT}/short4-closed-mind.mp4"]
 subprocess.run(cmd, check=True)
 print(f"speech {SPEECH:.1f}s + end card {END_CARD}s = {TOTAL:.1f}s")
