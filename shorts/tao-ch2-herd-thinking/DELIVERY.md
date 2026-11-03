@@ -31,23 +31,28 @@ Every cut falls in a pause, with a 12 ms fade at each join. Every join but the l
 
 He makes a few small repeats ("examples, just, you just have to", "look at, look at history", "of, of the herd"), and there's an "And" and a "but still, I mean" before "I'm thinking of thalidomide". These stay in the audio and are left off the captions.
 
-## 4. Images
-All are from the Cleveland Museum of Art Open Access collection (CC0), full-resolution masters, except the apothecary cabinet (The Met, Open Access, public domain). Each is matched to the words it sits under. Every still zooms out linearly from 1.08× to 1.00× (1.03× on the coins).
+## 4. Images (round 3: new imagery, keyed to the words)
+Every image is the most direct picture of what he is saying, from any real source, shown whole (`"fit"`) rather than cropped in.
 
-| Short (s) | Words | Work | Artist / culture | Date | License | Source |
-|---|---|---|---|---|---|---|
-| 6.88–16.46 | "When everyone knows beauty is beauty…" | Chinese Beauty | Kubo Shunman | late 1700s–early 1800s | CC0 | https://clevelandart.org/art/1988.1 |
-| 27.21–29.31 | "So every coin has two sides." | Tetradrachm: Head of Apollo (obverse), the whole coin | Greek, minted at Miletos | c. 334–323 BCE | CC0 | https://clevelandart.org/art/1916.993 |
-| 29.31–32.03 | "One side may be a lot less important than the other" | the same coin's reverse (lion), the whole coin | Greek, minted at Miletos | c. 334–323 BCE | CC0 | https://clevelandart.org/art/1916.993 |
-| 33.77–37.91 | "thalidomide, which was a medication…" | Apothecary Cabinet (an open medicine chest of bottles) | Nicolaus I Kolb | 1617–18 | Public domain (The Met) | https://www.metmuseum.org/art/collection/search/823123 |
-| 49.54–53.06 | "The tulips in Holland" | Flowers in a Glass | Ambrosius Bosschaert | 1606 | CC0 | https://clevelandart.org/art/1960.108 |
-| 55.24–62.56 | "this kind of herd thinking…" | Return of the Flock | Théophile Chauvel | c. 1870 | CC0 | https://clevelandart.org/art/1921.975 |
-| 67.04–71.96 | "the herd mentality of everyone deciding, this is good, this is beautiful" | Fire-Works on the Night of the Fourth of July | Winslow Homer | 1868 | CC0 | https://clevelandart.org/art/1942.1286 |
-| 75.22–81.50 | "Miss America is beautiful" | A Beauty | Gion Seitoku | early 1800s | CC0 | https://clevelandart.org/art/1985.271 |
+| Short (s) | Work | Artist / culture | Date | License | Source |
+|---|---|---|---|---|---|
+| 6.73–16.46 | Standing Ovation For Patti Smith (3) | Elekes Andor | 6 August 2018, 20:57:07 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Standing_Ovation_For_Patti_Smith_%283%29.jpg |
+| 27.21–29.31 | Tetradrachm: Head of Apollo (obverse) | Greek, minted at Miletos (Ionia) | c. 334–323 BCE | CC0 (Cleveland Museum of Art 1916.993; the whole coin placed on a 9:16 field of the photo's own background) | https://clevelandart.org/art/1916.993 |
+| 29.31–32.03 | Tetradrachm: Lion (reverse) | Greek, minted at Miletos (Ionia) | c. 334–323 BCE | CC0 (Cleveland Museum of Art 1916.993; the whole coin placed on a 9:16 field of the photo's own background) | https://clevelandart.org/art/1916.993 |
+| 33.77–37.91 | Pack of Thalidomide tablets | Stephencdickson | 16 July 2015, 16:05:24 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pack_of_Thalidomide_tablets.jpg |
+| 49.54–53.06 | Pink-Tulip-Fields Bollenstreek Hillegom | acediscovery | 23 April 2017, 16:04:44 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Pink-Tulip-Fields_Bollenstreek_Hillegom.jpg |
+| 55.24–62.56 | Sheep (a flock driven along a road) | A/V Geeks / Prelinger Archives | 1954 | Prelinger Archives, archive.org (offered for free reuse; no licence statement on the item) | https://archive.org/details/sheep_1954 |
+| 67.04–71.96 | Tourists Photographing the Mona Lisa above Heads of Crowd, The Louvre Museum, Paris | Julian Lupyan | 5 July 2026, 14:12:37 | CC0 | https://commons.wikimedia.org/wiki/File:Tourists_Photographing_the_Mona_Lisa_above_Heads_of_Crowd%2C_The_Louvre_Museum%2C_Paris.jpg |
+| 75.22–81.50 | Modern Venus Chosen (beauty contest at Steeplechase Park, Coney Island) | Universal Newsreel, via Prelinger Archives | 1940s | Public domain (Universal Newsreel; Prelinger Archives, archive.org) | https://archive.org/details/2029_Universal_Newsreel_Modern_Venus_Contest |
 
-The coin photo shows both faces side by side at full height, so no 9:16 crop can hold a whole face. Each face is masked as a circle and placed whole on a 9:16 field of the photo's own background (`ext-coin-obverse`, `ext-coin-reverse`, built from the CMA master). The cabinet is the Met's view DP-19649-002 (`ext_image.py ext-apothecary-cabinet …`). `images.json` has the exact crops and motion.
+**Credits for the YouTube description** (required by CC BY / CC BY-SA):
+- Standing ovation: photo by Elekes Andor, CC BY-SA 4.0, via Wikimedia Commons.
+- Thalomid (thalidomide) pack: photo by Stephencdickson, CC BY-SA 4.0, via Wikimedia Commons.
+- Tulip fields, Hillegom: photo by acediscovery, CC BY 4.0, via Wikimedia Commons.
+- Mona Lisa crowd: Julian Lupyan, CC0. Coin: Cleveland Museum of Art, CC0. Sheep (1954) and Modern Venus newsreel: Prelinger Archives.
 
 ## 5. Notes on choices
+- **Round 3 (the user's process changes):** it opens on the Cleary quote, captioned in quotation marks; captions sit at 66% of the height (above YouTube's overlay) with a stronger halo; the imagery was replaced from scratch with literal matches (a standing ovation, a real thalidomide pack, Dutch tulip fields, a herd of sheep, a crowd photographing the Mona Lisa, a line of near-identical beauty contestants); every image is shown whole.
 - **Round 2 (the user's notes):**
   - **Colour:** his face looked washed out. The 3/28/24 upload is HDR (HLG, BT.2020), and the pipeline had been reading it as ordinary video. Head shots, drafts and thumbnails are now tone-mapped to SDR BT.709 on decode (`common.sdr_filter`, used automatically for any HDR source), which restores his natural colour.
   - **Coins:** both faces are now whole.

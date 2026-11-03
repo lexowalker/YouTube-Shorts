@@ -1,21 +1,21 @@
 [
  {
-  "short_start_s": 6.883,
+  "short_start_s": 6.733,
   "short_end_s": 16.46,
-  "accession": "1988.1",
-  "title": "Chinese Beauty",
-  "artist": "Kubo Shunman (Japanese, 1757–1820)",
-  "date": "late 1700s–early 1800s",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1988.1",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1988.1/1988.1_full.tif",
+  "accession": "cm-standing-ovation",
+  "title": "Standing Ovation For Patti Smith (3)",
+  "artist": "Elekes Andor",
+  "date": "6 August 2018, 20:57:07",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Standing_Ovation_For_Patti_Smith_%283%29.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Standing_Ovation_For_Patti_Smith_%283%29.jpg/1280px-Standing_Ovation_For_Patti_Smith_%283%29.jpg",
   "crop_xywh_px": [
-   774,
-   2992,
-   1399,
-   2487
+   64,
+   0,
+   768,
+   960
   ],
-  "motion": "zoom-out 1.12x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 27.21,
@@ -56,91 +56,91 @@
  {
   "short_start_s": 33.77,
   "short_end_s": 37.91,
-  "accession": "ext-apothecary-cabinet",
-  "title": "Apothecary Cabinet",
-  "artist": "Nicolaus I Kolb (German, master 1582–1621)",
-  "date": "1617–18",
-  "license": "Public domain (The Metropolitan Museum of Art Open Access, 2019.229.1a–c–.32a, b)",
-  "source_page": "https://www.metmuseum.org/art/collection/search/823123",
-  "image_file_url": "https://www.metmuseum.org/art/collection/search/823123",
+  "accession": "cm-thalidomide-pack",
+  "title": "Pack of Thalidomide tablets",
+  "artist": "Stephencdickson",
+  "date": "16 July 2015, 16:05:24",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pack_of_Thalidomide_tablets.jpg",
+  "image_file_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pack_of_Thalidomide_tablets.jpg?width=2400",
   "crop_xywh_px": [
-   480,
+   247,
    0,
-   2250,
-   4000
+   2594,
+   2056
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 49.543,
   "short_end_s": 53.06,
-  "accession": "1960.108",
-  "title": "Flowers in a Glass",
-  "artist": "Ambrosius Bosschaert (Dutch, 1573–1621)",
-  "date": "1606",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1960.108",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1960.108/1960.108_full.tif",
+  "accession": "cm-tulip-fields-pink",
+  "title": "Pink-Tulip-Fields Bollenstreek Hillegom",
+  "artist": "acediscovery",
+  "date": "23 April 2017, 16:04:44",
+  "license": "CC BY 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pink-Tulip-Fields_Bollenstreek_Hillegom.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pink-Tulip-Fields_Bollenstreek_Hillegom.jpg/1280px-Pink-Tulip-Fields_Bollenstreek_Hillegom.jpg",
   "crop_xywh_px": [
-   1276,
-   95,
-   1474,
-   2620
+   256,
+   0,
+   768,
+   960
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 55.24,
   "short_end_s": 62.56,
-  "accession": "1921.975",
-  "title": "Return of the flock",
-  "artist": "Theophile Narcisse Chauvel (French, 1831–1909)",
-  "date": "c. 1870",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1921.975",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1921.975/1921.975_full.tif",
+  "accession": "ia-sheep-herd",
+  "title": "Sheep (a flock driven along a road)",
+  "artist": "A/V Geeks / Prelinger Archives",
+  "date": "1954",
+  "license": "Prelinger Archives, archive.org (offered for free reuse; no licence statement on the item)",
+  "source_page": "https://archive.org/details/sheep_1954",
+  "image_file_url": "https://archive.org/details/sheep_1954",
   "crop_xywh_px": [
-   1414,
-   2062,
-   1160,
-   2062
+   64,
+   24,
+   448,
+   462
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 67.04,
   "short_end_s": 71.96,
-  "accession": "1942.1286",
-  "title": "Fire-Works on the Night of the Fourth of July",
-  "artist": "Winslow Homer (American, 1836–1910)",
-  "date": "1868",
+  "accession": "cm-mona-lisa-crowd",
+  "title": "Tourists Photographing the Mona Lisa above Heads of Crowd, The Louvre Museum, Paris",
+  "artist": "Julian Lupyan",
+  "date": "5 July 2026, 14:12:37",
   "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1942.1286",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1942.1286/1942.1286_full.tif",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Tourists_Photographing_the_Mona_Lisa_above_Heads_of_Crowd%2C_The_Louvre_Museum%2C_Paris.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Tourists_Photographing_the_Mona_Lisa_above_Heads_of_Crowd%2C_The_Louvre_Museum%2C_Paris.jpg/1280px-Tourists_Photographing_the_Mona_Lisa_above_Heads_of_Crowd%2C_The_Louvre_Museum%2C_Paris.jpg",
   "crop_xywh_px": [
-   2100,
-   662,
-   1396,
-   2482
+   282,
+   0,
+   410,
+   506
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 75.22,
   "short_end_s": 81.5,
-  "accession": "1985.271",
-  "title": "A Beauty",
-  "artist": "Gion Seitoku (Japanese, active late 1700s–early 1800s)",
-  "date": "early 1800s",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1985.271",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1985.271/1985.271_full.tif",
+  "accession": "ia-venus-lineup",
+  "title": "Modern Venus Chosen (beauty contest at Steeplechase Park, Coney Island)",
+  "artist": "Universal Newsreel, via Prelinger Archives",
+  "date": "1940s",
+  "license": "Public domain (Universal Newsreel; Prelinger Archives, archive.org)",
+  "source_page": "https://archive.org/details/2029_Universal_Newsreel_Modern_Venus_Contest",
+  "image_file_url": "https://archive.org/details/2029_Universal_Newsreel_Modern_Venus_Contest",
   "crop_xywh_px": [
-   1256,
-   1973,
-   5203,
-   9249
+   269,
+   0,
+   371,
+   480
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  }
 ]

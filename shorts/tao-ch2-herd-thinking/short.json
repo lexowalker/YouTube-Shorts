@@ -322,14 +322,15 @@
     "seg": 1
    },
    "image": {
-    "acc": "1942.1286",
+    "acc": "cm-standing-ovation",
     "fit": [
-     0.28,
-     0.18,
-     0.714,
+     0.05,
+     0.0,
+     0.65,
      1.0
     ],
-    "note": "a crowd with every face turned the same way: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)"
+    "grade": false,
+    "note": "a packed audience on its feet applauding: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)"
    }
   },
   {
@@ -352,7 +353,7 @@
      1.03,
      1.0
     ],
-    "note": "one silver coin, its first face (Apollo), whole: 'every coin has two sides'"
+    "note": "one coin, its first side, whole: 'every coin has two sides'"
    }
   },
   {
@@ -368,7 +369,7 @@
      1.03,
      1.0
     ],
-    "note": "the same coin's other face (the lion), whole: 'One side may be a lot less important than the other' (cut on the join)"
+    "note": "the same coin's other side: 'One side may be a lot less important than the other' (cut on the join)"
    }
   },
   {
@@ -384,14 +385,15 @@
     "after": 32
    },
    "image": {
-    "acc": "ext-apothecary-cabinet",
+    "acc": "cm-thalidomide-pack",
     "fit": [
-     0.05,
-     0.12,
-     0.95,
-     0.92
+     0.08,
+     0.0,
+     0.92,
+     1.0
     ],
-    "note": "an apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'"
+    "grade": false,
+    "note": "a pack of thalidomide capsules (Thalomid): 'thalidomide, which was a medication that everybody knew it was good'"
    }
   },
   {
@@ -405,14 +407,15 @@
     "seg": 6
    },
    "image": {
-    "acc": "1960.108",
+    "acc": "cm-tulip-fields-pink",
     "fit": [
-     0.02,
+     0.2,
      0.0,
-     0.98,
-     0.86
+     0.8,
+     1.0
     ],
-    "note": "Bosschaert's Dutch flowers, the prized striped tulips: 'the tulips in Holland' (on the join)"
+    "grade": false,
+    "note": "Dutch tulip fields at Hillegom: 'The tulips in Holland' (on the join)"
    }
   },
   {
@@ -427,14 +430,15 @@
     "after": 53
    },
    "image": {
-    "acc": "1921.975",
+    "acc": "ia-sheep-herd",
     "fit": [
-     0.3,
-     0.45,
-     0.9,
-     0.92
+     0.1,
+     0.05,
+     0.8,
+     1.0
     ],
-    "note": "a flock pressed together on the road: 'this kind of herd thinking' (covers the join)"
+    "grade": false,
+    "note": "a huge flock of sheep moving as one (Sheep, 1954): 'this kind of herd thinking' (covers the join)"
    }
   },
   {
@@ -450,14 +454,15 @@
     "after": 63
    },
    "image": {
-    "acc": "ext-county-election",
+    "acc": "cm-mona-lisa-crowd",
     "fit": [
-     0.25,
+     0.22,
      0.0,
-     0.85,
+     0.54,
      1.0
     ],
-    "note": "a whole town crowding the polls (The County Election, after Bingham): 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)"
+    "grade": false,
+    "note": "a crowd all holding up phones to photograph the Mona Lisa: 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)"
    }
   },
   {
@@ -472,14 +477,15 @@
     "after": 72
    },
    "image": {
-    "acc": "1985.271",
+    "acc": "ia-venus-lineup",
     "fit": [
-     0.05,
-     0.04,
-     0.95,
-     0.9
+     0.42,
+     0.0,
+     1.0,
+     1.0
     ],
-    "note": "a celebrated beauty of her day: 'if everybody knows Miss America is beautiful' (covers the next join)"
+    "grade": false,
+    "note": "a beauty contest line-up of near-identical contestants (Universal Newsreel): 'if everybody knows Miss America is beautiful, then maybe we're missing something about beauty' (covers the next join)"
    }
   },
   {

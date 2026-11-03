@@ -58,22 +58,22 @@
   },
   {
    "kind": "image",
-   "acc": "1942.1286",
-   "file": ".work/img/1942.1286_full.jpg",
+   "acc": "cm-standing-ovation",
+   "file": ".work/img/cm-standing-ovation_full.jpg",
    "crop": [
-    1400,
-    596,
-    2170,
-    2713
+    64,
+    0,
+    768,
+    960
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "a crowd with every face turned the same way: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)",
+   "note": "a packed audience on its feet applauding: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)",
    "t0": 6.733,
    "t1": 16.46
   },
@@ -98,7 +98,7 @@
     1.03,
     1.0
    ],
-   "note": "one silver coin, its first face (Apollo), whole: 'every coin has two sides'",
+   "note": "one coin, its first side, whole: 'every coin has two sides'",
    "t0": 27.21,
    "t1": 29.31
   },
@@ -118,7 +118,7 @@
     1.03,
     1.0
    ],
-   "note": "the same coin's other face (the lion), whole: 'One side may be a lot less important than the other' (cut on the join)",
+   "note": "the same coin's other side: 'One side may be a lot less important than the other' (cut on the join)",
    "t0": 29.31,
    "t1": 32.03
   },
@@ -129,22 +129,22 @@
   },
   {
    "kind": "image",
-   "acc": "ext-apothecary-cabinet",
-   "file": ".work/img/ext-apothecary-cabinet_full.jpg",
+   "acc": "cm-thalidomide-pack",
+   "file": ".work/img/cm-thalidomide-pack_full.jpg",
    "crop": [
-    160,
-    480,
-    2880,
-    3200
+    247,
+    0,
+    2594,
+    2056
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "an apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'",
+   "note": "a pack of thalidomide capsules (Thalomid): 'thalidomide, which was a medication that everybody knew it was good'",
    "t0": 33.77,
    "t1": 37.91
   },
@@ -155,22 +155,22 @@
   },
   {
    "kind": "image",
-   "acc": "1960.108",
-   "file": ".work/img/1960.108_full.jpg",
+   "acc": "cm-tulip-fields-pink",
+   "file": ".work/img/cm-tulip-fields-pink_full.jpg",
    "crop": [
-    80,
+    256,
     0,
-    3828,
-    4097
+    768,
+    960
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "Bosschaert's Dutch flowers, the prized striped tulips: 'the tulips in Holland' (on the join)",
+   "note": "Dutch tulip fields at Hillegom: 'The tulips in Holland' (on the join)",
    "t0": 49.543,
    "t1": 53.06
   },
@@ -181,22 +181,22 @@
   },
   {
    "kind": "image",
-   "acc": "1921.975",
-   "file": ".work/img/1921.975_full.jpg",
+   "acc": "ia-sheep-herd",
+   "file": ".work/img/ia-sheep-herd_full.jpg",
    "crop": [
-    964,
-    2062,
-    1928,
-    2154
+    64,
+    24,
+    448,
+    462
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "a flock pressed together on the road: 'this kind of herd thinking' (covers the join)",
+   "note": "a huge flock of sheep moving as one (Sheep, 1954): 'this kind of herd thinking' (covers the join)",
    "t0": 55.24,
    "t1": 62.56
   },
@@ -207,22 +207,22 @@
   },
   {
    "kind": "image",
-   "acc": "ext-county-election",
-   "file": ".work/img/ext-county-election_full.jpg",
+   "acc": "cm-mona-lisa-crowd",
+   "file": ".work/img/cm-mona-lisa-crowd_full.jpg",
    "crop": [
-    1000,
+    282,
     0,
-    2400,
-    2996
+    410,
+    506
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "a whole town crowding the polls (The County Election, after Bingham): 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)",
+   "note": "a crowd all holding up phones to photograph the Mona Lisa: 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)",
    "t0": 67.04,
    "t1": 71.96
   },
@@ -233,22 +233,22 @@
   },
   {
    "kind": "image",
-   "acc": "1985.271",
-   "file": ".work/img/1985.271_full.jpg",
+   "acc": "ia-venus-lineup",
+   "file": ".work/img/ia-venus-lineup_full.jpg",
    "crop": [
-    483,
-    493,
-    8696,
-    10606
+    269,
+    0,
+    371,
+    480
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "a celebrated beauty of her day: 'if everybody knows Miss America is beautiful' (covers the next join)",
+   "note": "a beauty contest line-up of near-identical contestants (Universal Newsreel): 'if everybody knows Miss America is beautiful, then maybe we're missing something about beauty' (covers the next join)",
    "t0": 75.22,
    "t1": 81.5
   },
