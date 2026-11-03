@@ -2,18 +2,18 @@
  {
   "short_start_s": 6.733,
   "short_end_s": 16.46,
-  "accession": "cm-standing-ovation",
-  "title": "Standing Ovation For Patti Smith (3)",
-  "artist": "Elekes Andor",
-  "date": "6 August 2018, 20:57:07",
-  "license": "CC BY-SA 4.0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Standing_Ovation_For_Patti_Smith_%283%29.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Standing_Ovation_For_Patti_Smith_%283%29.jpg/1280px-Standing_Ovation_For_Patti_Smith_%283%29.jpg",
+  "accession": "user-opening",
+  "title": "Guests gathered around a woman at a party, one filming on a phone",
+  "artist": "Supplied by the user",
+  "date": "",
+  "license": "Supplied by the user for this Short",
+  "source_page": "(user upload, 3 Nov 2026)",
+  "image_file_url": "(user upload, 3 Nov 2026)",
   "crop_xywh_px": [
-   64,
    0,
-   768,
-   960
+   0,
+   896,
+   1200
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },

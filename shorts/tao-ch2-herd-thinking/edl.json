@@ -58,13 +58,13 @@
   },
   {
    "kind": "image",
-   "acc": "cm-standing-ovation",
-   "file": ".work/img/cm-standing-ovation_full.jpg",
+   "acc": "user-opening",
+   "file": ".work/img/user-opening_full.jpg",
    "crop": [
-    64,
     0,
-    768,
-    960
+    0,
+    896,
+    1200
    ],
    "fit": true,
    "grade": false,
@@ -73,7 +73,7 @@
     1.04,
     1.0
    ],
-   "note": "a packed audience on its feet applauding: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)",
+   "note": "(the user's photo) a crowd of guests admiring a woman at a party, one filming her on a phone: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)",
    "t0": 6.733,
    "t1": 16.46
   },

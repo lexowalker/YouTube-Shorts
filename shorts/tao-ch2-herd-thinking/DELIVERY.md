@@ -46,13 +46,13 @@ Every image is the most direct picture of what he is saying, from any real sourc
 | 75.22–81.50 | Modern Venus Chosen (beauty contest at Steeplechase Park, Coney Island) | Universal Newsreel, via Prelinger Archives | 1940s | Public domain (Universal Newsreel; Prelinger Archives, archive.org) | https://archive.org/details/2029_Universal_Newsreel_Modern_Venus_Contest |
 
 **Credits for the YouTube description** (required by CC BY / CC BY-SA):
-- Standing ovation: photo by Elekes Andor, CC BY-SA 4.0, via Wikimedia Commons.
+- Opening image (guests admiring a woman at a party): the user's own photo; no credit line needed.
 - Thalomid (thalidomide) pack: photo by Stephencdickson, CC BY-SA 4.0, via Wikimedia Commons.
 - Tulip fields, Hillegom: photo by acediscovery, CC BY 4.0, via Wikimedia Commons.
 - Mona Lisa crowd: Julian Lupyan, CC0. Coin: Cleveland Museum of Art, CC0. Sheep (1954) and Modern Venus newsreel: Prelinger Archives.
 
 ## 5. Notes on choices
-- **Round 3 (the user's process changes):** it opens on the Cleary quote, captioned in quotation marks; captions sit at 66% of the height (above YouTube's overlay) with a stronger halo; the imagery was replaced from scratch with literal matches (a standing ovation, a real thalidomide pack, Dutch tulip fields, a herd of sheep, a crowd photographing the Mona Lisa, a line of near-identical beauty contestants); every image is shown whole.
+- **Round 3 (the user's process changes):** it opens on the Cleary quote, captioned in quotation marks; captions sit at 66% of the height (above YouTube's overlay) with a stronger halo; the imagery was replaced from scratch with literal matches (the user's photo of a party crowd admiring one woman, a real thalidomide pack, Dutch tulip fields, a herd of sheep, a crowd photographing the Mona Lisa, a line of near-identical beauty contestants); every image is shown whole.
 - **Round 2 (the user's notes):**
   - **Colour:** his face looked washed out. The 3/28/24 upload is HDR (HLG, BT.2020), and the pipeline had been reading it as ordinary video. Head shots, drafts and thumbnails are now tone-mapped to SDR BT.709 on decode (`common.sdr_filter`, used automatically for any HDR source), which restores his natural colour.
   - **Coins:** both faces are now whole.

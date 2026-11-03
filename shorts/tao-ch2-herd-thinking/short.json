@@ -322,15 +322,15 @@
     "seg": 1
    },
    "image": {
-    "acc": "cm-standing-ovation",
+    "acc": "user-opening",
     "fit": [
-     0.05,
      0.0,
-     0.65,
+     0.0,
+     1.0,
      1.0
     ],
     "grade": false,
-    "note": "a packed audience on its feet applauding: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)"
+    "note": "(the user's photo) a crowd of guests admiring a woman at a party, one filming her on a phone: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)"
    }
   },
   {
