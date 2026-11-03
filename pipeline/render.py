@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info, DISSOLVE, vf
 
 CAP_SIZE = 70
-CAP_CENTER_Y = 0.70  # fraction of H; a Short can set "caption_y" (a 4K close-up puts his beard here, so 0.83)
+CAP_CENTER_Y = 0.66  # fraction of H; below this, YouTube's title/channel overlay covers the captions
 CAP_LINE_GAP = 1.12
 WORD_FADE = 3 / FPS
 
@@ -118,11 +118,31 @@ def warm_grade(img):
     return Image.fromarray(np.clip(a * 255 + 0.5, 0, 255).astype(np.uint8))
 
 
+def fit_canvas(region, grade=True):
+    """Show `region` whole on a 9:16 canvas: it fills the frame's width or height, and the rest of the frame is a
+    soft, darkened, blurred copy of the same picture (no hard bars, no stretching). Used for "fit" image shots."""
+    CW, CH = W * 2, H * 2
+    s = min(CW / region.width, CH / region.height)
+    fg = region.resize((max(1, round(region.width * s)), max(1, round(region.height * s))), Image.LANCZOS)
+    c = max(CW / region.width, CH / region.height)
+    bg = region.resize((max(1, round(region.width * c)), max(1, round(region.height * c))), Image.LANCZOS)
+    bg = bg.crop(((bg.width - CW) // 2, (bg.height - CH) // 2, (bg.width - CW) // 2 + CW, (bg.height - CH) // 2 + CH))
+    bg = bg.resize((CW // 8, CH // 8), Image.LANCZOS).filter(ImageFilter.GaussianBlur(10)).resize((CW, CH), Image.LANCZOS)
+    bg = Image.fromarray((np.asarray(bg).astype(np.float32) * 0.45).astype(np.uint8))
+    if grade:
+        fg = warm_grade(fg)
+    bg.paste(fg, ((CW - fg.width) // 2, (CH - fg.height) // 2))
+    return bg
+
+
 class ImageShot:
     def __init__(self, shot):
         self.shot = shot
         src = Image.open(shot["file"]).convert("RGB")
         x, y, w, h = shot["crop"]
+        if shot.get("fit"):
+            src = fit_canvas(src.crop((x, y, x + w, y + h)), shot.get("grade", True))
+            x, y, w, h = 0, 0, src.width, src.height
         pan = shot.get("pan", 0)  # horizontal travel in source px across the shot (handscrolls only)
         self.zoom = shot.get("zoom", [1.08, 1.0])
         zmax = max(self.zoom)
@@ -130,7 +150,8 @@ class ImageShot:
         self.scale = (W * zmax) / w
         ext_w = w + abs(pan)
         region = src.crop((min(x, x + pan), y, min(x, x + pan) + ext_w, y + h))
-        self.base = warm_grade(region.resize((max(1, round(ext_w * self.scale)), round(h * self.scale)), Image.LANCZOS))
+        base = region.resize((max(1, round(ext_w * self.scale)), round(h * self.scale)), Image.LANCZOS)
+        self.base = base if shot.get("fit") or not shot.get("grade", True) else warm_grade(base)
         self.base_np = np.ascontiguousarray(np.asarray(self.base))
         self.w, self.h, self.pan = w * self.scale, h * self.scale, pan * self.scale
         self.x0 = 0 if pan >= 0 else -self.pan
@@ -157,14 +178,14 @@ class ImageShot:
 
 
 # ---------------------------------------------------------------- text
-def text_sprite(text, font, color, halo_alpha=0.6, pad=40):
+def text_sprite(text, font, color, halo_alpha=0.85, pad=40):
     """RGBA sprite of text with a soft dark halo plus a close shadow (no stroke)."""
     bbox = font.getbbox(text)
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
     sw, sh = tw + 2 * pad, th + 2 * pad
     mask = Image.new("L", (sw, sh), 0)
     ImageDraw.Draw(mask).text((pad - bbox[0], pad - bbox[1]), text, font=font, fill=255)
-    halo = mask.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(14))
+    halo = mask.filter(ImageFilter.MaxFilter(13)).filter(ImageFilter.GaussianBlur(16))
     near = Image.new("L", (sw, sh), 0)
     near.paste(mask, (0, 2))
     near = near.filter(ImageFilter.GaussianBlur(3))

@@ -4,19 +4,20 @@
   "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
-  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 155-345 s via pipeline/fetch_hires.py); HDR (HLG/BT.2020), tone-mapped to SDR BT.709 on decode (common.sdr_filter)"
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 155-345 s via pipeline/fetch_hires.py); HDR (HLG/BT.2020), tone-mapped to SDR BT.709 on decode (common.sdr_filter)",
+  "note": "v3 (round 3): quote first in quotation marks; captions at 66%; transcript-keyed images shown whole (fit) rather than cropped in"
  },
  "teaching": "When everyone knows beauty is beauty, this is bad; when everyone knows good is good, this is not good: when everyone agrees something is good, something is being overlooked, so question what the herd takes for granted (Tao Te Ching, Chapter 2, Thomas Cleary translation).",
  "youtube_title": "When Everyone Agrees, Something Is Being Overlooked",
- "caption_y": 0.83,
+ "caption_y": 0.66,
  "segments": [
-  [
-   175.55,
-   182.7
-  ],
   [
    159.85,
    166.85
+  ],
+  [
+   175.55,
+   182.7
   ],
   [
    185.64,
@@ -240,17 +241,17 @@
  ],
  "onset_fixes": [],
  "phrases": [
+  "“When everyone | knows beauty",
+  "is *beauty,",
+  "this is *bad.",
+  "When everyone | knows good",
+  "is good,",
+  "this is | not *good.”",
   "If everybody | knows something's *good,",
   "then nobody's | thinking about,",
   "well, wait | a minute,",
   "what could | be *wrong",
   "with this?",
-  "When everyone | knows beauty",
-  "is *beauty,",
-  "this is *bad.",
-  "When everyone | knows good",
-  "is good,",
-  "this is | not *good.",
   "If everyone knows | something",
   "is *good,",
   "something's being | *overlooked.",
@@ -321,11 +322,14 @@
     "seg": 1
    },
    "image": {
-    "acc": "1988.1",
-    "x0": 0.25,
-    "y0": 0.385,
-    "h": 0.32,
-    "note": "a Chinese beauty: 'When everyone knows beauty is beauty' (on the join; carries 'If everyone knows something is good')"
+    "acc": "1942.1286",
+    "fit": [
+     0.28,
+     0.18,
+     0.714,
+     1.0
+    ],
+    "note": "a crowd with every face turned the same way: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)"
    }
   },
   {
@@ -381,10 +385,13 @@
    },
    "image": {
     "acc": "ext-apothecary-cabinet",
-    "x0": 0.15,
-    "y0": 0.0,
-    "h": 1.0,
-    "note": "a 17th-century apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'"
+    "fit": [
+     0.05,
+     0.12,
+     0.95,
+     0.92
+    ],
+    "note": "an apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'"
    }
   },
   {
@@ -399,9 +406,12 @@
    },
    "image": {
     "acc": "1960.108",
-    "x0": 0.32,
-    "y0": 0.02,
-    "h": 0.55,
+    "fit": [
+     0.02,
+     0.0,
+     0.98,
+     0.86
+    ],
     "note": "Bosschaert's Dutch flowers, the prized striped tulips: 'the tulips in Holland' (on the join)"
    }
   },
@@ -418,9 +428,12 @@
    },
    "image": {
     "acc": "1921.975",
-    "x0": 0.44,
-    "y0": 0.45,
-    "h": 0.45,
+    "fit": [
+     0.3,
+     0.45,
+     0.9,
+     0.92
+    ],
     "note": "a flock pressed together on the road: 'this kind of herd thinking' (covers the join)"
    }
   },
@@ -437,11 +450,14 @@
     "after": 63
    },
    "image": {
-    "acc": "1942.1286",
-    "x0": 0.42,
-    "y0": 0.2,
-    "h": 0.75,
-    "note": "Winslow Homer's crowd, every face turned the same way: 'the herd mentality of everyone deciding this is good, this is beautiful' (ends on the join)"
+    "acc": "ext-county-election",
+    "fit": [
+     0.25,
+     0.0,
+     0.85,
+     1.0
+    ],
+    "note": "a whole town crowding the polls (The County Election, after Bingham): 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)"
    }
   },
   {
@@ -457,9 +473,12 @@
    },
    "image": {
     "acc": "1985.271",
-    "x0": 0.13,
-    "y0": 0.16,
-    "h": 0.75,
+    "fit": [
+     0.05,
+     0.04,
+     0.95,
+     0.9
+    ],
     "note": "a celebrated beauty of her day: 'if everybody knows Miss America is beautiful' (covers the next join)"
    }
   },

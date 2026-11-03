@@ -2,12 +2,12 @@
  "slug": "tao-ch2-herd-thinking",
  "segments": [
   {
-   "src_start": 175.55,
-   "src_end": 182.7
-  },
-  {
    "src_start": 159.85,
    "src_end": 166.85
+  },
+  {
+   "src_start": 175.55,
+   "src_end": 182.7
   },
   {
    "src_start": 185.64,
@@ -54,25 +54,27 @@
   {
    "kind": "head",
    "t0": 0.0,
-   "t1": 6.883
+   "t1": 6.733
   },
   {
    "kind": "image",
-   "acc": "1988.1",
-   "file": ".work/img/1988.1_full.jpg",
+   "acc": "1942.1286",
+   "file": ".work/img/1942.1286_full.jpg",
    "crop": [
-    774,
-    2992,
-    1399,
-    2487
+    1400,
+    596,
+    2170,
+    2713
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.12,
+    1.04,
     1.0
    ],
-   "note": "a Chinese beauty: 'When everyone knows beauty is beauty' (on the join; carries 'If everyone knows something is good')",
-   "t0": 6.883,
+   "note": "a crowd with every face turned the same way: 'If everybody knows something's good, then nobody's thinking… what could be wrong with this?' (on the join; covers the next)",
+   "t0": 6.733,
    "t1": 16.46
   },
   {
@@ -90,6 +92,7 @@
     2130,
     3786
    ],
+   "grade": true,
    "pan": 0,
    "zoom": [
     1.03,
@@ -109,6 +112,7 @@
     2146,
     3816
    ],
+   "grade": true,
    "pan": 0,
    "zoom": [
     1.03,
@@ -128,17 +132,19 @@
    "acc": "ext-apothecary-cabinet",
    "file": ".work/img/ext-apothecary-cabinet_full.jpg",
    "crop": [
+    160,
     480,
-    0,
-    2250,
-    4000
+    2880,
+    3200
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
-   "note": "a 17th-century apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'",
+   "note": "an apothecary's medicine chest, its rows of medicine bottles open: 'thalidomide, which was a medication that everybody knew it was good'",
    "t0": 33.77,
    "t1": 37.91
   },
@@ -152,14 +158,16 @@
    "acc": "1960.108",
    "file": ".work/img/1960.108_full.jpg",
    "crop": [
-    1276,
-    95,
-    1474,
-    2620
+    80,
+    0,
+    3828,
+    4097
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
    "note": "Bosschaert's Dutch flowers, the prized striped tulips: 'the tulips in Holland' (on the join)",
@@ -176,14 +184,16 @@
    "acc": "1921.975",
    "file": ".work/img/1921.975_full.jpg",
    "crop": [
-    1414,
+    964,
     2062,
-    1160,
-    2062
+    1928,
+    2154
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
    "note": "a flock pressed together on the road: 'this kind of herd thinking' (covers the join)",
@@ -197,20 +207,22 @@
   },
   {
    "kind": "image",
-   "acc": "1942.1286",
-   "file": ".work/img/1942.1286_full.jpg",
+   "acc": "ext-county-election",
+   "file": ".work/img/ext-county-election_full.jpg",
    "crop": [
-    2100,
-    662,
-    1396,
-    2482
+    1000,
+    0,
+    2400,
+    2996
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
-   "note": "Winslow Homer's crowd, every face turned the same way: 'the herd mentality of everyone deciding this is good, this is beautiful' (ends on the join)",
+   "note": "a whole town crowding the polls (The County Election, after Bingham): 'the herd mentality of everyone deciding, this is good, this is beautiful' (ends on the join)",
    "t0": 67.04,
    "t1": 71.96
   },
@@ -224,14 +236,16 @@
    "acc": "1985.271",
    "file": ".work/img/1985.271_full.jpg",
    "crop": [
-    1256,
-    1973,
-    5203,
-    9249
+    483,
+    493,
+    8696,
+    10606
    ],
+   "fit": true,
+   "grade": true,
    "pan": 0,
    "zoom": [
-    1.08,
+    1.04,
     1.0
    ],
    "note": "a celebrated beauty of her day: 'if everybody knows Miss America is beautiful' (covers the next join)",
@@ -248,186 +262,27 @@
   {
    "words": [
     {
-     "w": "If",
-     "s": 0.27,
-     "e": 0.49,
-     "key": false
-    },
-    {
-     "w": "everybody",
-     "s": 0.58,
-     "e": 0.91,
-     "key": false
-    },
-    {
-     "w": "knows",
-     "s": 0.91,
-     "e": 1.15,
-     "key": false
-    },
-    {
-     "w": "something's",
-     "s": 1.15,
-     "e": 1.65,
-     "key": false
-    },
-    {
-     "w": "good,",
-     "s": 1.65,
-     "e": 1.91,
-     "key": true
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    2
-   ],
-   "t_off": 2.21
-  },
-  {
-   "words": [
-    {
-     "w": "then",
-     "s": 2.21,
-     "e": 2.43,
-     "key": false
-    },
-    {
-     "w": "nobody's",
-     "s": 2.43,
-     "e": 3.31,
-     "key": false
-    },
-    {
-     "w": "thinking",
-     "s": 3.31,
-     "e": 3.51,
-     "key": false
-    },
-    {
-     "w": "about,",
-     "s": 3.51,
-     "e": 3.93,
-     "key": false
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    2
-   ],
-   "t_off": 4.43
-  },
-  {
-   "words": [
-    {
-     "w": "well,",
-     "s": 4.61,
-     "e": 4.81,
-     "key": false
-    },
-    {
-     "w": "wait",
-     "s": 4.81,
-     "e": 5.01,
-     "key": false
-    },
-    {
-     "w": "a",
-     "s": 5.01,
-     "e": 5.15,
-     "key": false
-    },
-    {
-     "w": "minute,",
-     "s": 5.15,
-     "e": 5.19,
-     "key": false
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    2
-   ],
-   "t_off": 5.25
-  },
-  {
-   "words": [
-    {
-     "w": "what",
-     "s": 5.25,
-     "e": 5.37,
-     "key": false
-    },
-    {
-     "w": "could",
-     "s": 5.37,
-     "e": 5.51,
-     "key": false
-    },
-    {
-     "w": "be",
-     "s": 5.51,
-     "e": 5.67,
-     "key": false
-    },
-    {
-     "w": "wrong",
-     "s": 5.67,
-     "e": 5.87,
-     "key": true
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    2
-   ],
-   "t_off": 5.87
-  },
-  {
-   "words": [
-    {
-     "w": "with",
-     "s": 5.87,
-     "e": 6.07,
-     "key": false
-    },
-    {
-     "w": "this?",
-     "s": 6.07,
-     "e": 6.75,
-     "key": false
-    }
-   ],
-   "fillers": [],
-   "lines": [
-    2
-   ],
-   "t_off": 7.25
-  },
-  {
-   "words": [
-    {
-     "w": "When",
-     "s": 7.46,
-     "e": 7.58,
+     "w": "“When",
+     "s": 0.31,
+     "e": 0.43,
      "key": false
     },
     {
      "w": "everyone",
-     "s": 7.58,
-     "e": 7.96,
+     "s": 0.43,
+     "e": 0.81,
      "key": false
     },
     {
      "w": "knows",
-     "s": 7.96,
-     "e": 8.26,
+     "s": 0.81,
+     "e": 1.11,
      "key": false
     },
     {
      "w": "beauty",
-     "s": 8.26,
-     "e": 8.58,
+     "s": 1.11,
+     "e": 1.43,
      "key": false
     }
    ],
@@ -435,20 +290,20 @@
    "lines": [
     2
    ],
-   "t_off": 8.58
+   "t_off": 1.43
   },
   {
    "words": [
     {
      "w": "is",
-     "s": 8.58,
-     "e": 8.8,
+     "s": 1.43,
+     "e": 1.65,
      "key": false
     },
     {
      "w": "beauty,",
-     "s": 8.8,
-     "e": 9.18,
+     "s": 1.65,
+     "e": 2.03,
      "key": true
     }
    ],
@@ -456,26 +311,26 @@
    "lines": [
     2
    ],
-   "t_off": 9.32
+   "t_off": 2.17
   },
   {
    "words": [
     {
      "w": "this",
-     "s": 9.32,
-     "e": 9.42,
+     "s": 2.17,
+     "e": 2.27,
      "key": false
     },
     {
      "w": "is",
-     "s": 9.42,
-     "e": 9.7,
+     "s": 2.27,
+     "e": 2.55,
      "key": false
     },
     {
      "w": "bad.",
-     "s": 9.7,
-     "e": 9.98,
+     "s": 2.55,
+     "e": 2.83,
      "key": true
     }
    ],
@@ -483,32 +338,32 @@
    "lines": [
     3
    ],
-   "t_off": 10.48
+   "t_off": 3.33
   },
   {
    "words": [
     {
      "w": "When",
-     "s": 10.82,
-     "e": 10.94,
+     "s": 3.67,
+     "e": 3.79,
      "key": false
     },
     {
      "w": "everyone",
-     "s": 10.94,
-     "e": 11.36,
+     "s": 3.79,
+     "e": 4.21,
      "key": false
     },
     {
      "w": "knows",
-     "s": 11.36,
-     "e": 11.62,
+     "s": 4.21,
+     "e": 4.47,
      "key": false
     },
     {
      "w": "good",
-     "s": 11.62,
-     "e": 11.88,
+     "s": 4.47,
+     "e": 4.73,
      "key": false
     }
    ],
@@ -516,20 +371,20 @@
    "lines": [
     2
    ],
-   "t_off": 11.88
+   "t_off": 4.73
   },
   {
    "words": [
     {
      "w": "is",
-     "s": 11.88,
-     "e": 12.04,
+     "s": 4.73,
+     "e": 4.89,
      "key": false
     },
     {
      "w": "good,",
-     "s": 12.04,
-     "e": 12.44,
+     "s": 4.89,
+     "e": 5.29,
      "key": false
     }
    ],
@@ -537,32 +392,32 @@
    "lines": [
     2
    ],
-   "t_off": 12.72
+   "t_off": 5.57
   },
   {
    "words": [
     {
      "w": "this",
-     "s": 12.72,
-     "e": 12.82,
+     "s": 5.57,
+     "e": 5.67,
      "key": false
     },
     {
      "w": "is",
-     "s": 12.87,
-     "e": 13.02,
+     "s": 5.72,
+     "e": 5.87,
      "key": false
     },
     {
      "w": "not",
-     "s": 13.02,
-     "e": 13.28,
+     "s": 5.87,
+     "e": 6.13,
      "key": false
     },
     {
-     "w": "good.",
-     "s": 13.28,
-     "e": 13.66,
+     "w": "good.”",
+     "s": 6.13,
+     "e": 6.51,
      "key": true
     }
    ],
@@ -570,7 +425,166 @@
    "lines": [
     2
    ],
-   "t_off": 14.16
+   "t_off": 7.01
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 7.27,
+     "e": 7.49,
+     "key": false
+    },
+    {
+     "w": "everybody",
+     "s": 7.58,
+     "e": 7.91,
+     "key": false
+    },
+    {
+     "w": "knows",
+     "s": 7.91,
+     "e": 8.15,
+     "key": false
+    },
+    {
+     "w": "something's",
+     "s": 8.15,
+     "e": 8.65,
+     "key": false
+    },
+    {
+     "w": "good,",
+     "s": 8.65,
+     "e": 8.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 9.21
+  },
+  {
+   "words": [
+    {
+     "w": "then",
+     "s": 9.21,
+     "e": 9.43,
+     "key": false
+    },
+    {
+     "w": "nobody's",
+     "s": 9.43,
+     "e": 10.31,
+     "key": false
+    },
+    {
+     "w": "thinking",
+     "s": 10.31,
+     "e": 10.51,
+     "key": false
+    },
+    {
+     "w": "about,",
+     "s": 10.51,
+     "e": 10.93,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 11.43
+  },
+  {
+   "words": [
+    {
+     "w": "well,",
+     "s": 11.61,
+     "e": 11.81,
+     "key": false
+    },
+    {
+     "w": "wait",
+     "s": 11.81,
+     "e": 12.01,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 12.01,
+     "e": 12.15,
+     "key": false
+    },
+    {
+     "w": "minute,",
+     "s": 12.15,
+     "e": 12.19,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 12.25
+  },
+  {
+   "words": [
+    {
+     "w": "what",
+     "s": 12.25,
+     "e": 12.37,
+     "key": false
+    },
+    {
+     "w": "could",
+     "s": 12.37,
+     "e": 12.51,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 12.51,
+     "e": 12.67,
+     "key": false
+    },
+    {
+     "w": "wrong",
+     "s": 12.67,
+     "e": 12.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 12.87
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 12.87,
+     "e": 13.07,
+     "key": false
+    },
+    {
+     "w": "this?",
+     "s": 13.07,
+     "e": 13.75,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 14.23
   },
   {
    "words": [
@@ -2447,6 +2461,6 @@
   "dur": 4.0,
   "fade_frames": 15
  },
- "caption_y": 0.83,
+ "caption_y": 0.66,
  "crop_track": ".work/tao-ch2-herd-thinking/crop_track.json"
 }

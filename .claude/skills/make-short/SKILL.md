@@ -1,6 +1,6 @@
 ---
 name: make-short
-description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, CMA ink paintings, rice-paper end card, untouched voice), plus two thumbnails and 10 title suggestions. Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one. Not for "the reading of ch N" (use reading-short).
+description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, transcript-keyed imagery, rice-paper end card, untouched voice), plus two thumbnails and 10 title suggestions. Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one. Not for "the reading of ch N" (use reading-short).
 ---
 
 # Make a Short
@@ -47,6 +47,7 @@ Once the user picks a teaching, write out the **full proposed transcript**: ever
 - Drop ums, false starts and asides. Never cut mid-word.
 
 ## 5. Images
+- **Round 3 rules come first (see "Images" in `docs/style-guide.md`):** pick the most direct picture of what the words say, from any real source (photos, documents, ads, science imagery, art); show it whole with `"fit"`; open the Short with the quote in quotation marks; captions at `"caption_y": 0.66`. Where the bullets below talk about paintings and scrolls, read them as one source among many.
 - Search with `pipeline/cma.py search "<subject>" --type Painting` (or `--dept "Chinese Art"`) or `cma.py title "<title>"`. Compare candidates with `cma.py sheet <acc> …` (print-size previews, no full download; some masters are over a gigabyte). Then fetch the chosen ones with `cma.py get <accession> …` and look at `cma.py proxy <accession>` (it has a 10% grid) to choose crops.
 - **Plan the images from the words first.** Before searching, list each line you'll put an image on, the concrete thing it names, and the picture of that thing (see "Images" in `docs/style-guide.md`). Search for that picture, not for a mood. The user's rule: what he's saying must match what's on screen. A lust line gets lovers, a bell line gets a bell, a study line gets someone reading, not a landscape.
 - Scrolls are the default (Taoist, simple, natural). If none shows the thing, use another simple, natural artwork rather than a scroll that doesn't fit. Search beyond `--type Painting` (`cma.py search "bell"` finds bronzes and prints too).

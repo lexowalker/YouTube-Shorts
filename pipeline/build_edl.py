@@ -90,13 +90,22 @@ def main(slug):
             shots.append({"kind": "head", "t0": round(t0, 3), "t1": round(t1, 3)})
             continue
         im = c["image"]
+        if "fit" in im:  # show this region whole (fractions of the image: [x0, y0, x1, y1]), no crop to 9:16
+            fx0, fy0, fx1, fy1 = im["fit"]
+            IW, IH = Image.open(image_path(im["acc"])).size
+            crop = [round(fx0 * IW), round(fy0 * IH), round((fx1 - fx0) * IW), round((fy1 - fy0) * IH)]
+            zoom = im.get("zoom", [1.04, 1.0])
+            shots.append({"kind": "image", "acc": im["acc"], "file": image_path(im["acc"]), "crop": crop, "fit": True,
+                          "grade": im.get("grade", True), "pan": 0, "zoom": zoom, "note": im.get("note", ""),
+                          "t0": round(t0, 3), "t1": round(t1, 3)})
+            continue
         crop, (IW, IH) = crop_from(im["acc"], im["x0"], im["y0"], im["h"])
         x, y, w, h = crop
         pan = im.get("pan", 0)
         assert x >= 0 and y >= 0 and x + w + max(0, pan) <= IW and y + h <= IH, f"crop outside image: {im}"
         zoom = im.get("zoom", [1.12, 1.0] if t1 - t0 >= 8 else [1.08, 1.0])
         shots.append({"kind": "image", "acc": im["acc"], "file": image_path(im["acc"]), "crop": crop,
-                      "pan": pan, "zoom": zoom, "note": im.get("note", ""), "t0": round(t0, 3), "t1": round(t1, 3)})
+                      "grade": im.get("grade", True), "pan": pan, "zoom": zoom, "note": im.get("note", ""), "t0": round(t0, 3), "t1": round(t1, 3)})
     # An image cut on a segment join starts its dissolve DISSOLVE frames early, so it fades in over him still
     # talking and is fully up on the join. Dissolving after the join would show the next segment's head (a stray
     # shot of him), and freezing his last frame under the dissolve looks like the video stalls.
@@ -112,7 +121,7 @@ def main(slug):
     edl = {"slug": slug, "segments": segments, "shots": shots, "captions": caps,
            "title": {"text": title["text"], "t0": 0.0, "t1": title.get("dur", 3.6), "size": title.get("size", 52)} if title else None,
            "endcard": {"dur": spec.get("endcard", {}).get("dur", 4.0), "fade_frames": 15},
-           "caption_y": spec.get("caption_y", 0.70),
+           "caption_y": spec.get("caption_y", 0.66),
            "crop_track": os.path.join(wd, "crop_track.json")}
     json.dump(edl, open(os.path.join(wd, "edl.json"), "w"), indent=1, ensure_ascii=False)
 
