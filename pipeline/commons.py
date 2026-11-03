@@ -13,9 +13,9 @@ import html, json, os, re, sys, urllib.parse, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import IMG_DIR, image_path
 
-UA = {"User-Agent": "youtube-shorts-pipeline/1.0"}
+UA = {"User-Agent": "youtube-shorts-pipeline/1.0 (https://github.com/lexowalker/YouTube-Shorts)"}
 BASE = "https://commons.wikimedia.org"
-FREE = re.compile(r"public domain|\bPD\b|CC0|CC BY|CC-BY|Creative Commons Attribution", re.I)
+FREE = re.compile(r"no restrictions|no known copyright|public domain|\bPD\b|CC0|CC BY|CC-BY|Creative Commons Attribution", re.I)
 
 
 def fetch(url, binary=False):
