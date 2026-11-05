@@ -4,65 +4,548 @@
   "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
   "file": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.mp4",
-  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 1035-1259 s via pipeline/fetch_hires.py)"
+  "hires": "03-28-24-Tao Te Ching Chaps. 2 & 3： When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3⧸28⧸24.webm (3840x2160; window 995-1262 s via pipeline/fetch_hires.py); HDR (HLG/BT.2020), tone-mapped to SDR BT.709 on decode (common.sdr_filter)",
+  "note": "v2 (round 3 rules, made from scratch): Cleary's note first in quotation marks; captions at 66%; transcript-keyed images shown whole (fit); 2:00-3:00"
  },
- "teaching": "When conventional conceptions are forgotten to be conventional and taken for objective facts that no one questions, narrow-minded bigotry and blind prejudice develop unopposed: bigotry is a closed mind, locked into one way of conceiving things, when our whole view of the world is conditioned by our environment (Tao Te Ching, Chapter 2, Thomas Cleary's notes).",
+ "teaching": "When conventional conceptions are taken for objective facts that everyone knows and no one questions, narrow-minded bigotry develops: bigotry is a closed mind, locked into one way of conceiving things, on the right, the left or the center, in a person, a nation or a corporation; our whole view of the world is conditioned by our environment, and whoever can get out of that and look more holistically sees more clearly (Tao Te Ching, Chapter 2, with Thomas Cleary's note).",
  "youtube_title": "You Can Be Bigoted on the Right, Left or Center",
  "segments": [
   [
-   1105.84,
-   1110.0
+   1055.1,
+   1069.81
   ],
   [
-   1038.62,
-   1053.54
+   1105.6,
+   1110.2
   ],
   [
-   1092.4,
-   1105.3
+   1092.3,
+   1105.4
   ],
   [
-   1110.5,
-   1132.7
+   1110.4,
+   1136.95
   ],
   [
-   1188.9,
-   1219.28
+   1073.7,
+   1076.8
   ],
   [
-   1220.76,
-   1223.5
+   1080.6,
+   1090.5
   ],
   [
-   1225.68,
-   1246.28
+   1002.17,
+   1013.04
   ],
   [
-   1252.88,
-   1256.3
+   1018.85,
+   1035.0
+  ],
+  [
+   1188.75,
+   1219.29
+  ],
+  [
+   1220.66,
+   1223.7
+  ],
+  [
+   1225.67,
+   1246.3
+  ],
+  [
+   1252.7,
+   1256.9
   ]
  ],
  "word_overrides": [
   {
-   "from": 1040.0,
-   "to": 1042.25,
+   "from": 1092.2,
+   "to": 1095.45,
    "words": [
     [
-     "conventional",
-     1040.18,
-     1040.6
+     "That",
+     1092.52,
+     1092.68
     ],
     [
-     "conceptions",
-     1040.6,
-     1041.4
+     "that",
+     1092.84,
+     1093.04
+    ],
+    [
+     "arrogance,",
+     1093.3,
+     1093.68
+    ],
+    [
+     "that",
+     1093.74,
+     1093.88
+    ],
+    [
+     "that",
+     1094.36,
+     1094.52
+    ],
+    [
+     "uh",
+     1094.64,
+     1094.9
+    ],
+    [
+     "prejudice,",
+     1095.02,
+     1095.4
     ]
    ],
-   "why": "small.en and large-v3: 'conventional conceptions are conventional conceptions' (Cleary's note); medium.en heard 'conventions'"
+   "why": "large-v3: 'that, that arrogance, that, that, uh, prejudice'; timings from env.py"
+  },
+  {
+   "from": 1096.9,
+   "to": 1097.95,
+   "words": [
+    [
+     "and",
+     1097.12,
+     1097.28
+    ],
+    [
+     "and",
+     1097.38,
+     1097.52
+    ],
+    [
+     "bigotry",
+     1097.56,
+     1097.9
+    ],
+    [
+     "means",
+     1097.9,
+     1098.22
+    ]
+   ],
+   "why": "large-v3: 'and, and bigotry'"
+  },
+  {
+   "from": 1101.84,
+   "to": 1102.6,
+   "words": [
+    [
+     "it",
+     1101.8,
+     1101.86
+    ],
+    [
+     "would",
+     1101.88,
+     1102.06
+    ],
+    [
+     "exactly",
+     1102.1,
+     1102.54
+    ],
+    [
+     "what",
+     1102.56,
+     1102.78
+    ]
+   ],
+   "why": "large-v3: 'whatever you think, it would, exactly what you think it means'"
+  },
+  {
+   "from": 1110.3,
+   "to": 1111.25,
+   "words": [
+    [
+     "but",
+     1110.56,
+     1110.68
+    ],
+    [
+     "because",
+     1110.72,
+     1111.22
+    ],
+    [
+     "what",
+     1111.22,
+     1111.58
+    ]
+   ],
+   "why": "large-v3: 'but because'; env.py"
+  },
+  {
+   "from": 1112.75,
+   "to": 1113.5,
+   "words": [
+    [
+     "to",
+     1112.8,
+     1112.92
+    ],
+    [
+     "to",
+     1113.26,
+     1113.4
+    ]
+   ],
+   "why": "large-v3: 'open to, to new ways'"
+  },
+  {
+   "from": 1121.6,
+   "to": 1123.6,
+   "words": [
+    [
+     "then",
+     1121.68,
+     1121.98
+    ],
+    [
+     "the",
+     1122.08,
+     1122.34
+    ],
+    [
+     "the",
+     1122.46,
+     1122.62
+    ],
+    [
+     "the",
+     1122.64,
+     1122.86
+    ],
+    [
+     "person,",
+     1122.92,
+     1123.54
+    ]
+   ],
+   "why": "large-v3: 'then the, the, the person'"
+  },
+  {
+   "from": 1073.2,
+   "to": 1074.1,
+   "words": [
+    [
+     "Let's,",
+     1073.82,
+     1074.0
+    ],
+    [
+     "instead",
+     1074.02,
+     1074.18
+    ]
+   ],
+   "why": "large-v3 and env.py: one short word, 'let's', before 'instead' (medium heard 'So')"
+  },
+  {
+   "from": 1077.0,
+   "to": 1082.3,
+   "words": [
+    [
+     "If",
+     1077.08,
+     1077.16
+    ],
+    [
+     "a",
+     1077.16,
+     1077.28
+    ],
+    [
+     "corporation",
+     1077.28,
+     1077.66
+    ],
+    [
+     "becomes",
+     1077.66,
+     1078.0
+    ],
+    [
+     "so,",
+     1078.0,
+     1078.7
+    ],
+    [
+     "knows",
+     1080.92,
+     1081.4
+    ],
+    [
+     "that",
+     1081.4,
+     1081.74
+    ],
+    [
+     "they're",
+     1081.86,
+     1082.12
+    ],
+    [
+     "good,",
+     1082.12,
+     1082.4
+    ]
+   ],
+   "why": "medium smeared 'knows that' over the pause; 'knows' starts 1080.92 (env.py). The clip before ends after 'let's talk about a corporation' (1076.8): the passes disagree on 'if a corporation becomes so / knows that', so it is cut"
+  },
+  {
+   "from": 1002.15,
+   "to": 1002.5,
+   "words": [
+    [
+     "If",
+     1002.24,
+     1002.4
+    ]
+   ],
+   "why": "'change.' ends before the clip; 'if' starts 1002.22 (env.py)"
+  },
+  {
+   "from": 1004.0,
+   "to": 1005.95,
+   "words": [
+    [
+     "you",
+     1004.42,
+     1004.56
+    ],
+    [
+     "know,",
+     1004.56,
+     1004.74
+    ],
+    [
+     "they",
+     1005.4,
+     1005.6
+    ],
+    [
+     "they",
+     1005.7,
+     1005.8
+    ],
+    [
+     "they",
+     1005.8,
+     1005.88
+    ],
+    [
+     "were",
+     1005.88,
+     1006.0
+    ]
+   ],
+   "why": "large-v3: 'frankly, you know, they, they, they were so sure'"
+  },
+  {
+   "from": 1018.8,
+   "to": 1019.39,
+   "words": [
+    [
+     "When's",
+     1019.12,
+     1019.39
+    ]
+   ],
+   "why": "large-v3: 'when's the last time' (after 'you know, I mean', cut)"
+  },
+  {
+   "from": 1020.35,
+   "to": 1021.95,
+   "words": [
+    [
+     "really",
+     1020.4,
+     1020.68
+    ],
+    [
+     "innovation,",
+     1020.7,
+     1021.06
+    ],
+    [
+     "innovative",
+     1021.3,
+     1021.7
+    ],
+    [
+     "come",
+     1021.72,
+     1021.94
+    ],
+    [
+     "out",
+     1021.94,
+     1022.1
+    ]
+   ],
+   "why": "large-v3: 'really innovation, innovative come out of Apple'"
+  },
+  {
+   "from": 1024.75,
+   "to": 1026.55,
+   "words": [
+    [
+     "but",
+     1024.82,
+     1024.96
+    ],
+    [
+     "but",
+     1025.0,
+     1025.16
+    ],
+    [
+     "it's",
+     1025.16,
+     1025.46
+    ],
+    [
+     "been",
+     1025.78,
+     1026.02
+    ],
+    [
+     "been",
+     1026.1,
+     1026.24
+    ],
+    [
+     "years",
+     1026.24,
+     1026.55
+    ]
+   ],
+   "why": "large-v3: 'but, but it's been, been years'"
+  },
+  {
+   "from": 1031.95,
+   "to": 1032.7,
+   "words": [
+    [
+     "it,",
+     1031.98,
+     1032.12
+    ],
+    [
+     "and",
+     1032.16,
+     1032.36
+    ],
+    [
+     "but",
+     1032.38,
+     1032.66
+    ]
+   ],
+   "why": "large-v3: 'no one questions it, and but something's going to change'"
+  },
+  {
+   "from": 1199.6,
+   "to": 1201.5,
+   "words": [
+    [
+     "Now,",
+     1200.9,
+     1201.3
+    ]
+   ],
+   "why": "large-v3: 'Now' at 1200.84; the first pass put a stray 'Now' at 1199.64"
+  },
+  {
+   "from": 1214.3,
+   "to": 1214.95,
+   "words": [
+    [
+     "and",
+     1214.42,
+     1214.52
+    ],
+    [
+     "you",
+     1214.52,
+     1214.64
+    ],
+    [
+     "and",
+     1214.7,
+     1214.8
+    ],
+    [
+     "you",
+     1214.8,
+     1214.98
+    ]
+   ],
+   "why": "large-v3: 'and you, and you don't realize'"
+  },
+  {
+   "from": 1216.3,
+   "to": 1217.3,
+   "words": [
+    [
+     "your",
+     1216.42,
+     1216.58
+    ],
+    [
+     "your",
+     1216.84,
+     1217.0
+    ],
+    [
+     "whole",
+     1217.08,
+     1217.3
+    ]
+   ],
+   "why": "large-v3: 'your, your whole way'"
+  },
+  {
+   "from": 1219.1,
+   "to": 1221.45,
+   "words": [
+    [
+     "conditioned",
+     1220.68,
+     1221.3
+    ]
+   ],
+   "why": "false start 'uh, deter-' cut (1219.3-1220.6); 'conditioned' starts 1220.68 (env.py)"
+  },
+  {
+   "from": 1222.0,
+   "to": 1222.93,
+   "words": [
+    [
+     "by",
+     1222.12,
+     1222.38
+    ],
+    [
+     "by",
+     1222.48,
+     1222.6
+    ],
+    [
+     "your",
+     1222.64,
+     1222.94
+    ]
+   ],
+   "why": "large-v3: 'determined by, by your environment'; medium and the QA pass put the first 'by' at 1222.12"
   },
   {
    "from": 1225.2,
-   "to": 1226.3,
+   "to": 1226.4,
    "words": [
     [
      "what",
@@ -73,169 +556,196 @@
      "you",
      1226.0,
      1226.3
-    ]
-   ],
-   "why": "the clip starts after 'how you were, you know'; 'what you see' begins at 1225.86 (envelope)"
-  },
-  {
-   "from": 1243.6,
-   "to": 1246.3,
-   "words": [
-    [
-     "more",
-     1243.7,
-     1244.0
     ],
     [
-     "holistically",
-     1244.82,
-     1246.2
+     "see",
+     1226.34,
+     1226.56
     ]
    ],
-   "why": "envelope: 'holistically' runs 1244.82-1246.2 (medium.en); large-v3 hears 'look more' end by 1244.0; 'using the left attention' (from 1246.36) is cut"
+   "why": "the clip starts after 'how you were, how, you know'; 'what you see' begins at 1225.86 (envelope)"
   },
   {
-   "from": 1188.9,
-   "to": 1189.5,
+   "from": 1231.9,
+   "to": 1232.88,
    "words": [
-    [
-     "So,",
-     1189.12,
-     1189.24
-    ]
-   ],
-   "why": "the long-context QA pass hears 'So' at 1189.12; 'in my grandfather's time' follows at 1189.64"
-  },
-  {
-   "from": 1219.25,
-   "to": 1222.1,
-   "words": [
-    [
-     "conditioned",
-     1220.82,
-     1221.42
-    ],
     [
      "and",
-     1221.45,
-     1221.7
+     1232.02,
+     1232.1
     ],
     [
-     "determined",
-     1221.72,
-     1222.1
+     "what",
+     1232.1,
+     1232.2
+    ],
+    [
+     "you,",
+     1232.2,
+     1232.3
+    ],
+    [
+     "what",
+     1232.36,
+     1232.5
+    ],
+    [
+     "books",
+     1232.5,
+     1232.86
     ]
    ],
-   "why": "large-v3 on each burst: 'totally… uh, deter-, couldn't… conditioned and determined'; the false start (1219.3-1220.76) is cut"
+   "why": "large-v3: 'and what you, what books'"
+  },
+  {
+   "from": 1252.6,
+   "to": 1254.05,
+   "words": [
+    [
+     "can",
+     1252.92,
+     1253.12
+    ],
+    [
+     "can",
+     1253.36,
+     1253.46
+    ],
+    [
+     "do",
+     1253.46,
+     1253.66
+    ],
+    [
+     "better,",
+     1253.7,
+     1254.0
+    ]
+   ],
+   "why": "large-v3: 'can, can do better'; the first 'can' (1252.92) is shown, the repeat hidden"
+  },
+  {
+   "from": 1034.7,
+   "to": 1035.0,
+   "words": [],
+   "why": "medium put a stray 'When' (p 0.10) on the pause after 'see'; the next voice is at 1038.4"
   }
  ],
  "word_fixes": [
   {
-   "near": 1251.02,
-   "from": "can",
-   "to": "can",
-   "s": 1252.96
-  },
-  {
-   "near": 1038.34,
-   "from": "When",
-   "to": "When",
-   "s": 1038.95
-  },
-  {
-   "near": 1044.42,
-   "from": "and",
-   "to": "and",
-   "s": 1045.1
-  },
-  {
-   "near": 1227.08,
-   "from": "Instagram,",
-   "to": "Instagram,",
-   "s": 1227.48
+   "near": 1009.24,
+   "from": "with",
+   "to": "with",
+   "s": 1010.52
   }
  ],
  "onset_fixes": [],
  "phrases": [
-  "So, you can be | *bigoted",
-  "on the right,",
-  "you can be | bigoted",
-  "on the *left,",
-  "and you can | be bigoted",
-  "in the *center.",
-  "When it is | *forgotten",
+  "“When it is | *forgotten",
   "that conventional | conceptions",
   "are *conventional | conceptions,",
   "and they are | taken for",
-  "*objective | facts",
+  "objective *facts",
   "that everyone | knows",
   "and no one | *questions,",
   "then narrow-minded | *bigotry",
   "and blind | *prejudice",
-  "can develop | unopposed.",
-  "That *arrogance,",
-  "that *prejudice,",
-  "that bias, | and *bigotry",
-  "means having | a closed mind ~to, ~I ~mean,",
-  "it also | means whatever",
-  "you think,",
-  "exactly what | you think",
+  "can develop | *unopposed.”",
+  "So, you can | be *bigoted",
+  "on the *right,",
+  "you can be | bigoted",
+  "on the *left,",
+  "and you can | be bigoted",
+  "in the *center.",
+  "~That That | *arrogance,",
+  "that ~that ~uh | *prejudice,",
+  "that *bias,",
+  "~and and *bigotry",
+  "means having a | closed *mind",
+  "~to, ~I ~mean, it also | means",
+  "whatever | you *think,",
+  "~it ~would *exactly | what you think",
   "it means,",
-  "but it | also means",
-  "just having | a *closed mind.",
+  "but it also | means",
+  "just having | a closed *mind.",
   "~But because | what it means",
-  "is you're not | *open",
-  "to new ways | of thinking",
+  "is you're | not *open",
+  "~to to new | ways of *thinking",
   "or *conceptions.",
-  "And so when | people get",
+  "And so, when | people get",
   "*locked into | one fixed way",
-  "of conceptualizing | things...",
-  "Then the *person,",
-  "the *nation,",
-  "the world | starts to",
-  "*degenerate",
+  "of conceptualizing | things,",
+  "then ~the ~the the | *person,",
+  "the *nation, | the world",
+  "starts to | *degenerate,",
   "because we're | locked into",
-  "one way of | conceiving things.",
-  "So, in my | grandfather's time,",
+  "one way of | *conceiving things.",
+  "And what we | need is",
+  "something from | the *outside,",
+  "some *creativity | from the outside.",
+  "Let's, instead | of talking",
+  "about a *nation,",
+  "let's talk about | a *corporation,",
+  "knows that | they're *good,",
+  "knows that | they're the *best,",
+  "knows that their | *designs",
+  "are the best | designs, like *Boeing,",
+  "that's not good.",
+  "If you look | at *Apple,",
+  "frankly, ~you ~know, ~they ~they they | were so *sure",
+  "that they knew | *everything",
+  "with regard | to *design,",
+  "with regard | to *manufacture,",
+  "When's the | last *time",
+  "you saw anything | really ~innovation, *innovative",
+  "come out | of *Apple?",
+  "Now, it may | *change",
+  "out of | *necessity,",
+  "~but But it's | ~been been *years",
+  "and years | and years,",
+  "because everyone | knows they're *good,",
+  "and everyone knows | they're *beautiful,",
+  "and no one | *questions it,",
+  "~and but something's | going to *change.",
+  "Just watch | and *see.",
+  "So, in my | *grandfather's time,",
   "*smoking was | thought to be",
   "good for you.",
   "Before my | grandfather's time,",
-  "if you didn't | *spank",
+  "if you | didn't *spank",
   "your child,",
-  "something was | wrong",
-  "with you.",
-  "Now these two | attitudes",
-  "have *changed,",
+  "something was | *wrong with you.",
+  "Now, these | two *attitudes",
+  "have changed,",
   "and attitudes | that came",
-  "thereafter | also have changed.",
-  "And the | attitudes",
-  "we have now",
-  "will also | *change.",
-  "So if you | get *locked",
+  "*thereafter | also have changed,",
+  "and the | attitudes we have",
+  "now will | also *change.",
+  "So, if you | get *locked",
   "into one way | of looking",
   "at things,",
-  "and you don't | *realize",
-  "that your | attitudes,",
-  "your whole way | of looking",
-  "at the *world",
-  "is totally | *conditioned",
-  "and determined | by your",
-  "*environment,",
-  "what you see | on *Instagram,",
-  "what you see | on TV,",
+  "~and ~you and you | don't *realize",
+  "that your | *attitudes,",
+  "your ~your whole | way of looking",
+  "at the *world | is totally",
+  "*conditioned and | determined",
+  "~by by your | *environment.",
+  "What you see | on *Instagram,",
+  "what you see | on *TV,",
   "what you see | on *TikTok",
   "and X,",
-  "and what books | you've read",
-  "and what movies | you've seen.",
+  "and ~what ~you, what | *books you've read",
+  "and what | *movies you've seen.",
   "See, we look | at a very",
   "*tiny, tiny, | tiny little",
-  "slice of | the world,",
-  "and we call | it the world,",
-  "and that's | a *mistake.",
-  "And so | anybody",
-  "who can get | out of that",
-  "and look more | *holistically",
-  "can do | better",
+  "*slice of | the world,",
+  "and we call | it the *world,",
+  "and that's a | *mistake.",
+  "And so | *anybody",
+  "who can | get *out",
+  "of that | and look",
+  "more *holistically",
+  "can ~can do | *better,",
   "because they | can see",
   "more *clearly."
  ],
@@ -246,40 +756,61 @@
   },
   {
    "at": {
-    "seg": 1
+    "word": "objective",
+    "after": 3
    },
    "image": {
-    "acc": "1966.11",
-    "x0": 0.12,
-    "y0": 0.02,
-    "h": 0.75,
-    "note": "The Blind Leading the Blind, the leader striding ahead and the rest following: 'conventional conceptions… taken for objective facts' (on the join)"
+    "acc": "cm-ptolemaic",
+    "fit": [
+     0.05,
+     0.03,
+     0.95,
+     0.97
+    ],
+    "note": "Cellarius's Ptolemaic cosmos, the Earth at the centre (1660): 'conventional conceptions… taken for objective facts that everyone knows and no one questions'"
    }
   },
   {
    "at": {
-    "word": "that",
-    "after": 12
+    "word": "narrow-minded",
+    "after": 8
+   },
+   "image": {
+    "acc": "cm-bruegel-blind",
+    "fit": [
+     0.5,
+     0.0,
+     0.96,
+     1.0
+    ],
+    "note": "Bruegel, The Blind Leading the Blind (1568): 'narrow-minded bigotry and blind prejudice' (ends on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 1
    },
    "head": true
   },
   {
    "at": {
-    "word": "blind",
-    "after": 15
+    "seg": 2
    },
    "image": {
-    "acc": "1966.11",
-    "x0": 0.42,
-    "y0": 0.15,
-    "h": 0.75,
-    "note": "the same print, the blind men tumbling: 'blind prejudice can develop unopposed… that arrogance, that prejudice, that bias, and bigotry' (two crops of one print, cut on the word; covers the join)"
+    "acc": "cm-daumier-ventre",
+    "fit": [
+     0.18,
+     0.0,
+     0.82,
+     1.0
+    ],
+    "note": "Daumier, Le Ventre législatif (1834), smug legislators on their benches: 'That arrogance, that prejudice, that bias, and bigotry' (on the join after 'bigoted on the right… left… center')"
    }
   },
   {
    "at": {
-    "word": "means",
-    "after": 22
+    "word": "to",
+    "after": 25
    },
    "head": true
   },
@@ -289,140 +820,259 @@
     "after": 30
    },
    "image": {
-    "acc": "ext-doors",
-    "x0": 0.16,
-    "y0": 0.15,
-    "h": 0.7,
-    "note": "a pair of closed doors: 'just having a closed mind… not open to new ways of thinking… locked into one fixed way of conceptualizing things' (covers the join)"
+    "acc": "cm-padlock-hasp",
+    "fit": [
+     0.22,
+     0.0,
+     0.78,
+     1.0
+    ],
+    "grade": false,
+    "note": "a padlocked door: 'just having a closed mind… you're not open' (covers the join)"
    }
   },
   {
    "at": {
-    "word": "Then",
-    "after": 40
+    "word": "new",
+    "after": 34
    },
    "head": true
   },
   {
    "at": {
-    "word": "degenerate",
+    "word": "nation",
     "after": 45
    },
    "image": {
-    "acc": "1981.13",
-    "x0": 0.02,
-    "y0": 0.05,
-    "h": 0.85,
-    "note": "John Martin's Ruins of an Ancient City: 'the world starts to degenerate' (covers the join)"
+    "acc": "cm-cole-destruction",
+    "fit": [
+     0.2,
+     0.0,
+     0.72,
+     1.0
+    ],
+    "note": "Thomas Cole, The Course of Empire: Destruction (1836): 'the person, the nation, the world starts to degenerate'"
    }
   },
   {
    "at": {
-    "word": "smoking",
-    "after": 54
-   },
-   "image": {
-    "acc": "1924.663",
-    "x0": 0.3,
-    "y0": 0.2,
-    "h": 0.65,
-    "note": "Ostade's smoker at the window: 'smoking was thought to be good for you'"
-   }
-  },
-  {
-   "at": {
-    "word": "Before",
-    "after": 58
+    "word": "because",
+    "after": 50
    },
    "head": true
   },
   {
    "at": {
-    "word": "Now",
-    "after": 65
+    "word": "creativity",
+    "after": 56
    },
    "image": {
-    "acc": "1972.157",
-    "x0": 0.13,
-    "y0": 0.42,
-    "h": 0.51,
-    "note": "a waterfall, never the same water twice: 'these two attitudes have changed… the attitudes we have now will also change'"
+    "acc": "cm-flammarion",
+    "fit": [
+     0.02,
+     0.0,
+     0.7,
+     1.0
+    ],
+    "note": "the Flammarion engraving, a traveller putting his head through the sky to see beyond it: 'what we need is something from the outside, some creativity from the outside' (covers the join)"
    }
   },
   {
    "at": {
-    "word": "So",
-    "after": 75
+    "word": "corporation",
+    "after": 61
+   },
+   "image": {
+    "acc": "cm-boeing-max",
+    "fit": [
+     0.04,
+     0.25,
+     0.96,
+     0.8
+    ],
+    "grade": false,
+    "note": "Boeing's own 737 MAX in house colours: 'a corporation… knows that they're the best, knows that their designs are the best designs' (covers the join)"
+   }
+  },
+  {
+   "at": {
+    "word": "designs",
+    "after": 65.5
    },
    "head": true
   },
   {
    "at": {
-    "seg": 5
+    "word": "Boeing",
+    "after": 67.5
    },
    "image": {
-    "acc": "2025.85",
-    "x0": 0.38,
-    "y0": 0.2,
-    "h": 0.62,
-    "note": "a whole world inside one small circle (Suzhou print): 'conditioned and determined by your environment' (on the join that drops a false start; covers the next join)"
+    "acc": "cm-max-grounded",
+    "fit": [
+     0.28,
+     0.22,
+     0.76,
+     0.9
+    ],
+    "grade": false,
+    "note": "grounded 737 MAX jets parked near Boeing Field, 2019: 'like Boeing, that's not good' (ends on the join)"
    }
   },
   {
    "at": {
     "seg": 6
    },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "sure",
+    "after": 73.5
+   },
    "image": {
-    "acc": "1916.1154",
-    "x0": 0.35,
-    "y0": 0.1,
-    "h": 0.9,
-    "pan": 1200,
-    "zoom": [
-     1.04,
+    "acc": "cm-apple-park",
+    "fit": [
+     0.05,
+     0.0,
+     0.95,
      1.0
     ],
-    "note": "a packed Edo theatre, every eye on the stage: 'what you see on Instagram, what you see on TV, what you see on TikTok and X' (on the join)"
+    "grade": false,
+    "note": "Apple Park from the air: 'so sure that they knew everything, with regard to design, with regard to manufacture' (ends on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "everyone",
+    "after": 89.5
+   },
+   "image": {
+    "acc": "cm-apple-queue",
+    "fit": [
+     0.0,
+     0.1,
+     1.0,
+     0.95
+    ],
+    "grade": false,
+    "note": "a queue camped outside an Apple Store, 2010: 'everyone knows they're good, everyone knows they're beautiful, and no one questions it' (ends on the join)"
+   }
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "smoking",
+    "after": 99.5
+   },
+   "image": {
+    "acc": "cm-camels-doctors",
+    "fit": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "grade": false,
+    "note": "a 1940s Camel advertisement: 'More doctors smoke Camels than any other cigarette': 'smoking was thought to be good for you'"
+   }
+  },
+  {
+   "at": {
+    "word": "Before",
+    "after": 102.5
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "word": "Now",
+    "after": 109.5
+   },
+   "image": {
+    "acc": "ext-no-smoking-card",
+    "fit": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "grade": false,
+    "note": "a No Smoking sign, set high on a dark field so the captions stay clear of its lettering: 'these two attitudes have changed'"
    }
   },
   {
    "at": {
     "word": "and",
-    "after": 94.5
+    "after": 117.0
    },
    "head": true
   },
   {
    "at": {
-    "word": "slice",
-    "after": 97
+    "seg": 9
    },
    "image": {
-    "acc": "1955.297",
-    "x0": 0.41,
-    "y0": 0.27,
-    "h": 0.45,
-    "note": "a princess looking out of one small window: 'a very tiny little slice of the world, and we call it the world'"
+    "acc": "cm-family-tv",
+    "fit": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "grade": false,
+    "note": "a family gathered round the television, 1958: 'conditioned and determined by your environment… what you see on TV' (on the join, covers the next)"
    }
   },
   {
    "at": {
-    "word": "And",
-    "after": 104
+    "word": "Instagram",
+    "after": 132.5
+   },
+   "image": {
+    "acc": "cm-social-apps",
+    "fit": [
+     0.1,
+     0.0,
+     0.9,
+     1.0
+    ],
+    "grade": false,
+    "note": "a phone full of social-media apps: 'what you see on Instagram… TikTok and X'"
+   }
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 138.0
    },
    "head": true
   },
   {
    "at": {
-    "word": "holistically",
-    "after": 105
+    "word": "look",
+    "after": 147.5
    },
    "image": {
-    "acc": "1961.88",
-    "x0": 0.15,
-    "y0": 0.45,
-    "h": 0.5,
-    "note": "Lonely Retreat Overlooking a Misty Valley: 'look more holistically… can do better because they can see more clearly' (covers the join that drops 'using the left attention'; under the end-card dissolve)"
+    "acc": "cm-earthrise",
+    "fit": [
+     0.3,
+     0.18,
+     0.85,
+     0.9
+    ],
+    "grade": false,
+    "note": "Earthrise, Apollo 8 (1968), the whole Earth seen from outside it: 'anybody who can get out of that and look more holistically can do better, because they can see more clearly' (covers the join, to the end)"
    }
   }
  ],

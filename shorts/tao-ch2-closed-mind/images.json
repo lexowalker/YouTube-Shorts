@@ -1,182 +1,272 @@
 [
  {
-  "short_start_s": 3.893,
-  "short_end_s": 12.66,
-  "accession": "1966.11",
-  "title": "The Blind Leading the Blind",
-  "artist": "Pieter van der Heyden (Netherlandish, c. 1530–after 1572), Hieronymus Cock, Hieronymous Bosch (Netherlandish, c. 1450–1516)",
-  "date": "c. 1561",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1966.11",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1966.11/1966.11_full.tif",
+  "short_start_s": 5.18,
+  "short_end_s": 10.58,
+  "accession": "cm-ptolemaic",
+  "title": "Cellarius Harmonia Macrocosmica - Scenographia Systematis mundani Ptolemaici",
+  "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
+  "date": "1661",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Cellarius_Harmonia_Macrocosmica_-_Scenographia_Systematis_mundani_Ptolemaici.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cellarius_Harmonia_Macrocosmica_-_Scenographia_Systematis_mundani_Ptolemaici.jpg/1280px-Cellarius_Harmonia_Macrocosmica_-_Scenographia_Systematis_mundani_Ptolemaici.jpg",
   "crop_xywh_px": [
-   540,
-   78,
-   1651,
-   2935
+   64,
+   33,
+   1152,
+   1021
   ],
-  "motion": "zoom-out 1.12x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 17.07,
-  "short_end_s": 24.56,
-  "accession": "1966.11",
-  "title": "The Blind Leading the Blind",
-  "artist": "Pieter van der Heyden (Netherlandish, c. 1530–after 1572), Hieronymus Cock, Hieronymous Bosch (Netherlandish, c. 1450–1516)",
-  "date": "c. 1561",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1966.11",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1966.11/1966.11_full.tif",
+  "short_start_s": 10.58,
+  "short_end_s": 14.71,
+  "accession": "cm-bruegel-blind",
+  "title": "Pieter Bruegel the Elder - The Parable of the Blind Leading the Blind - WGA3511",
+  "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
+  "date": "1568date QS:P571,+1568-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg",
   "crop_xywh_px": [
-   1890,
-   587,
-   1651,
-   2935
+   640,
+   0,
+   589,
+   719
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 31.22,
-  "short_end_s": 43.04,
-  "accession": "ext-doors",
-  "title": "Double-leaf Doors",
-  "artist": "Pierre Rousseau (French, 1751–1829)",
-  "date": "1790s",
-  "license": "CC0 (Cleveland Museum of Art 1942.2.13; toned darker for caption legibility)",
-  "source_page": "https://clevelandart.org/art/1942.2.13",
-  "image_file_url": "https://clevelandart.org/art/1942.2.13",
+  "short_start_s": 19.043,
+  "short_end_s": 26.41,
+  "accession": "cm-daumier-ventre",
+  "title": "Honoré Daumier - Le Ventre Législatif (The Legislative Belly) - Google Art Project",
+  "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
+  "date": "1834date QS:P571,+1834-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_Daumier_-_Le_Ventre_L%C3%A9gislatif_%28The_Legislative_Belly%29_-_Google_Art_Project.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Honor%C3%A9_Daumier_-_Le_Ventre_L%C3%A9gislatif_%28The_Legislative_Belly%29_-_Google_Art_Project.jpg/1280px-Honor%C3%A9_Daumier_-_Le_Ventre_L%C3%A9gislatif_%28The_Legislative_Belly%29_-_Google_Art_Project.jpg",
   "crop_xywh_px": [
-   614,
-   992,
-   2604,
-   4630
+   230,
+   0,
+   819,
+   934
   ],
-  "motion": "zoom-out 1.12x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 50.05,
-  "short_end_s": 56.66,
-  "accession": "1981.13",
-  "title": "Ruins of an Ancient City",
-  "artist": "John Martin (British, 1789–1854)",
-  "date": "c. 1810–20",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1981.13",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1981.13/1981.13_full.tif",
+  "short_start_s": 31.53,
+  "short_end_s": 35.51,
+  "accession": "cm-padlock-hasp",
+  "title": "A padlock with hasps on a door at Fort Reis Magos",
+  "artist": "iMahesh",
+  "date": "9 August 2024, 15:16:04",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:A_padlock_with_hasps_on_a_door_at_Fort_Reis_Magos.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A_padlock_with_hasps_on_a_door_at_Fort_Reis_Magos.jpg/1280px-A_padlock_with_hasps_on_a_door_at_Fort_Reis_Magos.jpg",
   "crop_xywh_px": [
-   110,
-   221,
-   2113,
-   3757
+   282,
+   0,
+   717,
+   853
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 56.66,
-  "short_end_s": 60.48,
-  "accession": "1924.663",
-  "title": "The Smoker at the Window",
-  "artist": "Adriaen van Ostade (Dutch, 1610–1684)",
-  "date": "c. 1648–50",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1924.663",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1924.663/1924.663_full.tif",
+  "short_start_s": 47.19,
+  "short_end_s": 51.41,
+  "accession": "cm-cole-destruction",
+  "title": "Cole Thomas The Course of Empire Destruction 1836",
+  "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
+  "date": "1836date QS:P571,+1836-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg/1280px-Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg",
   "crop_xywh_px": [
-   1114,
-   902,
-   1649,
-   2931
+   256,
+   0,
+   666,
+   794
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 66.62,
-  "short_end_s": 76.61,
-  "accession": "1972.157",
-  "title": "Waterfall",
-  "artist": "Unknown, China, Song dynasty (960-1279) - Yuan dynasty (1271-1368)",
-  "date": "1271–1368",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1972.157",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1972.157/1972.157_full.tif",
+  "short_start_s": 57.58,
+  "short_end_s": 61.19,
+  "accession": "cm-flammarion",
+  "title": "The Flammarion Engraving (ca. 1888)",
+  "artist": "Camille Flammarion",
+  "date": "1888",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:The_Flammarion_Engraving_%28ca._1888%29.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_Flammarion_Engraving_%28ca._1888%29.jpg/1280px-The_Flammarion_Engraving_%28ca._1888%29.jpg",
   "crop_xywh_px": [
-   267,
-   2100,
-   1434,
-   2550
+   26,
+   0,
+   870,
+   1072
   ],
-  "motion": "zoom-out 1.12x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 84.293,
-  "short_end_s": 87.3,
-  "accession": "2025.85",
-  "title": "Print of Xu Gate and the City Moat",
-  "artist": "Unknown, Southeast China, Suzhou, Qing dynasty (1644–1911), Qianlong reign (1736–95)",
-  "date": "1736–95",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/2025.85",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/2025.85/2025.85_full.tif",
+  "short_start_s": 61.19,
+  "short_end_s": 66.46,
+  "accession": "cm-boeing-max",
+  "title": "Boeing, N7379E, Boeing 737-9 MAX (cropped)",
+  "artist": "Jeff Hitchcock from Seattle, WA, USA",
+  "date": "13 April 2017, 10:53",
+  "license": "CC BY 2.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg/1280px-Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg",
   "crop_xywh_px": [
-   3545,
-   1762,
-   3072,
-   5462
+   51,
+   220,
+   1178,
+   484
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 87.3,
-  "short_end_s": 94.94,
-  "accession": "1916.1154",
-  "title": "Perspective View of the Interior of the Nakamura Theater with Ichikawa Ebizo II as Yanone Goro",
-  "artist": "Okumura Masanobu (Japanese, 1686–1764)",
-  "date": "1740",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1916.1154",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1916.1154/1916.1154_full.tif",
+  "short_start_s": 69.24,
+  "short_end_s": 71.96,
+  "accession": "cm-max-grounded",
+  "title": "Boeing 737 MAX grounded aircraft near Boeing Field, April 2019",
+  "artist": "SounderBruce",
+  "date": "24 April 2019, 12:47:54",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Boeing_737_MAX_grounded_aircraft_near_Boeing_Field%2C_April_2019.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Boeing_737_MAX_grounded_aircraft_near_Boeing_Field%2C_April_2019.jpg/960px-Boeing_737_MAX_grounded_aircraft_near_Boeing_Field%2C_April_2019.jpg",
   "crop_xywh_px": [
-   1894,
-   339,
-   1716,
-   3050
+   269,
+   141,
+   461,
+   435
   ],
-  "motion": "horizontal pan 1200 px, zoom-out 1.04x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 99.1,
-  "short_end_s": 104.97,
-  "accession": "1955.297",
-  "title": "Princess and attendant in trompe l’oeil window",
-  "artist": "Aqil Khan (Indian, active mid-1700s)",
-  "date": "c. 1765",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1955.297",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1955.297/1955.297_full.tif",
+  "short_start_s": 76.13,
+  "short_end_s": 82.83,
+  "accession": "cm-apple-park",
+  "title": "Aerial view of Apple Park dllu",
+  "artist": "Daniel L. Lu (user:dllu)",
+  "date": "15 April 2018, 00:05:32 UTC (17:05:32 for PDT)",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
   "crop_xywh_px": [
-   2460,
-   2160,
-   2025,
-   3600
+   64,
+   0,
+   1152,
+   855
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 106.44,
-  "short_end_s": 111.32,
-  "accession": "1961.88",
-  "title": "Lonely Retreat Overlooking a Misty Valley",
-  "artist": "Sheng Maoye (Chinese, active early 1600s)",
-  "date": "1630",
-  "license": "CC0",
-  "source_page": "https://clevelandart.org/art/1961.88",
-  "image_file_url": "https://openaccess-cdn.clevelandart.org/1961.88/1961.88_full.tif",
+  "short_start_s": 91.58,
+  "short_end_s": 98.98,
+  "accession": "cm-apple-queue",
+  "title": "Apple Store on Country Club Plaza queue 2010",
+  "artist": "Patrick Hoesly",
+  "date": "24 June 2010, 11:42:25",
+  "license": "CC BY 2.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Store_on_Country_Club_Plaza_queue_2010.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Apple_Store_on_Country_Club_Plaza_queue_2010.jpg/960px-Apple_Store_on_Country_Club_Plaza_queue_2010.jpg",
   "crop_xywh_px": [
-   513,
-   2946,
-   1842,
-   3274
+   0,
+   124,
+   960,
+   1055
   ],
-  "motion": "zoom-out 1.08x→1.00x, linear"
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 101.61,
+  "short_end_s": 105.53,
+  "accession": "cm-camels-doctors",
+  "title": "More Doctors Smoke Camels",
+  "artist": "Internet Archive Book Images",
+  "date": "1948",
+  "license": "No restrictions",
+  "source_page": "https://commons.wikimedia.org/wiki/File:More_Doctors_Smoke_Camels.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/More_Doctors_Smoke_Camels.jpg/1280px-More_Doctors_Smoke_Camels.jpg",
+  "crop_xywh_px": [
+   0,
+   0,
+   1280,
+   588
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 111.49,
+  "short_end_s": 118.37,
+  "accession": "ext-no-smoking-card",
+  "title": "No Smoking sign (Malaysia)",
+  "artist": "CEphoto, Uwe Aranas",
+  "date": "2010s",
+  "license": "CC BY-SA 3.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Malaysia_Prohibition-signs-No-smoking-sign-01.jpg",
+  "image_file_url": "https://commons.wikimedia.org/wiki/File:Malaysia_Prohibition-signs-No-smoking-sign-01.jpg",
+  "crop_xywh_px": [
+   0,
+   0,
+   1080,
+   1920
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 129.253,
+  "short_end_s": 134.27,
+  "accession": "cm-family-tv",
+  "title": "Family watching television 1958 cropped2",
+  "artist": "Evert F. Baumgardner - National Archives and Records Administration.",
+  "date": "circa 1958date QS:P,+1958-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "CC0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Family_watching_television_1958_cropped2.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Family_watching_television_1958_cropped2.jpg/1280px-Family_watching_television_1958_cropped2.jpg",
+  "crop_xywh_px": [
+   0,
+   0,
+   1280,
+   1177
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 134.27,
+  "short_end_s": 138.91,
+  "accession": "cm-social-apps",
+  "title": "Social Media App Icons On The Screen of A Smartphone",
+  "artist": "mikemacmarketing",
+  "date": "27 July 2017",
+  "license": "CC BY 2.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg/1280px-Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+  "crop_xywh_px": [
+   128,
+   0,
+   1024,
+   1024
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 150.37,
+  "short_end_s": 157.39,
+  "accession": "cm-earthrise",
+  "title": "NASA-Apollo8-Dec24-Earthrise",
+  "artist": "NASA/Bill Anders",
+  "date": "Taken on 24 December 1968, 16:40 UTC[10]",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg",
+  "crop_xywh_px": [
+   384,
+   230,
+   704,
+   922
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
  }
 ]
