@@ -26,8 +26,8 @@
    "src_end": 1090.5
   },
   {
-   "src_start": 1002.17,
-   "src_end": 1013.04
+   "src_start": 1002.44,
+   "src_end": 1013.47
   },
   {
    "src_start": 1018.85,
@@ -79,22 +79,22 @@
   },
   {
    "kind": "image",
-   "acc": "cm-bruegel-blind",
-   "file": ".work/img/cm-bruegel-blind_full.jpg",
+   "acc": "cm-colored-waiting",
+   "file": ".work/img/cm-colored-waiting_full.jpg",
    "crop": [
-    640,
     0,
-    589,
-    719
+    0,
+    1280,
+    1142
    ],
    "fit": true,
-   "grade": true,
+   "grade": false,
    "pan": 0,
    "zoom": [
     1.04,
     1.0
    ],
-   "note": "Bruegel, The Blind Leading the Blind (1568): 'narrow-minded bigotry and blind prejudice' (ends on the join)",
+   "note": "a Jim Crow 'COLORED WAITING ROOM' sign, 1943: 'narrow-minded bigotry and blind prejudice can develop unopposed' (ends on the join)",
    "t0": 10.58,
    "t1": 14.71
   },
@@ -122,12 +122,12 @@
    ],
    "note": "Daumier, Le Ventre législatif (1834), smug legislators on their benches: 'That arrogance, that prejudice, that bias, and bigotry' (on the join after 'bigoted on the right… left… center')",
    "t0": 19.043,
-   "t1": 26.41
+   "t1": 22.93
   },
   {
    "kind": "head",
-   "t0": 26.41,
-   "t1": 31.53
+   "t0": 22.93,
+   "t1": 25.75
   },
   {
    "kind": "image",
@@ -146,14 +146,14 @@
     1.04,
     1.0
    ],
-   "note": "a padlocked door: 'just having a closed mind… you're not open' (covers the join)",
-   "t0": 31.53,
+   "note": "a padlocked door, from the first 'closed mind' through 'you're not open' (covers the join)",
+   "t0": 25.75,
    "t1": 35.51
   },
   {
    "kind": "head",
    "t0": 35.51,
-   "t1": 47.19
+   "t1": 43.69
   },
   {
    "kind": "image",
@@ -172,13 +172,13 @@
     1.04,
     1.0
    ],
-   "note": "Thomas Cole, The Course of Empire: Destruction (1836): 'the person, the nation, the world starts to degenerate'",
-   "t0": 47.19,
-   "t1": 51.41
+   "note": "Thomas Cole, The Course of Empire: Destruction (1836), held from 'the person, the nation, the world starts to degenerate' through 'locked into one way of conceiving things'",
+   "t0": 43.69,
+   "t1": 55.19
   },
   {
    "kind": "head",
-   "t0": 51.41,
+   "t0": 55.19,
    "t1": 57.58
   },
   {
@@ -204,13 +204,13 @@
   },
   {
    "kind": "image",
-   "acc": "cm-boeing-max",
-   "file": ".work/img/cm-boeing-max_full.jpg",
+   "acc": "cm-postower",
+   "file": ".work/img/cm-postower_full.jpg",
    "crop": [
-    51,
-    220,
-    1178,
-    484
+    448,
+    0,
+    832,
+    853
    ],
    "fit": true,
    "grade": false,
@@ -219,7 +219,7 @@
     1.04,
     1.0
    ],
-   "note": "Boeing's own 737 MAX in house colours: 'a corporation… knows that they're the best, knows that their designs are the best designs' (covers the join)",
+   "note": "a towering corporate headquarters seen from below (Post Tower, Bonn): 'let's talk about a corporation, knows that they're good, knows that they're the best' (covers the join)",
    "t0": 61.19,
    "t1": 66.46
   },
@@ -245,24 +245,19 @@
     1.04,
     1.0
    ],
-   "note": "grounded 737 MAX jets parked near Boeing Field, 2019: 'like Boeing, that's not good' (ends on the join)",
+   "note": "grounded 737 MAX jets parked near Boeing Field, 2019: 'like Boeing, that's not good' (covers the join; hard cut to Apple on 'Apple')",
    "t0": 69.24,
-   "t1": 71.96
-  },
-  {
-   "kind": "head",
-   "t0": 71.96,
-   "t1": 76.13
+   "t1": 72.54
   },
   {
    "kind": "image",
-   "acc": "cm-apple-park",
-   "file": ".work/img/cm-apple-park_full.jpg",
+   "acc": "cm-apple-la",
+   "file": ".work/img/cm-apple-la_full.jpg",
    "crop": [
-    64,
+    96,
     0,
-    1152,
-    855
+    768,
+    720
    ],
    "fit": true,
    "grade": false,
@@ -271,24 +266,24 @@
     1.04,
     1.0
    ],
-   "note": "Apple Park from the air: 'so sure that they knew everything, with regard to design, with regard to manufacture' (ends on the join)",
-   "t0": 76.13,
-   "t1": 82.83
+   "note": "an Apple Store with the Apple logo: 'If you look at Apple, frankly, they were so sure'",
+   "t0": 72.54,
+   "t1": 76.98
   },
   {
    "kind": "head",
-   "t0": 82.83,
-   "t1": 91.58
+   "t0": 76.98,
+   "t1": 80.76
   },
   {
    "kind": "image",
-   "acc": "cm-apple-queue",
-   "file": ".work/img/cm-apple-queue_full.jpg",
+   "acc": "cm-iphone-models",
+   "file": ".work/img/cm-iphone-models_full.jpg",
    "crop": [
     0,
-    124,
+    58,
     960,
-    1055
+    375
    ],
    "fit": true,
    "grade": false,
@@ -297,14 +292,40 @@
     1.04,
     1.0
    ],
-   "note": "a queue camped outside an Apple Store, 2010: 'everyone knows they're good, everyone knows they're beautiful, and no one questions it' (ends on the join)",
-   "t0": 91.58,
-   "t1": 98.98
+   "note": "a row of iPhones that all look alike: 'with regard to design, with regard to manufacture… when's the last time you saw anything really innovative come out of Apple?' (covers the join)",
+   "t0": 80.76,
+   "t1": 87.43
   },
   {
    "kind": "head",
-   "t0": 98.98,
-   "t1": 101.61
+   "t0": 87.43,
+   "t1": 91.74
+  },
+  {
+   "kind": "image",
+   "acc": "cm-apple-omotesando",
+   "file": ".work/img/cm-apple-omotesando_full.jpg",
+   "crop": [
+    0,
+    0,
+    1024,
+    960
+   ],
+   "fit": true,
+   "grade": false,
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "crowds streaming into an Apple Store under the logo: 'everyone knows they're good, everyone knows they're beautiful, and no one questions it' (ends on the join)",
+   "t0": 91.74,
+   "t1": 99.14
+  },
+  {
+   "kind": "head",
+   "t0": 99.14,
+   "t1": 101.77
   },
   {
    "kind": "image",
@@ -324,23 +345,23 @@
     1.0
    ],
    "note": "a 1940s Camel advertisement: 'More doctors smoke Camels than any other cigarette': 'smoking was thought to be good for you'",
-   "t0": 101.61,
-   "t1": 105.53
+   "t0": 101.77,
+   "t1": 105.69
   },
   {
    "kind": "head",
-   "t0": 105.53,
-   "t1": 111.49
+   "t0": 105.69,
+   "t1": 111.65
   },
   {
    "kind": "image",
-   "acc": "ext-no-smoking-card",
-   "file": ".work/img/ext-no-smoking-card_full.jpg",
+   "acc": "cm-sg-warning",
+   "file": ".work/img/cm-sg-warning_full.jpg",
    "crop": [
     0,
     0,
-    1080,
-    1920
+    960,
+    640
    ],
    "fit": true,
    "grade": false,
@@ -349,24 +370,24 @@
     1.04,
     1.0
    ],
-   "note": "a No Smoking sign, set high on a dark field so the captions stay clear of its lettering: 'these two attitudes have changed'",
-   "t0": 111.49,
-   "t1": 118.37
+   "note": "the Surgeon General's warning on a US cigarette pack: 'these two attitudes have changed'",
+   "t0": 111.65,
+   "t1": 118.53
   },
   {
    "kind": "head",
-   "t0": 118.37,
-   "t1": 129.253
+   "t0": 118.53,
+   "t1": 129.413
   },
   {
    "kind": "image",
-   "acc": "cm-family-tv",
-   "file": ".work/img/cm-family-tv_full.jpg",
+   "acc": "cm-young-texting",
+   "file": ".work/img/cm-young-texting_full.jpg",
    "crop": [
+    64,
     0,
-    0,
-    1280,
-    1177
+    1152,
+    960
    ],
    "fit": true,
    "grade": false,
@@ -375,9 +396,9 @@
     1.04,
     1.0
    ],
-   "note": "a family gathered round the television, 1958: 'conditioned and determined by your environment… what you see on TV' (on the join, covers the next)",
-   "t0": 129.253,
-   "t1": 134.27
+   "note": "young people round a table, every one of them on a phone: 'conditioned and determined by your environment' (on the join, covers the next)",
+   "t0": 129.413,
+   "t1": 134.43
   },
   {
    "kind": "image",
@@ -397,13 +418,13 @@
     1.0
    ],
    "note": "a phone full of social-media apps: 'what you see on Instagram… TikTok and X'",
-   "t0": 134.27,
-   "t1": 138.91
+   "t0": 134.43,
+   "t1": 139.07
   },
   {
    "kind": "head",
-   "t0": 138.91,
-   "t1": 150.37
+   "t0": 139.07,
+   "t1": 150.53
   },
   {
    "kind": "image",
@@ -423,8 +444,8 @@
     1.0
    ],
    "note": "Earthrise, Apollo 8 (1968), the whole Earth seen from outside it: 'anybody who can get out of that and look more holistically can do better, because they can see more clearly' (covers the join, to the end)",
-   "t0": 150.37,
-   "t1": 157.39
+   "t0": 150.53,
+   "t1": 157.55
   }
  ],
  "captions": [
@@ -2072,38 +2093,38 @@
    "lines": [
     3
    ],
-   "t_off": 72.03
+   "t_off": 71.98
   },
   {
    "words": [
     {
      "w": "If",
-     "s": 72.03,
-     "e": 72.19,
+     "s": 71.98,
+     "e": 72.02,
      "key": false
     },
     {
      "w": "you",
-     "s": 72.39,
-     "e": 72.45,
+     "s": 72.02,
+     "e": 72.08,
      "key": false
     },
     {
      "w": "look",
-     "s": 72.45,
-     "e": 72.61,
+     "s": 72.18,
+     "e": 72.34,
      "key": false
     },
     {
      "w": "at",
-     "s": 72.63,
-     "e": 72.81,
+     "s": 72.36,
+     "e": 72.54,
      "key": false
     },
     {
      "w": "Apple,",
-     "s": 72.81,
-     "e": 73.11,
+     "s": 72.54,
+     "e": 72.84,
      "key": true
     }
    ],
@@ -2111,96 +2132,96 @@
    "lines": [
     3
    ],
-   "t_off": 73.61
+   "t_off": 73.34
   },
   {
    "words": [
     {
      "w": "frankly,",
-     "s": 73.69,
-     "e": 73.77,
+     "s": 73.42,
+     "e": 73.5,
      "key": false
     },
     {
      "w": "they",
-     "s": 75.59,
-     "e": 75.67,
+     "s": 75.32,
+     "e": 75.4,
      "key": false
     },
     {
      "w": "were",
-     "s": 75.67,
-     "e": 75.79,
+     "s": 75.4,
+     "e": 75.52,
      "key": false
     },
     {
      "w": "so",
-     "s": 75.75,
-     "e": 76.13,
+     "s": 75.48,
+     "e": 75.86,
      "key": false
     },
     {
      "w": "sure",
-     "s": 76.13,
-     "e": 77.25,
+     "s": 75.86,
+     "e": 76.98,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "you",
-     "s": 74.21,
-     "e": 74.35,
+     "s": 73.94,
+     "e": 74.08,
      "key": false
     },
     {
      "w": "know,",
-     "s": 74.35,
-     "e": 74.53,
+     "s": 74.08,
+     "e": 74.26,
      "key": false
     },
     {
      "w": "they",
-     "s": 75.19,
-     "e": 75.39,
+     "s": 74.92,
+     "e": 75.12,
      "key": false
     },
     {
      "w": "they",
-     "s": 75.49,
-     "e": 75.59,
+     "s": 75.22,
+     "e": 75.32,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 77.25
+   "t_off": 76.98
   },
   {
    "words": [
     {
      "w": "that",
-     "s": 77.25,
-     "e": 77.69,
+     "s": 76.98,
+     "e": 77.42,
      "key": false
     },
     {
      "w": "they",
-     "s": 77.72,
-     "e": 77.89,
+     "s": 77.45,
+     "e": 77.62,
      "key": false
     },
     {
      "w": "knew",
-     "s": 77.89,
-     "e": 78.21,
+     "s": 77.62,
+     "e": 77.94,
      "key": false
     },
     {
      "w": "everything",
-     "s": 78.65,
-     "e": 79.03,
+     "s": 78.38,
+     "e": 78.76,
      "key": true
     }
    ],
@@ -2208,32 +2229,32 @@
    "lines": [
     3
    ],
-   "t_off": 79.53
+   "t_off": 79.26
   },
   {
    "words": [
     {
      "w": "with",
-     "s": 80.37,
-     "e": 80.51,
+     "s": 80.1,
+     "e": 80.24,
      "key": false
     },
     {
      "w": "regard",
-     "s": 80.51,
-     "e": 80.77,
+     "s": 80.24,
+     "e": 80.5,
      "key": false
     },
     {
      "w": "to",
-     "s": 80.77,
-     "e": 81.01,
+     "s": 80.5,
+     "e": 80.74,
      "key": false
     },
     {
      "w": "design,",
-     "s": 81.03,
-     "e": 81.43,
+     "s": 80.76,
+     "e": 81.16,
      "key": true
     }
    ],
@@ -2241,32 +2262,32 @@
    "lines": [
     2
    ],
-   "t_off": 81.67
+   "t_off": 81.4
   },
   {
    "words": [
     {
      "w": "with",
-     "s": 81.67,
-     "e": 81.69,
+     "s": 81.4,
+     "e": 81.42,
      "key": false
     },
     {
      "w": "regard",
-     "s": 81.69,
-     "e": 81.97,
+     "s": 81.42,
+     "e": 81.7,
      "key": false
     },
     {
      "w": "to",
-     "s": 81.97,
-     "e": 82.19,
+     "s": 81.7,
+     "e": 81.92,
      "key": false
     },
     {
      "w": "manufacture,",
-     "s": 82.27,
-     "e": 82.83,
+     "s": 81.94,
+     "e": 82.92,
      "key": true
     }
    ],
@@ -2274,32 +2295,32 @@
    "lines": [
     2
    ],
-   "t_off": 83.12
+   "t_off": 83.28
   },
   {
    "words": [
     {
      "w": "When's",
-     "s": 83.12,
-     "e": 83.37,
+     "s": 83.28,
+     "e": 83.53,
      "key": false
     },
     {
      "w": "the",
-     "s": 83.38,
-     "e": 83.52,
+     "s": 83.54,
+     "e": 83.68,
      "key": false
     },
     {
      "w": "last",
-     "s": 83.52,
-     "e": 83.62,
+     "s": 83.68,
+     "e": 83.78,
      "key": false
     },
     {
      "w": "time",
-     "s": 83.68,
-     "e": 83.78,
+     "s": 83.84,
+     "e": 83.94,
      "key": true
     }
    ],
@@ -2307,78 +2328,78 @@
    "lines": [
     2
    ],
-   "t_off": 83.78
+   "t_off": 83.94
   },
   {
    "words": [
     {
      "w": "you",
-     "s": 83.78,
-     "e": 83.86,
+     "s": 83.94,
+     "e": 84.02,
      "key": false
     },
     {
      "w": "saw",
-     "s": 83.86,
-     "e": 84.04,
+     "s": 84.02,
+     "e": 84.2,
      "key": false
     },
     {
      "w": "anything",
-     "s": 84.04,
-     "e": 84.38,
+     "s": 84.2,
+     "e": 84.54,
      "key": false
     },
     {
      "w": "really",
-     "s": 84.38,
-     "e": 84.66,
+     "s": 84.54,
+     "e": 84.82,
      "key": false
     },
     {
      "w": "innovative",
-     "s": 85.28,
-     "e": 85.68,
+     "s": 85.44,
+     "e": 85.84,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "innovation,",
-     "s": 84.68,
-     "e": 85.04,
+     "s": 84.84,
+     "e": 85.2,
      "key": false
     }
    ],
    "lines": [
     3
    ],
-   "t_off": 85.7
+   "t_off": 85.86
   },
   {
    "words": [
     {
      "w": "come",
-     "s": 85.7,
-     "e": 85.92,
-     "key": false
-    },
-    {
-     "w": "out",
-     "s": 85.92,
+     "s": 85.86,
      "e": 86.08,
      "key": false
     },
     {
-     "w": "of",
+     "w": "out",
      "s": 86.08,
      "e": 86.24,
      "key": false
     },
     {
-     "w": "Apple?",
+     "w": "of",
      "s": 86.24,
-     "e": 86.56,
+     "e": 86.4,
+     "key": false
+    },
+    {
+     "w": "Apple?",
+     "s": 86.4,
+     "e": 86.72,
      "key": true
     }
    ],
@@ -2386,32 +2407,32 @@
    "lines": [
     2
    ],
-   "t_off": 87.06
+   "t_off": 87.22
   },
   {
    "words": [
     {
      "w": "Now,",
-     "s": 87.27,
-     "e": 87.44,
+     "s": 87.43,
+     "e": 87.6,
      "key": false
     },
     {
      "w": "it",
-     "s": 87.48,
-     "e": 87.56,
+     "s": 87.64,
+     "e": 87.72,
      "key": false
     },
     {
      "w": "may",
-     "s": 87.56,
-     "e": 87.74,
+     "s": 87.72,
+     "e": 87.9,
      "key": false
     },
     {
      "w": "change",
-     "s": 87.84,
-     "e": 88.14,
+     "s": 88.0,
+     "e": 88.3,
      "key": true
     }
    ],
@@ -2419,32 +2440,32 @@
    "lines": [
     3
    ],
-   "t_off": 88.2
+   "t_off": 88.36
   },
   {
    "words": [
     {
      "w": "that",
-     "s": 88.2,
-     "e": 88.38,
+     "s": 88.36,
+     "e": 88.54,
      "key": false
     },
     {
      "w": "out",
-     "s": 88.4,
-     "e": 88.5,
+     "s": 88.56,
+     "e": 88.66,
      "key": false
     },
     {
      "w": "of",
-     "s": 88.5,
-     "e": 88.6,
+     "s": 88.66,
+     "e": 88.76,
      "key": false
     },
     {
      "w": "necessity,",
-     "s": 88.66,
-     "e": 89.1,
+     "s": 88.82,
+     "e": 89.26,
      "key": true
     }
    ],
@@ -2452,78 +2473,78 @@
    "lines": [
     3
    ],
-   "t_off": 88.98
+   "t_off": 89.14
   },
   {
    "words": [
     {
      "w": "But",
-     "s": 88.98,
-     "e": 89.14,
+     "s": 89.14,
+     "e": 89.3,
      "key": false
     },
     {
      "w": "it's",
-     "s": 89.14,
-     "e": 89.44,
+     "s": 89.3,
+     "e": 89.6,
      "key": false
     },
     {
      "w": "been",
-     "s": 90.08,
-     "e": 90.22,
+     "s": 90.24,
+     "e": 90.38,
      "key": false
     },
     {
      "w": "years",
-     "s": 90.22,
-     "e": 90.53,
+     "s": 90.38,
+     "e": 90.69,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "but",
-     "s": 88.8,
-     "e": 88.94,
+     "s": 88.96,
+     "e": 89.1,
      "key": false
     },
     {
      "w": "been",
-     "s": 89.76,
-     "e": 90.0,
+     "s": 89.92,
+     "e": 90.16,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 90.54
+   "t_off": 90.7
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 90.54,
-     "e": 90.7,
+     "s": 90.7,
+     "e": 90.86,
      "key": false
     },
     {
      "w": "years",
-     "s": 90.7,
-     "e": 90.88,
-     "key": false
-    },
-    {
-     "w": "and",
-     "s": 90.88,
+     "s": 90.86,
      "e": 91.04,
      "key": false
     },
     {
-     "w": "years,",
+     "w": "and",
      "s": 91.04,
-     "e": 91.28,
+     "e": 91.2,
+     "key": false
+    },
+    {
+     "w": "years,",
+     "s": 91.2,
+     "e": 91.44,
      "key": false
     }
    ],
@@ -2531,38 +2552,38 @@
    "lines": [
     2
    ],
-   "t_off": 91.38
+   "t_off": 91.54
   },
   {
    "words": [
     {
      "w": "because",
-     "s": 91.38,
-     "e": 91.58,
+     "s": 91.54,
+     "e": 91.74,
      "key": false
     },
     {
      "w": "everyone",
-     "s": 91.58,
-     "e": 91.86,
+     "s": 91.74,
+     "e": 92.02,
      "key": false
     },
     {
      "w": "knows",
-     "s": 91.86,
-     "e": 92.12,
+     "s": 92.02,
+     "e": 92.28,
      "key": false
     },
     {
      "w": "they're",
-     "s": 92.12,
-     "e": 92.4,
+     "s": 92.28,
+     "e": 92.56,
      "key": false
     },
     {
      "w": "good,",
-     "s": 92.4,
-     "e": 92.72,
+     "s": 92.56,
+     "e": 92.88,
      "key": true
     }
    ],
@@ -2570,38 +2591,38 @@
    "lines": [
     2
    ],
-   "t_off": 93.22
+   "t_off": 93.38
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 93.85,
-     "e": 94.02,
+     "s": 94.01,
+     "e": 94.18,
      "key": false
     },
     {
      "w": "everyone",
-     "s": 94.02,
-     "e": 94.28,
+     "s": 94.18,
+     "e": 94.44,
      "key": false
     },
     {
      "w": "knows",
-     "s": 94.28,
-     "e": 94.5,
+     "s": 94.44,
+     "e": 94.66,
      "key": false
     },
     {
      "w": "they're",
-     "s": 94.5,
-     "e": 94.68,
+     "s": 94.66,
+     "e": 94.84,
      "key": false
     },
     {
      "w": "beautiful,",
-     "s": 94.69,
-     "e": 95.08,
+     "s": 94.85,
+     "e": 95.24,
      "key": true
     }
    ],
@@ -2609,38 +2630,38 @@
    "lines": [
     3
    ],
-   "t_off": 95.26
+   "t_off": 95.42
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 95.26,
-     "e": 95.36,
+     "s": 95.42,
+     "e": 95.52,
      "key": false
     },
     {
      "w": "no",
-     "s": 95.36,
-     "e": 95.48,
+     "s": 95.52,
+     "e": 95.64,
      "key": false
     },
     {
      "w": "one",
-     "s": 95.48,
-     "e": 95.66,
+     "s": 95.64,
+     "e": 95.82,
      "key": false
     },
     {
      "w": "questions",
-     "s": 95.7,
-     "e": 96.04,
+     "s": 95.86,
+     "e": 96.2,
      "key": true
     },
     {
      "w": "it,",
-     "s": 95.97,
-     "e": 96.1,
+     "s": 96.13,
+     "e": 96.26,
      "key": false
     }
    ],
@@ -2648,78 +2669,78 @@
    "lines": [
     3
    ],
-   "t_off": 96.36
+   "t_off": 96.52
   },
   {
    "words": [
     {
      "w": "but",
-     "s": 96.36,
-     "e": 96.64,
+     "s": 96.52,
+     "e": 96.8,
      "key": false
     },
     {
      "w": "something's",
-     "s": 97.08,
-     "e": 97.4,
+     "s": 97.24,
+     "e": 97.56,
      "key": false
     },
     {
      "w": "going",
-     "s": 97.4,
-     "e": 97.5,
+     "s": 97.56,
+     "e": 97.66,
      "key": false
     },
     {
      "w": "to",
-     "s": 97.5,
-     "e": 97.64,
+     "s": 97.66,
+     "e": 97.8,
      "key": false
     },
     {
      "w": "change.",
-     "s": 97.66,
-     "e": 97.84,
+     "s": 97.82,
+     "e": 98.0,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "and",
-     "s": 96.14,
-     "e": 96.34,
+     "s": 96.3,
+     "e": 96.5,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 98.0
+   "t_off": 98.16
   },
   {
    "words": [
     {
      "w": "Just",
-     "s": 98.0,
-     "e": 98.08,
+     "s": 98.16,
+     "e": 98.24,
      "key": false
     },
     {
      "w": "watch",
-     "s": 98.14,
-     "e": 98.3,
+     "s": 98.3,
+     "e": 98.46,
      "key": false
     },
     {
      "w": "and",
-     "s": 98.3,
-     "e": 98.5,
+     "s": 98.46,
+     "e": 98.66,
      "key": false
     },
     {
      "w": "see.",
-     "s": 98.58,
-     "e": 98.74,
+     "s": 98.74,
+     "e": 98.9,
      "key": true
     }
    ],
@@ -2727,38 +2748,38 @@
    "lines": [
     2
    ],
-   "t_off": 99.24
+   "t_off": 99.4
   },
   {
    "words": [
     {
      "w": "So,",
-     "s": 99.43,
-     "e": 99.43,
+     "s": 99.59,
+     "e": 99.59,
      "key": false
     },
     {
      "w": "in",
-     "s": 99.91,
-     "e": 99.93,
+     "s": 100.07,
+     "e": 100.09,
      "key": false
     },
     {
      "w": "my",
-     "s": 99.93,
-     "e": 100.13,
+     "s": 100.09,
+     "e": 100.29,
      "key": false
     },
     {
      "w": "grandfather's",
-     "s": 100.13,
-     "e": 100.77,
+     "s": 100.29,
+     "e": 100.93,
      "key": true
     },
     {
      "w": "time,",
-     "s": 100.77,
-     "e": 101.03,
+     "s": 100.93,
+     "e": 101.19,
      "key": false
     }
    ],
@@ -2766,38 +2787,38 @@
    "lines": [
     3
    ],
-   "t_off": 101.53
+   "t_off": 101.69
   },
   {
    "words": [
     {
      "w": "smoking",
-     "s": 101.61,
-     "e": 101.93,
+     "s": 101.77,
+     "e": 102.09,
      "key": true
     },
     {
      "w": "was",
-     "s": 101.93,
-     "e": 102.17,
-     "key": false
-    },
-    {
-     "w": "thought",
-     "s": 102.22,
+     "s": 102.09,
      "e": 102.33,
      "key": false
     },
     {
-     "w": "to",
-     "s": 102.33,
+     "w": "thought",
+     "s": 102.38,
      "e": 102.49,
      "key": false
     },
     {
-     "w": "be",
+     "w": "to",
      "s": 102.49,
-     "e": 102.63,
+     "e": 102.65,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 102.65,
+     "e": 102.79,
      "key": false
     }
    ],
@@ -2805,26 +2826,26 @@
    "lines": [
     2
    ],
-   "t_off": 102.63
+   "t_off": 102.79
   },
   {
    "words": [
     {
      "w": "good",
-     "s": 102.63,
-     "e": 102.81,
+     "s": 102.79,
+     "e": 102.97,
      "key": false
     },
     {
      "w": "for",
-     "s": 102.81,
-     "e": 103.07,
+     "s": 102.97,
+     "e": 103.23,
      "key": false
     },
     {
      "w": "you.",
-     "s": 103.07,
-     "e": 104.11,
+     "s": 103.23,
+     "e": 104.27,
      "key": false
     }
    ],
@@ -2832,32 +2853,32 @@
    "lines": [
     3
    ],
-   "t_off": 104.61
+   "t_off": 104.77
   },
   {
    "words": [
     {
      "w": "Before",
-     "s": 105.53,
-     "e": 105.85,
+     "s": 105.69,
+     "e": 106.01,
      "key": false
     },
     {
      "w": "my",
-     "s": 105.85,
-     "e": 106.09,
+     "s": 106.01,
+     "e": 106.25,
      "key": false
     },
     {
      "w": "grandfather's",
-     "s": 106.09,
-     "e": 106.65,
+     "s": 106.25,
+     "e": 106.81,
      "key": false
     },
     {
      "w": "time,",
-     "s": 106.72,
-     "e": 106.93,
+     "s": 106.88,
+     "e": 107.09,
      "key": false
     }
    ],
@@ -2865,32 +2886,32 @@
    "lines": [
     2
    ],
-   "t_off": 107.19
+   "t_off": 107.35
   },
   {
    "words": [
     {
      "w": "if",
-     "s": 107.19,
-     "e": 107.31,
+     "s": 107.35,
+     "e": 107.47,
      "key": false
     },
     {
      "w": "you",
-     "s": 107.31,
-     "e": 107.43,
+     "s": 107.47,
+     "e": 107.59,
      "key": false
     },
     {
      "w": "didn't",
-     "s": 107.43,
-     "e": 107.93,
+     "s": 107.59,
+     "e": 108.09,
      "key": false
     },
     {
      "w": "spank",
-     "s": 107.93,
-     "e": 108.23,
+     "s": 108.09,
+     "e": 108.39,
      "key": true
     }
    ],
@@ -2898,20 +2919,20 @@
    "lines": [
     2
    ],
-   "t_off": 108.27
+   "t_off": 108.43
   },
   {
    "words": [
     {
      "w": "your",
-     "s": 108.27,
-     "e": 108.35,
+     "s": 108.43,
+     "e": 108.51,
      "key": false
     },
     {
      "w": "child,",
-     "s": 108.35,
-     "e": 108.71,
+     "s": 108.51,
+     "e": 108.87,
      "key": false
     }
    ],
@@ -2919,38 +2940,38 @@
    "lines": [
     2
    ],
-   "t_off": 108.91
+   "t_off": 109.07
   },
   {
    "words": [
     {
      "w": "something",
-     "s": 108.91,
-     "e": 109.05,
+     "s": 109.07,
+     "e": 109.21,
      "key": false
     },
     {
      "w": "was",
-     "s": 109.05,
-     "e": 109.27,
+     "s": 109.21,
+     "e": 109.43,
      "key": false
     },
     {
      "w": "wrong",
-     "s": 109.27,
-     "e": 109.49,
+     "s": 109.43,
+     "e": 109.65,
      "key": true
     },
     {
      "w": "with",
-     "s": 109.49,
-     "e": 109.69,
+     "s": 109.65,
+     "e": 109.85,
      "key": false
     },
     {
      "w": "you.",
-     "s": 109.69,
-     "e": 109.93,
+     "s": 109.85,
+     "e": 110.09,
      "key": false
     }
    ],
@@ -2958,32 +2979,32 @@
    "lines": [
     2
    ],
-   "t_off": 110.43
+   "t_off": 110.59
   },
   {
    "words": [
     {
      "w": "Now,",
-     "s": 111.49,
-     "e": 111.53,
+     "s": 111.65,
+     "e": 111.69,
      "key": false
     },
     {
      "w": "these",
-     "s": 111.79,
-     "e": 111.89,
+     "s": 111.95,
+     "e": 112.05,
      "key": false
     },
     {
      "w": "two",
-     "s": 111.89,
-     "e": 112.23,
+     "s": 112.05,
+     "e": 112.39,
      "key": false
     },
     {
      "w": "attitudes",
-     "s": 112.23,
-     "e": 112.75,
+     "s": 112.39,
+     "e": 112.91,
      "key": true
     }
    ],
@@ -2991,20 +3012,20 @@
    "lines": [
     2
    ],
-   "t_off": 112.75
+   "t_off": 112.91
   },
   {
    "words": [
     {
      "w": "have",
-     "s": 112.75,
-     "e": 112.95,
+     "s": 112.91,
+     "e": 113.11,
      "key": false
     },
     {
      "w": "changed,",
-     "s": 112.95,
-     "e": 113.49,
+     "s": 113.11,
+     "e": 113.65,
      "key": false
     }
    ],
@@ -3012,32 +3033,32 @@
    "lines": [
     2
    ],
-   "t_off": 113.99
+   "t_off": 114.15
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 114.81,
-     "e": 114.93,
+     "s": 114.97,
+     "e": 115.09,
      "key": false
     },
     {
      "w": "attitudes",
-     "s": 114.93,
-     "e": 115.49,
+     "s": 115.09,
+     "e": 115.65,
      "key": false
     },
     {
      "w": "that",
-     "s": 115.49,
-     "e": 115.71,
+     "s": 115.65,
+     "e": 115.87,
      "key": false
     },
     {
      "w": "came",
-     "s": 115.75,
-     "e": 115.91,
+     "s": 115.91,
+     "e": 116.07,
      "key": false
     }
    ],
@@ -3045,32 +3066,32 @@
    "lines": [
     2
    ],
-   "t_off": 115.91
+   "t_off": 116.07
   },
   {
    "words": [
     {
      "w": "thereafter",
-     "s": 115.91,
-     "e": 116.59,
+     "s": 116.07,
+     "e": 116.75,
      "key": true
     },
     {
      "w": "also",
-     "s": 116.59,
-     "e": 117.01,
+     "s": 116.75,
+     "e": 117.17,
      "key": false
     },
     {
      "w": "have",
-     "s": 117.01,
-     "e": 117.23,
+     "s": 117.17,
+     "e": 117.39,
      "key": false
     },
     {
      "w": "changed,",
-     "s": 117.3,
-     "e": 117.73,
+     "s": 117.46,
+     "e": 117.89,
      "key": false
     }
    ],
@@ -3078,38 +3099,38 @@
    "lines": [
     1
    ],
-   "t_off": 118.23
+   "t_off": 118.39
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 118.37,
-     "e": 118.43,
+     "s": 118.53,
+     "e": 118.59,
      "key": false
     },
     {
      "w": "the",
-     "s": 118.43,
-     "e": 118.55,
+     "s": 118.59,
+     "e": 118.71,
      "key": false
     },
     {
      "w": "attitudes",
-     "s": 118.55,
-     "e": 118.95,
+     "s": 118.71,
+     "e": 119.11,
      "key": false
     },
     {
      "w": "we",
-     "s": 118.99,
-     "e": 119.15,
+     "s": 119.15,
+     "e": 119.31,
      "key": false
     },
     {
      "w": "have",
-     "s": 119.15,
-     "e": 119.35,
+     "s": 119.31,
+     "e": 119.51,
      "key": false
     }
    ],
@@ -3117,32 +3138,32 @@
    "lines": [
     2
    ],
-   "t_off": 119.35
+   "t_off": 119.51
   },
   {
    "words": [
     {
      "w": "now",
-     "s": 119.35,
-     "e": 119.65,
+     "s": 119.51,
+     "e": 119.81,
      "key": false
     },
     {
      "w": "will",
-     "s": 119.65,
-     "e": 119.93,
+     "s": 119.81,
+     "e": 120.09,
      "key": false
     },
     {
      "w": "also",
-     "s": 119.93,
-     "e": 120.43,
+     "s": 120.09,
+     "e": 120.59,
      "key": false
     },
     {
      "w": "change.",
-     "s": 120.43,
-     "e": 120.97,
+     "s": 120.59,
+     "e": 121.13,
      "key": true
     }
    ],
@@ -3150,38 +3171,38 @@
    "lines": [
     2
    ],
-   "t_off": 121.47
+   "t_off": 121.63
   },
   {
    "words": [
     {
      "w": "So,",
-     "s": 121.56,
-     "e": 121.67,
+     "s": 121.72,
+     "e": 121.83,
      "key": false
     },
     {
      "w": "if",
-     "s": 121.83,
-     "e": 121.85,
+     "s": 121.99,
+     "e": 122.01,
      "key": false
     },
     {
      "w": "you",
-     "s": 121.85,
-     "e": 121.97,
-     "key": false
-    },
-    {
-     "w": "get",
-     "s": 121.97,
+     "s": 122.01,
      "e": 122.13,
      "key": false
     },
     {
-     "w": "locked",
+     "w": "get",
      "s": 122.13,
-     "e": 122.43,
+     "e": 122.29,
+     "key": false
+    },
+    {
+     "w": "locked",
+     "s": 122.29,
+     "e": 122.59,
      "key": true
     }
    ],
@@ -3189,38 +3210,38 @@
    "lines": [
     3
    ],
-   "t_off": 122.43
+   "t_off": 122.59
   },
   {
    "words": [
     {
      "w": "into",
-     "s": 122.43,
-     "e": 122.71,
+     "s": 122.59,
+     "e": 122.87,
      "key": false
     },
     {
      "w": "one",
-     "s": 122.71,
-     "e": 123.03,
+     "s": 122.87,
+     "e": 123.19,
      "key": false
     },
     {
      "w": "way",
-     "s": 123.03,
-     "e": 123.23,
+     "s": 123.19,
+     "e": 123.39,
      "key": false
     },
     {
      "w": "of",
-     "s": 123.23,
-     "e": 123.41,
+     "s": 123.39,
+     "e": 123.57,
      "key": false
     },
     {
      "w": "looking",
-     "s": 123.41,
-     "e": 123.63,
+     "s": 123.57,
+     "e": 123.79,
      "key": false
     }
    ],
@@ -3228,20 +3249,20 @@
    "lines": [
     3
    ],
-   "t_off": 123.63
+   "t_off": 123.79
   },
   {
    "words": [
     {
      "w": "at",
-     "s": 123.63,
-     "e": 123.85,
+     "s": 123.79,
+     "e": 124.01,
      "key": false
     },
     {
      "w": "things,",
-     "s": 123.89,
-     "e": 124.21,
+     "s": 124.05,
+     "e": 124.37,
      "key": false
     }
    ],
@@ -3249,72 +3270,72 @@
    "lines": [
     2
    ],
-   "t_off": 124.71
+   "t_off": 124.87
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 124.93,
-     "e": 125.03,
+     "s": 125.09,
+     "e": 125.19,
      "key": false
     },
     {
      "w": "you",
-     "s": 125.03,
-     "e": 125.21,
+     "s": 125.19,
+     "e": 125.37,
      "key": false
     },
     {
      "w": "don't",
-     "s": 125.19,
-     "e": 125.47,
+     "s": 125.35,
+     "e": 125.63,
      "key": false
     },
     {
      "w": "realize",
-     "s": 125.47,
-     "e": 125.83,
+     "s": 125.63,
+     "e": 125.99,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "and",
-     "s": 124.65,
-     "e": 124.75,
+     "s": 124.81,
+     "e": 124.91,
      "key": false
     },
     {
      "w": "you",
-     "s": 124.75,
-     "e": 124.87,
+     "s": 124.91,
+     "e": 125.03,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 125.83
+   "t_off": 125.99
   },
   {
    "words": [
     {
      "w": "that",
-     "s": 125.83,
-     "e": 126.09,
+     "s": 125.99,
+     "e": 126.25,
      "key": false
     },
     {
      "w": "your",
-     "s": 126.09,
-     "e": 126.23,
+     "s": 126.25,
+     "e": 126.39,
      "key": false
     },
     {
      "w": "attitudes,",
-     "s": 126.23,
-     "e": 126.85,
+     "s": 126.39,
+     "e": 127.01,
      "key": true
     }
    ],
@@ -3322,84 +3343,84 @@
    "lines": [
     2
    ],
-   "t_off": 126.65
+   "t_off": 126.81
   },
   {
    "words": [
     {
      "w": "your",
-     "s": 126.65,
-     "e": 126.81,
+     "s": 126.81,
+     "e": 126.97,
      "key": false
     },
     {
      "w": "whole",
-     "s": 127.31,
-     "e": 127.53,
+     "s": 127.47,
+     "e": 127.69,
      "key": false
     },
     {
      "w": "way",
-     "s": 127.73,
-     "e": 127.93,
+     "s": 127.89,
+     "e": 128.09,
      "key": false
     },
     {
      "w": "of",
-     "s": 127.93,
-     "e": 128.07,
+     "s": 128.09,
+     "e": 128.23,
      "key": false
     },
     {
      "w": "looking",
-     "s": 128.07,
-     "e": 128.21,
+     "s": 128.23,
+     "e": 128.37,
      "key": false
     }
    ],
    "fillers": [
     {
      "w": "your",
-     "s": 127.07,
-     "e": 127.23,
+     "s": 127.23,
+     "e": 127.39,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 128.21
+   "t_off": 128.37
   },
   {
    "words": [
     {
      "w": "at",
-     "s": 128.21,
-     "e": 128.39,
+     "s": 128.37,
+     "e": 128.55,
      "key": false
     },
     {
      "w": "the",
-     "s": 128.39,
-     "e": 128.53,
+     "s": 128.55,
+     "e": 128.69,
      "key": false
     },
     {
      "w": "world",
-     "s": 128.53,
-     "e": 128.77,
+     "s": 128.69,
+     "e": 128.93,
      "key": true
     },
     {
      "w": "is",
-     "s": 128.77,
-     "e": 129.03,
+     "s": 128.93,
+     "e": 129.19,
      "key": false
     },
     {
      "w": "totally",
-     "s": 129.1,
-     "e": 129.45,
+     "s": 129.26,
+     "e": 129.61,
      "key": false
     }
    ],
@@ -3407,26 +3428,26 @@
    "lines": [
     3
    ],
-   "t_off": 129.54
+   "t_off": 129.7
   },
   {
    "words": [
     {
      "w": "conditioned",
-     "s": 129.54,
-     "e": 130.16,
+     "s": 129.7,
+     "e": 130.32,
      "key": true
     },
     {
      "w": "and",
-     "s": 130.32,
-     "e": 130.56,
+     "s": 130.48,
+     "e": 130.72,
      "key": false
     },
     {
      "w": "determined",
-     "s": 130.56,
-     "e": 130.98,
+     "s": 130.72,
+     "e": 131.14,
      "key": false
     }
    ],
@@ -3434,72 +3455,72 @@
    "lines": [
     2
    ],
-   "t_off": 131.36
+   "t_off": 131.52
   },
   {
    "words": [
     {
      "w": "by",
-     "s": 131.36,
-     "e": 131.46,
+     "s": 131.52,
+     "e": 131.62,
      "key": false
     },
     {
      "w": "your",
-     "s": 131.5,
-     "e": 131.8,
+     "s": 131.66,
+     "e": 131.96,
      "key": false
     },
     {
      "w": "environment.",
-     "s": 131.8,
-     "e": 132.36,
+     "s": 131.96,
+     "e": 132.52,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "by",
-     "s": 130.98,
-     "e": 131.24,
+     "s": 131.14,
+     "e": 131.4,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 132.75
+   "t_off": 132.91
   },
   {
    "words": [
     {
      "w": "What",
-     "s": 132.75,
-     "e": 132.89,
+     "s": 132.91,
+     "e": 133.05,
      "key": false
     },
     {
      "w": "you",
-     "s": 132.89,
-     "e": 133.19,
+     "s": 133.05,
+     "e": 133.35,
      "key": false
     },
     {
      "w": "see",
-     "s": 133.23,
-     "e": 133.45,
+     "s": 133.39,
+     "e": 133.61,
      "key": false
     },
     {
      "w": "on",
-     "s": 133.45,
-     "e": 134.13,
+     "s": 133.61,
+     "e": 134.29,
      "key": false
     },
     {
      "w": "Instagram,",
-     "s": 134.27,
-     "e": 135.17,
+     "s": 134.43,
+     "e": 135.33,
      "key": true
     }
    ],
@@ -3507,38 +3528,38 @@
    "lines": [
     3
    ],
-   "t_off": 135.41
+   "t_off": 135.57
   },
   {
    "words": [
     {
      "w": "what",
-     "s": 135.41,
-     "e": 135.49,
+     "s": 135.57,
+     "e": 135.65,
      "key": false
     },
     {
      "w": "you",
-     "s": 135.56,
-     "e": 135.61,
+     "s": 135.72,
+     "e": 135.77,
      "key": false
     },
     {
      "w": "see",
-     "s": 135.63,
-     "e": 135.81,
+     "s": 135.79,
+     "e": 135.97,
      "key": false
     },
     {
      "w": "on",
-     "s": 135.81,
-     "e": 135.99,
+     "s": 135.97,
+     "e": 136.15,
      "key": false
     },
     {
      "w": "TV,",
-     "s": 135.99,
-     "e": 136.35,
+     "s": 136.15,
+     "e": 136.51,
      "key": true
     }
    ],
@@ -3546,38 +3567,38 @@
    "lines": [
     3
    ],
-   "t_off": 136.55
+   "t_off": 136.71
   },
   {
    "words": [
     {
      "w": "what",
-     "s": 136.55,
-     "e": 136.61,
+     "s": 136.71,
+     "e": 136.77,
      "key": false
     },
     {
      "w": "you",
-     "s": 136.67,
-     "e": 136.75,
+     "s": 136.83,
+     "e": 136.91,
      "key": false
     },
     {
      "w": "see",
-     "s": 136.75,
-     "e": 137.01,
+     "s": 136.91,
+     "e": 137.17,
      "key": false
     },
     {
      "w": "on",
-     "s": 137.01,
-     "e": 137.23,
+     "s": 137.17,
+     "e": 137.39,
      "key": false
     },
     {
      "w": "TikTok",
-     "s": 137.23,
-     "e": 137.65,
+     "s": 137.39,
+     "e": 137.81,
      "key": true
     }
    ],
@@ -3585,20 +3606,20 @@
    "lines": [
     3
    ],
-   "t_off": 137.65
+   "t_off": 137.81
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 137.65,
-     "e": 137.89,
+     "s": 137.81,
+     "e": 138.05,
      "key": false
     },
     {
      "w": "X,",
-     "s": 137.89,
-     "e": 138.23,
+     "s": 138.05,
+     "e": 138.39,
      "key": false
     }
    ],
@@ -3606,90 +3627,90 @@
    "lines": [
     2
    ],
-   "t_off": 138.73
+   "t_off": 138.89
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 138.91,
-     "e": 138.99,
+     "s": 139.07,
+     "e": 139.15,
      "key": false
     },
     {
      "w": "what",
-     "s": 139.25,
-     "e": 139.39,
+     "s": 139.41,
+     "e": 139.55,
      "key": false
     },
     {
      "w": "books",
-     "s": 139.39,
-     "e": 139.75,
+     "s": 139.55,
+     "e": 139.91,
      "key": true
     },
     {
      "w": "you've",
-     "s": 139.77,
-     "e": 140.07,
+     "s": 139.93,
+     "e": 140.23,
      "key": false
     },
     {
      "w": "read",
-     "s": 140.07,
-     "e": 140.23,
+     "s": 140.23,
+     "e": 140.39,
      "key": false
     }
    ],
    "fillers": [
     {
      "w": "what",
-     "s": 138.99,
-     "e": 139.09,
+     "s": 139.15,
+     "e": 139.25,
      "key": false
     },
     {
      "w": "you,",
-     "s": 139.09,
-     "e": 139.19,
+     "s": 139.25,
+     "e": 139.35,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 140.23
+   "t_off": 140.39
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 140.23,
-     "e": 140.33,
+     "s": 140.39,
+     "e": 140.49,
      "key": false
     },
     {
      "w": "what",
-     "s": 140.33,
-     "e": 140.45,
+     "s": 140.49,
+     "e": 140.61,
      "key": false
     },
     {
      "w": "movies",
-     "s": 140.45,
-     "e": 140.79,
+     "s": 140.61,
+     "e": 140.95,
      "key": true
     },
     {
      "w": "you've",
-     "s": 140.79,
-     "e": 141.15,
+     "s": 140.95,
+     "e": 141.31,
      "key": false
     },
     {
      "w": "seen.",
-     "s": 141.15,
-     "e": 141.41,
+     "s": 141.31,
+     "e": 141.57,
      "key": false
     }
    ],
@@ -3697,44 +3718,44 @@
    "lines": [
     2
    ],
-   "t_off": 141.91
+   "t_off": 142.07
   },
   {
    "words": [
     {
      "w": "See,",
-     "s": 142.17,
-     "e": 142.39,
+     "s": 142.33,
+     "e": 142.55,
      "key": false
     },
     {
      "w": "we",
-     "s": 142.51,
-     "e": 142.59,
+     "s": 142.67,
+     "e": 142.75,
      "key": false
     },
     {
      "w": "look",
-     "s": 142.59,
-     "e": 142.77,
+     "s": 142.75,
+     "e": 142.93,
      "key": false
     },
     {
      "w": "at",
-     "s": 142.77,
-     "e": 142.89,
+     "s": 142.93,
+     "e": 143.05,
      "key": false
     },
     {
      "w": "a",
-     "s": 142.89,
-     "e": 143.07,
+     "s": 143.05,
+     "e": 143.23,
      "key": false
     },
     {
      "w": "very",
-     "s": 143.07,
-     "e": 143.19,
+     "s": 143.23,
+     "e": 143.35,
      "key": false
     }
    ],
@@ -3742,32 +3763,32 @@
    "lines": [
     3
    ],
-   "t_off": 143.19
+   "t_off": 143.35
   },
   {
    "words": [
     {
      "w": "tiny,",
-     "s": 143.19,
-     "e": 143.67,
+     "s": 143.35,
+     "e": 143.83,
      "key": true
     },
     {
      "w": "tiny,",
-     "s": 143.67,
-     "e": 143.95,
+     "s": 143.83,
+     "e": 144.11,
      "key": false
     },
     {
      "w": "tiny",
-     "s": 143.95,
-     "e": 144.17,
+     "s": 144.11,
+     "e": 144.33,
      "key": false
     },
     {
      "w": "little",
-     "s": 144.17,
-     "e": 144.37,
+     "s": 144.33,
+     "e": 144.53,
      "key": false
     }
    ],
@@ -3775,32 +3796,32 @@
    "lines": [
     2
    ],
-   "t_off": 144.37
+   "t_off": 144.53
   },
   {
    "words": [
     {
      "w": "slice",
-     "s": 144.37,
-     "e": 144.63,
+     "s": 144.53,
+     "e": 144.79,
      "key": true
     },
     {
      "w": "of",
-     "s": 144.63,
-     "e": 144.77,
-     "key": false
-    },
-    {
-     "w": "the",
-     "s": 144.77,
+     "s": 144.79,
      "e": 144.93,
      "key": false
     },
     {
-     "w": "world,",
+     "w": "the",
      "s": 144.93,
-     "e": 145.17,
+     "e": 145.09,
+     "key": false
+    },
+    {
+     "w": "world,",
+     "s": 145.09,
+     "e": 145.33,
      "key": false
     }
    ],
@@ -3808,44 +3829,44 @@
    "lines": [
     2
    ],
-   "t_off": 145.17
+   "t_off": 145.33
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 145.17,
-     "e": 145.33,
+     "s": 145.33,
+     "e": 145.49,
      "key": false
     },
     {
      "w": "we",
-     "s": 145.33,
-     "e": 145.43,
+     "s": 145.49,
+     "e": 145.59,
      "key": false
     },
     {
      "w": "call",
-     "s": 145.43,
-     "e": 145.61,
+     "s": 145.59,
+     "e": 145.77,
      "key": false
     },
     {
      "w": "it",
-     "s": 145.61,
-     "e": 145.73,
+     "s": 145.77,
+     "e": 145.89,
      "key": false
     },
     {
      "w": "the",
-     "s": 145.77,
-     "e": 145.91,
+     "s": 145.93,
+     "e": 146.07,
      "key": false
     },
     {
      "w": "world,",
-     "s": 145.91,
-     "e": 146.25,
+     "s": 146.07,
+     "e": 146.41,
      "key": true
     }
    ],
@@ -3853,32 +3874,32 @@
    "lines": [
     3
    ],
-   "t_off": 146.75
+   "t_off": 146.91
   },
   {
    "words": [
     {
      "w": "and",
-     "s": 147.23,
-     "e": 147.29,
+     "s": 147.39,
+     "e": 147.45,
      "key": false
     },
     {
      "w": "that's",
-     "s": 147.29,
-     "e": 147.47,
+     "s": 147.45,
+     "e": 147.63,
      "key": false
     },
     {
      "w": "a",
-     "s": 147.47,
-     "e": 147.57,
+     "s": 147.63,
+     "e": 147.73,
      "key": false
     },
     {
      "w": "mistake.",
-     "s": 147.57,
-     "e": 148.07,
+     "s": 147.73,
+     "e": 148.23,
      "key": true
     }
    ],
@@ -3886,26 +3907,26 @@
    "lines": [
     3
    ],
-   "t_off": 148.16
+   "t_off": 148.32
   },
   {
    "words": [
     {
      "w": "And",
-     "s": 148.16,
-     "e": 148.61,
+     "s": 148.32,
+     "e": 148.77,
      "key": false
     },
     {
      "w": "so",
-     "s": 148.61,
-     "e": 148.73,
+     "s": 148.77,
+     "e": 148.89,
      "key": false
     },
     {
      "w": "anybody",
-     "s": 148.73,
-     "e": 148.99,
+     "s": 148.89,
+     "e": 149.15,
      "key": true
     }
    ],
@@ -3913,32 +3934,32 @@
    "lines": [
     2
    ],
-   "t_off": 148.99
+   "t_off": 149.15
   },
   {
    "words": [
     {
      "w": "who",
-     "s": 148.99,
-     "e": 149.15,
+     "s": 149.15,
+     "e": 149.31,
      "key": false
     },
     {
      "w": "can",
-     "s": 149.15,
-     "e": 149.33,
-     "key": false
-    },
-    {
-     "w": "get",
-     "s": 149.33,
+     "s": 149.31,
      "e": 149.49,
      "key": false
     },
     {
-     "w": "out",
+     "w": "get",
      "s": 149.49,
-     "e": 149.71,
+     "e": 149.65,
+     "key": false
+    },
+    {
+     "w": "out",
+     "s": 149.65,
+     "e": 149.87,
      "key": true
     }
    ],
@@ -3946,32 +3967,32 @@
    "lines": [
     2
    ],
-   "t_off": 149.71
+   "t_off": 149.87
   },
   {
    "words": [
     {
      "w": "of",
-     "s": 149.71,
-     "e": 149.85,
+     "s": 149.87,
+     "e": 150.01,
      "key": false
     },
     {
      "w": "that",
-     "s": 149.85,
-     "e": 150.09,
+     "s": 150.01,
+     "e": 150.25,
      "key": false
     },
     {
      "w": "and",
-     "s": 150.24,
-     "e": 150.37,
+     "s": 150.4,
+     "e": 150.53,
      "key": false
     },
     {
      "w": "look",
-     "s": 150.37,
-     "e": 150.99,
+     "s": 150.53,
+     "e": 151.15,
      "key": false
     }
    ],
@@ -3979,20 +4000,20 @@
    "lines": [
     2
    ],
-   "t_off": 150.99
+   "t_off": 151.15
   },
   {
    "words": [
     {
      "w": "more",
-     "s": 150.99,
-     "e": 152.03,
+     "s": 151.15,
+     "e": 152.19,
      "key": false
     },
     {
      "w": "holistically",
-     "s": 152.03,
-     "e": 153.03,
+     "s": 152.19,
+     "e": 153.19,
      "key": true
     }
    ],
@@ -4000,66 +4021,66 @@
    "lines": [
     2
    ],
-   "t_off": 153.41
+   "t_off": 153.57
   },
   {
    "words": [
     {
      "w": "can",
-     "s": 153.41,
-     "e": 153.61,
+     "s": 153.57,
+     "e": 153.77,
      "key": false
     },
     {
      "w": "do",
-     "s": 153.95,
-     "e": 154.15,
+     "s": 154.11,
+     "e": 154.31,
      "key": false
     },
     {
      "w": "better,",
-     "s": 154.19,
-     "e": 154.49,
+     "s": 154.35,
+     "e": 154.65,
      "key": true
     }
    ],
    "fillers": [
     {
      "w": "can",
-     "s": 153.85,
-     "e": 153.95,
+     "s": 154.01,
+     "e": 154.11,
      "key": false
     }
    ],
    "lines": [
     2
    ],
-   "t_off": 154.98
+   "t_off": 155.14
   },
   {
    "words": [
     {
      "w": "because",
-     "s": 154.98,
-     "e": 155.25,
+     "s": 155.14,
+     "e": 155.41,
      "key": false
     },
     {
      "w": "they",
-     "s": 155.25,
-     "e": 155.39,
+     "s": 155.41,
+     "e": 155.55,
      "key": false
     },
     {
      "w": "can",
-     "s": 155.39,
-     "e": 155.57,
+     "s": 155.55,
+     "e": 155.73,
      "key": false
     },
     {
      "w": "see",
-     "s": 155.66,
-     "e": 155.89,
+     "s": 155.82,
+     "e": 156.05,
      "key": false
     }
    ],
@@ -4067,20 +4088,20 @@
    "lines": [
     2
    ],
-   "t_off": 155.89
+   "t_off": 156.05
   },
   {
    "words": [
     {
      "w": "more",
-     "s": 155.89,
-     "e": 156.23,
+     "s": 156.05,
+     "e": 156.39,
      "key": false
     },
     {
      "w": "clearly.",
-     "s": 156.31,
-     "e": 157.13,
+     "s": 156.47,
+     "e": 157.29,
      "key": true
     }
    ],
@@ -4088,7 +4109,7 @@
    "lines": [
     2
    ],
-   "t_off": 157.63
+   "t_off": 157.79
   }
  ],
  "title": null,

@@ -20,24 +20,24 @@
  {
   "short_start_s": 10.58,
   "short_end_s": 14.71,
-  "accession": "cm-bruegel-blind",
-  "title": "Pieter Bruegel the Elder - The Parable of the Blind Leading the Blind - WGA3511",
+  "accession": "cm-colored-waiting",
+  "title": "1943 Colored Waiting Room Sign",
   "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
-  "date": "1568date QS:P571,+1568-00-00T00:00:00Z/9",
+  "date": "September 1943",
   "license": "Public domain",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Parable_of_the_Blind_Leading_the_Blind_-_WGA3511.jpg",
+  "source_page": "https://commons.wikimedia.org/wiki/File:1943_Colored_Waiting_Room_Sign.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1943_Colored_Waiting_Room_Sign.jpg/1280px-1943_Colored_Waiting_Room_Sign.jpg",
   "crop_xywh_px": [
-   640,
    0,
-   589,
-   719
+   0,
+   1280,
+   1142
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 19.043,
-  "short_end_s": 26.41,
+  "short_end_s": 22.93,
   "accession": "cm-daumier-ventre",
   "title": "Honoré Daumier - Le Ventre Législatif (The Legislative Belly) - Google Art Project",
   "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
@@ -54,7 +54,7 @@
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 31.53,
+  "short_start_s": 25.75,
   "short_end_s": 35.51,
   "accession": "cm-padlock-hasp",
   "title": "A padlock with hasps on a door at Fort Reis Magos",
@@ -72,8 +72,8 @@
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 47.19,
-  "short_end_s": 51.41,
+  "short_start_s": 43.69,
+  "short_end_s": 55.19,
   "accession": "cm-cole-destruction",
   "title": "Cole Thomas The Course of Empire Destruction 1836",
   "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
@@ -110,24 +110,24 @@
  {
   "short_start_s": 61.19,
   "short_end_s": 66.46,
-  "accession": "cm-boeing-max",
-  "title": "Boeing, N7379E, Boeing 737-9 MAX (cropped)",
-  "artist": "Jeff Hitchcock from Seattle, WA, USA",
-  "date": "13 April 2017, 10:53",
-  "license": "CC BY 2.0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg/1280px-Boeing%2C_N7379E%2C_Boeing_737-9_MAX_%28cropped%29.jpg",
+  "accession": "cm-postower",
+  "title": "Bonn, Post-Tower -- 2017 -- 2128 (bw)",
+  "artist": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;c",
+  "date": "Taken on 20 August 2017, 14:25",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Bonn%2C_Post-Tower_--_2017_--_2128_%28bw%29.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bonn%2C_Post-Tower_--_2017_--_2128_%28bw%29.jpg/1280px-Bonn%2C_Post-Tower_--_2017_--_2128_%28bw%29.jpg",
   "crop_xywh_px": [
-   51,
-   220,
-   1178,
-   484
+   448,
+   0,
+   832,
+   853
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
   "short_start_s": 69.24,
-  "short_end_s": 71.96,
+  "short_end_s": 72.54,
   "accession": "cm-max-grounded",
   "title": "Boeing 737 MAX grounded aircraft near Boeing Field, April 2019",
   "artist": "SounderBruce",
@@ -144,44 +144,62 @@
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 76.13,
-  "short_end_s": 82.83,
-  "accession": "cm-apple-park",
-  "title": "Aerial view of Apple Park dllu",
-  "artist": "Daniel L. Lu (user:dllu)",
-  "date": "15 April 2018, 00:05:32 UTC (17:05:32 for PDT)",
-  "license": "CC BY-SA 4.0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
-  "crop_xywh_px": [
-   64,
-   0,
-   1152,
-   855
-  ],
-  "motion": "zoom-out 1.04x→1.00x, linear"
- },
- {
-  "short_start_s": 91.58,
-  "short_end_s": 98.98,
-  "accession": "cm-apple-queue",
-  "title": "Apple Store on Country Club Plaza queue 2010",
-  "artist": "Patrick Hoesly",
-  "date": "24 June 2010, 11:42:25",
+  "short_start_s": 72.54,
+  "short_end_s": 76.98,
+  "accession": "cm-apple-la",
+  "title": "Apple Store LA",
+  "artist": "Flickr user Butz.2013",
+  "date": "20 July 2012",
   "license": "CC BY 2.0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Store_on_Country_Club_Plaza_queue_2010.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Apple_Store_on_Country_Club_Plaza_queue_2010.jpg/960px-Apple_Store_on_Country_Club_Plaza_queue_2010.jpg",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Store_LA.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Apple_Store_LA.jpg/960px-Apple_Store_LA.jpg",
   "crop_xywh_px": [
+   96,
    0,
-   124,
-   960,
-   1055
+   768,
+   720
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 101.61,
-  "short_end_s": 105.53,
+  "short_start_s": 80.76,
+  "short_end_s": 87.43,
+  "accession": "cm-iphone-models",
+  "title": "IPhone models",
+  "artist": "Ka Kit Pang",
+  "date": "1 January 2024",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_models.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/IPhone_models.jpg/960px-IPhone_models.jpg",
+  "crop_xywh_px": [
+   0,
+   58,
+   960,
+   375
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 91.74,
+  "short_end_s": 99.14,
+  "accession": "cm-apple-omotesando",
+  "title": "Apple Store Omotesando P9230569",
+  "artist": "Kestrel",
+  "date": "23 September 2014, 17:44:54",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Store_Omotesando_P9230569.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Apple_Store_Omotesando_P9230569.jpg/1280px-Apple_Store_Omotesando_P9230569.jpg",
+  "crop_xywh_px": [
+   0,
+   0,
+   1024,
+   960
+  ],
+  "motion": "zoom-out 1.04x→1.00x, linear"
+ },
+ {
+  "short_start_s": 101.77,
+  "short_end_s": 105.69,
   "accession": "cm-camels-doctors",
   "title": "More Doctors Smoke Camels",
   "artist": "Internet Archive Book Images",
@@ -198,44 +216,44 @@
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 111.49,
-  "short_end_s": 118.37,
-  "accession": "ext-no-smoking-card",
-  "title": "No Smoking sign (Malaysia)",
-  "artist": "CEphoto, Uwe Aranas",
-  "date": "2010s",
-  "license": "CC BY-SA 3.0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Malaysia_Prohibition-signs-No-smoking-sign-01.jpg",
-  "image_file_url": "https://commons.wikimedia.org/wiki/File:Malaysia_Prohibition-signs-No-smoking-sign-01.jpg",
+  "short_start_s": 111.65,
+  "short_end_s": 118.53,
+  "accession": "cm-sg-warning",
+  "title": "Surgeon General's warning cigarettes",
+  "artist": "CDC/ Debora Cartagena",
+  "date": "1960",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Surgeon_General%27s_warning_cigarettes.jpg",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Surgeon_General%27s_warning_cigarettes.jpg/1280px-Surgeon_General%27s_warning_cigarettes.jpg",
   "crop_xywh_px": [
    0,
    0,
-   1080,
-   1920
+   960,
+   640
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 129.253,
-  "short_end_s": 134.27,
-  "accession": "cm-family-tv",
-  "title": "Family watching television 1958 cropped2",
-  "artist": "Evert F. Baumgardner - National Archives and Records Administration.",
-  "date": "circa 1958date QS:P,+1958-00-00T00:00:00Z/9,P1480,Q5727902",
+  "short_start_s": 129.413,
+  "short_end_s": 134.43,
+  "accession": "cm-young-texting",
+  "title": "Young people texting on smartphones using thumbs",
+  "artist": "Tomwsulcer",
+  "date": "7 July 2014, 19:13:38",
   "license": "CC0",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Family_watching_television_1958_cropped2.jpg",
-  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Family_watching_television_1958_cropped2.jpg/1280px-Family_watching_television_1958_cropped2.jpg",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Young_people_texting_on_smartphones_using_thumbs.JPG",
+  "image_file_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG/1280px-Young_people_texting_on_smartphones_using_thumbs.JPG",
   "crop_xywh_px": [
+   64,
    0,
-   0,
-   1280,
-   1177
+   1152,
+   960
   ],
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 134.27,
-  "short_end_s": 138.91,
+  "short_start_s": 134.43,
+  "short_end_s": 139.07,
   "accession": "cm-social-apps",
   "title": "Social Media App Icons On The Screen of A Smartphone",
   "artist": "mikemacmarketing",
@@ -252,8 +270,8 @@
   "motion": "zoom-out 1.04x→1.00x, linear"
  },
  {
-  "short_start_s": 150.37,
-  "short_end_s": 157.39,
+  "short_start_s": 150.53,
+  "short_end_s": 157.55,
   "accession": "cm-earthrise",
   "title": "NASA-Apollo8-Dec24-Earthrise",
   "artist": "NASA/Bill Anders",

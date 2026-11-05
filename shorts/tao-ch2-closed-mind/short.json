@@ -35,8 +35,8 @@
    1090.5
   ],
   [
-   1002.17,
-   1013.04
+   1002.44,
+   1013.47
   ],
   [
    1018.85,
@@ -298,15 +298,20 @@
   },
   {
    "from": 1002.15,
-   "to": 1002.5,
+   "to": 1002.62,
    "words": [
     [
      "If",
-     1002.24,
-     1002.4
+     1002.46,
+     1002.5
+    ],
+    [
+     "you",
+     1002.5,
+     1002.56
     ]
    ],
-   "why": "'change.' ends before the clip; 'if' starts 1002.22 (env.py)"
+   "why": "the loud syllable at 1002.27-1002.40 is the tail of 'change' (the user heard it at the join); 'if you' is quick and soft at 1002.46-1002.56, so the clip starts at 1002.44"
   },
   {
    "from": 1004.0,
@@ -656,6 +661,18 @@
     ]
    ],
    "why": "large-v3 (first pass) and the QA pass hear 'change that out of necessity'; the envelope has the extra syllable at 1024.22-1024.40"
+  },
+  {
+   "from": 1012.38,
+   "to": 1013.47,
+   "words": [
+    [
+     "manufacture,",
+     1012.42,
+     1013.4
+    ]
+   ],
+   "why": "the user heard 'manufacture' cut off at 1013.04: its last syllable runs to 1013.40 (env.py), so the clip now ends at 1013.47; medium had put 'with regard' there"
   }
  ],
  "word_fixes": [
@@ -803,14 +820,15 @@
     "after": 8
    },
    "image": {
-    "acc": "cm-bruegel-blind",
+    "acc": "cm-colored-waiting",
     "fit": [
-     0.5,
      0.0,
-     0.96,
-     1.0
+     0.0,
+     1.0,
+     0.85
     ],
-    "note": "Bruegel, The Blind Leading the Blind (1568): 'narrow-minded bigotry and blind prejudice' (ends on the join)"
+    "note": "a Jim Crow 'COLORED WAITING ROOM' sign, 1943: 'narrow-minded bigotry and blind prejudice can develop unopposed' (ends on the join)",
+    "grade": false
    }
   },
   {
@@ -836,15 +854,15 @@
   },
   {
    "at": {
-    "word": "to",
-    "after": 25
+    "word": "that",
+    "after": 22.5
    },
    "head": true
   },
   {
    "at": {
     "word": "closed",
-    "after": 30
+    "after": 24
    },
    "image": {
     "acc": "cm-padlock-hasp",
@@ -854,21 +872,21 @@
      0.78,
      1.0
     ],
-    "grade": false,
-    "note": "a padlocked door: 'just having a closed mind… you're not open' (covers the join)"
+    "note": "a padlocked door, from the first 'closed mind' through 'you're not open' (covers the join)",
+    "grade": false
    }
   },
   {
    "at": {
     "word": "new",
-    "after": 34
+    "after": 35
    },
    "head": true
   },
   {
    "at": {
-    "word": "nation",
-    "after": 45
+    "word": "then",
+    "after": 43
    },
    "image": {
     "acc": "cm-cole-destruction",
@@ -878,13 +896,13 @@
      0.72,
      1.0
     ],
-    "note": "Thomas Cole, The Course of Empire: Destruction (1836): 'the person, the nation, the world starts to degenerate'"
+    "note": "Thomas Cole, The Course of Empire: Destruction (1836), held from 'the person, the nation, the world starts to degenerate' through 'locked into one way of conceiving things'"
    }
   },
   {
    "at": {
-    "word": "because",
-    "after": 50
+    "word": "And",
+    "after": 54.8
    },
    "head": true
   },
@@ -910,15 +928,15 @@
     "after": 61
    },
    "image": {
-    "acc": "cm-boeing-max",
+    "acc": "cm-postower",
     "fit": [
-     0.04,
-     0.25,
-     0.96,
-     0.8
+     0.35,
+     0.0,
+     1.0,
+     1.0
     ],
-    "grade": false,
-    "note": "Boeing's own 737 MAX in house colours: 'a corporation… knows that they're the best, knows that their designs are the best designs' (covers the join)"
+    "note": "a towering corporate headquarters seen from below (Post Tower, Bonn): 'let's talk about a corporation, knows that they're good, knows that they're the best' (covers the join)",
+    "grade": false
    }
   },
   {
@@ -931,7 +949,7 @@
   {
    "at": {
     "word": "Boeing",
-    "after": 67.5
+    "after": 67
    },
    "image": {
     "acc": "cm-max-grounded",
@@ -941,54 +959,73 @@
      0.76,
      0.9
     ],
-    "grade": false,
-    "note": "grounded 737 MAX jets parked near Boeing Field, 2019: 'like Boeing, that's not good' (ends on the join)"
+    "note": "grounded 737 MAX jets parked near Boeing Field, 2019: 'like Boeing, that's not good' (covers the join; hard cut to Apple on 'Apple')",
+    "grade": false
    }
   },
   {
    "at": {
-    "seg": 6
+    "word": "Apple",
+    "after": 72
+   },
+   "image": {
+    "acc": "cm-apple-la",
+    "fit": [
+     0.1,
+     0.0,
+     0.9,
+     1.0
+    ],
+    "note": "an Apple Store with the Apple logo: 'If you look at Apple, frankly, they were so sure'",
+    "grade": false
+   }
+  },
+  {
+   "at": {
+    "word": "that",
+    "after": 76.5
    },
    "head": true
   },
   {
    "at": {
-    "word": "sure",
-    "after": 73.5
+    "word": "design",
+    "after": 79
    },
    "image": {
-    "acc": "cm-apple-park",
+    "acc": "cm-iphone-models",
     "fit": [
-     0.05,
      0.0,
-     0.95,
-     1.0
+     0.08,
+     1.0,
+     0.6
     ],
-    "grade": false,
-    "note": "Apple Park from the air: 'so sure that they knew everything, with regard to design, with regard to manufacture' (ends on the join)"
+    "note": "a row of iPhones that all look alike: 'with regard to design, with regard to manufacture… when's the last time you saw anything really innovative come out of Apple?' (covers the join)",
+    "grade": false
    }
   },
   {
    "at": {
-    "seg": 7
+    "word": "Now",
+    "after": 86.8
    },
    "head": true
   },
   {
    "at": {
     "word": "everyone",
-    "after": 89.5
+    "after": 91
    },
    "image": {
-    "acc": "cm-apple-queue",
+    "acc": "cm-apple-omotesando",
     "fit": [
      0.0,
-     0.1,
-     1.0,
-     0.95
+     0.0,
+     0.8,
+     1.0
     ],
-    "grade": false,
-    "note": "a queue camped outside an Apple Store, 2010: 'everyone knows they're good, everyone knows they're beautiful, and no one questions it' (ends on the join)"
+    "note": "crowds streaming into an Apple Store under the logo: 'everyone knows they're good, everyone knows they're beautiful, and no one questions it' (ends on the join)",
+    "grade": false
    }
   },
   {
@@ -1000,7 +1037,7 @@
   {
    "at": {
     "word": "smoking",
-    "after": 99.5
+    "after": 100
    },
    "image": {
     "acc": "cm-camels-doctors",
@@ -1017,31 +1054,31 @@
   {
    "at": {
     "word": "Before",
-    "after": 102.5
+    "after": 104
    },
    "head": true
   },
   {
    "at": {
     "word": "Now",
-    "after": 109.5
+    "after": 110
    },
    "image": {
-    "acc": "ext-no-smoking-card",
+    "acc": "cm-sg-warning",
     "fit": [
-     0,
-     0,
-     1,
-     1
+     0.0,
+     0.0,
+     0.75,
+     0.75
     ],
-    "grade": false,
-    "note": "a No Smoking sign, set high on a dark field so the captions stay clear of its lettering: 'these two attitudes have changed'"
+    "note": "the Surgeon General's warning on a US cigarette pack: 'these two attitudes have changed'",
+    "grade": false
    }
   },
   {
    "at": {
     "word": "and",
-    "after": 117.0
+    "after": 118
    },
    "head": true
   },
@@ -1050,21 +1087,21 @@
     "seg": 9
    },
    "image": {
-    "acc": "cm-family-tv",
+    "acc": "cm-young-texting",
     "fit": [
+     0.05,
      0.0,
-     0.0,
-     1.0,
+     0.95,
      1.0
     ],
-    "grade": false,
-    "note": "a family gathered round the television, 1958: 'conditioned and determined by your environment… what you see on TV' (on the join, covers the next)"
+    "note": "young people round a table, every one of them on a phone: 'conditioned and determined by your environment' (on the join, covers the next)",
+    "grade": false
    }
   },
   {
    "at": {
     "word": "Instagram",
-    "after": 132.5
+    "after": 132
    },
    "image": {
     "acc": "cm-social-apps",
@@ -1081,14 +1118,14 @@
   {
    "at": {
     "word": "and",
-    "after": 138.0
+    "after": 138.5
    },
    "head": true
   },
   {
    "at": {
     "word": "look",
-    "after": 147.5
+    "after": 149
    },
    "image": {
     "acc": "cm-earthrise",
