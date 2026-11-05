@@ -17,8 +17,15 @@ When the user asks for "a short" in any wording, it is **always** either a Readi
 
 - There are two kinds of Short:
   - **Reading Shorts:** "make a short of the reading of ch N". One chapter read straight through, captioned line by line, in the fixed look of `shorts/tao-ch1-gateway-of-marvels/`. Follow the `reading-short` skill (`.claude/skills/reading-short/SKILL.md`). The style is in `docs/reading-style.md` and the pipeline is `pipeline/reading.py`.
-  - **Teaching Shorts:** one teaching cut from his commentary, opening with the quoted text, with imagery keyed to his words. Follow the `make-short` skill (`.claude/skills/make-short/SKILL.md`). They run at least 2:00, and up to 3:00 is fine (YouTube's limit for a Short). Each comes with two thumbnails and 10 title suggestions.
+  - **Teaching Shorts:** one teaching cut from his commentary, opening with the quoted text, with imagery keyed to his words. Follow the `make-short` skill (`.claude/skills/make-short/SKILL.md`). They run at least 2:00, and up to 3:00 is fine (YouTube's limit for a Short). Each comes with 10 title suggestions; no thumbnails (the user has a set thumbnail).
 - Teaching-Short house style: `docs/style-guide.md`. Change it there, never one Short at a time.
+- What the user checks first on a teaching Short, learned on Ch. 2 Discussion 2 (round 2), all in the style guide and skill:
+  - Every image must be instantly recognisable to a stranger as the thing he's saying at that moment. An aerial view of a campus, or a street at night, is not "Apple".
+  - An image never shows a thing before he names it. On "a corporation" the plane looked random, because Boeing comes later.
+  - Hold an image for the whole idea (often 8–11 s). Never flash one for 3–4 s.
+  - Prefer modern, relatable US pictures for the viewer's own life: the Surgeon General's warning, people on their phones.
+  - Listen for leaked word tails and clipped last syllables at every join.
+- Delivery: send the finished mp4 as an attachment in two versions, the full file and a phone copy of about 40 MB. The user is on mobile.
 - Teaching reference Short: `shorts/tao-ch2-herd-thinking/` (approved, round 3). Its `short.json` is a complete spec to copy. Every teaching Short must match it on four points, which the pipeline enforces: identical 4K talking-head framing, captions at 66% height, the Tao Te Ching line first with quotation marks in the captions, and imagery keyed directly to the words (any real source). Earlier Shorts (`tao-ch1-*`, `tao-ch4-*`, `tao-ch5-*`) predate these rules.
 - Pipeline: `pipeline/` (run from the repo root with `python3 -I pipeline/<script>.py <slug>`). Intermediates and the image cache live in `.work/`, which is git-ignored.
 - Teaching-Short audio is the original recording, cut cleanly: joins in pauses with 12 ms fades, de-click only between words, and one static gain to a −1 dBTP peak. Never add denoise, EQ, compression or limiting; that made the first cut sound boxed in. (Reading Shorts keep their approved loudness normalisation; see `docs/reading-style.md`.)

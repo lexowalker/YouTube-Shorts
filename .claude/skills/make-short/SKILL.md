@@ -1,6 +1,6 @@
 ---
 name: make-short
-description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, transcript-keyed imagery, rice-paper end card, untouched voice), plus two thumbnails and 10 title suggestions. Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one. Not for "the reading of ch N" (use reading-short).
+description: Make a vertical YouTube Short from one of David E. Arredondo's Tao Te Ching reading videos, in this repo's house style (EB Garamond captions, transcript-keyed imagery, rice-paper end card, untouched voice), plus 10 title suggestions (no thumbnails: the user has a set one). Use whenever the user points to a video (usually a release asset in this repo) and asks for a Short, or asks to re-cut or fix an existing one. Not for "the reading of ch N" (use reading-short).
 ---
 
 # Make a Short
@@ -8,13 +8,13 @@ description: Make a vertical YouTube Short from one of David E. Arredondo's Tao 
 The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch2-herd-thinking/` is the reference Short (round 3, approved): its `short.json` is a complete, working spec to copy from, and its `DELIVERY.md` notes why each image and cut was chosen. Four things are the same in every Short and the pipeline enforces them: the 4K full-height talking-head framing, captions at 66% of the height, the Tao Te Ching line first and in quotation marks, and imagery keyed directly to the words. Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
 
 ## Deliverables
-1. `shorts/<slug>/<slug>.mp4`, 1080×1920, at least 2:00 and up to 3:00 (YouTube's limit for a Short), end card included. Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
+1. `shorts/<slug>/<slug>.mp4`, 1080×1920, at least 2:00 and up to 3:00 (YouTube's limit for a Short), end card included, plus a phone copy `<slug>_phone.mp4` of about 40 MB (step 8). Not committed (`*.mp4` is git-ignored); send both to the user with SendUserFile, `display: "attach"` (they're on mobile).
 2. Ten title suggestions that would grip a general YouTube audience, with one recommended (in chat and in `DELIVERY.md`; see "Titles" in the style guide).
 3. A one-sentence statement of the teaching, with its chapter.
 4. The source timestamps used, in order.
 5. The image list: file, source URL, license and timestamp in the Short (`images.json` plus the table).
 6. A short note on what was chosen and why.
-7. `thumbnails/thumbnail_face.jpg` and `thumbnails/thumbnail_book_cover.jpg`.
+No thumbnails: the user has a set thumbnail for every Short.
 
 ## 0. Environment (once per session)
 - `pip install -r pipeline/requirements.txt`. OpenCV must stay at 4.10, because 5.x has no Haar cascades.
@@ -44,13 +44,20 @@ The transcript always **opens with the line from the Tao Te Ching** (the book pr
 - Fillers ("you know", "um") that sit inside a sentence stay in the audio when cutting them would leave a jump. Leave them off the captions with `~` tokens in the phrase (`"There's no ~you ~know hard | *lines in nature"`), so the shown words still appear on their true onsets.
 - Place every cut in a real pause: `python3 -I pipeline/env.py <slug> <t> …`. Leave about 0.3 s of room tone around each join and a little more where a line should land.
 - **Never clip a word's tail.** Soft final syllables ("exist-ence", a trailing "ball", "sta-dium") run past whisper's word end and past the envelope's first dip; a 20–40 ms dip can be a consonant (the "p" of "path"), not a pause. End each clip where the envelope has sat in room tone (about −50 dB) for 150 ms or more, and start each clip after the previous word has fully died away. `draft.py` flags cuts on his voice as TIGHT. When a cut can't be clean, take a clip of his own room tone from a pause nearby and insert it as a segment for the breath.
+- **Check both ends of every clip on the 10 ms envelope.** Whisper's boundaries can be off by 0.3 s or more. On Ch. 2 D2 a clip started on the "-ange" of the previous "change", so a stray "change" played before "If you look at Apple". Another clip ended on "manufac–" before "-ture" finished. A loud syllable just before a soft onset is usually the previous word's tail, so start after it. A QA pass that hears a different word form at a clip end ("manufacturing") means a clipped or leaked syllable.
+- When the transcription passes disagree on words you'd have to show ("becomes so" vs "knows that"), cut them out rather than guess.
 - Drop ums, false starts and asides. Never cut mid-word.
 
 ## 5. Images
 - **Key every image to the words.** This is the guiding principle and it outranks source and style (see "Images" in `docs/style-guide.md`). List each line you'll put an image on, the concrete thing or idea it names, and the most direct, engaging picture of it. Search for that picture, not for a mood: "thalidomide" is a thalidomide pack, "herd" is a herd, "Miss America" is a beauty pageant line-up.
+- **Recognisable at a glance.** For each image, ask whether a stranger would know what it is and why it's there. A brand gets its logo or its product (an Apple Store with the logo, a row of iPhones), not an aerial view of its campus or a street queue. An abstraction gets its plainest real instance: "bigotry" is a Jim Crow "Colored Waiting Room" sign, not an allegorical painting.
+- **Never ahead of the words.** Show a named thing only from the word that names it. A general word ("a corporation") gets a general picture of that word (a corporate tower); the named example ("Boeing") gets its own picture when he names it.
+- **Modern, relatable, American** when he speaks of the viewer's own life ("your environment", the feed, "the attitudes we have now"): people on their phones today, the US Surgeon General's warning. Old pictures only for old times ("in my grandfather's time").
+- **Hold for the whole idea.** Bring an image in on the first word that names it, and hold it while he stays on that idea, often 6–11 s. The user dislikes 3–4 s flashes, and longer holds beat the 50–60% head-share target.
+- **Captions never on lettering.** For a sign, label or ad, choose a region that puts the lettering above the 66% caption line, or set it high on a dark card (`ext_image.py --canvas 1080:1920 --fill 0.85 --cy 0.30`).
 - **Any real source.** Photos, newsreel frames, ads, documents, science imagery, illustrations, art, or the user's own picture; never AI-generated. When the words describe the Way (stillness, the natural, effortless action), keep the picture simple and natural.
 - **Where to look from here:**
-  - Wikimedia Commons: `python3 -I pipeline/commons.py search "<words>"`, then `commons.py get <id> "<File name.jpg>"` (licence and author are read from the file page; it downloads a 1280 px thumbnail). Go slowly; bursts get 429s.
+  - Wikimedia Commons: `python3 -I pipeline/commons.py search "<words>"`, then `commons.py get <id> "<File name.jpg>"` (licence and author are read from the file page; it downloads a 1280 px thumbnail). Use short queries of 1–3 words ("Apple Store", "iPhone line", "smartphone addiction"); long ones return nothing. Leave about 20 s between calls, or you get 429s.
   - Public-domain films on archive.org (Prelinger Archives, Universal Newsreels): search with `advancedsearch.php`, sample frames with `ffmpeg -ss T -i <download url> -frames:v 1`, then register the best with `pipeline/ext_image.py`.
   - The Met (`collectionapi.metmuseum.org/public/collection/v1.1/search`) and Cleveland (`pipeline/cma.py`) for art and objects.
 - **When a slot has no strong match, ask.** Make a numbered contact sheet of options and send it to the user (they picked their own photo for the Ch. 2 opener after three sheets).
@@ -74,6 +81,15 @@ python3 -I pipeline/render.py <slug>        # ~4 min per 90 s from 4K (4 chunks 
 python3 -I pipeline/encode.py <slug>
 python3 -I pipeline/qa.py <slug>
 ```
+
+**Review every image against its words before rendering.** Print the captions with their program times (from `.work/<slug>/edl.json`), then list each image shot with every word spoken under it, from its first to its last. For each image, check:
+- would a stranger recognise what it is?
+- does it show what he's saying right now?
+- does it come in on its word, never before?
+- does it hold for the whole idea?
+- does any caption land on lettering in the picture?
+
+Also make a strip of each new image composed with `render.fit_canvas` and a box at 66% height. Then:
 
 **Always run `draft.py` and look at its sheets before `render.py`.** It composes, with the renderer's own code, the
 frames that show most mistakes, and flags these automatically:
@@ -99,19 +115,21 @@ Check the sheets yourself as well, for bad crops, a face cut off, or an image on
 - Check that no mode runs over about 12 s (`build_edl.py` warns), the length is 2:00–3:00 (`qa.py` and `build_edl.py` flag anything outside), and the true peak is ≤ −1 dBTP.
 - You can't hear the audio. Say so in the delivery and ask the user to listen once.
 
-## 8. Thumbnails
-- `python3 -I pipeline/thumbs.py faces <slug>`, then view `face_sheet.jpg`. Step through the best few at 0.25 s for eyes open toward the camera and mouth at rest. Then run `thumbs.py face <slug> <seconds>`.
-- Book cover: `curl -A "Mozilla/5.0" -o .work/<slug>/cover.jpg "https://m.media-amazon.com/images/P/0062502166.01.LZZZZZZZ.jpg"`, then `thumbs.py cover <slug> .work/<slug>/cover.jpg`. If David reads a different edition, find it from the frame where he shows the book.
+## 8. Phone copy
+The user watches on a phone and can't download large files. Make a copy of about 40 MB next to the master:
+`ffmpeg -i shorts/<slug>/<slug>.mp4 -c:v libx264 -crf 21 -preset slow -maxrate 1.9M -bufsize 3.8M -c:a aac -b:a 128k -movflags +faststart shorts/<slug>/<slug>_phone.mp4`
 
 ## 9. Write-up and commit
 - `python3 -I pipeline/notes.py <slug>` prints the timestamp and image tables and writes `images.json`. Write `shorts/<slug>/DELIVERY.md` in the same shape as the reference: hook title, the teaching, timestamps, images, notes on choices, and the 10 titles.
 - Update the release schedule (see "Release schedule" in CLAUDE.md). A teaching Short is the chapter's Discussion 1 (its main teaching) or Discussion 2 (a second point, or another presentation of the first): `python3 -I pipeline/schedule.py mark <N> <d1|d2> <"In progress"|Ready> --title "<recommended title>" --note "<the teaching>"`, then `python3 -I pipeline/schedule.py status`. Tell the user the verdict, the buffer and what's due next.
-- Commit `shorts/<slug>/` (the spec, EDL, images.json, DELIVERY.md and thumbnails; the mp4 is git-ignored) and `docs/release-schedule.xlsx`, and push to the session's branch. `.work/` is git-ignored too.
-- Give the user the mp4 and thumbnails (SendUserFile) and the 10 titles in chat.
+- Commit `shorts/<slug>/` (the spec, EDL, images.json and DELIVERY.md; the mp4s are git-ignored) and `docs/release-schedule.xlsx`, and push to the session's branch. `.work/` is git-ignored too.
+- Send the phone copy and the full mp4 (SendUserFile, `display: "attach"`), and give the 10 titles in chat. List the CC BY / CC BY-SA credit lines the YouTube description needs.
+- When the user approves, mark it Ready and merge it into `main` (CLAUDE.md).
 
 ## Gotchas
 - `pgrep -f`/`pkill -f` patterns match the shell running them. To wait on a job, use the background task notification, not a `pgrep` loop.
 - Wikimedia Commons rate-limits bursts (429) and refuses thumbnail sizes other than its standard ones (use 1280 or 960). `thumb.wikimedia.org` is blocked, so `commons.py` downloads from `upload.wikimedia.org` directly.
+- `commons.py` can't read authors written through a Creator template (it prints CSS). Get the name from the file page instead, with `curl -A "youtube-shorts-pipeline/1.0" <page> | grep -o "Creator:[^\"]*"`.
 - Big CMA TIFFs sometimes drop mid-transfer. `cma.py get` retries, and you should check that the file opens.
 - faster-whisper's own decoder breaks with the installed PyAV, so `transcribe.py` reads the 16 kHz WAV itself.
 - A quick glance aside can pull his face off-centre faster than the smoothed crop follows (see the first QA frame). Pin that segment with `"crop_fixes": [{"seg": i, "left": px}]` in `short.json` and re-run `crop_track.py`.
