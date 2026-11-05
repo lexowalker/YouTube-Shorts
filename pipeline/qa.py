@@ -3,7 +3,7 @@
   python3 -I pipeline/qa.py <slug>              full check of shorts/<slug>/<slug>.mp4
   python3 -I pipeline/qa.py <slug> --audio-only  caption check on .work/<slug>/program_audio.wav, before rendering
 
-- Format: 1080x1920, 30 fps, H.264 + AAC, 60-120 s.
+- Format: 1080x1920, 30 fps, H.264 + AAC, 120-180 s (at least 2:00, at most YouTube's 3:00 limit).
 - Audio: integrated loudness and true peak (must be <= -1 dBTP).
 - Captions: re-transcribes the finished audio and diffs it against every caption word; lists words whose caption
   appears more than 0.08 s before, or 0.25 s after, the re-transcribed onset, with the audio envelope so you can see
@@ -26,7 +26,7 @@ probe = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "s
                                    "-of", "json", mp4], capture_output=True, text=True).stdout)
 dur = float(probe["format"]["duration"])
 print("streams:", [(s["codec_name"], s.get("width"), s.get("height"), s.get("r_frame_rate")) for s in probe["streams"]], f"duration {dur:.2f}s",
-      "" if 60 <= dur <= 120 else "  <-- OUTSIDE 60-120 s")
+      "" if 120 <= dur <= 180 else "  <-- OUTSIDE 2:00-3:00")
 r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", mp4, "-af", "ebur128=peak=true", "-f", "null", "-"],
                    capture_output=True, text=True).stderr
 s = r[r.rindex("Summary"):]

@@ -151,6 +151,9 @@ def main(slug):
         print(f"{s['t0']:6.2f}-{s['t1']:6.2f} ({s['t1'] - s['t0']:5.2f}) {s['kind']:5s} {s.get('acc', '')} {s.get('note', '')}")
     head = sum(s["t1"] - s["t0"] for s in shots if s["kind"] == "head")
     longest = max(runs, key=lambda r: r[2] - r[1])
+    total = prog_dur + edl["endcard"]["dur"]
+    if not 120 <= total <= 180:
+        print(f"WARNING: {total:.1f} s with the end card; a Short runs 2:00-3:00")
     print(f"program {prog_dur:.2f}s + end card {edl['endcard']['dur']}s; captions {len(caps)}; "
           f"head {100 * head / prog_dur:.0f}%; longest {longest[0]} run {longest[2] - longest[1]:.1f}s")
     if longest[2] - longest[1] > 12.0:
