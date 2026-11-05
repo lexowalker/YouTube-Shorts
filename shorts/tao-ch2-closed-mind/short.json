@@ -629,6 +629,33 @@
    "to": 1035.0,
    "words": [],
    "why": "medium put a stray 'When' (p 0.10) on the pause after 'see'; the next voice is at 1038.4"
+  },
+  {
+   "from": 1023.75,
+   "to": 1024.66,
+   "words": [
+    [
+     "change",
+     1023.86,
+     1024.16
+    ],
+    [
+     "that",
+     1024.22,
+     1024.4
+    ],
+    [
+     "out",
+     1024.42,
+     1024.52
+    ],
+    [
+     "of",
+     1024.52,
+     1024.62
+    ]
+   ],
+   "why": "large-v3 (first pass) and the QA pass hear 'change that out of necessity'; the envelope has the extra syllable at 1024.22-1024.40"
   }
  ],
  "word_fixes": [
@@ -700,7 +727,7 @@
   "you saw anything | really ~innovation, *innovative",
   "come out | of *Apple?",
   "Now, it may | *change",
-  "out of | *necessity,",
+  "that out of | *necessity,",
   "~but But it's | ~been been *years",
   "and years | and years,",
   "because everyone | knows they're *good,",
