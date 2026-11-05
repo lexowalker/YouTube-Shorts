@@ -14,7 +14,7 @@ those frames with render.py's own Composer, so they are exactly what the render 
 It writes .work/<slug>/draft_sheet_N.jpg (labelled contact sheets) and full-size PNGs of anything flagged in
 .work/<slug>/draft/, and prints the flags:
 
-  BRIGHT  a caption sits on a light background (his white beard, pale paper): move it (caption_y) or change the crop
+  BRIGHT  a caption sits on a light background (pale paper, a bright photo): change the image's region; captions never move
   JUMP    a segment join falls on a head shot with no image or dissolve over it: the jump cut would show
   BLIP    a shot shorter than 1.2 s: a flash of him or of a painting that breaks the flow (merge it into a neighbour)
   DEAD    more than 0.8 s with nothing said across a join: tighten the segment ends

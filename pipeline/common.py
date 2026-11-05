@@ -19,6 +19,11 @@ FONT_MED = os.path.join(REPO, "assets", "fonts", "EBGaramond-500.ttf")
 W, H, FPS = 1080, 1920, 30
 DISSOLVE = 8  # frames of the soft dissolve into and out of images
 
+# House constants that must be identical in every teaching Short (the user's round-3 rule: consistency is key).
+CAPTION_Y = 0.66  # caption block centre, fraction of H: high enough to clear YouTube's title/channel overlay
+# Talking head: always the full-height 9:16 crop of the 4K source window (fetch_hires.py), face-tracked and
+# Lanczos-upscaled to 1080x1920, so he is the same size and position in every Short. No per-Short zoom.
+
 # house palette: one serif family, one accent in captions, cinnabar only on the end card
 OFFWHITE = (0xF4, 0xEF, 0xE4)   # captions, rice paper
 OCHRE = (0xD9, 0xB2, 0x6F)      # the one highlighted word per phrase

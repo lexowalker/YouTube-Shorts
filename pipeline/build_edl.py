@@ -18,13 +18,13 @@ Spec keys (see shorts/tao-ch1-passionless-subtle/short.json for a complete examp
                 image: {"acc", "x0", "y0", "h"} as fractions of the image (9:16 crop from top-left, height),
                 optional "pan" (px, handscrolls only), "zoom" [from, to], "note"
   title         {"text", "dur", "size"}; optional (leave it out for no opening title card)
-  caption_y     caption block centre as a fraction of the height (default 0.70; 0.83 for a 4K close-up, where 0.70 is his beard)
+  (captions)    always at common.CAPTION_Y (0.66) in every Short; a spec may not set caption_y to anything else
   endcard       {"dur"}
 """
 import json, os, sys
 from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import load_spec, work_dir, short_dir, image_path, FPS, DISSOLVE
+from common import load_spec, work_dir, short_dir, image_path, FPS, DISSOLVE, CAPTION_Y
 from words import load_words, Env, refine_onsets, to_program, norm
 
 Image.MAX_IMAGE_PIXELS = None
@@ -43,6 +43,13 @@ def main(slug):
     segments = [{"src_start": a, "src_end": b} for a, b in spec["segments"]]
     prog_dur = sum(s["src_end"] - s["src_start"] for s in segments)
 
+    assert spec.get("caption_y", CAPTION_Y) == CAPTION_Y, \
+        f"captions sit at {CAPTION_Y} in every Short (house rule); remove caption_y={spec['caption_y']} from short.json"
+    ph = spec["phrases"]
+    if spec.get("quote", True):  # house rule: the line from the Tao Te Ching opens the Short, in quotation marks
+        assert ph and ph[0].lstrip("~*").startswith("“"), \
+            "the Short must open on the Tao Te Ching line, captioned with “ on its first word (set \"quote\": false only if the Short quotes no text)"
+        assert any(p.rstrip().endswith("”") for p in ph), "close the opening quote with ” on its last word"
     W = load_words(os.path.join(wd, "words.json"), spec.get("word_fixes", []), spec.get("word_overrides", []))
     W = refine_onsets(W, Env(os.path.join(wd, "audio16k.wav")))
     P = to_program(W, segments)
@@ -121,7 +128,7 @@ def main(slug):
     edl = {"slug": slug, "segments": segments, "shots": shots, "captions": caps,
            "title": {"text": title["text"], "t0": 0.0, "t1": title.get("dur", 3.6), "size": title.get("size", 52)} if title else None,
            "endcard": {"dur": spec.get("endcard", {}).get("dur", 4.0), "fade_frames": 15},
-           "caption_y": spec.get("caption_y", 0.66),
+           "caption_y": CAPTION_Y,
            "crop_track": os.path.join(wd, "crop_track.json")}
     json.dump(edl, open(os.path.join(wd, "edl.json"), "w"), indent=1, ensure_ascii=False)
 

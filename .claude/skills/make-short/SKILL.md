@@ -5,7 +5,7 @@ description: Make a vertical YouTube Short from one of David E. Arredondo's Tao 
 
 # Make a Short
 
-The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch1-passionless-subtle/` is the reference Short: its `short.json` is a complete, working spec to copy from, and its `DELIVERY.md` notes why each image and cut was chosen. (The first Short, `tao-ch4-unimpeded-harmony`, still has an opening title and the older 480p head shots.) Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
+The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch2-herd-thinking/` is the reference Short (round 3, approved): its `short.json` is a complete, working spec to copy from, and its `DELIVERY.md` notes why each image and cut was chosen. Four things are the same in every Short and the pipeline enforces them: the 4K full-height talking-head framing, captions at 66% of the height, the Tao Te Ching line first and in quotation marks, and imagery keyed directly to the words. Everything runs from the repo root, and scripts are run with `python3 -I pipeline/<script>.py <slug> …`.
 
 ## Deliverables
 1. `shorts/<slug>/<slug>.mp4`, 1080×1920, about 90 s (85–95 s; 60–120 s is the hard limit). Not committed (`*.mp4` is git-ignored); send it to the user with SendUserFile.
@@ -25,7 +25,7 @@ The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch1-p
 - The user usually names a release tag on this repo. Find the asset's `browser_download_url` and `digest` with the GitHub MCP `get_release_by_tag`, then:
   `python3 -I pipeline/fetch_source.py <slug> <url> <sha256>`.
 - Pick a short, descriptive slug, such as `tao-ch5-straw-dogs`.
-- If the source is one of the channel's archive.org items (`pipeline/reading.py find <N>` locates a chapter's), link or download its 480p MP4 as `.work/<slug>/source.mp4`. Once the segments are chosen, fetch the 4K window for sharp head shots: `python3 -I pipeline/fetch_hires.py <slug> <webm url> <from_s> <to_s>`, with a few seconds of margin. Render, preview, audio, crop_track and the face thumbnail then use it automatically. Set `"caption_y": 0.83` in the spec, because the 4K close-up puts his beard at the default 70%.
+- If the source is one of the channel's archive.org items (`pipeline/reading.py find <N>` locates a chapter's), link or download its 480p MP4 as `.work/<slug>/source.mp4`. Once the segments are chosen, fetch the 4K window for sharp head shots: `python3 -I pipeline/fetch_hires.py <slug> <webm url> <from_s> <to_s>`, with a few seconds of margin. Render, preview, audio, crop_track and the face thumbnail then use it automatically. The 4K window is required: `render.py` refuses to render without it, so every Short has the same framing. Never set `caption_y`; captions are fixed at 66%.
 
 ## 2. Read the whole video
 - `python3 -I pipeline/transcribe.py <slug> full` (small.en, a few minutes; use `--model medium.en` for accuracy, about 30 min for 20 min of audio). Run it in the background and read `.work/<slug>/transcript.txt` as it fills.
@@ -34,7 +34,7 @@ The house style is in `docs/style-guide.md`, so read it first. `shorts/tao-ch1-p
 ## 3. Choose the teaching (ask)
 Propose 2–3 candidate teachings, each with a rough cut (source ranges, hook line, ending line, about how many seconds), and recommend one. Use AskUserQuestion. Also confirm anything unusual, but don't re-ask settled house-style questions such as font, accent, ambient bed or end card.
 
-Once the user picks a teaching, write out the **full proposed transcript**: every line in order, as it will be heard, with its source time, and what's left out. The user reviews it for coherence and for whether it captures the essence of the teaching. Don't cut, choose images or render until they approve it.
+The transcript always **opens with the line from the Tao Te Ching** (the book proper, Cleary's translation) that the teaching is about, read by David, captioned in quotation marks; then the hook. Once the user picks a teaching, write out the **full proposed transcript**: every line in order, as it will be heard, with its source time, and what's left out. The user reviews it for coherence and for whether it captures the essence of the teaching. Don't cut, choose images or render until they approve it.
 
 ## 4. Word timings and cut points
 - `python3 -I pipeline/transcribe.py <slug> words a:b c:d …` (medium.en) over the chosen ranges with a little margin.
@@ -47,20 +47,18 @@ Once the user picks a teaching, write out the **full proposed transcript**: ever
 - Drop ums, false starts and asides. Never cut mid-word.
 
 ## 5. Images
-- **Round 3 rules come first (see "Images" in `docs/style-guide.md`):** pick the most direct picture of what the words say, from any real source (photos, documents, ads, science imagery, art); show it whole with `"fit"`; open the Short with the quote in quotation marks; captions at `"caption_y": 0.66`. Where the bullets below talk about paintings and scrolls, read them as one source among many.
-- Search with `pipeline/cma.py search "<subject>" --type Painting` (or `--dept "Chinese Art"`) or `cma.py title "<title>"`. Compare candidates with `cma.py sheet <acc> …` (print-size previews, no full download; some masters are over a gigabyte). Then fetch the chosen ones with `cma.py get <accession> …` and look at `cma.py proxy <accession>` (it has a 10% grid) to choose crops.
-- **Plan the images from the words first.** Before searching, list each line you'll put an image on, the concrete thing it names, and the picture of that thing (see "Images" in `docs/style-guide.md`). Search for that picture, not for a mood. The user's rule: what he's saying must match what's on screen. A lust line gets lovers, a bell line gets a bell, a study line gets someone reading, not a landscape.
-- Scrolls are the default (Taoist, simple, natural). If none shows the thing, use another simple, natural artwork rather than a scroll that doesn't fit. Search beyond `--type Painting` (`cma.py search "bell"` finds bronzes and prints too).
-- Worldly states (anger, passion, lust, anxiety, striving) get turbulent or worldly imagery that contrasts with the Way; quiet imagery returns when he returns to stillness.
-- Modern subjects (a car, a bus, a phone) get a classical stand-in that keeps the meaning, such as a groomed horse for "my beautiful car" or stampeding horses for "run over by a bus", or stay on David's face.
-- Place each image on the word that names its subject (`"at": {"word": "...", "after": <phrase index>}`), not at the start of the phrase, and end it when he moves on to something else.
-- Check the date and culture (classical only), and that the crop lands on the subject with negative space and avoids screen-panel seams.
-- No shot under about 1.2 s, and no head shot that is only a pause between two images: extend the image or merge the shots.
-- Show the action the words name (someone painting, not reclining), show contrasts as contrasts (rich and poor; a rigid oak broken by the storm against bending bamboo), and bring each image in on its own phrase, not a line late.
-- Real things only a photo or document can show (Pluto, Earth from space, a banknote) come from public-domain sources via `pipeline/ext_image.py`. From this environment, archive.org (NASA `PLAN-PIA…` mirrors, the Endlos banknote scans) and Wikimedia's thumbnail URLs (`/thumb/…/1280px-…`) are reachable; NASA's own hosts are blocked by the network policy, and Wikimedia's full-size files are rate-limited.
-- Fewer, longer images: let one image carry consecutive lines on the same idea instead of cutting to a new picture for each noun (the user dropped the bell in the Ch1 Discussion 1 Short and let the watching scholar carry "hear that bell").
-- Centre the subject and keep its focal point (an eye, the faces) at least about 10% inside every edge, since the zoom starts 1.08× in. Check each crop on the proxy with the start-of-zoom box drawn on it before building.
-- Crops in `short.json` are fractions of the image: `x0`, `y0` (top-left) and `h` (crop height). Width follows from 9:16.
+- **Key every image to the words.** This is the guiding principle and it outranks source and style (see "Images" in `docs/style-guide.md`). List each line you'll put an image on, the concrete thing or idea it names, and the most direct, engaging picture of it. Search for that picture, not for a mood: "thalidomide" is a thalidomide pack, "herd" is a herd, "Miss America" is a beauty pageant line-up.
+- **Any real source.** Photos, newsreel frames, ads, documents, science imagery, illustrations, art, or the user's own picture; never AI-generated. When the words describe the Way (stillness, the natural, effortless action), keep the picture simple and natural.
+- **Where to look from here:**
+  - Wikimedia Commons: `python3 -I pipeline/commons.py search "<words>"`, then `commons.py get <id> "<File name.jpg>"` (licence and author are read from the file page; it downloads a 1280 px thumbnail). Go slowly; bursts get 429s.
+  - Public-domain films on archive.org (Prelinger Archives, Universal Newsreels): search with `advancedsearch.php`, sample frames with `ffmpeg -ss T -i <download url> -frames:v 1`, then register the best with `pipeline/ext_image.py`.
+  - The Met (`collectionapi.metmuseum.org/public/collection/v1.1/search`) and Cleveland (`pipeline/cma.py`) for art and objects.
+- **When a slot has no strong match, ask.** Make a numbered contact sheet of options and send it to the user (they picked their own photo for the Ch. 2 opener after three sheets).
+- **Show it whole.** Use `"fit": [x0, y0, x1, y1]`; for a wide picture take a region of about 4:5 around the subject. Never crop off part of the thing the words name. Photos and film frames get `"grade": false`.
+- Place each image on the word that names its subject (`"at": {"word": "...", "after": <seconds>}`), not at the start of the phrase, and end it when he moves on.
+- Pacing is unchanged: images every 4–10 s, about a 50–60% head share, no shot under 1.2 s, no mode over about 12 s, and no head shot that is only a pause between two images.
+- Log every image's source URL, licence and author, and list the credit lines CC BY / CC BY-SA need for the YouTube description in DELIVERY.md.
+- Older tools still work: `cma.py search|sheet|get|proxy` and crops with `x0, y0, h` (fractions of the image; width follows from 9:16).
 
 ## 6. Spec and EDL
 Write `shorts/<slug>/short.json`, copying the reference: `segments`, `phrases` (2-line chunks with one `*key` word), `cuts` (anchored to phrases, words or segment joins), `title` (optional), `endcard`, `word_fixes` and `onset_fixes`. Then:
@@ -79,7 +77,7 @@ python3 -I pipeline/qa.py <slug>
 
 **Always run `draft.py` and look at its sheets before `render.py`.** It composes, with the renderer's own code, the
 frames that show most mistakes, and flags these automatically:
-- **BRIGHT:** a caption on a light background, such as his white beard or pale paper. Move it with `caption_y`, or change the crop.
+- **BRIGHT:** a caption on a light background. On his beard this is expected (the strong halo handles it; check a full-size frame). On an image, change the image's region; never move the captions.
 - **JUMP:** a join on a head shot with nothing over it.
 - **BLIP:** a shot under 1.2 s, a flash of him or of a painting that breaks the flow. Merge it into a neighbour.
 - **DEAD:** more than 0.8 s with nothing said across a join (it shows as a stray shot of him silent). Tighten the segment ends.
@@ -113,7 +111,7 @@ Check the sheets yourself as well, for bad crops, a face cut off, or an image on
 
 ## Gotchas
 - `pgrep -f`/`pkill -f` patterns match the shell running them. To wait on a job, use the background task notification, not a `pgrep` loop.
-- Wikimedia Commons rate-limits (429) from here, so prefer CMA.
+- Wikimedia Commons rate-limits bursts (429) and refuses thumbnail sizes other than its standard ones (use 1280 or 960). `thumb.wikimedia.org` is blocked, so `commons.py` downloads from `upload.wikimedia.org` directly.
 - Big CMA TIFFs sometimes drop mid-transfer. `cma.py get` retries, and you should check that the file opens.
 - faster-whisper's own decoder breaks with the installed PyAV, so `transcribe.py` reads the 16 kHz WAV itself.
 - A quick glance aside can pull his face off-centre faster than the smoothed crop follows (see the first QA frame). Pin that segment with `"crop_fixes": [{"seg": i, "left": px}]` in `short.json` and re-run `crop_track.py`.

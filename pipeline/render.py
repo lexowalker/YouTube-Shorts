@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import W, H, FPS, FONT_SEMI, FONT_MED, OFFWHITE, OCHRE, CINNABAR, INK, work_dir, head_source, source_info, DISSOLVE, vf
 
 CAP_SIZE = 70
-CAP_CENTER_Y = 0.66  # fraction of H; below this, YouTube's title/channel overlay covers the captions
+from common import CAPTION_Y as CAP_CENTER_Y  # the same in every Short
 CAP_LINE_GAP = 1.12
 WORD_FADE = 3 / FPS
 
@@ -421,12 +421,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ap.add_argument("--jobs", type=int, default=min(4, os.cpu_count() or 1), help="render this many chunks at once")
+    ap.add_argument("--allow-480p", action="store_true", help="render without the 4K window (old Shorts only)")
     ap.add_argument("--range", help=argparse.SUPPRESS)  # "f0:f1:out" (one chunk; used by the parallel render)
     a = ap.parse_args()
     if a.range:
         f0, f1, out = a.range.split(":", 2)
         return render_range(a.slug, int(f0), int(f1), out)
     work = work_dir(a.slug)
+    if not a.allow_480p:
+        assert os.path.exists(os.path.join(work, "hires.json")), \
+            "head shots must come from the 4K window so the framing matches every other Short: run fetch_hires.py first"
     edl = load_edl(os.path.join(work, "edl.json"))
     comp = Composer(edl)
     comp.card.save(os.path.join(work, "endcard_preview.png"))
