@@ -1,0 +1,4511 @@
+{
+ "slug": "tao-ch2-bigotry-trial",
+ "segments": [
+  {
+   "src_start": 1038.62,
+   "src_end": 1053.54
+  },
+  {
+   "src_start": 1105.84,
+   "src_end": 1110.0
+  },
+  {
+   "src_start": 1092.4,
+   "src_end": 1105.3
+  },
+  {
+   "src_start": 1110.74,
+   "src_end": 1132.7
+  },
+  {
+   "src_start": 1072.95,
+   "src_end": 1078.85
+  },
+  {
+   "src_start": 1080.55,
+   "src_end": 1090.4
+  },
+  {
+   "src_start": 1002.5,
+   "src_end": 1004.7
+  },
+  {
+   "src_start": 1005.1,
+   "src_end": 1009.55
+  },
+  {
+   "src_start": 1010.35,
+   "src_end": 1013.0
+  },
+  {
+   "src_start": 1015.3,
+   "src_end": 1017.66
+  },
+  {
+   "src_start": 1018.95,
+   "src_end": 1028.95
+  },
+  {
+   "src_start": 1029.4,
+   "src_end": 1034.85
+  },
+  {
+   "src_start": 1133.05,
+   "src_end": 1136.95
+  },
+  {
+   "src_start": 1188.9,
+   "src_end": 1219.28
+  },
+  {
+   "src_start": 1220.76,
+   "src_end": 1223.5
+  },
+  {
+   "src_start": 1225.68,
+   "src_end": 1246.28
+  },
+  {
+   "src_start": 1252.88,
+   "src_end": 1256.3
+  }
+ ],
+ "shots": [
+  {
+   "kind": "head",
+   "t0": 0.0,
+   "t1": 3.72
+  },
+  {
+   "kind": "collage",
+   "name": "conventions",
+   "spec": {
+    "ground": {
+     "color": [
+      20,
+      18,
+      16
+     ],
+     "image": {
+      "id": "met_64029",
+      "box": [
+       0.1,
+       0.1,
+       0.9,
+       0.9
+      ],
+      "opacity": 0.09
+     }
+    },
+    "pieces": [
+     {
+      "id": "met_64029",
+      "box": [
+       0.22,
+       0.16,
+       0.78,
+       0.52
+      ],
+      "bw": true,
+      "x": 0.47,
+      "y": 0.25,
+      "w": 0.74,
+      "rot": -2.5,
+      "at": 0.0,
+      "enter": "up",
+      "t": 0.0
+     },
+     {
+      "shape": "disc",
+      "color": [
+       176,
+       46,
+       36
+      ],
+      "x": 0.84,
+      "y": 0.09,
+      "w": 0.3,
+      "at": 0.3,
+      "enter": "settle",
+      "z": -1,
+      "t": 0.3
+     },
+     {
+      "id": "met_61650",
+      "cut": true,
+      "bw": true,
+      "x": 0.7,
+      "y": 0.6,
+      "w": 0.44,
+      "rot": -8,
+      "at": {
+       "word": "objective",
+       "after": 6
+      },
+      "enter": "right",
+      "t": 3.37
+     },
+     {
+      "id": "met_45626",
+      "box": [
+       0.12,
+       0.12,
+       0.88,
+       0.62
+      ],
+      "x": 0.3,
+      "y": 0.62,
+      "w": 0.48,
+      "rot": 4,
+      "at": {
+       "word": "everyone",
+       "after": 8
+      },
+      "enter": "left",
+      "t": 4.84
+     }
+    ]
+   },
+   "note": "conventional conceptions taken for objective facts that everyone knows",
+   "t0": 3.72,
+   "t1": 11.22
+  },
+  {
+   "kind": "image",
+   "acc": "met_60194",
+   "file": ".work/img/met_60194_full.jpg",
+   "crop": [
+    1029,
+    0,
+    1715,
+    3049
+   ],
+   "pan": 0,
+   "zoom": [
+    1.0,
+    1.04
+   ],
+   "note": "blind men and the elephant: narrow-minded bigotry and blind prejudice",
+   "t0": 11.22,
+   "t1": 15.02
+  },
+  {
+   "kind": "head",
+   "t0": 15.02,
+   "t1": 19.4
+  },
+  {
+   "kind": "image",
+   "acc": "cma_1972.158",
+   "file": ".work/img/cma_1972.158_full.jpg",
+   "crop": [
+    456,
+    181,
+    3226,
+    5735
+   ],
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Nio guardian: arrogance, prejudice, bias",
+   "t0": 19.4,
+   "t1": 27.14
+  },
+  {
+   "kind": "head",
+   "t0": 27.14,
+   "t1": 31.58
+  },
+  {
+   "kind": "collage",
+   "name": "closed",
+   "spec": {
+    "ground": {
+     "color": [
+      18,
+      17,
+      16
+     ]
+    },
+    "pieces": [
+     {
+      "shape": "disc",
+      "color": [
+       176,
+       46,
+       36
+      ],
+      "x": 0.5,
+      "y": 0.3,
+      "w": 0.56,
+      "at": 0.0,
+      "enter": "settle",
+      "z": -1,
+      "t": 0.0
+     },
+     {
+      "id": "met_924663",
+      "cut": true,
+      "bw": true,
+      "box": [
+       0.1,
+       0.05,
+       0.9,
+       0.78
+      ],
+      "x": 0.5,
+      "y": 0.36,
+      "w": 0.56,
+      "at": 0.3,
+      "enter": "settle",
+      "t": 0.3
+     },
+     {
+      "id": "met_56940",
+      "box": [
+       0.05,
+       0.28,
+       0.95,
+       0.55
+      ],
+      "x": 0.18,
+      "y": 0.13,
+      "w": 0.4,
+      "rot": -8,
+      "at": {
+       "word": "new",
+       "after": 33
+      },
+      "enter": "left",
+      "t": 2.49
+     },
+     {
+      "id": "met_51742",
+      "box": [
+       0.25,
+       0.15,
+       0.75,
+       0.6
+      ],
+      "x": 0.84,
+      "y": 0.56,
+      "w": 0.36,
+      "rot": 7,
+      "at": {
+       "word": "thinking",
+       "after": 34
+      },
+      "enter": "right",
+      "t": 3.99
+     },
+     {
+      "id": "met_205435",
+      "cut": true,
+      "box": [
+       0.12,
+       0.06,
+       0.88,
+       0.76
+      ],
+      "x": 0.5,
+      "y": 0.645,
+      "w": 0.44,
+      "rot": -3,
+      "at": {
+       "word": "locked",
+       "after": 38
+      },
+      "enter": "down",
+      "t": 6.39
+     },
+     {
+      "id": "met_64029",
+      "box": [
+       0.2,
+       0.3,
+       0.8,
+       0.4
+      ],
+      "bw": true,
+      "x": 0.5,
+      "y": 0.73,
+      "w": 0.92,
+      "rot": 1.5,
+      "at": {
+       "word": "conceptualizing",
+       "after": 39
+      },
+      "enter": "up",
+      "z": 1.5,
+      "t": 8.46
+     }
+    ]
+   },
+   "note": "not open to new ways of thinking, locked into one fixed way",
+   "t0": 31.58,
+   "t1": 43.0
+  },
+  {
+   "kind": "image",
+   "acc": "met_853224",
+   "file": ".work/img/met_853224_full.jpg",
+   "crop": [
+    960,
+    0,
+    922,
+    1639
+   ],
+   "pan": 120,
+   "zoom": [
+    1.0,
+    1.0
+   ],
+   "note": "night parade of demons: the person, the nation, the world degenerate",
+   "t0": 43.0,
+   "t1": 50.6
+  },
+  {
+   "kind": "head",
+   "t0": 50.6,
+   "t1": 58.11
+  },
+  {
+   "kind": "collage",
+   "name": "boeing",
+   "spec": {
+    "ground": {
+     "color": [
+      20,
+      18,
+      16
+     ]
+    },
+    "pieces": [
+     {
+      "shape": "disc",
+      "color": [
+       198,
+       160,
+       74
+      ],
+      "x": 0.76,
+      "y": 0.13,
+      "w": 0.32,
+      "at": 0.0,
+      "enter": "settle",
+      "z": -1,
+      "t": 0.0
+     },
+     {
+      "id": "met_49003",
+      "box": [
+       0.06,
+       0.36,
+       0.62,
+       0.86
+      ],
+      "x": 0.4,
+      "y": 0.3,
+      "w": 0.66,
+      "rot": -3,
+      "at": 0.2,
+      "enter": "up",
+      "t": 0.2
+     },
+     {
+      "id": "met_75858",
+      "box": [
+       0.02,
+       0.05,
+       0.48,
+       0.95
+      ],
+      "bw": true,
+      "x": 0.68,
+      "y": 0.58,
+      "w": 0.52,
+      "rot": 5,
+      "at": {
+       "word": "designs",
+       "after": 63
+      },
+      "enter": "right",
+      "t": 5.93
+     },
+     {
+      "shape": "plane",
+      "id": "met_75858",
+      "box": [
+       0.52,
+       0.05,
+       0.98,
+       0.95
+      ],
+      "x": 0.34,
+      "y": 0.6,
+      "w": 0.42,
+      "rot": -24,
+      "at": {
+       "word": "Boeing",
+       "after": 66
+      },
+      "enter": "left",
+      "t": 8.73
+     }
+    ]
+   },
+   "note": "knows they're good, the best, the best designs, like Boeing",
+   "t0": 58.11,
+   "t1": 69.77
+  },
+  {
+   "kind": "head",
+   "t0": 69.77,
+   "t1": 74.25
+  },
+  {
+   "kind": "collage",
+   "name": "apple",
+   "spec": {
+    "ground": {
+     "color": [
+      20,
+      18,
+      16
+     ]
+    },
+    "pieces": [
+     {
+      "shape": "disc",
+      "color": [
+       198,
+       160,
+       74
+      ],
+      "x": 0.5,
+      "y": 0.27,
+      "w": 0.58,
+      "at": 0.0,
+      "enter": "settle",
+      "z": -1,
+      "t": 0.0
+     },
+     {
+      "id": "met_912004",
+      "x": 0.5,
+      "y": 0.31,
+      "w": 0.78,
+      "at": 0.15,
+      "enter": "settle",
+      "box": [
+       0.06,
+       0.04,
+       0.94,
+       0.96
+      ],
+      "rot": -2,
+      "t": 0.15
+     },
+     {
+      "id": "met_75858",
+      "box": [
+       0.05,
+       0.1,
+       0.45,
+       0.9
+      ],
+      "bw": true,
+      "x": 0.27,
+      "y": 0.62,
+      "w": 0.42,
+      "rot": -6,
+      "at": {
+       "word": "design",
+       "after": 75
+      },
+      "enter": "left",
+      "t": 2.73
+     },
+     {
+      "id": "met_75858",
+      "box": [
+       0.55,
+       0.1,
+       0.95,
+       0.9
+      ],
+      "bw": true,
+      "x": 0.73,
+      "y": 0.63,
+      "w": 0.42,
+      "rot": 5,
+      "at": {
+       "word": "manufacture",
+       "after": 77
+      },
+      "enter": "right",
+      "t": 3.97
+     }
+    ]
+   },
+   "note": "knew everything about design and manufacture",
+   "t0": 74.25,
+   "t1": 79.35
+  },
+  {
+   "kind": "head",
+   "t0": 79.35,
+   "t1": 89.68
+  },
+  {
+   "kind": "image",
+   "acc": "met_51135",
+   "file": ".work/img/met_51135_full.jpg",
+   "crop": [
+    53,
+    310,
+    1526,
+    2713
+   ],
+   "pan": 0,
+   "zoom": [
+    1.0,
+    1.04
+   ],
+   "note": "beauty admiring herself in a mirror: everyone knows they're beautiful",
+   "t0": 89.68,
+   "t1": 94.47
+  },
+  {
+   "kind": "head",
+   "t0": 94.47,
+   "t1": 97.53
+  },
+  {
+   "kind": "image",
+   "acc": "artic_24645",
+   "file": ".work/img/artic_24645_full.jpg",
+   "crop": [
+    360,
+    0,
+    1156,
+    2056
+   ],
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "the Great Wave: something from the outside",
+   "t0": 97.53,
+   "t1": 100.94
+  },
+  {
+   "kind": "image",
+   "acc": "artic_8185",
+   "file": ".work/img/artic_8185_full.jpg",
+   "crop": [
+    501,
+    150,
+    1097,
+    1950
+   ],
+   "pan": 0,
+   "zoom": [
+    1.0,
+    1.04
+   ],
+   "note": "woman exhaling pipe smoke: smoking was thought to be good for you",
+   "t0": 100.94,
+   "t1": 107.02
+  },
+  {
+   "kind": "image",
+   "acc": "met_54860",
+   "file": ".work/img/met_54860_full.jpg",
+   "crop": [
+    499,
+    1361,
+    1356,
+    2411
+   ],
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Kintaro, a mischievous child, held by Yamauba: if you didn't spank your child",
+   "t0": 107.02,
+   "t1": 113.18
+  },
+  {
+   "kind": "collage",
+   "name": "seasons",
+   "spec": {
+    "ground": {
+     "color": [
+      20,
+      18,
+      16
+     ]
+    },
+    "pieces": [
+     {
+      "id": "met_56940",
+      "box": [
+       0.05,
+       0.3,
+       0.95,
+       0.72
+      ],
+      "x": 0.3,
+      "y": 0.2,
+      "w": 0.5,
+      "rot": -4,
+      "at": 0.0,
+      "enter": "left",
+      "t": 0.0
+     },
+     {
+      "id": "met_51742",
+      "box": [
+       0.2,
+       0.1,
+       0.8,
+       0.7
+      ],
+      "x": 0.71,
+      "y": 0.27,
+      "w": 0.5,
+      "rot": 5,
+      "at": {
+       "word": "changed",
+       "after": 113
+      },
+      "enter": "right",
+      "t": 1.09
+     },
+     {
+      "id": "artic_20827",
+      "box": [
+       0.05,
+       0.05,
+       0.95,
+       0.6
+      ],
+      "x": 0.32,
+      "y": 0.5,
+      "w": 0.52,
+      "rot": 3,
+      "at": {
+       "word": "thereafter",
+       "after": 116
+      },
+      "enter": "left",
+      "t": 4.05
+     },
+     {
+      "id": "met_56915",
+      "box": [
+       0.1,
+       0.15,
+       0.9,
+       0.85
+      ],
+      "x": 0.67,
+      "y": 0.62,
+      "w": 0.58,
+      "rot": -3,
+      "at": {
+       "word": "will",
+       "after": 120
+      },
+      "enter": "right",
+      "t": 7.77
+     }
+    ]
+   },
+   "note": "attitudes have changed, also changed, will also change: the four seasons",
+   "t0": 113.18,
+   "t1": 123.13
+  },
+  {
+   "kind": "head",
+   "t0": 123.13,
+   "t1": 130.34
+  },
+  {
+   "kind": "collage",
+   "name": "media",
+   "spec": {
+    "ground": {
+     "color": [
+      18,
+      17,
+      16
+     ],
+     "image": {
+      "id": "met_45499",
+      "box": [
+       0.3,
+       0.15,
+       0.9,
+       0.85
+      ],
+      "opacity": 0.14
+     }
+    },
+    "pieces": [
+     {
+      "id": "met_924663",
+      "cut": true,
+      "bw": true,
+      "box": [
+       0.1,
+       0.05,
+       0.9,
+       0.78
+      ],
+      "x": 0.5,
+      "y": 0.44,
+      "w": 0.5,
+      "at": 0.0,
+      "enter": "settle",
+      "t": 0.0
+     },
+     {
+      "shape": "phone",
+      "id": "met_51135",
+      "box": [
+       0.15,
+       0.05,
+       0.75,
+       0.6
+      ],
+      "x": 0.21,
+      "y": 0.2,
+      "w": 0.3,
+      "rot": -8,
+      "at": {
+       "word": "Instagram",
+       "after": 133
+      },
+      "enter": "left",
+      "t": 4.93
+     },
+     {
+      "shape": "tv",
+      "id": "met_37358",
+      "box": [
+       0.08,
+       0.04,
+       0.92,
+       0.62
+      ],
+      "x": 0.76,
+      "y": 0.18,
+      "w": 0.42,
+      "rot": 5,
+      "at": {
+       "word": "TV",
+       "after": 136
+      },
+      "enter": "right",
+      "t": 6.65
+     },
+     {
+      "shape": "phone",
+      "id": "met_54860",
+      "box": [
+       0.2,
+       0.45,
+       0.8,
+       0.95
+      ],
+      "x": 0.82,
+      "y": 0.52,
+      "w": 0.26,
+      "rot": 8,
+      "at": {
+       "word": "TikTok",
+       "after": 137
+      },
+      "enter": "right",
+      "t": 7.89
+     },
+     {
+      "id": "met_75858",
+      "box": [
+       0.5,
+       0.05,
+       0.98,
+       0.95
+      ],
+      "bw": true,
+      "x": 0.2,
+      "y": 0.58,
+      "w": 0.36,
+      "rot": -5,
+      "at": {
+       "word": "books",
+       "after": 139
+      },
+      "enter": "left",
+      "t": 9.85
+     },
+     {
+      "shape": "film",
+      "id": "met_56915",
+      "box": [
+       0.25,
+       0.1,
+       0.75,
+       0.9
+      ],
+      "x": 0.52,
+      "y": 0.7,
+      "w": 0.18,
+      "rot": 84,
+      "at": {
+       "word": "movies",
+       "after": 141
+      },
+      "enter": "up",
+      "t": 11.13
+     }
+    ]
+   },
+   "note": "conditioned by your environment: Instagram, TV, TikTok, books, movies",
+   "t0": 130.34,
+   "t1": 143.48
+  },
+  {
+   "kind": "image",
+   "acc": "met_36539",
+   "file": ".work/img/met_36539_full.jpg",
+   "crop": [
+    394,
+    469,
+    1450,
+    2577
+   ],
+   "pan": 0,
+   "zoom": [
+    1.0,
+    1.04
+   ],
+   "note": "a cat at a barred window: a tiny slice of the world",
+   "t0": 143.48,
+   "t1": 149.88
+  },
+  {
+   "kind": "head",
+   "t0": 149.88,
+   "t1": 154.5
+  },
+  {
+   "kind": "image",
+   "acc": "met_36490",
+   "file": ".work/img/met_36490_full.jpg",
+   "crop": [
+    1623,
+    0,
+    1499,
+    2665
+   ],
+   "pan": 0,
+   "zoom": [
+    1.04,
+    1.0
+   ],
+   "note": "Hokusai, South Wind, Clear Sky (Red Fuji): see more clearly",
+   "t0": 154.5,
+   "t1": 157.84
+  }
+ ],
+ "captions": [
+  {
+   "words": [
+    {
+     "w": "When",
+     "s": 0.48,
+     "e": 0.54,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 0.54,
+     "e": 0.68,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 0.68,
+     "e": 0.86,
+     "key": false
+    },
+    {
+     "w": "forgotten",
+     "s": 0.89,
+     "e": 1.28,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 1.28
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 1.28,
+     "e": 1.54,
+     "key": false
+    },
+    {
+     "w": "conventional",
+     "s": 1.54,
+     "e": 2.1,
+     "key": false
+    },
+    {
+     "w": "conceptions",
+     "s": 2.1,
+     "e": 3.72,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 3.72
+  },
+  {
+   "words": [
+    {
+     "w": "are",
+     "s": 3.72,
+     "e": 4.42,
+     "key": false
+    },
+    {
+     "w": "conventional",
+     "s": 4.42,
+     "e": 5.14,
+     "key": true
+    },
+    {
+     "w": "conceptions,",
+     "s": 5.14,
+     "e": 5.8,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 6.3
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 6.51,
+     "e": 6.64,
+     "key": false
+    },
+    {
+     "w": "they",
+     "s": 6.64,
+     "e": 6.76,
+     "key": false
+    },
+    {
+     "w": "are",
+     "s": 6.76,
+     "e": 6.92,
+     "key": false
+    },
+    {
+     "w": "taken",
+     "s": 6.92,
+     "e": 7.12,
+     "key": false
+    },
+    {
+     "w": "for",
+     "s": 7.12,
+     "e": 7.34,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 7.34
+  },
+  {
+   "words": [
+    {
+     "w": "objective",
+     "s": 7.34,
+     "e": 7.76,
+     "key": true
+    },
+    {
+     "w": "facts",
+     "s": 7.76,
+     "e": 8.24,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 8.5
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 8.5,
+     "e": 8.66,
+     "key": false
+    },
+    {
+     "w": "everyone",
+     "s": 8.81,
+     "e": 9.16,
+     "key": false
+    },
+    {
+     "w": "knows",
+     "s": 9.16,
+     "e": 9.62,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 9.62
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 9.62,
+     "e": 9.9,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 9.9,
+     "e": 10.04,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 10.04,
+     "e": 10.26,
+     "key": false
+    },
+    {
+     "w": "questions,",
+     "s": 10.29,
+     "e": 10.7,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 11.2
+  },
+  {
+   "words": [
+    {
+     "w": "then",
+     "s": 11.22,
+     "e": 11.28,
+     "key": false
+    },
+    {
+     "w": "narrow-minded",
+     "s": 11.28,
+     "e": 11.9,
+     "key": false
+    },
+    {
+     "w": "bigotry",
+     "s": 11.9,
+     "e": 12.46,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 12.46
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 12.46,
+     "e": 12.86,
+     "key": false
+    },
+    {
+     "w": "blind",
+     "s": 12.91,
+     "e": 13.2,
+     "key": false
+    },
+    {
+     "w": "prejudice",
+     "s": 13.2,
+     "e": 13.6,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 13.6
+  },
+  {
+   "words": [
+    {
+     "w": "can",
+     "s": 13.6,
+     "e": 13.98,
+     "key": false
+    },
+    {
+     "w": "develop",
+     "s": 13.98,
+     "e": 14.34,
+     "key": false
+    },
+    {
+     "w": "unopposed.",
+     "s": 14.47,
+     "e": 14.88,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 15.02
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 15.02,
+     "e": 15.14,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 15.14,
+     "e": 15.24,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 15.24,
+     "e": 15.32,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 15.32,
+     "e": 15.46,
+     "key": false
+    },
+    {
+     "w": "bigoted",
+     "s": 15.46,
+     "e": 15.74,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 15.74
+  },
+  {
+   "words": [
+    {
+     "w": "on",
+     "s": 15.74,
+     "e": 15.94,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 15.94,
+     "e": 16.08,
+     "key": false
+    },
+    {
+     "w": "right,",
+     "s": 16.08,
+     "e": 16.26,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 16.44
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 16.44,
+     "e": 16.46,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 16.46,
+     "e": 16.58,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 16.58,
+     "e": 16.66,
+     "key": false
+    },
+    {
+     "w": "bigoted",
+     "s": 16.66,
+     "e": 16.92,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 16.92
+  },
+  {
+   "words": [
+    {
+     "w": "on",
+     "s": 16.92,
+     "e": 17.08,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 17.08,
+     "e": 17.24,
+     "key": false
+    },
+    {
+     "w": "left,",
+     "s": 17.24,
+     "e": 17.48,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 17.59
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 17.59,
+     "e": 17.7,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 17.7,
+     "e": 17.78,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 17.78,
+     "e": 17.9,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 17.9,
+     "e": 17.98,
+     "key": false
+    },
+    {
+     "w": "bigoted",
+     "s": 18.01,
+     "e": 18.3,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 18.3
+  },
+  {
+   "words": [
+    {
+     "w": "in",
+     "s": 18.3,
+     "e": 18.48,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 18.48,
+     "e": 18.64,
+     "key": false
+    },
+    {
+     "w": "center.",
+     "s": 18.66,
+     "e": 18.94,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 19.4
+  },
+  {
+   "words": [
+    {
+     "w": "That",
+     "s": 19.4,
+     "e": 19.84,
+     "key": false
+    },
+    {
+     "w": "arrogance,",
+     "s": 19.96,
+     "e": 20.28,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 20.78
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 21.04,
+     "e": 21.3,
+     "key": false
+    },
+    {
+     "w": "prejudice,",
+     "s": 21.37,
+     "e": 22.04,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 22.54
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 22.6,
+     "e": 22.74,
+     "key": false
+    },
+    {
+     "w": "bias,",
+     "s": 22.74,
+     "e": 23.34,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 23.98,
+     "e": 23.98,
+     "key": false
+    },
+    {
+     "w": "bigotry",
+     "s": 23.98,
+     "e": 24.56,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 24.56
+  },
+  {
+   "words": [
+    {
+     "w": "means",
+     "s": 24.56,
+     "e": 24.9,
+     "key": false
+    },
+    {
+     "w": "having",
+     "s": 25.06,
+     "e": 25.24,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 25.24,
+     "e": 25.42,
+     "key": false
+    },
+    {
+     "w": "closed",
+     "s": 25.42,
+     "e": 25.68,
+     "key": false
+    },
+    {
+     "w": "mind",
+     "s": 25.71,
+     "e": 26.08,
+     "key": false
+    }
+   ],
+   "fillers": [
+    {
+     "w": "to,",
+     "s": 26.08,
+     "e": 26.42,
+     "key": false
+    },
+    {
+     "w": "I",
+     "s": 26.92,
+     "e": 26.94,
+     "key": false
+    },
+    {
+     "w": "mean,",
+     "s": 26.94,
+     "e": 27.08,
+     "key": false
+    }
+   ],
+   "lines": [
+    2
+   ],
+   "t_off": 26.58
+  },
+  {
+   "words": [
+    {
+     "w": "it",
+     "s": 27.14,
+     "e": 27.18,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 27.18,
+     "e": 27.38,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 27.38,
+     "e": 27.66,
+     "key": false
+    },
+    {
+     "w": "whatever",
+     "s": 27.75,
+     "e": 27.98,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 27.98
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 27.98,
+     "e": 28.2,
+     "key": false
+    },
+    {
+     "w": "think,",
+     "s": 28.2,
+     "e": 28.5,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 28.88
+  },
+  {
+   "words": [
+    {
+     "w": "exactly",
+     "s": 28.88,
+     "e": 29.24,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 29.24,
+     "e": 29.46,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 29.46,
+     "e": 29.56,
+     "key": false
+    },
+    {
+     "w": "think",
+     "s": 29.56,
+     "e": 29.74,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 29.77
+  },
+  {
+   "words": [
+    {
+     "w": "it",
+     "s": 29.77,
+     "e": 29.86,
+     "key": false
+    },
+    {
+     "w": "means,",
+     "s": 29.87,
+     "e": 30.04,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 30.13
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 30.13,
+     "e": 30.2,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 30.2,
+     "e": 30.28,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 30.28,
+     "e": 30.46,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 30.46,
+     "e": 30.66,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 30.66
+  },
+  {
+   "words": [
+    {
+     "w": "just",
+     "s": 30.66,
+     "e": 30.9,
+     "key": false
+    },
+    {
+     "w": "having",
+     "s": 30.9,
+     "e": 31.08,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 31.08,
+     "e": 31.22,
+     "key": false
+    },
+    {
+     "w": "closed",
+     "s": 31.22,
+     "e": 31.5,
+     "key": true
+    },
+    {
+     "w": "mind.",
+     "s": 31.56,
+     "e": 31.94,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 31.98
+  },
+  {
+   "words": [
+    {
+     "w": "Because",
+     "s": 31.98,
+     "e": 32.54,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 32.54,
+     "e": 32.82,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 32.82,
+     "e": 32.96,
+     "key": false
+    },
+    {
+     "w": "means",
+     "s": 32.96,
+     "e": 33.12,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 33.12
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 33.12,
+     "e": 33.26,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 33.26,
+     "e": 33.54,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 33.54,
+     "e": 33.72,
+     "key": false
+    },
+    {
+     "w": "open",
+     "s": 33.72,
+     "e": 34.14,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 34.14
+  },
+  {
+   "words": [
+    {
+     "w": "to",
+     "s": 34.14,
+     "e": 34.72,
+     "key": false
+    },
+    {
+     "w": "new",
+     "s": 34.72,
+     "e": 35.18,
+     "key": false
+    },
+    {
+     "w": "ways",
+     "s": 35.18,
+     "e": 35.96,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 35.96,
+     "e": 36.18,
+     "key": false
+    },
+    {
+     "w": "thinking",
+     "s": 36.22,
+     "e": 36.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 36.48
+  },
+  {
+   "words": [
+    {
+     "w": "or",
+     "s": 36.48,
+     "e": 36.7,
+     "key": false
+    },
+    {
+     "w": "conceptions.",
+     "s": 36.7,
+     "e": 37.28,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 37.4
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 37.4,
+     "e": 37.92,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 37.92,
+     "e": 38.06,
+     "key": false
+    },
+    {
+     "w": "when",
+     "s": 38.06,
+     "e": 38.22,
+     "key": false
+    },
+    {
+     "w": "people",
+     "s": 38.24,
+     "e": 38.44,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 38.44,
+     "e": 38.62,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 38.62
+  },
+  {
+   "words": [
+    {
+     "w": "locked",
+     "s": 38.62,
+     "e": 38.94,
+     "key": true
+    },
+    {
+     "w": "into",
+     "s": 38.94,
+     "e": 39.2,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 39.2,
+     "e": 39.54,
+     "key": false
+    },
+    {
+     "w": "fixed",
+     "s": 39.54,
+     "e": 40.02,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 40.02,
+     "e": 40.5,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 40.5
+  },
+  {
+   "words": [
+    {
+     "w": "of",
+     "s": 40.5,
+     "e": 40.68,
+     "key": false
+    },
+    {
+     "w": "conceptualizing",
+     "s": 40.69,
+     "e": 41.44,
+     "key": false
+    },
+    {
+     "w": "things.",
+     "s": 41.44,
+     "e": 41.88,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 42.38
+  },
+  {
+   "words": [
+    {
+     "w": "Then",
+     "s": 43.0,
+     "e": 43.18,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 43.18,
+     "e": 44.04,
+     "key": false
+    },
+    {
+     "w": "person,",
+     "s": 44.04,
+     "e": 44.76,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 45.26
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 46.04,
+     "e": 46.42,
+     "key": false
+    },
+    {
+     "w": "nation,",
+     "s": 46.42,
+     "e": 47.04,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 47.54
+  },
+  {
+   "words": [
+    {
+     "w": "the",
+     "s": 47.84,
+     "e": 48.02,
+     "key": false
+    },
+    {
+     "w": "world",
+     "s": 48.02,
+     "e": 48.42,
+     "key": false
+    },
+    {
+     "w": "starts",
+     "s": 48.42,
+     "e": 48.86,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 48.86,
+     "e": 49.66,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 49.81
+  },
+  {
+   "words": [
+    {
+     "w": "degenerate",
+     "s": 49.81,
+     "e": 50.6,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 50.6
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 50.6,
+     "e": 50.96,
+     "key": false
+    },
+    {
+     "w": "we're",
+     "s": 50.96,
+     "e": 51.58,
+     "key": false
+    },
+    {
+     "w": "locked",
+     "s": 51.58,
+     "e": 51.84,
+     "key": false
+    },
+    {
+     "w": "into",
+     "s": 51.84,
+     "e": 52.12,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 52.12
+  },
+  {
+   "words": [
+    {
+     "w": "one",
+     "s": 52.12,
+     "e": 52.48,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 52.48,
+     "e": 52.82,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 52.82,
+     "e": 52.98,
+     "key": false
+    },
+    {
+     "w": "conceiving",
+     "s": 52.98,
+     "e": 53.44,
+     "key": false
+    },
+    {
+     "w": "things.",
+     "s": 53.44,
+     "e": 53.82,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 54.32
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 54.68,
+     "e": 54.69,
+     "key": false
+    },
+    {
+     "w": "instead",
+     "s": 54.82,
+     "e": 55.17,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 55.17,
+     "e": 55.45,
+     "key": false
+    },
+    {
+     "w": "talking",
+     "s": 55.45,
+     "e": 55.69,
+     "key": false
+    },
+    {
+     "w": "about",
+     "s": 55.69,
+     "e": 55.87,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 55.87
+  },
+  {
+   "words": [
+    {
+     "w": "a",
+     "s": 55.87,
+     "e": 56.01,
+     "key": false
+    },
+    {
+     "w": "nation,",
+     "s": 56.01,
+     "e": 56.21,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 56.35
+  },
+  {
+   "words": [
+    {
+     "w": "let's",
+     "s": 56.35,
+     "e": 56.43,
+     "key": false
+    },
+    {
+     "w": "talk",
+     "s": 56.47,
+     "e": 56.61,
+     "key": false
+    },
+    {
+     "w": "about",
+     "s": 56.61,
+     "e": 56.77,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 56.77,
+     "e": 56.91,
+     "key": false
+    },
+    {
+     "w": "corporation.",
+     "s": 56.92,
+     "e": 57.43,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 57.93
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 58.11,
+     "e": 58.13,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 58.13,
+     "e": 58.29,
+     "key": false
+    },
+    {
+     "w": "corporation",
+     "s": 58.29,
+     "e": 58.69,
+     "key": false
+    },
+    {
+     "w": "knows",
+     "s": 58.69,
+     "e": 59.45,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 59.95
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 60.59,
+     "e": 61.14,
+     "key": false
+    },
+    {
+     "w": "they're",
+     "s": 61.17,
+     "e": 61.41,
+     "key": false
+    },
+    {
+     "w": "good,",
+     "s": 61.41,
+     "e": 61.67,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 62.17
+  },
+  {
+   "words": [
+    {
+     "w": "knows",
+     "s": 62.57,
+     "e": 62.91,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 62.91,
+     "e": 63.09,
+     "key": false
+    },
+    {
+     "w": "they're",
+     "s": 63.14,
+     "e": 63.27,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 63.27,
+     "e": 63.41,
+     "key": false
+    },
+    {
+     "w": "best,",
+     "s": 63.42,
+     "e": 63.65,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 63.81
+  },
+  {
+   "words": [
+    {
+     "w": "knows",
+     "s": 63.81,
+     "e": 63.97,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 63.97,
+     "e": 64.15,
+     "key": false
+    },
+    {
+     "w": "their",
+     "s": 64.18,
+     "e": 64.29,
+     "key": false
+    },
+    {
+     "w": "designs",
+     "s": 64.29,
+     "e": 64.67,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 64.67
+  },
+  {
+   "words": [
+    {
+     "w": "are",
+     "s": 64.67,
+     "e": 64.87,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 64.87,
+     "e": 65.17,
+     "key": false
+    },
+    {
+     "w": "best",
+     "s": 65.17,
+     "e": 66.45,
+     "key": false
+    },
+    {
+     "w": "designs",
+     "s": 66.45,
+     "e": 66.87,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 66.87
+  },
+  {
+   "words": [
+    {
+     "w": "like",
+     "s": 66.87,
+     "e": 67.09,
+     "key": false
+    },
+    {
+     "w": "Boeing,",
+     "s": 67.09,
+     "e": 67.47,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 67.97
+  },
+  {
+   "words": [
+    {
+     "w": "that's",
+     "s": 67.97,
+     "e": 68.73,
+     "key": false
+    },
+    {
+     "w": "not",
+     "s": 68.73,
+     "e": 68.91,
+     "key": false
+    },
+    {
+     "w": "good.",
+     "s": 68.91,
+     "e": 69.47,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 69.77
+  },
+  {
+   "words": [
+    {
+     "w": "If",
+     "s": 69.77,
+     "e": 69.77,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 69.79,
+     "e": 69.87,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 69.87,
+     "e": 70.03,
+     "key": false
+    },
+    {
+     "w": "at",
+     "s": 70.03,
+     "e": 70.21,
+     "key": false
+    },
+    {
+     "w": "Apple,",
+     "s": 70.21,
+     "e": 70.51,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 70.93
+  },
+  {
+   "words": [
+    {
+     "w": "frankly,",
+     "s": 70.93,
+     "e": 71.21,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 71.71
+  },
+  {
+   "words": [
+    {
+     "w": "they",
+     "s": 72.17,
+     "e": 72.37,
+     "key": false
+    },
+    {
+     "w": "were",
+     "s": 72.45,
+     "e": 72.75,
+     "key": false
+    },
+    {
+     "w": "so",
+     "s": 72.75,
+     "e": 73.11,
+     "key": false
+    },
+    {
+     "w": "sure",
+     "s": 73.11,
+     "e": 74.25,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 74.25
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 74.25,
+     "e": 74.69,
+     "key": false
+    },
+    {
+     "w": "they",
+     "s": 74.72,
+     "e": 74.85,
+     "key": false
+    },
+    {
+     "w": "knew",
+     "s": 74.85,
+     "e": 75.21,
+     "key": false
+    },
+    {
+     "w": "everything",
+     "s": 75.65,
+     "e": 76.03,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 76.53
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 76.57,
+     "e": 76.71,
+     "key": false
+    },
+    {
+     "w": "regard",
+     "s": 76.71,
+     "e": 76.97,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 76.97,
+     "e": 77.21,
+     "key": false
+    },
+    {
+     "w": "design,",
+     "s": 77.23,
+     "e": 77.61,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 77.87
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 77.87,
+     "e": 77.89,
+     "key": false
+    },
+    {
+     "w": "regard",
+     "s": 77.89,
+     "e": 78.17,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 78.17,
+     "e": 78.39,
+     "key": false
+    },
+    {
+     "w": "manufacture.",
+     "s": 78.47,
+     "e": 78.99,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 79.35
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 79.35,
+     "e": 79.37,
+     "key": false
+    },
+    {
+     "w": "now,",
+     "s": 79.37,
+     "e": 79.77,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 80.27
+  },
+  {
+   "words": [
+    {
+     "w": "when",
+     "s": 80.76,
+     "e": 81.35,
+     "key": false
+    },
+    {
+     "w": "was",
+     "s": 81.56,
+     "e": 81.82,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 81.83,
+     "e": 81.96,
+     "key": false
+    },
+    {
+     "w": "last",
+     "s": 81.96,
+     "e": 82.02,
+     "key": false
+    },
+    {
+     "w": "time",
+     "s": 82.02,
+     "e": 82.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 82.2
+  },
+  {
+   "words": [
+    {
+     "w": "you",
+     "s": 82.2,
+     "e": 82.28,
+     "key": false
+    },
+    {
+     "w": "saw",
+     "s": 82.28,
+     "e": 82.46,
+     "key": false
+    },
+    {
+     "w": "anything",
+     "s": 82.46,
+     "e": 82.8,
+     "key": false
+    },
+    {
+     "w": "really",
+     "s": 82.8,
+     "e": 83.1,
+     "key": false
+    },
+    {
+     "w": "innovative",
+     "s": 83.1,
+     "e": 84.06,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 84.06
+  },
+  {
+   "words": [
+    {
+     "w": "come",
+     "s": 84.06,
+     "e": 84.34,
+     "key": false
+    },
+    {
+     "w": "out",
+     "s": 84.34,
+     "e": 84.52,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 84.52,
+     "e": 84.66,
+     "key": false
+    },
+    {
+     "w": "Apple?",
+     "s": 84.66,
+     "e": 84.96,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    4
+   ],
+   "t_off": 85.46
+  },
+  {
+   "words": [
+    {
+     "w": "Now",
+     "s": 85.68,
+     "e": 85.88,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 85.88,
+     "e": 86.0,
+     "key": false
+    },
+    {
+     "w": "may",
+     "s": 86.0,
+     "e": 86.16,
+     "key": false
+    },
+    {
+     "w": "change",
+     "s": 86.16,
+     "e": 86.58,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 86.58
+  },
+  {
+   "words": [
+    {
+     "w": "out",
+     "s": 86.58,
+     "e": 86.92,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 86.92,
+     "e": 87.08,
+     "key": false
+    },
+    {
+     "w": "necessity,",
+     "s": 87.08,
+     "e": 87.5,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 87.5
+  },
+  {
+   "words": [
+    {
+     "w": "but",
+     "s": 87.5,
+     "e": 87.98,
+     "key": false
+    },
+    {
+     "w": "it's",
+     "s": 88.16,
+     "e": 88.32,
+     "key": false
+    },
+    {
+     "w": "been",
+     "s": 88.32,
+     "e": 88.54,
+     "key": false
+    },
+    {
+     "w": "years",
+     "s": 88.54,
+     "e": 88.94,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 88.94,
+     "e": 89.12,
+     "key": false
+    },
+    {
+     "w": "years",
+     "s": 89.12,
+     "e": 89.3,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 89.3
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 89.3,
+     "e": 89.46,
+     "key": false
+    },
+    {
+     "w": "years",
+     "s": 89.46,
+     "e": 89.68,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 89.68
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 89.68,
+     "e": 89.98,
+     "key": false
+    },
+    {
+     "w": "everyone",
+     "s": 89.98,
+     "e": 90.28,
+     "key": false
+    },
+    {
+     "w": "knows",
+     "s": 90.28,
+     "e": 90.56,
+     "key": false
+    },
+    {
+     "w": "they're",
+     "s": 90.56,
+     "e": 90.82,
+     "key": false
+    },
+    {
+     "w": "good",
+     "s": 90.82,
+     "e": 91.12,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 91.62
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 91.82,
+     "e": 91.97,
+     "key": false
+    },
+    {
+     "w": "everyone",
+     "s": 91.97,
+     "e": 92.25,
+     "key": false
+    },
+    {
+     "w": "knows",
+     "s": 92.25,
+     "e": 92.47,
+     "key": false
+    },
+    {
+     "w": "they're",
+     "s": 92.47,
+     "e": 92.65,
+     "key": false
+    },
+    {
+     "w": "beautiful",
+     "s": 92.66,
+     "e": 93.05,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 93.05
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 93.05,
+     "e": 93.31,
+     "key": false
+    },
+    {
+     "w": "no",
+     "s": 93.31,
+     "e": 93.45,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 93.45,
+     "e": 93.63,
+     "key": false
+    },
+    {
+     "w": "questions",
+     "s": 93.67,
+     "e": 94.01,
+     "key": true
+    },
+    {
+     "w": "it.",
+     "s": 94.01,
+     "e": 94.29,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 94.47
+  },
+  {
+   "words": [
+    {
+     "w": "But",
+     "s": 94.47,
+     "e": 94.67,
+     "key": false
+    },
+    {
+     "w": "something's",
+     "s": 95.05,
+     "e": 95.37,
+     "key": false
+    },
+    {
+     "w": "going",
+     "s": 95.37,
+     "e": 95.47,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 95.47,
+     "e": 95.63,
+     "key": false
+    },
+    {
+     "w": "change.",
+     "s": 95.63,
+     "e": 95.81,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 96.03
+  },
+  {
+   "words": [
+    {
+     "w": "Just",
+     "s": 96.03,
+     "e": 96.03,
+     "key": false
+    },
+    {
+     "w": "watch",
+     "s": 96.11,
+     "e": 96.27,
+     "key": false
+    },
+    {
+     "w": "and",
+     "s": 96.27,
+     "e": 96.47,
+     "key": false
+    },
+    {
+     "w": "see.",
+     "s": 96.55,
+     "e": 96.73,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 96.93
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 96.93,
+     "e": 97.07,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 97.07,
+     "e": 97.19,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 97.19,
+     "e": 97.35,
+     "key": false
+    },
+    {
+     "w": "need",
+     "s": 97.35,
+     "e": 97.53,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 97.53
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 97.53,
+     "e": 97.77,
+     "key": false
+    },
+    {
+     "w": "something",
+     "s": 97.9,
+     "e": 98.21,
+     "key": false
+    },
+    {
+     "w": "from",
+     "s": 98.21,
+     "e": 98.43,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 98.43,
+     "e": 98.57,
+     "key": false
+    },
+    {
+     "w": "outside,",
+     "s": 98.57,
+     "e": 98.91,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 99.12
+  },
+  {
+   "words": [
+    {
+     "w": "some",
+     "s": 99.12,
+     "e": 99.23,
+     "key": false
+    },
+    {
+     "w": "creativity",
+     "s": 99.32,
+     "e": 99.63,
+     "key": true
+    },
+    {
+     "w": "from",
+     "s": 99.63,
+     "e": 99.93,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 99.93,
+     "e": 100.07,
+     "key": false
+    },
+    {
+     "w": "outside.",
+     "s": 100.07,
+     "e": 100.51,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 100.94
+  },
+  {
+   "words": [
+    {
+     "w": "So,",
+     "s": 100.94,
+     "e": 101.0,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 101.0,
+     "e": 101.5,
+     "key": false
+    },
+    {
+     "w": "my",
+     "s": 101.5,
+     "e": 101.72,
+     "key": false
+    },
+    {
+     "w": "grandfather's",
+     "s": 101.72,
+     "e": 102.3,
+     "key": false
+    },
+    {
+     "w": "time,",
+     "s": 102.33,
+     "e": 102.62,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 103.12
+  },
+  {
+   "words": [
+    {
+     "w": "smoking",
+     "s": 103.16,
+     "e": 103.52,
+     "key": true
+    },
+    {
+     "w": "was",
+     "s": 103.52,
+     "e": 103.76,
+     "key": false
+    },
+    {
+     "w": "thought",
+     "s": 103.79,
+     "e": 103.9,
+     "key": false
+    },
+    {
+     "w": "to",
+     "s": 103.9,
+     "e": 104.08,
+     "key": false
+    },
+    {
+     "w": "be",
+     "s": 104.08,
+     "e": 104.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 104.2
+  },
+  {
+   "words": [
+    {
+     "w": "good",
+     "s": 104.2,
+     "e": 104.38,
+     "key": false
+    },
+    {
+     "w": "for",
+     "s": 104.38,
+     "e": 104.64,
+     "key": false
+    },
+    {
+     "w": "you.",
+     "s": 104.64,
+     "e": 105.42,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 105.92
+  },
+  {
+   "words": [
+    {
+     "w": "Before",
+     "s": 107.02,
+     "e": 107.44,
+     "key": false
+    },
+    {
+     "w": "my",
+     "s": 107.44,
+     "e": 107.68,
+     "key": false
+    },
+    {
+     "w": "grandfather's",
+     "s": 107.68,
+     "e": 108.22,
+     "key": false
+    },
+    {
+     "w": "time,",
+     "s": 108.29,
+     "e": 108.52,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 108.78
+  },
+  {
+   "words": [
+    {
+     "w": "if",
+     "s": 108.78,
+     "e": 108.88,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 108.88,
+     "e": 109.02,
+     "key": false
+    },
+    {
+     "w": "didn't",
+     "s": 109.02,
+     "e": 109.44,
+     "key": false
+    },
+    {
+     "w": "spank",
+     "s": 109.51,
+     "e": 109.78,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 109.84
+  },
+  {
+   "words": [
+    {
+     "w": "your",
+     "s": 109.84,
+     "e": 109.94,
+     "key": false
+    },
+    {
+     "w": "child,",
+     "s": 109.94,
+     "e": 110.3,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 110.46
+  },
+  {
+   "words": [
+    {
+     "w": "something",
+     "s": 110.46,
+     "e": 110.62,
+     "key": false
+    },
+    {
+     "w": "was",
+     "s": 110.62,
+     "e": 110.84,
+     "key": false
+    },
+    {
+     "w": "wrong",
+     "s": 110.84,
+     "e": 111.06,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 111.06
+  },
+  {
+   "words": [
+    {
+     "w": "with",
+     "s": 111.06,
+     "e": 111.26,
+     "key": false
+    },
+    {
+     "w": "you.",
+     "s": 111.26,
+     "e": 111.9,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 112.4
+  },
+  {
+   "words": [
+    {
+     "w": "Now",
+     "s": 113.18,
+     "e": 113.24,
+     "key": false
+    },
+    {
+     "w": "these",
+     "s": 113.24,
+     "e": 113.5,
+     "key": false
+    },
+    {
+     "w": "two",
+     "s": 113.5,
+     "e": 113.78,
+     "key": false
+    },
+    {
+     "w": "attitudes",
+     "s": 113.78,
+     "e": 114.3,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 114.3
+  },
+  {
+   "words": [
+    {
+     "w": "have",
+     "s": 114.3,
+     "e": 114.52,
+     "key": false
+    },
+    {
+     "w": "changed,",
+     "s": 114.52,
+     "e": 115.06,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 115.56
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 116.38,
+     "e": 116.5,
+     "key": false
+    },
+    {
+     "w": "attitudes",
+     "s": 116.5,
+     "e": 117.08,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 117.08,
+     "e": 117.28,
+     "key": false
+    },
+    {
+     "w": "came",
+     "s": 117.32,
+     "e": 117.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 117.48
+  },
+  {
+   "words": [
+    {
+     "w": "thereafter",
+     "s": 117.48,
+     "e": 118.16,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 118.16,
+     "e": 118.58,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 118.58,
+     "e": 118.8,
+     "key": false
+    },
+    {
+     "w": "changed.",
+     "s": 118.87,
+     "e": 119.3,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 119.8
+  },
+  {
+   "words": [
+    {
+     "w": "And",
+     "s": 119.94,
+     "e": 120.02,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 120.02,
+     "e": 120.14,
+     "key": false
+    },
+    {
+     "w": "attitudes",
+     "s": 120.14,
+     "e": 120.52,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 120.56
+  },
+  {
+   "words": [
+    {
+     "w": "we",
+     "s": 120.56,
+     "e": 120.7,
+     "key": false
+    },
+    {
+     "w": "have",
+     "s": 120.7,
+     "e": 120.92,
+     "key": false
+    },
+    {
+     "w": "now",
+     "s": 120.92,
+     "e": 121.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 121.2
+  },
+  {
+   "words": [
+    {
+     "w": "will",
+     "s": 121.2,
+     "e": 121.52,
+     "key": false
+    },
+    {
+     "w": "also",
+     "s": 121.65,
+     "e": 122.0,
+     "key": false
+    },
+    {
+     "w": "change.",
+     "s": 122.0,
+     "e": 122.54,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 123.04
+  },
+  {
+   "words": [
+    {
+     "w": "So",
+     "s": 123.13,
+     "e": 123.22,
+     "key": false
+    },
+    {
+     "w": "if",
+     "s": 123.22,
+     "e": 123.42,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 123.42,
+     "e": 123.52,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 123.52,
+     "e": 123.7,
+     "key": false
+    },
+    {
+     "w": "locked",
+     "s": 123.7,
+     "e": 124.0,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 124.0
+  },
+  {
+   "words": [
+    {
+     "w": "into",
+     "s": 124.0,
+     "e": 124.3,
+     "key": false
+    },
+    {
+     "w": "one",
+     "s": 124.3,
+     "e": 124.6,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 124.6,
+     "e": 124.8,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 124.8,
+     "e": 125.0,
+     "key": false
+    },
+    {
+     "w": "looking",
+     "s": 125.0,
+     "e": 125.2,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 125.2
+  },
+  {
+   "words": [
+    {
+     "w": "at",
+     "s": 125.2,
+     "e": 125.44,
+     "key": false
+    },
+    {
+     "w": "things,",
+     "s": 125.45,
+     "e": 125.76,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 126.26
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 126.34,
+     "e": 126.34,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 126.34,
+     "e": 126.76,
+     "key": false
+    },
+    {
+     "w": "don't",
+     "s": 126.76,
+     "e": 127.02,
+     "key": false
+    },
+    {
+     "w": "realize",
+     "s": 127.02,
+     "e": 127.4,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 127.4
+  },
+  {
+   "words": [
+    {
+     "w": "that",
+     "s": 127.4,
+     "e": 127.64,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 127.64,
+     "e": 127.82,
+     "key": false
+    },
+    {
+     "w": "attitudes,",
+     "s": 127.82,
+     "e": 128.32,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 128.82
+  },
+  {
+   "words": [
+    {
+     "w": "your",
+     "s": 128.89,
+     "e": 129.04,
+     "key": false
+    },
+    {
+     "w": "whole",
+     "s": 129.04,
+     "e": 129.3,
+     "key": false
+    },
+    {
+     "w": "way",
+     "s": 129.3,
+     "e": 129.5,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 129.5,
+     "e": 129.64,
+     "key": false
+    },
+    {
+     "w": "looking",
+     "s": 129.64,
+     "e": 129.78,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 129.78
+  },
+  {
+   "words": [
+    {
+     "w": "at",
+     "s": 129.78,
+     "e": 129.96,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 129.96,
+     "e": 130.08,
+     "key": false
+    },
+    {
+     "w": "world",
+     "s": 130.08,
+     "e": 130.34,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 130.34
+  },
+  {
+   "words": [
+    {
+     "w": "is",
+     "s": 130.34,
+     "e": 130.6,
+     "key": false
+    },
+    {
+     "w": "totally",
+     "s": 130.67,
+     "e": 131.04,
+     "key": false
+    },
+    {
+     "w": "conditioned",
+     "s": 131.14,
+     "e": 131.74,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 131.77
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 131.77,
+     "e": 132.02,
+     "key": false
+    },
+    {
+     "w": "determined",
+     "s": 132.04,
+     "e": 132.42,
+     "key": false
+    },
+    {
+     "w": "by",
+     "s": 132.44,
+     "e": 132.7,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 132.7,
+     "e": 133.26,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 133.26
+  },
+  {
+   "words": [
+    {
+     "w": "environment,",
+     "s": 133.26,
+     "e": 133.82,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 134.0
+  },
+  {
+   "words": [
+    {
+     "w": "what",
+     "s": 134.0,
+     "e": 134.14,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 134.14,
+     "e": 134.44,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 134.46,
+     "e": 134.7,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 134.7,
+     "e": 135.38,
+     "key": false
+    },
+    {
+     "w": "Instagram,",
+     "s": 135.52,
+     "e": 136.46,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 136.66
+  },
+  {
+   "words": [
+    {
+     "w": "what",
+     "s": 136.66,
+     "e": 136.74,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 136.81,
+     "e": 136.88,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 136.88,
+     "e": 137.06,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 137.06,
+     "e": 137.24,
+     "key": false
+    },
+    {
+     "w": "TV,",
+     "s": 137.24,
+     "e": 137.58,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 137.8
+  },
+  {
+   "words": [
+    {
+     "w": "what",
+     "s": 137.8,
+     "e": 137.86,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 137.92,
+     "e": 138.02,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 138.02,
+     "e": 138.26,
+     "key": false
+    },
+    {
+     "w": "on",
+     "s": 138.26,
+     "e": 138.48,
+     "key": false
+    },
+    {
+     "w": "TikTok",
+     "s": 138.48,
+     "e": 138.9,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 138.9
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 138.9,
+     "e": 139.14,
+     "key": false
+    },
+    {
+     "w": "X,",
+     "s": 139.14,
+     "e": 139.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 139.98
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 140.14,
+     "e": 140.28,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 140.28,
+     "e": 140.44,
+     "key": false
+    },
+    {
+     "w": "books",
+     "s": 140.44,
+     "e": 141.02,
+     "key": false
+    },
+    {
+     "w": "you've",
+     "s": 141.02,
+     "e": 141.32,
+     "key": false
+    },
+    {
+     "w": "read",
+     "s": 141.32,
+     "e": 141.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 141.48
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 141.48,
+     "e": 141.58,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 141.58,
+     "e": 141.72,
+     "key": false
+    },
+    {
+     "w": "movies",
+     "s": 141.72,
+     "e": 142.04,
+     "key": false
+    },
+    {
+     "w": "you've",
+     "s": 142.04,
+     "e": 142.4,
+     "key": false
+    },
+    {
+     "w": "seen.",
+     "s": 142.4,
+     "e": 142.68,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 143.18
+  },
+  {
+   "words": [
+    {
+     "w": "See,",
+     "s": 143.48,
+     "e": 143.64,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 143.8,
+     "e": 143.84,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 143.84,
+     "e": 144.0,
+     "key": false
+    },
+    {
+     "w": "at",
+     "s": 144.0,
+     "e": 144.14,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 144.14,
+     "e": 144.32,
+     "key": false
+    },
+    {
+     "w": "very",
+     "s": 144.32,
+     "e": 144.44,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 144.44
+  },
+  {
+   "words": [
+    {
+     "w": "tiny,",
+     "s": 144.44,
+     "e": 144.9,
+     "key": true
+    },
+    {
+     "w": "tiny,",
+     "s": 144.9,
+     "e": 145.2,
+     "key": false
+    },
+    {
+     "w": "tiny",
+     "s": 145.2,
+     "e": 145.42,
+     "key": false
+    },
+    {
+     "w": "little",
+     "s": 145.42,
+     "e": 145.62,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 145.62
+  },
+  {
+   "words": [
+    {
+     "w": "slice",
+     "s": 145.62,
+     "e": 145.88,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 145.88,
+     "e": 146.02,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 146.02,
+     "e": 146.18,
+     "key": false
+    },
+    {
+     "w": "world,",
+     "s": 146.18,
+     "e": 146.42,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 146.42
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 146.42,
+     "e": 146.58,
+     "key": false
+    },
+    {
+     "w": "we",
+     "s": 146.58,
+     "e": 146.68,
+     "key": false
+    },
+    {
+     "w": "call",
+     "s": 146.68,
+     "e": 146.86,
+     "key": false
+    },
+    {
+     "w": "it",
+     "s": 146.86,
+     "e": 146.98,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 147.02,
+     "e": 147.14,
+     "key": false
+    },
+    {
+     "w": "world,",
+     "s": 147.14,
+     "e": 147.48,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 147.98
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 148.48,
+     "e": 148.54,
+     "key": false
+    },
+    {
+     "w": "that's",
+     "s": 148.54,
+     "e": 148.72,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 148.72,
+     "e": 148.82,
+     "key": false
+    },
+    {
+     "w": "mistake.",
+     "s": 148.82,
+     "e": 149.28,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 149.78
+  },
+  {
+   "words": [
+    {
+     "w": "So",
+     "s": 149.88,
+     "e": 149.96,
+     "key": false
+    },
+    {
+     "w": "anybody",
+     "s": 149.96,
+     "e": 150.24,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    1
+   ],
+   "t_off": 150.24
+  },
+  {
+   "words": [
+    {
+     "w": "who",
+     "s": 150.24,
+     "e": 150.4,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 150.4,
+     "e": 150.6,
+     "key": false
+    },
+    {
+     "w": "get",
+     "s": 150.62,
+     "e": 150.74,
+     "key": false
+    },
+    {
+     "w": "out",
+     "s": 150.74,
+     "e": 150.96,
+     "key": false
+    },
+    {
+     "w": "of",
+     "s": 150.96,
+     "e": 151.1,
+     "key": false
+    },
+    {
+     "w": "that",
+     "s": 151.1,
+     "e": 151.34,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 151.49
+  },
+  {
+   "words": [
+    {
+     "w": "and",
+     "s": 151.49,
+     "e": 151.66,
+     "key": false
+    },
+    {
+     "w": "look",
+     "s": 151.66,
+     "e": 152.24,
+     "key": false
+    },
+    {
+     "w": "more",
+     "s": 151.84,
+     "e": 152.14,
+     "key": false
+    },
+    {
+     "w": "holistically",
+     "s": 152.96,
+     "e": 154.34,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    3
+   ],
+   "t_off": 154.5
+  },
+  {
+   "words": [
+    {
+     "w": "can",
+     "s": 154.5,
+     "e": 154.62,
+     "key": false
+    },
+    {
+     "w": "do",
+     "s": 154.62,
+     "e": 155.16,
+     "key": false
+    },
+    {
+     "w": "better",
+     "s": 155.16,
+     "e": 155.54,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 156.03
+  },
+  {
+   "words": [
+    {
+     "w": "because",
+     "s": 156.03,
+     "e": 156.28,
+     "key": false
+    },
+    {
+     "w": "they",
+     "s": 156.28,
+     "e": 156.44,
+     "key": false
+    },
+    {
+     "w": "can",
+     "s": 156.44,
+     "e": 156.64,
+     "key": false
+    },
+    {
+     "w": "see",
+     "s": 156.71,
+     "e": 156.94,
+     "key": false
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 156.94
+  },
+  {
+   "words": [
+    {
+     "w": "more",
+     "s": 156.94,
+     "e": 157.28,
+     "key": false
+    },
+    {
+     "w": "clearly.",
+     "s": 157.36,
+     "e": 157.72,
+     "key": true
+    }
+   ],
+   "fillers": [],
+   "lines": [
+    2
+   ],
+   "t_off": 158.22
+  }
+ ],
+ "title": null,
+ "endcard": {
+  "dur": 4.0,
+  "fade_frames": 15
+ },
+ "caption_y": 0.83,
+ "crop_track": ".work/tao-ch2-bigotry-trial/crop_track.json"
+}

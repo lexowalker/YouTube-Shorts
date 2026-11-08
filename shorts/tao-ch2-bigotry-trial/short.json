@@ -1,0 +1,1164 @@
+{
+ "slug": "tao-ch2-bigotry-trial",
+ "style": "trial (docs/style.md)",
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "hires": "4K HDR (HLG) WebM, window 996-1262 s via pipeline/fetch_hires.py; converted to SDR by common.HDR_TO_SDR"
+ },
+ "teaching": "Narrow-minded bigotry: when conventional conceptions are taken for objective facts, the mind closes and the person, the nation, the world degenerates; corporations like Boeing and Apple show it; our attitudes are conditioned by our environment, and whoever looks more holistically sees more clearly (Tao Te Ching, Chapter 2, Cleary's note).",
+ "transcript_note": "The user's finalised transcript, excerpts 1-11 in this order. Pauses trimmed inside excerpts 5 and 6, and 'with regard to being it' (17:13.3-17:14.6) dropped, as the transcript's ellipsis shows.",
+ "caption_y": 0.83,
+ "segments": [
+  [
+   1038.62,
+   1053.54
+  ],
+  [
+   1105.84,
+   1110.0
+  ],
+  [
+   1092.4,
+   1105.3
+  ],
+  [
+   1110.74,
+   1132.7
+  ],
+  [
+   1072.95,
+   1078.85
+  ],
+  [
+   1080.55,
+   1090.4
+  ],
+  [
+   1002.5,
+   1004.7
+  ],
+  [
+   1005.1,
+   1009.55
+  ],
+  [
+   1010.35,
+   1013.0
+  ],
+  [
+   1015.3,
+   1017.66
+  ],
+  [
+   1018.95,
+   1028.95
+  ],
+  [
+   1029.4,
+   1034.85
+  ],
+  [
+   1133.05,
+   1136.95
+  ],
+  [
+   1188.9,
+   1219.28
+  ],
+  [
+   1220.76,
+   1223.5
+  ],
+  [
+   1225.68,
+   1246.28
+  ],
+  [
+   1252.88,
+   1256.3
+  ]
+ ],
+ "word_overrides": [
+  {
+   "from": 1225.0,
+   "to": 1226.3,
+   "words": [
+    [
+     "what",
+     1225.86,
+     1226.0
+    ],
+    [
+     "you",
+     1226.0,
+     1226.3
+    ]
+   ],
+   "why": "from the closed-mind Short on main: 'what you see' begins at 1225.86 (envelope)"
+  },
+  {
+   "from": 1243.6,
+   "to": 1246.3,
+   "words": [
+    [
+     "more",
+     1243.7,
+     1244.0
+    ],
+    [
+     "holistically",
+     1244.82,
+     1246.2
+    ]
+   ],
+   "why": "from the closed-mind Short on main (envelope)"
+  },
+  {
+   "from": 1219.2,
+   "to": 1222.1,
+   "words": [
+    [
+     "conditioned",
+     1220.82,
+     1221.42
+    ],
+    [
+     "and",
+     1221.45,
+     1221.7
+    ],
+    [
+     "determined",
+     1221.72,
+     1222.1
+    ]
+   ],
+   "why": "from the closed-mind Short on main: the false start before 'conditioned' (1219.3-1220.76) is cut"
+  },
+  {
+   "from": 1078.4,
+   "to": 1081.6,
+   "words": [
+    [
+     "that",
+     1081.3,
+     1081.85
+    ]
+   ],
+   "why": "envelope: the 2 s pause after 'knows' (1078.7-1080.8) is trimmed; 'that' is at 1081.3"
+  },
+  {
+   "from": 1004.6,
+   "to": 1005.9,
+   "words": [
+    [
+     "they",
+     1005.38,
+     1005.58
+    ],
+    [
+     "were",
+     1005.66,
+     1005.96
+    ]
+   ],
+   "why": "envelope: speech resumes at 1005.38 after 'frankly'"
+  },
+  {
+   "from": 1009.2,
+   "to": 1010.7,
+   "words": [
+    [
+     "with",
+     1010.58,
+     1010.72
+    ]
+   ],
+   "why": "envelope: 'with' follows the trimmed pause, at 1010.58"
+  },
+  {
+   "from": 1018.0,
+   "to": 1019.4,
+   "words": [
+    [
+     "was",
+     1019.16,
+     1019.42
+    ]
+   ],
+   "why": "envelope: 'was' at 1019.16 after the trimmed pause"
+  },
+  {
+   "from": 1028.7,
+   "to": 1030.0,
+   "words": [
+    [
+     "and",
+     1029.86,
+     1030.02
+    ]
+   ],
+   "why": "envelope: 'and everyone' begins at 1029.86"
+  }
+ ],
+ "word_fixes": [
+  {
+   "near": 1252.76,
+   "from": "can",
+   "to": "can",
+   "s": 1252.96
+  }
+ ],
+ "phrases": [
+  "When it is | *forgotten",
+  "that conventional | conceptions",
+  "are *conventional | conceptions,",
+  "and they are | taken for",
+  "*objective | facts",
+  "that everyone | knows",
+  "and no one | *questions,",
+  "then narrow-minded | *bigotry",
+  "and blind | *prejudice",
+  "can develop | unopposed.",
+  "So, you can be | *bigoted",
+  "on the right,",
+  "you can be | bigoted",
+  "on the *left,",
+  "and you can | be bigoted",
+  "in the *center.",
+  "That *arrogance,",
+  "that *prejudice,",
+  "that bias, | and *bigotry",
+  "means having | a closed mind ~to, ~I ~mean,",
+  "it also | means whatever",
+  "you think,",
+  "exactly what | you think",
+  "it means,",
+  "but it | also means",
+  "just having | a *closed mind.",
+  "Because what | it means",
+  "is you're not | *open",
+  "to new ways | of thinking",
+  "or *conceptions.",
+  "And so when | people get",
+  "*locked into | one fixed way",
+  "of conceptualizing | things.",
+  "Then the *person,",
+  "the *nation,",
+  "the world | starts to",
+  "*degenerate",
+  "because we're | locked into",
+  "one way of | conceiving things.",
+  "So, instead of | talking about",
+  "a nation,",
+  "let's talk about | a *corporation.",
+  "If a corporation | knows",
+  "that they're *good,",
+  "knows that | they're the *best,",
+  "knows that | their designs",
+  "are the best | *designs",
+  "like *Boeing,",
+  "that's not good.",
+  "If you look | at *Apple,",
+  "frankly,",
+  "they were | so *sure",
+  "that they knew | everything",
+  "with regard | to *design,",
+  "with regard | to *manufacture.",
+  "And now,",
+  "when was | the last time",
+  "you saw anything | really *innovative",
+  "come out of Apple?",
+  "Now it may | *change",
+  "out of necessity,",
+  "but it's been | years and years",
+  "and years",
+  "because everyone | knows they're good",
+  "and everyone | knows they're *beautiful",
+  "and no one | *questions it.",
+  "But something's | going to *change.",
+  "Just watch | and see.",
+  "And what | we need",
+  "is something | from the *outside,",
+  "some *creativity | from the outside.",
+  "So, in my | grandfather's time,",
+  "*smoking was | thought to be",
+  "good for you.",
+  "Before my | grandfather's time,",
+  "if you didn't | *spank",
+  "your child,",
+  "something was | wrong",
+  "with you.",
+  "Now these two | attitudes",
+  "have *changed,",
+  "and attitudes | that came",
+  "thereafter | also have changed.",
+  "And the | attitudes",
+  "we have now",
+  "will also | *change.",
+  "So if you | get *locked",
+  "into one way | of looking",
+  "at things,",
+  "and you don't | *realize",
+  "that your | attitudes,",
+  "your whole way | of looking",
+  "at the *world",
+  "is totally | *conditioned",
+  "and determined | by your",
+  "*environment,",
+  "what you see | on *Instagram,",
+  "what you see | on TV,",
+  "what you see | on *TikTok",
+  "and X,",
+  "and what books | you've read",
+  "and what movies | you've seen.",
+  "See, we look | at a very",
+  "*tiny, tiny, | tiny little",
+  "slice of | the world,",
+  "and we call | it the world,",
+  "and that's | a *mistake.",
+  "So | anybody",
+  "who can get | out of that",
+  "and look more | *holistically",
+  "can do | better",
+  "because they | can see",
+  "more *clearly."
+ ],
+ "cuts": [
+  {
+   "at": 0,
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "are conventional",
+    "after": 3
+   },
+   "collage": "conventions",
+   "note": "conventional conceptions taken for objective facts that everyone knows"
+  },
+  {
+   "at": {
+    "phrase": "then narrow-minded",
+    "after": 10
+   },
+   "image": {
+    "acc": "met_60194",
+    "x0": 0.27,
+    "y0": 0.0,
+    "h": 1.0,
+    "zoom": [
+     1.0,
+     1.04
+    ],
+    "note": "blind men and the elephant: narrow-minded bigotry and blind prejudice"
+   }
+  },
+  {
+   "at": {
+    "phrase": "So, you can be",
+    "after": 14
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "That arrogance",
+    "after": 19
+   },
+   "image": {
+    "acc": "cma_1972.158",
+    "x0": 0.06,
+    "y0": 0.03,
+    "h": 0.95,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Nio guardian: arrogance, prejudice, bias"
+   }
+  },
+  {
+   "at": {
+    "phrase": "it also means",
+    "after": 26
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "Because what",
+    "after": 31
+   },
+   "collage": "closed",
+   "note": "not open to new ways of thinking, locked into one fixed way"
+  },
+  {
+   "at": {
+    "phrase": "Then the person",
+    "after": 42
+   },
+   "image": {
+    "acc": "met_853224",
+    "x0": 0.24,
+    "y0": 0.0,
+    "h": 1.0,
+    "pan": 120,
+    "zoom": [
+     1.0,
+     1.0
+    ],
+    "note": "night parade of demons: the person, the nation, the world degenerate"
+   }
+  },
+  {
+   "at": {
+    "phrase": "because we're locked",
+    "after": 50
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "If a corporation",
+    "after": 57
+   },
+   "collage": "boeing",
+   "note": "knows they're good, the best, the best designs, like Boeing"
+  },
+  {
+   "at": {
+    "phrase": "If you look",
+    "after": 69
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "that they knew",
+    "after": 73
+   },
+   "collage": "apple",
+   "note": "knew everything about design and manufacture"
+  },
+  {
+   "at": {
+    "phrase": "And now",
+    "after": 79
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "because everyone knows",
+    "after": 89
+   },
+   "image": {
+    "acc": "met_51135",
+    "x0": 0.02,
+    "y0": 0.08,
+    "h": 0.7,
+    "zoom": [
+     1.0,
+     1.04
+    ],
+    "note": "beauty admiring herself in a mirror: everyone knows they're beautiful"
+   }
+  },
+  {
+   "at": {
+    "phrase": "But something's",
+    "after": 94
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "is something from",
+    "after": 97
+   },
+   "image": {
+    "acc": "artic_24645",
+    "x0": 0.12,
+    "y0": 0.0,
+    "h": 1.0,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "the Great Wave: something from the outside"
+   }
+  },
+  {
+   "at": {
+    "phrase": "So, in my",
+    "after": 100
+   },
+   "image": {
+    "acc": "artic_8185",
+    "x0": 0.25,
+    "y0": 0.05,
+    "h": 0.65,
+    "zoom": [
+     1.0,
+     1.04
+    ],
+    "note": "woman exhaling pipe smoke: smoking was thought to be good for you"
+   }
+  },
+  {
+   "at": {
+    "phrase": "Before my",
+    "after": 106
+   },
+   "image": {
+    "acc": "met_54860",
+    "x0": 0.2,
+    "y0": 0.35,
+    "h": 0.62,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Kintaro, a mischievous child, held by Yamauba: if you didn't spank your child"
+   }
+  },
+  {
+   "at": {
+    "phrase": "Now these two",
+    "after": 112
+   },
+   "collage": "seasons",
+   "note": "attitudes have changed, also changed, will also change: the four seasons"
+  },
+  {
+   "at": {
+    "phrase": "So if you get",
+    "after": 122
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "is totally",
+    "after": 129
+   },
+   "collage": "media",
+   "note": "conditioned by your environment: Instagram, TV, TikTok, books, movies"
+  },
+  {
+   "at": {
+    "phrase": "See, we look",
+    "after": 142
+   },
+   "image": {
+    "acc": "met_36539",
+    "x0": 0.15,
+    "y0": 0.12,
+    "h": 0.66,
+    "zoom": [
+     1.0,
+     1.04
+    ],
+    "note": "a cat at a barred window: a tiny slice of the world"
+   }
+  },
+  {
+   "at": {
+    "phrase": "So anybody",
+    "after": 149
+   },
+   "head": true
+  },
+  {
+   "at": {
+    "phrase": "can do",
+    "after": 154
+   },
+   "image": {
+    "acc": "met_36490",
+    "x0": 0.42,
+    "y0": 0.0,
+    "h": 1.0,
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "note": "Hokusai, South Wind, Clear Sky (Red Fuji): see more clearly"
+   }
+  }
+ ],
+ "collages": {
+  "conventions": {
+   "ground": {
+    "color": [
+     20,
+     18,
+     16
+    ],
+    "image": {
+     "id": "met_64029",
+     "box": [
+      0.1,
+      0.1,
+      0.9,
+      0.9
+     ],
+     "opacity": 0.09
+    }
+   },
+   "pieces": [
+    {
+     "id": "met_64029",
+     "box": [
+      0.22,
+      0.16,
+      0.78,
+      0.52
+     ],
+     "bw": true,
+     "x": 0.47,
+     "y": 0.25,
+     "w": 0.74,
+     "rot": -2.5,
+     "at": 0.0,
+     "enter": "up"
+    },
+    {
+     "shape": "disc",
+     "color": [
+      176,
+      46,
+      36
+     ],
+     "x": 0.84,
+     "y": 0.09,
+     "w": 0.3,
+     "at": 0.3,
+     "enter": "settle",
+     "z": -1
+    },
+    {
+     "id": "met_61650",
+     "cut": true,
+     "bw": true,
+     "x": 0.7,
+     "y": 0.6,
+     "w": 0.44,
+     "rot": -8,
+     "at": {
+      "word": "objective",
+      "after": 6
+     },
+     "enter": "right"
+    },
+    {
+     "id": "met_45626",
+     "box": [
+      0.12,
+      0.12,
+      0.88,
+      0.62
+     ],
+     "x": 0.3,
+     "y": 0.62,
+     "w": 0.48,
+     "rot": 4,
+     "at": {
+      "word": "everyone",
+      "after": 8
+     },
+     "enter": "left"
+    }
+   ]
+  },
+  "closed": {
+   "ground": {
+    "color": [
+     18,
+     17,
+     16
+    ]
+   },
+   "pieces": [
+    {
+     "shape": "disc",
+     "color": [
+      176,
+      46,
+      36
+     ],
+     "x": 0.5,
+     "y": 0.3,
+     "w": 0.56,
+     "at": 0.0,
+     "enter": "settle",
+     "z": -1
+    },
+    {
+     "id": "met_924663",
+     "cut": true,
+     "bw": true,
+     "box": [
+      0.1,
+      0.05,
+      0.9,
+      0.78
+     ],
+     "x": 0.5,
+     "y": 0.36,
+     "w": 0.56,
+     "at": 0.3,
+     "enter": "settle"
+    },
+    {
+     "id": "met_56940",
+     "box": [
+      0.05,
+      0.28,
+      0.95,
+      0.55
+     ],
+     "x": 0.18,
+     "y": 0.13,
+     "w": 0.4,
+     "rot": -8,
+     "at": {
+      "word": "new",
+      "after": 33
+     },
+     "enter": "left"
+    },
+    {
+     "id": "met_51742",
+     "box": [
+      0.25,
+      0.15,
+      0.75,
+      0.6
+     ],
+     "x": 0.84,
+     "y": 0.56,
+     "w": 0.36,
+     "rot": 7,
+     "at": {
+      "word": "thinking",
+      "after": 34
+     },
+     "enter": "right"
+    },
+    {
+     "id": "met_205435",
+     "cut": true,
+     "box": [
+      0.12,
+      0.06,
+      0.88,
+      0.76
+     ],
+     "x": 0.5,
+     "y": 0.645,
+     "w": 0.44,
+     "rot": -3,
+     "at": {
+      "word": "locked",
+      "after": 38
+     },
+     "enter": "down"
+    },
+    {
+     "id": "met_64029",
+     "box": [
+      0.2,
+      0.3,
+      0.8,
+      0.4
+     ],
+     "bw": true,
+     "x": 0.5,
+     "y": 0.73,
+     "w": 0.92,
+     "rot": 1.5,
+     "at": {
+      "word": "conceptualizing",
+      "after": 39
+     },
+     "enter": "up",
+     "z": 1.5
+    }
+   ]
+  },
+  "boeing": {
+   "ground": {
+    "color": [
+     20,
+     18,
+     16
+    ]
+   },
+   "pieces": [
+    {
+     "shape": "disc",
+     "color": [
+      198,
+      160,
+      74
+     ],
+     "x": 0.76,
+     "y": 0.13,
+     "w": 0.32,
+     "at": 0.0,
+     "enter": "settle",
+     "z": -1
+    },
+    {
+     "id": "met_49003",
+     "box": [
+      0.06,
+      0.36,
+      0.62,
+      0.86
+     ],
+     "x": 0.4,
+     "y": 0.3,
+     "w": 0.66,
+     "rot": -3,
+     "at": 0.2,
+     "enter": "up"
+    },
+    {
+     "id": "met_75858",
+     "box": [
+      0.02,
+      0.05,
+      0.48,
+      0.95
+     ],
+     "bw": true,
+     "x": 0.68,
+     "y": 0.58,
+     "w": 0.52,
+     "rot": 5,
+     "at": {
+      "word": "designs",
+      "after": 63
+     },
+     "enter": "right"
+    },
+    {
+     "shape": "plane",
+     "id": "met_75858",
+     "box": [
+      0.52,
+      0.05,
+      0.98,
+      0.95
+     ],
+     "x": 0.34,
+     "y": 0.6,
+     "w": 0.42,
+     "rot": -24,
+     "at": {
+      "word": "Boeing",
+      "after": 66
+     },
+     "enter": "left"
+    }
+   ]
+  },
+  "apple": {
+   "ground": {
+    "color": [
+     20,
+     18,
+     16
+    ]
+   },
+   "pieces": [
+    {
+     "shape": "disc",
+     "color": [
+      198,
+      160,
+      74
+     ],
+     "x": 0.5,
+     "y": 0.27,
+     "w": 0.58,
+     "at": 0.0,
+     "enter": "settle",
+     "z": -1
+    },
+    {
+     "id": "met_912004",
+     "x": 0.5,
+     "y": 0.31,
+     "w": 0.78,
+     "at": 0.15,
+     "enter": "settle",
+     "box": [
+      0.06,
+      0.04,
+      0.94,
+      0.96
+     ],
+     "rot": -2
+    },
+    {
+     "id": "met_75858",
+     "box": [
+      0.05,
+      0.1,
+      0.45,
+      0.9
+     ],
+     "bw": true,
+     "x": 0.27,
+     "y": 0.62,
+     "w": 0.42,
+     "rot": -6,
+     "at": {
+      "word": "design",
+      "after": 75
+     },
+     "enter": "left"
+    },
+    {
+     "id": "met_75858",
+     "box": [
+      0.55,
+      0.1,
+      0.95,
+      0.9
+     ],
+     "bw": true,
+     "x": 0.73,
+     "y": 0.63,
+     "w": 0.42,
+     "rot": 5,
+     "at": {
+      "word": "manufacture",
+      "after": 77
+     },
+     "enter": "right"
+    }
+   ]
+  },
+  "seasons": {
+   "ground": {
+    "color": [
+     20,
+     18,
+     16
+    ]
+   },
+   "pieces": [
+    {
+     "id": "met_56940",
+     "box": [
+      0.05,
+      0.3,
+      0.95,
+      0.72
+     ],
+     "x": 0.3,
+     "y": 0.2,
+     "w": 0.5,
+     "rot": -4,
+     "at": 0.0,
+     "enter": "left"
+    },
+    {
+     "id": "met_51742",
+     "box": [
+      0.2,
+      0.1,
+      0.8,
+      0.7
+     ],
+     "x": 0.71,
+     "y": 0.27,
+     "w": 0.5,
+     "rot": 5,
+     "at": {
+      "word": "changed",
+      "after": 113
+     },
+     "enter": "right"
+    },
+    {
+     "id": "artic_20827",
+     "box": [
+      0.05,
+      0.05,
+      0.95,
+      0.6
+     ],
+     "x": 0.32,
+     "y": 0.5,
+     "w": 0.52,
+     "rot": 3,
+     "at": {
+      "word": "thereafter",
+      "after": 116
+     },
+     "enter": "left"
+    },
+    {
+     "id": "met_56915",
+     "box": [
+      0.1,
+      0.15,
+      0.9,
+      0.85
+     ],
+     "x": 0.67,
+     "y": 0.62,
+     "w": 0.58,
+     "rot": -3,
+     "at": {
+      "word": "will",
+      "after": 120
+     },
+     "enter": "right"
+    }
+   ]
+  },
+  "media": {
+   "ground": {
+    "color": [
+     18,
+     17,
+     16
+    ],
+    "image": {
+     "id": "met_45499",
+     "box": [
+      0.3,
+      0.15,
+      0.9,
+      0.85
+     ],
+     "opacity": 0.14
+    }
+   },
+   "pieces": [
+    {
+     "id": "met_924663",
+     "cut": true,
+     "bw": true,
+     "box": [
+      0.1,
+      0.05,
+      0.9,
+      0.78
+     ],
+     "x": 0.5,
+     "y": 0.44,
+     "w": 0.5,
+     "at": 0.0,
+     "enter": "settle"
+    },
+    {
+     "shape": "phone",
+     "id": "met_51135",
+     "box": [
+      0.15,
+      0.05,
+      0.75,
+      0.6
+     ],
+     "x": 0.21,
+     "y": 0.2,
+     "w": 0.3,
+     "rot": -8,
+     "at": {
+      "word": "Instagram",
+      "after": 133
+     },
+     "enter": "left"
+    },
+    {
+     "shape": "tv",
+     "id": "met_37358",
+     "box": [
+      0.08,
+      0.04,
+      0.92,
+      0.62
+     ],
+     "x": 0.76,
+     "y": 0.18,
+     "w": 0.42,
+     "rot": 5,
+     "at": {
+      "word": "TV",
+      "after": 136
+     },
+     "enter": "right"
+    },
+    {
+     "shape": "phone",
+     "id": "met_54860",
+     "box": [
+      0.2,
+      0.45,
+      0.8,
+      0.95
+     ],
+     "x": 0.82,
+     "y": 0.52,
+     "w": 0.26,
+     "rot": 8,
+     "at": {
+      "word": "TikTok",
+      "after": 137
+     },
+     "enter": "right"
+    },
+    {
+     "id": "met_75858",
+     "box": [
+      0.5,
+      0.05,
+      0.98,
+      0.95
+     ],
+     "bw": true,
+     "x": 0.2,
+     "y": 0.58,
+     "w": 0.36,
+     "rot": -5,
+     "at": {
+      "word": "books",
+      "after": 139
+     },
+     "enter": "left"
+    },
+    {
+     "shape": "film",
+     "id": "met_56915",
+     "box": [
+      0.25,
+      0.1,
+      0.75,
+      0.9
+     ],
+     "x": 0.52,
+     "y": 0.7,
+     "w": 0.18,
+     "rot": 84,
+     "at": {
+      "word": "movies",
+      "after": 141
+     },
+     "enter": "up"
+    }
+   ]
+  }
+ },
+ "endcard": {
+  "dur": 4.0
+ }
+}

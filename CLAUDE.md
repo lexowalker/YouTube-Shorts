@@ -8,7 +8,11 @@ The user is writing a new set of style rules from scratch. The old house style m
 
 - Don't read, copy or borrow from the old style docs, skills, reference Shorts, fonts or render pipeline. That means `main`, other branches and git history (`docs/style-guide.md`, `docs/reading-style.md`, `.claude/skills/`, `shorts/`, `pipeline/render.py` and so on). They were removed from this branch on purpose.
 - Don't fill gaps with old defaults: fonts, colours, caption treatment, imagery sources, end cards, thumbnails, audio treatment, length, title format. If the new rules don't cover something, ask the user. Don't guess from memory of the old look.
-- The only things carried over are facts about the material (below) and the release-schedule tooling. Neither one is a style rule.
+- Carried over on purpose:
+  - The user chose to keep the **subtitles** and the **end card** of the teaching Shorts on `main`. They are in `pipeline/render.py` (`Captions`, `build_endcard`) with the EB Garamond fonts in `assets/fonts/`.
+  - Neutral plumbing: fetching the source and the 4K window, transcription, word timing, audio cutting, face-centred crop and encode.
+  - Facts about the material (below) and the release-schedule tooling.
+- Nothing else from the old style carries over, for example the warm paper grade on images, museum-only sourcing or the old image rules.
 
 ## Where the new style lives
 
