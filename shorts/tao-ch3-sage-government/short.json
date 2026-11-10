@@ -1,0 +1,258 @@
+{
+ "slug": "tao-ch3-sage-government",
+ "segments": [
+  [
+   1415.1,
+   1430.1
+  ],
+  [
+   1669.82,
+   1678.12
+  ],
+  [
+   1718.9,
+   1732.42
+  ],
+  [
+   1736.98,
+   1743.2
+  ],
+  [
+   1745.25,
+   1764.0
+  ],
+  [
+   1804.08,
+   1807.55
+  ],
+  [
+   1809.36,
+   1821.95
+  ],
+  [
+   1823.66,
+   1825.86
+  ],
+  [
+   1828.68,
+   1830.62
+  ],
+  [
+   1842.7,
+   1850.35
+  ],
+  [
+   1853.4,
+   1855.2
+  ],
+  [
+   1856.95,
+   1858.5
+  ],
+  [
+   1860.01,
+   1861.8
+  ],
+  [
+   1896.6,
+   1913.3
+  ],
+  [
+   1914.08,
+   1915.9
+  ],
+  [
+   1937.4,
+   1939.12
+  ],
+  [
+   1940.42,
+   1942.2
+  ],
+  [
+   1945.2,
+   1949.2
+  ],
+  [
+   1950.04,
+   1956.62
+  ],
+  [
+   1957.33,
+   1958.1
+  ],
+  [
+   1958.97,
+   1959.31
+  ],
+  [
+   1962.85,
+   1963.85
+  ],
+  [
+   1965.8,
+   1967.2
+  ],
+  [
+   1968.1,
+   1974.6
+  ],
+  [
+   2059.8,
+   2060.35
+  ],
+  [
+   2066.64,
+   2073.75
+  ]
+ ],
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "youtube": "https://youtu.be/2y4Ih26q-P4",
+  "hires": "the item's 3840x2160 HLG WebM, window 1408-2082 s (pipeline/fetch_hires.py)"
+ },
+ "teaching": "A government of sages empties the mind and fills the middle, weakens ambition and keeps the people innocent and passionless; ours does the opposite, ruling by cleverness, fear and manipulation, and so hurts its own people (Tao Te Ching, Chapter 3).",
+ "caption_y": 0.83,
+ "word_overrides": [
+  {
+   "from": 14.9,
+   "to": 17.6,
+   "words": [
+    [
+     "Can",
+     15.28,
+     15.7
+    ],
+    [
+     "you",
+     15.8,
+     16.2
+    ],
+    [
+     "imagine",
+     16.38,
+     16.7
+    ],
+    [
+     "if",
+     16.72,
+     17.1
+    ],
+    [
+     "we",
+     17.95,
+     18.1
+    ]
+   ],
+   "why": "medium.en dropped 'Can you imagine'; large-v3 and the source pass hear it (source 1670.10, 1670.62, 1671.20, 1671.54; 'we' 1672.82)"
+  }
+ ],
+ "word_fixes": [
+  {
+   "near": 20.34,
+   "from": "cloud",
+   "to": "clown"
+  },
+  {
+   "near": 61.42,
+   "from": "work.",
+   "to": "worse."
+  }
+ ],
+ "phrases": [
+  "“Therefore the | *government of sages",
+  "empties the *mind | and fills the middle,",
+  "weakens the | *ambition",
+  "and strengthens | the *bones,",
+  "always keeping | the people",
+  "*innocent | and passionless.”",
+  "Can you | *imagine",
+  "if we had *sages | running the government",
+  "instead of the | *clown show",
+  "that we have | of these *politicians?",
+  "They wouldn't be | all full of *cleverness.",
+  "They wouldn't be | all full of, ~you ~know,",
+  "“Oh, we're going to | use this *psyop.",
+  "Oh, we're going to use | this *manipulation",
+  "of the voter.",
+  "Oh, we're going to | *scare them with this.",
+  "We're going to | *entice them with this.",
+  "We're going to scare | the *hell out of them",
+  "that the | *opposing party",
+  "is going to | *destroy the country.”",
+  "All of this | *non-sage-like behavior,",
+  "because when | you do that,",
+  "you *hurt | your own people.",
+  "And that's | what's *happening.",
+  "We've hurt | our *own people.",
+  "Our *government | is hurting us",
+  "by incessant | *lying",
+  "and psychological | *operations",
+  "that are designed | to inculcate",
+  "*fear or hatred | or worse.",
+  "It “weakens | the *ambition",
+  "and strengthens | the *bones.”",
+  "~So If your country | is just full of",
+  "*ambitious people,",
+  "there's *nobody | to run anything",
+  "because everybody's | too busy",
+  "trying to figure out | a way to *get ahead.",
+  "So ideally, | you'd want government",
+  "where people | were *not ambitious.",
+  "They didn't | go in there",
+  "to *compete | with each other",
+  "as to who | could get",
+  "the highest | *net worth",
+  "or *position.",
+  "“Always keeping | the people",
+  "*innocent | and passionless,”",
+  "which is kind of | the *opposite",
+  "of what we're | doing now.",
+  "What we're | doing now",
+  "is making the people | *afraid and angry",
+  "and putting | each other",
+  "at each other's | *throats,",
+  "which is | *ridiculous.",
+  "You don't want | to *foment emotion",
+  "in your people.",
+  "You want them | to be *chill.",
+  "You want them | to *live their lives.",
+  "That's the whole | *function of government,",
+  "is to create | an environment",
+  "where people | can *flourish",
+  "and do | their *work",
+  "and *contribute",
+  "and take | what they *need.",
+  "So we're a | *long way from that.",
+  "“It makes | the *sophisticated",
+  "not dare | to *contrive.",
+  "Action being | without *contrivance,",
+  "nothing | is *disordered.”",
+  "So in a situation | like this",
+  "where *benevolence | actually rules",
+  "in the land,",
+  "where there's | actually *goodwill,",
+  "where there's actually | *integrity and good faith",
+  "without | the *extremes,",
+  "then the | *sophisticated, ~you ~know,",
+  "clever people,",
+  "they don't dare | to *contrive",
+  "because they know | that they're going",
+  "to get | *seen through.",
+  "This is a | *pillar of Taoism,",
+  "and that is to act | without *contrivance.",
+  "Just be | *straightforward,",
+  "direct."
+ ],
+ "scenes": [
+  {
+   "at": 0,
+   "head": true
+  }
+ ],
+ "collages": {},
+ "endcard": {
+  "dur": 4.0
+ }
+}
