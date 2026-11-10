@@ -113,7 +113,7 @@
   "hires": "the item's 3840x2160 HLG WebM, window 1408-2082 s (pipeline/fetch_hires.py)"
  },
  "teaching": "A government of sages empties the mind and fills the middle, weakens ambition and keeps the people innocent and passionless; ours does the opposite, ruling by cleverness, fear and manipulation, and so hurts its own people (Tao Te Ching, Chapter 3).",
- "caption_y": 0.83,
+ "caption_y": 0.73,
  "word_overrides": [
   {
    "from": 14.9,
@@ -502,9 +502,9 @@
      "tone": "bw",
      "pos": [
       0.3,
-      0.17
+      0.145
      ],
-     "w": 0.58,
+     "w": 0.51,
      "rot": -6,
      "at": -0.45,
      "from": "left",
@@ -521,9 +521,9 @@
      "tone": "bw",
      "pos": [
       0.62,
-      0.265
+      0.225
      ],
-     "w": 0.7,
+     "w": 0.616,
      "rot": 3,
      "at": {
       "word": "cleverness.",
@@ -542,9 +542,9 @@
      "tone": "bw",
      "pos": [
       0.27,
-      0.545
+      0.463
      ],
-     "w": 0.48,
+     "w": 0.422,
      "rot": -3,
      "at": {
       "word": "psyop,",
@@ -557,10 +557,10 @@
      "color": "#A8322A",
      "pos": [
       0.74,
-      0.585
+      0.497
      ],
-     "w": 0.5,
-     "h": 0.17,
+     "w": 0.44,
+     "h": 0.15,
      "rot": -7,
      "at": {
       "word": "scare",
@@ -581,9 +581,9 @@
      "tone": "color",
      "pos": [
       0.755,
-      0.56
+      0.476
      ],
-     "w": 0.44,
+     "w": 0.387,
      "rot": 5,
      "at": {
       "word": "scare",
@@ -604,9 +604,9 @@
      "tone": "color",
      "pos": [
       0.34,
-      0.685
+      0.582
      ],
-     "w": 0.54,
+     "w": 0.475,
      "rot": -2,
      "at": {
       "word": "entice",
@@ -629,9 +629,9 @@
      "tone": "bw",
      "pos": [
       0.34,
-      0.14
+      0.119
      ],
-     "w": 0.6,
+     "w": 0.528,
      "rot": -5,
      "at": -0.45,
      "from": "left",
@@ -648,9 +648,9 @@
      "tone": "color",
      "pos": [
       0.31,
-      0.37
+      0.315
      ],
-     "w": 0.52,
+     "w": 0.458,
      "rot": -3,
      "at": -0.3,
      "from": "left"
@@ -666,9 +666,9 @@
      "tone": "bw",
      "pos": [
       0.71,
-      0.3
+      0.255
      ],
-     "w": 0.5,
+     "w": 0.44,
      "rot": 4,
      "at": {
       "word": "compete",
@@ -681,9 +681,9 @@
      "color": "#D8A928",
      "pos": [
       0.22,
-      0.625
+      0.531
      ],
-     "w": 0.3,
+     "w": 0.264,
      "at": {
       "word": "net",
       "after": 79,
@@ -703,9 +703,9 @@
      "tone": "color",
      "pos": [
       0.36,
-      0.63
+      0.535
      ],
-     "w": 0.58,
+     "w": 0.51,
      "rot": -8,
      "at": {
       "word": "net",
@@ -725,9 +725,9 @@
      "tone": "color",
      "pos": [
       0.72,
-      0.6
+      0.51
      ],
-     "w": 0.46,
+     "w": 0.405,
      "rot": 3,
      "at": {
       "word": "position.",
@@ -744,9 +744,9 @@
      "color": "#C8452F",
      "pos": [
       0.72,
-      0.125
+      0.106
      ],
-     "w": 0.36,
+     "w": 0.317,
      "at": -0.45,
      "from": "down"
     },
@@ -761,9 +761,9 @@
      "tone": "color",
      "pos": [
       0.5,
-      0.29
+      0.246
      ],
-     "w": 0.9,
+     "w": 0.792,
      "rot": -1.5,
      "at": -0.35,
      "from": "down"
@@ -779,9 +779,9 @@
      "tone": "color",
      "pos": [
       0.26,
-      0.59
+      0.501
      ],
-     "w": 0.44,
+     "w": 0.387,
      "rot": -4,
      "at": {
       "word": "flourish",
@@ -800,9 +800,9 @@
      "tone": "bw",
      "pos": [
       0.68,
-      0.535
+      0.455
      ],
-     "w": 0.56,
+     "w": 0.493,
      "rot": 3,
      "at": {
       "word": "work",
@@ -821,9 +821,9 @@
      "tone": "color",
      "pos": [
       0.7,
-      0.675
+      0.574
      ],
-     "w": 0.46,
+     "w": 0.405,
      "rot": -3,
      "at": {
       "word": "contribute",

@@ -22,8 +22,8 @@ Spec (under "collages" in short.json):
       "thr": 28, "lw": 0.6}]}                 cutout only: colour distance from the backdrop that counts as object,
                                               and the weight of lightness in it (lower it to ignore a cast shadow)
 
-Rules the layout must keep (checked by eye on the draft sheet): nothing important below 72% of the height (the
-subtitles sit there), and no piece over a face in another piece. A scrap is a whole torn rectangle of its picture:
+Rules the layout must keep (checked by eye on the draft sheet): nothing below about 64% of the height (the
+subtitles sit at 73%, above YouTube's Shorts overlay, which covers everything below about 80%), and no piece over a face in another piece. A scrap is a whole torn rectangle of its picture:
 never a cut-out with holes.
 """
 import math
