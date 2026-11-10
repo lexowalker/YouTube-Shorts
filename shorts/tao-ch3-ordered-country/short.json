@@ -1,0 +1,173 @@
+{
+ "slug": "tao-ch3-ordered-country",
+ "segments": [
+  [
+   2107.05,
+   2111.2
+  ],
+  [
+   2132.5,
+   2133.5
+  ],
+  [
+   2134.0,
+   2157.7
+  ],
+  [
+   2174.74,
+   2184.1
+  ],
+  [
+   2188.15,
+   2206.3
+  ],
+  [
+   2209.5,
+   2223.85
+  ],
+  [
+   2226.25,
+   2266.5
+  ],
+  [
+   2268.2,
+   2274.75
+  ],
+  [
+   2275.85,
+   2277.25
+  ],
+  [
+   2278.6,
+   2302.62
+  ]
+ ],
+ "source": {
+  "archive_item": "arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "url": "https://archive.org/details/arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty",
+  "youtube": "https://youtu.be/2y4Ih26q-P4",
+  "hires": "the item's 3840x2160 HLG WebM, window 2100-2306 s (pipeline/fetch_hires.py)"
+ },
+ "teaching": "Sage rulers employ the intelligent without exalting them; an ordered government wants an ordered country, where a natural sanity arises if it isn't interfered with (Cleary's notes to Tao Te Ching, Chapter 3).",
+ "caption_y": 0.73,
+ "phrases": [
+  "“Not exalting | *cleverness",
+  "causes the people | not to *contend.”",
+  "“Here, *cleverness | is used in the sense",
+  "of *cunning | and craft,",
+  "such as sought by | *contending lords",
+  "hoping to learn | the ways",
+  "of *aggrandizing | themselves",
+  "and enlarging | their *holdings.”",
+  "Sound *familiar?",
+  "“Taoist philosophers | did not believe",
+  "that it was a | *good sign for society",
+  "when cunning | *intellectuals",
+  "were *competing | for the attention",
+  "of the rich | and *powerful.”",
+  "“*Su Che, | who is a statesman",
+  "as well as a | *poet and mystic,",
+  "presents | *another view",
+  "of this passage | and the following",
+  "passage that | it introduces.”",
+  "“It is not that | *sage rulers",
+  "don't employ | the *intelligent,",
+  "only that they | don't *exalt them.",
+  "They don't throw away | goods that are *hard to find,",
+  "they just don't put | *high prices on them.",
+  "They don't get rid of | whatever is *desirable,",
+  "they just | don't *see it.”",
+  "They just don't | pay *attention to it.",
+  "“Thus, the intelligent | are *employed,",
+  "but the people | don't *compete.",
+  "Rare goods and | *desirable things",
+  "are after all | in *plain view,",
+  "but theft, | *robbery,",
+  "and malicious | *disturbance",
+  "do not *rise.”",
+  "So, if you have | an *ordered government,",
+  "what they would | want to create",
+  "is an | *ordered country.",
+  "If you have | an ordered country,",
+  "there's a | *natural sanity",
+  "that if you | don't *interfere with it,",
+  "it just *arises.",
+  "And people don't go | *breaking into",
+  "each other's | cars and houses",
+  "and killing them | and *robbing them",
+  "and all that | other stuff.",
+  "There's a | *general sense that,",
+  "hey, that's not how | we do things *around here.",
+  "And it's | very clear",
+  "that even if | there is not",
+  "an economic or a | political *collapse,",
+  "even if there's not | geopolitical *catastrophe,",
+  "we're going to need | to *rebuild this country.",
+  "~You ~know, I've been in | *child welfare",
+  "and | *juvenile justice",
+  "for a very | *large chunk of my life,",
+  "probably | *half of it.",
+  "And things have just gone | completely *off the rails.",
+  "And so we | can't do that",
+  "with our | *own children,",
+  "because | if we do,",
+  "what we're going to | end up with is,",
+  "those are | the people",
+  "who are going to be | *taking care of us,",
+  "taking care | of *you.",
+  "So you've got to have | within your cohort",
+  "*sane people",
+  "that are | *willing to work",
+  "for the | *good of the people,",
+  "the *commonweal.",
+  "Or it's going to | come back and *bite you",
+  "sooner | or later."
+ ],
+ "scenes": [
+  {
+   "at": 0,
+   "head": true,
+   "note": "placeholder"
+  }
+ ],
+ "collages": {},
+ "endcard": {
+  "dur": 4.0
+ },
+ "word_overrides": [
+  {
+   "from": 17.0,
+   "to": 17.9,
+   "words": [
+    [
+     "Sound",
+     17.2,
+     17.44
+    ],
+    [
+     "familiar?",
+     17.44,
+     17.84
+    ]
+   ],
+   "why": "whisper gave both words one instant; the voice runs 17.20-17.84 on the envelope"
+  },
+  {
+   "from": 71.9,
+   "to": 76.27,
+   "words": [
+    [
+     "government,",
+     73.34,
+     73.82
+    ],
+    [
+     "what",
+     75.98,
+     76.27
+    ]
+   ],
+   "why": "he pauses before and after 'government' (voice 73.32-73.8); whisper stretched the words across the pauses"
+  }
+ ]
+}
