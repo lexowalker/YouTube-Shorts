@@ -38,12 +38,40 @@ MIN_SCENE = 3.0
 
 
 # ---------------------------------------------------------------- build
+def snap_after_pauses(words, env, quiet=-46.0, loud=-41.0, gap=0.18, reach=0.5):
+    """Whisper is loose (0.2-0.5 s) on the first word after a pause. Where the voice starts again after a real
+    silence, put the nearest word's onset exactly there, so the caption appears as he starts to speak."""
+    db, step = env.db, env.step
+    onsets, run = [], 0
+    for i, d in enumerate(db):
+        if d < quiet:
+            run += 1
+        elif d > loud:
+            if run * step >= gap:
+                onsets.append(i * step)
+            run = 0
+    for v in onsets:
+        k = min(range(len(words)), key=lambda j: abs(words[j]["s"] - v))
+        w = words[k]
+        if abs(w["s"] - v) > reach or abs(w["s"] - v) < 0.03:
+            continue
+        if k > 0 and words[k - 1]["s"] > v - 0.12:
+            continue  # another word already starts here
+        if k + 1 < len(words) and words[k + 1]["s"] < v + 0.05:
+            continue
+        w["s0"], w["s"] = w.get("s0", w["s"]), round(v, 3)
+        if k > 0 and words[k - 1]["e"] > v:
+            words[k - 1]["e"] = round(v, 3)
+    return words
+
+
 def build(slug):
     spec, wd = load_spec(slug), work_dir(slug)
     segs = [{"src_start": a, "src_end": b} for a, b in spec["segments"]]
     dur = sum(s["src_end"] - s["src_start"] for s in segs)
     words = load_words(os.path.join(wd, "words.json"), spec.get("word_fixes", []), spec.get("word_overrides", []))
-    words = refine_onsets(words, Env(os.path.join(wd, "prog16k.wav")))
+    env = Env(os.path.join(wd, "prog16k.wav"))
+    words = snap_after_pauses(refine_onsets(words, env), env)
     P = [dict(w, ps=w["s"], pe=min(w["e"], dur)) for w in words]
 
     caps, i = [], 0

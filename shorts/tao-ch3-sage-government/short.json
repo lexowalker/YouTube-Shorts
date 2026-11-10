@@ -19,7 +19,7 @@
   ],
   [
    1745.25,
-   1764.0
+   1764.51
   ],
   [
    1804.08,
@@ -146,6 +146,47 @@
     ]
    ],
    "why": "medium.en dropped 'Can you imagine'; large-v3 and the source pass hear it (source 1670.10, 1670.62, 1671.20, 1671.54; 'we' 1672.82)"
+  },
+  {
+   "from": 87.6,
+   "to": 88.1,
+   "words": [
+    [
+     "What",
+     87.51,
+     87.75
+    ],
+    [
+     "we're",
+     87.77,
+     88.0
+    ]
+   ],
+   "why": "this pass put 'What we're' 0.3 s late; the first medium.en pass and large-v3 agree on 87.51 / 87.77"
+  },
+  {
+   "from": 132.9,
+   "to": 133.1,
+   "words": [
+    [
+     "clever",
+     133.42,
+     133.64
+    ]
+   ],
+   "why": "'you know' (133.0-133.3, not captioned) comes before 'clever'; the first pass put it at 133.47"
+  },
+  {
+   "from": 62.4,
+   "to": 62.8,
+   "words": [
+    [
+     "It",
+     62.36,
+     62.6
+    ]
+   ],
+   "why": "segment 6 starts on 'It' (voice from 62.36, straight after the join)"
   }
  ],
  "word_fixes": [
@@ -153,11 +194,6 @@
    "near": 20.34,
    "from": "cloud",
    "to": "clown"
-  },
-  {
-   "near": 61.42,
-   "from": "work.",
-   "to": "worse."
   }
  ],
  "phrases": [
@@ -235,7 +271,7 @@
   "where there's | actually *goodwill,",
   "where there's actually | *integrity and good faith",
   "without | the *extremes,",
-  "then the | *sophisticated, ~you ~know,",
+  "then the | *sophisticated,",
   "clever people,",
   "they don't dare | to *contrive",
   "because they know | that they're going",
@@ -366,7 +402,7 @@
   {
    "at": {
     "word": "What",
-    "after": 86.8
+    "after": 87.2
    },
    "image": {
     "key": "met-55543",

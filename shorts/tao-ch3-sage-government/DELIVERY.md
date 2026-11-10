@@ -1,6 +1,6 @@
 # What if sages ran the government? Tao Te Ching, Chapter 3 (Discussion 1)
 
-**File:** `tao-ch3-sage-government.mp4`, 1080×1920 (9:16), 30 fps, H.264 at about 8 Mbps, AAC 48 kHz. Runs 2:29: 2:25 of speech and a 4 s end card.
+**File:** `tao-ch3-sage-government.mp4`, 1080×1920 (9:16), 30 fps, H.264 at about 8 Mbps, AAC 48 kHz. Runs 2:30: 2:26 of speech and a 4 s end card.
 **Source:** *Tao Te Ching Chaps. 2 & 3: When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3/28/24* (https://youtu.be/2y4Ih26q-P4, archive.org `arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty`), 23:35–34:34. Head shots are cut from the item's 4K HDR WebM.
 **Release slot:** Chapter 3, Discussion 1 (Mon 9 Nov 2026 in `docs/release-schedule.xlsx`).
 **Style:** the user's brief of 10 Nov 2026: talking head, museum images keyed to the words, three built-up collages, house captions and end card. Built with `pipeline/prog.py`, `head.py`, `scenes.py`, `collage.py`, `hdr.py`, `museum.py`.
@@ -16,7 +16,7 @@ What If Sages Ran the Government?
 
 Differences from the approved proposal, all forced by what he actually says:
 - Line 2 ends "…that we have of these politicians": there is no pause after "have" to cut in.
-- "Or worse" stays after "fear or hatred": he runs the words together.
+- "Or worse" stays after "fear or hatred": he runs the words together. The clip runs to 29:24.51 so the "s" of "worse" finishes (the first cut ended at 29:24.00 and clipped it).
 - The close is "This is a pillar of Taoism": "a big construct or feature or" is cut.
 - Pauses, restarts and stutters are trimmed ("at our, at our, at our", "and, and, uh", "Right? So all,"). A few small ones stay in the sound and are left off the captions ("you know", "the, the", "is, is to, to").
 
@@ -106,7 +106,7 @@ All public domain / CC0 from The Met, the Art Institute of Chicago and the Cleve
 | 2:17.4 | image | Paintings after Ancient Masters: Laozi Riding an Ox | Chen Hongshou (Chinese, 1598/99–1652) | 1598–1652 | CC0 (Cleveland Museum of Art Open Access) | https://clevelandart.org/art/1979.27.1.2 |
 
 ## 7. Notes
-- **Colour:** the 4K file is HLG HDR. `pipeline/hdr.py` converts it to SDR (inverse OETF, OOTF, BT.2020 to BT.709, soft highlight shoulder); no saturation boost.
+- **Colour:** the 4K file is HLG HDR. `pipeline/hdr.py` converts it to SDR (inverse OETF, OOTF, BT.2020 to BT.709, soft highlight shoulder), then renders it for an SDR screen with added contrast and colourfulness. The second step was added after the user found the first cut pale and faded.
 - **Head framing:** the same full-height 9:16 crop everywhere, centred on his face. It is the widest framing the source allows, so he looks closer when he leans in to read.
 - **Reading close-ups** ("It weakens the ambition…", "It makes the sophisticated…") are under images, because there his beard fills the caption area.
 - **Collages:** dark ground, torn scraps with paper edges, black-and-white and colour mixed, pieces arriving on their words; nothing below 74% of the height; no piece over a face.
