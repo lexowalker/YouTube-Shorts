@@ -58,6 +58,10 @@ def main():
     hd = os.path.join(wd, "head")
     os.makedirs(hd, exist_ok=True)
     grade = (hdr.ffmpeg_filter(hdr.make_lut(os.path.join(wd, "hlg_to_sdr.cube"))) + ",") if hdr.is_hdr(src) else ""
+    pix = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=pix_fmt",
+                          "-of", "default=nw=1:nk=1", src], capture_output=True, text=True).stdout
+    assert grade or "10" not in pix, "10-bit source but no HDR conversion: check hdr.is_hdr"
+    print("HDR source: converting to SDR with pipeline/hdr.py" if grade else "SDR source: no colour conversion")
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "13", "-g", "1", "-pix_fmt", "yuv420p",
            "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709"]
     tracks = face_tracks(a.slug, spec, hinfo, cw)
@@ -67,7 +71,7 @@ def main():
         f0, f1 = round(p * FPS), round((p + e - s) * FPS)
         p += e - s
         lefts = np.interp(s + np.arange(f1 - f0) / FPS, tt, left)
-        key = hashlib.md5(f"{s:.3f}-{e:.3f}-{f1 - f0}-{hdr.LREF}-{hdr.KNEE}-{hdr.WMAX}-{hdr.CON}-{hdr.SAT}-{hdr.PIVOT}-{np.round(lefts).tobytes().hex()[:4000]}".encode()).hexdigest()[:10]
+        key = hashlib.md5(f"v2-{bool(grade)}-{s:.3f}-{e:.3f}-{f1 - f0}-{hdr.LREF}-{hdr.KNEE}-{hdr.WMAX}-{hdr.CON}-{hdr.SAT}-{hdr.PIVOT}-{np.round(lefts).tobytes().hex()[:4000]}".encode()).hexdigest()[:10]
         jobs.append((s, e, f1 - f0, os.path.join(hd, f"{key}.mp4"), lefts, moving))
 
     def run(j):
@@ -78,7 +82,7 @@ def main():
         inp = ["ffmpeg", "-v", "error", "-y", "-ss", f"{s - t0:.4f}", "-i", src, "-t", f"{e - s + 0.5:.3f}", "-an"]
         if not moving:
             x = int(round(lefts[0])) // 2 * 2
-            vf = f"crop={cw}:{sh}:{x}:0,{grade}scale={W}:{H}:flags=lanczos,fps={FPS},tpad=stop_mode=clone:stop_duration=1"
+            vf = f"crop={cw}:{sh}:{x}:0,{grade}scale={W}:{H}:flags=lanczos,fps={FPS},tpad=stop_mode=clone:stop_duration=1,format=yuv420p"
             subprocess.run(inp + ["-vf", vf, "-frames:v", str(n)] + enc + [tmp], check=True)
         else:
             import cv2
@@ -87,7 +91,7 @@ def main():
             vf = f"crop={bw}:{sh}:{bx0}:0,{grade}fps={FPS},tpad=stop_mode=clone:stop_duration=1"
             dec = subprocess.Popen(inp + ["-vf", vf, "-frames:v", str(n), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
             out_p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-                                      "-i", "-"] + enc + [tmp], stdin=subprocess.PIPE)
+                                      "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p"] + enc + [tmp], stdin=subprocess.PIPE)
             for k in range(n):
                 buf = dec.stdout.read(bw * sh * 3)
                 if len(buf) < bw * sh * 3:

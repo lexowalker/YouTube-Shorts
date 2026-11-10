@@ -57,11 +57,13 @@ def make_lut(path, n=65):
 
 # ffmpeg filters: limited-range BT.2020 Y'CbCr -> full-range R'G'B' (still HLG), then the LUT
 def ffmpeg_filter(lut):
-    return f"zscale=min=2020_ncl:rin=tv:m=gbr:r=pc,format=gbrp16le,lut3d=file={lut}:interp=tetrahedral"
+    return f"zscale=min=2020_ncl:rin=tv:m=gbr:r=pc,format=gbrp16le,lut3d=file={lut}:interp=tetrahedral,scale=out_color_matrix=bt709:out_range=tv,format=yuv444p16le"
 
 
 def is_hdr(path):
     import subprocess
     t = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
-                        "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip()
-    return t in ("arib-std-b67", "smpte2084")
+                        "-of", "default=nw=1:nk=1", path], capture_output=True, text=True).stdout
+    # (csv output can carry a trailing comma: that once made this return False, and three renders went out
+    # unconverted and washed out)
+    return t.strip().strip(",").strip() in ("arib-std-b67", "smpte2084")

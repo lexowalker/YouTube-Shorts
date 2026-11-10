@@ -164,7 +164,8 @@ class HeadFrames:
         if self.proc is None or f < self.idx or f > self.idx + 90:
             if self.proc:
                 self.proc.kill()
-            self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{f / FPS:.4f}", "-i", self.path, "-f", "rawvideo",
+            self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{f / FPS:.4f}", "-i", self.path,
+                                          "-vf", "scale=in_color_matrix=bt709:in_range=tv,format=rgb24", "-f", "rawvideo",
                                           "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
             self.idx = f - 1
         n = W * H * 3
@@ -298,7 +299,8 @@ def draft(slug, only=None):
 def render_range(slug, f0, f1, out):
     comp = Composer(slug, load(slug))
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-                            "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p",
+                            "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p",
                             "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", out], stdin=subprocess.PIPE)
     for f in range(f0, f1):
         enc.stdin.write(np.clip(comp.frame(f / FPS) + 0.5, 0, 255).astype(np.uint8).tobytes())
