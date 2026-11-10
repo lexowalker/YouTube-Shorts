@@ -248,10 +248,556 @@
  "scenes": [
   {
    "at": 0,
-   "head": true
+   "head": true,
+   "note": "he reads the verse"
+  },
+  {
+   "at": {
+    "word": "weakens",
+    "after": 5
+   },
+   "image": {
+    "key": "aic-23443",
+    "x0": 0.115,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "the government of sages: Seven Sages of the Bamboo Grove"
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "head": true,
+   "note": "Can you imagine..."
+  },
+  {
+   "at": {
+    "seg": 2
+   },
+   "collage": "clever",
+   "note": "cleverness, psyop, manipulation, scare, entice"
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "key": "aic-47398",
+    "x0": 0.11,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "scare the hell out of them: Hokusai's ghost"
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "head": true,
+   "note": "non-sage-like behavior... we've hurt our own people"
+  },
+  {
+   "at": {
+    "word": "Our",
+    "after": 52
+   },
+   "image": {
+    "key": "cma-1964.94-figures",
+    "x0": 0.5424,
+    "y0": 0.27,
+    "h": 0.66
+   },
+   "note": "hurting us: starving mother (Zhou Chen)"
+  },
+  {
+   "at": {
+    "word": "psychological",
+    "after": 55
+   },
+   "image": {
+    "key": "cma-1964.94-figures",
+    "x0": 0.7683,
+    "y0": 0.36,
+    "h": 0.57
+   },
+   "note": "fear: cowering beggar (Zhou Chen)"
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "key": "met-893332",
+    "x0": 0.42,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "ambition; a country full of ambitious people: men scrambling over each other up a roof"
+  },
+  {
+   "at": {
+    "word": "there's",
+    "after": 68
+   },
+   "head": true,
+   "note": "nobody to run anything... ideally, people were not ambitious"
+  },
+  {
+   "at": {
+    "word": "They",
+    "after": 76
+   },
+   "collage": "ambition",
+   "note": "compete / net worth / position"
+  },
+  {
+   "at": {
+    "seg": 9
+   },
+   "image": {
+    "key": "met-54624",
+    "x0": 0.1,
+    "y0": 0.05,
+    "h": 0.95
+   },
+   "note": "innocent and passionless: two children with goldfish"
+  },
+  {
+   "at": {
+    "word": "What",
+    "after": 86.8
+   },
+   "image": {
+    "key": "met-55543",
+    "x0": 0.36,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "afraid and angry, at each other's throats: brawl"
+  },
+  {
+   "at": {
+    "seg": 13
+   },
+   "head": true,
+   "note": "You don't want to foment emotion..."
+  },
+  {
+   "at": {
+    "word": "That's",
+    "after": 102
+   },
+   "collage": "flourish",
+   "note": "an environment where people can flourish... a long way from that"
+  },
+  {
+   "at": {
+    "seg": 15
+   },
+   "image": {
+    "key": "aic-18993",
+    "x0": 0.07,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "without contrivance, nothing is disordered: geese descending in line"
+  },
+  {
+   "at": {
+    "seg": 18
+   },
+   "head": true,
+   "note": "where benevolence actually rules in the land"
+  },
+  {
+   "at": {
+    "word": "where",
+    "after": 125
+   },
+   "image": {
+    "key": "cma-1965.556",
+    "x0": 0.2,
+    "y0": 0.1,
+    "h": 0.85
+   },
+   "note": "goodwill, integrity, good faith: Guanyin"
+  },
+  {
+   "at": {
+    "seg": 23
+   },
+   "head": true,
+   "note": "the sophisticated don't dare to contrive"
+  },
+  {
+   "at": {
+    "seg": 24
+   },
+   "image": {
+    "key": "cma-1979.27.1.2",
+    "x0": 0.2,
+    "y0": 0.2,
+    "h": 0.75
+   },
+   "note": "a pillar of Taoism: Laozi on his ox"
+  },
+  {
+   "at": {
+    "word": "Just",
+    "after": 142,
+    "lead": 0.15
+   },
+   "head": true,
+   "note": "Just be straightforward, direct."
   }
  ],
- "collages": {},
+ "collages": {
+  "clever": {
+   "pieces": [
+    {
+     "img": "met-57784",
+     "box": [
+      0.1,
+      0.2,
+      0.48,
+      0.9
+     ],
+     "tone": "bw",
+     "pos": [
+      0.3,
+      0.17
+     ],
+     "w": 0.58,
+     "rot": -6,
+     "at": 0.15,
+     "from": "left",
+     "border": 0
+    },
+    {
+     "img": "met-54637",
+     "box": [
+      0.05,
+      0.12,
+      1.0,
+      0.95
+     ],
+     "tone": "bw",
+     "pos": [
+      0.62,
+      0.265
+     ],
+     "w": 0.7,
+     "rot": 3,
+     "at": {
+      "word": "cleverness.",
+      "after": 23
+     },
+     "from": "right"
+    },
+    {
+     "img": "aic-19586",
+     "box": [
+      0.0,
+      0.02,
+      0.62,
+      0.8
+     ],
+     "tone": "bw",
+     "pos": [
+      0.27,
+      0.545
+     ],
+     "w": 0.48,
+     "rot": -3,
+     "at": {
+      "word": "psyop,",
+      "after": 26
+     },
+     "from": "left"
+    },
+    {
+     "shape": "paper",
+     "color": "#A8322A",
+     "pos": [
+      0.74,
+      0.585
+     ],
+     "w": 0.5,
+     "h": 0.17,
+     "rot": -7,
+     "at": {
+      "word": "scare",
+      "after": 31,
+      "lead": 0.25
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-59422",
+     "shape": "cutout",
+     "box": [
+      0.12,
+      0.05,
+      0.9,
+      1.0
+     ],
+     "tone": "color",
+     "pos": [
+      0.755,
+      0.56
+     ],
+     "w": 0.44,
+     "rot": 5,
+     "at": {
+      "word": "scare",
+      "after": 31
+     },
+     "from": "right",
+     "thr": 13,
+     "lw": 0.1
+    },
+    {
+     "img": "aic-19183",
+     "box": [
+      0.02,
+      0.03,
+      0.98,
+      0.95
+     ],
+     "tone": "color",
+     "pos": [
+      0.34,
+      0.685
+     ],
+     "w": 0.54,
+     "rot": -2,
+     "at": {
+      "word": "entice",
+      "after": 33
+     },
+     "from": "down"
+    }
+   ]
+  },
+  "ambition": {
+   "pieces": [
+    {
+     "img": "met-54153",
+     "box": [
+      0.02,
+      0.05,
+      0.58,
+      0.95
+     ],
+     "tone": "bw",
+     "pos": [
+      0.34,
+      0.14
+     ],
+     "w": 0.6,
+     "rot": -5,
+     "at": 0.1,
+     "from": "left",
+     "border": 0
+    },
+    {
+     "img": "met-48939",
+     "box": [
+      0.1,
+      0.08,
+      0.9,
+      0.6
+     ],
+     "tone": "color",
+     "pos": [
+      0.31,
+      0.37
+     ],
+     "w": 0.52,
+     "rot": -3,
+     "at": 0.25,
+     "from": "left"
+    },
+    {
+     "img": "met-854220",
+     "box": [
+      0.12,
+      0.08,
+      0.88,
+      0.52
+     ],
+     "tone": "bw",
+     "pos": [
+      0.71,
+      0.3
+     ],
+     "w": 0.5,
+     "rot": 4,
+     "at": {
+      "word": "compete",
+      "after": 77
+     },
+     "from": "right"
+    },
+    {
+     "shape": "disc",
+     "color": "#D8A928",
+     "pos": [
+      0.22,
+      0.625
+     ],
+     "w": 0.3,
+     "at": {
+      "word": "net",
+      "after": 79,
+      "lead": 0.2
+     },
+     "from": "down"
+    },
+    {
+     "img": "met-61139",
+     "shape": "cutout",
+     "box": [
+      0.05,
+      0.3,
+      0.95,
+      0.74
+     ],
+     "tone": "color",
+     "pos": [
+      0.36,
+      0.63
+     ],
+     "w": 0.58,
+     "rot": -8,
+     "at": {
+      "word": "net",
+      "after": 79
+     },
+     "from": "left",
+     "thr": 18
+    },
+    {
+     "img": "met-68432",
+     "box": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "tone": "color",
+     "pos": [
+      0.72,
+      0.6
+     ],
+     "w": 0.46,
+     "rot": 3,
+     "at": {
+      "word": "position.",
+      "after": 80
+     },
+     "from": "down"
+    }
+   ]
+  },
+  "flourish": {
+   "pieces": [
+    {
+     "shape": "disc",
+     "color": "#C8452F",
+     "pos": [
+      0.72,
+      0.125
+     ],
+     "w": 0.36,
+     "at": 0.1,
+     "from": "down"
+    },
+    {
+     "img": "aic-89508",
+     "box": [
+      0.0,
+      0.05,
+      1.0,
+      1.0
+     ],
+     "tone": "color",
+     "pos": [
+      0.5,
+      0.29
+     ],
+     "w": 0.9,
+     "rot": -1.5,
+     "at": 0.3,
+     "from": "down"
+    },
+    {
+     "img": "aic-60440",
+     "box": [
+      0.0,
+      0.45,
+      1.0,
+      1.0
+     ],
+     "tone": "color",
+     "pos": [
+      0.26,
+      0.59
+     ],
+     "w": 0.44,
+     "rot": -4,
+     "at": {
+      "word": "flourish",
+      "after": 106
+     },
+     "from": "left"
+    },
+    {
+     "img": "met-56505",
+     "box": [
+      0.1,
+      0.15,
+      0.9,
+      0.9
+     ],
+     "tone": "bw",
+     "pos": [
+      0.68,
+      0.535
+     ],
+     "w": 0.56,
+     "rot": 3,
+     "at": {
+      "word": "work",
+      "after": 108
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-853241",
+     "box": [
+      0.05,
+      0.52,
+      0.95,
+      0.9
+     ],
+     "tone": "color",
+     "pos": [
+      0.7,
+      0.675
+     ],
+     "w": 0.46,
+     "rot": -3,
+     "at": {
+      "word": "contribute",
+      "after": 108.5
+     },
+     "from": "down"
+    }
+   ]
+  }
+ },
  "endcard": {
   "dur": 4.0
  }

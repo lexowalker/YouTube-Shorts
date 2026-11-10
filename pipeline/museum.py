@@ -64,7 +64,7 @@ def aic_row(d):
     iid = d["image_id"]
     return {"key": f"aic-{d['id']}", "title": d["title"], "maker": (d.get("artist_display") or "").replace("\n", ", "),
             "date": d.get("date_display", ""), "medium": d.get("medium_display", ""),
-            "full": f"https://www.artic.edu/iiif/2/{iid}/full/max/0/default.jpg",
+            "full": f"https://www.artic.edu/iiif/2/{iid}/full/3000,/0/default.jpg",
             "thumb": f"https://www.artic.edu/iiif/2/{iid}/full/400,/0/default.jpg",
             "page": f"https://www.artic.edu/artworks/{d['id']}",
             "license": "Public domain (Art Institute of Chicago, CC0)", "credit": "Art Institute of Chicago"}

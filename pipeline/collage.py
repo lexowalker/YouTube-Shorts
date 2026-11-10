@@ -10,13 +10,17 @@ Spec (under "collages" in short.json):
      {"img": "met-45434",                     image key (pipeline/museum.py), or omit for a plain paper shape
       "box": [x0, y0, x1, y1],                the scrap, as fractions of the image
       "tone": "bw" | "color",                 black-and-white (default) or the picture's own colour
-      "shape": "torn" | "disc" | "paper",     torn scrap (default); a cut paper disc; a plain torn sheet of colour
+      "shape": "torn" | "cutout" | "disc" | "paper",   torn scrap (default); an object cut out of its plain
+                                              backdrop as one solid shape with a paper margin; a paper disc; a
+                                              plain torn sheet of colour
       "color": "#B8372B",                     for disc / paper
       "pos": [cx, cy], "w": 0.5,              centre and width as fractions of the frame; "h" too for paper
       "rot": -4,                              degrees
       "at": 1.2 | {"word": "scare"},          when it arrives: seconds after the collage starts, or a spoken word
       "from": "left|right|up|down",           the side it slides in from (a short way)
-      "border": 8}]}                          white torn-paper edge in px (0 for none)
+      "border": 8,                            white torn-paper edge in px (0 for none)
+      "thr": 28, "lw": 0.6}]}                 cutout only: colour distance from the backdrop that counts as object,
+                                              and the weight of lightness in it (lower it to ignore a cast shadow)
 
 Rules the layout must keep (checked by eye on the draft sheet): nothing important below 72% of the height (the
 subtitles sit there), and no piece over a face in another piece. A scrap is a whole torn rectangle of its picture:
@@ -69,6 +73,32 @@ def torn_mask(w, h, rng, rough=9.0):
     return np.asarray(im.resize((w, h), Image.LANCZOS), np.float32) / 255.0
 
 
+def cutout_mask(a, thr, border, lw=0.6):
+    """Scissor-cut silhouette of an object photographed on a plain backdrop: one solid shape (holes are filled, so
+    the piece never looks punched through), plus a margin of white paper around it."""
+    lab = cv2.cvtColor(np.clip(a, 0, 255).astype(np.uint8), cv2.COLOR_RGB2LAB).astype(np.float32)
+    lab = cv2.GaussianBlur(lab, (0, 0), 2)
+    h, w = lab.shape[:2]
+    edge = np.concatenate([lab[:6].reshape(-1, 3), lab[-6:].reshape(-1, 3), lab[:, :6].reshape(-1, 3), lab[:, -6:].reshape(-1, 3)])
+    bg = np.median(edge, 0)
+    d = np.sqrt((((lab - bg) * np.array([lw, 1.5, 1.5], np.float32)) ** 2).sum(-1))
+    m = (d > thr).astype(np.uint8)
+    m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (15, 15)))
+    cs, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    c = max(cs, key=cv2.contourArea)
+    solid = np.zeros((h, w), np.uint8)
+    cv2.drawContours(solid, [c], -1, 255, -1)
+    solid = cv2.dilate(solid, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * border + 9, 2 * border + 9)))
+    solid = cv2.GaussianBlur(solid.astype(np.float32) / 255, (0, 0), 5)
+    return np.clip((solid - 0.5) * 8 + 0.5, 0, 1)
+
+
+def cutout_inner(alpha, border):
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * border + 1, 2 * border + 1))
+    inner = cv2.GaussianBlur(cv2.erode(alpha, k), (0, 0), 1.0)
+    return np.clip((inner - 0.5) * 6 + 0.5, 0, 1)[..., None]
+
+
 def grain(h, w, rng, amount):
     g = rng.normal(0, 1, (h, w)).astype(np.float32)
     return cv2.GaussianBlur(g, (0, 0), 0.8) * amount
@@ -89,7 +119,7 @@ class Piece:
         rng = np.random.default_rng(1000 + idx * 77 + int(spec.get("seed", 0)))
         shape = spec.get("shape", "torn")
         pw = int(round(spec["w"] * W))
-        border = spec.get("border", 8 if shape == "torn" else 0)
+        border = spec.get("border", 8 if shape in ("torn", "cutout") else 0)
         if shape == "disc":
             ph = pw
             rgb = np.ones((ph, pw, 3), np.float32) * hex_rgb(spec["color"])
@@ -110,7 +140,13 @@ class Piece:
             ph = int(round(pw * reg.height / reg.width))
             a = np.asarray(reg.resize((pw, ph), Image.LANCZOS), np.float32)
             a = tone_bw(a) if spec.get("tone", "bw") == "bw" else a
-            alpha = torn_mask(pw, ph, rng, spec.get("rough", 9))
+            if shape == "cutout":
+                alpha = cutout_mask(np.asarray(reg.resize((pw, ph), Image.LANCZOS), np.float32), spec.get("thr", 28), border, spec.get("lw", 0.6))
+                inner = cutout_inner(alpha, border)
+                a = (PAPER + grain(ph, pw, rng, 4)[..., None]) * (1 - inner) + a * inner
+                border = 0
+            else:
+                alpha = torn_mask(pw, ph, rng, spec.get("rough", 9))
             if border:
                 # the picture stops short of the torn edge, leaving the white of the paper showing
                 k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * border + 1, 2 * border + 1))
