@@ -82,7 +82,8 @@ def main():
         mask = np.convolve(mask, np.ones(r, np.float32) / r, mode="same")[:, None]
         x = plain * (1 - mask) + cleaned * mask
         diff = np.abs(x - plain).max(axis=1)
-        changed = (diff.reshape(-1, SR // 100)[: len(diff) // (SR // 100)].max(axis=1) > 10 ** (-60 / 20)).sum()
+        k = SR // 100
+        changed = (diff[: len(diff) // k * k].reshape(-1, k).max(axis=1) > 10 ** (-60 / 20)).sum()
         print(f"de-click: changed {changed} of {len(diff) // (SR // 100)} 10 ms windows, all in pauses")
 
     tmp = os.path.join(wd, "program_audio_unity.wav")
