@@ -4,14 +4,12 @@ The phone records 10-bit HLG. Decoded as ordinary video it looks grey and washed
 not BT.709 code values. This converts properly instead of boosting saturation:
 
   HLG signal -> scene light (inverse OETF) -> display light (the HLG OOTF, gamma 1.2 at 1000 nits)
-  -> BT.2020 to BT.709 primaries -> SDR white set at LREF nits -> a soft shoulder on the highlights that keeps
-  hue (the same gain on R, G and B) -> BT.709 / gamma 2.4 encoding.
+  -> BT.2020 to BT.709 primaries -> SDR white set at LREF nits -> a tone curve on luminance (hue kept) with a
+  soft highlight shoulder -> BT.709 / gamma 2.4 encoding.
 
-  Then the SDR picture rendering: contrast about a skin-tone pivot and colourfulness restored (CON, PIVOT, SAT),
-  because the plain conversion alone looked pale and faded (user's note on the first cut, 10 Nov 2026).
-
-All values were chosen by eye on this set: deep blacks in the shelves, healthy skin, white hair and beard that
-keep their detail, and forehead highlights that do not clip.
+The numbers are not taste: they are fitted so the result matches the original video as it looks on YouTube. Two
+earlier settings were rejected by the user as pale and faded (a darker rendering at 750 and 900 nits white): the
+original is a bright, warm, high-key picture.
 
 make_lut() bakes the conversion into a 65-point 3D LUT (.cube) that ffmpeg applies with lut3d on full-range R'G'B'.
 """
@@ -22,31 +20,29 @@ A, B, C = 0.17883277, 0.28466892, 0.55991073
 M2020_709 = np.array([[1.660491, -0.587641, -0.072850],
                       [-0.124550, 1.132900, -0.008349],
                       [-0.018151, -0.100579, 1.118730]], np.float32)
-LREF, KNEE, GAMMA, LW = 900.0, 0.55, 2.4, 1000.0
-CON, PIVOT, SAT = 1.3, 0.35, 1.4   # picture rendering for an SDR screen (see hlg_to_sdr)
+LW, GAMMA = 1000.0, 2.4
+# Fitted to the original video as the user sees it (their screenshot of 10 Nov 2026): skin, sweater, chair, hair,
+# beard and the dark shelves of the same shot land within about 2% of that picture.
+LREF = 386.0    # nits shown as SDR white
+CON, PIVOT = 0.98, 0.17   # contrast about a pivot, on luminance
+KNEE, WMAX = 0.35, 0.79   # highlight shoulder: luminance above KNEE rolls off towards WMAX
+SAT = 1.065     # colourfulness after the shoulder, so bright skin keeps its warmth
+LUM709 = np.array([0.2126, 0.7152, 0.0722], np.float32)
 
 
-def hlg_to_sdr(v, lref=LREF, knee=KNEE, gamma=GAMMA, lw=LW):
+def hlg_to_sdr(v):
     """v: HLG BT.2020 R'G'B' signal, float 0..1, shape (..., 3) -> SDR BT.709 R'G'B', float 0..1."""
     v = np.clip(v, 0, 1).astype(np.float32)
-    e = np.where(v <= 0.5, v * v / 3.0, (np.exp((v - C) / A) + B) / 12.0)
+    e = np.where(v <= 0.5, v * v / 3.0, (np.exp((v - C) / A) + B) / 12.0)       # inverse OETF: scene light
     ys = (e @ np.array([0.2627, 0.6780, 0.0593], np.float32))[..., None]
-    d = lw * np.power(np.maximum(ys, 1e-6), 0.2) * e
-    x = np.maximum(d @ M2020_709.T, 0) / lref
-    m = x.max(-1, keepdims=True)
-    c = np.where(m <= knee, m, knee + (1 - knee) * (1 - np.exp(-(m - knee) / (1 - knee))))
-    x = x * (c / np.maximum(m, 1e-6))
-    # An HDR picture shown at SDR brightness looks flat and pale (lower contrast and colourfulness at lower
-    # luminance), so the SDR rendering adds contrast about a skin-tone pivot and restores colourfulness, in
-    # linear light, with the highlights rolled off again so nothing clips.
-    lum = np.array([0.2126, 0.7152, 0.0722], np.float32)
-    y = (x @ lum)[..., None]
+    d = LW * np.power(np.maximum(ys, 1e-6), 0.2) * e                            # OOTF: display light, nits
+    x = np.maximum(d @ M2020_709.T, 0) / LREF                                   # BT.709 primaries, SDR white
+    y = (x @ LUM709)[..., None]
     y2 = PIVOT * np.power(np.maximum(y, 1e-6) / PIVOT, CON)
-    y2 = np.where(y2 > 0.75, 0.75 + 0.25 * (1 - np.exp(-(y2 - 0.75) / 0.25)), y2)
-    x = x * (y2 / np.maximum(y, 1e-6))
-    y = (x @ lum)[..., None]
-    x = y + (x - y) * SAT
-    return np.power(np.clip(x, 0, 1), 1 / gamma)
+    y2 = np.where(y2 <= KNEE, y2, KNEE + (WMAX - KNEE) * (1 - np.exp(-(y2 - KNEE) / (WMAX - KNEE))))
+    x = x * (y2 / np.maximum(y, 1e-6))                                          # tone curve, hue kept
+    x = y2 + (x - y2) * SAT
+    return np.power(np.clip(x, 0, 1), 1 / GAMMA)
 
 
 def make_lut(path, n=65):

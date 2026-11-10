@@ -106,7 +106,7 @@ All public domain / CC0 from The Met, the Art Institute of Chicago and the Cleve
 | 2:17.4 | image | Paintings after Ancient Masters: Laozi Riding an Ox | Chen Hongshou (Chinese, 1598/99–1652) | 1598–1652 | CC0 (Cleveland Museum of Art Open Access) | https://clevelandart.org/art/1979.27.1.2 |
 
 ## 7. Notes
-- **Colour:** the 4K file is HLG HDR. `pipeline/hdr.py` converts it to SDR (inverse OETF, OOTF, BT.2020 to BT.709, soft highlight shoulder), then renders it for an SDR screen with added contrast and colourfulness. The second step was added after the user found the first cut pale and faded.
+- **Colour:** the 4K file is HLG HDR. `pipeline/hdr.py` converts it to SDR (inverse OETF, OOTF, BT.2020 to BT.709, a tone curve with a soft highlight shoulder). Its numbers are fitted to the user's screenshot of the original video, so skin, sweater, chair and shelves match it within about 2%. Two darker settings were rejected as pale and faded.
 - **Head framing:** the same full-height 9:16 crop everywhere, centred on his face. It is the widest framing the source allows, so he looks closer when he leans in to read.
 - **Reading close-ups** ("It weakens the ambition…", "It makes the sophisticated…") are under images, because there his beard fills the caption area.
 - **Collages:** dark ground, torn scraps with paper edges, black-and-white and colour mixed, pieces arriving on their words; nothing below 74% of the height; no piece over a face.

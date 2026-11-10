@@ -67,7 +67,7 @@ def main():
         f0, f1 = round(p * FPS), round((p + e - s) * FPS)
         p += e - s
         lefts = np.interp(s + np.arange(f1 - f0) / FPS, tt, left)
-        key = hashlib.md5(f"{s:.3f}-{e:.3f}-{f1 - f0}-{hdr.LREF}-{hdr.KNEE}-{hdr.CON}-{hdr.SAT}-{hdr.PIVOT}-{np.round(lefts).tobytes().hex()[:4000]}".encode()).hexdigest()[:10]
+        key = hashlib.md5(f"{s:.3f}-{e:.3f}-{f1 - f0}-{hdr.LREF}-{hdr.KNEE}-{hdr.WMAX}-{hdr.CON}-{hdr.SAT}-{hdr.PIVOT}-{np.round(lefts).tobytes().hex()[:4000]}".encode()).hexdigest()[:10]
         jobs.append((s, e, f1 - f0, os.path.join(hd, f"{key}.mp4"), lefts, moving))
 
     def run(j):
