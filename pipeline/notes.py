@@ -1,6 +1,9 @@
 """Delivery tables from the EDL: source timestamps in order, and the image log (also -> shorts/<slug>/images.json).
 
   python3 -I pipeline/notes.py <slug>     (paste the printed tables into shorts/<slug>/DELIVERY.md)
+
+Works for both EDL shapes: the painting Shorts ("shots") and the image-and-collage Shorts ("scenes", which also
+lists every collage piece).
 """
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -23,6 +26,24 @@ for k, s in enumerate(edl["segments"]):
 print(f"| — | — | {mmss(p)} – {mmss(p + edl['endcard']['dur'])} | End card |\n")
 
 rows = []
+if "scenes" in edl:
+    # image-and-collage Shorts (scenes.py): every full-frame image and every collage piece, in order of appearance
+    from common import image_path
+    print("| From | Use | Work | Maker | Date | Licence | Source |\n|---|---|---|---|---|---|---|")
+    for s in edl["scenes"]:
+        if s["kind"] == "image":
+            uses = [(s["t0"], s["key"], "image")]
+        elif s["kind"] == "collage":
+            uses = [(s["t0"] + max(0.0, p["at"]), p["img"], f"collage '{s['name']}'") for p in s["collage"]["pieces"] if p.get("img")]
+        else:
+            continue
+        for t0, key, use in uses:
+            m = json.load(open(image_path(key)[:-len("_full.jpg")] + ".json"))
+            rows.append({"key": key, "title": m["title"], "maker": m["maker"], "date": m["date"], "license": m["license"],
+                         "credit": m["credit"], "page": m["page"], "use": use, "t0": round(t0, 2), "t1": s["t1"], "note": s["note"]})
+            print(f"| {mmss(t0)[:-1]} | {use} | {m['title'][:80]} | {m['maker'][:50]} | {m['date']} | {m['license']} | {m['page']} |")
+    json.dump(rows, open(os.path.join(short_dir(slug), "images.json"), "w"), indent=1, ensure_ascii=False)
+    sys.exit()
 print("| Short (s) | Work | Artist / culture | Date | License | Source |\n|---|---|---|---|---|---|")
 for s in edl["shots"]:
     if s["kind"] != "image":

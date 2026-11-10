@@ -65,7 +65,7 @@
   "when cunning | *intellectuals",
   "were *competing | for the attention",
   "of the rich | and *powerful.”",
-  "“*Su Che, | who is a statesman",
+  "“Su Che, | who is a *statesman",
   "as well as a | *poet and mystic,",
   "presents | *another view",
   "of this passage | and the following",
@@ -127,10 +127,576 @@
   {
    "at": 0,
    "head": true,
-   "note": "placeholder"
+   "note": "he reads the chapter line"
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "collage": "lords",
+   "note": "cunning and craft, contending lords, aggrandizing, enlarging holdings"
+  },
+  {
+   "at": {
+    "word": "Sound",
+    "after": 17,
+    "lead": 0.3
+   },
+   "head": true,
+   "note": "Sound familiar? Taoist philosophers did not believe..."
+  },
+  {
+   "at": {
+    "word": "when",
+    "after": 22.5
+   },
+   "image": {
+    "key": "met-54950",
+    "x0": 0.14,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "cunning intellectuals competing for attention: ten scholars crowding in"
+  },
+  {
+   "at": {
+    "seg": 3
+   },
+   "image": {
+    "key": "cma-1979.27.1.8",
+    "x0": 0.12,
+    "y0": 0.3,
+    "h": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "note": "Su Che, statesman, poet and mystic: a scholar seated under old trees (not a likeness of Su Che)"
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "image": {
+    "key": "met-39552",
+    "x0": 0.12,
+    "y0": 0.2,
+    "h": 0.75
+   },
+   "note": "sage rulers employ the intelligent: a ruler with officials before him"
+  },
+  {
+   "at": 45.35,
+   "collage": "goods",
+   "note": "goods hard to find, high prices, desirable; they just don't see it"
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "image": {
+    "key": "met-55723",
+    "x0": 0.37,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "the intelligent are employed, the people don't compete: a workshop side by side"
+  },
+  {
+   "at": {
+    "word": "Rare",
+    "after": 61.5,
+    "lead": 0.2
+   },
+   "image": {
+    "key": "aic-196737",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "rare goods in plain view: silk-goods lane"
+  },
+  {
+   "at": {
+    "word": "but",
+    "after": 65.0
+   },
+   "image": {
+    "key": "aic-196760",
+    "x0": 0.08,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "theft and disturbance do not rise: a calm lane of open shops"
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "head": true,
+   "note": "if you have an ordered government... an ordered country"
+  },
+  {
+   "at": {
+    "word": "If",
+    "after": 78.5,
+    "lead": 0.1
+   },
+   "image": {
+    "key": "met-56384",
+    "x0": 0.3,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "an ordered country, a natural sanity: villagers calmly about their business under Fuji"
+  },
+  {
+   "at": {
+    "word": "And",
+    "after": 87.5,
+    "lead": 0.2
+   },
+   "image": {
+    "key": "met-54590",
+    "x0": 0.0,
+    "y0": 0.03,
+    "h": 0.9
+   },
+   "note": "breaking in and robbing: a robber making off with a strongbox (Shunsho)"
+  },
+  {
+   "at": {
+    "word": "There's",
+    "after": 93.0
+   },
+   "head": true,
+   "note": "that's not how we do things around here"
+  },
+  {
+   "at": {
+    "word": "And",
+    "after": 98.0,
+    "lead": 0.3
+   },
+   "collage": "rebuild",
+   "note": "collapse, catastrophe; rebuild this country"
+  },
+  {
+   "at": 109.45,
+   "image": {
+    "key": "cma-1915.110",
+    "x0": 0.45,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "child welfare and juvenile justice: children at play"
+  },
+  {
+   "at": {
+    "seg": 9
+   },
+   "head": true,
+   "note": "off the rails; we can't do that with our own children"
+  },
+  {
+   "at": {
+    "word": "what",
+    "after": 126.0
+   },
+   "image": {
+    "key": "aic-149892",
+    "x0": 0.05,
+    "y0": 0.22,
+    "h": 0.76
+   },
+   "note": "the people who will be taking care of us: a son with his aged parents (Lao Laizi)"
+  },
+  {
+   "at": {
+    "word": "So",
+    "after": 130.4
+   },
+   "head": true,
+   "note": "sane people within your cohort"
+  },
+  {
+   "at": {
+    "word": "that",
+    "after": 135.0
+   },
+   "image": {
+    "key": "met-36486",
+    "x0": 0.13,
+    "y0": 0.2,
+    "h": 0.8
+   },
+   "note": "willing to work for the good of the people, the commonweal: villagers hauling a net together"
+  },
+  {
+   "at": 139.85,
+   "head": true,
+   "note": "or it's going to come back and bite you"
   }
  ],
- "collages": {},
+ "collages": {
+  "lords": {
+   "pieces": [
+    {
+     "img": "met-57281",
+     "box": [
+      0.15,
+      0.28,
+      0.85,
+      0.92
+     ],
+     "tone": "bw",
+     "pos": [
+      0.27,
+      0.19
+     ],
+     "w": 0.4,
+     "rot": -5,
+     "at": -0.45,
+     "from": "left"
+    },
+    {
+     "shape": "paper",
+     "color": "#A8322A",
+     "pos": [
+      0.76,
+      0.2
+     ],
+     "w": 0.44,
+     "h": 0.17,
+     "rot": 5,
+     "at": {
+      "word": "contending",
+      "after": 9,
+      "lead": 0.25
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-893323",
+     "box": [
+      0.07,
+      0.25,
+      0.29,
+      0.97
+     ],
+     "tone": "color",
+     "pos": [
+      0.72,
+      0.19
+     ],
+     "w": 0.36,
+     "rot": 3,
+     "at": {
+      "word": "contending",
+      "after": 9
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-893323",
+     "box": [
+      0.37,
+      0.27,
+      0.6,
+      0.95
+     ],
+     "tone": "color",
+     "pos": [
+      0.3,
+      0.43
+     ],
+     "w": 0.38,
+     "rot": -3,
+     "at": {
+      "word": "lords",
+      "after": 9.8
+     },
+     "from": "left"
+    },
+    {
+     "img": "met-55634",
+     "box": [
+      0.62,
+      0.1,
+      0.97,
+      0.72
+     ],
+     "tone": "bw",
+     "pos": [
+      0.72,
+      0.43
+     ],
+     "w": 0.4,
+     "rot": 4,
+     "at": {
+      "word": "aggrandizing",
+      "after": 12.5
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-911983",
+     "box": [
+      0.31,
+      0.3,
+      0.49,
+      0.62
+     ],
+     "tone": "color",
+     "pos": [
+      0.5,
+      0.56
+     ],
+     "w": 0.3,
+     "rot": -2,
+     "at": {
+      "word": "enlarging",
+      "after": 14.8
+     },
+     "from": "down"
+    }
+   ]
+  },
+  "goods": {
+   "pieces": [
+    {
+     "img": "met-42749",
+     "shape": "cutout",
+     "box": [
+      0.2,
+      0.1,
+      0.82,
+      0.9
+     ],
+     "tone": "color",
+     "pos": [
+      0.27,
+      0.15
+     ],
+     "w": 0.44,
+     "rot": -4,
+     "at": -0.45,
+     "from": "left"
+    },
+    {
+     "img": "met-44631",
+     "shape": "cutout",
+     "box": [
+      0.12,
+      0.1,
+      0.9,
+      0.85
+     ],
+     "tone": "color",
+     "pos": [
+      0.71,
+      0.21
+     ],
+     "w": 0.52,
+     "rot": 3,
+     "at": {
+      "word": "hard",
+      "after": 46.8
+     },
+     "from": "right"
+    },
+    {
+     "shape": "disc",
+     "color": "#D8A928",
+     "pos": [
+      0.26,
+      0.42
+     ],
+     "w": 0.33,
+     "at": {
+      "word": "high",
+      "after": 49,
+      "lead": 0.25
+     },
+     "from": "down"
+    },
+    {
+     "img": "met-46838",
+     "shape": "cutout",
+     "box": [
+      0.18,
+      0.3,
+      0.85,
+      0.8
+     ],
+     "tone": "color",
+     "pos": [
+      0.27,
+      0.43
+     ],
+     "w": 0.44,
+     "rot": -5,
+     "at": {
+      "word": "high",
+      "after": 49
+     },
+     "from": "left"
+    },
+    {
+     "img": "met-60681",
+     "shape": "cutout",
+     "box": [
+      0.2,
+      0.3,
+      0.82,
+      0.85
+     ],
+     "tone": "color",
+     "pos": [
+      0.74,
+      0.43
+     ],
+     "w": 0.44,
+     "rot": 4,
+     "at": {
+      "word": "desirable,",
+      "after": 52.5
+     },
+     "from": "right",
+     "thr": 40
+    },
+    {
+     "img": "met-54381",
+     "box": [
+      0.1,
+      0.12,
+      0.9,
+      0.98
+     ],
+     "tone": "bw",
+     "pos": [
+      0.5,
+      0.5
+     ],
+     "w": 0.34,
+     "rot": -2,
+     "at": {
+      "word": "see",
+      "after": 54
+     },
+     "from": "down"
+    }
+   ]
+  },
+  "rebuild": {
+   "pieces": [
+    {
+     "img": "aic-197414",
+     "box": [
+      0.1,
+      0.05,
+      0.9,
+      0.75
+     ],
+     "tone": "color",
+     "pos": [
+      0.28,
+      0.18
+     ],
+     "w": 0.44,
+     "rot": -4,
+     "at": -0.45,
+     "from": "left"
+    },
+    {
+     "img": "met-55859",
+     "box": [
+      0.44,
+      0.08,
+      0.97,
+      0.95
+     ],
+     "tone": "bw",
+     "pos": [
+      0.7,
+      0.17
+     ],
+     "w": 0.5,
+     "rot": 3,
+     "at": {
+      "word": "collapse,",
+      "after": 102
+     },
+     "from": "right"
+    },
+    {
+     "img": "aic-24645",
+     "box": [
+      0.05,
+      0.08,
+      0.62,
+      0.8
+     ],
+     "tone": "bw",
+     "pos": [
+      0.3,
+      0.44
+     ],
+     "w": 0.46,
+     "rot": -3,
+     "at": {
+      "word": "catastrophe,",
+      "after": 104
+     },
+     "from": "left"
+    },
+    {
+     "img": "met-36506",
+     "box": [
+      0.3,
+      0.02,
+      0.85,
+      0.9
+     ],
+     "tone": "color",
+     "pos": [
+      0.72,
+      0.42
+     ],
+     "w": 0.42,
+     "rot": 4,
+     "at": {
+      "word": "we're",
+      "after": 106,
+      "lead": 0.2
+     },
+     "from": "right"
+    },
+    {
+     "img": "met-55287",
+     "box": [
+      0.55,
+      0.05,
+      0.98,
+      0.75
+     ],
+     "tone": "color",
+     "pos": [
+      0.5,
+      0.53
+     ],
+     "w": 0.36,
+     "rot": -2,
+     "at": {
+      "word": "rebuild",
+      "after": 107.3
+     },
+     "from": "down"
+    }
+   ]
+  }
+ },
  "endcard": {
   "dur": 4.0
  },

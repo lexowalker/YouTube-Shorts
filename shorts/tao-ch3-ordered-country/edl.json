@@ -58,8 +58,618 @@
  "scenes": [
   {
    "t0": 0.0,
+   "t1": 4.15,
+   "note": "he reads the chapter line",
+   "kind": "head"
+  },
+  {
+   "t0": 4.15,
+   "t1": 16.91,
+   "note": "cunning and craft, contending lords, aggrandizing, enlarging holdings",
+   "kind": "collage",
+   "name": "lords",
+   "collage": {
+    "pieces": [
+     {
+      "img": "met-57281",
+      "box": [
+       0.15,
+       0.28,
+       0.85,
+       0.92
+      ],
+      "tone": "bw",
+      "pos": [
+       0.27,
+       0.19
+      ],
+      "w": 0.4,
+      "rot": -5,
+      "at": -0.45,
+      "from": "left"
+     },
+     {
+      "shape": "paper",
+      "color": "#A8322A",
+      "pos": [
+       0.76,
+       0.2
+      ],
+      "w": 0.44,
+      "h": 0.17,
+      "rot": 5,
+      "at": 5.1,
+      "from": "right"
+     },
+     {
+      "img": "met-893323",
+      "box": [
+       0.07,
+       0.25,
+       0.29,
+       0.97
+      ],
+      "tone": "color",
+      "pos": [
+       0.72,
+       0.19
+      ],
+      "w": 0.36,
+      "rot": 3,
+      "at": 5.35,
+      "from": "right"
+     },
+     {
+      "img": "met-893323",
+      "box": [
+       0.37,
+       0.27,
+       0.6,
+       0.95
+      ],
+      "tone": "color",
+      "pos": [
+       0.3,
+       0.43
+      ],
+      "w": 0.38,
+      "rot": -3,
+      "at": 5.95,
+      "from": "left"
+     },
+     {
+      "img": "met-55634",
+      "box": [
+       0.62,
+       0.1,
+       0.97,
+       0.72
+      ],
+      "tone": "bw",
+      "pos": [
+       0.72,
+       0.43
+      ],
+      "w": 0.4,
+      "rot": 4,
+      "at": 8.67,
+      "from": "right"
+     },
+     {
+      "img": "met-911983",
+      "box": [
+       0.31,
+       0.3,
+       0.49,
+       0.62
+      ],
+      "tone": "color",
+      "pos": [
+       0.5,
+       0.56
+      ],
+      "w": 0.3,
+      "rot": -2,
+      "at": 10.81,
+      "from": "down"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 16.91,
+   "t1": 22.9,
+   "note": "Sound familiar? Taoist philosophers did not believe...",
+   "kind": "head"
+  },
+  {
+   "t0": 22.9,
+   "t1": 28.85,
+   "note": "cunning intellectuals competing for attention: ten scholars crowding in",
+   "kind": "image",
+   "key": "met-54950",
+   "file": ".work/img/met-54950_full.jpg",
+   "crop": [
+    482,
+    0,
+    2148,
+    3818
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 28.85,
+   "t1": 38.21,
+   "note": "Su Che, statesman, poet and mystic: a scholar seated under old trees (not a likeness of Su Che)",
+   "kind": "image",
+   "key": "cma-1979.27.1.8",
+   "file": ".work/img/cma-1979.27.1.8_full.jpg",
+   "crop": [
+    585,
+    1657,
+    1864,
+    3314
+   ],
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 38.21,
+   "t1": 45.35,
+   "note": "sage rulers employ the intelligent: a ruler with officials before him",
+   "kind": "image",
+   "key": "met-39552",
+   "file": ".work/img/met-39552_full.jpg",
+   "crop": [
+    360,
+    800,
+    1688,
+    3000
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 45.35,
+   "t1": 56.36,
+   "note": "goods hard to find, high prices, desirable; they just don't see it",
+   "kind": "collage",
+   "name": "goods",
+   "collage": {
+    "pieces": [
+     {
+      "img": "met-42749",
+      "shape": "cutout",
+      "box": [
+       0.2,
+       0.1,
+       0.82,
+       0.9
+      ],
+      "tone": "color",
+      "pos": [
+       0.27,
+       0.15
+      ],
+      "w": 0.44,
+      "rot": -4,
+      "at": -0.45,
+      "from": "left"
+     },
+     {
+      "img": "met-44631",
+      "shape": "cutout",
+      "box": [
+       0.12,
+       0.1,
+       0.9,
+       0.85
+      ],
+      "tone": "color",
+      "pos": [
+       0.71,
+       0.21
+      ],
+      "w": 0.52,
+      "rot": 3,
+      "at": 1.77,
+      "from": "right"
+     },
+     {
+      "shape": "disc",
+      "color": "#D8A928",
+      "pos": [
+       0.26,
+       0.42
+      ],
+      "w": 0.33,
+      "at": 3.84,
+      "from": "down"
+     },
+     {
+      "img": "met-46838",
+      "shape": "cutout",
+      "box": [
+       0.18,
+       0.3,
+       0.85,
+       0.8
+      ],
+      "tone": "color",
+      "pos": [
+       0.27,
+       0.43
+      ],
+      "w": 0.44,
+      "rot": -5,
+      "at": 4.09,
+      "from": "left"
+     },
+     {
+      "img": "met-60681",
+      "shape": "cutout",
+      "box": [
+       0.2,
+       0.3,
+       0.82,
+       0.85
+      ],
+      "tone": "color",
+      "pos": [
+       0.74,
+       0.43
+      ],
+      "w": 0.44,
+      "rot": 4,
+      "at": 7.61,
+      "from": "right",
+      "thr": 40
+     },
+     {
+      "img": "met-54381",
+      "box": [
+       0.1,
+       0.12,
+       0.9,
+       0.98
+      ],
+      "tone": "bw",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "w": 0.34,
+      "rot": -2,
+      "at": 9.03,
+      "from": "down"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 56.36,
+   "t1": 61.56,
+   "note": "the intelligent are employed, the people don't compete: a workshop side by side",
+   "kind": "image",
+   "key": "met-55723",
+   "file": ".work/img/met-55723_full.jpg",
+   "crop": [
+    1455,
+    0,
+    1065,
+    1894
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 61.56,
+   "t1": 65.32,
+   "note": "rare goods in plain view: silk-goods lane",
+   "kind": "image",
+   "key": "aic-196737",
+   "file": ".work/img/aic-196737_full.jpg",
+   "crop": [
+    156,
+    0,
+    1266,
+    2250
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 65.32,
+   "t1": 70.71,
+   "note": "theft and disturbance do not rise: a calm lane of open shops",
+   "kind": "image",
+   "key": "aic-196760",
+   "file": ".work/img/aic-196760_full.jpg",
+   "crop": [
+    121,
+    0,
+    1265,
+    2249
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 70.71,
+   "t1": 78.89,
+   "note": "if you have an ordered government... an ordered country",
+   "kind": "head"
+  },
+  {
+   "t0": 78.89,
+   "t1": 87.78,
+   "note": "an ordered country, a natural sanity: villagers calmly about their business under Fuji",
+   "kind": "image",
+   "key": "met-56384",
+   "file": ".work/img/met-56384_full.jpg",
+   "crop": [
+    1143,
+    0,
+    1439,
+    2558
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 87.78,
+   "t1": 93.08,
+   "note": "breaking in and robbing: a robber making off with a strongbox (Shunsho)",
+   "kind": "image",
+   "key": "met-54590",
+   "file": ".work/img/met-54590_full.jpg",
+   "crop": [
+    0,
+    58,
+    980,
+    1742
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 93.08,
+   "t1": 98.15,
+   "note": "that's not how we do things around here",
+   "kind": "head"
+  },
+  {
+   "t0": 98.15,
+   "t1": 109.45,
+   "note": "collapse, catastrophe; rebuild this country",
+   "kind": "collage",
+   "name": "rebuild",
+   "collage": {
+    "pieces": [
+     {
+      "img": "aic-197414",
+      "box": [
+       0.1,
+       0.05,
+       0.9,
+       0.75
+      ],
+      "tone": "color",
+      "pos": [
+       0.28,
+       0.18
+      ],
+      "w": 0.44,
+      "rot": -4,
+      "at": -0.45,
+      "from": "left"
+     },
+     {
+      "img": "met-55859",
+      "box": [
+       0.44,
+       0.08,
+       0.97,
+       0.95
+      ],
+      "tone": "bw",
+      "pos": [
+       0.7,
+       0.17
+      ],
+      "w": 0.5,
+      "rot": 3,
+      "at": 4.31,
+      "from": "right"
+     },
+     {
+      "img": "aic-24645",
+      "box": [
+       0.05,
+       0.08,
+       0.62,
+       0.8
+      ],
+      "tone": "bw",
+      "pos": [
+       0.3,
+       0.44
+      ],
+      "w": 0.46,
+      "rot": -3,
+      "at": 6.05,
+      "from": "left"
+     },
+     {
+      "img": "met-36506",
+      "box": [
+       0.3,
+       0.02,
+       0.85,
+       0.9
+      ],
+      "tone": "color",
+      "pos": [
+       0.72,
+       0.42
+      ],
+      "w": 0.42,
+      "rot": 4,
+      "at": 8.43,
+      "from": "right"
+     },
+     {
+      "img": "met-55287",
+      "box": [
+       0.55,
+       0.05,
+       0.98,
+       0.75
+      ],
+      "tone": "color",
+      "pos": [
+       0.5,
+       0.53
+      ],
+      "w": 0.36,
+      "rot": -2,
+      "at": 9.37,
+      "from": "down"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 109.45,
+   "t1": 118.91,
+   "note": "child welfare and juvenile justice: children at play",
+   "kind": "image",
+   "key": "cma-1915.110",
+   "file": ".work/img/cma-1915.110_full.jpg",
+   "crop": [
+    2250,
+    0,
+    1541,
+    2739
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 118.91,
+   "t1": 126.13,
+   "note": "off the rails; we can't do that with our own children",
+   "kind": "head"
+  },
+  {
+   "t0": 126.13,
+   "t1": 131.16,
+   "note": "the people who will be taking care of us: a son with his aged parents (Lao Laizi)",
+   "kind": "image",
+   "key": "aic-149892",
+   "file": ".work/img/aic-149892_full.jpg",
+   "crop": [
+    107,
+    660,
+    1282,
+    2280
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 131.16,
+   "t1": 135.03,
+   "note": "sane people within your cohort",
+   "kind": "head"
+  },
+  {
+   "t0": 135.03,
+   "t1": 139.85,
+   "note": "willing to work for the good of the people, the commonweal: villagers hauling a net together",
+   "kind": "image",
+   "key": "met-36486",
+   "file": ".work/img/met-36486_full.jpg",
+   "crop": [
+    516,
+    542,
+    1219,
+    2167
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 139.85,
    "t1": 142.93,
-   "note": "placeholder",
+   "note": "or it's going to come back and bite you",
    "kind": "head"
   }
  ],
@@ -589,7 +1199,7 @@
   {
    "words": [
     {
-     "w": "“*Su",
+     "w": "“Su",
      "s": 28.86,
      "e": 29.1,
      "key": false
@@ -622,7 +1232,7 @@
      "w": "statesman",
      "s": 30.36,
      "e": 30.78,
-     "key": false
+     "key": true
     }
    ],
    "fillers": [],
