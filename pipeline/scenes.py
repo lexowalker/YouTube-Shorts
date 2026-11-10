@@ -133,7 +133,7 @@ def build(slug):
 
     edl = {"slug": slug, "segments": segs, "joins": [round(j, 4) for j in joins], "scenes": scenes, "captions": caps,
            "endcard": {"dur": spec.get("endcard", {}).get("dur", 4.0), "fade_frames": 15},
-           "caption_y": spec.get("caption_y", 0.83)}
+           "caption_y": spec.get("caption_y", 0.73)}
     json.dump(edl, open(os.path.join(wd, "edl.json"), "w"), indent=1, ensure_ascii=False)
     portable = json.loads(json.dumps(edl))
     for s in portable["scenes"]:
@@ -207,7 +207,7 @@ class Composer:
         self.edl, self.scenes = edl, edl["scenes"]
         self.dur = edl["joins"][-1]
         self.ec = edl["endcard"]
-        self.caps = Captions(edl["captions"], edl.get("caption_y", 0.83))
+        self.caps = Captions(edl["captions"], edl.get("caption_y", 0.73))
         self.card = build_endcard(edl)
         self.head = HeadFrames(slug)
         self.cache = {}

@@ -3,10 +3,11 @@
 **File:** `tao-ch3-sage-government.mp4`, 1080×1920 (9:16), 30 fps, H.264 at about 8 Mbps, AAC 48 kHz. Runs 2:30: 2:26 of speech and a 4 s end card.
 **Source:** *Tao Te Ching Chaps. 2 & 3: When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3/28/24* (https://youtu.be/2y4Ih26q-P4, archive.org `arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty`), 23:35–34:34. Head shots are cut from the item's 4K HDR WebM.
 **Release slot:** Chapter 3, Discussion 1 (Mon 9 Nov 2026 in `docs/release-schedule.xlsx`).
+**Status:** approved by the user on 10 Nov 2026 after five rounds; the reference for `docs/collage-style.md`.
 **Style:** the user's brief of 10 Nov 2026: talking head, museum images keyed to the words, three built-up collages, house captions and end card. Built with `pipeline/prog.py`, `head.py`, `scenes.py`, `collage.py`, `hdr.py`, `museum.py`.
 
-## 1. Recommended title
-What If Sages Ran the Government?
+## 1. Title
+Government of Sages (the user's upload title; my recommendation was "What If Sages Ran the Government?")
 
 ## 2. The teaching
 "The government of sages empties the mind and fills the middle, weakens the ambition and strengthens the bones, always keeping the people innocent and passionless." Sages in government would not be full of cleverness, psyops and fear; that behaviour hurts a government's own people. The whole function of government is an environment where people can flourish. Act without contrivance: be straightforward, direct.

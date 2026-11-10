@@ -67,3 +67,48 @@ def is_hdr(path):
     # (csv output can carry a trailing comma: that once made this return False, and three renders went out
     # unconverted and washed out)
     return t.strip().strip(",").strip() in ("arib-std-b67", "smpte2084")
+
+
+def check(slug):
+    """python3 -I pipeline/hdr.py check <slug>
+    Proves the head shots were converted: puts the user's reference of the original, the raw decode and the
+    rendered head master side by side (.work/<slug>/colour_check.jpg) and compares their colourfulness. The raw
+    HLG decode is pale (mean saturation about 0.12 on this set); the original and a correct conversion sit near
+    0.19-0.20. Look at the sheet as well: skin should be warm, the sweater mid grey, the shelves black."""
+    import os, subprocess, sys
+    from PIL import Image
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from common import work_dir, head_source, load_spec, REPO
+    wd = work_dir(slug)
+    src, t0 = head_source(slug)
+    a, b = load_spec(slug)["segments"][0]
+
+    def grab(args, vf):
+        raw = subprocess.run(["ffmpeg", "-v", "error"] + args + ["-frames:v", "1", "-vf", vf, "-f", "rawvideo",
+                              "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+        return np.frombuffer(raw, np.uint8).reshape(960, 540, 3)
+
+    def sat(x):
+        x = x.astype(np.float32) / 255
+        return float(((x.max(-1) - x.min(-1)) / np.maximum(x.max(-1), 1e-6)).mean())
+    t = min(2.5, (b - a) / 2)
+    done = grab(["-ss", f"{t:.2f}", "-i", os.path.join(wd, "head_master.mp4")], "scale=540:960")
+    # the raw decode, cropped roughly where he sits (only for the comparison picture)
+    rawf = grab(["-ss", f"{a + t - t0:.2f}", "-i", src], "crop=1216:2160:1700:0,scale=540:960")
+    ref = Image.open(os.path.join(REPO, "docs", "reference", "head-colour-original.webp")).convert("RGB")
+    ref = np.asarray(ref.crop((455, 0, 1100, 1146)).resize((540, 960)))
+    sheet = Image.fromarray(np.concatenate([ref, rawf, done], 1))
+    out = os.path.join(wd, "colour_check.jpg")
+    sheet.save(out, quality=90)
+    s_ref, s_raw, s_done = sat(ref), sat(rawf), sat(done)
+    print(f"{out}: original (reference) | raw decode | rendered head master")
+    print(f"mean saturation: reference {s_ref:.3f}, raw decode {s_raw:.3f}, rendered {s_done:.3f}")
+    if is_hdr(src) and s_done < s_raw * 1.25:
+        sys.exit("FAIL: the rendered head shots are as pale as the raw HDR decode. The conversion was not applied.")
+    print("OK: the head shots are converted" if is_hdr(src) else "SDR source: nothing to convert")
+
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) == 3 and sys.argv[1] == "check":
+        check(sys.argv[2])
