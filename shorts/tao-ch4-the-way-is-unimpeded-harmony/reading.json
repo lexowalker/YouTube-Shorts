@@ -1,0 +1,106 @@
+{
+ "slug": "tao-ch4-the-way-is-unimpeded-harmony",
+ "chapter": 4,
+ "title": "The Way Is Unimpeded Harmony",
+ "chapter_title": "The Way Is Unimpeded Harmony",
+ "source": {
+  "item": "arredondo-03-31-24-tao-te-ching-chaps-4-5-the-way-is-unimpeded-harmony",
+  "file": "03-31-24-Tao Te Ching Chaps. 4 & 5： The Way is Unimpeded Harmony.mp4",
+  "video_title": "Tao Te Ching Chaps. 4 & 5: The Way is Unimpeded Harmony",
+  "url": "https://archive.org/details/arredondo-03-31-24-tao-te-ching-chaps-4-5-the-way-is-unimpeded-harmony"
+ },
+ "section": [
+  0.0,
+  778.0
+ ],
+ "text": [
+  "The Way is unimpeded harmony;",
+  "its potential may never be fully exploited.",
+  "It is as deep as the source of all things:",
+  "it blunts the edges,",
+  "resolves the complications,",
+  "harmonizes the light,",
+  "assimilates to the world.",
+  "Profoundly still, it seems to be there:",
+  "I don't know whose child it is,",
+  "before the creation of images."
+ ],
+ "take": 2,
+ "start": 623.07,
+ "dur": 38.9,
+ "face_x": 0.5562,
+ "captions": [
+  {
+   "t": 623.82,
+   "text": "The Way is\\Nunimpeded harmony;",
+   "heard": "The way is unimpeded harmony.",
+   "match": 1.0
+  },
+  {
+   "t": 626.87,
+   "text": "its potential may never\\Nbe fully exploited.",
+   "heard": "Its potential may never fully exploited.",
+   "match": 0.97
+  },
+  {
+   "t": 630.81,
+   "text": "It is as deep",
+   "heard": "It is as deep the source of all things.",
+   "match": 0.97
+  },
+  {
+   "t": 631.84,
+   "text": "as the source of all things:",
+   "heard": "It is as deep the source of all things.",
+   "match": 0.97
+  },
+  {
+   "t": 635.65,
+   "text": "it blunts the edges,",
+   "heard": "It blunts the edges.",
+   "match": 1.0
+  },
+  {
+   "t": 639.56,
+   "text": "resolves the\\Ncomplications,",
+   "heard": "Resolve the complications.",
+   "match": 0.98
+  },
+  {
+   "t": 643.13,
+   "text": "harmonizes the light,",
+   "heard": "harmonizes the light,",
+   "match": 1.0
+  },
+  {
+   "t": 646.01,
+   "text": "assimilates to the world.",
+   "heard": "assimilates to the world.",
+   "match": 1.0
+  },
+  {
+   "t": 651.27,
+   "text": "Profoundly still,",
+   "heard": "Profoundly still,",
+   "match": 1.0
+  },
+  {
+   "t": 652.41,
+   "text": "it seems to be there:",
+   "heard": "it seems to be there.",
+   "match": 1.0
+  },
+  {
+   "t": 656.44,
+   "text": "I don't know\\Nwhose child it is,",
+   "heard": "I don't know whose child it is",
+   "match": 1.0
+  },
+  {
+   "t": 658.35,
+   "text": "before the creation\\Nof images.",
+   "heard": "before the creation of images.",
+   "match": 1.0
+  }
+ ]
+}
