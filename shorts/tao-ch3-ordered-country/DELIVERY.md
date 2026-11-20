@@ -3,7 +3,7 @@
 **File:** `tao-ch3-ordered-country.mp4`, 1080×1920 (9:16), 30 fps, H.264, AAC 48 kHz. Runs 2:27: 2:23 of speech and a 4 s end card.
 **Source:** *Tao Te Ching Chaps. 2 & 3: When Everyone Knows Beauty is Beauty, Not Exalting Cleverness 3/28/24* (https://youtu.be/2y4Ih26q-P4, archive.org `arredondo-03-28-24-tao-te-ching-chaps-2-3-when-everyone-knows-beauty-is-beauty`), 35:07–38:23, where he reads Cleary's notes to Chapter 3. Head shots are cut from the item's 4K HDR WebM.
 **Release slot:** Chapter 3, Discussion 2 (Wed 11 Nov 2026 in `docs/release-schedule.xlsx`).
-**Status:** transcript approved by the user on 10 Nov 2026; the video awaits their review.
+**Status:** approved by the user on 20 Nov 2026.
 **Style:** image-and-collage teaching Short (`docs/collage-style.md`), after `shorts/tao-ch3-sage-government/`.
 
 ## 1. Title
