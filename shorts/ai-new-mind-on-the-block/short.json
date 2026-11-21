@@ -141,10 +141,478 @@
   {
    "at": 0,
    "head": true,
-   "note": "placeholder"
+   "note": "There's a new mind on the block"
+  },
+  {
+   "at": {
+    "word": "And",
+    "after": 6.5
+   },
+   "image": {
+    "key": "cma-1985.134.1",
+    "x0": 0.67,
+    "y0": 0.05,
+    "h": 0.95
+   },
+   "note": "scary powerful, outstrip us: dragon bursting from storm cloud"
+  },
+  {
+   "at": {
+    "word": "So",
+    "after": 13.5
+   },
+   "head": true,
+   "note": "how are we going to think about ourselves now?"
+  },
+  {
+   "at": {
+    "seg": 1
+   },
+   "collage": "dominion",
+   "note": "most intelligent thing on the planet, dominion over the birds and the beasts"
+  },
+  {
+   "at": {
+    "word": "How",
+    "after": 26
+   },
+   "head": true,
+   "note": "now that the AIs are as intelligent... people are going to start freaking out"
+  },
+  {
+   "at": {
+    "seg": 2
+   },
+   "image": {
+    "key": "aic-24443",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "not threaten our bodies, not our equals in bodies: sumo wrestlers"
+  },
+  {
+   "at": {
+    "word": "What",
+    "after": 45.5,
+    "lead": 0.5
+   },
+   "head": true,
+   "note": "What will they threaten? Our minds."
+  },
+  {
+   "at": {
+    "seg": 4
+   },
+   "image": {
+    "key": "aic-19169",
+    "x0": 0.0,
+    "y0": 0.0,
+    "h": 0.94
+   },
+   "note": "proud that your species is dominant: haughty hawk"
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 53.8
+   },
+   "image": {
+    "key": "aic-34096",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "your religions are built on that: Kinryuzan temple"
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 57.5
+   },
+   "head": true,
+   "note": "consciousness from mind... a mind more powerful than any human"
+  },
+  {
+   "at": {
+    "word": "and",
+    "after": 67.5
+   },
+   "image": {
+    "key": "aic-24645",
+    "x0": 0.17,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "more powerful than all humans, major freakout: the Great Wave over the boats"
+  },
+  {
+   "at": {
+    "seg": 5
+   },
+   "head": true,
+   "note": "an immediate example... and I can see it"
+  },
+  {
+   "at": {
+    "word": "they're",
+    "after": 82.5
+   },
+   "collage": "relationships",
+   "note": "relationships with these AIs / not let go / treasure"
+  },
+  {
+   "at": {
+    "seg": 6
+   },
+   "image": {
+    "key": "aic-81177",
+    "x0": 0.3,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "exploit people with a power like that: puppet worked by its handler"
+  },
+  {
+   "at": {
+    "seg": 7
+   },
+   "head": true,
+   "note": "The world is in a major transition"
+  },
+  {
+   "at": {
+    "seg": 8
+   },
+   "collage": "both",
+   "note": "very good / very bad / both"
+  },
+  {
+   "at": {
+    "seg": 9
+   },
+   "image": {
+    "key": "cma-2015.472",
+    "x0": 0.2,
+    "y0": 0.42,
+    "h": 0.58
+   },
+   "note": "Dharma, a rebirth of Dharma: Bodhidharma"
+  },
+  {
+   "at": {
+    "word": "because",
+    "after": 115.8
+   },
+   "head": true,
+   "note": "if you don't understand what you are... victim"
+  },
+  {
+   "at": {
+    "seg": 10
+   },
+   "image": {
+    "key": "cma-1921.410.b",
+    "x0": 0.1,
+    "y0": 0.0,
+    "h": 1.0
+   },
+   "note": "not at the center of the universe: full moon over a vast bay, tiny boats"
+  },
+  {
+   "at": {
+    "seg": 12
+   },
+   "head": true,
+   "note": "a little humility, don't you think?"
   }
  ],
- "collages": {},
+ "collages": {
+  "dominion": {
+   "pieces": [
+    {
+     "shape": "disc",
+     "color": "#B8372B",
+     "pos": [
+      0.33,
+      0.14
+     ],
+     "w": 0.52,
+     "at": -0.45,
+     "from": "down"
+    },
+    {
+     "img": "cma-1982.35",
+     "box": [
+      0.08,
+      0.02,
+      0.92,
+      0.55
+     ],
+     "tone": "color",
+     "pos": [
+      0.3,
+      0.2
+     ],
+     "w": 0.52,
+     "rot": -3,
+     "at": -0.3,
+     "from": "left"
+    },
+    {
+     "img": "cma-1969.31",
+     "box": [
+      0.15,
+      0.02,
+      0.72,
+      1.0
+     ],
+     "tone": "bw",
+     "pos": [
+      0.74,
+      0.18
+     ],
+     "w": 0.44,
+     "rot": 4,
+     "at": {
+      "word": "intelligent",
+      "after": 19
+     },
+     "from": "right"
+    },
+    {
+     "img": "aic-60321",
+     "box": [
+      0.1,
+      0.12,
+      1.0,
+      0.72
+     ],
+     "tone": "bw",
+     "pos": [
+      0.52,
+      0.41
+     ],
+     "w": 0.24,
+     "rot": -2,
+     "at": {
+      "word": "dominion",
+      "after": 22.5
+     },
+     "from": "down"
+    },
+    {
+     "img": "aic-19018",
+     "box": [
+      0.3,
+      0.4,
+      0.75,
+      0.85
+     ],
+     "tone": "color",
+     "pos": [
+      0.2,
+      0.5
+     ],
+     "w": 0.34,
+     "rot": -4,
+     "at": {
+      "word": "birds",
+      "after": 23.5
+     },
+     "from": "left"
+    },
+    {
+     "img": "cma-1971.232",
+     "box": [
+      0.0,
+      0.48,
+      0.92,
+      0.92
+     ],
+     "tone": "bw",
+     "pos": [
+      0.79,
+      0.5
+     ],
+     "w": 0.4,
+     "rot": 3,
+     "at": {
+      "word": "beasts.",
+      "after": 24.5,
+      "lead": 0.3
+     },
+     "from": "right"
+    }
+   ]
+  },
+  "relationships": {
+   "pieces": [
+    {
+     "img": "aic-23868",
+     "box": [
+      0.08,
+      0.25,
+      0.65,
+      0.75
+     ],
+     "tone": "bw",
+     "pos": [
+      0.3,
+      0.2
+     ],
+     "w": 0.54,
+     "rot": -4,
+     "at": -0.45,
+     "from": "left"
+    },
+    {
+     "img": "cma-1955.557",
+     "box": [
+      0.2,
+      0.1,
+      0.82,
+      0.94
+     ],
+     "tone": "color",
+     "pos": [
+      0.77,
+      0.21
+     ],
+     "w": 0.38,
+     "rot": 5,
+     "at": {
+      "word": "relationships",
+      "after": 83
+     },
+     "from": "right"
+    },
+    {
+     "img": "aic-22934",
+     "box": [
+      0.05,
+      0.15,
+      1.0,
+      0.85
+     ],
+     "tone": "color",
+     "pos": [
+      0.29,
+      0.49
+     ],
+     "w": 0.5,
+     "rot": 3,
+     "at": {
+      "word": "let",
+      "after": 87
+     },
+     "from": "left"
+    },
+    {
+     "shape": "disc",
+     "color": "#D8A928",
+     "pos": [
+      0.76,
+      0.5
+     ],
+     "w": 0.4,
+     "at": {
+      "word": "treasure",
+      "after": 89.5,
+      "lead": 0.2
+     },
+     "from": "down"
+    },
+    {
+     "img": "cma-1963.513",
+     "box": [
+      0.1,
+      0.25,
+      0.9,
+      0.85
+     ],
+     "tone": "color",
+     "pos": [
+      0.76,
+      0.51
+     ],
+     "w": 0.44,
+     "rot": -4,
+     "at": {
+      "word": "treasure",
+      "after": 89.5
+     },
+     "from": "right"
+    }
+   ]
+  },
+  "both": {
+   "pieces": [
+    {
+     "img": "aic-77320",
+     "box": [
+      0.0,
+      0.0,
+      0.8,
+      0.62
+     ],
+     "tone": "color",
+     "pos": [
+      0.27,
+      0.28
+     ],
+     "w": 0.48,
+     "rot": -3,
+     "at": -0.35,
+     "from": "left"
+    },
+    {
+     "img": "cma-1991.77",
+     "box": [
+      0.1,
+      0.33,
+      0.95,
+      0.93
+     ],
+     "tone": "color",
+     "pos": [
+      0.74,
+      0.3
+     ],
+     "w": 0.45,
+     "rot": 4,
+     "at": {
+      "word": "bad.",
+      "after": 106,
+      "lead": 0.6
+     },
+     "from": "right"
+    },
+    {
+     "img": "cma-1930.189",
+     "box": [
+      0.35,
+      0.15,
+      1.0,
+      0.85
+     ],
+     "tone": "bw",
+     "pos": [
+      0.5,
+      0.52
+     ],
+     "w": 0.6,
+     "rot": -1.5,
+     "at": {
+      "word": "both.",
+      "after": 109.5,
+      "lead": 0.8
+     },
+     "from": "down"
+    }
+   ]
+  }
+ },
  "endcard": {
   "dur": 4.0
  }

@@ -73,8 +73,503 @@
  "scenes": [
   {
    "t0": 0.0,
+   "t1": 6.69,
+   "note": "There's a new mind on the block",
+   "kind": "head"
+  },
+  {
+   "t0": 6.69,
+   "t1": 14.36,
+   "note": "scary powerful, outstrip us: dragon bursting from storm cloud",
+   "kind": "image",
+   "key": "cma-1985.134.1",
+   "file": ".work/img/cma-1985.134.1_full.jpg",
+   "crop": [
+    22548,
+    777,
+    8308,
+    14769
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 14.36,
+   "t1": 17.45,
+   "note": "how are we going to think about ourselves now?",
+   "kind": "head"
+  },
+  {
+   "t0": 17.45,
+   "t1": 26.42,
+   "note": "most intelligent thing on the planet, dominion over the birds and the beasts",
+   "kind": "collage",
+   "name": "dominion",
+   "collage": {
+    "pieces": [
+     {
+      "shape": "disc",
+      "color": "#B8372B",
+      "pos": [
+       0.33,
+       0.14
+      ],
+      "w": 0.52,
+      "at": -0.45,
+      "from": "down"
+     },
+     {
+      "img": "cma-1982.35",
+      "box": [
+       0.08,
+       0.02,
+       0.92,
+       0.55
+      ],
+      "tone": "color",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "w": 0.52,
+      "rot": -3,
+      "at": -0.3,
+      "from": "left"
+     },
+     {
+      "img": "cma-1969.31",
+      "box": [
+       0.15,
+       0.02,
+       0.72,
+       1.0
+      ],
+      "tone": "bw",
+      "pos": [
+       0.74,
+       0.18
+      ],
+      "w": 0.44,
+      "rot": 4,
+      "at": 2.01,
+      "from": "right"
+     },
+     {
+      "img": "aic-60321",
+      "box": [
+       0.1,
+       0.12,
+       1.0,
+       0.72
+      ],
+      "tone": "bw",
+      "pos": [
+       0.52,
+       0.41
+      ],
+      "w": 0.24,
+      "rot": -2,
+      "at": 5.53,
+      "from": "down"
+     },
+     {
+      "img": "aic-19018",
+      "box": [
+       0.3,
+       0.4,
+       0.75,
+       0.85
+      ],
+      "tone": "color",
+      "pos": [
+       0.2,
+       0.5
+      ],
+      "w": 0.34,
+      "rot": -4,
+      "at": 6.49,
+      "from": "left"
+     },
+     {
+      "img": "cma-1971.232",
+      "box": [
+       0.0,
+       0.48,
+       0.92,
+       0.92
+      ],
+      "tone": "bw",
+      "pos": [
+       0.79,
+       0.5
+      ],
+      "w": 0.4,
+      "rot": 3,
+      "at": 7.21,
+      "from": "right"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 26.42,
+   "t1": 37.23,
+   "note": "now that the AIs are as intelligent... people are going to start freaking out",
+   "kind": "head"
+  },
+  {
+   "t0": 37.23,
+   "t1": 45.81,
+   "note": "not threaten our bodies, not our equals in bodies: sumo wrestlers",
+   "kind": "image",
+   "key": "aic-24443",
+   "file": ".work/img/aic-24443_full.jpg",
+   "crop": [
+    208,
+    0,
+    1688,
+    3000
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 45.81,
+   "t1": 49.23,
+   "note": "What will they threaten? Our minds.",
+   "kind": "head"
+  },
+  {
+   "t0": 49.23,
+   "t1": 54.73,
+   "note": "proud that your species is dominant: haughty hawk",
+   "kind": "image",
+   "key": "aic-19169",
+   "file": ".work/img/aic-19169_full.jpg",
+   "crop": [
+    0,
+    0,
+    1586,
+    2820
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 54.73,
+   "t1": 58.1,
+   "note": "your religions are built on that: Kinryuzan temple",
+   "kind": "image",
+   "key": "aic-34096",
+   "file": ".work/img/aic-34096_full.jpg",
+   "crop": [
+    204,
+    0,
+    1688,
+    3000
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 58.1,
+   "t1": 67.76,
+   "note": "consciousness from mind... a mind more powerful than any human",
+   "kind": "head"
+  },
+  {
+   "t0": 67.76,
+   "t1": 76.88,
+   "note": "more powerful than all humans, major freakout: the Great Wave over the boats",
+   "kind": "image",
+   "key": "aic-24645",
+   "file": ".work/img/aic-24645_full.jpg",
+   "crop": [
+    510,
+    0,
+    1156,
+    2056
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 76.88,
+   "t1": 82.83,
+   "note": "an immediate example... and I can see it",
+   "kind": "head"
+  },
+  {
+   "t0": 82.83,
+   "t1": 92.41,
+   "note": "relationships with these AIs / not let go / treasure",
+   "kind": "collage",
+   "name": "relationships",
+   "collage": {
+    "pieces": [
+     {
+      "img": "aic-23868",
+      "box": [
+       0.08,
+       0.25,
+       0.65,
+       0.75
+      ],
+      "tone": "bw",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "w": 0.54,
+      "rot": -4,
+      "at": -0.45,
+      "from": "left"
+     },
+     {
+      "img": "cma-1955.557",
+      "box": [
+       0.2,
+       0.1,
+       0.82,
+       0.94
+      ],
+      "tone": "color",
+      "pos": [
+       0.77,
+       0.21
+      ],
+      "w": 0.38,
+      "rot": 5,
+      "at": 0.71,
+      "from": "right"
+     },
+     {
+      "img": "aic-22934",
+      "box": [
+       0.05,
+       0.15,
+       1.0,
+       0.85
+      ],
+      "tone": "color",
+      "pos": [
+       0.29,
+       0.49
+      ],
+      "w": 0.5,
+      "rot": 3,
+      "at": 4.63,
+      "from": "left"
+     },
+     {
+      "shape": "disc",
+      "color": "#D8A928",
+      "pos": [
+       0.76,
+       0.5
+      ],
+      "w": 0.4,
+      "at": 6.99,
+      "from": "down"
+     },
+     {
+      "img": "cma-1963.513",
+      "box": [
+       0.1,
+       0.25,
+       0.9,
+       0.85
+      ],
+      "tone": "color",
+      "pos": [
+       0.76,
+       0.51
+      ],
+      "w": 0.44,
+      "rot": -4,
+      "at": 7.19,
+      "from": "right"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 92.41,
+   "t1": 96.34,
+   "note": "exploit people with a power like that: puppet worked by its handler",
+   "kind": "image",
+   "key": "aic-81177",
+   "file": ".work/img/aic-81177_full.jpg",
+   "crop": [
+    586,
+    0,
+    1266,
+    2250
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 96.34,
+   "t1": 104.18,
+   "note": "The world is in a major transition",
+   "kind": "head"
+  },
+  {
+   "t0": 104.18,
+   "t1": 111.83,
+   "note": "very good / very bad / both",
+   "kind": "collage",
+   "name": "both",
+   "collage": {
+    "pieces": [
+     {
+      "img": "aic-77320",
+      "box": [
+       0.0,
+       0.0,
+       0.8,
+       0.62
+      ],
+      "tone": "color",
+      "pos": [
+       0.27,
+       0.28
+      ],
+      "w": 0.48,
+      "rot": -3,
+      "at": -0.35,
+      "from": "left"
+     },
+     {
+      "img": "cma-1991.77",
+      "box": [
+       0.1,
+       0.33,
+       0.95,
+       0.93
+      ],
+      "tone": "color",
+      "pos": [
+       0.74,
+       0.3
+      ],
+      "w": 0.45,
+      "rot": 4,
+      "at": 2.66,
+      "from": "right"
+     },
+     {
+      "img": "cma-1930.189",
+      "box": [
+       0.35,
+       0.15,
+       1.0,
+       0.85
+      ],
+      "tone": "bw",
+      "pos": [
+       0.5,
+       0.52
+      ],
+      "w": 0.6,
+      "rot": -1.5,
+      "at": 5.98,
+      "from": "down"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 111.83,
+   "t1": 116.03,
+   "note": "Dharma, a rebirth of Dharma: Bodhidharma",
+   "kind": "image",
+   "key": "cma-2015.472",
+   "file": ".work/img/cma-2015.472_full.jpg",
+   "crop": [
+    1365,
+    5696,
+    4425,
+    7867
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 116.03,
+   "t1": 123.91,
+   "note": "if you don't understand what you are... victim",
+   "kind": "head"
+  },
+  {
+   "t0": 123.91,
+   "t1": 128.83,
+   "note": "not at the center of the universe: full moon over a vast bay, tiny boats",
+   "kind": "image",
+   "key": "cma-1921.410.b",
+   "file": ".work/img/cma-1921.410.b_full.jpg",
+   "crop": [
+    794,
+    0,
+    6281,
+    11166
+   ],
+   "zoom": [
+    1.0,
+    1.035
+   ],
+   "pan": [
+    0,
+    0
+   ]
+  },
+  {
+   "t0": 128.83,
    "t1": 132.33,
-   "note": "placeholder",
+   "note": "a little humility, don't you think?",
    "kind": "head"
   }
  ],
